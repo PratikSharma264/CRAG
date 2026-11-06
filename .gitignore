@@ -1,0 +1,13 @@
+# Python virtual environments
+venv/
+.venv*/
+.venv_chroma_test/
+
+# Environment variables and secrets
+.env
+
+# Local database backups
+vector_db_backup_*/
+clinicalenv/
+.hallmark/
+.pytest_cache/

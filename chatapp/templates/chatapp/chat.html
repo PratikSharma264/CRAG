@@ -1,0 +1,96 @@
+{% extends "chatapp/base.html" %}
+{% load static %}
+
+{% block title %}Chat · Clinical RAG{% endblock %}
+
+{% block extra_css %}
+  <link rel="stylesheet" href="{% static 'chatapp/css/chat.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="workspace">
+
+  <section class="panel chat-panel" aria-labelledby="chat-title">
+    <header class="panel-header">
+      <svg class="icon icon-lg panel-header__icon"><use href="#i-chat"/></svg>
+      <div class="panel-header__text">
+        <h1 class="panel-title" id="chat-title">Ask the Diabetes Knowledge Base</h1>
+        <p class="panel-subtitle">Questions about diabetes in children and adolescents, answered from research abstracts.</p>
+      </div>
+      <form class="chat-clear" method="post" action="{% url 'chatapp:clear_chat' %}"
+            data-confirm="Clear this whole conversation?">
+        {% csrf_token %}
+        <button type="submit" class="btn btn--ghost btn--sm">Clear chat</button>
+      </form>
+    </header>
+
+    <div class="chat-thread" id="chat-thread" role="log" aria-live="polite">
+      <p class="chat-empty" id="chat-empty"{% if chat_messages %} hidden{% endif %}>
+        {% if documents %}
+          Ask a question about diabetes in children and adolescents. Answers come only from the papers in the knowledge base.
+        {% else %}
+          The knowledge base is empty. Add .txt abstracts to the knowledge_base folder and run ingest.py first.
+        {% endif %}
+      </p>
+
+      {% for message in chat_messages %}
+        {% include "chatapp/partials/_chat_message.html" %}
+      {% endfor %}
+    </div>
+
+    <form class="chat-composer" id="chat-form" action="{% url 'chatapp:ask' %}" method="post">
+      {% csrf_token %}
+      <div class="chat-composer__field">
+        <label class="visually-hidden" for="chat-input">Ask a question about diabetes in children and adolescents</label>
+        <input id="chat-input" name="question" type="text" maxlength="1000" required
+               placeholder="Ask a question about diabetes in children and adolescents..." autocomplete="off">
+        <button type="submit" class="chat-composer__send" aria-label="Send question">
+          <svg class="icon icon-sm"><use href="#i-send"/></svg>
+        </button>
+      </div>
+      <p class="chat-disclaimer">Answers come from research abstracts and are not medical advice.</p>
+    </form>
+  </section>
+
+  {% include "chatapp/partials/_kb_panel.html" %}
+
+</div>
+
+{# Blueprints that chat.js clones for new messages #}
+<template id="tpl-user-message">
+  <article class="message message--user">
+    <div class="message__body">
+      <div class="bubble bubble--user" data-text></div>
+      <div class="message__meta">
+        {% include "chatapp/partials/_message_actions.html" with kind="user" %}
+        <time class="message__time" data-time></time>
+      </div>
+    </div>
+    <span class="message__avatar"><svg class="icon"><use href="#i-user"/></svg></span>
+  </article>
+</template>
+
+<template id="tpl-bot-message">
+  <article class="message message--bot">
+    <span class="message__avatar message__avatar--bot"><svg class="icon"><use href="#i-bot"/></svg></span>
+    <div class="message__body">
+      <div class="bubble bubble--bot">
+        <p class="bubble__status" data-status>Searching the knowledge base<span class="dots" aria-hidden="true"></span></p>
+        <div class="bubble__text" data-text hidden></div>
+        <div class="sources" data-sources hidden>
+          <h3 class="sources__title"><svg class="icon icon-sm"><use href="#i-link"/></svg>Sources</h3>
+          <ul class="sources__list"></ul>
+        </div>
+      </div>
+      <div class="message__meta">
+        <time class="message__time" data-time></time>
+        {% include "chatapp/partials/_message_actions.html" with kind="bot" %}
+      </div>
+    </div>
+  </article>
+</template>
+{% endblock %}
+
+{% block extra_js %}
+  <script src="{% static 'chatapp/js/chat.js' %}" defer></script>
+{% endblock %}

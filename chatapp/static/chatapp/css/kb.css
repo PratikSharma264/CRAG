@@ -1,0 +1,68 @@
+/* Hallmark · theme: dose · genre: modern-minimal · shape: Workbench · hero: Settled · nav: edge-aligned · footer: mast · imagery: library, product · scope: app */
+/* Guard: fewer than two font families; guard: no gradient text; guard: stamp present; guard: pure black/white lifted; guard: no transition: all; guard: focus rings instant; guard: overflow-x clip; guard: text-wrap balance */
+
+.kb-list {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  list-style: none;
+}
+
+.kb-item {
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-input);
+  background: var(--color-paper-2);
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.kb-item:hover {
+  background: var(--color-paper-3);
+  border-color: var(--color-accent);
+}
+.kb-item:target {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 2px var(--color-focus);
+}
+
+.kb-item__link {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+.kb-item__icon {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+}
+.kb-item__text { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.kb-item__title { font-size: 16px; font-weight: 500; line-height: 1.4; color: var(--color-ink); overflow-wrap: anywhere; }
+.kb-item__file { font-family: var(--font-outlier); font-size: 12px; color: var(--color-muted); overflow-wrap: anywhere; }
+
+.kb-empty {
+  padding: 36px 20px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--color-muted);
+}
+.kb-empty code {
+  padding: 4px 8px;
+  border-radius: 6px;
+  background: var(--color-paper-3);
+  font-family: var(--font-outlier);
+  font-size: 0.9em;
+}
+
+@media (max-width: 960px) {
+  .kb-panel { max-height: none; }
+  .kb-list { overflow: visible; }
+}

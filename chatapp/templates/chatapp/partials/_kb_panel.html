@@ -1,0 +1,43 @@
+<section class="panel kb-panel" aria-labelledby="kb-title">
+  <header class="panel-header">
+    <svg class="icon icon-lg panel-header__icon"><use href="#i-database"/></svg>
+    <div class="panel-header__text">
+      <h2 class="panel-title" id="kb-title">Knowledge Base</h2>
+      <p class="panel-subtitle">{{ documents|length }} paper{{ documents|length|pluralize }} &middot; read-only</p>
+    </div>
+
+    <button type="button" class="collapse-btn collapse-btn--kb" data-kb-collapse aria-expanded="true"
+            aria-label="Hide knowledge base" title="Hide knowledge base">
+      <svg class="icon"><use href="#i-panel-right"/></svg>
+    </button>
+  </header>
+
+  <ul class="kb-list">
+    {% for doc in documents %}
+      <li class="kb-item" id="doc-{{ doc.slug }}">
+        <a class="kb-item__link" href="{% url 'chatapp:knowledge_base' %}#doc-{{ doc.slug }}">
+          <span class="kb-item__icon"><svg class="icon icon-lg"><use href="#i-file-text"/></svg></span>
+          <span class="kb-item__text">
+            <span class="kb-item__title">{{ doc.stem }}</span>
+            <span class="kb-item__file">{{ doc.filename }}</span>
+          </span>
+        </a>
+      </li>
+    {% empty %}
+      <li class="kb-empty">
+        The knowledge base is empty. Add <code>.txt</code> abstracts to the <code>knowledge_base</code> folder,
+        then run <code>python ingest.py</code>.
+      </li>
+    {% endfor %}
+  </ul>
+
+  {# Shown instead of the header and list when the panel is collapsed #}
+  <div class="kb-rail">
+    <button type="button" class="collapse-btn collapse-btn--kb" data-kb-collapse aria-expanded="true"
+            aria-label="Show knowledge base" title="Show knowledge base">
+      <svg class="icon"><use href="#i-panel-right"/></svg>
+    </button>
+    <span class="kb-rail__count" title="{{ documents|length }} paper{{ documents|length|pluralize }}">{{ documents|length }}</span>
+    <span class="kb-rail__label">Knowledge Base</span>
+  </div>
+</section>
