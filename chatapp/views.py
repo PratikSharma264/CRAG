@@ -116,7 +116,9 @@ def ask_view(request):
 
     original = None
     if message_id:
-        original = get_object_or_404(chat, pk=message_id, role=ChatMessage.Role.USER)
+        original = chat.filter(pk=message_id, role=ChatMessage.Role.USER).first()
+        if not original:
+            return JsonResponse({"error": "Message not found."}, status=404)
         question = question or original.content
 
     if not question:
