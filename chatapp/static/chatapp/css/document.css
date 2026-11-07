@@ -1,0 +1,124 @@
+/* Hallmark · theme: dose · genre: modern-minimal · shape: Workbench · hero: Settled · nav: edge-aligned · footer: mast · imagery: library, product · scope: app */
+/* Guard: fewer than two font families; guard: no gradient text; guard: stamp present; guard: pure black/white lifted; guard: no transition: all; guard: focus rings instant; guard: overflow-x clip; guard: text-wrap balance */
+
+.panel-header__actions {
+  margin-left: auto;
+}
+
+.doc-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  max-height: 100%;
+}
+
+.doc-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 32px 40px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.doc-body {
+  flex: 1;
+}
+
+.doc-text {
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--color-ink);
+  max-width: 72ch;
+  margin: 0 auto;
+  text-wrap: balance;
+}
+
+.doc-text p {
+  margin: 0 0 1.25em;
+}
+
+.doc-text p:last-child {
+  margin-bottom: 0;
+}
+
+.doc-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 24px 40px;
+  border-top: 1px solid var(--color-rule);
+  background: var(--color-paper-2);
+  border-radius: 0 0 var(--radius-card) var(--radius-card);
+  flex-wrap: wrap;
+}
+
+.doc-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+}
+
+.doc-meta__item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.doc-meta__label {
+  font-family: var(--font-outlier);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--color-muted);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.doc-meta__value {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-ink-2);
+}
+
+.doc-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 960px) {
+  .doc-content {
+    padding: 24px 20px 0;
+  }
+
+  .doc-text {
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  .doc-footer {
+    padding: 20px;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .doc-actions {
+    justify-content: flex-start;
+  }
+
+  .doc-actions .btn {
+    flex: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .doc-content {
+    padding: 16px 16px 0;
+  }
+
+  .doc-footer {
+    padding: 16px;
+  }
+}

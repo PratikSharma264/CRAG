@@ -15,4 +15,5 @@ urlpatterns = [
     path("chat/ask/", views.ask_view, name="ask"),
     path("chat/clear/", views.clear_chat_view, name="clear_chat"),
     path("knowledge-base/", views.knowledge_base_view, name="knowledge_base"),
+    path("knowledge-base/doc/<slug:slug>/", views.document_view, name="document"),
 ]

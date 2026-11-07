@@ -1,0 +1,50 @@
+{% extends "chatapp/base.html" %}
+{% load static %}
+
+{% block title %}{{ doc.stem }} · Clinical RAG{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'chatapp/css/document.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="workspace workspace--single">
+  <section class="panel doc-panel" aria-labelledby="doc-title">
+    <header class="panel-header">
+      <svg class="icon icon-lg panel-header__icon"><use href="#i-file-text"/></svg>
+      <div class="panel-header__text">
+        <h2 class="panel-title" id="doc-title">{{ doc.stem }}</h2>
+        <p class="panel-subtitle">Research abstract</p>
+      </div>
+
+      <div class="panel-header__actions">
+        <a class="btn btn--ghost" href="{% url 'chatapp:knowledge_base' %}" aria-label="Back to knowledge base">
+          <svg class="icon"><use href="#i-arrow-left"/></svg>
+          <span>Back</span>
+        </a>
+      </div>
+    </header>
+
+    <div class="doc-content" role="article">
+      <div class="doc-body">
+        <p class="doc-text">{{ doc.content|linebreaks }}</p>
+      </div>
+
+      <footer class="doc-footer">
+        <div class="doc-meta">
+          <span class="doc-meta__item">
+            <span class="doc-meta__label">File</span>
+            <span class="doc-meta__value">{{ doc.filename }}</span>
+          </span>
+        </div>
+        <div class="doc-actions">
+          <a class="btn btn--primary" href="{% url 'chatapp:chat' %}">
+            <svg class="icon"><use href="#i-chat"/></svg>
+            <span>Ask about this</span>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </section>
+</div>
+{% endblock %}

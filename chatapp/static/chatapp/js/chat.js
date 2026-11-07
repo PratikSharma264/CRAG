@@ -48,7 +48,7 @@
   }
 
   function scrollToBottom() {
-    thread.scrollTop = thread.scrollHeight;
+    thread.scrollTo({ top: thread.scrollHeight, behavior: "smooth" });
   }
 
   /* ---------- LaTeX cleanup (models sometimes ignore "no LaTeX") ---------- */

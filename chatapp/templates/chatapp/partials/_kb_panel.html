@@ -15,12 +15,13 @@
   <ul class="kb-list">
     {% for doc in documents %}
       <li class="kb-item" id="doc-{{ doc.slug }}">
-        <a class="kb-item__link" href="{% url 'chatapp:knowledge_base' %}#doc-{{ doc.slug }}">
+        <a class="kb-item__link" href="{% url 'chatapp:document' doc.slug %}">
           <span class="kb-item__icon"><svg class="icon icon-lg"><use href="#i-file-text"/></svg></span>
           <span class="kb-item__text">
             <span class="kb-item__title">{{ doc.stem }}</span>
             <span class="kb-item__file">{{ doc.filename }}</span>
           </span>
+          <svg class="icon icon-sm source__open"><use href="#i-external"/></svg>
         </a>
       </li>
     {% empty %}

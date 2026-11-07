@@ -3,13 +3,13 @@ import logging
 
 from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
-from django.http import JsonResponse, StreamingHttpResponse
+from django.http import FileResponse, Http404, JsonResponse, StreamingHttpResponse
 from django.shortcuts import get_object_or_404, redirect, render
 from django.urls import reverse
 from django.utils.text import slugify
 from django.views.decorators.http import require_POST
 
-from .clinical_rag import pipeline
+from .clinical_rag import config, pipeline
 from .clinical_rag.generation import GenerationError
 from .clinical_rag.knowledge_base import list_documents
 from .clinical_rag.store import KnowledgeBaseNotReady
@@ -22,8 +22,35 @@ MAX_QUESTION_CHARS = 1000
 
 
 def _source_url(source):
-    """Link a source card to its entry on the Knowledge Base page."""
-    return f"{reverse('chatapp:knowledge_base')}#doc-{slugify(source.get('title', ''))}"
+    """Link a source card to its document reading page."""
+    filename = source.get("source", "")
+    stem = filename[:-4] if filename.lower().endswith(".txt") else filename
+    return reverse("chatapp:document", kwargs={"slug": slugify(stem)})
+
+
+@login_required
+def document_view(request, slug):
+    """Render the knowledge base document as a styled reading page."""
+    folder = config.KNOWLEDGE_BASE_PATH
+    if not folder.is_dir():
+        raise Http404("Knowledge base not found")
+
+    for path in folder.glob("*.txt"):
+        if path.is_file() and slugify(path.stem) == slug:
+            content = path.read_text(encoding="utf-8").strip()
+            return render(
+                request,
+                "chatapp/document.html",
+                {
+                    "doc": {
+                        "stem": path.stem,
+                        "filename": path.name,
+                        "slug": slug,
+                        "content": content,
+                    }
+                },
+            )
+    raise Http404("Document not found")
 
 
 # ---------------------------------------------------------------------------

@@ -28,9 +28,10 @@
   background: transparent;
   color: var(--color-muted);
   cursor: pointer;
-  transition: background-color 0.15s ease, color 0.15s ease;
+  transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.15s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.icon-btn:hover { background: var(--color-paper-3); color: var(--color-ink); }
+.icon-btn:hover { background: var(--color-paper-3); color: var(--color-ink); transform: scale(1.05); }
+.icon-btn:active { transform: scale(0.92); }
 .icon-btn.is-copied { color: var(--color-accent); }
 
 .chat-thread.is-busy .icon-btn:not([data-action="copy"]) { opacity: 0.35; pointer-events: none; }
