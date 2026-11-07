@@ -12,7 +12,7 @@
 
   <section class="panel chat-panel" aria-labelledby="chat-title">
     <header class="panel-header">
-      <svg class="icon icon-lg panel-header__icon"><use href="#i-chat"/></svg>
+      <svg class="icon icon-lg panel-header__icon" aria-hidden="true"><use href="#i-chat"/></svg>
       <div class="panel-header__text">
         <h1 class="panel-title" id="chat-title">Ask the Diabetes Knowledge Base</h1>
         <p class="panel-subtitle">Questions about diabetes in children and adolescents, answered from research abstracts.</p>
@@ -43,9 +43,9 @@
       <div class="chat-composer__field">
         <label class="visually-hidden" for="chat-input">Ask a question about diabetes in children and adolescents</label>
         <input id="chat-input" name="question" type="text" maxlength="1000" required
-               placeholder="Ask a question about diabetes in children and adolescents..." autocomplete="off">
+               placeholder="Ask a question about diabetes in children and adolescents&hellip;" autocomplete="off">
         <button type="submit" class="chat-composer__send" aria-label="Send question">
-          <svg class="icon icon-sm"><use href="#i-send"/></svg>
+          <svg class="icon icon-sm" aria-hidden="true"><use href="#i-send"/></svg>
         </button>
       </div>
       <p class="chat-disclaimer">Answers come from research abstracts and are not medical advice.</p>
@@ -66,19 +66,19 @@
         <time class="message__time" data-time></time>
       </div>
     </div>
-    <span class="message__avatar"><svg class="icon"><use href="#i-user"/></svg></span>
+    <span class="message__avatar"><svg class="icon" aria-hidden="true"><use href="#i-user"/></svg></span>
   </article>
 </template>
 
 <template id="tpl-bot-message">
   <article class="message message--bot">
-    <span class="message__avatar message__avatar--bot"><svg class="icon"><use href="#i-bot"/></svg></span>
+    <span class="message__avatar message__avatar--bot"><svg class="icon" aria-hidden="true"><use href="#i-bot"/></svg></span>
     <div class="message__body">
       <div class="bubble bubble--bot">
         <p class="bubble__status" data-status>Searching the knowledge base<span class="dots" aria-hidden="true"></span></p>
         <div class="bubble__text" data-text hidden></div>
         <div class="sources" data-sources hidden>
-          <h3 class="sources__title"><svg class="icon icon-sm"><use href="#i-link"/></svg>Sources</h3>
+          <h2 class="sources__title"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-link"/></svg>Sources</h2>
           <ul class="sources__list"></ul>
         </div>
       </div>

@@ -7,17 +7,17 @@
       <time class="message__time">{{ message.created_at|time:"g:i A" }}</time>
     </div>
   </div>
-  <span class="message__avatar"><svg class="icon"><use href="#i-user"/></svg></span>
+  <span class="message__avatar"><svg class="icon" aria-hidden="true"><use href="#i-user"/></svg></span>
 </article>
 {% else %}
 <article class="message message--bot">
-  <span class="message__avatar message__avatar--bot"><svg class="icon"><use href="#i-bot"/></svg></span>
+  <span class="message__avatar message__avatar--bot"><svg class="icon" aria-hidden="true"><use href="#i-bot"/></svg></span>
   <div class="message__body">
     <div class="bubble bubble--bot">
       <div class="bubble__text" data-markdown>{{ message.content }}</div>
       {% if message.sources %}
         <div class="sources">
-          <h3 class="sources__title"><svg class="icon icon-sm"><use href="#i-link"/></svg>Sources</h3>
+          <h2 class="sources__title"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-link"/></svg>Sources</h2>
           <ul class="sources__list">
             {% for source in message.sources %}
               <li>
@@ -27,7 +27,7 @@
                     <span class="source__title">{{ source.title }}</span>
                     {% if source.meta %}<span class="source__meta">{{ source.meta }}</span>{% endif %}
                   </span>
-                  <svg class="icon icon-sm source__open"><use href="#i-external"/></svg>
+                  <svg class="icon icon-sm source__open" aria-hidden="true"><use href="#i-external"/></svg>
                 </a>
               </li>
             {% endfor %}
@@ -41,4 +41,4 @@
     </div>
   </div>
 </article>
-{% endif %}
+{% endif }

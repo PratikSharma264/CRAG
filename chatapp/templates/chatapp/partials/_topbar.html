@@ -1,6 +1,6 @@
 <header class="topbar">
   <button type="button" class="topbar__menu" aria-label="Open menu" aria-controls="sidebar" data-sidebar-toggle>
-    <svg class="icon"><use href="#i-menu"/></svg>
+    <svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg>
   </button>
 
   <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -11,8 +11,8 @@
 
   <div class="topbar__actions">
     <button type="button" class="theme-toggle" aria-label="Switch to dark mode" aria-pressed="false" data-theme-toggle>
-      <svg class="icon theme-toggle__sun"><use href="#i-sun"/></svg>
-      <svg class="icon theme-toggle__moon"><use href="#i-moon"/></svg>
+      <svg class="icon theme-toggle__sun" aria-hidden="true"><use href="#i-sun"/></svg>
+      <svg class="icon theme-toggle__moon" aria-hidden="true"><use href="#i-moon"/></svg>
     </button>
 
     <span class="topbar__divider" aria-hidden="true"></span>
@@ -20,7 +20,7 @@
     <form action="{% url 'chatapp:logout' %}" method="post">
       {% csrf_token %}
       <button type="submit" class="logout-btn">
-        <svg class="icon"><use href="#i-logout"/></svg>
+        <svg class="icon" aria-hidden="true"><use href="#i-logout"/></svg>
         <span>Logout</span>
       </button>
     </form>

@@ -2,13 +2,13 @@
 /* Guard: fewer than two font families; guard: no gradient text; guard: stamp present; guard: pure black/white lifted; guard: no transition: all; guard: focus rings instant; guard: overflow-x clip; guard: text-wrap balance */
 
 /* ---------- Message meta row and action buttons ---------- */
-.message__meta { display: flex; align-items: center; gap: 8px; min-height: 28px; }
+.message__meta { display: flex; align-items: center; gap: var(--space-2); min-height: 28px; }
 .message--user .message__meta { justify-content: flex-end; }
 
 .message__actions {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: var(--space-1);
   opacity: 0;
   transition: opacity 0.15s ease;
 }
@@ -45,7 +45,7 @@
   width: 100%;
   min-height: 48px;
   max-height: 240px;
-  padding: 12px 16px;
+  padding: var(--space-3) var(--space-4);
   border: 1px solid var(--color-accent);
   border-radius: var(--radius-input);
   background: var(--color-paper);
@@ -60,7 +60,7 @@
   outline: none;
   border-color: var(--color-focus);
 }
-.edit-controls { display: flex; justify-content: flex-end; gap: 8px; margin-top: 8px; }
+.edit-controls { display: flex; justify-content: flex-end; gap: var(--space-2); margin-top: var(--space-2); }
 
 /* ---------- Shared collapse button ---------- */
 .collapse-btn {
@@ -78,15 +78,15 @@
   transition: background-color 0.15s ease, color 0.15s ease;
 }
 .collapse-btn:hover { background: var(--color-paper-3); color: var(--color-ink); }
-.panel-header .collapse-btn { margin-left: 4px; }
+.panel-header .collapse-btn { margin-left: var(--space-1); }
 
 /* ---------- Sidebar top row ---------- */
 .sidebar__top {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
-  margin-bottom: 24px;
+  gap: var(--space-2);
+  margin-bottom: var(--space-6);
 }
 .sidebar__top .brand { min-width: 0; margin-bottom: 0; padding-right: 0; }
 
@@ -96,7 +96,7 @@
   flex: none;
   width: 38px;
   height: 38px;
-  margin-right: 4px;
+  margin-right: var(--space-1);
   padding: 0;
   border: 1px solid var(--color-rule);
   border-radius: var(--radius-input);
@@ -105,7 +105,7 @@
   cursor: pointer;
   transition: background-color 0.15s ease, color 0.15s ease;
 }
-.sidebar-toggle:hover { background: var(--color-paper-3); color: var(--color-ink); }
+.sidebar-toggle:hover { background: var(--color-sidebar-toggle-hover-bg); color: var(--color-sidebar-toggle-hover-ink); }
 
 /* ---------- Knowledge-base panel: collapsed bar ---------- */
 .kb-rail {
@@ -113,15 +113,15 @@
   flex: 1;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
-  padding: 16px 0;
+  gap: var(--space-4);
+  padding: var(--space-4) 0;
 }
 .kb-rail__count {
   display: grid;
   place-items: center;
   min-width: 28px;
   height: 28px;
-  padding: 0 8px;
+  padding: 0 var(--space-2);
   border: 1px solid var(--color-rule);
   border-radius: 14px;
   background: var(--color-paper-2);
@@ -142,15 +142,15 @@
 /* ---------- Desktop collapsed states ---------- */
 @media (min-width: 961px) {
   html[data-sidebar="collapsed"] .app-shell { grid-template-columns: 80px minmax(0, 1fr); }
-  html[data-sidebar="collapsed"] .sidebar { padding-left: 12px; padding-right: 12px; }
-  html[data-sidebar="collapsed"] .sidebar__top { flex-direction: column; gap: 16px; margin-bottom: 24px; }
+  html[data-sidebar="collapsed"] .sidebar { padding-left: var(--space-3); padding-right: var(--space-3); }
+  html[data-sidebar="collapsed"] .sidebar__top { flex-direction: column; gap: var(--space-4); margin-bottom: var(--space-6); }
   html[data-sidebar="collapsed"] .sidebar-toggle { order: -1; margin-right: 0; }
   html[data-sidebar="collapsed"] .brand { justify-content: center; padding: 0; }
   html[data-sidebar="collapsed"] .brand__text,
   html[data-sidebar="collapsed"] .nav__link span,
   html[data-sidebar="collapsed"] .user__name,
   html[data-sidebar="collapsed"] .user__caret { display: none; }
-  html[data-sidebar="collapsed"] .nav__link { justify-content: center; padding: 12px 0; }
+  html[data-sidebar="collapsed"] .nav__link { justify-content: center; padding: var(--space-3) 0; }
   html[data-sidebar="collapsed"] .sidebar__footer { padding-left: 0; padding-right: 0; }
   html[data-sidebar="collapsed"] .user { justify-content: center; }
 
@@ -173,7 +173,7 @@
 .breadcrumb {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: var(--space-2);
   min-width: 0;
   margin-right: auto;
   font-size: 14px;
@@ -191,7 +191,7 @@
 }
 
 .nav__label {
-  margin: 20px 16px 8px;
+  margin: var(--space-5) var(--space-4) var(--space-2);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -199,6 +199,8 @@
   font-size: 12px;
   font-weight: 500;
   color: var(--color-muted);
+  text-transform: none;
+  letter-spacing: 0;
 }
 .nav__link--back { color: var(--color-muted); }
 
@@ -206,12 +208,12 @@
   html[data-sidebar="collapsed"] .nav__label { display: none; }
 }
 @media (max-width: 960px) {
-  .topbar__menu { margin-right: 8px; }
+  .topbar__menu { margin-right: var(--space-2); }
 }
 
 /* ---------- Clinical RAG additions ---------- */
 .chat-disclaimer {
-  margin: 12px 4px 0;
+  margin: var(--space-3) var(--space-1) 0;
   text-align: center;
   font-family: var(--font-outlier);
   font-size: 12px;

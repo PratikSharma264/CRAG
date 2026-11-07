@@ -7,8 +7,8 @@
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  padding: 16px;
+  gap: var(--space-3);
+  padding: var(--space-4);
   list-style: none;
 }
 
@@ -16,13 +16,11 @@
   border: 1px solid var(--color-rule);
   border-radius: var(--radius-input);
   background: var(--color-paper-2);
-  transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .kb-item:hover {
   background: var(--color-paper-3);
   border-color: var(--color-accent);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 14px color-mix(in oklab, var(--color-ink) 4%, transparent);
 }
 .kb-item:active {
   transform: translateY(0) scale(0.99);
@@ -35,8 +33,8 @@
 .kb-item__link {
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 16px;
+  gap: var(--space-4);
+  padding: var(--space-4);
 }
 .kb-item__icon {
   display: grid;
@@ -48,19 +46,19 @@
   background: var(--color-accent-soft);
   color: var(--color-accent);
 }
-.kb-item__text { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.kb-item__text { display: flex; flex-direction: column; gap: var(--space-1); min-width: 0; }
 .kb-item__title { font-size: 16px; font-weight: 500; line-height: 1.4; color: var(--color-ink); overflow-wrap: anywhere; }
 .kb-item__file { font-family: var(--font-outlier); font-size: 12px; color: var(--color-muted); overflow-wrap: anywhere; }
 
 .kb-empty {
-  padding: 36px 20px;
+  padding: var(--space-9) var(--space-5);
   text-align: center;
   font-size: 16px;
   line-height: 1.7;
   color: var(--color-muted);
 }
 .kb-empty code {
-  padding: 4px 8px;
+  padding: var(--space-1) var(--space-2);
   border-radius: 6px;
   background: var(--color-paper-3);
   font-family: var(--font-outlier);

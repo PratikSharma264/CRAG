@@ -2,6 +2,7 @@
 /* Guard: fewer than two font families; guard: no gradient text; guard: stamp present; guard: pure black/white lifted; guard: no transition: all; guard: focus rings instant; guard: overflow-x clip; guard: text-wrap balance */
 
 :root {
+  /* Core palette (OKLCH) */
   --color-paper: oklch(97.6% 0.011 88);
   --color-paper-2: oklch(96.2% 0.012 110);
   --color-paper-3: oklch(93.5% 0.02 130);
@@ -18,6 +19,82 @@
   --color-danger-bg: oklch(94% 0.04 25);
   --color-backdrop: oklch(15% 0.02 170 / 0.5);
 
+  /* Lifted from base.css brand */
+  --color-brand-bg: oklch(35% 0.13 162);
+  --color-brand-border: oklch(28% 0.12 162);
+  --color-brand-ink: oklch(99% 0.006 160);
+  --color-brand-name: oklch(99.5% 0.005 90);
+
+  /* Lifted from base.css nav */
+  --color-nav-hover-bg: oklch(93.5% 0.02 130);
+  --color-nav-hover-ink: oklch(21% 0.025 170);
+  --color-nav-active-bg: oklch(35% 0.13 162);
+  --color-nav-active-ink: oklch(99% 0.006 160);
+  --color-nav-active-shadow: oklch(35% 0.13 162 / 0.4);
+
+  /* Lifted from base.css user/avatar */
+  --color-user-ink: oklch(21% 0.025 170);
+  --color-avatar-bg: oklch(91% 0.035 148);
+  --color-avatar-ink: oklch(35% 0.13 162);
+
+  /* Lifted from base.css sidebar backdrop */
+  --color-sidebar-backdrop: oklch(15% 0.02 170 / 0.5);
+
+  /* Lifted from chat.css */
+  --color-message-avatar-bg: oklch(91% 0.035 148);
+  --color-message-avatar-ink: oklch(35% 0.13 162);
+  --color-composer-send-ink: oklch(99% 0.006 160);
+
+  /* Lifted from site.css landing */
+  --color-landing-bg: oklch(11% 0.008 170);
+  --color-landing-surface: oklch(14% 0.01 168);
+  --color-landing-surface-2: oklch(18% 0.012 165);
+  --color-landing-border: oklch(24% 0.015 165);
+  --color-landing-text: oklch(96% 0.008 170);
+  --color-landing-text-soft: oklch(88% 0.01 168);
+  --color-landing-text-muted: oklch(65% 0.012 165);
+  --color-landing-primary: oklch(68% 0.15 160);
+  --color-landing-primary-hover: oklch(58% 0.14 162);
+  --color-landing-badge-ok-bg: oklch(22% 0.05 160);
+  --color-landing-badge-ok-text: oklch(52% 0.15 160);
+  --color-landing-glow-1: oklch(59% 0.15 160 / 0.30);
+  --color-landing-glow-2: oklch(45% 0.14 162 / 0.22);
+  --color-landing-pattern: oklch(100% 0.005 90 / 0.045);
+  --color-landing-mask: oklch(0% 0.005 170 / 0);
+  --color-landing-btn-ghost-hover-bg: oklch(100% 0.005 90 / 0.06);
+  --color-landing-btn-ghost-hover-ink: oklch(99.5% 0.005 90);
+  --color-landing-eyebrow: oklch(68% 0.15 160);
+  --color-landing-gradient-1: oklch(99.5% 0.005 90);
+  --color-landing-gradient-2: oklch(72% 0.15 160);
+  --color-landing-gradient-3: oklch(43% 0.14 160);
+  --color-landing-mock-bg: oklch(100% 0.005 90 / 0.07);
+  --color-landing-mock-bg-2: oklch(100% 0.005 90 / 0.025);
+  --color-landing-mock-shadow-1: oklch(0% 0.005 170 / 0.55);
+  --color-landing-mock-shadow-2: oklch(35% 0.13 162 / 0.10);
+  --color-landing-mock-bar: oklch(100% 0.005 90 / 0.16);
+  --color-landing-mock-paper: oklch(100% 0.005 90 / 0.03);
+  --color-landing-mock-pdf: oklch(55% 0.2 25 / 0.22);
+  --color-landing-mock-bubble-user-bg: oklch(59% 0.15 160 / 0.32);
+  --color-landing-mock-bubble-user-ink: oklch(99.5% 0.005 90);
+  --color-landing-mock-bubble-bot-bg: oklch(100% 0.005 90 / 0.07);
+  --color-landing-mock-source: oklch(61% 0.15 160);
+  --color-landing-step-bg-1: oklch(100% 0.005 90 / 0.05);
+  --color-landing-step-bg-2: oklch(100% 0.005 90 / 0.015);
+  --color-landing-step-num-bg: oklch(59% 0.15 160 / 0.18);
+  --color-landing-step-num-ink: oklch(61% 0.15 160);
+  --color-landing-cta-bg-1: oklch(59% 0.15 160 / 0.30);
+  --color-landing-cta-bg-2: oklch(100% 0.005 90 / 0.03);
+  --color-landing-footer-hover-bg: oklch(100% 0.005 90 / 0.07);
+  --color-landing-footer-hover-ink: oklch(99.5% 0.005 90);
+
+  /* Lifted from ui.css */
+  --color-sidebar-toggle-hover-bg: oklch(100% 0.005 90 / 0.08);
+  --color-sidebar-toggle-hover-ink: oklch(99.5% 0.005 90);
+
+  /* Lifted from site.css auth */
+  --color-auth-card-shadow: oklch(8% 0.016 170 / 0.1);
+
+  /* Brand scale */
   --p-mon: oklch(85% 0.052 22);
   --p-tue: oklch(87.5% 0.058 64);
   --p-wed: oklch(91.5% 0.064 98);
@@ -27,27 +104,49 @@
   --p-sun: oklch(84% 0.048 322);
 
   --light: oklch(99.4% 0.01 90);
-  --glint: oklch(100% 0 0);
+  --glint: oklch(100% 0.005 90);
 
+  /* Typography */
   --font-display: "Schibsted Grotesk", ui-sans-serif, sans-serif;
   --font-body: "Instrument Sans", ui-sans-serif, sans-serif;
   --font-outlier: "DM Mono", ui-monospace, monospace;
 
+  /* Radius */
   --radius-card: 14px;
   --radius-input: 10px;
   --radius-pill: 999px;
   --rule-hair: 1px;
 
+  /* Shadows */
   --shadow-card: 0 1px 2px oklch(30% 0.015 130 / 0.08), 0 24px 48px -24px oklch(40% 0.04 130 / 0.30);
   --shadow-lift: 0 1px 1px oklch(30% 0.015 130 / 0.10), 8px 18px 28px -14px oklch(36% 0.03 130 / 0.28), 18px 40px 60px -30px oklch(40% 0.04 130 / 0.25);
   --shadow-mark: 0 2px 4px oklch(30% 0.015 130 / 0.12);
   --tracking-display: -0.03em;
   --display-weight: 700;
 
+  /* Layout */
   --container: 1440px;
   --gutter: 64px;
   --sidebar-w: 260px;
   --topbar-h: 64px;
+
+  /* Spacing scale (4px base) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 28px;
+  --space-8: 32px;
+  --space-9: 36px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-14: 56px;
+  --space-16: 64px;
+  --space-18: 72px;
+  --space-20: 80px;
+  --space-24: 96px;
 }
 
 [data-theme="dark"] {
@@ -71,6 +170,81 @@
   --shadow-card: none;
   --shadow-lift: none;
   --shadow-mark: none;
+
+  /* Brand (dark) */
+  --color-brand-bg: oklch(68% 0.15 160);
+  --color-brand-border: oklch(58% 0.14 162);
+  --color-brand-ink: oklch(11% 0.008 170);
+  --color-brand-name: oklch(99.5% 0.005 90);
+
+  /* Nav (dark) */
+  --color-nav-hover-bg: oklch(18% 0.012 165);
+  --color-nav-hover-ink: oklch(96% 0.008 170);
+  --color-nav-active-bg: oklch(68% 0.15 160);
+  --color-nav-active-ink: oklch(11% 0.008 170);
+  --color-nav-active-shadow: oklch(68% 0.15 160 / 0.4);
+
+  /* User/avatar (dark) */
+  --color-user-ink: oklch(96% 0.008 170);
+  --color-avatar-bg: oklch(22% 0.05 160);
+  --color-avatar-ink: oklch(68% 0.15 160);
+
+  /* Sidebar backdrop (dark) */
+  --color-sidebar-backdrop: oklch(5% 0.005 170 / 0.8);
+
+  /* Chat (dark) */
+  --color-message-avatar-bg: oklch(22% 0.05 160);
+  --color-message-avatar-ink: oklch(68% 0.15 160);
+  --color-composer-send-ink: oklch(11% 0.008 170);
+
+  /* Landing (dark - already dark defaults) */
+  --color-landing-bg: oklch(11% 0.008 170);
+  --color-landing-surface: oklch(14% 0.01 168);
+  --color-landing-surface-2: oklch(18% 0.012 165);
+  --color-landing-border: oklch(24% 0.015 165);
+  --color-landing-text: oklch(96% 0.008 170);
+  --color-landing-text-soft: oklch(88% 0.01 168);
+  --color-landing-text-muted: oklch(65% 0.012 165);
+  --color-landing-primary: oklch(68% 0.15 160);
+  --color-landing-primary-hover: oklch(58% 0.14 162);
+  --color-landing-badge-ok-bg: oklch(22% 0.05 160);
+  --color-landing-badge-ok-text: oklch(52% 0.15 160);
+  --color-landing-glow-1: oklch(59% 0.15 160 / 0.30);
+  --color-landing-glow-2: oklch(45% 0.14 162 / 0.22);
+  --color-landing-pattern: oklch(100% 0.005 90 / 0.045);
+  --color-landing-mask: oklch(0% 0.005 170 / 0);
+  --color-landing-btn-ghost-hover-bg: oklch(100% 0.005 90 / 0.06);
+  --color-landing-btn-ghost-hover-ink: oklch(99.5% 0.005 90);
+  --color-landing-eyebrow: oklch(68% 0.15 160);
+  --color-landing-gradient-1: oklch(99.5% 0.005 90);
+  --color-landing-gradient-2: oklch(72% 0.15 160);
+  --color-landing-gradient-3: oklch(43% 0.14 160);
+  --color-landing-mock-bg: oklch(100% 0.005 90 / 0.07);
+  --color-landing-mock-bg-2: oklch(100% 0.005 90 / 0.025);
+  --color-landing-mock-shadow-1: oklch(0% 0.005 170 / 0.55);
+  --color-landing-mock-shadow-2: oklch(35% 0.13 162 / 0.10);
+  --color-landing-mock-bar: oklch(100% 0.005 90 / 0.16);
+  --color-landing-mock-paper: oklch(100% 0.005 90 / 0.03);
+  --color-landing-mock-pdf: oklch(55% 0.2 25 / 0.22);
+  --color-landing-mock-bubble-user-bg: oklch(59% 0.15 160 / 0.32);
+  --color-landing-mock-bubble-user-ink: oklch(99.5% 0.005 90);
+  --color-landing-mock-bubble-bot-bg: oklch(100% 0.005 90 / 0.07);
+  --color-landing-mock-source: oklch(61% 0.15 160);
+  --color-landing-step-bg-1: oklch(100% 0.005 90 / 0.05);
+  --color-landing-step-bg-2: oklch(100% 0.005 90 / 0.015);
+  --color-landing-step-num-bg: oklch(59% 0.15 160 / 0.18);
+  --color-landing-step-num-ink: oklch(61% 0.15 160);
+  --color-landing-cta-bg-1: oklch(59% 0.15 160 / 0.30);
+  --color-landing-cta-bg-2: oklch(100% 0.005 90 / 0.03);
+  --color-landing-footer-hover-bg: oklch(100% 0.005 90 / 0.07);
+  --color-landing-footer-hover-ink: oklch(99.5% 0.005 90);
+
+  /* UI (dark) */
+  --color-sidebar-toggle-hover-bg: oklch(100% 0.005 90 / 0.08);
+  --color-sidebar-toggle-hover-ink: oklch(99.5% 0.005 90);
+
+  /* Auth (dark) */
+  --color-auth-card-shadow: oklch(0% 0.005 170 / 0.3);
 }
 
 ::selection { background: var(--color-accent-soft); color: var(--color-ink); }

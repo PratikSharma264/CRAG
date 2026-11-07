@@ -7,19 +7,19 @@
 <header class="landing-nav">
   <div class="landing-nav__inner">
     <a class="site-brand" href="{% url 'chatapp:landing' %}">
-      <span class="brand__mark"><svg class="icon icon-lg"><use href="#i-activity"/></svg></span>
+      <span class="brand__mark"><svg class="icon icon-lg" aria-hidden="true"><use href="#i-activity"/></svg></span>
       <span class="site-brand__name">Clinical RAG</span>
     </a>
 
     <nav class="landing-nav__links" aria-label="Main">
       <a class="landing-link" href="https://github.com/sem7-clinical-guideline-RAG-project/CRAG" target="_blank" rel="noopener noreferrer">
-        <svg class="icon icon-sm"><use href="#i-github"/></svg><span>GitHub</span>
+        <svg class="icon icon-sm" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span>
       </a>
       <a class="landing-link" href="{% url 'login' %}">Sign in</a>
       <a class="btn btn--primary btn--sm" href="{% url 'chatapp:register' %}">Start asking</a>
       <button type="button" class="theme-toggle" aria-label="Switch theme" aria-pressed="false" data-theme-toggle>
-        <svg class="icon theme-toggle__sun"><use href="#i-sun"/></svg>
-        <svg class="icon theme-toggle__moon"><use href="#i-moon"/></svg>
+        <svg class="icon theme-toggle__sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        <svg class="icon theme-toggle__moon" aria-hidden="true"><use href="#i-moon"/></svg>
       </button>
     </nav>
   </div>
@@ -35,11 +35,10 @@
       <h1 class="faq-hero__title">Ask the research.</h1>
       <p class="faq-hero__lead">
         A clinical Q&A grounded in peer-reviewed abstracts on pediatric diabetes.
-        Every answer cites its sources.
       </p>
       <div class="faq-hero__actions">
         <a class="btn btn--primary btn--lg" href="{% url 'chatapp:register' %}">
-          <span>Start asking</span><svg class="icon icon-sm"><use href="#i-arrow-right"/></svg>
+          <span>Start asking</span><svg class="icon icon-sm" aria-hidden="true"><use href="#i-arrow-right"/></svg>
         </a>
         <a class="btn btn--ghost btn--lg" href="{% url 'login' %}">Sign in</a>
       </div>
@@ -55,9 +54,9 @@
       <details class="faq-pair" open>
         <summary class="faq-question"><h2>What can I ask it?</h2></summary>
         <div class="faq-answer">
-          <p>Anything about diabetes in children and adolescents — in clinical language, the way you'd ask a colleague. The system searches a curated knowledge base of peer-reviewed abstracts and answers using only what the evidence supports.</p>
+          <p>Anything about diabetes in children and adolescents, in clinical language, the way you'd ask a colleague. The system searches a curated knowledge base of peer-reviewed abstracts and answers using only what the evidence supports.</p>
 
-          {# Product mock — the star #}
+          {# Product mock: the star #}
           <div class="mock" aria-hidden="true">
             <div class="mock__bar"><span></span><span></span><span></span><em class="mock__tag">Example</em></div>
             <div class="mock__body">
@@ -80,7 +79,7 @@
                 <p class="mock-bubble mock-bubble--user">Does CGM improve HbA1c in adolescents with T1D?</p>
                 <div class="mock-bubble mock-bubble--bot">
                   <p>In the retrieved abstract, CGM use was associated with a significant HbA1c reduction of 0.4% over 6 months compared with traditional blood glucose monitoring.</p>
-                  <span class="mock-source"><svg class="icon icon-sm"><use href="#i-link"/></svg>CGM in adolescents with type 1 diabetes · Chunk 1</span>
+                  <span class="mock-source"><svg class="icon icon-sm" aria-hidden="true"><use href="#i-link"/></svg>CGM in adolescents with type 1 diabetes · Chunk 1</span>
                 </div>
               </div>
             </div>
@@ -94,7 +93,7 @@
       <details class="faq-pair">
         <summary class="faq-question"><h2>How does it find the answer?</h2></summary>
         <div class="faq-answer">
-          <p>Your question is encoded with <strong>MedCPT</strong>, a biomedical retrieval model trained on PubMed — not general web text. It finds the most relevant passages in the knowledge base, then a language model synthesizes them into a grounded answer. Every passage used is cited.</p>
+          <p>Your question is encoded with <strong>MedCPT</strong>, a biomedical retrieval model trained on PubMed, not general web text. It finds the most relevant passages in the knowledge base, then a language model synthesizes them into a grounded answer. Every passage used is cited.</p>
         </div>
       </details>
 
@@ -104,10 +103,10 @@
       <details class="faq-pair">
         <summary class="faq-question"><h2>Where do the sources come from?</h2></summary>
         <div class="faq-answer">
-          <p>A curated collection of peer-reviewed abstracts on pediatric diabetes — covering CGM, insulin pump therapy, DKA prevention, glycemic targets, psychosocial outcomes, and technology adoption. You can browse the entire knowledge base yourself.</p>
+          <p>A curated collection of peer-reviewed abstracts on pediatric diabetes, covering CGM, insulin pump therapy, DKA prevention, glycemic targets, psychosocial outcomes, and technology adoption. You can browse the entire knowledge base yourself.</p>
           <div class="faq-answer__action">
             <a class="btn btn--outline" href="{% url 'chatapp:knowledge_base' %}">
-              <svg class="icon icon-sm"><use href="#i-database"/></svg><span>Browse knowledge base</span>
+              <svg class="icon icon-sm" aria-hidden="true"><use href="#i-database"/></svg><span>Browse knowledge base</span>
             </a>
           </div>
         </div>
@@ -119,7 +118,7 @@
       <details class="faq-pair">
         <summary class="faq-question"><h2>What if there's no evidence?</h2></summary>
         <div class="faq-answer">
-          <p>The system says so. If the knowledge base doesn't cover your question, it refuses to answer rather than guess. No hallucinations, no fabricated citations. What you see is exactly what the evidence supports — nothing more.</p>
+          <p>The system says so. If the knowledge base doesn't cover your question, it refuses to answer rather than guess. No hallucinations, no fabricated citations. What you see is exactly what the evidence supports, nothing more.</p>
         </div>
       </details>
 
@@ -132,7 +131,7 @@
       <h2 class="faq-close__title">Ask your first question</h2>
       <p class="faq-close__lead">Create an account with just a username and password. No institutional affiliation required.</p>
       <a class="btn btn--primary btn--lg" href="{% url 'chatapp:register' %}">
-        <span>Get started</span><svg class="icon icon-sm"><use href="#i-arrow-right"/></svg>
+        <span>Get started</span><svg class="icon icon-sm" aria-hidden="true"><use href="#i-arrow-right"/></svg>
       </a>
     </div>
   </section>
@@ -146,7 +145,7 @@
     </p>
     <div class="landing-footer__links">
       <a href="https://github.com/sem7-clinical-guideline-RAG-project/CRAG" target="_blank" rel="noopener noreferrer">
-        <svg class="icon icon-sm"><use href="#i-github"/></svg><span>GitHub</span>
+        <svg class="icon icon-sm" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span>
       </a>
     </div>
   </div>

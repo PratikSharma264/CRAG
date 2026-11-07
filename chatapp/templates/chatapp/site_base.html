@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Clinical RAG — a Django chat app for diabetes research Q&A grounded in peer-reviewed abstracts.">
   <title>{% block title %}Clinical RAG{% endblock %}</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,21 +26,21 @@
   <header class="site-nav">
     <div class="site-nav__inner">
       <a class="site-brand" href="{% if user.is_authenticated %}{% url 'chatapp:chat' %}{% else %}{% url 'chatapp:landing' %}{% endif %}">
-        <span class="brand__mark"><svg class="icon icon-lg"><use href="#i-activity"/></svg></span>
+        <span class="brand__mark"><svg class="icon icon-lg" aria-hidden="true"><use href="#i-activity"/></svg></span>
         <span class="site-brand__name">Clinical RAG</span>
       </a>
 
       <div class="site-nav__actions">
         <button type="button" class="theme-toggle" aria-label="Switch to dark mode" aria-pressed="false" data-theme-toggle>
-          <svg class="icon theme-toggle__sun"><use href="#i-sun"/></svg>
-          <svg class="icon theme-toggle__moon"><use href="#i-moon"/></svg>
+          <svg class="icon theme-toggle__sun" aria-hidden="true"><use href="#i-sun"/></svg>
+          <svg class="icon theme-toggle__moon" aria-hidden="true"><use href="#i-moon"/></svg>
         </button>
 
         {% if user.is_authenticated %}
           <form method="post" action="{% url 'chatapp:logout' %}">
             {% csrf_token %}
             <button type="submit" class="logout-btn">
-              <svg class="icon"><use href="#i-logout"/></svg>
+              <svg class="icon" aria-hidden="true"><use href="#i-logout"/></svg>
               <span>Logout</span>
             </button>
           </form>
