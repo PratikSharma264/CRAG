@@ -16,7 +16,7 @@
         <svg class="icon icon-sm"><use href="#i-github"/></svg><span>GitHub</span>
       </a>
       <a class="landing-link" href="{% url 'login' %}">Sign in</a>
-      <a class="btn btn--primary btn--sm" href="{% url 'chatapp:register' %}">Get started</a>
+      <a class="btn btn--primary btn--sm" href="{% url 'chatapp:register' %}">Start asking</a>
       <button type="button" class="theme-toggle" aria-label="Switch theme" aria-pressed="false" data-theme-toggle>
         <svg class="icon theme-toggle__sun"><use href="#i-sun"/></svg>
         <svg class="icon theme-toggle__moon"><use href="#i-moon"/></svg>
@@ -27,130 +27,116 @@
 {% endblock %}
 
 {% block content %}
-<main>
-  <section class="hero">
-    <p class="eyebrow">Clinical research Q&A</p>
-    <h1 class="hero__title">
-      Diabetes in children and adolescents.<br>
-      Answers grounded in the research.
-    </h1>
-    <p class="hero__lead">
-      Clinical RAG searches a curated knowledge base of peer-reviewed abstracts on pediatric diabetes,
-      then answers your clinical question using only what the evidence supports. Every answer cites its sources.
-    </p>
-    <div class="hero__actions">
+<main class="faq-page">
+
+  {# ── Hero: short, one line, the action ── #}
+  <section class="faq-hero">
+    <div class="faq-hero__inner">
+      <h1 class="faq-hero__title">Ask the research.</h1>
+      <p class="faq-hero__lead">
+        A clinical Q&A grounded in peer-reviewed abstracts on pediatric diabetes.
+        Every answer cites its sources.
+      </p>
+      <div class="faq-hero__actions">
+        <a class="btn btn--primary btn--lg" href="{% url 'chatapp:register' %}">
+          <span>Start asking</span><svg class="icon icon-sm"><use href="#i-arrow-right"/></svg>
+        </a>
+        <a class="btn btn--ghost btn--lg" href="{% url 'login' %}">Sign in</a>
+      </div>
+      <p class="faq-hero__note">For research and education. Not a substitute for medical advice.</p>
+    </div>
+  </section>
+
+  {# ── Q&A pairs ── #}
+  <section class="faq-section">
+    <div class="faq-container">
+
+      {# Q1: The chat showcase #}
+      <details class="faq-pair" open>
+        <summary class="faq-question"><h2>What can I ask it?</h2></summary>
+        <div class="faq-answer">
+          <p>Anything about diabetes in children and adolescents — in clinical language, the way you'd ask a colleague. The system searches a curated knowledge base of peer-reviewed abstracts and answers using only what the evidence supports.</p>
+
+          {# Product mock — the star #}
+          <div class="mock" aria-hidden="true">
+            <div class="mock__bar"><span></span><span></span><span></span><em class="mock__tag">Example</em></div>
+            <div class="mock__body">
+              <div class="mock__papers">
+                <p class="mock__heading">Knowledge base</p>
+                <div class="mock__paper">
+                  <span class="mock__pdf"></span>
+                  <span><strong>CGM in adolescents with type 1 diabetes</strong><em>Diabetes Care · 2024</em></span>
+                </div>
+                <div class="mock__paper">
+                  <span class="mock__pdf"></span>
+                  <span><strong>Insulin pump therapy outcomes in children</strong><em>Pediatr Diabetes · 2023</em></span>
+                </div>
+                <div class="mock__paper">
+                  <span class="mock__pdf"></span>
+                  <span><strong>Diabetic ketoacidosis trends in youth</strong><em>JAMA Pediatr · 2024</em></span>
+                </div>
+              </div>
+              <div class="mock__chat">
+                <p class="mock-bubble mock-bubble--user">Does CGM improve HbA1c in adolescents with T1D?</p>
+                <div class="mock-bubble mock-bubble--bot">
+                  <p>In the retrieved abstract, CGM use was associated with a significant HbA1c reduction of 0.4% over 6 months compared with traditional blood glucose monitoring.</p>
+                  <span class="mock-source"><svg class="icon icon-sm"><use href="#i-link"/></svg>CGM in adolescents with type 1 diabetes · Chunk 1</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      <hr class="faq-rule" aria-hidden="true">
+
+      {# Q2: How retrieval works #}
+      <details class="faq-pair">
+        <summary class="faq-question"><h2>How does it find the answer?</h2></summary>
+        <div class="faq-answer">
+          <p>Your question is encoded with <strong>MedCPT</strong>, a biomedical retrieval model trained on PubMed — not general web text. It finds the most relevant passages in the knowledge base, then a language model synthesizes them into a grounded answer. Every passage used is cited.</p>
+        </div>
+      </details>
+
+      <hr class="faq-rule" aria-hidden="true">
+
+      {# Q3: Sources & KB #}
+      <details class="faq-pair">
+        <summary class="faq-question"><h2>Where do the sources come from?</h2></summary>
+        <div class="faq-answer">
+          <p>A curated collection of peer-reviewed abstracts on pediatric diabetes — covering CGM, insulin pump therapy, DKA prevention, glycemic targets, psychosocial outcomes, and technology adoption. You can browse the entire knowledge base yourself.</p>
+          <div class="faq-answer__action">
+            <a class="btn btn--outline" href="{% url 'chatapp:knowledge_base' %}">
+              <svg class="icon icon-sm"><use href="#i-database"/></svg><span>Browse knowledge base</span>
+            </a>
+          </div>
+        </div>
+      </details>
+
+      <hr class="faq-rule" aria-hidden="true">
+
+      {# Q4: Trust signal #}
+      <details class="faq-pair">
+        <summary class="faq-question"><h2>What if there's no evidence?</h2></summary>
+        <div class="faq-answer">
+          <p>The system says so. If the knowledge base doesn't cover your question, it refuses to answer rather than guess. No hallucinations, no fabricated citations. What you see is exactly what the evidence supports — nothing more.</p>
+        </div>
+      </details>
+
+    </div>
+  </section>
+
+  {# ── Close: the action again, one line ── #}
+  <section class="faq-close">
+    <div class="faq-close__inner">
+      <h2 class="faq-close__title">Ask your first question</h2>
+      <p class="faq-close__lead">Create an account with just a username and password. No institutional affiliation required.</p>
       <a class="btn btn--primary btn--lg" href="{% url 'chatapp:register' %}">
-        <span>Start asking</span><svg class="icon icon-sm"><use href="#i-arrow-right"/></svg>
+        <span>Get started</span><svg class="icon icon-sm"><use href="#i-arrow-right"/></svg>
       </a>
-      <a class="btn btn--ghost btn--lg" href="{% url 'login' %}">Sign in</a>
-    </div>
-    <p class="hero__note">For research and education. Not a substitute for medical advice.</p>
-
-    {# Product preview — interactive mock #}
-    <div class="mock" aria-hidden="true">
-      <div class="mock__bar"><span></span><span></span><span></span><em class="mock__tag">Example</em></div>
-      <div class="mock__body">
-        <div class="mock__papers">
-          <p class="mock__heading">Knowledge base</p>
-          <div class="mock__paper">
-            <span class="mock__pdf"></span>
-            <span><strong>CGM in adolescents with type 1 diabetes</strong><em>Diabetes Care · 2024</em></span>
-          </div>
-          <div class="mock__paper">
-            <span class="mock__pdf"></span>
-            <span><strong>Insulin pump therapy outcomes in children</strong><em>Pediatr Diabetes · 2023</em></span>
-          </div>
-          <div class="mock__paper">
-            <span class="mock__pdf"></span>
-            <span><strong>Diabetic ketoacidosis trends in youth</strong><em>JAMA Pediatr · 2024</em></span>
-          </div>
-        </div>
-        <div class="mock__chat">
-          <p class="mock-bubble mock-bubble--user">Does CGM improve HbA1c in adolescents with T1D?</p>
-          <div class="mock-bubble mock-bubble--bot">
-            <p>In the retrieved abstract, CGM use was associated with a significant HbA1c reduction of 0.4% over 6 months compared with traditional blood glucose monitoring.</p>
-            <span class="mock-source"><svg class="icon icon-sm"><use href="#i-link"/></svg>CGM in adolescents with type 1 diabetes · Chunk 1</span>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
-  <section class="section section--band">
-    <div class="band">
-      <p class="eyebrow">How it works</p>
-      <h2 class="section__title">From clinical question to cited evidence</h2>
-      <div class="steps">
-        <article class="step">
-          <span class="step__num">1</span>
-          <h3>Ask in clinical language</h3>
-          <p>Type a question like you'd ask a colleague: "What's the evidence for CGM in adolescents with T1D?"</p>
-        </article>
-        <article class="step">
-          <span class="step__num">2</span>
-          <h3>Retrieve with MedCPT</h3>
-          <p>A biomedical retrieval model built for scientific text finds the most relevant passages in the knowledge base.</p>
-        </article>
-        <article class="step">
-          <span class="step__num">3</span>
-          <h3>Read a grounded answer</h3>
-          <p>The answer is synthesized from retrieved passages only. If evidence is missing, the app says so — no hallucinations.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section--evidence">
-    <p class="eyebrow">Why it matters</p>
-    <h2 class="section__title">Built for evidence-based practice</h2>
-    <div class="evidence-grid">
-      <article class="evidence-card">
-        <span class="evidence-icon"><svg class="icon"><use href="#i-activity"/></svg></span>
-        <h3>Biomedical retrieval</h3>
-        <p>Questions and abstracts matched with MedCPT encoders — a model trained on PubMed, not general web text.</p>
-      </article>
-      <article class="evidence-card">
-        <span class="evidence-icon"><svg class="icon"><use href="#i-link"/></svg></span>
-        <h3>Sources on every answer</h3>
-        <p>Each response lists the abstracts and passages used, with a direct link to the knowledge base entry.</p>
-      </article>
-      <article class="evidence-card">
-        <span class="evidence-icon"><svg class="icon"><use href="#i-database"/></svg></span>
-        <h3>Transparent knowledge base</h3>
-        <p>Browse every paper the system can draw from. Read-only — what you see is exactly what answers are based on.</p>
-      </article>
-      <article class="evidence-card">
-        <span class="evidence-icon"><svg class="icon"><use href="#i-shield"/></svg></span>
-        <h3>No fabrication</h3>
-        <p>If the knowledge base doesn't cover your question, the system refuses to answer rather than guess.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="section section--scope">
-    <div class="scope-card">
-      <p class="eyebrow">Current scope</p>
-      <h2 class="section__title">Focused on pediatric diabetes</h2>
-      <p class="scope-desc">The knowledge base currently covers research on type 1 and type 2 diabetes in children and adolescents — including CGM, insulin pump therapy, DKA prevention, glycemic targets, and psychosocial outcomes.</p>
-      <ul class="scope-list">
-        <li><svg class="icon icon-sm"><use href="#i-check"/></svg>Continuous glucose monitoring (CGM)</li>
-        <li><svg class="icon icon-sm"><use href="#i-check"/></svg>Insulin pump therapy</li>
-        <li><svg class="icon icon-sm"><use href="#i-check"/></svg>Diabetic ketoacidosis (DKA)</li>
-        <li><svg class="icon icon-sm"><use href="#i-check"/></svg>Glycemic targets & HbA1c</li>
-        <li><svg class="icon icon-sm"><use href="#i-check"/></svg>Psychosocial & quality of life</li>
-        <li><svg class="icon icon-sm"><use href="#i-check"/></svg>Technology adoption & adherence</li>
-      </ul>
-      <a class="btn btn--outline btn--lg" href="{% url 'chatapp:knowledge_base' %}">Browse knowledge base</a>
-    </div>
-  </section>
-
-  <section class="cta">
-    <h2>Ask your first question</h2>
-    <p>Create an account with just a username and password. No institutional affiliation required.</p>
-    <a class="btn btn--primary btn--lg" href="{% url 'chatapp:register' %}">
-      <span>Get started</span><svg class="icon icon-sm"><use href="#i-arrow-right"/></svg>
-    </a>
-  </section>
 </main>
 
 <footer class="landing-footer">
