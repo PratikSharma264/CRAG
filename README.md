@@ -91,6 +91,8 @@ python-dotenv
 
 ```env
 GROQ_API_KEY = "gsk_..."
+GEMINI_API_KEY = "...."
+GEMINI_MODEL = "..."
 ```
 
 - Stores the Groq API key outside source code.
