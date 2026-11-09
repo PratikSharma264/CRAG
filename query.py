@@ -17,6 +17,7 @@ import requests
 import json
 from dotenv import load_dotenv
 import os
+from sufficiency_judge.llm_judge import judge_sufficiency
 # ==========================================
 # CONFIGURATION
 # ==========================================
@@ -249,6 +250,28 @@ if __name__ == "__main__":
         print("-" * 60)
         answer = generate_rag_response(question, results, GROQ_API_KEY)
         print(answer)
+
+        # Evaluate the generated answer against the retrieved evidence.
+        print("\nSUFFICIENCY JUDGEMENT:")
+        print("-" * 60)
+        knowledge_context = [
+            {"source": meta.get("source", "N/A"), "content": doc}
+            for meta, doc in zip(
+                results["metadatas"][0],
+                results["documents"][0],
+            )
+        ]
+        try:
+            judgement = judge_sufficiency(
+                question,
+                answer,
+                knowledge_context=knowledge_context,
+            )
+            print(f"Result: {judgement['gemini_judgement']}")
+            print(f"Reason: {judgement['gemini_reason']}")
+        except Exception as error:
+            print(f"Judge unavailable: {error}")
+
         print("=" * 60)
         print("Sorce_Files:")
         print(display_source_files(results))
