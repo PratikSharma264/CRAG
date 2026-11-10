@@ -81,6 +81,12 @@ numpy
 matplotlib
 requests
 python-dotenv
+pytest
+google-genai
+pandas
+scikit-learn
+accelerate
+
 ```
 
 > **Design Decision:** The requirements file lists only top-level direct dependencies (7 packages) rather than the full `pip freeze` output (~100 transitive packages). This keeps the file readable and lets `pip` resolve compatible transitive versions at install time.
@@ -960,6 +966,12 @@ f:\testchunking\
 |   +-- Advancing Diabetes Management in Adolescents...txt
 |   +-- ... (42 more .txt files)
 |   +-- Youth Involvement in the Decision to Start CGM...txt
+|
++-- sufficiency_judge/                # Model: A model driven LLM Sufficiency Judge that takes the knowledge_base and the dataset_A for delivering it's judgement.
+|    +--dataset_A
+|    +--dataset_loader.py
+|    +--llm_judge.py
+|    +--prompt_builder.py
 |
 +-- vector_db/                        # Output: ChromaDB persistent storage
 |   +-- chroma.sqlite3                # SQLite database (~936 KB)
