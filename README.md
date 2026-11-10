@@ -36,6 +36,7 @@ This project implements a **domain-specific Retrieval-Augmented Generation (RAG)
 | **Environment Management** | `python-dotenv` | Latest | Loads API keys from `.env` file |
 | **LLM API** | Groq (OpenAI-compatible) | REST API | Generates natural-language answers (GPT-OSS-20B) |
 | **Distance Metric** | Cosine Similarity | — | HNSW space configuration in ChromaDB |
+| **Judge LLM** | `gemini-3.5-flash-lite` | Latest | LLM Sufficiency Judge |
 
 ---
 
