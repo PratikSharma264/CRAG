@@ -125,6 +125,7 @@ class _ModelCSingleton:
 
         logger.info(f"  Model C loaded on {self.device}")
         logger.info(f"  Max length: {self.max_length}")
+        _, LABEL_MAP = _get_formatter()
         logger.info(f"  Label mapping: {LABEL_MAP}")
 
     def predict_proba(self, question: str, passage_1: str) -> float:
