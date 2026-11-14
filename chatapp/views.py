@@ -13,6 +13,7 @@ from .clinical_rag import config, pipeline
 from .clinical_rag.generation import GenerationError
 from .clinical_rag.knowledge_base import list_documents
 from .clinical_rag.store import KnowledgeBaseNotReady
+from .clinical_rag.sufficiency import SufficiencyError
 from .forms import RegisterForm
 from .models import ChatMessage
 
@@ -143,6 +144,8 @@ def ask_view(request):
         yield json.dumps({"type": "saved", "user_message_id": user_message.id}) + "\n"
 
         answer_parts, sources = [], []
+        abstained = False
+        abstain_details = None
         try:
             for event in pipeline.stream_rag_answer(question, history=history):
                 kind = event["type"]
@@ -154,9 +157,16 @@ def ask_view(request):
                     sources = event["sources"]
                 elif kind == "token":
                     answer_parts.append(event["text"])
+                elif kind == "abstain":
+                    abstained = True
+                    abstain_details = event.get("details", {})
                 yield json.dumps(event) + "\n"
         except (KnowledgeBaseNotReady, GenerationError) as exc:
             yield json.dumps({"type": "error", "message": str(exc)}) + "\n"
+            return
+        except SufficiencyError as exc:
+            # Operational sufficiency error (Model C missing, inference failure) - fail closed
+            yield json.dumps({"type": "error", "message": f"Sufficiency evaluation failed: {exc}"}) + "\n"
             return
         except Exception:
             logger.exception("Chat answer failed")
@@ -165,12 +175,28 @@ def ask_view(request):
             ) + "\n"
             return
 
-        ChatMessage.objects.create(
-            owner_id=user_id,
-            role=ChatMessage.Role.ASSISTANT,
-            content="".join(answer_parts),
-            sources=sources,
-        )
+        if abstained:
+            # Persist abstention as an assistant message with explanation
+            abstain_reason = (
+                "I cannot provide a reliable answer because the retrieved evidence "
+                "was insufficient to answer your question. The combined sufficiency "
+                f"score ({abstain_details.get('combined_score', 0):.4f}) is below "
+                f"the required threshold ({abstain_details.get('threshold', 0.70):.2f})."
+            )
+            ChatMessage.objects.create(
+                owner_id=user_id,
+                role=ChatMessage.Role.ASSISTANT,
+                content=abstain_reason,
+                sources=sources,
+            )
+        else:
+            # Normal answer generation
+            ChatMessage.objects.create(
+                owner_id=user_id,
+                role=ChatMessage.Role.ASSISTANT,
+                content="".join(answer_parts),
+                sources=sources,
+            )
         yield json.dumps({"type": "done"}) + "\n"
 
     response = StreamingHttpResponse(event_stream(), content_type="application/x-ndjson")

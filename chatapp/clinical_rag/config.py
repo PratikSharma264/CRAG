@@ -39,3 +39,20 @@ NO_ANSWER = "I cannot find the answer in the provided documents."
 # "what about adolescents?" is first rewritten into a standalone question using the same Groq model.
 # Set to False to search with exactly what the user typed.
 CONDENSE_FOLLOW_UPS = True
+
+# ============================================================
+# Sufficiency Configuration (Batch 1)
+# ============================================================
+# Model C checkpoint path (relative to PROJECT_ROOT)
+MODEL_C_CHECKPOINT = PROJECT_ROOT / "classification" / "model_c_v2" / "checkpoint" / "best"
+MODEL_C_MAX_LENGTH = 512
+
+# Combined scoring weights (must match combined_query.py exactly)
+MODEL_C_WEIGHT = 0.15
+COSINE_WEIGHT = 0.85
+
+# Combined threshold
+COMBINED_THRESHOLD = 0.70
+
+# Whether the sufficiency gate is enabled
+SUFFICIENCY_ENABLED = True

@@ -1,6 +1,7 @@
 """The whole RAG flow for one chat question, as a stream of small events."""
 
 from . import config, generation, retrieval
+from .sufficiency import engine, SufficiencyError
 
 
 def build_sources(hits):
@@ -33,6 +34,8 @@ def stream_rag_answer(question, history=None):
       {"type": "query", "text": "..."}                         the question that was searched
       {"type": "sources", "sources": [...], "confidence": f}   the retrieved abstracts
       {"type": "token", "text": "..."}                         (many) the answer
+      {"type": "abstain", "reason": "...", "details": {...}}   evidence insufficient
+      {"type": "error", "message": "..."}                      operational error
     """
     search_question = generation.condense_question(question, history or [])
     yield {"type": "query", "text": search_question}
@@ -41,7 +44,29 @@ def stream_rag_answer(question, history=None):
 
     if not hits:
         yield {"type": "sources", "sources": [], "confidence": 0.0}
-        yield {"type": "token", "text": config.NO_ANSWER}
+        # No passages retrieved: abstain with explanation
+        yield {
+            "type": "abstain",
+            "reason": "No relevant passages found in the knowledge base.",
+            "details": {
+                "combined_score": 0.0,
+                "threshold": config.COMBINED_THRESHOLD,
+                "model_c_probability": 0.0,
+                "cosine_similarity": 0.0,
+                "check_details": {"empty_retrieval": True},
+            },
+        }
+        return
+
+    # Evaluate sufficiency before generation (fail-closed)
+    try:
+        sufficiency = engine.evaluate(search_question, hits)
+    except SufficiencyError as e:
+        # Operational error (Model C missing, inference failure, etc.) - fail closed
+        yield {
+            "type": "error",
+            "message": f"Sufficiency evaluation failed: {e}",
+        }
         return
 
     yield {
@@ -50,5 +75,24 @@ def stream_rag_answer(question, history=None):
         "confidence": max(hit["similarity"] for hit in hits),
     }
 
+    if not sufficiency.sufficient:
+        # Evidence insufficient: yield abstain event and stop
+        yield {
+            "type": "abstain",
+            "reason": (
+                "The retrieved passages were not considered sufficient to answer the question. "
+                "The combined sufficiency score is below the required threshold."
+            ),
+            "details": {
+                "combined_score": sufficiency.combined_score,
+                "threshold": sufficiency.threshold,
+                "model_c_probability": sufficiency.model_c_probability,
+                "cosine_similarity": sufficiency.cosine_similarity,
+                "check_details": sufficiency.check_details,
+            },
+        }
+        return
+
+    # Evidence sufficient: proceed with generation
     for text in generation.stream_answer(search_question, hits):
         yield {"type": "token", "text": text}
