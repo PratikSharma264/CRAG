@@ -145,6 +145,7 @@ def ask_view(request):
 
         answer_parts, sources = [], []
         abstained = False
+        errored = False
         abstain_details = None
         try:
             for event in pipeline.stream_rag_answer(question, history=history):
@@ -160,22 +161,29 @@ def ask_view(request):
                 elif kind == "abstain":
                     abstained = True
                     abstain_details = event.get("details", {})
+                elif kind == "error":
+                    errored = True
                 yield json.dumps(event) + "\n"
         except (KnowledgeBaseNotReady, GenerationError) as exc:
+            logger.debug("Caught KnowledgeBaseNotReady/GenerationError: %s", exc)
             yield json.dumps({"type": "error", "message": str(exc)}) + "\n"
             return
         except SufficiencyError as exc:
             # Operational sufficiency error (Model C missing, inference failure) - fail closed
+            logger.debug("Caught SufficiencyError: %s", exc)
             yield json.dumps({"type": "error", "message": f"Sufficiency evaluation failed: {exc}"}) + "\n"
             return
-        except Exception:
-            logger.exception("Chat answer failed")
+        except Exception as exc:
+            logger.exception("Chat answer failed with unexpected exception: %s", exc)
             yield json.dumps(
                 {"type": "error", "message": "Something went wrong while answering. Check the server terminal."}
             ) + "\n"
             return
 
-        if abstained:
+        if errored:
+            # Operational error (e.g., Model C failure): do not persist an assistant message
+            pass
+        elif abstained:
             # Persist abstention as an assistant message with explanation
             abstain_reason = (
                 "I cannot provide a reliable answer because the retrieved evidence "

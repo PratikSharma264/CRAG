@@ -213,3 +213,15 @@
 }
 
 .chat-composer.is-busy .chat-composer__send { opacity: 0.6; cursor: progress; }
+
+/* ---------- Abstention ---------- */
+.message--bot.is-abstention .bubble--bot {
+  background: var(--color-danger-bg);
+  border-color: color-mix(in oklab, var(--color-danger) 40%, transparent);
+}
+.message--bot.is-abstention .bubble__text {
+  color: var(--color-danger);
+}
+.message--bot.is-abstention .bubble__text strong {
+  color: var(--color-danger);
+}

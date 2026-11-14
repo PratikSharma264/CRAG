@@ -347,6 +347,23 @@
       bot.text.hidden = false;
       renderMarkdown(bot.text, bot.answer);
       if (follow) scrollToBottom();
+    } else if (event.type === "abstain") {
+      // Show abstention message (reason + details if available)
+      bot.status.hidden = true;
+      bot.text.hidden = false;
+      bot.node.classList.add("is-abstention");
+      var msg = event.reason || "The retrieved evidence was insufficient to answer the question.";
+      // Include combined score if available and valid
+      var details = event.details || {};
+      var combinedScore = details.combined_score;
+      var threshold = details.threshold;
+      if (typeof combinedScore === "number" && isFinite(combinedScore)) {
+        var validThreshold = (typeof threshold === "number" && isFinite(threshold)) ? threshold : 0.70;
+        msg += " Combined score: " + combinedScore.toFixed(4) + " (threshold: " + validThreshold.toFixed(2) + ").";
+      }
+      renderMarkdown(bot.text, msg);
+      bot.answer = msg; // Store for raw data
+      if (isNearBottom()) scrollToBottom();
     } else if (event.type === "error") {
       throw new Error(event.message || "Something went wrong.");
     }
@@ -446,6 +463,11 @@
     var article = node.closest(".message");
     if (article) article.dataset.raw = cleanMath(raw);
     renderMarkdown(node, raw);
+
+    // Detect persisted abstention messages by content pattern
+    if (raw.startsWith("I cannot provide a reliable answer because the retrieved evidence was insufficient")) {
+      article.classList.add("is-abstention");
+    }
   });
   scrollToBottom();
 })();
