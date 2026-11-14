@@ -108,5 +108,4 @@ result = judge_sufficiency(
     ],
 )
 ```
-
 An optional `dataset` argument can supply an already loaded dataframe instead of reading the default CSV. The module's `__main__` example omits `knowledge_context`, so that standalone example evaluates without retrieved evidence; callers who want evidence-grounded judgement should pass it explicitly.
