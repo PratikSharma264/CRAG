@@ -15,5 +15,4 @@ clinicalenv/
 __pycache__/
 cookies.txt
 vector_store_numpy/
-vector_db/
 classification/**/checkpoint/
