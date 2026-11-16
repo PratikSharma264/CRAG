@@ -1,0 +1,114 @@
+{"question": "Diabetes targets for young patients", "category": "ambiguous_terminology", "subcategory": "young_patients", "annotation_reason": "'Young patients' ambiguous - could be pediatric, adolescent, or young adult"}
+{"question": "What is a good A1c for a youth?", "category": "ambiguous_terminology", "subcategory": "youth", "annotation_reason": "'Youth' undefined age range; could be 0-30"}
+{"question": "Blood sugar ranges for minors", "category": "ambiguous_terminology", "subcategory": "minors", "annotation_reason": "'Minors' legally <18 but no specific age; generally IN_SCOPE but ambiguous"}
+{"question": "Glucose targets for school age", "category": "ambiguous_terminology", "subcategory": "school_age", "annotation_reason": "'School age' typically 5-18 but no explicit range; generally IN_SCOPE but ambiguous"}
+{"question": "What about a 17 year old?", "category": "ambiguous_terminology", "subcategory": "age_boundary", "annotation_reason": "Age 17 = pediatric IN_SCOPE but phrased as boundary question"}
+{"question": "How about an 18 year old?", "category": "ambiguous_terminology", "subcategory": "age_boundary", "annotation_reason": "Age 18 = pediatric per guidelines but phrased as boundary question"}
+{"question": "What changes at 19?", "category": "ambiguous_terminology", "subcategory": "age_boundary", "annotation_reason": "Asks about age 19 transition; no patient context"}
+{"question": "Does pediatric end at 18?", "category": "ambiguous_terminology", "subcategory": "age_boundary", "annotation_reason": "Asks for age cutoff definition; no patient context"}
+{"question": "Is 18 still pediatric?", "category": "ambiguous_terminology", "subcategory": "age_boundary", "annotation_reason": "Asks about classification of age 18; no patient context"}
+{"question": "When does pediatric diabetes end?", "category": "ambiguous_terminology", "subcategory": "age_boundary", "annotation_reason": "Asks for definition; no patient context"}
+{"question": "Adult diabetes vs pediatric diabetes", "category": "mixed_scope", "subcategory": "compare_peds_adult", "annotation_reason": "Explicitly compares adult (out-of-scope) and pediatric (in-scope) populations"}
+{"question": "Differences between child and adult diabetes", "category": "mixed_scope", "subcategory": "compare_peds_adult", "annotation_reason": "Explicitly mixed scope comparison"}
+{"question": "Pediatric vs adult T1D management", "category": "mixed_scope", "subcategory": "compare_peds_adult", "annotation_reason": "Explicitly compares pediatric and adult management"}
+{"question": "Pediatric vs adult T2D treatment", "category": "mixed_scope", "subcategory": "compare_peds_adult", "annotation_reason": "Explicitly compares pediatric and adult treatment"}
+{"question": "How does diabetes care differ by age?", "category": "mixed_scope", "subcategory": "compare_peds_adult", "annotation_reason": "Asks about all age groups; explicitly mixed scope"}
+{"question": "Children vs adults with diabetes", "category": "mixed_scope", "subcategory": "compare_peds_adult", "annotation_reason": "Explicitly mixed populations in one question"}
+{"question": "Juvenile vs adult onset diabetes", "category": "mixed_scope", "subcategory": "compare_peds_adult", "annotation_reason": "Compares juvenile (dated pediatric term) with adult onset; mixed scope"}
+{"question": "Pediatric diabetes and adult comorbidities", "category": "mixed_scope", "subcategory": "mixed_conditions", "annotation_reason": "Combines in-scope (pediatric diabetes) with out-of-scope (adult comorbidities)"}
+{"question": "T1D in kids and T2D in adults", "category": "mixed_scope", "subcategory": "compare_peds_adult", "annotation_reason": "Explicitly compares pediatric T1D with adult T2D"}
+{"question": "What about diabetes in both kids and adults?", "category": "mixed_scope", "subcategory": "compare_peds_adult", "annotation_reason": "Explicitly asks about both populations"}
+{"question": "Compare pediatric and adult DKA", "category": "mixed_scope", "subcategory": "compare_peds_adult", "annotation_reason": "Explicitly compares DKA management in both populations"}
+{"question": "Pediatric vs adult insulin dosing", "category": "mixed_scope", "subcategory": "compare_peds_adult", "annotation_reason": "Explicitly compares dosing across populations"}
+{"question": "CGM targets for kids vs adults", "category": "mixed_scope", "subcategory": "compare_peds_adult", "annotation_reason": "Explicitly compares CGM targets across populations"}
+{"question": "Complications in children vs adults", "category": "mixed_scope", "subcategory": "compare_peds_adult", "annotation_reason": "Explicitly compares complications across populations"}
+{"question": "Transition from pediatric to adult care", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "No age specified; transition applies to 18-25 but context unclear"}
+{"question": "Moving from pediatric to adult endo", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "No current age; transition timing depends on age and history"}
+{"question": "Switching to adult diabetes doctor", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "No age specified; implies transition but context unclear"}
+{"question": "When to leave pediatric endocrinologist", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "No current age stated; answer depends entirely on patient age"}
+{"question": "How to transition diabetes care", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "No age specified; transition process varies by age and history"}
+{"question": "What is diabetes transition?", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "Asks for definition; no patient context or age"}
+{"question": "Transition program for diabetes", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "No age range specified; transition programs target 18-25 but context unclear"}
+{"question": "Preparing for adult diabetes care", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "No current age; preparation timing depends on age"}
+{"question": "Young adult diabetes transition", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "'Young adult' no age; no childhood-onset context"}
+{"question": "Emerging adult transition program", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "'Emerging adult' ambiguous 18-25; no childhood-onset context"}
+{"question": "Age 19 diabetes transition", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "Age 19 but no explicit transition-from-pediatric or childhood-onset context"}
+{"question": "20 year old transitioning care", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "Age 20 but no explicit childhood-onset or transition-from-pediatric context"}
+{"question": "21 and switching doctors", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "Age 21 but no childhood-onset or transition-from-pediatric context"}
+{"question": "22 transitioning from peds", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "Age 22 with 'from peds' but no explicit childhood-onset stated"}
+{"question": "23 year old leaving pediatric care", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "Age 23 but no explicit childhood-onset context"}
+{"question": "24 and still seeing pediatric endo", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "Age 24 seeing pediatric endo but no childhood-onset context stated"}
+{"question": "25 transition issues", "category": "ambiguous_terminology", "subcategory": "transition", "annotation_reason": "Age 25 but no childhood-onset or transition-from-pediatric context"}
+{"question": "26 with childhood T1D", "category": "ambiguous_terminology", "subcategory": "age_boundary", "annotation_reason": "Age 26 with childhood-onset; beyond 19-25 transition range; ambiguous"}
+{"question": "27 year old childhood onset T1D", "category": "ambiguous_terminology", "subcategory": "age_boundary", "annotation_reason": "Age 27 with childhood-onset; beyond transition range; ambiguous"}
+{"question": "28 T1D since childhood", "category": "ambiguous_terminology", "subcategory": "age_boundary", "annotation_reason": "Age 28 with childhood-onset; beyond transition range; ambiguous"}
+{"question": "29 diagnosed as child", "category": "ambiguous_terminology", "subcategory": "age_boundary", "annotation_reason": "Age 29 diagnosed as child; beyond transition range; ambiguous"}
+{"question": "30 with T1D since age 5", "category": "ambiguous_terminology", "subcategory": "age_boundary", "annotation_reason": "Age 30 with childhood-onset; beyond transition range; ambiguous"}
+{"question": "What about a 35 year old diagnosed at 10?", "category": "ambiguous_terminology", "subcategory": "age_boundary", "annotation_reason": "Age 35 diagnosed at 10; beyond transition range; ambiguous"}
+{"question": "40 year old with childhood T1D", "category": "ambiguous_terminology", "subcategory": "age_boundary", "annotation_reason": "Age 40 with childhood-onset; clearly adult but childhood-onset mentioned; ambiguous"}
+{"question": "Adult with T1D since childhood", "category": "ambiguous_terminology", "subcategory": "childhood_onset", "annotation_reason": "'Adult' no specific age; childhood-onset stated but age unclear"}
+{"question": "Grown up with childhood diabetes", "category": "ambiguous_terminology", "subcategory": "childhood_onset", "annotation_reason": "'Grown up' = adult; childhood diabetes stated but no age; ambiguous"}
+{"question": "Long-term childhood T1D in adult", "category": "ambiguous_terminology", "subcategory": "childhood_onset", "annotation_reason": "Adult with childhood-onset T1D; no specific age; ambiguous boundary"}
+{"question": "Juvenile diabetes in adults", "category": "ambiguous_terminology", "subcategory": "juvenile_diabetes", "annotation_reason": "'Juvenile diabetes' dated term; 'in adults' = mixed scope"}
+{"question": "Childhood diabetes in adulthood", "category": "ambiguous_terminology", "subcategory": "childhood_onset", "annotation_reason": "Childhood-onset diabetes continuing into adulthood; no age; ambiguous"}
+{"question": "T1D from childhood now adult", "category": "ambiguous_terminology", "subcategory": "childhood_onset", "annotation_reason": "Childhood-onset T1D now adult; no specific age; ambiguous"}
+{"question": "Pediatric diabetes patient now adult", "category": "ambiguous_terminology", "subcategory": "childhood_onset", "annotation_reason": "Former pediatric patient now adult; no age; ambiguous boundary"}
+{"question": "What about pregnancy in T1D?", "category": "mixed_scope", "subcategory": "pregnancy", "annotation_reason": "Pregnancy could be teen (in-scope) or adult (out-of-scope); no age specified"}
+{"question": "Gestational diabetes in teen", "category": "ambiguous_terminology", "subcategory": "pregnancy", "annotation_reason": "'Teen' 13-19; 18-19 borderline; gestational diabetes typically adult context"}
+{"question": "Pregnant with diabetes at 19", "category": "ambiguous_terminology", "subcategory": "pregnancy", "annotation_reason": "Age 19 pregnant; 19 is pediatric per guidelines but pregnancy typically adult context"}
+{"question": "Pregnant with T1D at 17", "category": "ambiguous_terminology", "subcategory": "pregnancy", "annotation_reason": "Age 17 pregnant with T1D; 17 is pediatric but pregnancy context mixed"}
+{"question": "Diabetes and pregnancy at 18", "category": "ambiguous_terminology", "subcategory": "pregnancy", "annotation_reason": "Age 18 pregnant; 18 is pediatric but pregnancy typically adult context"}
+{"question": "Teen pregnancy with T1D", "category": "ambiguous_terminology", "subcategory": "pregnancy", "annotation_reason": "'Teen' 13-19; 18-19 borderline; pregnancy adds adult context"}
+{"question": "Adolescent pregnancy diabetes", "category": "ambiguous_terminology", "subcategory": "pregnancy", "annotation_reason": "'Adolescent' 10-19; 18-19 borderline; pregnancy context mixed"}
+{"question": "Young adult pregnancy T1D", "category": "ambiguous_terminology", "subcategory": "pregnancy", "annotation_reason": "'Young adult' no age; pregnancy context; no childhood-onset"}
+{"question": "Gestational diabetes management in youth", "category": "ambiguous_terminology", "subcategory": "pregnancy", "annotation_reason": "'Youth' undefined; gestational diabetes typically adult; mixed context"}
+{"question": "Prediabetes in a 10 year old", "category": "ambiguous_terminology", "subcategory": "prediabetes", "annotation_reason": "Age 10 = pediatric IN_SCOPE but phrased as clarification question"}
+{"question": "Metabolic syndrome in 14 year old", "category": "ambiguous_terminology", "subcategory": "metabolic_syndrome", "annotation_reason": "Age 14 = pediatric IN_SCOPE but phrased as clarification question"}
+{"question": "Insulin resistance in 16 year old", "category": "ambiguous_terminology", "subcategory": "insulin_resistance", "annotation_reason": "Age 16 = pediatric IN_SCOPE but phrased as clarification question"}
+{"question": "Obesity and T2D in 12 year old", "category": "ambiguous_terminology", "subcategory": "obesity", "annotation_reason": "Age 12 = pediatric IN_SCOPE but phrased as clarification question"}
+{"question": "At risk for diabetes in youth", "category": "ambiguous_terminology", "subcategory": "risk", "annotation_reason": "'Youth' undefined age range; risk factors differ by age"}
+{"question": "What about my cousin's diabetes?", "category": "unclear_patient_context", "subcategory": "family_member", "annotation_reason": "Cousin's age and diabetes type not specified"}
+{"question": "My niece has T1D", "category": "unclear_patient_context", "subcategory": "family_member", "annotation_reason": "Niece's age not specified; could be child or adult"}
+{"question": "Nephew diagnosed with diabetes", "category": "unclear_patient_context", "subcategory": "family_member", "annotation_reason": "Nephew's age not specified; could be child or adult"}
+{"question": "Grandchild with diabetes", "category": "unclear_patient_context", "subcategory": "family_member", "annotation_reason": "Grandchild's age not stated; could be infant or adult"}
+{"question": "Sibling has diabetes", "category": "unclear_patient_context", "subcategory": "family_member", "annotation_reason": "Sibling's age and diabetes type not specified"}
+{"question": "Family member with T1D", "category": "unclear_patient_context", "subcategory": "family_member", "annotation_reason": "No age or relationship specified; could be any age"}
+{"question": "Relative diagnosed with T2D", "category": "unclear_patient_context", "subcategory": "family_member", "annotation_reason": "Relative's age not specified; could be child or adult"}
+{"question": "Someone in family has diabetes", "category": "unclear_patient_context", "subcategory": "family_member", "annotation_reason": "Vague reference; no age, relationship, or diabetes type"}
+{"question": "Kid in class has diabetes", "category": "unclear_patient_context", "subcategory": "school_peer", "annotation_reason": "'Kid in class' implies school-age but no specific age or diabetes type"}
+{"question": "Student with diabetes in school", "category": "unclear_patient_context", "subcategory": "school_peer", "annotation_reason": "'Student' no age or grade; diabetes type not specified"}
+{"question": "Classmate with T1D", "category": "unclear_patient_context", "subcategory": "school_peer", "annotation_reason": "Classmate's age not specified; could be any grade"}
+{"question": "Friend's child has diabetes", "category": "unclear_patient_context", "subcategory": "family_member", "annotation_reason": "Friend's child's age not specified; could be any age"}
+{"question": "Patient with T1D on pump", "category": "unclear_patient_context", "subcategory": "clinical_vignette", "annotation_reason": "'Patient' no age; pumps used in all ages"}
+{"question": "Patient on basal bolus", "category": "unclear_patient_context", "subcategory": "clinical_vignette", "annotation_reason": "'Patient' no age; basal-bolus used in all ages"}
+{"question": "Diabetic patient with high A1c", "category": "unclear_patient_context", "subcategory": "clinical_vignette", "annotation_reason": "'Diabetic patient' no age or diabetes type"}
+{"question": "Case of diabetes with DKA", "category": "unclear_patient_context", "subcategory": "clinical_vignette", "annotation_reason": "No patient age or diabetes type in vignette"}
+{"question": "Clinical scenario: diabetes", "category": "unclear_patient_context", "subcategory": "clinical_vignette", "annotation_reason": "No patient demographics; could be pediatric or adult case"}
+{"question": "Vignette: T1D management", "category": "unclear_patient_context", "subcategory": "clinical_vignette", "annotation_reason": "No patient age; T1D management differs by age"}
+{"question": "Example: pediatric diabetes", "category": "unclear_patient_context", "subcategory": "clinical_vignette", "annotation_reason": "'Pediatric' stated but no specific age; example not a real question"}
+{"question": "Sample question: child with T1D", "category": "unclear_patient_context", "subcategory": "clinical_vignette", "annotation_reason": "Sample/example question; no real patient context"}
+{"question": "Test case: adolescent T2D", "category": "unclear_patient_context", "subcategory": "clinical_vignette", "annotation_reason": "Test/sample case; no real patient context"}
+{"question": "What about the night time?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare pronoun follow-up with no content; classifier sees only this"}
+{"question": "And at bedtime?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available to classifier"}
+{"question": "How about morning?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no context for classifier"}
+{"question": "What about after eating?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "And before meals?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up with meal timing but no prior context"}
+{"question": "What about snacks?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no context for classifier"}
+{"question": "How about carbs?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no population or context"}
+{"question": "And protein?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context available"}
+{"question": "What about fat?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free follow-up; no population context"}
+{"question": "And fiber?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about lows at night?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up with topic but no prior context"}
+{"question": "And highs in morning?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment with topic; no context for classifier"}
+{"question": "How about ketones?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And DKA?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no population or context"}
+{"question": "What about pump settings?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no prior context"}
+{"question": "And basal rates?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context for classifier"}
+{"question": "What about bolus?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population or context"}
+{"question": "And correction factor?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "How about ISF?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up with abbreviation; no context"}
+{"question": "And ICR?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment with abbreviation; no context"}
+{"question": "What about CGM alerts?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And trends?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no population or context"}
+{"question": "How about TIR?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up with abbreviation; no context"}
+{"question": "And TBR?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment with abbreviation; no context"}

@@ -1,0 +1,98 @@
+{"question": "T1D or T2D?", "category": "missing_age", "subcategory": "t1d_vs_t2d", "annotation_reason": "No age or population; differentiation differs by age group"}
+{"question": "Type 1 vs type 2", "category": "missing_age", "subcategory": "t1d_vs_t2d", "annotation_reason": "No population context; presentation and management differ by age"}
+{"question": "Which type of diabetes?", "category": "missing_age", "subcategory": "t1d_vs_t2d", "annotation_reason": "No age or clinical context; typing differs by age group"}
+{"question": "Is it T1D or T2D?", "category": "missing_age", "subcategory": "t1d_vs_t2d", "annotation_reason": "No patient age or clinical features; differentiation age-dependent"}
+{"question": "How to tell T1D from T2D", "category": "missing_age", "subcategory": "t1d_vs_t2d", "annotation_reason": "No population; diagnostic differentiation differs by age"}
+{"question": "T1D vs T2D in young people", "category": "ambiguous_terminology", "subcategory": "young_patients", "annotation_reason": "'Young people' undefined age range; could be pediatric or young adult"}
+{"question": "Diabetes type in adolescents", "category": "ambiguous_terminology", "subcategory": "adolescent", "annotation_reason": "'Adolescents' 10-19; 18-19 borderline; no explicit age"}
+{"question": "Childhood T1D vs T2D", "category": "ambiguous_terminology", "subcategory": "child", "annotation_reason": "'Childhood' implies pediatric but no specific age; generally IN_SCOPE but ambiguous"}
+{"question": "Pediatric T1D or T2D", "category": "ambiguous_terminology", "subcategory": "pediatric", "annotation_reason": "'Pediatric' implies ≤18 but no explicit age; generally IN_SCOPE but ambiguous"}
+{"question": "Youth onset T1D vs T2D", "category": "ambiguous_terminology", "subcategory": "youth", "annotation_reason": "'Youth onset' undefined age range; ambiguous population"}
+{"question": "New diabetes diagnosis", "category": "missing_age", "subcategory": "new_diagnosis", "annotation_reason": "No age or diabetes type; workup and management differ by age"}
+{"question": "Just diagnosed with diabetes", "category": "missing_age", "subcategory": "new_diagnosis", "annotation_reason": "No age, type, or context; next steps completely age-dependent"}
+{"question": "New onset diabetes", "category": "missing_age", "subcategory": "new_diagnosis", "annotation_reason": "No population; new-onset workup differs for infants, children, adults"}
+{"question": "Recently diagnosed", "category": "missing_age", "subcategory": "new_diagnosis", "annotation_reason": "No age or type; initial management differs by age group"}
+{"question": "First time diabetes", "category": "missing_age", "subcategory": "new_diagnosis", "annotation_reason": "No population context; first presentation workup age-dependent"}
+{"question": "Diagnosis criteria for diabetes", "category": "missing_age", "subcategory": "diagnosis", "annotation_reason": "No age specified; diagnostic thresholds differ for children vs adults"}
+{"question": "How is T1D diagnosed?", "category": "missing_age", "subcategory": "diagnosis", "annotation_reason": "No population; diagnostic approach differs by age (e.g., antibodies in children)"}
+{"question": "T2D diagnosis criteria", "category": "missing_age", "subcategory": "diagnosis", "annotation_reason": "No age; pediatric T2D criteria differ from adult (ADA vs ISPAD)"}
+{"question": "HbA1c for diagnosis", "category": "missing_age", "subcategory": "diagnosis", "annotation_reason": "No age; HbA1c diagnostic threshold interpretation differs by age"}
+{"question": "OGTT for diabetes", "category": "missing_age", "subcategory": "diagnosis", "annotation_reason": "No population; OGTT interpretation and use differ by age"}
+{"question": "Antibody testing for diabetes", "category": "missing_age", "subcategory": "diagnosis", "annotation_reason": "No age; antibody panels and interpretation differ by age group"}
+{"question": "C-peptide for diagnosis", "category": "missing_age", "subcategory": "diagnosis", "annotation_reason": "No population; C-peptide interpretation differs by age and diabetes duration"}
+{"question": "Genetic testing for diabetes", "category": "missing_age", "subcategory": "diagnosis", "annotation_reason": "No age or type; genetic testing indications differ (MODY vs T1D vs T2D)"}
+{"question": "MODY diagnosis", "category": "missing_age", "subcategory": "diagnosis", "annotation_reason": "No age; MODY can present at any age; testing criteria vary"}
+{"question": "Monogenic diabetes", "category": "missing_age", "subcategory": "diagnosis", "annotation_reason": "No population; monogenic diabetes presents across lifespan"}
+{"question": "Neonatal diabetes", "category": "ambiguous_terminology", "subcategory": "neonatal", "annotation_reason": "'Neonatal' implies infant but no specific age; generally IN_SCOPE but ambiguous"}
+{"question": "Diabetes in baby", "category": "ambiguous_terminology", "subcategory": "infant", "annotation_reason": "'Baby' informal, no specific age; generally pediatric but ambiguous"}
+{"question": "Infant diabetes", "category": "ambiguous_terminology", "subcategory": "infant", "annotation_reason": "'Infant' typically <1 year but no explicit age; generally IN_SCOPE but ambiguous"}
+{"question": "Toddler with diabetes", "category": "ambiguous_terminology", "subcategory": "toddler", "annotation_reason": "'Toddler' 1-3 years but no explicit age; generally IN_SCOPE but ambiguous"}
+{"question": "Preschooler diabetes", "category": "ambiguous_terminology", "subcategory": "preschool", "annotation_reason": "'Preschooler' 3-5 years but no explicit age; generally IN_SCOPE but ambiguous"}
+{"question": "School age diabetes", "category": "ambiguous_terminology", "subcategory": "school_age", "annotation_reason": "'School age' 5-18 but no explicit range; generally IN_SCOPE but ambiguous"}
+{"question": "Elementary school diabetes", "category": "ambiguous_terminology", "subcategory": "school_age", "annotation_reason": "'Elementary' typically 5-11 but no explicit age; generally IN_SCOPE but ambiguous"}
+{"question": "Middle school diabetes", "category": "ambiguous_terminology", "subcategory": "school_age", "annotation_reason": "'Middle school' typically 11-14 but no explicit age; generally IN_SCOPE but ambiguous"}
+{"question": "High school diabetes", "category": "ambiguous_terminology", "subcategory": "school_age", "annotation_reason": "'High school' 14-18 but 18 borderline; generally IN_SCOPE but ambiguous"}
+{"question": "College diabetes", "category": "ambiguous_terminology", "subcategory": "college_student", "annotation_reason": "'College' implies ~18-22 but could be older; no childhood-onset context"}
+{"question": "University student T1D", "category": "ambiguous_terminology", "subcategory": "college_student", "annotation_reason": "'University student' typically 18-25 but no explicit age or childhood-onset"}
+{"question": "Dorm life with diabetes", "category": "ambiguous_terminology", "subcategory": "college_student", "annotation_reason": "Implies college but no age; dorm context typically 18-22 but ambiguous"}
+{"question": "Campus diabetes care", "category": "ambiguous_terminology", "subcategory": "college_student", "annotation_reason": "'Campus' implies college but no age; care systems vary by institution"}
+{"question": "Student health center diabetes", "category": "ambiguous_terminology", "subcategory": "college_student", "annotation_reason": "'Student health center' implies college but no age; services vary"}
+{"question": "What about summer camp?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "And diabetes camp?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no prior context for classifier"}
+{"question": "What about camp for kids?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up with population hint but no content or context"}
+{"question": "And for camp?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context available"}
+{"question": "How about sports camp?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "What about school?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no context for classifier"}
+{"question": "And at school?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "What about during class?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment with setting but no population or context"}
+{"question": "And lunch?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context for classifier"}
+{"question": "How about recess?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no population or prior context"}
+{"question": "What about PE?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up with activity; no population or context"}
+{"question": "And gym class?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no prior context available"}
+{"question": "What about field trips?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "And parties?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about sleepovers?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "What about holidays?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population context"}
+{"question": "And Halloween?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up with holiday; no context"}
+{"question": "What about Christmas?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "And Thanksgiving?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "What about birthday?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population or context"}
+{"question": "And vacation?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about travel?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "What about flying?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment with activity; no population or context"}
+{"question": "And time zones?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "What about insulin on plane?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no population or prior context"}
+{"question": "And TSA?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment with abbreviation; no context"}
+{"question": "How about supplies?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or context"}
+{"question": "And backup insulin?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about glucagon?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And emergency?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about hospital?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "And ER?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment with abbreviation; no context"}
+{"question": "What about doctor visit?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or context"}
+{"question": "And endo?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment with abbreviation; no context"}
+{"question": "How about checkup?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "What about labs?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population context"}
+{"question": "And blood work?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context for classifier"}
+{"question": "What about thyroid?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no population or prior context"}
+{"question": "And celiac?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context available"}
+{"question": "How about eyes?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "And kidneys?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "What about feet?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population context"}
+{"question": "And nerves?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "What about heart?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "And blood pressure?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "How about cholesterol?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And weight?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "What about growth?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population context"}
+{"question": "And puberty?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context available"}
+{"question": "How about periods?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "And hormones?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "What about stress?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population context"}
+{"question": "And anxiety?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about depression?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "And eating?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about burnout?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context available"}
+{"question": "And fatigue?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about sleep?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And dreams?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}

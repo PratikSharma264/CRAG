@@ -1,0 +1,129 @@
+example_id,question,scope_label,scope_label_name,category,subcategory,annotation_reason,review_reason
+S00002,What is the ideal HbA1c level?,2,NEEDS_CLARIFICATION,missing_age,hba1c_target,No age or population specified; HbA1c targets differ by age,Boundary: could be pediatric if asker is parent
+S00003,How should diabetes be managed?,2,NEEDS_CLARIFICATION,missing_age,general_management,No population specified; management differs completely by age,Boundary: generic but could be clinician asking
+S00022,What about at night?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare pronoun follow-up with no content; classifier sees only this,Boundary: content-free fragment
+S00027,And for teens?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up; no prior context available to classifier,Boundary: population hint but no content
+S00118,My sister is 19 and has T1D since childhood,1,IN_SCOPE,missing_age,transition,Age 19 stated WITH childhood-onset; this is IN_SCOPE per guidelines,Boundary: age 19 but childhood-onset explicit
+S00146,What is a normal blood sugar for a kid?,2,NEEDS_CLARIFICATION,ambiguous_terminology,kid,'Kid' informal, no specific age; generally pediatric but ambiguous,Boundary: informal term
+S00153,Blood sugar target for a teenager,2,NEEDS_CLARIFICATION,ambiguous_terminology,teenager,'Teenager' 13-19; 18-19 borderline without explicit age number,Boundary: age 18-19 ambiguous
+S00203,HbA1c goal for adolescent,2,NEEDS_CLARIFICATION,ambiguous_terminology,adolescent,'Adolescent' typically 10-19 but 18-19 borderline; no explicit age,Boundary: age 18-19 ambiguous
+S00231,What about a 17 year old?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 17 = pediatric IN_SCOPE but phrased as boundary question,Boundary: phrased as boundary check
+S00235,How about an 18 year old?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 18 = pediatric per guidelines but phrased as boundary question,Boundary: phrased as boundary check
+S00238,What changes at 19?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Asks about age 19 transition; no patient context,Boundary: meta question about boundary
+S00240,Does pediatric end at 18?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Asks for age cutoff definition; no patient context,Boundary: meta question
+S00257,Is 18 still pediatric?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Asks about classification of age 18; no patient context,Boundary: meta question
+S00271,When does pediatric diabetes end?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Asks for definition; no patient context,Boundary: meta question
+S00273,Young adult with T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,young_adult,'Young adult' no age given; no childhood-onset context,Boundary: ambiguous term
+S00274,Emerging adult diabetes management,2,NEEDS_CLARIFICATION,ambiguous_terminology,emerging_adult,'Emerging adult' ambiguous 18-25; no childhood-onset context,Boundary: ambiguous term
+S00276,Transition concerns for young adult,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,'Young adult' no age; 'transition concerns' but no childhood-onset stated,Boundary: ambiguous term
+S00279,What is juvenile diabetes?,2,NEEDS_CLARIFICATION,ambiguous_terminology,juvenile_diabetes,'Juvenile diabetes' is dated term for T1D; could mean any age T1D,Boundary: dated/ambiguous term
+S00280,How is juvenile diabetes treated?,2,NEEDS_CLARIFICATION,ambiguous_terminology,juvenile_diabetes,Dated term; no age specified; could refer to T1D at any age,Boundary: dated/ambiguous term
+S00290,What are young patients with diabetes?,2,NEEDS_CLARIFICATION,ambiguous_terminology,young_patients,'Young patients' ambiguous - could be pediatric, adolescent, or young adult,Boundary: ambiguous term
+S00296,Diabetes in young people: what to know,2,NEEDS_CLARIFICATION,ambiguous_terminology,young_patients,'Young people' undefined age range; could be 0-30,Boundary: ambiguous term
+S00299,New-onset diabetes in young people,2,NEEDS_CLARIFICATION,ambiguous_terminology,new_onset,'Young people' ambiguous age range; no specific population,Boundary: ambiguous term
+S00307,What about a 20 year old with T1D since age 5?,2,NEEDS_CLARIFICATION,mixed_scope,transition,Age 20 with childhood-onset = IN_SCOPE per guidelines; but phrased as question about age boundary,Boundary: phrased as boundary check
+S00312,Is 19 considered pediatric?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Asks about age boundary classification; no patient context,Boundary: meta question
+S00315,At what age does pediatric end?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Asks for age cutoff definition; no specific patient,Boundary: meta question
+S00323,Diabetes in a 19 year old,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 19 stated but no childhood-onset or transition context; borderline,Boundary: age 19 no context
+S00329,22 year old with diabetes,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 22 stated but no childhood-onset or transition context; ambiguous,Boundary: age 22 no context
+S00331,19 year old newly diagnosed T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 19, new diagnosis (not childhood-onset); no transition context,Boundary: age 19 new onset
+S00332,What is the cutoff for pediatric diabetes?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Asks for definition of age cutoff; no patient context,Boundary: meta question
+S00338,How to manage diabetes in a young adult,2,NEEDS_CLARIFICATION,ambiguous_terminology,young_adult,'Young adult' no age; no childhood-onset or transition context,Boundary: ambiguous term
+S00342,Diabetes care for 20 somethings,2,NEEDS_CLARIFICATION,ambiguous_terminology,young_adult,'20 somethings' = 20-29; no childhood-onset context,Boundary: ambiguous term
+S00346,College student with diabetes,2,NEEDS_CLARIFICATION,ambiguous_terminology,college_student,College student typically 18-22 but could be older; no diabetes type or onset age,Boundary: ambiguous term
+S00354,What about pregnancy with diabetes?,2,NEEDS_CLARIFICATION,mixed_scope,pregnancy,Pregnancy could be teen (in-scope) or adult (out-of-scope); no age specified,Boundary: mixed context
+S00357,Gestational diabetes management,2,NEEDS_CLARIFICATION,mixed_scope,pregnancy,Gestational diabetes typically adult; but teen pregnancy possible; no age,Boundary: mixed context
+S00368,Diabetes and pregnancy risks,2,NEEDS_CLARIFICATION,mixed_scope,pregnancy,No maternal age specified; risks differ by age,Boundary: mixed context
+S00371,How to manage T1D during pregnancy,2,NEEDS_CLARIFICATION,mixed_scope,pregnancy,No age specified; could be teen (in-scope) or adult (out-of-scope),Boundary: mixed context
+S00384,What about T1D and pregnancy?,2,NEEDS_CLARIFICATION,mixed_scope,pregnancy,Bare follow-up about pregnancy; no age context,Boundary: bare follow-up mixed
+S00387,Prediabetes in children,2,NEEDS_CLARIFICATION,ambiguous_terminology,prediabetes,'Children' implies pediatric but no specific age; generally IN_SCOPE but ambiguous,Boundary: informal term
+S00393,Impaired glucose tolerance in youth,2,NEEDS_CLARIFICATION,ambiguous_terminology,prediabetes,'Youth' ambiguous age range; no specific population,Boundary: ambiguous term
+S00396,Metabolic syndrome in adolescents,2,NEEDS_CLARIFICATION,ambiguous_terminology,metabolic_syndrome,'Adolescents' typically pediatric but 18-19 borderline; no explicit age,Boundary: age 18-19 ambiguous
+S00408,Insulin resistance in teens,2,NEEDS_CLARIFICATION,ambiguous_terminology,insulin_resistance,'Teens' = 13-19; 18-19 borderline without explicit age,Boundary: age 18-19 ambiguous
+S00413,Obesity and diabetes in young people,2,NEEDS_CLARIFICATION,ambiguous_terminology,obesity,'Young people' undefined age range; mixed scope possible,Boundary: ambiguous term
+S00419,What about a 25 year old with T1D since childhood?,2,NEEDS_CLARIFICATION,mixed_scope,transition,Age 25 with childhood-onset = IN_SCOPE per guidelines; but phrased as boundary question,Boundary: phrased as boundary check
+S00424,30 year old with T1D since age 10,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 30 with childhood-onset; beyond 19-25 transition range; ambiguous,Boundary: beyond transition range
+S00427,Adult with childhood-onset T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,childhood_onset,'Adult' no specific age; childhood-onset stated but age unclear,Boundary: ambiguous term
+S00433,How to transition from pediatric care,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,No current age stated; transition timing depends on age and history,Boundary: missing current age
+S00436,What is the transition age for diabetes?,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,Asks for definition; no patient context,Boundary: meta question
+S00443,Can adults see pediatric endocrinologists?,2,NEEDS_CLARIFICATION,mixed_scope,transition,Asks about adult (out-of-scope) seeing pediatric provider; mixed context,Boundary: mixed context
+S00447,What happens after pediatric diabetes care?,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,No age specified; implies transition but context unclear,Boundary: missing age
+S00453,Diabetes care for young adults,2,NEEDS_CLARIFICATION,ambiguous_terminology,young_adult,'Young adults' ambiguous 18-30; no childhood-onset context,Boundary: ambiguous term
+S00458,Emerging adult with T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,emerging_adult,'Emerging adult' 18-25 typical but no explicit age or childhood-onset,Boundary: ambiguous term
+S00462,Young adult T1D disengagement,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,'Young adult' no age; no childhood-onset context,Boundary: ambiguous term
+S00466,22 year old T1D transition issues,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,Age 22 but no explicit childhood-onset or transition-from-pediatric context,Boundary: missing childhood-onset
+S00470,What about a 24 year old with T1D?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 24; no childhood-onset or transition context stated,Boundary: age 24 no context
+S00474,Diabetes in your 20s,2,NEEDS_CLARIFICATION,ambiguous_terminology,young_adult,'In your 20s' = 20-29; no childhood-onset context,Boundary: ambiguous term
+S00478,Managing diabetes as a young adult,2,NEEDS_CLARIFICATION,ambiguous_terminology,young_adult,'Young adult' no age; no childhood-onset or transition context,Boundary: ambiguous term
+S00480,What about at night for a child?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up 'what about at night' with 'for a child' but no prior context,Boundary: bare follow-up with hint
+S00484,And for a teenager?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up with population hint but no content or prior context,Boundary: bare follow-up with hint
+S00495,How about for adults?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up for adults; no prior context for classifier,Boundary: bare follow-up
+S00497,What about insulin for kids?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Content-free fragment with population hint but no prior context,Boundary: bare follow-up with hint
+S00504,And pump settings?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare fragment; no population or prior context,Boundary: bare fragment
+S00506,What about CGM for teens?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up with population hint but no content or context,Boundary: bare follow-up with hint
+S00513,How about diet for children?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Content-free fragment; no prior context available,Boundary: bare fragment
+S00515,And exercise for youth?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare fragment with vague population; no context,Boundary: bare fragment
+S00520,What about complications in kids?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up with population hint; no prior context,Boundary: bare follow-up with hint
+S00521,And for the parents?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up about parents; no content or prior context,Boundary: bare follow-up
+S00527,What is diabetes?,2,NEEDS_CLARIFICATION,missing_age,definition,No population; definition and implications differ by age group,Boundary: generic definition
+S00531,Define diabetes,2,NEEDS_CLARIFICATION,missing_age,definition,No age context; diabetes encompasses multiple types across lifespan,Boundary: generic definition
+S00532,What does diabetes mean?,2,NEEDS_CLARIFICATION,missing_age,definition,No population specified; meaning varies by type and age,Boundary: generic definition
+S00536,Diabetes definition,2,NEEDS_CLARIFICATION,missing_age,definition,No population; definition alone doesn't specify scope,Boundary: generic definition
+S00538,Explain diabetes,2,NEEDS_CLARIFICATION,missing_age,definition,No audience or population; explanation would differ for child vs adult,Boundary: generic definition
+S00543,Diabetes basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population context; basics differ by age and type,Boundary: generic definition
+S00545,Diabetes overview,2,NEEDS_CLARIFICATION,missing_age,definition,No age or type specified; overview scope ambiguous,Boundary: generic definition
+S00550,What is T1D?,2,NEEDS_CLARIFICATION,missing_age,definition,No population; T1D presentation and management differ by age,Boundary: generic definition
+S00553,What is T2D?,2,NEEDS_CLARIFICATION,missing_age,definition,No population; T2D in youth vs adults differs in pathophysiology,Boundary: generic definition
+S00556,Type 1 diabetes explained,2,NEEDS_CLARIFICATION,missing_age,definition,No population; explanation differs for child, teen, adult,Boundary: generic definition
+S00558,Type 2 diabetes explained,2,NEEDS_CLARIFICATION,missing_age,definition,No population; pediatric T2D differs from adult T2D,Boundary: generic definition
+S00563,T1D basics,2,NEEDS_CLARIFICATION,missing_age,definition,No age context; basics of T1D management differ by age,Boundary: generic definition
+S00564,T2D basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; T2D basics differ for youth vs adults,Boundary: generic definition
+S00565,Diabetes 101,2,NEEDS_CLARIFICATION,missing_age,definition,No audience specified; 101-level content differs by target age,Boundary: generic definition
+S00567,Intro to diabetes,2,NEEDS_CLARIFICATION,missing_age,definition,No population; introduction scope ambiguous,Boundary: generic definition
+S00568,Diabetes fundamentals,2,NEEDS_CLARIFICATION,missing_age,definition,No age or type; fundamentals vary by population,Boundary: generic definition
+S00569,What is blood sugar?,2,NEEDS_CLARIFICATION,missing_age,definition,No population; physiology same but targets and interpretation differ by age,Boundary: generic definition
+S00570,What is glucose?,2,NEEDS_CLARIFICATION,missing_age,definition,No population context; glucose physiology same but clinical context differs,Boundary: generic definition
+S00572,What is insulin?,2,NEEDS_CLARIFICATION,missing_age,definition,No population; insulin physiology same but clinical use differs by age,Boundary: generic definition
+S00573,What is HbA1c?,2,NEEDS_CLARIFICATION,missing_age,definition,No population; HbA1c interpretation and targets differ by age,Boundary: generic definition
+S00574,What is A1c?,2,NEEDS_CLARIFICATION,missing_age,definition,No population context; A1c meaning and targets age-dependent,Boundary: generic definition
+S00575,A1c explanation,2,NEEDS_CLARIFICATION,missing_age,definition,No population; explanation of A1c differs for pediatric vs adult context,Boundary: generic definition
+S00576,HbA1c basics,2,NEEDS_CLARIFICATION,missing_age,definition,No age specified; HbA1c fundamentals differ by population,Boundary: generic definition
+S00577,Glucose monitoring basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; monitoring methods and targets differ by age,Boundary: generic definition
+S00578,CGM basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; CGM use, devices, and targets differ by age,Boundary: generic definition
+S00579,SMBG basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; SMBG frequency and targets differ by age,Boundary: generic definition
+S00580,Insulin basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; insulin types, regimens, dosing differ by age,Boundary: generic definition
+S00581,Pump basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; pump therapy indications and management differ by age,Boundary: generic definition
+S00582,MDI basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; MDI regimens and dosing differ by age,Boundary: generic definition
+S00583,Basal insulin basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; basal insulin types and dosing differ by age,Boundary: generic definition
+S00584,Bolus insulin basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; bolus insulin types and dosing differ by age,Boundary: generic definition
+S00585,Carb counting basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; carb counting methods and ratios differ by age,Boundary: generic definition
+S00586,Nutrition basics for diabetes,2,NEEDS_CLARIFICATION,missing_age,definition,No population; dietary recommendations differ for children vs adults,Boundary: generic definition
+S00587,Exercise basics for diabetes,2,NEEDS_CLARIFICATION,missing_age,definition,No population; exercise guidelines and adjustments differ by age,Boundary: generic definition
+S00588,Complications basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; complication screening and prevention differ by age,Boundary: generic definition
+S00589,DKA basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; DKA risk, presentation, management differ by age,Boundary: generic definition
+S00590,Hypoglycemia basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; hypo recognition and treatment differ by age,Boundary: generic definition
+S00591,Hyperglycemia basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; hyper recognition and treatment differ by age,Boundary: generic definition
+S00592,What is time in range?,2,NEEDS_CLARIFICATION,missing_age,cgm_metrics,No population; TIR targets differ by age (pediatric tighter than adult),Boundary: generic definition
+S00593,TIR explanation,2,NEEDS_CLARIFICATION,missing_age,cgm_metrics,No population; TIR targets and interpretation age-dependent,Boundary: generic definition
+S00594,Time below range,2,NEEDS_CLARIFICATION,missing_age,cgm_metrics,No population; TBR targets differ by age,Boundary: generic definition
+S00595,Time above range,2,NEEDS_CLARIFICATION,missing_age,cgm_metrics,No population; TAR targets differ by age,Boundary: generic definition
+S00596,CGM metrics,2,NEEDS_CLARIFICATION,missing_age,cgm_metrics,No population; CGV, GVI, TIR, TBR, TAR targets age-dependent,Boundary: generic definition
+S00597,Glucose variability,2,NEEDS_CLARIFICATION,missing_age,cgm_metrics,No population; variability metrics and targets differ by age,Boundary: generic definition
+S00598,What is GMI?,2,NEEDS_CLARIFICATION,missing_age,cgm_metrics,No population; GMI interpretation differs by age,Boundary: generic definition
+S00599,Glucose management indicator,2,NEEDS_CLARIFICATION,missing_age,cgm_metrics,No population; GMI targets and use differ by age,Boundary: generic definition
+S00600,What is eA1c?,2,NEEDS_CLARIFICATION,missing_age,cgm_metrics,No population; estimated A1c interpretation differs by age,Boundary: generic definition
+S00601,Estimated A1c,2,NEEDS_CLARIFICATION,missing_age,cgm_metrics,No population; eA1c use and interpretation age-dependent,Boundary: generic definition
+S00602,CGM accuracy,2,NEEDS_CLARIFICATION,missing_age,cgm_metrics,No population; accuracy standards (MARD) same but clinical thresholds differ by age,Boundary: generic definition
+S00603,MARD explained,2,NEEDS_CLARIFICATION,missing_age,cgm_metrics,No population; MARD meaning same but clinical relevance differs by age,Boundary: generic definition
+S00604,CGM calibration,2,NEEDS_CLARIFICATION,missing_age,cgm,No population; calibration needs and frequency differ by age and device,Boundary: generic definition
+S00604,Fingerstick calibration,2,NEEDS_CLARIFICATION,missing_age,cgm,No population; calibration requirements differ by device and age,Boundary: generic definition
+S00605,No calibration CGM,2,NEEDS_CLARIFICATION,missing_age,cgm,No population; factory-calibrated devices have different age approvals,Boundary: generic definition
+S00606,CGM sensor life,2,NEEDS_CLARIFICATION,missing_age,cgm,No population; sensor wear duration approvals differ by age,Boundary: generic definition
+S00607,CGM age approval,2,NEEDS_CLARIFICATION,missing_age,cgm,No specific population; asking about age approvals implies mixed scope,Boundary: generic definition
+S00608,What age for CGM?,2,NEEDS_CLARIFICATION,missing_age,cgm,No specific population; asking for age range implies mixed scope,Boundary: generic definition
+S00609,CGM for kids,2,NEEDS_CLARIFICATION,ambiguous_terminology,kid,'Kids' informal, no specific age range; generally pediatric but ambiguous,Boundary: informal term
+S00610,CGM for teens,2,NEEDS_CLARIFICATION,ambiguous_terminology,teenager,'Teens' 13-19; 18-19 borderline; no explicit age,Boundary: age 18-19 ambiguous
+S00611,CGM for children,2,NEEDS_CLARIFICATION,ambiguous_terminology,child,'Children' implies ≤18 but no specific age; generally IN_SCOPE but ambiguous,Boundary: informal term
+S00612,CGM for adolescents,2,NEEDS_CLARIFICATION,ambiguous_terminology,adolescent,'Adolescents' 10-19; 18-19 borderline; no explicit age,Boundary: age 18-19 ambiguous
+S00613,CGM for young adults,2,NEEDS_CLARIFICATION,ambiguous_terminology,young_adult,'Young adults' no age; no childhood-onset context,Boundary: ambiguous term
+S00614,CGM for adults,2,NEEDS_CLARIFICATION,ambiguous_terminology,adult,'Adults' explicit but no age number; could be any adult age,Boundary: ambiguous term

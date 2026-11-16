@@ -1,0 +1,119 @@
+{"question": "What about school nurse?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no population or prior context"}
+{"question": "And 504 plan?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up with abbreviation; no context"}
+{"question": "How about IEP?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment with abbreviation; no context"}
+{"question": "And accommodations?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "What about teacher?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no population or context"}
+{"question": "And classmates?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context for classifier"}
+{"question": "How about friends?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about siblings?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And parents?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about family?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "What about grandma?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "And grandpa?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context available"}
+{"question": "How about babysitter?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no population or prior context"}
+{"question": "And daycare?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context for classifier"}
+{"question": "What about preschool?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population context"}
+{"question": "And kindergarten?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about first grade?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And high school?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about college?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "And work?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about job?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "What about career?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population context"}
+{"question": "And insurance?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about cost?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "And affordability?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about copay?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context available"}
+{"question": "And deductible?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about coverage?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "What about prior auth?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment with abbreviation; no context"}
+{"question": "And formulary?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context for classifier"}
+{"question": "What about generic?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population context"}
+{"question": "And brand?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about biosimilar?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And interchangeability?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about pharmacy?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "And mail order?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about specialty pharmacy?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And patient assistance?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about coupon?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population context"}
+{"question": "And discount?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about free?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And sample?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about trial?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context available"}
+{"question": "And study?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about research?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And clinical trial?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment with abbreviation; no context"}
+{"question": "What about FDA?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up with abbreviation; no context"}
+{"question": "And approval?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "How about new drug?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And pipeline?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "What about cure?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population context"}
+{"question": "And remission?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about beta cell?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And islet?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about transplant?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no population or prior context"}
+{"question": "And pancreas?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about stem cell?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And immunotherapy?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about vaccine?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population context"}
+{"question": "And prevention?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about screening?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And early detection?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about risk?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no context available"}
+{"question": "And genetics?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about family history?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And heredity?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about gene?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population context"}
+{"question": "And DNA?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about HLA?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up with abbreviation; no context"}
+{"question": "And antibody?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "What about GAD?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up with abbreviation; no context"}
+{"question": "And IA-2?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment with abbreviation; no context"}
+{"question": "How about ZnT8?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up with abbreviation; no context"}
+{"question": "And TPO?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment with abbreviation; no context"}
+{"question": "What about thyroid?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And celiac?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; classifier sees only this"}
+{"question": "How about Addison?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up; no prior context available"}
+{"question": "And autoimmune?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "What about polyglandular?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Content-free fragment; no population context"}
+{"question": "And syndrome?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare fragment; no context for classifier"}
+{"question": "How about APS?", "category": "bare_pronoun_followup", "subcategory": "no_context", "annotation_reason": "Bare follow-up with abbreviation; no context"}
+{"question": "What is diabetes?", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; definition and implications differ by age group"}
+{"question": "Define diabetes", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No age context; diabetes encompasses multiple types across lifespan"}
+{"question": "What does diabetes mean?", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population specified; meaning varies by type and age"}
+{"question": "Diabetes definition", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; definition alone doesn't specify scope"}
+{"question": "Explain diabetes", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No audience or population; explanation would differ for child vs adult"}
+{"question": "Diabetes basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population context; basics differ by age and type"}
+{"question": "Diabetes overview", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No age or type specified; overview scope ambiguous"}
+{"question": "What is T1D?", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; T1D presentation and management differ by age"}
+{"question": "What is T2D?", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; T2D in youth vs adults differs in pathophysiology"}
+{"question": "Type 1 diabetes explained", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; explanation differs for child, teen, adult"}
+{"question": "Type 2 diabetes explained", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; pediatric T2D differs from adult T2D"}
+{"question": "T1D basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No age context; basics of T1D management differ by age"}
+{"question": "T2D basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; T2D basics differ for youth vs adults"}
+{"question": "Diabetes 101", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No audience specified; 101-level content differs by target age"}
+{"question": "Intro to diabetes", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; introduction scope ambiguous"}
+{"question": "Diabetes fundamentals", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No age or type; fundamentals vary by population"}
+{"question": "What is blood sugar?", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; physiology same but targets and interpretation differ by age"}
+{"question": "What is glucose?", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population context; glucose physiology same but clinical context differs"}
+{"question": "What is insulin?", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; insulin physiology same but clinical use differs by age"}
+{"question": "What is HbA1c?", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; HbA1c interpretation and targets differ by age"}
+{"question": "What is A1c?", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population context; A1c meaning and targets age-dependent"}
+{"question": "A1c explanation", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; explanation of A1c differs for pediatric vs adult context"}
+{"question": "HbA1c basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No age specified; HbA1c fundamentals differ by population"}
+{"question": "Glucose monitoring basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; monitoring methods and targets differ by age"}
+{"question": "CGM basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; CGM use, devices, and targets differ by age"}
+{"question": "SMBG basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; SMBG frequency and targets differ by age"}
+{"question": "Insulin basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; insulin types, regimens, dosing differ by age"}
+{"question": "Pump basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; pump therapy indications and management differ by age"}
+{"question": "MDI basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; MDI regimens and dosing differ by age"}
+{"question": "Basal insulin basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; basal insulin types and dosing differ by age"}
+{"question": "Bolus insulin basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; bolus insulin types and dosing differ by age"}
+{"question": "Carb counting basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; carb counting methods and ratios differ by age"}
+{"question": "Nutrition basics for diabetes", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; dietary recommendations differ for children vs adults"}
+{"question": "Exercise basics for diabetes", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; exercise guidelines and adjustments differ by age"}
+{"question": "Complications basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; complication screening and prevention differ by age"}
+{"question": "DKA basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; DKA risk, presentation, management differ by age"}
+{"question": "Hypoglycemia basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; hypo recognition and treatment differ by age"}
+{"question": "Hyperglycemia basics", "category": "missing_age", "subcategory": "definition", "annotation_reason": "No population; hyper recognition and treatment differ by age"}

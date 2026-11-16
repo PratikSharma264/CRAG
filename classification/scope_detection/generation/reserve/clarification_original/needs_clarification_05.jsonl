@@ -1,0 +1,91 @@
+{"question": "What is time in range?", "category": "missing_age", "subcategory": "cgm_metrics", "annotation_reason": "No population; TIR targets differ by age (pediatric tighter than adult)"}
+{"question": "TIR explanation", "category": "missing_age", "subcategory": "cgm_metrics", "annotation_reason": "No population; TIR targets and interpretation age-dependent"}
+{"question": "Time below range", "category": "missing_age", "subcategory": "cgm_metrics", "annotation_reason": "No population; TBR targets differ by age"}
+{"question": "Time above range", "category": "missing_age", "subcategory": "cgm_metrics", "annotation_reason": "No population; TAR targets differ by age"}
+{"question": "CGM metrics", "category": "missing_age", "subcategory": "cgm_metrics", "annotation_reason": "No population; CGV, GVI, TIR, TBR, TAR targets age-dependent"}
+{"question": "Glucose variability", "category": "missing_age", "subcategory": "cgm_metrics", "annotation_reason": "No population; variability metrics and targets differ by age"}
+{"question": "What is GMI?", "category": "missing_age", "subcategory": "cgm_metrics", "annotation_reason": "No population; GMI interpretation differs by age"}
+{"question": "Glucose management indicator", "category": "missing_age", "subcategory": "cgm_metrics", "annotation_reason": "No population; GMI targets and use differ by age"}
+{"question": "What is eA1c?", "category": "missing_age", "subcategory": "cgm_metrics", "annotation_reason": "No population; estimated A1c interpretation differs by age"}
+{"question": "Estimated A1c", "category": "missing_age", "subcategory": "cgm_metrics", "annotation_reason": "No population; eA1c use and interpretation age-dependent"}
+{"question": "CGM accuracy", "category": "missing_age", "subcategory": "cgm_metrics", "annotation_reason": "No population; accuracy standards (MARD) same but clinical thresholds differ by age"}
+{"question": "MARD explained", "category": "missing_age", "subcategory": "cgm_metrics", "annotation_reason": "No population; MARD meaning same but clinical relevance differs by age"}
+{"question": "CGM calibration", "category": "missing_age", "subcategory": "cgm", "annotation_reason": "No population; calibration needs and frequency differ by age and device"}
+{"question": "Fingerstick calibration", "category": "missing_age", "subcategory": "cgm", "annotation_reason": "No population; calibration requirements differ by device and age"}
+{"question": "No calibration CGM", "category": "missing_age", "subcategory": "cgm", "annotation_reason": "No population; factory-calibrated devices have different age approvals"}
+{"question": "CGM sensor life", "category": "missing_age", "subcategory": "cgm", "annotation_reason": "No population; sensor wear duration approvals differ by age"}
+{"question": "CGM age approval", "category": "missing_age", "subcategory": "cgm", "annotation_reason": "No specific population; asking about age approvals implies mixed scope"}
+{"question": "What age for CGM?", "category": "missing_age", "subcategory": "cgm", "annotation_reason": "No specific population; asking for age range implies mixed scope"}
+{"question": "CGM for kids", "category": "ambiguous_terminology", "subcategory": "kid", "annotation_reason": "'Kids' informal, no specific age range; generally pediatric but ambiguous"}
+{"question": "CGM for teens", "category": "ambiguous_terminology", "subcategory": "teenager", "annotation_reason": "'Teens' 13-19; 18-19 borderline; no explicit age"}
+{"question": "CGM for children", "category": "ambiguous_terminology", "subcategory": "child", "annotation_reason": "'Children' implies ≤18 but no specific age; generally IN_SCOPE but ambiguous"}
+{"question": "CGM for adolescents", "category": "ambiguous_terminology", "subcategory": "adolescent", "annotation_reason": "'Adolescents' 10-19; 18-19 borderline; no explicit age"}
+{"question": "CGM for young adults", "category": "ambiguous_terminology", "subcategory": "young_adult", "annotation_reason": "'Young adults' no age; no childhood-onset context"}
+{"question": "CGM for adults", "category": "ambiguous_terminology", "subcategory": "adult", "annotation_reason": "'Adults' explicit but no age number; could be any adult age"}
+{"question": "Insulin pump basics", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; pump therapy indications and management differ by age"}
+{"question": "Pump therapy explained", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; pump explanation scope ambiguous"}
+{"question": "Insulin pump how it works", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; pump mechanics same but clinical use differs by age"}
+{"question": "Pump vs injections", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; comparison differs for pediatric vs adult patients"}
+{"question": "MDI vs pump", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; regimen comparison differs by age group"}
+{"question": "Basal bolus vs pump", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; comparison differs for children vs adults"}
+{"question": "What is basal insulin?", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; basal insulin types and dosing differ by age"}
+{"question": "What is bolus insulin?", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; bolus insulin types and dosing differ by age"}
+{"question": "Basal insulin types", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; available basal insulins and approvals differ by age"}
+{"question": "Bolus insulin types", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; available bolus insulins and approvals differ by age"}
+{"question": "Rapid acting insulin", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; rapid-acting insulin use and dosing differ by age"}
+{"question": "Long acting insulin", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; long-acting insulin types and dosing differ by age"}
+{"question": "Ultra long acting insulin", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; ultra-long approvals and use differ by age"}
+{"question": "Premixed insulin", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; premixed use and ratios differ by age"}
+{"question": "Insulin concentration", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; U100 vs U200 vs U300 approvals differ by age"}
+{"question": "U100 vs U200", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; concentration choices differ by age and needs"}
+{"question": "Insulin pen vs vial", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; delivery device preferences and approvals differ by age"}
+{"question": "Smart insulin pen", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; smart pen features and approvals differ by age"}
+{"question": "Connected insulin pen", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; connected pen approvals and use differ by age"}
+{"question": "Insulin dosing", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; dosing algorithms completely age-dependent"}
+{"question": "Weight based dosing", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; weight-based dosing used in pediatrics, less in adults"}
+{"question": "Total daily dose", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; TDD calculation and typical ranges differ by age"}
+{"question": "Insulin to carb ratio", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; ICR calculation and typical values differ by age"}
+{"question": "Correction factor", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; ISF/correction factor calculation differs by age"}
+{"question": "Insulin sensitivity factor", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; ISF calculation and typical values differ by age"}
+{"question": "Basal rate", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; basal rates (units/hr) completely age/weight dependent"}
+{"question": "Bolus calculator", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; bolus calculators use age-specific parameters"}
+{"question": "Insulin stacking", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; stacking risk and prevention differ by regimen and age"}
+{"question": "Insulin on board", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; IOB concept same but duration and display differ by device/age"}
+{"question": "Active insulin time", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; active insulin time settings differ by insulin type and age"}
+{"question": "DIA setting", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; DIA (duration of insulin action) settings age-dependent"}
+{"question": "Injection site rotation", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; site options and rotation patterns differ by age"}
+{"question": "Lipohypertrophy", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; prevalence and management differ by age"}
+{"question": "Injection technique", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; technique (pinch, angle, depth) differs for children vs adults"}
+{"question": "Needle length", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; needle length recommendations differ by age and BMI"}
+{"question": "Pen needle size", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; pen needle gauge and length recommendations age-dependent"}
+{"question": "Syringe vs pen", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; device choice differs by age, dexterity, preference"}
+{"question": "Inhaled insulin", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; Afrezza approvals and use differ by age"}
+{"question": "Afrezza", "category": "missing_age", "subcategory": "insulin_therapy", "annotation_reason": "No population; inhaled insulin approvals and use differ by age"}
+{"question": "Insulin pump site", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; pump site options and rotation differ by age"}
+{"question": "Infusion set", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; infusion set types, lengths, angles differ by age"}
+{"question": "Cannula length", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; cannula length recommendations differ by age and BMI"}
+{"question": "Teflon vs steel", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; cannula material choice differs by age and preference"}
+{"question": "Pump site rotation", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; site rotation patterns differ by age and body habitus"}
+{"question": "Pump basal patterns", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; basal pattern programming differs by age and lifestyle"}
+{"question": "Temporary basal", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; temp basal use and settings differ by age and activity"}
+{"question": "Extended bolus", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; extended/dual wave bolus use differs by age and meal type"}
+{"question": "Super bolus", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; super bolus technique use differs by age and expertise"}
+{"question": "Pump suspension", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; pump suspend features and use differ by age and device"}
+{"question": "Auto mode", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; automated insulin delivery approvals differ by age"}
+{"question": "Closed loop", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; closed loop system approvals differ by age"}
+{"question": "Hybrid closed loop", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; HCL approvals and use differ by age"}
+{"question": "Artificial pancreas", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; AP system approvals differ by age"}
+{"question": "CGM integration", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; integrated CGM-pump systems have different age approvals"}
+{"question": "Sensor augmented pump", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; SAP features and approvals differ by age"}
+{"question": "Low glucose suspend", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; LGS/PLGS features and approvals differ by age"}
+{"question": "Predictive low glucose suspend", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; PLGS approvals and use differ by age"}
+{"question": "Auto correction", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; auto-correction features differ by system and age approval"}
+{"question": "Meal detection", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; meal detection/announcement features differ by system and age"}
+{"question": "Exercise mode", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; exercise/activity mode features differ by system and age"}
+{"question": "Sleep mode", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; sleep/overnight features differ by system and age"}
+{"question": "Pump alarm", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; alarm settings and thresholds differ by age and device"}
+{"question": "Pump alert", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; alert settings differ by age, device, and user"}
+{"question": "Pump troubleshooting", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; common issues and fixes differ by age and device"}
+{"question": "Occlusion alarm", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; occlusion detection and response differ by device and age"}
+{"question": "Battery life", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; battery life and charging differ by device, not really age-dependent but no context"}
+{"question": "Pump waterproof", "category": "missing_age", "subcategory": "pump", "annotation_reason": "No population; waterproof ratings differ by device, not age-dependent but no context"}

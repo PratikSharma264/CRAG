@@ -1,0 +1,692 @@
+[
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 40,
+    "question": "How to talk to a child about diabetes?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "unclear_patient_context",
+    "subcategory": "communication",
+    "annotation_reason": "Ambiguous: could be parent asking about their child, or clinician asking generally"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 50,
+    "question": "When to switch from pediatric to adult endocrinologist?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "transition",
+    "annotation_reason": "No current age stated; answer depends entirely on patient age and history"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 53,
+    "question": "Can young adults stay with pediatric endocrinologist?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "transition",
+    "annotation_reason": "'Young adults' ambiguous (18-30?); no childhood-onset context"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 75,
+    "question": "What's the difference between pediatric and adult diabetes?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly compares pediatric and adult populations"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 76,
+    "question": "Compare diabetes management in children and adults",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly mixed scope: both populations in one question"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 77,
+    "question": "Pediatric diabetes and adult hypertension",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "mixed_conditions",
+    "annotation_reason": "Combines in-scope (pediatric diabetes) with out-of-scope (adult hypertension)"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 79,
+    "question": "T1D in children vs T2D in adults",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly compares pediatric T1D with adult T2D"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 88,
+    "question": "Teenager with diabetes",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "teenager",
+    "annotation_reason": "'Teenager' implies 13-19 but 18-19 is borderline; no explicit age"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 89,
+    "question": "Adolescent with T1D",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "adolescent",
+    "annotation_reason": "'Adolescent' typically 10-19 but 18-19 borderline; no explicit age number"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 90,
+    "question": "Child with diabetes",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "child",
+    "annotation_reason": "'Child' could be up to 18 but no specific age; generally IN_SCOPE but ambiguous"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 91,
+    "question": "Pediatric patient with T2D",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "pediatric_t2d",
+    "annotation_reason": "'Pediatric' implies ≤18 but no explicit age; generally IN_SCOPE but ambiguous"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 93,
+    "question": "Is 19 considered pediatric?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "age_boundary",
+    "annotation_reason": "Asks about age boundary classification; no patient context"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 94,
+    "question": "At what age does pediatric end?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "age_boundary",
+    "annotation_reason": "Asks about age cutoff definition; no specific patient"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 98,
+    "question": "What is the cutoff for pediatric diabetes?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "age_boundary",
+    "annotation_reason": "Asks for definition of age cutoff; no patient context"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 107,
+    "question": "Prediabetes in children",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "prediabetes",
+    "annotation_reason": "'Children' implies pediatric but no specific age; generally IN_SCOPE but ambiguous"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 115,
+    "question": "How to transition from pediatric care",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "transition",
+    "annotation_reason": "No current age stated; transition timing depends on age and history"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 117,
+    "question": "Can adults see pediatric endocrinologists?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "transition",
+    "annotation_reason": "Asks about adult (out-of-scope) seeing pediatric provider; mixed context"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 118,
+    "question": "What happens after pediatric diabetes care?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "transition",
+    "annotation_reason": "No age specified; implies transition but context unclear"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 126,
+    "question": "What about at night for a child?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "bare_pronoun_followup",
+    "subcategory": "no_context",
+    "annotation_reason": "Bare follow-up 'what about at night' with 'for a child' but no prior context"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 127,
+    "question": "And for a teenager?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "bare_pronoun_followup",
+    "subcategory": "no_context",
+    "annotation_reason": "Bare follow-up with population hint but no content or prior context"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 129,
+    "question": "What about insulin for kids?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "bare_pronoun_followup",
+    "subcategory": "no_context",
+    "annotation_reason": "Content-free fragment with population hint but no prior context"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 132,
+    "question": "How about diet for children?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "bare_pronoun_followup",
+    "subcategory": "no_context",
+    "annotation_reason": "Content-free fragment; no prior context available"
+  },
+  {
+    "file": "needs_clarification_01.jsonl",
+    "line": 134,
+    "question": "What about complications in kids?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "bare_pronoun_followup",
+    "subcategory": "no_context",
+    "annotation_reason": "Bare follow-up with population hint; no prior context"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 1,
+    "question": "What is a normal blood sugar for a kid?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "kid",
+    "annotation_reason": "'Kid' informal, no specific age; generally pediatric but ambiguous"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 2,
+    "question": "Blood sugar target for a teenager",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "teenager",
+    "annotation_reason": "'Teenager' 13-19; 18-19 borderline without explicit age number"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 3,
+    "question": "HbA1c goal for adolescent",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "adolescent",
+    "annotation_reason": "'Adolescent' typically 10-19 but 18-19 borderline; no explicit age"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 4,
+    "question": "What should a child's A1c be?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "child",
+    "annotation_reason": "'Child' implies ≤18 but no specific age; generally IN_SCOPE but ambiguous"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 5,
+    "question": "Normal glucose for pediatric patient",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "pediatric",
+    "annotation_reason": "'Pediatric' implies ≤18 but no explicit age; generally IN_SCOPE but ambiguous"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 13,
+    "question": "Does pediatric end at 18?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "age_boundary",
+    "annotation_reason": "Asks for age cutoff definition; no patient context"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 14,
+    "question": "Is 18 still pediatric?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "age_boundary",
+    "annotation_reason": "Asks about classification of age 18; no patient context"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 15,
+    "question": "When does pediatric diabetes end?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "age_boundary",
+    "annotation_reason": "Asks for definition; no patient context"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 16,
+    "question": "Adult diabetes vs pediatric diabetes",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly compares adult (out-of-scope) and pediatric (in-scope) populations"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 17,
+    "question": "Differences between child and adult diabetes",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly mixed scope comparison"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 18,
+    "question": "Pediatric vs adult T1D management",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly compares pediatric and adult management"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 19,
+    "question": "Pediatric vs adult T2D treatment",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly compares pediatric and adult treatment"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 21,
+    "question": "Children vs adults with diabetes",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly mixed populations in one question"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 23,
+    "question": "Pediatric diabetes and adult comorbidities",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "mixed_conditions",
+    "annotation_reason": "Combines in-scope (pediatric diabetes) with out-of-scope (adult comorbidities)"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 24,
+    "question": "T1D in kids and T2D in adults",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly compares pediatric T1D with adult T2D"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 25,
+    "question": "What about diabetes in both kids and adults?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly asks about both populations"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 26,
+    "question": "Compare pediatric and adult DKA",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly compares DKA management in both populations"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 27,
+    "question": "Pediatric vs adult insulin dosing",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly compares dosing across populations"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 28,
+    "question": "CGM targets for kids vs adults",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly compares CGM targets across populations"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 29,
+    "question": "Complications in children vs adults",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "mixed_scope",
+    "subcategory": "compare_peds_adult",
+    "annotation_reason": "Explicitly compares complications across populations"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 30,
+    "question": "Transition from pediatric to adult care",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "transition",
+    "annotation_reason": "No age specified; transition applies to 18-25 but context unclear"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 31,
+    "question": "Moving from pediatric to adult endo",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "transition",
+    "annotation_reason": "No current age; transition timing depends on age and history"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 33,
+    "question": "When to leave pediatric endocrinologist",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "transition",
+    "annotation_reason": "No current age stated; answer depends entirely on patient age"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 44,
+    "question": "23 year old leaving pediatric care",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "transition",
+    "annotation_reason": "Age 23 but no explicit childhood-onset context"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 45,
+    "question": "24 and still seeing pediatric endo",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "transition",
+    "annotation_reason": "Age 24 seeing pediatric endo but no childhood-onset context stated"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 50,
+    "question": "29 diagnosed as child",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "age_boundary",
+    "annotation_reason": "Age 29 diagnosed as child; beyond transition range; ambiguous"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 60,
+    "question": "Pediatric diabetes patient now adult",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "childhood_onset",
+    "annotation_reason": "Former pediatric patient now adult; no age; ambiguous boundary"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 62,
+    "question": "Gestational diabetes in teen",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "pregnancy",
+    "annotation_reason": "'Teen' 13-19; 18-19 borderline; gestational diabetes typically adult context"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 66,
+    "question": "Teen pregnancy with T1D",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "pregnancy",
+    "annotation_reason": "'Teen' 13-19; 18-19 borderline; pregnancy adds adult context"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 67,
+    "question": "Adolescent pregnancy diabetes",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "pregnancy",
+    "annotation_reason": "'Adolescent' 10-19; 18-19 borderline; pregnancy context mixed"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 71,
+    "question": "Impaired fasting glucose in child",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "prediabetes",
+    "annotation_reason": "'Child' implies pediatric but no specific age; generally IN_SCOPE but ambiguous"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 72,
+    "question": "IGT in adolescent",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "prediabetes",
+    "annotation_reason": "'Adolescent' 10-19; 18-19 borderline; no explicit age"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 76,
+    "question": "Pre-diabetes in teenager",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "prediabetes",
+    "annotation_reason": "'Teenager' 13-19; 18-19 borderline; no explicit age"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 78,
+    "question": "Family history diabetes in kids",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "risk",
+    "annotation_reason": "'Kids' informal, no specific age; generally pediatric but ambiguous"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 79,
+    "question": "Genetic risk for diabetes in children",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "risk",
+    "annotation_reason": "'Children' implies ≤18 but no specific age; generally IN_SCOPE but ambiguous"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 88,
+    "question": "Kid in class has diabetes",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "unclear_patient_context",
+    "subcategory": "school_peer",
+    "annotation_reason": "'Kid in class' implies school-age but no specific age or diabetes type"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 91,
+    "question": "Friend's child has diabetes",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "unclear_patient_context",
+    "subcategory": "family_member",
+    "annotation_reason": "Friend's child's age not specified; could be any age"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 98,
+    "question": "Example: pediatric diabetes",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "unclear_patient_context",
+    "subcategory": "clinical_vignette",
+    "annotation_reason": "'Pediatric' stated but no specific age; example not a real question"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 99,
+    "question": "Sample question: child with T1D",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "unclear_patient_context",
+    "subcategory": "clinical_vignette",
+    "annotation_reason": "Sample/example question; no real patient context"
+  },
+  {
+    "file": "needs_clarification_02.jsonl",
+    "line": 100,
+    "question": "Test case: adolescent T2D",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "unclear_patient_context",
+    "subcategory": "clinical_vignette",
+    "annotation_reason": "Test/sample case; no real patient context"
+  },
+  {
+    "file": "needs_clarification_03.jsonl",
+    "line": 9,
+    "question": "Pediatric T1D or T2D",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "pediatric",
+    "annotation_reason": "'Pediatric' implies ≤18 but no explicit age; generally IN_SCOPE but ambiguous"
+  },
+  {
+    "file": "needs_clarification_03.jsonl",
+    "line": 28,
+    "question": "Infant diabetes",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "infant",
+    "annotation_reason": "'Infant' typically <1 year but no explicit age; generally IN_SCOPE but ambiguous"
+  },
+  {
+    "file": "needs_clarification_03.jsonl",
+    "line": 29,
+    "question": "Toddler with diabetes",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "toddler",
+    "annotation_reason": "'Toddler' 1-3 years but no explicit age; generally IN_SCOPE but ambiguous"
+  },
+  {
+    "file": "needs_clarification_03.jsonl",
+    "line": 42,
+    "question": "What about camp for kids?",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "bare_pronoun_followup",
+    "subcategory": "no_context",
+    "annotation_reason": "Bare follow-up with population hint but no content or context"
+  },
+  {
+    "file": "needs_clarification_05.jsonl",
+    "line": 19,
+    "question": "CGM for kids",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "kid",
+    "annotation_reason": "'Kids' informal, no specific age range; generally pediatric but ambiguous"
+  },
+  {
+    "file": "needs_clarification_05.jsonl",
+    "line": 21,
+    "question": "CGM for children",
+    "current_label": "",
+    "scope_label_name": "",
+    "category": "ambiguous_terminology",
+    "subcategory": "child",
+    "annotation_reason": "'Children' implies ≤18 but no specific age; generally IN_SCOPE but ambiguous"
+  }
+]

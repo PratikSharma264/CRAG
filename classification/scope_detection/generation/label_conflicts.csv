@@ -1,0 +1,70 @@
+file,question,current_label,proposed_label,reason
+needs_clarification_01.jsonl,How to talk to a child about diabetes?,2,2,KEEP: Unclear patient context (communication)
+needs_clarification_01.jsonl,When to switch from pediatric to adult endocrinologist?,2,2,KEEP: Age boundary meta-question (transition)
+needs_clarification_01.jsonl,Can young adults stay with pediatric endocrinologist?,2,2,KEEP: Age boundary meta-question (transition)
+needs_clarification_01.jsonl,What's the difference between pediatric and adult diabetes?,2,2,KEEP: Mixed scope (compare_peds_adult)
+needs_clarification_01.jsonl,Compare diabetes management in children and adults,2,2,KEEP: Mixed scope (compare_peds_adult)
+needs_clarification_01.jsonl,Pediatric diabetes and adult hypertension,2,2,KEEP: Mixed scope (mixed_conditions)
+needs_clarification_01.jsonl,T1D in children vs T2D in adults,2,2,KEEP: Mixed scope (compare_peds_adult)
+needs_clarification_01.jsonl,Teenager with diabetes,2,1,RELABEL: Clear pediatric population (teenager); no mixed scope
+needs_clarification_01.jsonl,Adolescent with T1D,2,1,RELABEL: Clear pediatric population (adolescent); no mixed scope
+needs_clarification_01.jsonl,Child with diabetes,2,1,RELABEL: Clear pediatric population (child); no mixed scope
+needs_clarification_01.jsonl,Pediatric patient with T2D,2,1,RELABEL: Clear pediatric population (pediatric_t2d); no mixed scope
+needs_clarification_01.jsonl,Is 19 considered pediatric?,2,2,KEEP: Age boundary meta-question
+needs_clarification_01.jsonl,At what age does pediatric end?,2,2,KEEP: Age boundary meta-question (age_boundary)
+needs_clarification_01.jsonl,What is the cutoff for pediatric diabetes?,2,2,KEEP: Age boundary meta-question (age_boundary)
+needs_clarification_01.jsonl,Prediabetes in children,2,1,RELABEL: Pediatric prediabetes/risk (prediabetes); no mixed scope
+needs_clarification_01.jsonl,How to transition from pediatric care,2,2,KEEP: Transition without age context (transition)
+needs_clarification_01.jsonl,Can adults see pediatric endocrinologists?,2,2,KEEP: Mixed scope (transition)
+needs_clarification_01.jsonl,What happens after pediatric diabetes care?,2,2,KEEP: Transition without age context (transition)
+needs_clarification_01.jsonl,What about at night for a child?,2,2,"KEEP: Bare pronoun follow-up, no context"
+needs_clarification_01.jsonl,And for a teenager?,2,2,"KEEP: Bare pronoun follow-up, no context"
+needs_clarification_01.jsonl,What about insulin for kids?,2,2,"KEEP: Bare pronoun follow-up, no context"
+needs_clarification_01.jsonl,How about diet for children?,2,2,"KEEP: Bare pronoun follow-up, no context"
+needs_clarification_01.jsonl,What about complications in kids?,2,2,"KEEP: Bare pronoun follow-up, no context"
+needs_clarification_02.jsonl,What is a normal blood sugar for a kid?,2,1,RELABEL: Clear pediatric population (kid); full question
+needs_clarification_02.jsonl,Blood sugar target for a teenager,2,1,RELABEL: Clear pediatric population (teenager); no mixed scope
+needs_clarification_02.jsonl,HbA1c goal for adolescent,2,1,RELABEL: Clear pediatric population (adolescent); no mixed scope
+needs_clarification_02.jsonl,What should a child's A1c be?,2,1,RELABEL: Clear pediatric population (child); no mixed scope
+needs_clarification_02.jsonl,Normal glucose for pediatric patient,2,1,RELABEL: Clear pediatric population (pediatric); no mixed scope
+needs_clarification_02.jsonl,Does pediatric end at 18?,2,2,KEEP: Age boundary meta-question
+needs_clarification_02.jsonl,Is 18 still pediatric?,2,2,KEEP: Age boundary meta-question
+needs_clarification_02.jsonl,When does pediatric diabetes end?,2,2,KEEP: Age boundary meta-question
+needs_clarification_02.jsonl,Adult diabetes vs pediatric diabetes,2,2,KEEP: Mixed scope (compare_peds_adult)
+needs_clarification_02.jsonl,Differences between child and adult diabetes,2,2,KEEP: Mixed scope (compare_peds_adult)
+needs_clarification_02.jsonl,Pediatric vs adult T1D management,2,2,KEEP: Mixed scope (compare_peds_adult)
+needs_clarification_02.jsonl,Pediatric vs adult T2D treatment,2,2,KEEP: Mixed scope (compare_peds_adult)
+needs_clarification_02.jsonl,Children vs adults with diabetes,2,2,KEEP: Mixed scope (compare_peds_adult)
+needs_clarification_02.jsonl,Pediatric diabetes and adult comorbidities,2,2,KEEP: Mixed scope (mixed_conditions)
+needs_clarification_02.jsonl,T1D in kids and T2D in adults,2,2,KEEP: Mixed scope (compare_peds_adult)
+needs_clarification_02.jsonl,What about diabetes in both kids and adults?,2,2,"KEEP: Bare pronoun follow-up, no context"
+needs_clarification_02.jsonl,Compare pediatric and adult DKA,2,2,KEEP: Mixed scope (compare_peds_adult)
+needs_clarification_02.jsonl,Pediatric vs adult insulin dosing,2,2,KEEP: Mixed scope (compare_peds_adult)
+needs_clarification_02.jsonl,CGM targets for kids vs adults,2,2,KEEP: Mixed scope (compare_peds_adult)
+needs_clarification_02.jsonl,Complications in children vs adults,2,2,KEEP: Mixed scope (compare_peds_adult)
+needs_clarification_02.jsonl,Transition from pediatric to adult care,2,2,KEEP: Transition without age context (transition)
+needs_clarification_02.jsonl,Moving from pediatric to adult endo,2,2,KEEP: Age boundary meta-question (transition)
+needs_clarification_02.jsonl,When to leave pediatric endocrinologist,2,2,KEEP: Age boundary meta-question (transition)
+needs_clarification_02.jsonl,23 year old leaving pediatric care,2,2,KEEP: ambiguous_terminology/transition - Age 23 but no explicit childhood-onset context
+needs_clarification_02.jsonl,24 and still seeing pediatric endo,2,2,KEEP: Age boundary meta-question (transition)
+needs_clarification_02.jsonl,29 diagnosed as child,2,2,KEEP: Age boundary meta-question (age_boundary)
+needs_clarification_02.jsonl,Pediatric diabetes patient now adult,2,2,KEEP: ambiguous_terminology/childhood_onset - Former pediatric patient now adult; no age; ambiguous boundary
+needs_clarification_02.jsonl,Gestational diabetes in teen,2,2,KEEP: Pregnancy adds adult context
+needs_clarification_02.jsonl,Teen pregnancy with T1D,2,2,KEEP: Pregnancy adds adult context
+needs_clarification_02.jsonl,Adolescent pregnancy diabetes,2,2,KEEP: Pregnancy adds adult context
+needs_clarification_02.jsonl,Impaired fasting glucose in child,2,1,RELABEL: Pediatric prediabetes (child); no mixed scope
+needs_clarification_02.jsonl,IGT in adolescent,2,1,RELABEL: Pediatric prediabetes/risk (prediabetes); no mixed scope
+needs_clarification_02.jsonl,Pre-diabetes in teenager,2,1,RELABEL: Pediatric prediabetes/risk (prediabetes); no mixed scope
+needs_clarification_02.jsonl,Family history diabetes in kids,2,1,RELABEL: Pediatric prediabetes/risk (risk); no mixed scope
+needs_clarification_02.jsonl,Genetic risk for diabetes in children,2,1,RELABEL: Pediatric prediabetes/risk (risk); no mixed scope
+needs_clarification_02.jsonl,Kid in class has diabetes,2,2,KEEP: Unclear patient context (third party)
+needs_clarification_02.jsonl,Friend's child has diabetes,2,2,KEEP: Unclear patient context (third party)
+needs_clarification_02.jsonl,Example: pediatric diabetes,2,2,"KEEP: Sample/test case, not real question"
+needs_clarification_02.jsonl,Sample question: child with T1D,2,2,"KEEP: Sample/test case, not real question"
+needs_clarification_02.jsonl,Test case: adolescent T2D,2,2,"KEEP: Sample/test case, not real question"
+needs_clarification_03.jsonl,Pediatric T1D or T2D,2,1,RELABEL: Pediatric diabetes type question
+needs_clarification_03.jsonl,Infant diabetes,2,1,RELABEL: Clear pediatric population (infant); no mixed scope
+needs_clarification_03.jsonl,Toddler with diabetes,2,1,RELABEL: Clear pediatric population (toddler); no mixed scope
+needs_clarification_03.jsonl,What about camp for kids?,2,2,"KEEP: Bare pronoun follow-up, no context"
+needs_clarification_05.jsonl,CGM for kids,2,1,RELABEL: CGM for pediatric population (kids)
+needs_clarification_05.jsonl,CGM for children,2,1,RELABEL: Clear pediatric population (child); no mixed scope

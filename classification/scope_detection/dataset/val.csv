@@ -1,0 +1,363 @@
+example_id,question,scope_label,scope_label_name,category,subcategory,annotation_reason
+S00015,Explaining T1D to 5-year-old's preschool class,1,IN_SCOPE,parents_caregivers_schools,preschool_education,"Explicit age (5), preschool"
+S00016,HbA1c vs fasting glucose vs OGTT for T2D diagnosis in 12-year-old,1,IN_SCOPE,pediatric_t2d,diagnosis,"Explicit age (12), diagnostic criteria comparison"
+S00030,Ramadan fasting for 16-year-old with T1D,1,IN_SCOPE,nutrition_lifestyle,fasting,"Explicit age (16), Ramadan"
+S00037,Airport security with insulin pump for 7-year-old,1,IN_SCOPE,insulin_therapy,airport_security,"Explicit age (7), airport"
+S00045,Metformin adjunct in obese adolescent with T1D,1,IN_SCOPE,pediatric_t1d,medications,"Adolescent explicit, metformin adjunct"
+S00048,Tanner stage and insulin sensitivity in adolescents,1,IN_SCOPE,insulin_therapy,Tanner_IS,"Adolescents explicit, Tanner stage"
+S00058,Patient-reported outcomes: Diabetes distress in 14-18 year olds,1,IN_SCOPE,psychosocial,PRO,Researcher + explicit age range (14-18)
+S00071,CGM cal needed for 4yo Libre 2?,1,IN_SCOPE,glucose_monitoring,CGM_cal,Abbreviations + explicit age (4)
+S00072,Parental anxiety about 5-year-old's nighttime lows,1,IN_SCOPE,psychosocial,parental_anxiety,"Parents + explicit age (5), anxiety"
+S00077,Glucagon training for teachers of 7-year-old,1,IN_SCOPE,psychosocial,glucagon_training,"Explicit age (7), glucagon training"
+S00093,Child disability tax credit for 8-year-old T1D,1,IN_SCOPE,parents_caregivers_schools,disability_tax_credit,"Explicit age (8), tax credit"
+S00096,Delayed puberty in 13-year-old girl with T1D,1,IN_SCOPE,complications,delayed_puberty,"Explicit age (13), delayed puberty"
+S00101,Lifestyle intervention 50+ hours for 11-year-old T2D,1,IN_SCOPE,pediatric_t2d,obesity_link,"Explicit age (11), intensive lifestyle"
+S00103,Sports team coach education for 14-year-old with T1D,1,IN_SCOPE,parents_caregivers_schools,coach_education,"Explicit age (14), coach education"
+S00117,Sibling jealousy when 4-year-old gets diagnosed,1,IN_SCOPE,pediatric_t1d,family,"Explicit age (4), sibling impact"
+S00121,Liraglutide approval for adolescents with T2D,1,IN_SCOPE,pediatric_t2d,treatment,"Adolescents explicit, liraglutide"
+S00125,"My 13-year-old diagnosed with type 2, now what?",1,IN_SCOPE,pediatric_t2d,diagnosis,"Caregiver + explicit age (13), new T2D"
+S00130,DKA management in a 10-year-old: fluid protocol,1,IN_SCOPE,pediatric_t1d,acute_complications,"Explicit age (10), DKA management"
+S00140,Reversing prediabetes in 12-year-old with lifestyle,1,IN_SCOPE,pediatric_t2d,prediabetes,"Explicit age (12), prediabetes reversal"
+S00148,CGM data interpretation for 15-year-old T2D,1,IN_SCOPE,pediatric_t2d,education,"Explicit age (15), CGM interpretation"
+S00149,Swimming glucose management for 9-year-old,1,IN_SCOPE,nutrition_lifestyle,swimming_glucose,"Explicit age (9), swimming"
+S00150,Grant proposal: Psychosocial outcomes in pediatric T1D,1,IN_SCOPE,psychosocial,grant,Researcher + pediatric explicit
+S00156,Glucagon administration training video for teachers 8yo,1,IN_SCOPE,parents_caregivers_schools,glucagon_training_teachers,"Explicit age (8), teacher training"
+S00158,Dairy-free calcium for 10-year-old T1D,1,IN_SCOPE,nutrition_lifestyle,dairy_free_calcium,"Explicit age (10), dairy-free"
+S00159,Playdate diabetes prep for 7-year-old,1,IN_SCOPE,parents_caregivers_schools,playdate_prep,"Explicit age (7), playdate"
+S00163,Impaired glucose tolerance 140-199 in 11-year-old: management,1,IN_SCOPE,pediatric_t2d,prediabetes,"Explicit age (11), IGT management"
+S00171,HbA1c point-of-care vs lab for 12-year-old,1,IN_SCOPE,glucose_monitoring,POC_vs_lab,"Explicit age (12), POC vs lab"
+S00194,Biofeedback for 10-year-old needle phobia,1,IN_SCOPE,psychosocial,biofeedback_needle,"Explicit age (10), needle phobia"
+S00196,DKA cerebral edema: warning signs in a 10-year-old,1,IN_SCOPE,complications,DKA_cerebral_edema,"Explicit age (10), cerebral edema"
+S00233,DKA recurrence prevention in 12-year-old,1,IN_SCOPE,complications,DKA_recurrence,"Explicit age (12), DKA recurrence"
+S00241,Field trip diabetes plan for 10-year-old,1,IN_SCOPE,psychosocial,field_trip,"Explicit age (10), field trip"
+S00245,School glucagon kit 7yo,1,IN_SCOPE,parents_caregivers_schools,school_glucagon,Abbreviations + explicit age (7)
+S00246,Basal test protocol 14yo pump,1,IN_SCOPE,insulin_therapy,basal_test,Abbreviations + explicit age (14)
+S00250,Anyone's 9yo on Omnipod 5? Thoughts?,1,IN_SCOPE,insulin_therapy,omnipod5,"Casual + explicit age (9), Omnipod 5"
+S00251,CGM compression low at night for 12-year-old,1,IN_SCOPE,glucose_monitoring,compression_low,"Explicit age (12), compression low"
+S00272,Honeymoon phase duration in 9-year-old vs 16-year-old,1,IN_SCOPE,pediatric_t1d,pathophysiology,"Explicit ages (9, 16), honeymoon"
+S00280,Eating disorder red flags in 15-year-old with T1D,1,IN_SCOPE,nutrition_lifestyle,eating_disorders,"Explicit age (15), eating disorders"
+S00283,Severe hypo in a 6-year-old: glucagon dosing,1,IN_SCOPE,pediatric_t1d,acute_complications,"Explicit age (6), glucagon"
+S00295,Gap year T1D management for 18-year-old,1,IN_SCOPE,transition,gap_year,"Explicit age (18), gap year"
+S00301,CGM metrics report for my 10-year-old: what to review,1,IN_SCOPE,glucose_monitoring,CGM_metrics,"Caregiver + explicit age (10), CGM metrics"
+S00306,Schol wont let 7yo test sugar,1,IN_SCOPE,parents_caregivers_schools,school_testing,"Typos: Schol, 7yo + explicit age (7)"
+S00307,Picky eater division of responsibility for 5-year-old,1,IN_SCOPE,nutrition_lifestyle,division_responsibility,"Explicit age (5), DOR"
+S00319,Diabetes education curriculum for middle school T1D,1,IN_SCOPE,pediatric_t1d,education_curriculum,"Middle school = adolescent, education"
+S00325,Family therapy for 8-year-old T1D conflict,1,IN_SCOPE,psychosocial,family_therapy,"Explicit age (8), family therapy"
+S00326,Vitiligo screening in 10-year-old T1D,1,IN_SCOPE,complications,vitiligo_screening,"Explicit age (10), vitiligo"
+S00330,Genetic epidemiology: T1D incidence in children by HLA type,1,IN_SCOPE,pediatric_t1d,genetic_epi,Researcher + children explicit
+S00333,Sports and exercise management for 14-year-old T1D,1,IN_SCOPE,pediatric_t1d,exercise,"Explicit age (14), sports"
+S00337,How to explain T1D to my 6-year-old's classmates,1,IN_SCOPE,pediatric_t1d,education,"Explicit age (6), peer education"
+S00340,Theater rehearsal snack for 11-year-old T1D,1,IN_SCOPE,parents_caregivers_schools,theater_snack,"Explicit age (11), theater"
+S00341,"My teen keeps forgetting boluses, any tricks?",1,IN_SCOPE,pediatric_t1d,insulin_therapy,"Teen = adolescent, adherence"
+S00347,Lyumjev approval age for pediatric use,1,IN_SCOPE,insulin_therapy,lyumjev_age,"Pediatric explicit, Lyumjev"
+S00349,Cold weather practice T1D for 10-year-old hockey,1,IN_SCOPE,parents_caregivers_schools,cold_practice,"Explicit age (10), cold practice"
+S00354,CGM not accurat for my 6 yo son,1,IN_SCOPE,glucose_monitoring,CGM_accuracy,"Typos: accurat, yo + explicit age (6)"
+S00368,Transition for youth with T2D diagnosed at 14,1,IN_SCOPE,transition,T2D_transition,"Diagnosed at 14 = pediatric, T2D transition"
+S00384,College prep self-management for 17-year-old T1D,1,IN_SCOPE,transition,college_self_management,"Explicit age (17), college prep self-management"
+S00387,Puberty + T1D = nightmare for my 13yo boy,1,IN_SCOPE,pediatric_t1d,puberty,Caregiver + explicit age (13)
+S00390,CGM patterns: nocturnal hypoglycemia in 10-year-old,1,IN_SCOPE,glucose_monitoring,CGM_nocturnal,"Explicit age (10), nocturnal"
+S00391,Net carbs vs total carbs for 10-year-old keto,1,IN_SCOPE,nutrition_lifestyle,net_vs_total,"Explicit age (10), net carbs"
+S00393,Foster parent T1D training for 7-year-old,1,IN_SCOPE,parents_caregivers_schools,foster_parent,"Explicit age (7), foster parent"
+S00396,DKA resolution criteria for 8-year-old,1,IN_SCOPE,complications,DKA_resolution,"Explicit age (8), resolution"
+S00408,CGM high alert for 8-year-old ketosis prevention,1,IN_SCOPE,glucose_monitoring,high_alert_ketosis,"Explicit age (8), high alert"
+S00418,Teen refusing to wear CGM - any tips?,1,IN_SCOPE,glucose_monitoring,CGM_adherence,"Teen = adolescent, CGM adherence"
+S00420,Liraglutide 1.8mg for 14-year-old T2D: dosing,1,IN_SCOPE,pediatric_t2d,treatment,"Explicit age (14), liraglutide dosing"
+S00421,Consultation: Insulin pump candidacy for 11-year-old,1,IN_SCOPE,insulin_therapy,pump_candidacy,Clinical + explicit age (11)
+S00425,Diabetes camp medical staff for 9-year-old,1,IN_SCOPE,parents_caregivers_schools,camp_medical_staff,"Explicit age (9), camp staff"
+S00426,Glycemic index for 9-year-old meal planning,1,IN_SCOPE,nutrition_lifestyle,glycemic_index,"Explicit age (9), GI"
+S00442,Hypoglycemia recognition in 10-year-old T2D on insulin,1,IN_SCOPE,pediatric_t2d,education,"Explicit age (10), hypo recognition"
+S00445,Insurance denied pump for my 7yo - appeal?,1,IN_SCOPE,insulin_therapy,insurance_denial,Caregiver + explicit age (7)
+S00451,DEPS-R screening in pediatric diabetes clinic,1,IN_SCOPE,pediatric_t1d,eating_disorders,"Pediatric explicit, DEPS-R"
+S00455,College apps for 18yo with T1D,1,IN_SCOPE,transition,college_apps,"Explicit age (18), college apps"
+S00458,Non-mydriatic fundus photography for 10-year-old,1,IN_SCOPE,complications,fundus_photo,"Explicit age (10), fundus"
+S00467,Healthcare autonomy assessment for 17-year-old,1,IN_SCOPE,transition,autonomy_assessment,"Explicit age (17), autonomy"
+S00468,CGM accuracy MARD <10% for 5-year-old,1,IN_SCOPE,glucose_monitoring,MARD_10,"Explicit age (5), MARD"
+S00473,Concussion protocol T1D for 14-year-old football,1,IN_SCOPE,parents_caregivers_schools,concussion_T1D,"Explicit age (14), concussion"
+S00481,Pharmacovigilance: SGLT2 inhibitor safety in pediatric T1D,1,IN_SCOPE,pediatric_t1d,pharmacovigilance,Researcher + pediatric explicit
+S00484,Lipid screening fasting vs non-fasting for 10-year-old,1,IN_SCOPE,complications,lipid_fasting,"Explicit age (10), lipid screening"
+S00485,Gluten-free diet growth impact in 6-year-old T1D,1,IN_SCOPE,complications,GF_diet_growth,"Explicit age (6), GF diet"
+S00495,Maternal diabetes in pregnancy: offspring T2D risk at age 8,1,IN_SCOPE,pediatric_t2d,risk_factors,"Explicit age (8), maternal diabetes risk"
+S00496,HbA1c 5.7-6.4% in 10-year-old: prediabetes management,1,IN_SCOPE,pediatric_t2d,prediabetes,"Explicit age (10), prediabetes HbA1c"
+S00497,Sharing CGM data with school nurse for 11-year-old,1,IN_SCOPE,glucose_monitoring,data_sharing,"School nurse + explicit age (11), data sharing"
+S00500,High altitude glucose for 12-year-old ski trip,1,IN_SCOPE,nutrition_lifestyle,high_altitude,"Explicit age (12), altitude"
+S00502,Daycare diabetes plan for 3-year-old with T1D,1,IN_SCOPE,parents_caregivers_schools,daycare_plan,"Explicit age (3), daycare"
+S00515,ADA Title II protection for 11-year-old student T1D,1,IN_SCOPE,parents_caregivers_schools,ADA_Title_II,"Explicit age (11), ADA Title II"
+S00520,16yo driving with T1D - scary!,1,IN_SCOPE,transition,driving,"Caregiver + explicit age (16), driving"
+S00521,Katie Beckett waiver for 7-year-old T1D,1,IN_SCOPE,parents_caregivers_schools,Katie_Beckett,"Explicit age (7), Katie Beckett"
+S00522,Long-acting insulin backup for pump user 13-year-old,1,IN_SCOPE,insulin_therapy,basal_backup,"Explicit age (13), backup"
+S00539,Can a 2-year-old be diagnosed with type 1 diabetes?,1,IN_SCOPE,pediatric_t1d,diagnosis,"Explicit age (2), T1D diagnosis"
+S00544,Correction factor 1800 rule for 10-year-old,1,IN_SCOPE,insulin_therapy,CF_1800_rule,"Explicit age (10), correction factor"
+S00547,SMBG freq for 12yo T2D,1,IN_SCOPE,glucose_monitoring,SMBG_freq,Abbreviations + explicit age (12)
+S00552,PSAT accommodations for 15-year-old T1D,1,IN_SCOPE,parents_caregivers_schools,PSAT_accommodations,"Explicit age (15), PSAT"
+S00555,Rights of student with T1D under ADA/Section 504,1,IN_SCOPE,parents_caregivers_schools,legal_rights,"Student = pediatric, legal rights"
+S00557,Basal insulin dose per kg for 6-year-old starting glargine,1,IN_SCOPE,insulin_therapy,basal_dosing,"Explicit age (6), weight-based dosing"
+S00565,Divorced parent communication app T1D 9-year-old,1,IN_SCOPE,parents_caregivers_schools,divorced_app,"Explicit age (9), divorced parent"
+S00566,Hypoglycemia seizure in a 6-year-old: aftermath,1,IN_SCOPE,complications,hypo_seizure,"Explicit age (6), seizure"
+S00586,Sibling support workshop for 7-year-old T1D brother,1,IN_SCOPE,psychosocial,sibling_workshop,"Explicit age (7), sibling"
+S00594,Is Libre 3 accurate enough for a toddler?,1,IN_SCOPE,pediatric_t1d,glucose_monitoring,"Toddler = pediatric, specific device"
+S00605,Time above range <25% for 14-year-old,1,IN_SCOPE,glucose_monitoring,TAR_25,"Explicit age (14), TAR target"
+S00614,AndroidAPS for teen with T1D: setup guide,1,IN_SCOPE,insulin_therapy,AndroidAPS,"Teen = adolescent, AndroidAPS"
+S00624,Average glucose 150 mg/dL for 8-year-old: what A1c?,1,IN_SCOPE,glucose_monitoring,avg_glucose_A1c,"Explicit age (8), avg glucose"
+S00633,CGM urgent low soon alert for 6-year-old,1,IN_SCOPE,glucose_monitoring,urgent_low_soon,"Explicit age (6), urgent low"
+S00639,Bariatric surgery criteria for 17-year-old with T2D,1,IN_SCOPE,pediatric_t2d,treatment,"Explicit age (17), bariatric surgery"
+S00642,Enterovirus link to T1D in toddlers,1,IN_SCOPE,pediatric_t1d,etiology,"Toddlers = pediatric, enterovirus"
+S00646,Switching from NPH to glargine in a 12-year-old,1,IN_SCOPE,pediatric_t1d,insulin_therapy,"Explicit age (12), insulin switch"
+S00647,Halloween candy swap for 6-year-old T1D,1,IN_SCOPE,nutrition_lifestyle,Halloween_swap,"Explicit age (6), Halloween"
+S00671,"Is T1D hereditary? My 8-year-old diagnosed, risk for baby",1,IN_SCOPE,pediatric_t1d,genetics,"Caregiver + explicit ages (8, baby)"
+S00676,IOB COB settings for 11yo on Control-IQ,1,IN_SCOPE,insulin_therapy,IOB_COB,Abbreviations + explicit age (11)
+S00680,Insulin pen vs syringe for 6-year-old dexterity,1,IN_SCOPE,insulin_therapy,pen_vs_syringe,"Explicit age (6), dexterity"
+S00716,Transition clinic 17yo T1D,1,IN_SCOPE,transition,transition_clinic,Abbreviations + explicit age (17)
+S00723,Bolus calculator setup for 12-year-old new pump,1,IN_SCOPE,insulin_therapy,bolus_calc_setup,"Explicit age (12), bolus calc"
+S00727,Insurance card understanding for 18-year-old T1D,1,IN_SCOPE,transition,insurance_card,"Explicit age (18), insurance card"
+S00729,Self-advocacy training for 15-year-old T1D,1,IN_SCOPE,transition,self_advocacy,"Explicit age (15), self-advocacy"
+S00732,DKA scare with my 8yo last month - trauma,1,IN_SCOPE,complications,DKA_trauma,Caregiver + explicit age (8)
+S00734,Summer camp T2D management for 11-year-old,1,IN_SCOPE,pediatric_t2d,lifestyle,"Explicit age (11), summer camp"
+S00751,Dawn phenomenon basal increase for 13-year-old,1,IN_SCOPE,insulin_therapy,dawn_basal,"Explicit age (13), dawn phenomenon"
+S00760,Bariatric surgery remission T2D in 17-year-old,1,IN_SCOPE,complications,bariatric_remission,"Explicit age (17), bariatric"
+S00765,CGM receiver at school for 8-year-old: who monitors?,1,IN_SCOPE,parents_caregivers_schools,CGM_school,"Explicit age (8), CGM at school"
+S00768,Depression screening in adolescents with T1D,1,IN_SCOPE,psychosocial,depression,"Adolescents explicit, depression"
+S00773,"I was diagnosed with T1D at 12, now 23 and pregnant, how does childhood-onset affect my high-risk OB care?",1,IN_SCOPE,transition,pregnancy,"Diagnosed at 12 + age 23, pregnancy"
+S00792,"Study abroad in Italy at 20 with childhood-onset T1D, insulin supply logistics?",1,IN_SCOPE,transition,study_abroad_intl,"Childhood-onset + age 20, intl study abroad"
+S00798,"Pharmacy prescription transfer at 20 with T1D since age 11, how does it work?",1,IN_SCOPE,transition,rx_transfer,"Since age 11 + age 20, prescription transfer"
+S00800,"GoodRx insulin coupon at 19 with T1D since age 7, does it work?",1,IN_SCOPE,transition,goodrx,"Since age 7 + age 19, GoodRx"
+S00818,"Teen complains vision gets fuzzy after eating, could be T1D?",1,IN_SCOPE,pediatric_t1d,symptoms,Teen asking about postprandial blurred vision
+S00827,Counting education for 9-year-old?,1,IN_SCOPE,nutrition_lifestyle,nutrition_consult,"Explicit age (9), nutrition"
+S00830,My child has pump user ?,1,IN_SCOPE,insulin_therapy,basal_backup,"Explicit age (13), backup"
+S00839,"I'm 20, diagnosed with T1D at 10, what should I know about DKA prevention as an adult?",1,IN_SCOPE,transition,dka_prevention,Young adult with childhood-onset T1D asking about DKA prevention in adult context
+S00843,"I'm 24, diagnosed with T1D at 11, how do I manage diabetes burnout as a young adult?",1,IN_SCOPE,transition,burnout,Young adult with childhood-onset T1D asking about burnout management
+S00844,"I'm 22, diagnosed with T1D at 10, what should I know about alcohol and T1D as a young adult?",1,IN_SCOPE,transition,alcohol_safety,Young adult with childhood-onset T1D asking about alcohol management
+S00869,Body image issues in adolescent girls with T1D,1,IN_SCOPE,nutrition_lifestyle,body_image,"Adolescent girls explicit, body image"
+S00870,Diabetes medical management plan vs 504 vs IEP,1,IN_SCOPE,parents_caregivers_schools,DMMP_504_IEP,"School = pediatric, plan types"
+S00871,Transition readiness checklist for 16-year-old,1,IN_SCOPE,transition,readiness,"Explicit age (16), readiness"
+S00877,Ketone meter for 6-year-old: blood vs urine,1,IN_SCOPE,glucose_monitoring,ketone_meter,"Explicit age (6), ketone meter"
+S00883,Adolescent with T1D,1,IN_SCOPE,ambiguous_terminology,adolescent,"Relabeled from NEEDS_CLARIFICATION: clear pediatric population stated (child/teen/adolescent/pediatric/infant/toddler); per guidelines, explicit pediatric population = IN_SCOPE"
+S00889,HbA1c goal for adolescent,1,IN_SCOPE,ambiguous_terminology,adolescent,"Relabeled from NEEDS_CLARIFICATION: clear pediatric population stated (child/teen/adolescent/pediatric/infant/toddler); per guidelines, explicit pediatric population = IN_SCOPE"
+S00894,Pre-diabetes in teenager,1,IN_SCOPE,ambiguous_terminology,prediabetes,"Relabeled from NEEDS_CLARIFICATION: clear pediatric population stated (child/teen/adolescent/pediatric/infant/toddler); per guidelines, explicit pediatric population = IN_SCOPE"
+S00900,CGM for kids,1,IN_SCOPE,ambiguous_terminology,kid,"Relabeled from NEEDS_CLARIFICATION: clear pediatric population stated (child/teen/adolescent/pediatric/infant/toddler); per guidelines, explicit pediatric population = IN_SCOPE"
+S00902,47-year-old T2D: foot exam monofilament,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 47, adult foot exam"
+S00905,My 6-year-old has epilepsy: seizure medication,0,OUT_OF_SCOPE,hard_negative,pediatric_non_diabetes,"Explicit age 6, epilepsy not diabetes"
+S00909,90-year-old T1D: centenarian diabetes study,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 90, centenarian"
+S00913,64-year-old T2D: blood pressure target SPRINT,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 64, adult BP SPRINT"
+S00921,33-year-old T1D: time in range targets,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 33, adult T1D TIR"
+S00923,My 9-year-old has anxiety: therapy vs medication,0,OUT_OF_SCOPE,hard_negative,pediatric_non_diabetes,"Explicit age 9, anxiety not diabetes"
+S00950,35-year-old T1D since 30: CGM accuracy,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 35, T1D since 30 = adult onset"
+S00961,Stress management cortisol IR 35-year-old,0,OUT_OF_SCOPE,hard_negative,insulin_resistance_adult,"Explicit age 35, cortisol adult"
+S00962,70-year-old with diabetes: hypoglycemia risk,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 70, elderly hypoglycemia"
+S00967,Assisted living: sliding scale insulin 78yo,0,OUT_OF_SCOPE,hard_negative,hba1c_elderly,"Explicit age 78, assisted living elderly"
+S00971,9-year-old sleep apnea: adenotonsillectomy,0,OUT_OF_SCOPE,hard_negative,pediatric_non_diabetes,"Explicit age 9, sleep apnea not diabetes"
+S00972,66-year-old T1D: Medicare CGM criteria,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 66, Medicare CGM"
+S00974,44-year-old T2D: nephropathy ACE inhibitor,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 44, adult nephropathy"
+S00989,Magnesium glycinate insulin sensitivity 30yo,0,OUT_OF_SCOPE,hard_negative,insulin_resistance_adult,"Explicit age 30, magnesium adult"
+S00995,84-year-old T2D: advance care planning,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 84, advance care"
+S00998,HIIT protocol insulin sensitivity 28-year-old,0,OUT_OF_SCOPE,hard_negative,insulin_resistance_adult,"Explicit age 28, HIIT adult"
+S01010,Complication for watchOS glucose display,0,OUT_OF_SCOPE,non_medical,programming,watchOS complication = programming
+S01014,Conformal prediction for glucose interval estimates,0,OUT_OF_SCOPE,non_medical,ai_ml,Conformal prediction = AI/ML
+S01019,React Native vs Flutter for health app,0,OUT_OF_SCOPE,non_medical,programming,React Native Flutter = programming
+S01025,RevenueCat subscriptions for premium diabetes features,0,OUT_OF_SCOPE,non_medical,programming,RevenueCat = programming
+S01030,Optical properties of fluorescence glucose sensor,0,OUT_OF_SCOPE,non_medical,physics_chemistry,Optical properties = physics
+S01033,Meta-analysis of SGLT2 inhibitor trials,0,OUT_OF_SCOPE,non_medical,math_statistics,Meta-analysis = statistics
+S01037,Employer diabetes management program cost savings,0,OUT_OF_SCOPE,non_medical,economics,Employer program savings = economics
+S01043,Multi-state model for diabetes progression stages,0,OUT_OF_SCOPE,non_medical,math_statistics,Multi-state model = statistics
+S01058,Kaplan-Meier survival analysis for diabetes complications,0,OUT_OF_SCOPE,non_medical,math_statistics,Kaplan-Meier = statistics
+S01063,WebRTC for video consultation diabetes app,0,OUT_OF_SCOPE,non_medical,programming,WebRTC = programming
+S01067,Health equity diabetes policy recommendations,0,OUT_OF_SCOPE,non_medical,politics,Health equity policy = politics
+S01071,World Diabetes Day blue circle symbol,0,OUT_OF_SCOPE,non_medical,general_knowledge,Blue circle = general
+S01084,Mediation analysis for diabetes pathway effects,0,OUT_OF_SCOPE,non_medical,math_statistics,Mediation = statistics
+S01096,CrossFit with T1D: blood sugar management,0,OUT_OF_SCOPE,non_medical,sports,CrossFit = sports
+S01107,State Medicaid expansion diabetes outcomes,0,OUT_OF_SCOPE,non_medical,politics,Medicaid expansion = politics
+S01121,UTI prophylaxis in 5-year-old with VUR,0,OUT_OF_SCOPE,other_medical_pediatric,kidney,"Explicit age 5, UTI prophylaxis"
+S01132,Brain tumor symptoms in 12-year-old: headache and vomiting,0,OUT_OF_SCOPE,other_medical_pediatric,oncology,"Explicit age 12, brain tumor"
+S01137,Acute kidney injury in 12-year-old: causes,0,OUT_OF_SCOPE,other_medical_pediatric,kidney,"Explicit age 12, AKI"
+S01145,Liver enzyme elevation in 14-year-old: workup,0,OUT_OF_SCOPE,other_medical_pediatric,gi,"Explicit age 14, liver enzymes"
+S01147,Lymphadenopathy in 9-year-old: biopsy indications,0,OUT_OF_SCOPE,other_medical_pediatric,oncology,"Explicit age 9, lymphadenopathy"
+S01148,Developmental delay in 3-year-old: genetic testing,0,OUT_OF_SCOPE,other_medical_pediatric,neurology,"Explicit age 3, developmental delay"
+S01150,Chest pain in 12-year-old: cardiac workup,0,OUT_OF_SCOPE,other_medical_pediatric,cardiology,"Explicit age 12, chest pain"
+S01155,Hydrocephalus in 6-year-old: shunt malfunction signs,0,OUT_OF_SCOPE,other_medical_pediatric,neurology,"Explicit age 6, hydrocephalus"
+S01159,Short bowel syndrome in 5-year-old: nutrition,0,OUT_OF_SCOPE,other_medical_pediatric,gi,"Explicit age 5, SBS"
+S01171,Migraine prophylaxis for 35-year-old woman,0,OUT_OF_SCOPE,other_medical_adult,neurological,"Explicit age 35, adult migraine"
+S01187,Interstitial lung disease in 60-year-old,0,OUT_OF_SCOPE,other_medical_adult,respiratory,"Explicit age 60, adult ILD"
+S01207,PTSD in 35-year-old veteran: EMDR,0,OUT_OF_SCOPE,other_medical_adult,psychiatry,"Explicit age 35, PTSD"
+S01216,Acne in 25-year-old: isotretinoin monitoring,0,OUT_OF_SCOPE,other_medical_adult,dermatology,"Explicit age 25, acne"
+S01221,Shingles vaccine in 55-year-old: Shingrix,0,OUT_OF_SCOPE,other_medical_adult,infectious,"Explicit age 55, shingles"
+S01233,Travel medicine for 40-year-old: malaria prophylaxis,0,OUT_OF_SCOPE,other_medical_adult,infectious,"Explicit age 40, travel malaria"
+S01240,Parent with T1D: how to not project anxiety,0,OUT_OF_SCOPE,adult_diabetes,parent_own,"Parent explicit, own T1D = adult"
+S01248,Wound care for diabetic ulcer in 70-year-old,0,OUT_OF_SCOPE,adult_diabetes,t2d_complications,"Explicit age 70, wound care adult"
+S01264,Health literacy and T2D outcomes in 55-year-old,0,OUT_OF_SCOPE,adult_diabetes,t2d_psychosocial,"Explicit age 55, health literacy adult"
+S01273,Concentrated insulin U500 for 50-year-old T2D,0,OUT_OF_SCOPE,adult_diabetes,t2d_treatment,"Explicit age 50, U500 adult"
+S01284,Closed-loop systems for adults 30-60 with T1D,0,OUT_OF_SCOPE,adult_diabetes,t1d_treatment,"Adult age range explicit, AID"
+S01292,T1D and career: shift work at 40,0,OUT_OF_SCOPE,adult_diabetes,t1d_lifestyle,"Explicit age 40, adult shift work"
+S01296,Fear of hypoglycemia in 50-year-old T2D on insulin,0,OUT_OF_SCOPE,adult_diabetes,t2d_psychosocial,"Explicit age 50, fear hypo adult"
+S01310,Basal-bolus regimen for 28-year-old T1D,0,OUT_OF_SCOPE,adult_diabetes,t1d_treatment,"Explicit age 28, adult T1D treatment"
+S01318,T1D burnout in 35-year-old working professional,0,OUT_OF_SCOPE,adult_diabetes,t1d_psychosocial,"Explicit age 35, adult burnout"
+S01335,Breastfeeding with T2D medications: mom 32,0,OUT_OF_SCOPE,adult_diabetes,parent_own,"Mom age 32 explicit, own T2D = adult"
+S01340,Nephropathy progression adult T1D 20-year duration,0,OUT_OF_SCOPE,adult_diabetes,t1d_complications,"Adult explicit, nephropathy"
+S01343,65-year-old T2D: deintensification HbA1c 8%,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 65, elderly deintensification"
+S01347,74-year-old T2D: continuous glucose monitor,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 74, CGM elderly"
+S01350,73-year-old T1D: hypoglycemia unawareness risk,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 73, elderly hypo unawareness"
+S01364,32-year-old T1D: insulin pump start criteria,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 32, adult pump criteria"
+S01381,8-year-old sleep walking: safety measures,0,OUT_OF_SCOPE,hard_negative,pediatric_non_diabetes,"Explicit age 8, sleep walking not diabetes"
+S01386,11-year-old ADHD combined type: school IEP,0,OUT_OF_SCOPE,hard_negative,pediatric_non_diabetes,"Explicit age 11, ADHD not diabetes"
+S01388,74-year-old T2D: fall prevention program,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 74, elderly fall prevention"
+S01399,87-year-old T2D: hospice diabetes care,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 87, hospice"
+S01402,Shift work insulin resistance 35-year-old nurse,0,OUT_OF_SCOPE,hard_negative,insulin_resistance_adult,"Explicit age 35, shift work adult"
+S01407,Visceral fat insulin resistance 50-year-old male,0,OUT_OF_SCOPE,hard_negative,insulin_resistance_adult,"Explicit age 50, visceral fat adult"
+S01414,29-year-old diabetic: job disclosure,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 29, job disclosure adult"
+S01421,8-year-old conduct disorder: multisystemic therapy,0,OUT_OF_SCOPE,hard_negative,pediatric_non_diabetes,"Explicit age 8, conduct disorder not diabetes"
+S01423,Acanthosis nigricans in 42-year-old: insulin resistance,0,OUT_OF_SCOPE,hard_negative,insulin_resistance_adult,"Explicit age 42, acanthosis adult"
+S01428,38-year-old T1D: hybrid closed loop systems,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 38, adult HCL"
+S01431,Chromium picolinate insulin resistance 45-year-old,0,OUT_OF_SCOPE,hard_negative,insulin_resistance_adult,"Explicit age 45, chromium adult"
+S01442,81-year-old T1D: nursing home sliding scale,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 81, nursing home sliding scale"
+S01443,Berberine supplement for insulin resistance 40yo,0,OUT_OF_SCOPE,hard_negative,insulin_resistance_adult,"Explicit age 40, supplement adult"
+S01445,80-year-old diabetic: falls prevention,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 80, elderly falls"
+S01447,57-year-old T2D: trigger finger injection,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 57, adult trigger finger"
+S01453,Hypertriglyceridemia 38-year-old: insulin resistance,0,OUT_OF_SCOPE,hard_negative,insulin_resistance_adult,"Explicit age 38, hypertriglyceridemia adult"
+S01454,My 8-year-old has asthma and wants to play sports,0,OUT_OF_SCOPE,hard_negative,pediatric_non_diabetes,"Explicit age 8, asthma not diabetes"
+S01464,Reduce insulin in 85-year-old: weight loss,0,OUT_OF_SCOPE,hard_negative,hba1c_elderly,"Explicit age 85, reduce insulin elderly"
+S01468,9-year-old autism level 1: social skills group,0,OUT_OF_SCOPE,hard_negative,pediatric_non_diabetes,"Explicit age 9, autism not diabetes"
+S01469,40-year-old with T2D: how often should I get my feet checked?,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 40, adult foot exam"
+S01486,7-year-old with juvenile idiopathic arthritis: methotrexate monitoring,0,OUT_OF_SCOPE,other_medical_pediatric,rheumatology,"Explicit age 7, pediatric JIA"
+S01492,40-year-old with IBD: colonoscopy surveillance,0,OUT_OF_SCOPE,other_medical_adult,gastroenterology,"Explicit age 40, adult IBD"
+S01499,Feline diabetes remission diet: high protein low carb,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat diet = pets
+S01500,Diabetic ketoacidosis in cats: fluid therapy,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat DKA fluids = pets
+S01504,CGM sensor: enzyme vs fluorescence chemistry,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Sensor chemistry = pharma
+S01512,Insulin importation from Canada: FDA personal use,0,OUT_OF_SCOPE,diabetes_adjacent,politics,Importation = politics
+S01515,i2b2 diabetes query tool for research,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,i2b2 = programming
+S01523,Equine metabolic syndrome: oral sugar test,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Horse OST = pets
+S01542,History of sulfonylureas: from carbamides to glimepiride,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Sulfonylurea history = history
+S01544,Diabetes absenteeism presenteeism cost estimates,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Absenteeism costs = economics
+S01548,Can dogs get diabetes? Veterinary diabetes basics,0,OUT_OF_SCOPE,diabetes_adjacent,veterinary,Veterinary diabetes in pets
+S01558,Diabetes tattoo design ideas,0,OUT_OF_SCOPE,non_medical,lifestyle,Tattoo/lifestyle
+S01576,4-year-old with ear infection: antibiotic choice,0,OUT_OF_SCOPE,other_medical_pediatric,infections,Pediatric otitis media
+S01577,7-year-old with strep throat: rapid test vs culture,0,OUT_OF_SCOPE,other_medical_pediatric,infections,Pediatric strep
+S01587,70-year-old with atrial fibrillation: blood thinner choice,0,OUT_OF_SCOPE,other_medical_adult,cardiology,Adult AFib
+S01589,50-year-old with menopause: hormone therapy risks,0,OUT_OF_SCOPE,other_medical_adult,endocrine,Adult menopause
+S01598,CGM sensor insertion: does it hurt,0,OUT_OF_SCOPE,diabetes_adjacent,education,CGM insertion pain
+S01600,Ketone testing: when and how,0,OUT_OF_SCOPE,diabetes_adjacent,education,Ketone testing
+S01608,"My relative has urticaria in : omalizumab, what should we do?",0,OUT_OF_SCOPE,other_medical_adult,dermatology,"Explicit age 30, urticaria"
+S01612,Affordable insulin online cost?,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Insulin purchasing
+S01618,68-year-old T1D: pump coverage Medicare,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 68, pump Medicare"
+S01632,50-year-old T2D: SGLT2 inhibitor renal protection,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 50, adult T2D SGLT2"
+S01636,General knowledge: what is insulin hormone,0,OUT_OF_SCOPE,non_medical,general_knowledge,General knowledge = general
+S01638,Diabetes awareness month November facts,0,OUT_OF_SCOPE,non_medical,general_knowledge,Awareness month = general
+S01640,Famous scientists who discovered insulin,0,OUT_OF_SCOPE,non_medical,general_knowledge,Famous scientists = general
+S01641,Fastlane automation for diabetes app deployment,0,OUT_OF_SCOPE,non_medical,programming,Fastlane = programming
+S01650,Global insulin market size 2024 projections,0,OUT_OF_SCOPE,non_medical,economics,Global market size = economics
+S01666,Competing risk regression for diabetes mortality causes,0,OUT_OF_SCOPE,non_medical,math_statistics,Competing risk = statistics
+S01668,Medicare competitive bidding diabetes supplies,0,OUT_OF_SCOPE,non_medical,politics,Competitive bidding = politics
+S01670,Bayesian adaptive design for diabetes trial,0,OUT_OF_SCOPE,non_medical,math_statistics,Bayesian adaptive = statistics
+S01675,Isothermal titration calorimetry for insulin receptor,0,OUT_OF_SCOPE,non_medical,physics_chemistry,ITC = chemistry
+S01677,Cost-effectiveness of CGM for T2D Medicare,0,OUT_OF_SCOPE,non_medical,economics,Cost-effectiveness = economics
+S01681,Mixpanel analytics for glucose app user behavior,0,OUT_OF_SCOPE,non_medical,programming,Mixpanel = programming
+S01689,Raman spectroscopy for non-invasive glucose,0,OUT_OF_SCOPE,non_medical,physics_chemistry,Raman spectroscopy = physics
+S01707,WebSocket for real-time CGM data stream,0,OUT_OF_SCOPE,non_medical,programming,WebSocket = programming
+S01708,Frederick Banting birthday: November 14,0,OUT_OF_SCOPE,non_medical,general_knowledge,Banting birthday = general
+S01710,Analytical ultracentrifugation for insulin oligomerization,0,OUT_OF_SCOPE,non_medical,physics_chemistry,AUC = physics
+S01713,Diabetes memoir books best sellers list,0,OUT_OF_SCOPE,non_medical,entertainment,Memoir books = entertainment
+S01723,Permutation test for diabetes cluster randomized trial,0,OUT_OF_SCOPE,non_medical,math_statistics,Permutation cluster = statistics
+S01734,"Dad with T1D since 20s, now 45: pump options?",0,OUT_OF_SCOPE,adult_diabetes,parent_own,"Parent explicit, own T1D = adult"
+S01744,PBM spread pricing insulin: legislative fixes,0,OUT_OF_SCOPE,diabetes_adjacent,politics,PBM spread = politics
+S01745,Insulin supply chain: cold chain logistics,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Supply chain = pharma business
+S01753,Guinea pig diabetes: rare case reports,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Guinea pig diabetes = pets
+S01759,PPID Cushing's in horses: pergolide dosing,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Horse PPID = pets
+S01772,Libre CGM cat: sensor placement technique,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat Libre placement = pets
+S01786,History of diabetic retinopathy classification: ETDRS,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Retinopathy classification = history
+S01803,Laminitis in insulin resistant horse: management,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Horse laminitis = pets
+S01804,Canine diabetes cataracts: phacoemulsification,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Dog cataract surgery = pets
+S01807,PPID horse pergolide: ACTH monitoring,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Horse PPID ACTH = pets
+S01808,Interchangeable biosimilar insulin substitution,0,OUT_OF_SCOPE,diabetes_adjacent,politics,Interchangeability = politics
+S01810,Continuous glucose monitoring in diabetic dogs,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Dog CGM = pets
+S01813,Transient feline diabetes post-glucocorticoid,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat transient = pets
+S01817,Smart insulin pen: Bluetooth connectivity firmware,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Smart pen firmware = pharma
+S01823,OMOP common data model for diabetes research,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,OMOP CDM = programming
+S01832,Insulin pump: cartridge filling aseptic process,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Cartridge filling = pharma
+S01833,OpenEHR archetypes for diabetes clinical data,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,OpenEHR = programming
+S01835,LiveCharts2 WPF glucose real-time plotting,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,LiveCharts2 = programming
+S01836,Insulin patent cliff: glargine lispro aspart,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Patent cliff = pharma
+S01839,Nobel Prize 1923 Banting Macleod insulin discovery,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Nobel Prize = history
+S01844,Insulin manufacturing: cGMP facility inspection,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,cGMP inspection = pharma
+S01848,Disability payments for diabetes complications,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Disability payments = economics
+S01850,Insulin affordability programs: patient assistance,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Patient assistance = economics
+S01866,Accessibility VoiceOver TalkBack diabetes app,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Accessibility = programming
+S01875,Medicaid best price calculation for insulin,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Best price = economics
+S01876,Jetpack Compose LineChart glucose Android,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Compose LineChart = programming
+S01882,What causes diabetes?,2,NEEDS_CLARIFICATION,missing_age,etiology,No population; etiology differs for T1D (autoimmune) vs T2D (metabolic) and by age
+S01889,What is an insulin pump?,2,NEEDS_CLARIFICATION,missing_age,pump,"Pump therapy indications, settings, and management differ by age"
+S01894,Can you outgrow diabetes?,2,NEEDS_CLARIFICATION,missing_age,disease_course,"No population; T1D is lifelong, T2D remission possible, MODY varies"
+S01904,When to call the doctor?,2,NEEDS_CLARIFICATION,missing_age,when_to_call,"No population; red flags differ for infants, children, adults"
+S01909,What is lipohypertrophy?,2,NEEDS_CLARIFICATION,missing_age,lipohypertrophy,No population; prevalence and management differ by age
+S01913,What should a teacher know about diabetes?,2,NEEDS_CLARIFICATION,unclear_patient_context,school_education,Implies school context but no specific student age or diabetes type stated
+S01914,How to manage diabetes at school?,2,NEEDS_CLARIFICATION,unclear_patient_context,school_management,No student age specified; management differs by grade level
+S01921,What is transition care?,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,No age range specified; transition applies to 18-25 but context unclear
+S01924,What happens to diabetes care at 18?,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,Age 18 mentioned but no context on diabetes type or childhood-onset status
+S01933,What about exercise?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up; no population or prior context
+S01941,"My friend has diabetes, what should they eat?",2,NEEDS_CLARIFICATION,unclear_patient_context,nutrition,Friend's age and diabetes type not specified
+S01945,My sister is 19 and has T1D since childhood,2,NEEDS_CLARIFICATION,missing_age,transition,"Age 19 stated WITH childhood-onset; this is IN_SCOPE per guidelines, not clarification"
+S01964,19 year old newly diagnosed T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,"Age 19, new diagnosis (not childhood-onset); no transition context"
+S01971,Diabetes and pregnancy risks,2,NEEDS_CLARIFICATION,mixed_scope,pregnancy,No maternal age specified; risks differ by age
+S01980,How to transition from pediatric care,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,No current age stated; transition timing depends on age and history
+S01985,Emerging adult with T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,emerging_adult,'Emerging adult' 18-25 typical but no explicit age or childhood-onset
+S02003,How about an 18 year old?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 18 = pediatric per guidelines but phrased as boundary question
+S02023,When to leave pediatric endocrinologist,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,No current age stated; answer depends entirely on patient age
+S02031,21 and switching doctors,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,Age 21 but no childhood-onset or transition-from-pediatric context
+S02036,26 with childhood T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 26 with childhood-onset; beyond 19-25 transition range; ambiguous
+S02042,Long-term childhood T1D in adult,2,NEEDS_CLARIFICATION,ambiguous_terminology,childhood_onset,Adult with childhood-onset T1D; no specific age; ambiguous boundary
+S02043,Juvenile diabetes in adults,2,NEEDS_CLARIFICATION,ambiguous_terminology,juvenile_diabetes,'Juvenile diabetes' dated term; 'in adults' = mixed scope
+S02049,Pregnant with T1D at 17,2,NEEDS_CLARIFICATION,ambiguous_terminology,pregnancy,Age 17 pregnant with T1D; 17 is pediatric but pregnancy context mixed
+S02057,At risk for diabetes in youth,2,NEEDS_CLARIFICATION,ambiguous_terminology,risk,'Youth' undefined age range; risk factors differ by age
+S02059,My niece has T1D,2,NEEDS_CLARIFICATION,unclear_patient_context,family_member,Niece's age not specified; could be child or adult
+S02071,Patient on basal bolus,2,NEEDS_CLARIFICATION,unclear_patient_context,clinical_vignette,'Patient' no age; basal-bolus used in all ages
+S02073,Case of diabetes with DKA,2,NEEDS_CLARIFICATION,unclear_patient_context,clinical_vignette,No patient age or diabetes type in vignette
+S02081,How about morning?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Content-free fragment; no context for classifier
+S02083,And before meals?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up with meal timing but no prior context
+S02092,And basal rates?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up; no context for classifier
+S02105,Childhood T1D vs T2D,2,NEEDS_CLARIFICATION,ambiguous_terminology,child,'Childhood' implies pediatric but no specific age; generally IN_SCOPE but ambiguous
+S02111,First time diabetes,2,NEEDS_CLARIFICATION,missing_age,new_diagnosis,No population context; first presentation workup age-dependent
+S02117,Genetic testing for diabetes,2,NEEDS_CLARIFICATION,missing_age,diagnosis,No age or type; genetic testing indications differ (MODY vs T1D vs T2D)
+S02122,Elementary school diabetes,2,NEEDS_CLARIFICATION,ambiguous_terminology,school_age,'Elementary' typically 5-11 but no explicit age; generally IN_SCOPE but ambiguous
+S02138,And lunch?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up; no context for classifier
+S02144,How about sleepovers?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up; no population or prior context
+S02170,And kidneys?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up; no prior context available
+S02171,What about feet?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Content-free fragment; no population context
+S02172,And nerves?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare fragment; no context for classifier
+S02178,And puberty?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up; no context available
+S02196,And parents?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare fragment; no context for classifier
+S02198,What about grandma?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare fragment; classifier sees only this
+S02203,And kindergarten?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare fragment; no context for classifier
+S02219,How about biosimilar?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up; no prior context available
+S02222,And mail order?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare fragment; no context for classifier
+S02225,What about coupon?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Content-free fragment; no population context
+S02229,What about trial?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up; no context available
+S02231,How about research?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up; no prior context available
+S02233,And approval?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare fragment; classifier sees only this
+S02248,What about risk?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up; no context available
+S02262,And syndrome?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare fragment; no context for classifier
+S02263,How about APS?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_context,Bare follow-up with abbreviation; no context
+S02265,What does diabetes mean?,2,NEEDS_CLARIFICATION,missing_age,definition,No population specified; meaning varies by type and age
+S02268,Diabetes basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population context; basics differ by age and type
+S02283,HbA1c basics,2,NEEDS_CLARIFICATION,missing_age,definition,No age specified; HbA1c fundamentals differ by population
+S02286,SMBG basics,2,NEEDS_CLARIFICATION,missing_age,definition,No population; SMBG frequency and targets differ by age
+S02304,CGM calibration,2,NEEDS_CLARIFICATION,missing_age,cgm,No population; calibration needs and frequency differ by age and device
+S02308,CGM for adolescents,2,NEEDS_CLARIFICATION,ambiguous_terminology,adolescent,'Adolescents' 10-19; 18-19 borderline; no explicit age
+S02312,MDI vs pump,2,NEEDS_CLARIFICATION,missing_age,pump,No population; regimen comparison differs by age group
+S02317,Rapid acting insulin,2,NEEDS_CLARIFICATION,missing_age,insulin_therapy,No population; rapid-acting insulin use and dosing differ by age
+S02318,Long acting insulin,2,NEEDS_CLARIFICATION,missing_age,insulin_therapy,No population; long-acting insulin types and dosing differ by age
+S02319,Premixed insulin,2,NEEDS_CLARIFICATION,missing_age,insulin_therapy,No population; premixed use and ratios differ by age
+S02323,Connected insulin pen,2,NEEDS_CLARIFICATION,missing_age,insulin_therapy,No population; connected pen approvals and use differ by age
+S02327,Basal rate,2,NEEDS_CLARIFICATION,missing_age,insulin_therapy,No population; basal rates (units/hr) completely age/weight dependent
+S02332,Injection technique,2,NEEDS_CLARIFICATION,missing_age,insulin_therapy,"No population; technique (pinch, angle, depth) differs for children vs adults"
+S02342,Temporary basal,2,NEEDS_CLARIFICATION,missing_age,pump,No population; temp basal use and settings differ by age and activity
+S02344,Super bolus,2,NEEDS_CLARIFICATION,missing_age,pump,No population; super bolus technique use differs by age and expertise
+S02347,Artificial pancreas,2,NEEDS_CLARIFICATION,missing_age,pump,No population; AP system approvals differ by age
+S02355,Pump alarm,2,NEEDS_CLARIFICATION,missing_age,pump,No population; alarm settings and thresholds differ by age and device
+S02364,Latent autoimmune diabetes in adults: diagnostic criteria,2,NEEDS_CLARIFICATION,adult_diabetes,t1d_diagnosis,"Adults explicit, LADA"
+S02368,Cystic fibrosis related diabetes in 28-year-old,2,NEEDS_CLARIFICATION,adult_diabetes,t2d_diagnosis,"Explicit age 28, CFRD adult"
+S02371,Can I donate blood if I have diabetes,2,NEEDS_CLARIFICATION,non_medical,general_knowledge,Blood donation eligibility
+S02373,How to talk to friends about my diabetes,2,NEEDS_CLARIFICATION,non_medical,psychosocial,Social communication
+S02375,Diabetes and driving license rules by state,2,NEEDS_CLARIFICATION,non_medical,general_knowledge,Driving regulations
+S02377,Diabetes and exercise: preventing lows during sports,2,NEEDS_CLARIFICATION,non_medical,sports,Sports/exercise
+S02379,Diabetes and stress: how cortisol affects blood sugar,2,NEEDS_CLARIFICATION,non_medical,general_knowledge,Stress physiology
+S02386,Diabetes and skydiving: adrenaline and blood sugar,2,NEEDS_CLARIFICATION,non_medical,sports,Skydiving effects
+S02390,Diabetes and winter sports: cold weather insulin,2,NEEDS_CLARIFICATION,non_medical,sports,Cold weather management
+S02392,Diabetes and hiking: emergency supplies checklist,2,NEEDS_CLARIFICATION,non_medical,travel,Hiking preparation
+S02400,Diabetes and job interview: do I have to disclose,2,NEEDS_CLARIFICATION,non_medical,general_knowledge,Job interview disclosure
+S02417,Transient diabetes in cats after steroid use,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat transient = pets
