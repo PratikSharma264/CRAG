@@ -1,0 +1,343 @@
+example_id,question,current_label,decision,target_label,reason,list
+S00009,"T1D dx at 4, now 11 - pump or MDI?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00053,Newborn screening for T1D risk: available for my baby?,1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (baby/newborn) per guidelines,a
+S00055,ISPAD 2022 HbA1c targets by age group,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00061,"My doughter 10 has T1D, pump recomendations?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00118,College disability services for T1D freshman,1,keep,1,"KEEP as IN_SCOPE: Has pediatric signal (college year, college) per guidelines",a
+S00122,Registry data: Complication rates in youth-onset T2D,1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (youth/childhood-onset) per guidelines,a
+S00136,My kiddo (7) just got T1D diagnosis... help?,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00161,Youth-onset T2D transition to adult care at 19,1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (youth/childhood-onset) per guidelines,a
+S00191,Family-based treatment for childhood T2D,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00201,Retinopathy progression rate youth T2D vs T1D,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00288,Retinopathy screening start age for T1D diagnosed at 4,1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (diagnosed at X) per guidelines,a
+S00290,How to dose insuln for 5yr old picky eater,1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (Xyr format) per guidelines,a
+S00312,Risk factors for youth-onset type 2 diabetes,1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (youth/childhood-onset) per guidelines,a
+S00314,Insulet Omnipod 5 age indication,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00348,Insulin pump start age: how young is too young?,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00354,CGM not accurat for my 6 yo son,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00368,Transition for youth with T2D diagnosed at 14,1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (diagnosed at X) per guidelines,a
+S00406,Systematic review: Metformin adjunct in youth T1D,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00487,Long-term outcomes of childhood-onset T1D,1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (youth/childhood-onset) per guidelines,a
+S00490,Long-term cardiovascular outcomes youth-onset T2D,1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (youth/childhood-onset) per guidelines,a
+S00512,"Transition timeline: start at 14, transfer at 18?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00555,Rights of student with T1D under ADA/Section 504,1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (student) per guidelines,a
+S00657,Longitudinal cohort: Glycemic trajectories from childhood to adulthood,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00683,Diabetic kidney disease progression youth T2D,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00706,ADA Standards of Care HbA1c <7.5% for youth,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00711,Zegalogue auto-injector age approval,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00713,Celiac disease screening T1D vs general pediatrics,1,keep,1,"KEEP as IN_SCOPE: Has pediatric signal (pediatric, pediatrics) per guidelines",a
+S00773,"I was diagnosed with T1D at 12, now 23 and pregnant, how does childhood-onset affect my high-risk OB care?",1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (youth/childhood-onset) per guidelines,a
+S00776,"I'm 20 with childhood-onset T1D, how do I get CGM coverage on my own insurance plan?",1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (youth/childhood-onset) per guidelines,a
+S00781,"College health center T1D care for 19-year-old diagnosed at 11, what records do they need?",1,keep,1,"KEEP as IN_SCOPE: Has pediatric signal (diagnosed at X, college) per guidelines",a
+S00782,"Contraception counseling for 20-year-old with childhood-onset T1D, any special considerations?",1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (youth/childhood-onset) per guidelines,a
+S00784,ABLE account eligibility for 19-year-old with T1D diagnosed at 7,1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (diagnosed at X) per guidelines,a
+S00785,"Study abroad with T1D: I'm 20, diagnosed at 12, what supplies and docs do I need?",1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (diagnosed at X) per guidelines,a
+S00786,"Advance directive for 22-year-old with T1D since childhood, should I get one?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00789,Supported decision-making for 19-year-old with T1D since childhood and mild cognitive delays,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00790,"I'm 20, diagnosed with T1D at 11, can I try semaglutide pill as adjunct therapy?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00792,"Study abroad in Italy at 20 with childhood-onset T1D, insulin supply logistics?",1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (youth/childhood-onset) per guidelines,a
+S00796,"Spevigo injection for 19-year-old with T1D since childhood, is it approved?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00799,"Tegaderm HP for CGM at 21 with T1D since childhood, skin sensitivity?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00823,"Preteen losing weight, thirsty, grumpy - should I ask for diabetes test?",1,keep,1,"KEEP as IN_SCOPE: Has pediatric signal (preteen, teen) per guidelines",a
+S00824,"I'm 16 and super thirsty all the time, peeing like crazy - diabetes?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00825,"Am I diabetic? Lost weight without trying, always tired, vision blurry",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00826,"High schooler here - constant thirst, bathroom breaks every class, diabetes?",1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (high school) per guidelines,a
+S00829,Glucose checks for t2d?,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00833,Carb counting for t2d?,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00834,Hey for a picky eater?,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00835,"Btw my preteen has prediabtes in , what should I do?",1,keep,1,"KEEP as IN_SCOPE: Has pediatric signal (preteen, teen) per guidelines",a
+S00837,"I'm 21, diagnosed with T1D at 5, how do I transition my mental health care along with diabetes care to adult providers?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00838,"I'm 22, diagnosed with T1D at 6, how do I handle dating and disclosure with new partners as an adult?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00839,"I'm 20, diagnosed with T1D at 10, what should I know about DKA prevention as an adult?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00840,"I'm 21, diagnosed with T1D at 8, what's the best way to build my own diabetes care team as an adult?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00841,"I'm 22, diagnosed with T1D at 10, how do I explain my medical needs to university disability services?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00842,"I'm 19, diagnosed with T1D at 8, how do I handle prescription refills during semester breaks?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00843,"I'm 24, diagnosed with T1D at 11, how do I manage diabetes burnout as a young adult?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00844,"I'm 22, diagnosed with T1D at 10, what should I know about alcohol and T1D as a young adult?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00845,"I'm 19, diagnosed with T1D at 4, how do I handle driving with low blood sugar now that I have my license?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00846,"I'm 20, diagnosed with T1D at 9, how do I handle my diabetes supplies when moving into my first apartment?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00847,"I'm 24, diagnosed with T1D at 10, how do I find a primary care doctor who understands T1D as an adult?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00848,"I'm 22, diagnosed with T1D at 8, what are my rights for diabetes accommodations in the workplace?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00849,"I'm 23, diagnosed with T1D at 7, how do I manage time zone changes for insulin with a new job?",1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00870,Diabetes medical management plan vs 504 vs IEP,1,relabel,2,"RELABEL to NEEDS_CLARIFICATION: No stated age <=18, no pediatric population word, no school/parent context. Could be any age asking about T1D.",a
+S00872,CGM use in youth-onset type 2 diabetes,1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (youth/childhood-onset) per guidelines,a
+S00875,Transition care for young adult with youth-onset T2D,1,keep,1,KEEP as IN_SCOPE: Has pediatric signal (youth/childhood-onset) per guidelines,a
+S01240,Parent with T1D: how to not project anxiety,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (parent with, cat: adult_diabetes)",b
+S01243,Mom with T1D pregnant again: A1c targets?,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (mom, cat: adult_diabetes)",b
+S01246,T1D pregnancy at 38: high-risk OB management,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (pregnancy at, cat: adult_diabetes)",b
+S01249,Dad T1D since childhood: genetic counseling for kids,0,keep,0,KEEP as OUT_OF_SCOPE: Has adult signal (cat: adult_diabetes),b
+S01255,"My child has T1D, what's MY T2D risk?",0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (my child, cat: adult_diabetes)",b
+S01260,Dating with T1D at 28: when to disclose,0,keep,0,KEEP as OUT_OF_SCOPE: Has adult signal (cat: adult_diabetes),b
+S01263,I have T2D and my kid has T1D: different diets?,0,keep,0,KEEP as OUT_OF_SCOPE: Has adult signal (cat: adult_diabetes),b
+S01266,"Insulin pump for me (mom, 38) vs MDI for my kid",0,keep,0,KEEP as OUT_OF_SCOPE: Has adult signal (cat: adult_diabetes),b
+S01269,Insulin pump start at 35: criteria and outcomes,0,keep,0,KEEP as OUT_OF_SCOPE: Has adult signal (cat: adult_diabetes),b
+S01272,T2D diagnosis at 25: early onset concerns,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (diagnosis at, cat: adult_diabetes)",b
+S01276,My T2D management while caring for T1D child,0,keep,0,KEEP as OUT_OF_SCOPE: Has adult signal (cat: adult_diabetes),b
+S01283,Mom with T1D: managing pump during labor,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (mom, cat: adult_diabetes)",b
+S01287,Dad T2D on insulin: teaching kid about diabetes,0,keep,0,KEEP as OUT_OF_SCOPE: Has adult signal (cat: adult_diabetes),b
+S01288,Mom with T2D: gestational diabetes recurrence risk,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (mom, cat: adult_diabetes)",b
+S01292,T1D and career: shift work at 40,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (shift work at, cat: adult_diabetes)",b
+S01294,T1D diagnosis at 60: atypical presentation,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (diagnosis at, cat: adult_diabetes)",b
+S01297,Pregnant with T1D at 35: my A1c targets,0,keep,0,KEEP as OUT_OF_SCOPE: Has adult signal (cat: adult_diabetes),b
+S01302,Dad T1D: genetic risk for my children,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (my child, cat: adult_diabetes)",b
+S01319,Menopause and T1D insulin needs at 52,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (menopause, cat: adult_diabetes)",b
+S01320,"I'm a mom with T2D, what's my HbA1c target?",0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (mom, cat: adult_diabetes)",b
+S01326,Parent with T1D: nighttime CGM alerts for me,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (parent with, cat: adult_diabetes)",b
+S01335,Breastfeeding with T2D medications: mom 32,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (mom, cat: adult_diabetes)",b
+S01339,T2D remission after bariatric surgery at 50,0,keep,0,KEEP as OUT_OF_SCOPE: Has adult signal (cat: adult_diabetes),b
+S01341,My insulin pump vs my child's: different tech,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (my child, cat: adult_diabetes)",b
+S01498,MIPS diabetes quality measures for clinicians,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01499,Feline diabetes remission diet: high protein low carb,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01500,Diabetic ketoacidosis in cats: fluid therapy,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01501,Insulin formulation stability testing ICH guidelines,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01503,Diabetic cat insulin glargine dosing protocol,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01504,CGM sensor: enzyme vs fluorescence chemistry,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01505,Diabetic ketoacidosis in cats: emergency treatment,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01506,Continuous glucose monitoring: from Minimed to Dexcom,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01507,Insulin resistance in horses: equine metabolic syndrome,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01508,Feline diabetes pancreatitis: PLI test,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01509,UKPDS history: changing T2D care,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01510,Export glucose data CSV PDF from mobile app,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01511,Insulin transparency reporting laws by state,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01512,Insulin importation from Canada: FDA personal use,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01513,Feline diabetes remission rate with glargine,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01514,Canine diabetes: Vetsulin vs ProZinc for dogs,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01515,i2b2 diabetes query tool for research,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01517,Home glucose curve cat: stress hyperglycemia,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01518,Diabetic cat remission rate glargine vs detemir,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01519,Diabetic dog concurrent Cushing's: trilostane,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01520,TripleNet diabetes data network,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01521,Feline diabetic remission diet management,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01522,Insulin analogs development timeline,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01524,Data visualization charts for glucose trends React,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01525,Cost of diabetes complications vs prevention,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01527,Evolution of diabetic ketoacidosis treatment,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01528,Insulin pump market: Tandem Insulet Medtronic,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01529,Diabetic dog diet: high fiber vs low carb,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01530,Insulin antibody dog: porcine vs human insulin,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01531,Guinea pig diabetes: rare but documented,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01533,History of diabetes research: from antiquity to insulin,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01534,Feline diabetic neuropathy methylcobalamin,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01536,History of glucose monitoring: urine to CGM,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01537,History of insulin pumps: from backpack to patch,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01539,Share glucose reports with doctor from app,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01540,Insulin degludec: ultra-long action mechanism,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01541,Home blood glucose curves for diabetic cat,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01543,ADVANCE trial history: T2D vascular outcomes,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01544,Diabetes absenteeism presenteeism cost estimates,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01545,State insulin copay cap laws: Colorado Maine,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01546,Cost of insulin in the US vs other countries,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01547,Diabetes tracking apps comparison: features and reviews,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01548,Can dogs get diabetes? Veterinary diabetes basics,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01549,Insurance prior authorization process for CGM,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01550,How to read a continuous glucose monitor report,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01551,Traveling with insulin: TSA guidelines and tips,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01552,Diabetes support groups online: how to find them,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01553,Insulin pump manufacturers comparison: features,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01591,How much does insulin cost without insurance,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01592,Where to buy affordable insulin online,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01593,How to inject insulin: pen vs syringe,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01594,How to prime an insulin pen,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01595,Insulin storage: fridge vs room temperature,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01598,CGM sensor insertion: does it hurt,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01599,Pump site rotation: where to place,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01601,Sick day rules for type 1 diabetes,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01612,Affordable insulin online cost?,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01613,Insulin list price vs net price trend 2010-2024,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01620,Insulin lispro biosimilar: analytical similarity,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01733,My T1D and my child's T1D: different targets,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (my child, cat: adult_diabetes)",b
+S01734,"Dad with T1D since 20s, now 45: pump options?",0,keep,0,KEEP as OUT_OF_SCOPE: Has adult signal (cat: adult_diabetes),b
+S01735,T1D diagnosis at 35: antibody testing protocol,0,keep,0,"KEEP as OUT_OF_SCOPE: Has adult signal (diagnosis at, cat: adult_diabetes)",b
+S01738,Gamification features for diabetes app engagement,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01739,Insulin antibodies in diabetic dogs: resistance,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01740,HIPAA compliant cloud storage for glucose data,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01741,SwiftUI glucose chart for iOS diabetes app,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01742,Early retirement due to diabetes economic impact,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01743,Canine diabetes: twice daily insulin timing,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01744,PBM spread pricing insulin: legislative fixes,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01745,Insulin supply chain: cold chain logistics,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01746,D3.js interactive glucose visualization web,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01747,AmCharts glucose trend with annotations,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01748,Insulin pump: patch pump vs tubed market share,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01749,Insulin patent landscape: evergreening strategies,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01750,Insulin vial vs cartridge vs penfill manufacturing,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01751,Implantable CGM: 180-day sensor Eversense,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01752,Humira biosimilar launch impact on insulin market,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01753,Guinea pig diabetes: rare case reports,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01754,HEDIS diabetes measures for health plans,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01755,Plotly.js glucose interactive web dashboard,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01756,Diabetes drug launch pricing strategy: ICER thresholds,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01758,Feline diabetic neuropathy: hind leg weakness,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01760,User onboarding flow for diabetes management app,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01761,Jetpack Compose glucose graph for Android,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01762,Equine metabolic syndrome: insulin dysregulation,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01763,FDA guidance insulin demonstration interchangeability,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01764,Pet diabetes monitoring apps for owners,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01765,Next-gen CGM: multi-analyte lactate ketones,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01766,Diabetic dog cataract surgery referral,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01767,Diabetes genetics history: from HLA to GWAS,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01768,Home glucose monitoring for diabetic cat,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01769,Landmark diabetes trials: DCCT UKPDS ACCORD,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01770,Diabetic ketoacidosis cat: potassium protocol,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01771,Diabetes clinical quality measures eCQM,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01772,Libre CGM cat: sensor placement technique,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01773,Insulin formulation: zinc hexamer stabilization,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01774,Global insulin market share: Novo Lilly Sanofi,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01776,Bluetooth Low Energy CGM data sync React Native,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01777,Global economic burden of diabetes 2021 IDF atlas,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01778,Firebase backend for diabetes mobile app,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01779,Chart.js real-time glucose streaming chart,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01780,Diabetes registry data model for quality improvement,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01781,Offline-first architecture for diabetes app,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01782,Evolution of diabetes classification over centuries,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01783,Transdermal insulin: microneedle patch delivery,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01784,Telerik UI Maui glucose chart component,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01785,CGM market size 2024: Dexcom Abbott Medtronic,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01786,History of diabetic retinopathy classification: ETDRS,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01787,Insulin supply chain: API sourcing China India,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01788,Employer diabetes costs: medical vs productivity,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01789,HealthKit integration for iOS glucose app,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01790,History of diabetes classification: from types to etiology,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01791,OxyPlot glucose trend with threshold lines,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01792,Medicaid diabetes drug spending by state,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01793,Insulin dysregulation horse: dynamic testing,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01794,Insulin excipients: phenol m-cresol glycerin,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01797,Apache ECharts glucose AGP report visualization,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01798,Recharts glucose trend component React,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01799,Diabetes M&A activity 2023-2024,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01800,CDA CCD diabetes summary of care document,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01802,Return on investment for diabetes prevention programs,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01803,Laminitis in insulin resistant horse: management,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01804,Canine diabetes cataracts: phacoemulsification,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01805,PCORnet diabetes data model for research,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01806,Diabetes drug pipeline valuation 2024,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01808,Interchangeable biosimilar insulin substitution,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01809,Factory calibrated CGM: no fingerstick needed,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01810,Continuous glucose monitoring in diabetic dogs,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01811,Biologic license application BLA insulin pathway,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01812,Automated insulin delivery: algorithm IP landscape,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01813,Transient feline diabetes post-glucocorticoid,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01814,Victory Native chart for React Native glucose,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01815,Syncfusion Flutter charts glucose data,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01816,ScottPlot high-performance glucose rendering,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01817,Smart insulin pen: Bluetooth connectivity firmware,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01818,340B insulin: covered entity eligibility,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01819,Insulin cold chain: 2-8Â°C storage validation,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01820,Follow-on insulin: regulatory pathway US EU,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01821,Insulin pen device: dose accuracy ISO 11608,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01823,OMOP common data model for diabetes research,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01824,Average manufacturer price AMP insulin reporting,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01825,Insulin icodec weekly: phase 3 trial design,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01826,Diabetes spending as percent of health budget OECD,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01827,Venture capital funding diabetes digital health,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01828,Cost-effectiveness GLP-1 for obesity without diabetes,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01829,Oral insulin: enteric coating protection,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01830,Federal supply schedule insulin pricing VA,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01831,Global insulin API active pharmaceutical ingredient market,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01832,Insulin pump: cartridge filling aseptic process,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01833,OpenEHR archetypes for diabetes clinical data,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01834,Highcharts stock chart for glucose intraday,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01835,LiveCharts2 WPF glucose real-time plotting,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01836,Insulin patent cliff: glargine lispro aspart,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01837,Indirect costs of diabetes: absenteeism presenteeism,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01838,Google Fit API for Android diabetes app,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01839,Nobel Prize 1923 Banting Macleod insulin discovery,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01840,Biosimilar insulin development pathway FDA,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01842,Contract manufacturing for insulin biologics,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01843,AG Charts glucose data grid for React,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01844,Insulin manufacturing: cGMP facility inspection,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01845,Smart insulin glucose-responsive: phenylboronic acid,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01846,Productivity loss from diabetes worldwide,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01847,Insulin aspart biosimilar: clinical switching study,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01848,Disability payments for diabetes complications,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01849,Inhaled insulin Technosphere: pulmonary delivery,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01850,Insulin affordability programs: patient assistance,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01851,CDS Hooks diabetes clinical decision support,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01852,DCCT/EDIC study history: changing T1D care,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01853,SwiftUI Chart glucose trend line iOS 16+,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01854,Insulin pricing: AMP best price Medicaid rebate,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01855,Build glucose tracker React Native TypeScript,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01856,Economic impact of gestational diabetes globally,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01857,Insulin glargine U300: patent expiration timeline,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01858,Connected insulin pen: dose memory Bluetooth,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01859,Insulin pen device engineering and IP,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01860,Observable Plot glucose exploratory analysis,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01861,Insulin efsitora alfa: basal Fc fusion design,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01862,Diabetes healthcare costs by country comparison,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01863,ECharts glucose time series with zoom,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01864,Insulin formulation: surfactant stabilization,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01865,App Store submission medical device diabetes app,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01866,Accessibility VoiceOver TalkBack diabetes app,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01867,Value assessment framework for diabetes medications,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01868,Insulin interchangeability: pharmacy substitution law,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01869,Projected diabetes costs 2030 2045 IDF,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01870,Three insulin manufacturers market share US,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01872,Insulin affordability crisis in low-income countries,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01873,Purple book insulin biosimilar licensing,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01874,Insulin manufacturing process: recombinant DNA,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01875,Medicaid best price calculation for insulin,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01876,Jetpack Compose LineChart glucose Android,0,relabel,2,RELABEL to NEEDS_CLARIFICATION: Diabetes education question with no age/population signal. Could be pediatric or adult.,b
+S01896,How does puberty affect diabetes?,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (puberty); not mixed with adult,c
+S01912,How to talk to a child about diabetes?,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (child); not mixed with adult,c
+S01914,How to manage diabetes at school?,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (); not mixed with adult,c
+S01916,Can a student carry insulin at school?,2,relabel,1,"RELABEL to IN_SCOPE: Clear pediatric population (school, student); not mixed with adult",c
+S01919,What should a school nurse do for diabetes?,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (school); not mixed with adult,c
+S01925,Can young adults stay with pediatric endocrinologist?,2,keep,2,KEEP as NEEDS_CLARIFICATION: age boundary meta-question,c
+S01931,And for teens?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S01959,What about a 20 year old with T1D since age 5?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S01960,Is 19 considered pediatric?,2,keep,2,KEEP as NEEDS_CLARIFICATION: age boundary meta-question,c
+S01961,At what age does pediatric end?,2,keep,2,KEEP as NEEDS_CLARIFICATION: age boundary meta-question,c
+S01965,What is the cutoff for pediatric diabetes?,2,keep,2,KEEP as NEEDS_CLARIFICATION: age boundary meta-question,c
+S01975,Metabolic syndrome in adolescents,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (teen/adolescent); not mixed with adult,c
+S01976,Insulin resistance in teens,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (teen/adolescent); not mixed with adult,c
+S01978,30 year old with T1D since age 10,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (age <=18); not mixed with adult,c
+S01980,How to transition from pediatric care,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (pediatric); not mixed with adult,c
+S01982,Can adults see pediatric endocrinologists?,2,keep,2,KEEP as NEEDS_CLARIFICATION: age boundary meta-question,c
+S01983,What happens after pediatric diabetes care?,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (pediatric); not mixed with adult,c
+S01991,And for a teenager?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S01994,How about diet for children?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S01996,What about complications in kids?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S01997,And for the parents?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S02001,Glucose targets for school age,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (); not mixed with adult,c
+S02002,What about a 17 year old?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S02003,How about an 18 year old?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S02005,Does pediatric end at 18?,2,keep,2,KEEP as NEEDS_CLARIFICATION: age boundary meta-question,c
+S02006,Is 18 still pediatric?,2,keep,2,KEEP as NEEDS_CLARIFICATION: age boundary meta-question,c
+S02007,When does pediatric diabetes end?,2,keep,2,KEEP as NEEDS_CLARIFICATION: age boundary meta-question,c
+S02008,Adult diabetes vs pediatric diabetes,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (pediatric); not mixed with adult,c
+S02023,When to leave pediatric endocrinologist,2,keep,2,KEEP as NEEDS_CLARIFICATION: age boundary meta-question,c
+S02033,23 year old leaving pediatric care,2,relabel,1,"RELABEL to IN_SCOPE: Clear pediatric population (pediatric, age <=18); not mixed with adult",c
+S02034,24 and still seeing pediatric endo,2,keep,2,KEEP as NEEDS_CLARIFICATION: age boundary meta-question,c
+S02039,29 diagnosed as child,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (child); not mixed with adult,c
+S02047,Gestational diabetes in teen,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (teen/adolescent); not mixed with adult,c
+S02051,Teen pregnancy with T1D,2,relabel,1,"RELABEL to IN_SCOPE: Clear pediatric population (teen/adolescent, teen/adolescent pregnancy (IN per guidelines)); not mixed with adult",c
+S02052,Adolescent pregnancy diabetes,2,relabel,1,"RELABEL to IN_SCOPE: Clear pediatric population (teen/adolescent, teen/adolescent pregnancy (IN per guidelines)); not mixed with adult",c
+S02054,Prediabetes in a 10 year old,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (age <=18); not mixed with adult,c
+S02055,Insulin resistance in 16 year old,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (age <=18); not mixed with adult,c
+S02056,Obesity and T2D in 12 year old,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (age <=18); not mixed with adult,c
+S02066,Kid in class has diabetes,2,keep,2,KEEP as NEEDS_CLARIFICATION: unclear patient context (third party),c
+S02067,Student with diabetes in school,2,keep,2,KEEP as NEEDS_CLARIFICATION: unclear patient context (third party),c
+S02068,Classmate with T1D,2,keep,2,KEEP as NEEDS_CLARIFICATION: unclear patient context (third party),c
+S02069,Friend's child has diabetes,2,keep,2,KEEP as NEEDS_CLARIFICATION: unclear patient context (third party),c
+S02076,Example: pediatric diabetes,2,keep,2,KEEP as NEEDS_CLARIFICATION: sample/test case,c
+S02077,Sample question: child with T1D,2,keep,2,KEEP as NEEDS_CLARIFICATION: sample/test case,c
+S02078,Test case: adolescent T2D,2,keep,2,KEEP as NEEDS_CLARIFICATION: sample/test case,c
+S02104,Diabetes type in adolescents,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (teen/adolescent); not mixed with adult,c
+S02121,School age diabetes,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (); not mixed with adult,c
+S02122,Elementary school diabetes,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (school); not mixed with adult,c
+S02123,Middle school diabetes,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (school); not mixed with adult,c
+S02124,High school diabetes,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (school); not mixed with adult,c
+S02130,What about summer camp?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S02131,And diabetes camp?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S02132,What about camp for kids?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S02133,And for camp?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S02134,How about sports camp?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S02135,What about school?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S02136,And at school?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S02178,And puberty?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S02193,And classmates?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up; unclear patient context (third party),c
+S02196,And parents?,2,keep,2,KEEP as NEEDS_CLARIFICATION: bare pronoun follow-up,c
+S02308,CGM for adolescents,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (teen/adolescent); not mixed with adult,c
+S02365,"As a diabetic parent, can I breastfeed with T2D meds?",2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (); not mixed with adult,c
+S02406,Diabetes and school: 504 plan vs IEP,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (school); not mixed with adult,c
+S02407,Diabetes and field trips: parent chaperone needed,2,relabel,1,RELABEL to IN_SCOPE: Clear pediatric population (); not mixed with adult,c

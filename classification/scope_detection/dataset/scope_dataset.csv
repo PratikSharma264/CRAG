@@ -7,7 +7,7 @@ S00005,Basal insulin options for a 6-year-old: glargine vs detemir vs degludec,1
 S00006,Bolus calc for 9yo pizza night,1,IN_SCOPE,insulin_therapy,bolus_calc,Abbreviations + explicit age (9)
 S00007,Driving license medical form for 17-year-old with T1D,1,IN_SCOPE,transition,driving_medical,"Explicit age (17), driving medical"
 S00008,Inhaled insulin (Afrezza) in adolescents: approved?,1,IN_SCOPE,insulin_therapy,alternative,"Adolescents explicit, Afrezza"
-S00009,"T1D dx at 4, now 11 - pump or MDI?",1,IN_SCOPE,pediatric_t1d,pump_vs_MDI,"Abbreviations + explicit ages (4, 11)"
+S00009,"T1D dx at 4, now 11 - pump or MDI?",2,NEEDS_CLARIFICATION,pediatric_t1d,pump_vs_MDI,"Abbreviations + explicit ages (4, 11)"
 S00010,School lunch carb counts: how accurate are they?,1,IN_SCOPE,pediatric_t1d,nutrition,"School = pediatric, carb counts"
 S00011,Insulin pump settings for 9-year-old ADHD meds,1,IN_SCOPE,insulin_therapy,ADHD_meds_pump,"Explicit age (9), ADHD meds"
 S00012,Gluten-free carb counting for 8-year-old celiac T1D,1,IN_SCOPE,nutrition_lifestyle,GF_carb_celiac,"Explicit age (8), GF celiac"
@@ -53,13 +53,13 @@ S00051,Dating conversation T1D for 17-year-old,1,IN_SCOPE,psychosocial,dating_T1
 S00052,CGM report interpretation for 10-year-old: AGP,1,IN_SCOPE,glucose_monitoring,AGP_interpretation,"Explicit age (10), AGP"
 S00053,Newborn screening for T1D risk: available for my baby?,1,IN_SCOPE,pediatric_t1d,screening,"Newborn/baby = pediatric, screening"
 S00054,HbA1c target 6.5% for 8-year-old: too aggressive?,1,IN_SCOPE,glucose_monitoring,HbA1c_aggressive,"Explicit age (8), HbA1c target"
-S00055,ISPAD 2022 HbA1c targets by age group,1,IN_SCOPE,glucose_monitoring,ISPAD_targets,"ISPAD explicit, age groups"
+S00055,ISPAD 2022 HbA1c targets by age group,2,NEEDS_CLARIFICATION,glucose_monitoring,ISPAD_targets,"ISPAD explicit, age groups"
 S00056,Vegetarian protein sources for 11-year-old T1D,1,IN_SCOPE,nutrition_lifestyle,vegetarian_protein,"Explicit age (11), vegetarian"
 S00057,C-peptide at diagnosis in 12-year-old: what it means,1,IN_SCOPE,pediatric_t1d,diagnosis,"Explicit age (12), C-peptide"
 S00058,Patient-reported outcomes: Diabetes distress in 14-18 year olds,1,IN_SCOPE,psychosocial,PRO,Researcher + explicit age range (14-18)
 S00059,Study design: RCT of AID in adolescents 12-17,1,IN_SCOPE,insulin_therapy,study_design,Researcher + explicit age range (12-17)
 S00060,Preventing T2D in siblings of a 12-year-old proband,1,IN_SCOPE,pediatric_t2d,prevention,"Explicit age (12), sibling prevention"
-S00061,"My doughter 10 has T1D, pump recomendations?",1,IN_SCOPE,pediatric_t1d,pump,"Typos: doughter, recomendations + age (10)"
+S00061,"My doughter 10 has T1D, pump recomendations?",2,NEEDS_CLARIFICATION,pediatric_t1d,pump,"Typos: doughter, recomendations + age (10)"
 S00062,TBR TAR targets for 10yo,1,IN_SCOPE,glucose_monitoring,TBR_TAR,Abbreviations + explicit age (10)
 S00063,Phentermine/topiramate for adolescent obesity T2D,1,IN_SCOPE,pediatric_t2d,obesity_link,"Adolescent explicit, anti-obesity meds"
 S00064,Diabetes camp activities for 10-year-old,1,IN_SCOPE,parents_caregivers_schools,camp_activities,"Explicit age (10), camp activities"
@@ -134,7 +134,7 @@ S00132,Dorm fridge for insulin 18yo,1,IN_SCOPE,transition,dorm_fridge,"Explicit 
 S00133,Overnight field trip for 13-year-old with T1D,1,IN_SCOPE,parents_caregivers_schools,overnight_trip,"Explicit age (13), overnight trip"
 S00134,Preventing DKA during illness in my 13-year-old,1,IN_SCOPE,pediatric_t1d,acute_complications,"Explicit age (13), sick day rules"
 S00135,Needle length 4mm vs 6mm for 8-year-old,1,IN_SCOPE,insulin_therapy,needle_length,"Explicit age (8), needle length"
-S00136,My kiddo (7) just got T1D diagnosis... help?,1,IN_SCOPE,pediatric_t1d,diagnosis,Casual + explicit age (7)
+S00136,My kiddo (7) just got T1D diagnosis... help?,2,NEEDS_CLARIFICATION,pediatric_t1d,diagnosis,Casual + explicit age (7)
 S00137,Gvoke auto-injector for 8-year-old,1,IN_SCOPE,insulin_therapy,gvoke,"Explicit age (8), Gvoke"
 S00138,Basal testing overnight for 8-year-old,1,IN_SCOPE,insulin_therapy,basal_test_overnight,"Explicit age (8), overnight"
 S00139,Acceptance commitment therapy for 16-year-old T1D,1,IN_SCOPE,psychosocial,ACT_T1D,"Explicit age (16), ACT"
@@ -189,7 +189,7 @@ S00187,Metformin adherence in adolescent T2D: strategies,1,IN_SCOPE,pediatric_t2
 S00188,Yoga for 14-year-old T1D glucose variability,1,IN_SCOPE,psychosocial,yoga_glucose,"Explicit age (14), yoga"
 S00189,Sleeve gastrectomy outcomes in adolescent T2D,1,IN_SCOPE,pediatric_t2d,treatment,"Adolescent explicit, sleeve outcomes"
 S00190,Celiac screening frequency for children with T1D,1,IN_SCOPE,pediatric_t1d,comorbidities,"Children explicit, celiac screening"
-S00191,Family-based treatment for childhood T2D,1,IN_SCOPE,pediatric_t2d,treatment,"Childhood explicit, family-based"
+S00191,Family-based treatment for childhood T2D,2,NEEDS_CLARIFICATION,pediatric_t2d,treatment,"Childhood explicit, family-based"
 S00192,Peer education: 13-year-old teaching classmates T1D,1,IN_SCOPE,pediatric_t1d,peer_education,"Explicit age (13), peer education"
 S00193,DEPS-R score interpretation for 14-year-old,1,IN_SCOPE,nutrition_lifestyle,DEPS-R,"Explicit age (14), DEPS-R"
 S00194,Biofeedback for 10-year-old needle phobia,1,IN_SCOPE,psychosocial,biofeedback_needle,"Explicit age (10), needle phobia"
@@ -199,7 +199,7 @@ S00197,CGM and MRI/X-ray: what to do for my 9-year-old,1,IN_SCOPE,glucose_monito
 S00198,Mediterranean diet for adolescent T2D: evidence,1,IN_SCOPE,pediatric_t2d,obesity_link,"Adolescent explicit, Mediterranean diet"
 S00199,Diabetic neuropathy monofilament test 14-year-old,1,IN_SCOPE,complications,monofilament,"Explicit age (14), monofilament"
 S00200,Transition readiness TRAQ for 16-year-old T2D,1,IN_SCOPE,pediatric_t2d,education,"Explicit age (16), TRAQ readiness"
-S00201,Retinopathy progression rate youth T2D vs T1D,1,IN_SCOPE,complications,retinopathy_youth_T2D,"Youth explicit, retinopathy"
+S00201,Retinopathy progression rate youth T2D vs T1D,2,NEEDS_CLARIFICATION,complications,retinopathy_youth_T2D,"Youth explicit, retinopathy"
 S00202,Referral question: CGM initiation in 5-year-old T1D,1,IN_SCOPE,glucose_monitoring,CGM_initiation,Clinical + explicit age (5)
 S00203,Microalbuminuria in adolescents: when to start ACEi,1,IN_SCOPE,pediatric_t1d,chronic_complications,"Adolescents explicit, microalbuminuria"
 S00204,Yom Kippur fasting with T2D in 13-year-old,1,IN_SCOPE,pediatric_t2d,lifestyle,"Explicit age (13), Yom Kippur"
@@ -312,7 +312,7 @@ S00310,CGM alarm response by 13-year-old vs parent,1,IN_SCOPE,glucose_monitoring
 S00311,504 plan template for newly diagnosed 8-year-old,1,IN_SCOPE,parents_caregivers_schools,504_template,"Explicit age (8), 504 template"
 S00312,Risk factors for youth-onset type 2 diabetes,1,IN_SCOPE,pediatric_t2d,risk_factors,"Youth-onset explicit, risk factors"
 S00313,T2D screening guidelines for 10-year-old with obesity,1,IN_SCOPE,pediatric_t2d,screening,"Explicit age (10), obesity, screening guidelines"
-S00314,Insulet Omnipod 5 age indication,1,IN_SCOPE,insulin_therapy,omnipod5_age,"Pediatric explicit, age indication"
+S00314,Insulet Omnipod 5 age indication,2,NEEDS_CLARIFICATION,insulin_therapy,omnipod5_age,"Pediatric explicit, age indication"
 S00315,Lipid screening guidelines for kids with T1D,1,IN_SCOPE,pediatric_t1d,chronic_complications,"Kids explicit, lipid screening"
 S00316,Ketone testing: blood vs urine for a 8-year-old,1,IN_SCOPE,pediatric_t1d,acute_complications,"Explicit age (8), ketone testing"
 S00317,Glucagon prescription 18yo T1D,1,IN_SCOPE,transition,glucagon_rx,"Explicit age (18), glucagon Rx"
@@ -346,13 +346,13 @@ S00344,CGM patterns: post-prandial spikes in 8-year-old,1,IN_SCOPE,glucose_monit
 S00345,Diabetes medical management plan for school,1,IN_SCOPE,psychosocial,DMMP,"School = pediatric, DMMP"
 S00346,SMBG 4x/day vs CGM for 5-year-old cost,1,IN_SCOPE,glucose_monitoring,SMBG_vs_CGM_cost,"Explicit age (5), cost"
 S00347,Lyumjev approval age for pediatric use,1,IN_SCOPE,insulin_therapy,lyumjev_age,"Pediatric explicit, Lyumjev"
-S00348,Insulin pump start age: how young is too young?,1,IN_SCOPE,insulin_therapy,pump,"Pediatric explicit, pump start age"
+S00348,Insulin pump start age: how young is too young?,2,NEEDS_CLARIFICATION,insulin_therapy,pump,"Pediatric explicit, pump start age"
 S00349,Cold weather practice T1D for 10-year-old hockey,1,IN_SCOPE,parents_caregivers_schools,cold_practice,"Explicit age (10), cold practice"
 S00350,Energy drink glucose spike 14-year-old,1,IN_SCOPE,nutrition_lifestyle,energy_drink,"Explicit age (14), energy drink"
 S00351,GMI vs A1c in 15yo on Dexcom G6,1,IN_SCOPE,glucose_monitoring,GMI_vs_A1c,Abbreviations + explicit age (15)
 S00352,Exercise basal reduction for 10-year-old soccer,1,IN_SCOPE,insulin_therapy,exercise_basal_reduction,"Explicit age (10), soccer"
 S00353,Ethnicity and T2D risk: Native American 10-year-old,1,IN_SCOPE,pediatric_t2d,risk_factors,"Explicit age (10), ethnicity risk"
-S00354,CGM not accurat for my 6 yo son,1,IN_SCOPE,glucose_monitoring,CGM_accuracy,"Typos: accurat, yo + explicit age (6)"
+S00354,CGM not accurat for my 6 yo son,2,NEEDS_CLARIFICATION,glucose_monitoring,CGM_accuracy,"Typos: accurat, yo + explicit age (6)"
 S00355,Anyone else's 5yo hate CGM sensor changes?,1,IN_SCOPE,pediatric_t1d,CGM,Casual + explicit age (5)
 S00356,School psychologist IEP for 9-year-old T1D,1,IN_SCOPE,psychosocial,school_psych_IEP,"Explicit age (9), IEP"
 S00357,"CGM alarms waking up my 5-year-old, how to adjust?",1,IN_SCOPE,pediatric_t1d,glucose_monitoring,"Explicit age (5), CGM alarms"
@@ -404,7 +404,7 @@ S00402,CGM sensor insertion device for 4-year-old,1,IN_SCOPE,glucose_monitoring,
 S00403,Apprenticeship T1D disclosure for 18-year-old,1,IN_SCOPE,transition,apprenticeship,"Explicit age (18), apprenticeship"
 S00404,Travel across time zones with 14-year-old T2D,1,IN_SCOPE,pediatric_t2d,lifestyle,"Explicit age (14), travel"
 S00405,HHS in adolescent with T2D: management differences,1,IN_SCOPE,complications,HHS,"Adolescent explicit, HHS"
-S00406,Systematic review: Metformin adjunct in youth T1D,1,IN_SCOPE,pediatric_t1d,sys_review,Researcher + youth explicit
+S00406,Systematic review: Metformin adjunct in youth T1D,2,NEEDS_CLARIFICATION,pediatric_t1d,sys_review,Researcher + youth explicit
 S00407,Babysiter guide for 5yo T1D,1,IN_SCOPE,parents_caregivers_schools,babysitter,Typo: Babysiter + explicit age (5)
 S00408,CGM high alert for 8-year-old ketosis prevention,1,IN_SCOPE,glucose_monitoring,high_alert_ketosis,"Explicit age (8), high alert"
 S00409,Social media comparison 13-year-old T1D,1,IN_SCOPE,nutrition_lifestyle,social_media_T1D,"Explicit age (13), social media"
@@ -510,7 +510,7 @@ S00508,Growth failure in child with poorly controlled T1D,1,IN_SCOPE,complicatio
 S00509,After-school sports snacks for 13-year-old T2D,1,IN_SCOPE,pediatric_t2d,lifestyle,"Explicit age (13), sports snacks"
 S00510,Insulin pump X-ray/body scanner for 8-year-old,1,IN_SCOPE,insulin_therapy,Xray_safety,"Explicit age (8), X-ray"
 S00511,GMI higher than lab HbA1c in my 14-year-old,1,IN_SCOPE,glucose_monitoring,GMI,"Explicit age (14), GMI vs HbA1c"
-S00512,"Transition timeline: start at 14, transfer at 18?",1,IN_SCOPE,transition,timeline,"Explicit ages (14, 18), timeline"
+S00512,"Transition timeline: start at 14, transfer at 18?",2,NEEDS_CLARIFICATION,transition,timeline,"Explicit ages (14, 18), timeline"
 S00513,Help! 13yo daughter skipping boluses at school,1,IN_SCOPE,pediatric_t1d,adherence,Caregiver + explicit age (13)
 S00514,Clinical trial endpoint: TIR in 6-12 year old T1D,1,IN_SCOPE,glucose_monitoring,trial_endpoint,Researcher + explicit age range (6-12)
 S00515,ADA Title II protection for 11-year-old student T1D,1,IN_SCOPE,parents_caregivers_schools,ADA_Title_II,"Explicit age (11), ADA Title II"
@@ -655,7 +655,7 @@ S00653,Impaired fasting glucose 100-125 in 13-year-old: follow-up,1,IN_SCOPE,ped
 S00654,Metformin titration schedule for 13-year-old T2D,1,IN_SCOPE,pediatric_t2d,treatment,"Explicit age (13), metformin titration"
 S00655,Insulin pump basal patterns for 13-year-old gymnast,1,IN_SCOPE,insulin_therapy,gymnast_basal,"Explicit age (13), gymnast"
 S00656,Diabetes strengths and resilience measure 13-year-old,1,IN_SCOPE,psychosocial,DSRM,"Explicit age (13), DSRM"
-S00657,Longitudinal cohort: Glycemic trajectories from childhood to adulthood,1,IN_SCOPE,pediatric_t1d,cohort,Researcher + childhood to adulthood
+S00657,Longitudinal cohort: Glycemic trajectories from childhood to adulthood,2,NEEDS_CLARIFICATION,pediatric_t1d,cohort,Researcher + childhood to adulthood
 S00658,CGM smartwatch display for 14-year-old,1,IN_SCOPE,glucose_monitoring,CGM_smartwatch,"Explicit age (14), smartwatch"
 S00659,Diabetes camp teen leadership for 15-year-old,1,IN_SCOPE,parents_caregivers_schools,camp_teen_leader,"Explicit age (15), teen leader"
 S00660,CGM transmitter battery life for 14-year-old,1,IN_SCOPE,glucose_monitoring,transmitter_battery,"Explicit age (14), transmitter"
@@ -681,7 +681,7 @@ S00679,Retinopathy screening start 5 years post-dx age 6,1,IN_SCOPE,complication
 S00680,Insulin pen vs syringe for 6-year-old dexterity,1,IN_SCOPE,insulin_therapy,pen_vs_syringe,"Explicit age (6), dexterity"
 S00681,PCOS metformin vs OCP in 16-year-old T2D,1,IN_SCOPE,complications,PCOS_metformin_OCP,"Explicit age (16), PCOS"
 S00682,Omnipod Dash vs Omnipod 5 for 11-year-old,1,IN_SCOPE,insulin_therapy,omnipod_choice,"Explicit age (11), Omnipod"
-S00683,Diabetic kidney disease progression youth T2D,1,IN_SCOPE,complications,DKD_youth_T2D,"Youth explicit, DKD"
+S00683,Diabetic kidney disease progression youth T2D,2,NEEDS_CLARIFICATION,complications,DKD_youth_T2D,"Youth explicit, DKD"
 S00684,CGM receiver at school desk for 8-year-old,1,IN_SCOPE,parents_caregivers_schools,CGM_receiver_desk,"Explicit age (8), CGM desk"
 S00685,Protein bolus for 12-year-old: how and when,1,IN_SCOPE,nutrition_lifestyle,protein_bolus,"Explicit age (12), protein bolus"
 S00686,High school diabetes education: what to cover,1,IN_SCOPE,pediatric_t1d,education_hs,"High school = adolescent, education"
@@ -704,12 +704,12 @@ S00702,Thyroid medication effect on insulin needs in 12-year-old,1,IN_SCOPE,insu
 S00703,Insulin pump MRI safety for 11-year-old,1,IN_SCOPE,insulin_therapy,MRI_safety,"Explicit age (11), MRI"
 S00704,Biomarker study: Predictors of T1D in 3-5 year old siblings,1,IN_SCOPE,pediatric_t1d,biomarker,Researcher + explicit age range (3-5)
 S00705,Section 504 eligibility T1D for 9-year-old,1,IN_SCOPE,parents_caregivers_schools,504_eligibility,"Explicit age (9), 504 eligibility"
-S00706,ADA Standards of Care HbA1c <7.5% for youth,1,IN_SCOPE,glucose_monitoring,ADA_targets,"ADA explicit, youth"
+S00706,ADA Standards of Care HbA1c <7.5% for youth,2,NEEDS_CLARIFICATION,glucose_monitoring,ADA_targets,"ADA explicit, youth"
 S00707,Teaching 14-year-old to read nutrition labels,1,IN_SCOPE,nutrition_lifestyle,nutrition_labels,"Explicit age (14), nutrition labels"
 S00708,T2D in both parents: risk for 8-year-old child,1,IN_SCOPE,pediatric_t2d,family_history,"Explicit age (8), both parents T2D"
 S00709,Bariatric surgery referral for 16-year-old with T2D BMI 40,1,IN_SCOPE,pediatric_t2d,treatment,"Explicit age (16), bariatric referral"
 S00710,Correction factor formula for pediatric T1D patients,1,IN_SCOPE,pediatric_t1d,insulin_therapy,"Pediatric explicit, correction factor"
-S00711,Zegalogue auto-injector age approval,1,IN_SCOPE,insulin_therapy,zeegalogue_age,"Pediatric explicit, Zegalogue"
+S00711,Zegalogue auto-injector age approval,2,NEEDS_CLARIFICATION,insulin_therapy,zeegalogue_age,"Pediatric explicit, Zegalogue"
 S00712,Insulin pump vs MDI for my 8-year-old daughter,1,IN_SCOPE,pediatric_t1d,insulin_therapy,"Caregiver + explicit age (8), pump vs MDI"
 S00713,Celiac disease screening T1D vs general pediatrics,1,IN_SCOPE,complications,celiac_screening_T1D,T1D + pediatric explicit
 S00714,DIY looping (OpenAPS/Loop) for 10-year-old: risks,1,IN_SCOPE,insulin_therapy,DIY_looping,"Explicit age (10), DIY looping"
@@ -784,20 +784,20 @@ S00782,"Contraception counseling for 20-year-old with childhood-onset T1D, any s
 S00783,"I'm 21 with T1D since age 6, what's the best way to transfer my CGM data to a new adult endo?",1,IN_SCOPE,transition,data_transfer,"Since age 6 + age 21, data transfer"
 S00784,ABLE account eligibility for 19-year-old with T1D diagnosed at 7,1,IN_SCOPE,transition,able_account,"Diagnosed at 7 + age 19, ABLE account"
 S00785,"Study abroad with T1D: I'm 20, diagnosed at 12, what supplies and docs do I need?",1,IN_SCOPE,transition,study_abroad,"Diagnosed at 12 + age 20, study abroad"
-S00786,"Advance directive for 22-year-old with T1D since childhood, should I get one?",1,IN_SCOPE,transition,advance_directive,"Childhood-onset + age 22, advance directive"
+S00786,"Advance directive for 22-year-old with T1D since childhood, should I get one?",2,NEEDS_CLARIFICATION,transition,advance_directive,"Childhood-onset + age 22, advance directive"
 S00787,"I'm 19, had T1D since age 3, how do I explain my diabetes to new college roommates?",1,IN_SCOPE,transition,roommate_disclosure,"Since age 3 + age 19, disclosure"
 S00788,"Pregnancy planning at 21 with T1D since age 9, retinopathy screening different?",1,IN_SCOPE,transition,pregnancy_retinopathy,"Since age 9 + age 21, pregnancy retinopathy"
-S00789,Supported decision-making for 19-year-old with T1D since childhood and mild cognitive delays,1,IN_SCOPE,transition,supported_decision,"Childhood-onset + age 19, supported decision"
-S00790,"I'm 20, diagnosed with T1D at 11, can I try semaglutide pill as adjunct therapy?",1,IN_SCOPE,transition,semaglutide,"Diagnosed at 11 + age 20, semaglutide"
+S00789,Supported decision-making for 19-year-old with T1D since childhood and mild cognitive delays,2,NEEDS_CLARIFICATION,transition,supported_decision,"Childhood-onset + age 19, supported decision"
+S00790,"I'm 20, diagnosed with T1D at 11, can I try semaglutide pill as adjunct therapy?",2,NEEDS_CLARIFICATION,transition,semaglutide,"Diagnosed at 11 + age 20, semaglutide"
 S00791,"Buttock CGM site for 20-year-old with T1D since age 5, any issues?",1,IN_SCOPE,transition,buttock_site,"Since age 5 + age 20, CGM site"
 S00792,"Study abroad in Italy at 20 with childhood-onset T1D, insulin supply logistics?",1,IN_SCOPE,transition,study_abroad_intl,"Childhood-onset + age 20, intl study abroad"
 S00793,"Transmitter out of warranty at 19 with T1D since age 8, replacement options?",1,IN_SCOPE,transition,transmitter_warranty,"Since age 8 + age 19, warranty"
 S00794,"Drinking alcohol safely at 20 with T1D since age 12, what should I know?",1,IN_SCOPE,transition,alcohol_safety,"Since age 12 + age 20, alcohol"
 S00795,"CGM adhesive allergy at 19 with T1D since age 6, barrier wipes that work?",1,IN_SCOPE,transition,adhesive_allergy,"Since age 6 + age 19, adhesive"
-S00796,"Spevigo injection for 19-year-old with T1D since childhood, is it approved?",1,IN_SCOPE,transition,spevigo,"Childhood-onset + age 19, spevigo"
+S00796,"Spevigo injection for 19-year-old with T1D since childhood, is it approved?",2,NEEDS_CLARIFICATION,transition,spevigo,"Childhood-onset + age 19, spevigo"
 S00797,"Barrier wipes for CGM at 20 with T1D since age 9, recommendations?",1,IN_SCOPE,transition,barrier_wipe,"Since age 9 + age 20, barrier wipe"
 S00798,"Pharmacy prescription transfer at 20 with T1D since age 11, how does it work?",1,IN_SCOPE,transition,rx_transfer,"Since age 11 + age 20, prescription transfer"
-S00799,"Tegaderm HP for CGM at 21 with T1D since childhood, skin sensitivity?",1,IN_SCOPE,transition,tegaderm,"Childhood-onset + age 21, Tegaderm"
+S00799,"Tegaderm HP for CGM at 21 with T1D since childhood, skin sensitivity?",2,NEEDS_CLARIFICATION,transition,tegaderm,"Childhood-onset + age 21, Tegaderm"
 S00800,"GoodRx insulin coupon at 19 with T1D since age 7, does it work?",1,IN_SCOPE,transition,goodrx,"Since age 7 + age 19, GoodRx"
 S00801,"My 8-year-old drinks water constantly, could this be diabetes?",1,IN_SCOPE,pediatric_t1d,symptoms,Parent asking about polydipsia in child
 S00802,Teen constantly thirsty and peeing a lot - diabetes sign?,1,IN_SCOPE,pediatric_t1d,symptoms,Teen asking about polydipsia/polyuria
@@ -822,32 +822,32 @@ S00820,"Thirsty, peeing constantly, and tired - my 8-year-old has all three, dia
 S00821,14-year-old: weight loss + thirst + bathroom trips = diabetes?,1,IN_SCOPE,pediatric_t1d,symptoms,Parent asking about multiple symptoms in teen
 S00822,"Could my 5-year-old have diabetes? Drinks all day, wet diapers at night again",1,IN_SCOPE,pediatric_t1d,symptoms,Parent asking about symptoms in very young child
 S00823,"Preteen losing weight, thirsty, grumpy - should I ask for diabetes test?",1,IN_SCOPE,pediatric_t1d,symptoms,Parent asking about symptom cluster in preteen
-S00824,"I'm 16 and super thirsty all the time, peeing like crazy - diabetes?",1,IN_SCOPE,pediatric_t1d,symptoms,Teen self-reporting classic symptoms
-S00825,"Am I diabetic? Lost weight without trying, always tired, vision blurry",1,IN_SCOPE,pediatric_t1d,symptoms,Teen self-reporting multiple symptoms
+S00824,"I'm 16 and super thirsty all the time, peeing like crazy - diabetes?",2,NEEDS_CLARIFICATION,pediatric_t1d,symptoms,Teen self-reporting classic symptoms
+S00825,"Am I diabetic? Lost weight without trying, always tired, vision blurry",2,NEEDS_CLARIFICATION,pediatric_t1d,symptoms,Teen self-reporting multiple symptoms
 S00826,"High schooler here - constant thirst, bathroom breaks every class, diabetes?",1,IN_SCOPE,pediatric_t1d,symptoms,Teen describing school impact of symptoms
 S00827,Counting education for 9-year-old?,1,IN_SCOPE,nutrition_lifestyle,nutrition_consult,"Explicit age (9), nutrition"
 S00828,My child has carbs for keto?,1,IN_SCOPE,nutrition_lifestyle,net_vs_total,"Explicit age (10), net carbs"
-S00829,Glucose checks for t2d?,1,IN_SCOPE,pediatric_t2d,school,"Explicit age (11), school nurse"
+S00829,Glucose checks for t2d?,2,NEEDS_CLARIFICATION,pediatric_t2d,school,"Explicit age (11), school nurse"
 S00830,My child has pump user ?,1,IN_SCOPE,insulin_therapy,basal_backup,"Explicit age (13), backup"
 S00831,Diet for 10-year-old t2d?,1,IN_SCOPE,pediatric_t2d,obesity_link,"Explicit age (10), low GI diet"
 S00832,Plan for 14-year-old t1d?,1,IN_SCOPE,pediatric_t1d,sick_day_self,"Explicit age (14), sick day self-management"
-S00833,Carb counting for t2d?,1,IN_SCOPE,pediatric_t2d,school,"Explicit age (12), lunch carb counts"
-S00834,Hey for a picky eater?,1,IN_SCOPE,pediatric_t1d,nutrition,"Explicit age (5), carb counting"
+S00833,Carb counting for t2d?,2,NEEDS_CLARIFICATION,pediatric_t2d,school,"Explicit age (12), lunch carb counts"
+S00834,Hey for a picky eater?,2,NEEDS_CLARIFICATION,pediatric_t1d,nutrition,"Explicit age (5), carb counting"
 S00835,"Btw my preteen has prediabtes in , what should I do?",1,IN_SCOPE,pediatric_t2d,prediabetes,Typo: Prediabtes + explicit age (13)
 S00836,Transition clinic 17-year-old t1d?,1,IN_SCOPE,transition,transition_clinic,Abbreviations + explicit age (17)
-S00837,"I'm 21, diagnosed with T1D at 5, how do I transition my mental health care along with diabetes care to adult providers?",1,IN_SCOPE,transition,mental_health,Young adult with childhood-onset T1D asking about mental health transition
-S00838,"I'm 22, diagnosed with T1D at 6, how do I handle dating and disclosure with new partners as an adult?",1,IN_SCOPE,transition,dating_disclosure,Young adult with childhood-onset T1D asking about dating disclosure
-S00839,"I'm 20, diagnosed with T1D at 10, what should I know about DKA prevention as an adult?",1,IN_SCOPE,transition,dka_prevention,Young adult with childhood-onset T1D asking about DKA prevention in adult context
-S00840,"I'm 21, diagnosed with T1D at 8, what's the best way to build my own diabetes care team as an adult?",1,IN_SCOPE,transition,care_team,Young adult with childhood-onset T1D asking about building adult care team
-S00841,"I'm 22, diagnosed with T1D at 10, how do I explain my medical needs to university disability services?",1,IN_SCOPE,transition,university_accommodations,Young adult with childhood-onset T1D asking about university accommodations
-S00842,"I'm 19, diagnosed with T1D at 8, how do I handle prescription refills during semester breaks?",1,IN_SCOPE,transition,refill_timing,Young adult with childhood-onset T1D asking about prescription timing
-S00843,"I'm 24, diagnosed with T1D at 11, how do I manage diabetes burnout as a young adult?",1,IN_SCOPE,transition,burnout,Young adult with childhood-onset T1D asking about burnout management
-S00844,"I'm 22, diagnosed with T1D at 10, what should I know about alcohol and T1D as a young adult?",1,IN_SCOPE,transition,alcohol_safety,Young adult with childhood-onset T1D asking about alcohol management
-S00845,"I'm 19, diagnosed with T1D at 4, how do I handle driving with low blood sugar now that I have my license?",1,IN_SCOPE,transition,driving,Young adult with childhood-onset T1D asking about driving safety
-S00846,"I'm 20, diagnosed with T1D at 9, how do I handle my diabetes supplies when moving into my first apartment?",1,IN_SCOPE,transition,moving_out,Young adult with childhood-onset T1D asking about independent living
-S00847,"I'm 24, diagnosed with T1D at 10, how do I find a primary care doctor who understands T1D as an adult?",1,IN_SCOPE,transition,pcp_search,Young adult with childhood-onset T1D asking about primary care
-S00848,"I'm 22, diagnosed with T1D at 8, what are my rights for diabetes accommodations in the workplace?",1,IN_SCOPE,transition,workplace_rights,Young adult with childhood-onset T1D asking about ADA accommodations
-S00849,"I'm 23, diagnosed with T1D at 7, how do I manage time zone changes for insulin with a new job?",1,IN_SCOPE,transition,timezone_management,Young adult with childhood-onset T1D asking about timezone insulin management
+S00837,"I'm 21, diagnosed with T1D at 5, how do I transition my mental health care along with diabetes care to adult providers?",2,NEEDS_CLARIFICATION,transition,mental_health,Young adult with childhood-onset T1D asking about mental health transition
+S00838,"I'm 22, diagnosed with T1D at 6, how do I handle dating and disclosure with new partners as an adult?",2,NEEDS_CLARIFICATION,transition,dating_disclosure,Young adult with childhood-onset T1D asking about dating disclosure
+S00839,"I'm 20, diagnosed with T1D at 10, what should I know about DKA prevention as an adult?",2,NEEDS_CLARIFICATION,transition,dka_prevention,Young adult with childhood-onset T1D asking about DKA prevention in adult context
+S00840,"I'm 21, diagnosed with T1D at 8, what's the best way to build my own diabetes care team as an adult?",2,NEEDS_CLARIFICATION,transition,care_team,Young adult with childhood-onset T1D asking about building adult care team
+S00841,"I'm 22, diagnosed with T1D at 10, how do I explain my medical needs to university disability services?",2,NEEDS_CLARIFICATION,transition,university_accommodations,Young adult with childhood-onset T1D asking about university accommodations
+S00842,"I'm 19, diagnosed with T1D at 8, how do I handle prescription refills during semester breaks?",2,NEEDS_CLARIFICATION,transition,refill_timing,Young adult with childhood-onset T1D asking about prescription timing
+S00843,"I'm 24, diagnosed with T1D at 11, how do I manage diabetes burnout as a young adult?",2,NEEDS_CLARIFICATION,transition,burnout,Young adult with childhood-onset T1D asking about burnout management
+S00844,"I'm 22, diagnosed with T1D at 10, what should I know about alcohol and T1D as a young adult?",2,NEEDS_CLARIFICATION,transition,alcohol_safety,Young adult with childhood-onset T1D asking about alcohol management
+S00845,"I'm 19, diagnosed with T1D at 4, how do I handle driving with low blood sugar now that I have my license?",2,NEEDS_CLARIFICATION,transition,driving,Young adult with childhood-onset T1D asking about driving safety
+S00846,"I'm 20, diagnosed with T1D at 9, how do I handle my diabetes supplies when moving into my first apartment?",2,NEEDS_CLARIFICATION,transition,moving_out,Young adult with childhood-onset T1D asking about independent living
+S00847,"I'm 24, diagnosed with T1D at 10, how do I find a primary care doctor who understands T1D as an adult?",2,NEEDS_CLARIFICATION,transition,pcp_search,Young adult with childhood-onset T1D asking about primary care
+S00848,"I'm 22, diagnosed with T1D at 8, what are my rights for diabetes accommodations in the workplace?",2,NEEDS_CLARIFICATION,transition,workplace_rights,Young adult with childhood-onset T1D asking about ADA accommodations
+S00849,"I'm 23, diagnosed with T1D at 7, how do I manage time zone changes for insulin with a new job?",2,NEEDS_CLARIFICATION,transition,timezone_management,Young adult with childhood-onset T1D asking about timezone insulin management
 S00850,Diabetes camp psychosocial outcomes for 10-year-old,1,IN_SCOPE,psychosocial,camp_psychosocial,"Explicit age (10), camp"
 S00851,Summer camp menu planning for 10-year-old,1,IN_SCOPE,nutrition_lifestyle,camp_menu,"Explicit age (10), camp menu"
 S00852,Insulin requirements during puberty stages in boys 12-16,1,IN_SCOPE,insulin_therapy,puberty_boys,"Explicit age range (12-16), boys"
@@ -868,7 +868,7 @@ S00866,Ketogenic diet for 14-year-old with T1D: safe?,1,IN_SCOPE,nutrition_lifes
 S00867,Transition readiness questionnaire TRAQ for 14-year-old,1,IN_SCOPE,transition,TRAQ,"Explicit age (14), TRAQ"
 S00868,Ramadan fasting with T2D in 15-year-old,1,IN_SCOPE,pediatric_t2d,lifestyle,"Explicit age (15), Ramadan fasting"
 S00869,Body image issues in adolescent girls with T1D,1,IN_SCOPE,nutrition_lifestyle,body_image,"Adolescent girls explicit, body image"
-S00870,Diabetes medical management plan vs 504 vs IEP,1,IN_SCOPE,parents_caregivers_schools,DMMP_504_IEP,"School = pediatric, plan types"
+S00870,Diabetes medical management plan vs 504 vs IEP,2,NEEDS_CLARIFICATION,parents_caregivers_schools,DMMP_504_IEP,"School = pediatric, plan types"
 S00871,Transition readiness checklist for 16-year-old,1,IN_SCOPE,transition,readiness,"Explicit age (16), readiness"
 S00872,CGM use in youth-onset type 2 diabetes,1,IN_SCOPE,pediatric_t2d,monitoring,"Youth-onset explicit, CGM"
 S00873,Mindfulness for diabetes stress in 15-year-old,1,IN_SCOPE,psychosocial,mindfulness_teen,"Explicit age (15), mindfulness"
@@ -1496,62 +1496,62 @@ S01494,"50-year-old T2D: metformin not working, what next?",0,OUT_OF_SCOPE,adult
 S01495,60-year-old T2D: starting basal insulin,0,OUT_OF_SCOPE,adult_diabetes,t2d_treatment,"Explicit age 60, basal insulin adult"
 S01496,40-year-old T1D: CGM alarm settings for work,0,OUT_OF_SCOPE,adult_diabetes,t1d_monitoring,"Explicit age 40, CGM adult"
 S01497,55-year-old T2D: SGLT2 for kidney protection,0,OUT_OF_SCOPE,adult_diabetes,t2d_treatment,"Explicit age 55, SGLT2 adult"
-S01498,MIPS diabetes quality measures for clinicians,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,MIPS = programming
-S01499,Feline diabetes remission diet: high protein low carb,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat diet = pets
-S01500,Diabetic ketoacidosis in cats: fluid therapy,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat DKA fluids = pets
-S01501,Insulin formulation stability testing ICH guidelines,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Stability testing = pharma business
+S01498,MIPS diabetes quality measures for clinicians,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,MIPS = programming
+S01499,Feline diabetes remission diet: high protein low carb,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat diet = pets
+S01500,Diabetic ketoacidosis in cats: fluid therapy,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat DKA fluids = pets
+S01501,Insulin formulation stability testing ICH guidelines,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Stability testing = pharma business
 S01502,ACCORD trial history: intensive control controversy,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,ACCORD history = history
-S01503,Diabetic cat insulin glargine dosing protocol,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat glargine = pets
-S01504,CGM sensor: enzyme vs fluorescence chemistry,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Sensor chemistry = pharma
-S01505,Diabetic ketoacidosis in cats: emergency treatment,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat DKA = pets
-S01506,Continuous glucose monitoring: from Minimed to Dexcom,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,CGM history = history
-S01507,Insulin resistance in horses: equine metabolic syndrome,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Horses EMS = pets
-S01508,Feline diabetes pancreatitis: PLI test,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat pancreatitis = pets
-S01509,UKPDS history: changing T2D care,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,UKPDS history = history
-S01510,Export glucose data CSV PDF from mobile app,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Export CSV PDF = programming
-S01511,Insulin transparency reporting laws by state,0,OUT_OF_SCOPE,diabetes_adjacent,politics,Transparency laws = politics
-S01512,Insulin importation from Canada: FDA personal use,0,OUT_OF_SCOPE,diabetes_adjacent,politics,Importation = politics
-S01513,Feline diabetes remission rate with glargine,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat glargine remission = pets
-S01514,Canine diabetes: Vetsulin vs ProZinc for dogs,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Dogs diabetes = pets
-S01515,i2b2 diabetes query tool for research,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,i2b2 = programming
+S01503,Diabetic cat insulin glargine dosing protocol,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat glargine = pets
+S01504,CGM sensor: enzyme vs fluorescence chemistry,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Sensor chemistry = pharma
+S01505,Diabetic ketoacidosis in cats: emergency treatment,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat DKA = pets
+S01506,Continuous glucose monitoring: from Minimed to Dexcom,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,CGM history = history
+S01507,Insulin resistance in horses: equine metabolic syndrome,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Horses EMS = pets
+S01508,Feline diabetes pancreatitis: PLI test,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat pancreatitis = pets
+S01509,UKPDS history: changing T2D care,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,UKPDS history = history
+S01510,Export glucose data CSV PDF from mobile app,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Export CSV PDF = programming
+S01511,Insulin transparency reporting laws by state,2,NEEDS_CLARIFICATION,diabetes_adjacent,politics,Transparency laws = politics
+S01512,Insulin importation from Canada: FDA personal use,2,NEEDS_CLARIFICATION,diabetes_adjacent,politics,Importation = politics
+S01513,Feline diabetes remission rate with glargine,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat glargine remission = pets
+S01514,Canine diabetes: Vetsulin vs ProZinc for dogs,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Dogs diabetes = pets
+S01515,i2b2 diabetes query tool for research,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,i2b2 = programming
 S01516,Artificial pancreas research history 1970s-present,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Research history = history
-S01517,Home glucose curve cat: stress hyperglycemia,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat stress hyperglycemia = pets
-S01518,Diabetic cat remission rate glargine vs detemir,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat remission = pets
-S01519,Diabetic dog concurrent Cushing's: trilostane,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Dog Cushing's = pets
-S01520,TripleNet diabetes data network,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,TripleNet = programming
-S01521,Feline diabetic remission diet management,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat remission = pets
-S01522,Insulin analogs development timeline,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Analogs timeline = history
+S01517,Home glucose curve cat: stress hyperglycemia,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat stress hyperglycemia = pets
+S01518,Diabetic cat remission rate glargine vs detemir,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat remission = pets
+S01519,Diabetic dog concurrent Cushing's: trilostane,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Dog Cushing's = pets
+S01520,TripleNet diabetes data network,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,TripleNet = programming
+S01521,Feline diabetic remission diet management,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat remission = pets
+S01522,Insulin analogs development timeline,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,Analogs timeline = history
 S01523,Equine metabolic syndrome: oral sugar test,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Horse OST = pets
-S01524,Data visualization charts for glucose trends React,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Data viz charts = programming
-S01525,Cost of diabetes complications vs prevention,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Cost comparison = economics
+S01524,Data visualization charts for glucose trends React,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Data viz charts = programming
+S01525,Cost of diabetes complications vs prevention,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Cost comparison = economics
 S01526,Metformin from Galega officinalis to first-line,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Metformin history = history
-S01527,Evolution of diabetic ketoacidosis treatment,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,DKA treatment history = history
-S01528,Insulin pump market: Tandem Insulet Medtronic,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Pump market = economics
-S01529,Diabetic dog diet: high fiber vs low carb,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Dog diet = pets
-S01530,Insulin antibody dog: porcine vs human insulin,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Dog insulin antibody = pets
-S01531,Guinea pig diabetes: rare but documented,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Guinea pig diabetes = pets
+S01527,Evolution of diabetic ketoacidosis treatment,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,DKA treatment history = history
+S01528,Insulin pump market: Tandem Insulet Medtronic,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Pump market = economics
+S01529,Diabetic dog diet: high fiber vs low carb,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Dog diet = pets
+S01530,Insulin antibody dog: porcine vs human insulin,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Dog insulin antibody = pets
+S01531,Guinea pig diabetes: rare but documented,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Guinea pig diabetes = pets
 S01532,Discovery of glucagon: Unger and colleagues,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Glucagon discovery = history
-S01533,History of diabetes research: from antiquity to insulin,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,History of research = not clinical
-S01534,Feline diabetic neuropathy methylcobalamin,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat neuropathy B12 = pets
+S01533,History of diabetes research: from antiquity to insulin,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,History of research = not clinical
+S01534,Feline diabetic neuropathy methylcobalamin,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat neuropathy B12 = pets
 S01535,Laminitis prevention EMS horse: cryotherapy,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Horse laminitis prevention = pets
-S01536,History of glucose monitoring: urine to CGM,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Technology history = history
-S01537,History of insulin pumps: from backpack to patch,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Pump history = history
+S01536,History of glucose monitoring: urine to CGM,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,Technology history = history
+S01537,History of insulin pumps: from backpack to patch,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,Pump history = history
 S01538,Discovery of metformin: from goat's rue to first-line,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Drug discovery history = history
-S01539,Share glucose reports with doctor from app,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Share reports = programming
-S01540,Insulin degludec: ultra-long action mechanism,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Mechanism = pharma
-S01541,Home blood glucose curves for diabetic cat,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat glucose curves = pets
+S01539,Share glucose reports with doctor from app,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Share reports = programming
+S01540,Insulin degludec: ultra-long action mechanism,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Mechanism = pharma
+S01541,Home blood glucose curves for diabetic cat,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat glucose curves = pets
 S01542,History of sulfonylureas: from carbamides to glimepiride,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Sulfonylurea history = history
-S01543,ADVANCE trial history: T2D vascular outcomes,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,ADVANCE history = history
-S01544,Diabetes absenteeism presenteeism cost estimates,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Absenteeism costs = economics
-S01545,State insulin copay cap laws: Colorado Maine,0,OUT_OF_SCOPE,diabetes_adjacent,politics,State copay cap = politics
-S01546,Cost of insulin in the US vs other countries,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Economics insulin cost
-S01547,Diabetes tracking apps comparison: features and reviews,0,OUT_OF_SCOPE,diabetes_adjacent,app_review,App review diabetes tracking
-S01548,Can dogs get diabetes? Veterinary diabetes basics,0,OUT_OF_SCOPE,diabetes_adjacent,veterinary,Veterinary diabetes in pets
-S01549,Insurance prior authorization process for CGM,0,OUT_OF_SCOPE,diabetes_adjacent,insurance,Insurance prior auth CGM
-S01550,How to read a continuous glucose monitor report,0,OUT_OF_SCOPE,diabetes_adjacent,education,Education CGM report
-S01551,Traveling with insulin: TSA guidelines and tips,0,OUT_OF_SCOPE,diabetes_adjacent,travel,Travel TSA insulin
-S01552,Diabetes support groups online: how to find them,0,OUT_OF_SCOPE,diabetes_adjacent,support,Support groups online
-S01553,Insulin pump manufacturers comparison: features,0,OUT_OF_SCOPE,diabetes_adjacent,device_comparison,Device comparison pumps
+S01543,ADVANCE trial history: T2D vascular outcomes,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,ADVANCE history = history
+S01544,Diabetes absenteeism presenteeism cost estimates,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Absenteeism costs = economics
+S01545,State insulin copay cap laws: Colorado Maine,2,NEEDS_CLARIFICATION,diabetes_adjacent,politics,State copay cap = politics
+S01546,Cost of insulin in the US vs other countries,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Economics insulin cost
+S01547,Diabetes tracking apps comparison: features and reviews,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_review,App review diabetes tracking
+S01548,Can dogs get diabetes? Veterinary diabetes basics,2,NEEDS_CLARIFICATION,diabetes_adjacent,veterinary,Veterinary diabetes in pets
+S01549,Insurance prior authorization process for CGM,2,NEEDS_CLARIFICATION,diabetes_adjacent,insurance,Insurance prior auth CGM
+S01550,How to read a continuous glucose monitor report,2,NEEDS_CLARIFICATION,diabetes_adjacent,education,Education CGM report
+S01551,Traveling with insulin: TSA guidelines and tips,2,NEEDS_CLARIFICATION,diabetes_adjacent,travel,Travel TSA insulin
+S01552,Diabetes support groups online: how to find them,2,NEEDS_CLARIFICATION,diabetes_adjacent,support,Support groups online
+S01553,Insulin pump manufacturers comparison: features,2,NEEDS_CLARIFICATION,diabetes_adjacent,device_comparison,Device comparison pumps
 S01554,How to write a novel about a character with diabetes,0,OUT_OF_SCOPE,non_medical,creative_writing,Creative writing about diabetes
 S01555,Diabetes memoir book recommendations,0,OUT_OF_SCOPE,non_medical,entertainment,Book recommendations
 S01556,Best diabetes documentaries to watch,0,OUT_OF_SCOPE,non_medical,entertainment,Documentary recommendations
@@ -1589,17 +1589,17 @@ S01587,70-year-old with atrial fibrillation: blood thinner choice,0,OUT_OF_SCOPE
 S01588,40-year-old with migraine: CGRP inhibitor options,0,OUT_OF_SCOPE,other_medical_adult,neurology,Adult migraine
 S01589,50-year-old with menopause: hormone therapy risks,0,OUT_OF_SCOPE,other_medical_adult,endocrine,Adult menopause
 S01590,55-year-old with low back pain: imaging guidelines,0,OUT_OF_SCOPE,other_medical_adult,orthopedics,Adult back pain
-S01591,How much does insulin cost without insurance,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Insulin cost question
-S01592,Where to buy affordable insulin online,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Insulin purchasing
-S01593,How to inject insulin: pen vs syringe,0,OUT_OF_SCOPE,diabetes_adjacent,education,Injection technique
-S01594,How to prime an insulin pen,0,OUT_OF_SCOPE,diabetes_adjacent,education,Pen priming
-S01595,Insulin storage: fridge vs room temperature,0,OUT_OF_SCOPE,diabetes_adjacent,education,Insulin storage
+S01591,How much does insulin cost without insurance,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Insulin cost question
+S01592,Where to buy affordable insulin online,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Insulin purchasing
+S01593,How to inject insulin: pen vs syringe,2,NEEDS_CLARIFICATION,diabetes_adjacent,education,Injection technique
+S01594,How to prime an insulin pen,2,NEEDS_CLARIFICATION,diabetes_adjacent,education,Pen priming
+S01595,Insulin storage: fridge vs room temperature,2,NEEDS_CLARIFICATION,diabetes_adjacent,education,Insulin storage
 S01596,How to treat a low blood sugar: 15-15 rule,0,OUT_OF_SCOPE,diabetes_adjacent,education,Hypoglycemia treatment
 S01597,Glucagon emergency kit: how to use,0,OUT_OF_SCOPE,diabetes_adjacent,education,Glucagon use
-S01598,CGM sensor insertion: does it hurt,0,OUT_OF_SCOPE,diabetes_adjacent,education,CGM insertion pain
-S01599,Pump site rotation: where to place,0,OUT_OF_SCOPE,diabetes_adjacent,education,Pump site rotation
+S01598,CGM sensor insertion: does it hurt,2,NEEDS_CLARIFICATION,diabetes_adjacent,education,CGM insertion pain
+S01599,Pump site rotation: where to place,2,NEEDS_CLARIFICATION,diabetes_adjacent,education,Pump site rotation
 S01600,Ketone testing: when and how,0,OUT_OF_SCOPE,diabetes_adjacent,education,Ketone testing
-S01601,Sick day rules for type 1 diabetes,0,OUT_OF_SCOPE,diabetes_adjacent,education,Sick day rules
+S01601,Sick day rules for type 1 diabetes,2,NEEDS_CLARIFICATION,diabetes_adjacent,education,Sick day rules
 S01602,"As an adult, i was told I have IR, IR and nafld in ?",0,OUT_OF_SCOPE,hard_negative,insulin_resistance_adult,"Explicit age 42, NAFLD adult"
 S01603,For diabetes clinical trial?,0,OUT_OF_SCOPE,non_medical,math_statistics,Sample size calculation = statistics
 S01604,"My relative has recurrent nephrolithiasis in , what should we do?",0,OUT_OF_SCOPE,other_medical_adult,kidney_stones,"Explicit age 50, adult recurrent stones"
@@ -1610,15 +1610,15 @@ S01608,"My relative has urticaria in : omalizumab, what should we do?",0,OUT_OF_
 S01609,"As an adult, I have t2d: CGM?",0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 74, CGM elderly"
 S01610,Quick q: type 1 and T2D?,0,OUT_OF_SCOPE,non_medical,general_knowledge,General knowledge T1D vs T2D
 S01611,Weight lifting: insulin adjustments?,0,OUT_OF_SCOPE,non_medical,sports,Weight lifting management
-S01612,Affordable insulin online cost?,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Insulin purchasing
-S01613,Insulin list price vs net price trend 2010-2024,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Price trend = economics
+S01612,Affordable insulin online cost?,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Insulin purchasing
+S01613,Insulin list price vs net price trend 2010-2024,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Price trend = economics
 S01614,Intermittent fasting 16:8 insulin resistance 38yo,0,OUT_OF_SCOPE,hard_negative,insulin_resistance_adult,"Explicit age 38, IF adult"
 S01615,App Store Connect medical device category submission,0,OUT_OF_SCOPE,non_medical,programming,App Store Connect = programming
 S01616,41-year-old T1D: pregnancy high-risk OB,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 41, adult pregnancy"
 S01617,Intermittent fasting 18:6 insulin resistance 30yo,0,OUT_OF_SCOPE,hard_negative,insulin_resistance_adult,"Explicit age 30, IF adult"
 S01618,68-year-old T1D: pump coverage Medicare,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 68, pump Medicare"
 S01619,86-year-old T1D: end-of-life insulin,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 86, EOL insulin"
-S01620,Insulin lispro biosimilar: analytical similarity,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Analytical similarity = pharma
+S01620,Insulin lispro biosimilar: analytical similarity,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Analytical similarity = pharma
 S01621,57-year-old T2D: carpal tunnel release,0,OUT_OF_SCOPE,hard_negative,age_19_plus,"Explicit age 57, adult carpal tunnel surgery"
 S01622,7-year-old with VUR: antibiotic prophylaxis,0,OUT_OF_SCOPE,hard_negative,pediatric_non_diabetes,"Explicit age 7, VUR not diabetes"
 S01623,Time-restricted eating 10hr window 40yo,0,OUT_OF_SCOPE,hard_negative,insulin_resistance_adult,"Explicit age 40, TRE adult"
@@ -1736,145 +1736,145 @@ S01734,"Dad with T1D since 20s, now 45: pump options?",0,OUT_OF_SCOPE,adult_diab
 S01735,T1D diagnosis at 35: antibody testing protocol,0,OUT_OF_SCOPE,adult_diabetes,t1d_diagnosis,"Explicit age 35, adult T1D diagnosis"
 S01736,Intermittent fasting T2D 50-year-old: protocols,0,OUT_OF_SCOPE,adult_diabetes,t2d_treatment,"Explicit age 50, fasting adult"
 S01737,Diabetes distress scale for 40-year-old T2D,0,OUT_OF_SCOPE,adult_diabetes,t2d_psychosocial,"Explicit age 40, distress adult"
-S01738,Gamification features for diabetes app engagement,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Gamification = programming
-S01739,Insulin antibodies in diabetic dogs: resistance,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Dog insulin antibodies = pets
-S01740,HIPAA compliant cloud storage for glucose data,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,HIPAA cloud = programming
-S01741,SwiftUI glucose chart for iOS diabetes app,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,SwiftUI = programming
-S01742,Early retirement due to diabetes economic impact,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Early retirement = economics
-S01743,Canine diabetes: twice daily insulin timing,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Dog insulin timing = pets
-S01744,PBM spread pricing insulin: legislative fixes,0,OUT_OF_SCOPE,diabetes_adjacent,politics,PBM spread = politics
-S01745,Insulin supply chain: cold chain logistics,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Supply chain = pharma business
-S01746,D3.js interactive glucose visualization web,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,D3.js = programming
-S01747,AmCharts glucose trend with annotations,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,AmCharts = programming
-S01748,Insulin pump: patch pump vs tubed market share,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Patch vs tubed = pharma
-S01749,Insulin patent landscape: evergreening strategies,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Patent landscape = pharma business
-S01750,Insulin vial vs cartridge vs penfill manufacturing,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Manufacturing formats = pharma
-S01751,Implantable CGM: 180-day sensor Eversense,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Implantable CGM = pharma
-S01752,Humira biosimilar launch impact on insulin market,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Biosimilar market = economics
-S01753,Guinea pig diabetes: rare case reports,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Guinea pig diabetes = pets
-S01754,HEDIS diabetes measures for health plans,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,HEDIS = programming
-S01755,Plotly.js glucose interactive web dashboard,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Plotly.js = programming
-S01756,Diabetes drug launch pricing strategy: ICER thresholds,0,OUT_OF_SCOPE,diabetes_adjacent,economics,ICER pricing = economics
+S01738,Gamification features for diabetes app engagement,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Gamification = programming
+S01739,Insulin antibodies in diabetic dogs: resistance,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Dog insulin antibodies = pets
+S01740,HIPAA compliant cloud storage for glucose data,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,HIPAA cloud = programming
+S01741,SwiftUI glucose chart for iOS diabetes app,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,SwiftUI = programming
+S01742,Early retirement due to diabetes economic impact,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Early retirement = economics
+S01743,Canine diabetes: twice daily insulin timing,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Dog insulin timing = pets
+S01744,PBM spread pricing insulin: legislative fixes,2,NEEDS_CLARIFICATION,diabetes_adjacent,politics,PBM spread = politics
+S01745,Insulin supply chain: cold chain logistics,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Supply chain = pharma business
+S01746,D3.js interactive glucose visualization web,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,D3.js = programming
+S01747,AmCharts glucose trend with annotations,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,AmCharts = programming
+S01748,Insulin pump: patch pump vs tubed market share,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Patch vs tubed = pharma
+S01749,Insulin patent landscape: evergreening strategies,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Patent landscape = pharma business
+S01750,Insulin vial vs cartridge vs penfill manufacturing,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Manufacturing formats = pharma
+S01751,Implantable CGM: 180-day sensor Eversense,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Implantable CGM = pharma
+S01752,Humira biosimilar launch impact on insulin market,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Biosimilar market = economics
+S01753,Guinea pig diabetes: rare case reports,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Guinea pig diabetes = pets
+S01754,HEDIS diabetes measures for health plans,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,HEDIS = programming
+S01755,Plotly.js glucose interactive web dashboard,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Plotly.js = programming
+S01756,Diabetes drug launch pricing strategy: ICER thresholds,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,ICER pricing = economics
 S01757,Safety pen needle: passive activation mechanism,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Safety needle = pharma
-S01758,Feline diabetic neuropathy: hind leg weakness,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat neuropathy = pets
+S01758,Feline diabetic neuropathy: hind leg weakness,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat neuropathy = pets
 S01759,PPID Cushing's in horses: pergolide dosing,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Horse PPID = pets
-S01760,User onboarding flow for diabetes management app,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,User onboarding = programming
-S01761,Jetpack Compose glucose graph for Android,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Jetpack Compose = programming
-S01762,Equine metabolic syndrome: insulin dysregulation,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Horse EMS = pets
-S01763,FDA guidance insulin demonstration interchangeability,0,OUT_OF_SCOPE,diabetes_adjacent,politics,FDA guidance = politics
-S01764,Pet diabetes monitoring apps for owners,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Pet apps = pets
-S01765,Next-gen CGM: multi-analyte lactate ketones,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Multi-analyte = pharma
-S01766,Diabetic dog cataract surgery referral,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Dog cataract = pets
-S01767,Diabetes genetics history: from HLA to GWAS,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Genetics history = history
-S01768,Home glucose monitoring for diabetic cat,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat glucose monitoring = pets
-S01769,Landmark diabetes trials: DCCT UKPDS ACCORD,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Landmark trials history = not clinical care
-S01770,Diabetic ketoacidosis cat: potassium protocol,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat DKA K+ = pets
-S01771,Diabetes clinical quality measures eCQM,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,eCQM = programming
-S01772,Libre CGM cat: sensor placement technique,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat Libre placement = pets
-S01773,Insulin formulation: zinc hexamer stabilization,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Formulation = pharma
-S01774,Global insulin market share: Novo Lilly Sanofi,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Market share = economics
+S01760,User onboarding flow for diabetes management app,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,User onboarding = programming
+S01761,Jetpack Compose glucose graph for Android,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Jetpack Compose = programming
+S01762,Equine metabolic syndrome: insulin dysregulation,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Horse EMS = pets
+S01763,FDA guidance insulin demonstration interchangeability,2,NEEDS_CLARIFICATION,diabetes_adjacent,politics,FDA guidance = politics
+S01764,Pet diabetes monitoring apps for owners,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Pet apps = pets
+S01765,Next-gen CGM: multi-analyte lactate ketones,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Multi-analyte = pharma
+S01766,Diabetic dog cataract surgery referral,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Dog cataract = pets
+S01767,Diabetes genetics history: from HLA to GWAS,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,Genetics history = history
+S01768,Home glucose monitoring for diabetic cat,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat glucose monitoring = pets
+S01769,Landmark diabetes trials: DCCT UKPDS ACCORD,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,Landmark trials history = not clinical care
+S01770,Diabetic ketoacidosis cat: potassium protocol,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat DKA K+ = pets
+S01771,Diabetes clinical quality measures eCQM,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,eCQM = programming
+S01772,Libre CGM cat: sensor placement technique,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat Libre placement = pets
+S01773,Insulin formulation: zinc hexamer stabilization,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Formulation = pharma
+S01774,Global insulin market share: Novo Lilly Sanofi,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Market share = economics
 S01775,Artificial pancreas: from Biostator to closed-loop,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,AP history = history
-S01776,Bluetooth Low Energy CGM data sync React Native,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,BLE sync = programming
-S01777,Global economic burden of diabetes 2021 IDF atlas,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Global economic burden = economics
-S01778,Firebase backend for diabetes mobile app,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Firebase backend = programming
-S01779,Chart.js real-time glucose streaming chart,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Chart.js = programming
-S01780,Diabetes registry data model for quality improvement,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Registry data model = programming
-S01781,Offline-first architecture for diabetes app,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Offline-first = programming
-S01782,Evolution of diabetes classification over centuries,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Classification evolution = history
-S01783,Transdermal insulin: microneedle patch delivery,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Transdermal = pharma
-S01784,Telerik UI Maui glucose chart component,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Telerik Maui = programming
-S01785,CGM market size 2024: Dexcom Abbott Medtronic,0,OUT_OF_SCOPE,diabetes_adjacent,economics,CGM market = economics
-S01786,History of diabetic retinopathy classification: ETDRS,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Retinopathy classification = history
-S01787,Insulin supply chain: API sourcing China India,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,API sourcing = pharma
-S01788,Employer diabetes costs: medical vs productivity,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Employer costs = economics
-S01789,HealthKit integration for iOS glucose app,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,HealthKit = programming
-S01790,History of diabetes classification: from types to etiology,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Classification history = history
-S01791,OxyPlot glucose trend with threshold lines,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,OxyPlot = programming
-S01792,Medicaid diabetes drug spending by state,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Medicaid spending = economics
-S01793,Insulin dysregulation horse: dynamic testing,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Horse dynamic test = pets
-S01794,Insulin excipients: phenol m-cresol glycerin,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Excipients = pharma
+S01776,Bluetooth Low Energy CGM data sync React Native,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,BLE sync = programming
+S01777,Global economic burden of diabetes 2021 IDF atlas,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Global economic burden = economics
+S01778,Firebase backend for diabetes mobile app,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Firebase backend = programming
+S01779,Chart.js real-time glucose streaming chart,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Chart.js = programming
+S01780,Diabetes registry data model for quality improvement,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Registry data model = programming
+S01781,Offline-first architecture for diabetes app,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Offline-first = programming
+S01782,Evolution of diabetes classification over centuries,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,Classification evolution = history
+S01783,Transdermal insulin: microneedle patch delivery,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Transdermal = pharma
+S01784,Telerik UI Maui glucose chart component,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Telerik Maui = programming
+S01785,CGM market size 2024: Dexcom Abbott Medtronic,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,CGM market = economics
+S01786,History of diabetic retinopathy classification: ETDRS,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,Retinopathy classification = history
+S01787,Insulin supply chain: API sourcing China India,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,API sourcing = pharma
+S01788,Employer diabetes costs: medical vs productivity,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Employer costs = economics
+S01789,HealthKit integration for iOS glucose app,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,HealthKit = programming
+S01790,History of diabetes classification: from types to etiology,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,Classification history = history
+S01791,OxyPlot glucose trend with threshold lines,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,OxyPlot = programming
+S01792,Medicaid diabetes drug spending by state,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Medicaid spending = economics
+S01793,Insulin dysregulation horse: dynamic testing,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Horse dynamic test = pets
+S01794,Insulin excipients: phenol m-cresol glycerin,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Excipients = pharma
 S01795,Ferret insulinoma: Whipple triad diagnosis,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Ferret Whipple triad = pets
 S01796,History of GLP-1 agonists: exenatide from Gila monster,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,GLP-1 history = history
-S01797,Apache ECharts glucose AGP report visualization,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,ECharts AGP = programming
-S01798,Recharts glucose trend component React,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Recharts = programming
-S01799,Diabetes M&A activity 2023-2024,0,OUT_OF_SCOPE,diabetes_adjacent,economics,M&A activity = economics
-S01800,CDA CCD diabetes summary of care document,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,CDA CCD = programming
+S01797,Apache ECharts glucose AGP report visualization,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,ECharts AGP = programming
+S01798,Recharts glucose trend component React,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Recharts = programming
+S01799,Diabetes M&A activity 2023-2024,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,M&A activity = economics
+S01800,CDA CCD diabetes summary of care document,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,CDA CCD = programming
 S01801,SGLT2 inhibitors: from phlorizin to empagliflozin,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,SGLT2 history = history
-S01802,Return on investment for diabetes prevention programs,0,OUT_OF_SCOPE,diabetes_adjacent,economics,ROI prevention = economics
-S01803,Laminitis in insulin resistant horse: management,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Horse laminitis = pets
-S01804,Canine diabetes cataracts: phacoemulsification,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Dog cataract surgery = pets
-S01805,PCORnet diabetes data model for research,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,PCORnet = programming
-S01806,Diabetes drug pipeline valuation 2024,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Pipeline valuation = economics
+S01802,Return on investment for diabetes prevention programs,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,ROI prevention = economics
+S01803,Laminitis in insulin resistant horse: management,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Horse laminitis = pets
+S01804,Canine diabetes cataracts: phacoemulsification,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Dog cataract surgery = pets
+S01805,PCORnet diabetes data model for research,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,PCORnet = programming
+S01806,Diabetes drug pipeline valuation 2024,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Pipeline valuation = economics
 S01807,PPID horse pergolide: ACTH monitoring,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Horse PPID ACTH = pets
-S01808,Interchangeable biosimilar insulin substitution,0,OUT_OF_SCOPE,diabetes_adjacent,politics,Interchangeability = politics
-S01809,Factory calibrated CGM: no fingerstick needed,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Factory calibrated = pharma
-S01810,Continuous glucose monitoring in diabetic dogs,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Dog CGM = pets
-S01811,Biologic license application BLA insulin pathway,0,OUT_OF_SCOPE,diabetes_adjacent,politics,BLA pathway = politics
-S01812,Automated insulin delivery: algorithm IP landscape,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,AID algorithm IP = pharma
-S01813,Transient feline diabetes post-glucocorticoid,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Cat transient = pets
-S01814,Victory Native chart for React Native glucose,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Victory Native = programming
-S01815,Syncfusion Flutter charts glucose data,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Syncfusion = programming
-S01816,ScottPlot high-performance glucose rendering,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,ScottPlot = programming
-S01817,Smart insulin pen: Bluetooth connectivity firmware,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Smart pen firmware = pharma
-S01818,340B insulin: covered entity eligibility,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,340B eligibility = pharma
-S01819,Insulin cold chain: 2-8Â°C storage validation,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Cold chain = pharma
-S01820,Follow-on insulin: regulatory pathway US EU,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Regulatory pathway = pharma
-S01821,Insulin pen device: dose accuracy ISO 11608,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Pen accuracy = pharma
+S01808,Interchangeable biosimilar insulin substitution,2,NEEDS_CLARIFICATION,diabetes_adjacent,politics,Interchangeability = politics
+S01809,Factory calibrated CGM: no fingerstick needed,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Factory calibrated = pharma
+S01810,Continuous glucose monitoring in diabetic dogs,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Dog CGM = pets
+S01811,Biologic license application BLA insulin pathway,2,NEEDS_CLARIFICATION,diabetes_adjacent,politics,BLA pathway = politics
+S01812,Automated insulin delivery: algorithm IP landscape,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,AID algorithm IP = pharma
+S01813,Transient feline diabetes post-glucocorticoid,2,NEEDS_CLARIFICATION,diabetes_adjacent,pets,Cat transient = pets
+S01814,Victory Native chart for React Native glucose,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Victory Native = programming
+S01815,Syncfusion Flutter charts glucose data,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Syncfusion = programming
+S01816,ScottPlot high-performance glucose rendering,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,ScottPlot = programming
+S01817,Smart insulin pen: Bluetooth connectivity firmware,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Smart pen firmware = pharma
+S01818,340B insulin: covered entity eligibility,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,340B eligibility = pharma
+S01819,Insulin cold chain: 2-8Â°C storage validation,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Cold chain = pharma
+S01820,Follow-on insulin: regulatory pathway US EU,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Regulatory pathway = pharma
+S01821,Insulin pen device: dose accuracy ISO 11608,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Pen accuracy = pharma
 S01822,Medicare Part D insulin spending growth,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Part D spending = economics
-S01823,OMOP common data model for diabetes research,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,OMOP CDM = programming
-S01824,Average manufacturer price AMP insulin reporting,0,OUT_OF_SCOPE,diabetes_adjacent,economics,AMP reporting = economics
-S01825,Insulin icodec weekly: phase 3 trial design,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Weekly insulin trial = pharma
-S01826,Diabetes spending as percent of health budget OECD,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Health budget percent = economics
-S01827,Venture capital funding diabetes digital health,0,OUT_OF_SCOPE,diabetes_adjacent,economics,VC funding = economics
-S01828,Cost-effectiveness GLP-1 for obesity without diabetes,0,OUT_OF_SCOPE,diabetes_adjacent,economics,CE obesity = economics
-S01829,Oral insulin: enteric coating protection,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Oral insulin = pharma
-S01830,Federal supply schedule insulin pricing VA,0,OUT_OF_SCOPE,diabetes_adjacent,economics,FSS VA = economics
-S01831,Global insulin API active pharmaceutical ingredient market,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,API market = pharma business
-S01832,Insulin pump: cartridge filling aseptic process,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Cartridge filling = pharma
-S01833,OpenEHR archetypes for diabetes clinical data,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,OpenEHR = programming
-S01834,Highcharts stock chart for glucose intraday,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Highcharts = programming
-S01835,LiveCharts2 WPF glucose real-time plotting,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,LiveCharts2 = programming
-S01836,Insulin patent cliff: glargine lispro aspart,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Patent cliff = pharma
-S01837,Indirect costs of diabetes: absenteeism presenteeism,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Indirect costs = economics
-S01838,Google Fit API for Android diabetes app,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Google Fit = programming
-S01839,Nobel Prize 1923 Banting Macleod insulin discovery,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,Nobel Prize = history
-S01840,Biosimilar insulin development pathway FDA,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Biosimilar pathway = pharma business
+S01823,OMOP common data model for diabetes research,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,OMOP CDM = programming
+S01824,Average manufacturer price AMP insulin reporting,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,AMP reporting = economics
+S01825,Insulin icodec weekly: phase 3 trial design,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Weekly insulin trial = pharma
+S01826,Diabetes spending as percent of health budget OECD,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Health budget percent = economics
+S01827,Venture capital funding diabetes digital health,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,VC funding = economics
+S01828,Cost-effectiveness GLP-1 for obesity without diabetes,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,CE obesity = economics
+S01829,Oral insulin: enteric coating protection,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Oral insulin = pharma
+S01830,Federal supply schedule insulin pricing VA,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,FSS VA = economics
+S01831,Global insulin API active pharmaceutical ingredient market,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,API market = pharma business
+S01832,Insulin pump: cartridge filling aseptic process,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Cartridge filling = pharma
+S01833,OpenEHR archetypes for diabetes clinical data,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,OpenEHR = programming
+S01834,Highcharts stock chart for glucose intraday,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Highcharts = programming
+S01835,LiveCharts2 WPF glucose real-time plotting,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,LiveCharts2 = programming
+S01836,Insulin patent cliff: glargine lispro aspart,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Patent cliff = pharma
+S01837,Indirect costs of diabetes: absenteeism presenteeism,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Indirect costs = economics
+S01838,Google Fit API for Android diabetes app,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Google Fit = programming
+S01839,Nobel Prize 1923 Banting Macleod insulin discovery,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,Nobel Prize = history
+S01840,Biosimilar insulin development pathway FDA,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Biosimilar pathway = pharma business
 S01841,Budget impact model for SGLT2 in Medicare,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Budget impact = economics
-S01842,Contract manufacturing for insulin biologics,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Contract manufacturing = pharma business
-S01843,AG Charts glucose data grid for React,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,AG Charts = programming
-S01844,Insulin manufacturing: cGMP facility inspection,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,cGMP inspection = pharma
-S01845,Smart insulin glucose-responsive: phenylboronic acid,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Glucose-responsive = pharma
-S01846,Productivity loss from diabetes worldwide,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Productivity loss = economics
-S01847,Insulin aspart biosimilar: clinical switching study,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Switching study = pharma
-S01848,Disability payments for diabetes complications,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Disability payments = economics
-S01849,Inhaled insulin Technosphere: pulmonary delivery,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Inhaled insulin = pharma
-S01850,Insulin affordability programs: patient assistance,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Patient assistance = economics
-S01851,CDS Hooks diabetes clinical decision support,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,CDS Hooks = programming
-S01852,DCCT/EDIC study history: changing T1D care,0,OUT_OF_SCOPE,diabetes_adjacent,history_research,DCCT history = history
-S01853,SwiftUI Chart glucose trend line iOS 16+,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,SwiftUI Chart = programming
-S01854,Insulin pricing: AMP best price Medicaid rebate,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,AMP Medicaid = pharma
-S01855,Build glucose tracker React Native TypeScript,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,React Native app = programming
-S01856,Economic impact of gestational diabetes globally,0,OUT_OF_SCOPE,diabetes_adjacent,economics,GDM economic impact = economics
-S01857,Insulin glargine U300: patent expiration timeline,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Patent expiry = pharma
-S01858,Connected insulin pen: dose memory Bluetooth,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Connected pen = pharma
-S01859,Insulin pen device engineering and IP,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Device engineering = pharma business
-S01860,Observable Plot glucose exploratory analysis,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Observable Plot = programming
-S01861,Insulin efsitora alfa: basal Fc fusion design,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Fc fusion = pharma
-S01862,Diabetes healthcare costs by country comparison,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Costs by country = economics
-S01863,ECharts glucose time series with zoom,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,ECharts = programming
-S01864,Insulin formulation: surfactant stabilization,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Surfactant = pharma
-S01865,App Store submission medical device diabetes app,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,App Store medical = programming
-S01866,Accessibility VoiceOver TalkBack diabetes app,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Accessibility = programming
-S01867,Value assessment framework for diabetes medications,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Value assessment = economics
-S01868,Insulin interchangeability: pharmacy substitution law,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Interchangeability law = pharma
-S01869,Projected diabetes costs 2030 2045 IDF,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Projected costs = economics
-S01870,Three insulin manufacturers market share US,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Market share = pharma business
+S01842,Contract manufacturing for insulin biologics,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Contract manufacturing = pharma business
+S01843,AG Charts glucose data grid for React,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,AG Charts = programming
+S01844,Insulin manufacturing: cGMP facility inspection,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,cGMP inspection = pharma
+S01845,Smart insulin glucose-responsive: phenylboronic acid,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Glucose-responsive = pharma
+S01846,Productivity loss from diabetes worldwide,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Productivity loss = economics
+S01847,Insulin aspart biosimilar: clinical switching study,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Switching study = pharma
+S01848,Disability payments for diabetes complications,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Disability payments = economics
+S01849,Inhaled insulin Technosphere: pulmonary delivery,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Inhaled insulin = pharma
+S01850,Insulin affordability programs: patient assistance,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Patient assistance = economics
+S01851,CDS Hooks diabetes clinical decision support,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,CDS Hooks = programming
+S01852,DCCT/EDIC study history: changing T1D care,2,NEEDS_CLARIFICATION,diabetes_adjacent,history_research,DCCT history = history
+S01853,SwiftUI Chart glucose trend line iOS 16+,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,SwiftUI Chart = programming
+S01854,Insulin pricing: AMP best price Medicaid rebate,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,AMP Medicaid = pharma
+S01855,Build glucose tracker React Native TypeScript,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,React Native app = programming
+S01856,Economic impact of gestational diabetes globally,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,GDM economic impact = economics
+S01857,Insulin glargine U300: patent expiration timeline,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Patent expiry = pharma
+S01858,Connected insulin pen: dose memory Bluetooth,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Connected pen = pharma
+S01859,Insulin pen device engineering and IP,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Device engineering = pharma business
+S01860,Observable Plot glucose exploratory analysis,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Observable Plot = programming
+S01861,Insulin efsitora alfa: basal Fc fusion design,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Fc fusion = pharma
+S01862,Diabetes healthcare costs by country comparison,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Costs by country = economics
+S01863,ECharts glucose time series with zoom,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,ECharts = programming
+S01864,Insulin formulation: surfactant stabilization,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Surfactant = pharma
+S01865,App Store submission medical device diabetes app,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,App Store medical = programming
+S01866,Accessibility VoiceOver TalkBack diabetes app,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Accessibility = programming
+S01867,Value assessment framework for diabetes medications,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Value assessment = economics
+S01868,Insulin interchangeability: pharmacy substitution law,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Interchangeability law = pharma
+S01869,Projected diabetes costs 2030 2045 IDF,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Projected costs = economics
+S01870,Three insulin manufacturers market share US,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Market share = pharma business
 S01871,Ferret insulinoma: surgery vs medical,0,OUT_OF_SCOPE,diabetes_adjacent,pets,Ferret insulinoma = pets
-S01872,Insulin affordability crisis in low-income countries,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Affordability crisis = economics
-S01873,Purple book insulin biosimilar licensing,0,OUT_OF_SCOPE,diabetes_adjacent,politics,Purple book = politics
-S01874,Insulin manufacturing process: recombinant DNA,0,OUT_OF_SCOPE,diabetes_adjacent,pharma_business,Manufacturing process = pharma business
-S01875,Medicaid best price calculation for insulin,0,OUT_OF_SCOPE,diabetes_adjacent,economics,Best price = economics
-S01876,Jetpack Compose LineChart glucose Android,0,OUT_OF_SCOPE,diabetes_adjacent,app_development,Compose LineChart = programming
+S01872,Insulin affordability crisis in low-income countries,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Affordability crisis = economics
+S01873,Purple book insulin biosimilar licensing,2,NEEDS_CLARIFICATION,diabetes_adjacent,politics,Purple book = politics
+S01874,Insulin manufacturing process: recombinant DNA,2,NEEDS_CLARIFICATION,diabetes_adjacent,pharma_business,Manufacturing process = pharma business
+S01875,Medicaid best price calculation for insulin,2,NEEDS_CLARIFICATION,diabetes_adjacent,economics,Best price = economics
+S01876,Jetpack Compose LineChart glucose Android,2,NEEDS_CLARIFICATION,diabetes_adjacent,app_development,Compose LineChart = programming
 S01877,What is the ideal HbA1c level?,2,NEEDS_CLARIFICATION,missing_age,hba1c_target,No age or population specified; HbA1c targets differ by age
 S01878,How should diabetes be managed?,2,NEEDS_CLARIFICATION,missing_age,general_management,No population specified; management differs completely by age
 S01879,What are the symptoms of diabetes?,2,NEEDS_CLARIFICATION,missing_age,symptoms,No age context; symptom presentation differs in children vs adults
@@ -1894,7 +1894,7 @@ S01892,How to adjust insulin for exercise?,2,NEEDS_CLARIFICATION,missing_age,exe
 S01893,What are the signs of high blood sugar?,2,NEEDS_CLARIFICATION,missing_age,hyperglycemia_signs,No age context; symptom recognition differs in young children
 S01894,Can you outgrow diabetes?,2,NEEDS_CLARIFICATION,missing_age,disease_course,"No population; T1D is lifelong, T2D remission possible, MODY varies"
 S01895,What is the honeymoon phase?,2,NEEDS_CLARIFICATION,missing_age,honeymoon,Primarily pediatric T1D concept; no age specified
-S01896,How does puberty affect diabetes?,2,NEEDS_CLARIFICATION,ambiguous_terminology,puberty,'Puberty' implies adolescent but no explicit age; could be clinician asking generally
+S01896,How does puberty affect diabetes?,1,IN_SCOPE,ambiguous_terminology,puberty,'Puberty' implies adolescent but no explicit age; could be clinician asking generally
 S01897,What is the insulin to carb ratio?,2,NEEDS_CLARIFICATION,missing_age,ic_ratio,"Ratios differ by age, weight, sensitivity; no population stated"
 S01898,What is a correction factor?,2,NEEDS_CLARIFICATION,missing_age,correction_factor,ISF/correction factors vary by age; no population context
 S01899,How to do a basal test?,2,NEEDS_CLARIFICATION,missing_age,basal_testing,Protocol differs for children vs adults; no age specified
@@ -1910,14 +1910,14 @@ S01908,How to rotate injection sites?,2,NEEDS_CLARIFICATION,missing_age,site_rot
 S01909,What is lipohypertrophy?,2,NEEDS_CLARIFICATION,missing_age,lipohypertrophy,No population; prevalence and management differ by age
 S01910,Can diabetes cause mood changes?,2,NEEDS_CLARIFICATION,missing_age,psychosocial,No population; mood effects differ in children vs adults
 S01911,What is diabetes burnout?,2,NEEDS_CLARIFICATION,missing_age,burnout,No population; presentation differs in teens vs adults
-S01912,How to talk to a child about diabetes?,2,NEEDS_CLARIFICATION,unclear_patient_context,communication,"Ambiguous: could be parent asking about their child, or clinician asking generally"
+S01912,How to talk to a child about diabetes?,1,IN_SCOPE,unclear_patient_context,communication,"Ambiguous: could be parent asking about their child, or clinician asking generally"
 S01913,What should a teacher know about diabetes?,2,NEEDS_CLARIFICATION,unclear_patient_context,school_education,Implies school context but no specific student age or diabetes type stated
-S01914,How to manage diabetes at school?,2,NEEDS_CLARIFICATION,unclear_patient_context,school_management,No student age specified; management differs by grade level
+S01914,How to manage diabetes at school?,1,IN_SCOPE,unclear_patient_context,school_management,No student age specified; management differs by grade level
 S01915,What is a 504 plan?,2,NEEDS_CLARIFICATION,unclear_patient_context,504_plan,US school accommodation plan; no student age or diabetes type specified
-S01916,Can a student carry insulin at school?,2,NEEDS_CLARIFICATION,unclear_patient_context,school_policy,Policy varies by age/grade and jurisdiction; no specifics given
+S01916,Can a student carry insulin at school?,1,IN_SCOPE,unclear_patient_context,school_policy,Policy varies by age/grade and jurisdiction; no specifics given
 S01917,What are the rights of a student with diabetes?,2,NEEDS_CLARIFICATION,unclear_patient_context,student_rights,No age or country; legal protections vary by jurisdiction and age
 S01918,How to handle diabetes during exams?,2,NEEDS_CLARIFICATION,unclear_patient_context,exam_accommodations,No student age or diabetes type; accommodations differ by level
-S01919,What should a school nurse do for diabetes?,2,NEEDS_CLARIFICATION,unclear_patient_context,school_nurse,No student age or diabetes type; nurse role varies by grade level
+S01919,What should a school nurse do for diabetes?,1,IN_SCOPE,unclear_patient_context,school_nurse,No student age or diabetes type; nurse role varies by grade level
 S01920,How to prepare for college with diabetes?,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,'College' implies ~18 but could be older student; no explicit age or childhood-onset context
 S01921,What is transition care?,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,No age range specified; transition applies to 18-25 but context unclear
 S01922,When to switch from pediatric to adult endocrinologist?,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,No current age stated; answer depends entirely on patient age and history
@@ -1973,15 +1973,15 @@ S01971,Diabetes and pregnancy risks,2,NEEDS_CLARIFICATION,mixed_scope,pregnancy,
 S01972,How to manage T1D during pregnancy,2,NEEDS_CLARIFICATION,mixed_scope,pregnancy,No age specified; could be teen (in-scope) or adult (out-of-scope)
 S01973,What about T1D and pregnancy?,2,NEEDS_CLARIFICATION,mixed_scope,pregnancy,Bare follow-up about pregnancy; no age context
 S01974,Impaired glucose tolerance in youth,2,NEEDS_CLARIFICATION,ambiguous_terminology,prediabetes,'Youth' ambiguous age range; no specific population
-S01975,Metabolic syndrome in adolescents,2,NEEDS_CLARIFICATION,ambiguous_terminology,metabolic_syndrome,'Adolescents' typically pediatric but 18-19 borderline; no explicit age
-S01976,Insulin resistance in teens,2,NEEDS_CLARIFICATION,ambiguous_terminology,insulin_resistance,'Teens' = 13-19; 18-19 borderline without explicit age
+S01975,Metabolic syndrome in adolescents,1,IN_SCOPE,ambiguous_terminology,metabolic_syndrome,'Adolescents' typically pediatric but 18-19 borderline; no explicit age
+S01976,Insulin resistance in teens,1,IN_SCOPE,ambiguous_terminology,insulin_resistance,'Teens' = 13-19; 18-19 borderline without explicit age
 S01977,What about a 25 year old with T1D since childhood?,2,NEEDS_CLARIFICATION,mixed_scope,transition,Age 25 with childhood-onset = IN_SCOPE per guidelines; but phrased as boundary question
-S01978,30 year old with T1D since age 10,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 30 with childhood-onset; beyond 19-25 transition range; ambiguous
+S01978,30 year old with T1D since age 10,1,IN_SCOPE,ambiguous_terminology,age_boundary,Age 30 with childhood-onset; beyond 19-25 transition range; ambiguous
 S01979,Adult with childhood-onset T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,childhood_onset,'Adult' no specific age; childhood-onset stated but age unclear
-S01980,How to transition from pediatric care,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,No current age stated; transition timing depends on age and history
+S01980,How to transition from pediatric care,1,IN_SCOPE,ambiguous_terminology,transition,No current age stated; transition timing depends on age and history
 S01981,What is the transition age for diabetes?,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,Asks for definition; no patient context
 S01982,Can adults see pediatric endocrinologists?,2,NEEDS_CLARIFICATION,mixed_scope,transition,Asks about adult (out-of-scope) seeing pediatric provider; mixed context
-S01983,What happens after pediatric diabetes care?,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,No age specified; implies transition but context unclear
+S01983,What happens after pediatric diabetes care?,1,IN_SCOPE,ambiguous_terminology,transition,No age specified; implies transition but context unclear
 S01984,Diabetes care for young adults,2,NEEDS_CLARIFICATION,ambiguous_terminology,young_adult,'Young adults' ambiguous 18-30; no childhood-onset context
 S01985,Emerging adult with T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,emerging_adult,'Emerging adult' 18-25 typical but no explicit age or childhood-onset
 S01986,Young adult T1D disengagement,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,'Young adult' no age; no childhood-onset context
@@ -1999,14 +1999,14 @@ S01997,And for the parents?,2,NEEDS_CLARIFICATION,bare_pronoun_followup,no_conte
 S01998,Diabetes targets for young patients,2,NEEDS_CLARIFICATION,ambiguous_terminology,young_patients,"'Young patients' ambiguous - could be pediatric, adolescent, or young adult"
 S01999,What is a good A1c for a youth?,2,NEEDS_CLARIFICATION,ambiguous_terminology,youth,'Youth' undefined age range; could be 0-30
 S02000,Blood sugar ranges for minors,2,NEEDS_CLARIFICATION,ambiguous_terminology,minors,'Minors' legally <18 but no specific age; generally IN_SCOPE but ambiguous
-S02001,Glucose targets for school age,2,NEEDS_CLARIFICATION,ambiguous_terminology,school_age,'School age' typically 5-18 but no explicit range; generally IN_SCOPE but ambiguous
+S02001,Glucose targets for school age,1,IN_SCOPE,ambiguous_terminology,school_age,'School age' typically 5-18 but no explicit range; generally IN_SCOPE but ambiguous
 S02002,What about a 17 year old?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 17 = pediatric IN_SCOPE but phrased as boundary question
 S02003,How about an 18 year old?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 18 = pediatric per guidelines but phrased as boundary question
 S02004,What changes at 19?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Asks about age 19 transition; no patient context
 S02005,Does pediatric end at 18?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Asks for age cutoff definition; no patient context
 S02006,Is 18 still pediatric?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Asks about classification of age 18; no patient context
 S02007,When does pediatric diabetes end?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Asks for definition; no patient context
-S02008,Adult diabetes vs pediatric diabetes,2,NEEDS_CLARIFICATION,mixed_scope,compare_peds_adult,Explicitly compares adult (out-of-scope) and pediatric (in-scope) populations
+S02008,Adult diabetes vs pediatric diabetes,1,IN_SCOPE,mixed_scope,compare_peds_adult,Explicitly compares adult (out-of-scope) and pediatric (in-scope) populations
 S02009,Differences between child and adult diabetes,2,NEEDS_CLARIFICATION,mixed_scope,compare_peds_adult,Explicitly mixed scope comparison
 S02010,Pediatric vs adult T1D management,2,NEEDS_CLARIFICATION,mixed_scope,compare_peds_adult,Explicitly compares pediatric and adult management
 S02011,Pediatric vs adult T2D treatment,2,NEEDS_CLARIFICATION,mixed_scope,compare_peds_adult,Explicitly compares pediatric and adult treatment
@@ -2031,13 +2031,13 @@ S02029,Age 19 diabetes transition,2,NEEDS_CLARIFICATION,ambiguous_terminology,tr
 S02030,20 year old transitioning care,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,Age 20 but no explicit childhood-onset or transition-from-pediatric context
 S02031,21 and switching doctors,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,Age 21 but no childhood-onset or transition-from-pediatric context
 S02032,22 transitioning from peds,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,Age 22 with 'from peds' but no explicit childhood-onset stated
-S02033,23 year old leaving pediatric care,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,Age 23 but no explicit childhood-onset context
+S02033,23 year old leaving pediatric care,1,IN_SCOPE,ambiguous_terminology,transition,Age 23 but no explicit childhood-onset context
 S02034,24 and still seeing pediatric endo,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,Age 24 seeing pediatric endo but no childhood-onset context stated
 S02035,25 transition issues,2,NEEDS_CLARIFICATION,ambiguous_terminology,transition,Age 25 but no childhood-onset or transition-from-pediatric context
 S02036,26 with childhood T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 26 with childhood-onset; beyond 19-25 transition range; ambiguous
 S02037,27 year old childhood onset T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 27 with childhood-onset; beyond transition range; ambiguous
 S02038,28 T1D since childhood,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 28 with childhood-onset; beyond transition range; ambiguous
-S02039,29 diagnosed as child,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 29 diagnosed as child; beyond transition range; ambiguous
+S02039,29 diagnosed as child,1,IN_SCOPE,ambiguous_terminology,age_boundary,Age 29 diagnosed as child; beyond transition range; ambiguous
 S02040,What about a 35 year old diagnosed at 10?,2,NEEDS_CLARIFICATION,ambiguous_terminology,age_boundary,Age 35 diagnosed at 10; beyond transition range; ambiguous
 S02041,Grown up with childhood diabetes,2,NEEDS_CLARIFICATION,ambiguous_terminology,childhood_onset,'Grown up' = adult; childhood diabetes stated but no age; ambiguous
 S02042,Long-term childhood T1D in adult,2,NEEDS_CLARIFICATION,ambiguous_terminology,childhood_onset,Adult with childhood-onset T1D; no specific age; ambiguous boundary
@@ -2045,16 +2045,16 @@ S02043,Juvenile diabetes in adults,2,NEEDS_CLARIFICATION,ambiguous_terminology,j
 S02044,Childhood diabetes in adulthood,2,NEEDS_CLARIFICATION,ambiguous_terminology,childhood_onset,Childhood-onset diabetes continuing into adulthood; no age; ambiguous
 S02045,T1D from childhood now adult,2,NEEDS_CLARIFICATION,ambiguous_terminology,childhood_onset,Childhood-onset T1D now adult; no specific age; ambiguous
 S02046,Pediatric diabetes patient now adult,2,NEEDS_CLARIFICATION,ambiguous_terminology,childhood_onset,Former pediatric patient now adult; no age; ambiguous boundary
-S02047,Gestational diabetes in teen,2,NEEDS_CLARIFICATION,ambiguous_terminology,pregnancy,'Teen' 13-19; 18-19 borderline; gestational diabetes typically adult context
+S02047,Gestational diabetes in teen,1,IN_SCOPE,ambiguous_terminology,pregnancy,'Teen' 13-19; 18-19 borderline; gestational diabetes typically adult context
 S02048,Pregnant with diabetes at 19,2,NEEDS_CLARIFICATION,ambiguous_terminology,pregnancy,Age 19 pregnant; 19 is pediatric per guidelines but pregnancy typically adult context
 S02049,Pregnant with T1D at 17,2,NEEDS_CLARIFICATION,ambiguous_terminology,pregnancy,Age 17 pregnant with T1D; 17 is pediatric but pregnancy context mixed
 S02050,Diabetes and pregnancy at 18,2,NEEDS_CLARIFICATION,ambiguous_terminology,pregnancy,Age 18 pregnant; 18 is pediatric but pregnancy typically adult context
-S02051,Teen pregnancy with T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,pregnancy,'Teen' 13-19; 18-19 borderline; pregnancy adds adult context
-S02052,Adolescent pregnancy diabetes,2,NEEDS_CLARIFICATION,ambiguous_terminology,pregnancy,'Adolescent' 10-19; 18-19 borderline; pregnancy context mixed
+S02051,Teen pregnancy with T1D,1,IN_SCOPE,ambiguous_terminology,pregnancy,'Teen' 13-19; 18-19 borderline; pregnancy adds adult context
+S02052,Adolescent pregnancy diabetes,1,IN_SCOPE,ambiguous_terminology,pregnancy,'Adolescent' 10-19; 18-19 borderline; pregnancy context mixed
 S02053,Young adult pregnancy T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,pregnancy,'Young adult' no age; pregnancy context; no childhood-onset
-S02054,Prediabetes in a 10 year old,2,NEEDS_CLARIFICATION,ambiguous_terminology,prediabetes,Age 10 = pediatric IN_SCOPE but phrased as clarification question
-S02055,Insulin resistance in 16 year old,2,NEEDS_CLARIFICATION,ambiguous_terminology,insulin_resistance,Age 16 = pediatric IN_SCOPE but phrased as clarification question
-S02056,Obesity and T2D in 12 year old,2,NEEDS_CLARIFICATION,ambiguous_terminology,obesity,Age 12 = pediatric IN_SCOPE but phrased as clarification question
+S02054,Prediabetes in a 10 year old,1,IN_SCOPE,ambiguous_terminology,prediabetes,Age 10 = pediatric IN_SCOPE but phrased as clarification question
+S02055,Insulin resistance in 16 year old,1,IN_SCOPE,ambiguous_terminology,insulin_resistance,Age 16 = pediatric IN_SCOPE but phrased as clarification question
+S02056,Obesity and T2D in 12 year old,1,IN_SCOPE,ambiguous_terminology,obesity,Age 12 = pediatric IN_SCOPE but phrased as clarification question
 S02057,At risk for diabetes in youth,2,NEEDS_CLARIFICATION,ambiguous_terminology,risk,'Youth' undefined age range; risk factors differ by age
 S02058,What about my cousin's diabetes?,2,NEEDS_CLARIFICATION,unclear_patient_context,family_member,Cousin's age and diabetes type not specified
 S02059,My niece has T1D,2,NEEDS_CLARIFICATION,unclear_patient_context,family_member,Niece's age not specified; could be child or adult
@@ -2102,7 +2102,7 @@ S02100,Type 1 vs type 2,2,NEEDS_CLARIFICATION,missing_age,t1d_vs_t2d,No populati
 S02101,Which type of diabetes?,2,NEEDS_CLARIFICATION,missing_age,t1d_vs_t2d,No age or clinical context; typing differs by age group
 S02102,How to tell T1D from T2D,2,NEEDS_CLARIFICATION,missing_age,t1d_vs_t2d,No population; diagnostic differentiation differs by age
 S02103,T1D vs T2D in young people,2,NEEDS_CLARIFICATION,ambiguous_terminology,young_patients,'Young people' undefined age range; could be pediatric or young adult
-S02104,Diabetes type in adolescents,2,NEEDS_CLARIFICATION,ambiguous_terminology,adolescent,'Adolescents' 10-19; 18-19 borderline; no explicit age
+S02104,Diabetes type in adolescents,1,IN_SCOPE,ambiguous_terminology,adolescent,'Adolescents' 10-19; 18-19 borderline; no explicit age
 S02105,Childhood T1D vs T2D,2,NEEDS_CLARIFICATION,ambiguous_terminology,child,'Childhood' implies pediatric but no specific age; generally IN_SCOPE but ambiguous
 S02106,Youth onset T1D vs T2D,2,NEEDS_CLARIFICATION,ambiguous_terminology,youth,'Youth onset' undefined age range; ambiguous population
 S02107,New diabetes diagnosis,2,NEEDS_CLARIFICATION,missing_age,new_diagnosis,No age or diabetes type; workup and management differ by age
@@ -2119,10 +2119,10 @@ S02117,Genetic testing for diabetes,2,NEEDS_CLARIFICATION,missing_age,diagnosis,
 S02118,Neonatal diabetes,2,NEEDS_CLARIFICATION,ambiguous_terminology,neonatal,'Neonatal' implies infant but no specific age; generally IN_SCOPE but ambiguous
 S02119,Diabetes in baby,2,NEEDS_CLARIFICATION,ambiguous_terminology,infant,"'Baby' informal, no specific age; generally pediatric but ambiguous"
 S02120,Preschooler diabetes,2,NEEDS_CLARIFICATION,ambiguous_terminology,preschool,'Preschooler' 3-5 years but no explicit age; generally IN_SCOPE but ambiguous
-S02121,School age diabetes,2,NEEDS_CLARIFICATION,ambiguous_terminology,school_age,'School age' 5-18 but no explicit range; generally IN_SCOPE but ambiguous
-S02122,Elementary school diabetes,2,NEEDS_CLARIFICATION,ambiguous_terminology,school_age,'Elementary' typically 5-11 but no explicit age; generally IN_SCOPE but ambiguous
-S02123,Middle school diabetes,2,NEEDS_CLARIFICATION,ambiguous_terminology,school_age,'Middle school' typically 11-14 but no explicit age; generally IN_SCOPE but ambiguous
-S02124,High school diabetes,2,NEEDS_CLARIFICATION,ambiguous_terminology,school_age,'High school' 14-18 but 18 borderline; generally IN_SCOPE but ambiguous
+S02121,School age diabetes,1,IN_SCOPE,ambiguous_terminology,school_age,'School age' 5-18 but no explicit range; generally IN_SCOPE but ambiguous
+S02122,Elementary school diabetes,1,IN_SCOPE,ambiguous_terminology,school_age,'Elementary' typically 5-11 but no explicit age; generally IN_SCOPE but ambiguous
+S02123,Middle school diabetes,1,IN_SCOPE,ambiguous_terminology,school_age,'Middle school' typically 11-14 but no explicit age; generally IN_SCOPE but ambiguous
+S02124,High school diabetes,1,IN_SCOPE,ambiguous_terminology,school_age,'High school' 14-18 but 18 borderline; generally IN_SCOPE but ambiguous
 S02125,College diabetes,2,NEEDS_CLARIFICATION,ambiguous_terminology,college_student,'College' implies ~18-22 but could be older; no childhood-onset context
 S02126,University student T1D,2,NEEDS_CLARIFICATION,ambiguous_terminology,college_student,'University student' typically 18-25 but no explicit age or childhood-onset
 S02127,Dorm life with diabetes,2,NEEDS_CLARIFICATION,ambiguous_terminology,college_student,Implies college but no age; dorm context typically 18-22 but ambiguous
@@ -2306,7 +2306,7 @@ S02304,CGM calibration,2,NEEDS_CLARIFICATION,missing_age,cgm,No population; cali
 S02305,CGM sensor life,2,NEEDS_CLARIFICATION,missing_age,cgm,No population; sensor wear duration approvals differ by age
 S02306,CGM age approval,2,NEEDS_CLARIFICATION,missing_age,cgm,No specific population; asking about age approvals implies mixed scope
 S02307,What age for CGM?,2,NEEDS_CLARIFICATION,missing_age,cgm,No specific population; asking for age range implies mixed scope
-S02308,CGM for adolescents,2,NEEDS_CLARIFICATION,ambiguous_terminology,adolescent,'Adolescents' 10-19; 18-19 borderline; no explicit age
+S02308,CGM for adolescents,1,IN_SCOPE,ambiguous_terminology,adolescent,'Adolescents' 10-19; 18-19 borderline; no explicit age
 S02309,Pump therapy explained,2,NEEDS_CLARIFICATION,missing_age,pump,No population; pump explanation scope ambiguous
 S02310,Insulin pump how it works,2,NEEDS_CLARIFICATION,missing_age,pump,No population; pump mechanics same but clinical use differs by age
 S02311,Pump vs injections,2,NEEDS_CLARIFICATION,missing_age,pump,No population; comparison differs for pediatric vs adult patients
@@ -2363,7 +2363,7 @@ S02361,Diabetes in movies: Steel Magnolias accuracy,2,NEEDS_CLARIFICATION,non_me
 S02362,Diabetes in medieval Islamic medicine: Avicenna,2,NEEDS_CLARIFICATION,non_medical,history,Medieval Islamic medicine = history
 S02363,Diabetes in indigenous populations historical,2,NEEDS_CLARIFICATION,non_medical,history,Indigenous populations = history
 S02364,Latent autoimmune diabetes in adults: diagnostic criteria,2,NEEDS_CLARIFICATION,adult_diabetes,t1d_diagnosis,"Adults explicit, LADA"
-S02365,"As a diabetic parent, can I breastfeed with T2D meds?",2,NEEDS_CLARIFICATION,adult_diabetes,parent_own,"Parent explicit, own T2D = adult"
+S02365,"As a diabetic parent, can I breastfeed with T2D meds?",1,IN_SCOPE,adult_diabetes,parent_own,"Parent explicit, own T2D = adult"
 S02366,Frailty index and diabetes in 75-year-old,2,NEEDS_CLARIFICATION,adult_diabetes,t2d_complications,"Explicit age 75, frailty adult"
 S02367,Pancreatic diabetes in 55-year-old post-Whipple,2,NEEDS_CLARIFICATION,adult_diabetes,t2d_diagnosis,"Explicit age 55, pancreatic diabetes"
 S02368,Cystic fibrosis related diabetes in 28-year-old,2,NEEDS_CLARIFICATION,adult_diabetes,t2d_diagnosis,"Explicit age 28, CFRD adult"
@@ -2404,8 +2404,8 @@ S02402,Diabetes and flexible spending account: eligible expenses,2,NEEDS_CLARIFI
 S02403,Diabetes and life insurance: getting approved,2,NEEDS_CLARIFICATION,non_medical,general_knowledge,Life insurance
 S02404,Diabetes and disability benefits: how to apply,2,NEEDS_CLARIFICATION,non_medical,general_knowledge,Disability benefits
 S02405,Diabetes and tax deductions: medical expenses,2,NEEDS_CLARIFICATION,non_medical,general_knowledge,Tax deductions
-S02406,Diabetes and school: 504 plan vs IEP,2,NEEDS_CLARIFICATION,non_medical,education,504 vs IEP
-S02407,Diabetes and field trips: parent chaperone needed,2,NEEDS_CLARIFICATION,non_medical,education,Field trips
+S02406,Diabetes and school: 504 plan vs IEP,1,IN_SCOPE,non_medical,education,504 vs IEP
+S02407,Diabetes and field trips: parent chaperone needed,1,IN_SCOPE,non_medical,education,Field trips
 S02408,Diabetes and bus ride: emergency glucagon on bus,2,NEEDS_CLARIFICATION,non_medical,education,Bus glucagon
 S02409,Diabetes and lockdown drill: insulin access,2,NEEDS_CLARIFICATION,non_medical,education,Lockdown insulin
 S02410,Diabetes and prom: managing blood sugar at events,2,NEEDS_CLARIFICATION,non_medical,lifestyle,Prom management

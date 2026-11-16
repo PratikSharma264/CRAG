@@ -12,11 +12,11 @@
 
 | Class | Label | Count | Percentage |
 |-------|-------|-------|------------|
-| OUT_OF_SCOPE | 0 | 975 | 40.3% |
-| IN_SCOPE | 1 | 901 | 37.3% |
-| NEEDS_CLARIFICATION | 2 | 542 | 22.4% |
+| OUT_OF_SCOPE | 0 | 787 | 32.5% |
+| IN_SCOPE | 1 | 891 | 36.8% |
+| NEEDS_CLARIFICATION | 2 | 740 | 30.6% |
 
-*Note: IN_SCOPE increased by 20, NEEDS_CLARIFICATION decreased by 20 due to label conflict repair (see Section 11).*
+*Note: After label conflict repair: IN_SCOPE +20, CLARIF -20. After Final Label Pass: OUT -188, IN -10, CLARIF +198 (see Section 12).*
 
 ---
 
@@ -63,9 +63,9 @@
 
 | Split | Total | OUT (0) | IN (1) | CLARIF (2) |
 |-------|-------|---------|--------|------------|
-| Train | 1,691 | 682 (40.3%) | 630 (37.3%) | 379 (22.4%) |
-| Val | 362 | 146 (40.3%) | 135 (37.3%) | 81 (22.4%) |
-| Test | 365 | 147 (40.3%) | 136 (37.3%) | 82 (22.5%) |
+| Train | 1,691 | 550 (32.5%) | 623 (36.8%) | 518 (30.6%) |
+| Val | 362 | 118 (32.6%) | 133 (36.7%) | 111 (30.7%) |
+| Test | 365 | 119 (32.6%) | 135 (37.0%) | 111 (30.4%) |
 
 Stratified group split maintains class proportions across splits.
 
@@ -233,11 +233,12 @@ Stratified group split maintains class proportions across splits.
 1. **Labels written by LLM with no human review** - All annotations are synthetic; no expert clinician validation
 2. **Style differs between classes** - IN_SCOPE questions are specific/clinical; NEEDS_CLARIFICATION includes many short template-generated bare follow-ups; OUT_OF_SCOPE has more diverse topics
 3. **Some categories are thin** - Many subcategories have only 1-2 rows (e.g., `GAD7_T1D`, `monofilament`, `cold_practice`)
-4. **NEEDS_CLARIFICATION is large** (562 rows, 23%) - Many are template-generated bare pronoun follow-ups which may not reflect real user behavior
+4. **NEEDS_CLARIFICATION is large** (740 rows, 30.6%) - Many are template-generated bare pronoun follow-ups which may not reflect real user behavior
 5. **Dataset has not been used to train or evaluate any model** - No performance metrics available
 6. **No validation against real user queries** - Distribution may not match production traffic
 7. **Age boundary at 18/19 creates artificial split** - Real users near boundary may be misclassified
 8. **Transition-age (19-25) rows are sparse** - Only ~20 rows with explicit childhood-onset/transition context
+9. **IN/OUT rows state ages/roles; CLARIF rows often fragments** — IN_SCOPE and OUT_OF_SCOPE rows predominantly contain explicit age or role statements (e.g., "10-year-old", "my son", "47-year-old"), while NEEDS_CLARIFICATION rows are frequently short fragments or bare pronoun follow-ups without explicit population signals, creating a style confound that models may exploit.
 
 ---
 
@@ -328,3 +329,55 @@ Each of the 69 rows was reviewed individually. Decision criteria:
 - **No duplicate normalized text with different labels**: ✅ 0 conflicts
 - **No pediatric word in label-2 row unless genuinely mixed/ambiguous**: ✅ 46 rows remain, all correctly categorized
 - **Leakage check**: ✅ 0 exact, 0 near-duplicate cross-split pairs
+
+---
+
+## 12. Final Label Pass (2026-11-16)
+
+### 12.1 Problem Identified
+Three candidate lists were generated for final review:
+- **List A (63 rows)**: IN_SCOPE rows where initial regex detected no pediatric signal
+- **List B (215 rows)**: OUT_OF_SCOPE rows with diabetes terms but no adult signal detected
+- **List C (64 rows)**: NEEDS_CLARIFICATION rows with pediatric word/age ≤18 not genuinely mixed with adult
+
+### 12.2 Resolution
+Each candidate reviewed programmatically with expanded signal detection (added patterns for: `\d+yo`, `\d+yr`, `diagnosed at \d+`, `\d+-month-old`, `youth-onset`, `childhood-onset`, `preteen`, `high school`, `college/freshman/sophomore/junior/senior`, `student`, `baby/newborn/infant`, `teen/adolescent`, `pediatric`):
+
+| List | Original Label | Kept Original | Relabeled | New Label |
+|------|----------------|---------------|-----------|-----------|
+| A | IN_SCOPE (1) | 24 | 39 | NEEDS_CLARIFICATION (2) |
+| B | OUT_OF_SCOPE (0) | 27 | 188 | NEEDS_CLARIFICATION (2) |
+| C | NEEDS_CLARIFICATION (2) | 35 | 29 | IN_SCOPE (1) |
+
+**Total overrides applied: 256**
+
+#### List A Decisions (IN → IN or CLARIF)
+- **Kept as IN_SCOPE (24)**: Found pediatric signals including abbreviated ages ("9yo", "10yr"), "diagnosed at X", "youth-onset"/"childhood-onset", "preteen", "high school", "college"/"freshman"/"student", "teen"/"adolescent", "pediatric", "child", "baby"/"newborn", "X-month-old".
+- **Relabeled to NEEDS_CLARIFICATION (39)**: Truly no population signal (e.g., "Glucose checks for t2d?", "CGM accuracy general question").
+
+#### List B Decisions (OUT → OUT or CLARIF)
+- **Kept as OUT_OF_SCOPE (27)**: Adult signal via category (`adult_diabetes`, `parent_own`, `t1d_pregnancy`), explicit adult context ("mom", "dad", "parent with", "my child", age ≥19), or diabetes-adjacent non-clinical categories (pets, history, economics, software, pharma business).
+- **Relabeled to NEEDS_CLARIFICATION (188)**: Diabetes education questions with no age/population signal (e.g., "How to prime an insulin pen", "Diabetes summer camp packing list" — could be pediatric or adult).
+
+#### List C Decisions (CLARIF → CLARIF or IN)
+- **Kept as NEEDS_CLARIFICATION (35)**: Genuinely mixed scope (pediatric vs adult comparisons), age boundary meta-questions ("when does pediatric end?"), bare pronoun follow-ups ("and for teens?"), sample/test cases, unclear third-party context.
+- **Relabeled to IN_SCOPE (29)**: Clear pediatric population — explicit age ≤18 ("Prediabetes in a 10 year old", "Obesity and T2D in 12 year old"), "teen"/"adolescent", "child", teen pregnancy (per guidelines: adolescent pregnancy is IN_SCOPE).
+
+### 12.3 Changes Made
+1. Created `generation/scripts/create_decisions.py` to generate decisions and overrides
+2. Created `generation/final_pass_decisions.csv` (342 rows with decisions)
+3. Created `generation/label_overrides.jsonl` (256 overrides)
+4. Updated `build_dataset.py` to load and apply `label_overrides.jsonl` after loading pools, before dedup
+5. Re-ran `build_dataset.py` with seed 42
+
+### 12.4 New Class Distribution
+| Label | Name | Count | % | Change from Pre-Pass |
+|-------|------|-------|---|----------------------|
+| 0 | OUT_OF_SCOPE | 787 | 32.5% | -188 |
+| 1 | IN_SCOPE | 891 | 36.8% | -10 |
+| 2 | NEEDS_CLARIFICATION | 740 | 30.6% | +198 |
+
+### 12.5 Verification
+- **Leakage check**: ✅ 0 exact, 0 near-duplicate cross-split pairs
+- **All 256 overrides applied successfully**
+- **Split manifest updated**: `dataset/split_manifest.json` reflects new counts

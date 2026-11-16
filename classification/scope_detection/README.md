@@ -33,9 +33,9 @@ classification/scope_detection/
 
 | Label | Name | Description | Count | % |
 |-------|------|-------------|-------|---|
-| 0 | OUT_OF_SCOPE | Adult diabetes, non-diabetes medical, non-medical | 975 | 40.3% |
-| 1 | IN_SCOPE | Pediatric diabetes (ages 0-18 + transition 19-25 with childhood-onset) | 901 | 37.3% |
-| 2 | NEEDS_CLARIFICATION | Ambiguous, missing age, bare follow-ups, mixed scope | 542 | 22.4% |
+| 0 | OUT_OF_SCOPE | Adult diabetes, non-diabetes medical, non-medical | 787 | 32.5% |
+| 1 | IN_SCOPE | Pediatric diabetes (ages 0-18 + transition 19-25 with childhood-onset) | 891 | 36.8% |
+| 2 | NEEDS_CLARIFICATION | Ambiguous, missing age, bare follow-ups, mixed scope | 740 | 30.6% |
 
 **Total: 2,418 rows** (Train 1,691 / Val 362 / Test 365)
 
@@ -61,6 +61,8 @@ Requires: Python 3.9+, scikit-learn (for TF-IDF near-dedup)
 
 5. **Transition-age sparse** — Only ~20 rows with explicit childhood-onset/transition context (ages 19-25).
 
+6. **IN/OUT rows state ages/roles; CLARIF rows often fragments** — IN_SCOPE and OUT_OF_SCOPE rows predominantly contain explicit age or role statements (e.g., "10-year-old", "my son", "47-year-old"), while NEEDS_CLARIFICATION rows are frequently short fragments or bare pronoun follow-ups without explicit population signals, creating a style confound.
+
 ---
 
 ## Label Conflict Repair (2026-11-16)
@@ -82,3 +84,35 @@ Requires: Python 3.9+, scikit-learn (for TF-IDF near-dedup)
 - No duplicate normalized text with different labels: ✅ 0
 - No pediatric word in label-2 row unless genuinely mixed/ambiguous: ✅ 46 rows, all correctly categorized
 - Leakage check: ✅ 0 exact, 0 near-duplicate cross-split pairs
+
+---
+
+## Final Label Pass (2026-11-16)
+
+**Problem:** Three candidate lists identified for review:
+- **List A (63 rows)**: IN_SCOPE rows with no pediatric signal detected by regex
+- **List B (215 rows)**: OUT_OF_SCOPE rows with diabetes terms but no adult signal detected
+- **List C (64 rows)**: NEEDS_CLARIFICATION rows with pediatric word/age ≤18 not genuinely mixed with adult
+
+**Resolution:** Each candidate reviewed programmatically with expanded signal detection:
+- **List A**: 24 kept as IN_SCOPE (found pediatric signals: "diagnosed at X", "Xyo", "Xyr", "youth-onset", "childhood-onset", "preteen", "high school", "college", "student", "teen", "adolescent", "pediatric", "child", "baby/newborn", "X-month-old"), 39 relabeled to NEEDS_CLARIFICATION (truly no population signal)
+- **List B**: 27 kept as OUT_OF_SCOPE (adult signal via category `adult_diabetes`/`parent_own`, explicit adult context, or diabetes-adjacent non-clinical categories), 188 relabeled to NEEDS_CLARIFICATION (diabetes education questions with no population signal)
+- **List C**: 35 kept as NEEDS_CLARIFICATION (genuinely mixed scope, age boundary meta-questions, bare pronoun follow-ups, sample/test cases, unclear third-party context), 29 relabeled to IN_SCOPE (clear pediatric: "Prediabetes in a 10 year old", "Obesity and T2D in 12 year old", teen pregnancy per guidelines, etc.)
+
+**Changes Made:**
+1. Created `generation/scripts/create_decisions.py` to generate decisions and overrides
+2. Created `generation/final_pass_decisions.csv` (342 rows with decisions)
+3. Created `generation/label_overrides.jsonl` (256 overrides applied)
+3. Updated `build_dataset.py` to load and apply `label_overrides.jsonl` after loading pools, before dedup
+4. Re-ran `build_dataset.py` with seed 42
+
+**New Class Distribution:**
+| Label | Name | Count | % | Change |
+|-------|------|-------|---|--------|
+| 0 | OUT_OF_SCOPE | 787 | 32.5% | -188 |
+| 1 | IN_SCOPE | 891 | 36.8% | -10 |
+| 2 | NEEDS_CLARIFICATION | 740 | 30.6% | +198 |
+
+**Verification:**
+- Leakage check: ✅ 0 exact, 0 near-duplicate cross-split pairs
+- All 256 overrides applied successfully

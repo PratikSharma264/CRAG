@@ -37,6 +37,7 @@ POOL_IN = GEN_DIR / "pool_in.jsonl"
 POOL_OUT = GEN_DIR / "pool_out.jsonl"
 RELABELED_FROM_CLARIF = GEN_DIR / "in_scope_relabeled_from_clarification.jsonl"
 NEEDS_CLARIF_FILES = sorted(GEN_DIR.glob("needs_clarification_*.jsonl"))
+LABEL_OVERRIDES = GEN_DIR / "label_overrides.jsonl"
 
 # Output files
 SCOPE_DATASET = DATASET_DIR / "scope_dataset.csv"
@@ -91,6 +92,50 @@ def compute_hash(text: str) -> str:
     return hashlib.md5(text.encode()).hexdigest()[:16]
 
 
+def load_label_overrides(path: Path) -> Dict[str, int]:
+    """Load label overrides from JSONL file.
+    Returns dict mapping normalized question -> new_label.
+    """
+    overrides = {}
+    if not path.exists():
+        print(f"Label overrides file not found: {path}")
+        return overrides
+    with open(path, "r", encoding="utf-8") as f:
+        for line_num, line in enumerate(f, 1):
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                obj = json.loads(line)
+                question = obj.get("question", "").strip()
+                new_label = obj.get("new_label")
+                reason = obj.get("reason", "")
+                if question and new_label is not None:
+                    norm = normalize_text(question)
+                    if norm in overrides:
+                        print(f"Warning: Duplicate override for question: {question[:50]}...")
+                    overrides[norm] = int(new_label)
+            except json.JSONDecodeError as e:
+                print(f"Warning: JSON decode error in {path}:{line_num}: {e}")
+    print(f"Loaded {len(overrides)} label overrides from {path}")
+    return overrides
+
+
+def apply_label_overrides(rows: List[Dict], overrides: Dict[str, int]) -> int:
+    """Apply label overrides to rows. Returns count of rows relabeled."""
+    relabeled = 0
+    for r in rows:
+        norm = normalize_text(r["question"])
+        if norm in overrides:
+            old_label = r["scope_label"]
+            new_label = overrides[norm]
+            if old_label != new_label:
+                r["scope_label"] = new_label
+                r["scope_label_name"] = {0: "OUT_OF_SCOPE", 1: "IN_SCOPE", 2: "NEEDS_CLARIFICATION"}[new_label]
+                relabeled += 1
+    return relabeled
+
+
 # ============================================================
 # Main processing
 # ============================================================
@@ -135,6 +180,12 @@ def main():
           f"{len(pool_out_rows)} OUT_OF_SCOPE, "
           f"{sum(len(load_jsonl(f)) for f in NEEDS_CLARIF_FILES)} NEEDS_CLARIFICATION")
     print(f"Total rows before dedup: {len(all_rows)}")
+
+    # --- Apply label overrides ---
+    overrides = load_label_overrides(LABEL_OVERRIDES)
+    if overrides:
+        relabeled_count = apply_label_overrides(all_rows, overrides)
+        print(f"Applied overrides: {relabeled_count} rows relabeled")
 
     # --- Schema validation ---
     required_fields = ["question", "category", "subcategory", "annotation_reason", "scope_label", "scope_label_name"]

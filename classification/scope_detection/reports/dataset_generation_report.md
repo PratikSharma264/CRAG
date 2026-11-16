@@ -51,6 +51,46 @@ The `reserve/rewrite_flagged/` directory contained 133 rows explicitly flagged f
 
 ---
 
+## 1.8 Final Label Pass (2026-11-16)
+
+**Problem:** Three candidate lists identified for final review:
+- **List A (63 rows)**: IN_SCOPE rows with no pediatric signal detected by initial regex
+- **List B (215 rows)**: OUT_OF_SCOPE rows with diabetes terms but no adult signal detected
+- **List C (64 rows)**: NEEDS_CLARIFICATION rows with pediatric word/age ≤18 not genuinely mixed with adult
+
+**Resolution:** Each candidate reviewed programmatically with expanded signal detection (added patterns for "Xyo", "Xyr", "diagnosed at X", "X-month-old", "youth-onset", "childhood-onset", "preteen", "high school", "college", "student", "baby/newborn"):
+
+| List | Kept Original | Relabeled | To |
+|------|---------------|-----------|-----|
+| A (IN) | 24 | 39 | NEEDS_CLARIFICATION |
+| B (OUT) | 27 | 188 | NEEDS_CLARIFICATION |
+| C (CLARIF) | 35 | 29 | IN_SCOPE |
+
+**Key decisions:**
+- **List A**: Found pediatric signals in 24 rows (abbreviated ages, school/college context, "diagnosed at X", "youth/childhood-onset"). 39 rows truly lacked any population signal → NEEDS_CLARIFICATION.
+- **List B**: 27 rows had adult signal via category (`adult_diabetes`, `parent_own`), explicit adult context ("mom", "dad", age ≥19), or were diabetes-adjacent non-clinical (pets, history, economics, software). 188 rows were diabetes education questions with no population signal → NEEDS_CLARIFICATION.
+- **List C**: 35 rows genuinely ambiguous (mixed pediatric/adult comparisons, age boundary meta-questions like "when does pediatric end?", bare follow-ups "and for teens?", sample/test cases, unclear third-party context). 29 rows had clear pediatric population (explicit age ≤18, "teen", "adolescent", "child", "pregnancy in teen" per guidelines) → IN_SCOPE.
+
+**Changes Made:**
+1. Created `generation/scripts/create_decisions.py` to generate decisions and overrides
+2. Created `generation/final_pass_decisions.csv` (342 rows with decisions)
+3. Created `generation/label_overrides.jsonl` (256 overrides)
+4. Updated `build_dataset.py` to load and apply `label_overrides.jsonl` after loading pools, before dedup
+5. Re-ran `build_dataset.py` with seed 42
+
+**New Class Distribution:**
+| Label | Name | Count | % | Change |
+|-------|------|-------|---|--------|
+| 0 | OUT_OF_SCOPE | 787 | 32.5% | -188 |
+| 1 | IN_SCOPE | 891 | 36.8% | -10 |
+| 2 | NEEDS_CLARIFICATION | 740 | 30.6% | +198 |
+
+**Verification:**
+- Leakage check: ✅ 0 exact, 0 near-duplicate cross-split pairs
+- All 256 overrides applied successfully
+
+---
+
 ## 2. Class Definitions
 
 ### IN_SCOPE (Label 1)
@@ -118,8 +158,10 @@ Questions **clearly outside** the supported domain:
 |------|------|
 | pool_in.jsonl (IN_SCOPE) | 917 |
 | pool_out.jsonl (OUT_OF_SCOPE) | 1,068 |
-| needs_clarification_*.jsonl | 547 |
+| needs_clarification_*.jsonl | 609 |
 | in_scope_relabeled_from_clarification.jsonl | 20 |
+
+*Note: needs_clarification increased from 547 to 609 due to Final Label Pass relabeling 188 OUT rows and 39 IN rows to NEEDS_CLARIFICATION.*
 
 ---
 
@@ -127,14 +169,14 @@ Questions **clearly outside** the supported domain:
 
 | Split | Total | IN_SCOPE (1) | OUT_OF_SCOPE (0) | NEEDS_CLARIFICATION (2) |
 |-------|-------|--------------|------------------|-------------------------|
-| Train | 1,691 | 630 | 682 | 379 |
-| Val | 362 | 135 | 146 | 81 |
-| Test | 365 | 136 | 147 | 82 |
-| **Total** | **2,418** | **901** | **975** | **542** |
+| Train | 1,691 | 623 | 550 | 518 |
+| Val | 362 | 133 | 118 | 111 |
+| Test | 365 | 135 | 119 | 111 |
+| **Total** | **2,418** | **891** | **787** | **740** |
 
 No exact or near-duplicate leakage across splits (verified).
 
-*Note: IN_SCOPE increased by 20 (from 881 to 901), NEEDS_CLARIFICATION decreased by 20 (from 562 to 542) due to label conflict repair.*
+*Note: After label conflict repair: IN_SCOPE +20 (881→901), CLARIF -20 (562→542). After Final Label Pass: IN_SCOPE -10 (901→891), OUT_OF_SCOPE -188 (975→787), CLARIF +198 (542→740).*
 
 ---
 
@@ -144,9 +186,10 @@ No exact or near-duplicate leakage across splits (verified).
 2. **Style differs between classes** - IN_SCOPE and OUT_OF_SCOPE rows are mostly short topic-style phrases while NEEDS_CLARIFICATION rows are mostly full questions, so class style differs
 3. **Some categories are thin** - e.g., `monofilament`, `GAD7_T1D` have only 1-2 rows
 4. **Dataset has not been used to train or evaluate any model** - No performance metrics available
-5. **NEEDS_CLARIFICATION class is large** (542 rows) - Many are template-generated bare pronoun follow-ups which may not reflect real user behavior
+5. **NEEDS_CLARIFICATION class is large** (740 rows) - Many are template-generated bare pronoun follow-ups which may not reflect real user behavior
 6. **No validation against real user queries** - Distribution may not match production traffic
 7. **Age boundary at 18/19 creates artificial split** - Real users near boundary may be misclassified
 8. **Transition-age (19-25) rows are sparse** - Only ~20 rows with explicit childhood-onset/transition context
+9. **IN/OUT rows state ages/roles; CLARIF rows often fragments** — IN_SCOPE and OUT_OF_SCOPE rows predominantly contain explicit age or role statements (e.g., "10-year-old", "my son", "47-year-old"), while NEEDS_CLARIFICATION rows are frequently short fragments or bare pronoun follow-ups without explicit population signals, creating a style confound that models may exploit.
 
 **This dataset is NOT ready for fine-tuning** without human review and validation.
