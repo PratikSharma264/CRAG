@@ -1,0 +1,77 @@
+{
+  "model_id": "model_b_v2",
+  "pretrained_checkpoint": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+  "dataset": "B_V2",
+  "dataset_path": "C:\\Users\\Lenovo\\Desktop\\Programming\\sakshyam\\7thSemestertest\\dataset_B_V2.csv",
+  "epochs": 5,
+  "batch_size": 4,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "max_length": 512,
+  "seed": 42,
+  "class_weights": [
+    1.8227272727272728,
+    0.6890034364261168
+  ],
+  "device": "cpu",
+  "total_steps": 505,
+  "training_loss": 0.8989670504437814,
+  "resumed_from_checkpoint": null,
+  "split_info": {
+    "seed": 42,
+    "total_examples": 1142,
+    "train_size": 802,
+    "val_size": 169,
+    "test_size": 171,
+    "train_ratio_actual": 0.702276707530648,
+    "val_ratio_actual": 0.14798598949211908,
+    "test_ratio_actual": 0.14973730297723292,
+    "split_method": "question_level_stratified",
+    "duplicate_threshold": 0.95,
+    "question_clusters": {
+      "total": 1087,
+      "max_size": 3,
+      "median_size": 1.0,
+      "singletons": 1037
+    },
+    "cluster_leakage_verified": true,
+    "source_papers_shared_across_splits": true,
+    "note": "NOT paper-disjoint. All examples form one connected component through originating and retrieved source papers. Evaluation measures generalization to new questions from a familiar retrieval corpus, not generalization to unseen papers.",
+    "class_balance": {
+      "train": {
+        "insufficient": 220,
+        "sufficient": 582
+      },
+      "val": {
+        "insufficient": 54,
+        "sufficient": 115
+      },
+      "test": {
+        "insufficient": 51,
+        "sufficient": 120
+      }
+    },
+    "unique_sources": {
+      "train": 217,
+      "val": 153,
+      "test": 155
+    },
+    "originating_paper_overlap": {
+      "train_val": 122,
+      "train_test": 134,
+      "val_test": 57,
+      "train_unique": 228,
+      "val_unique": 123,
+      "test_unique": 135
+    },
+    "retrieved_source_overlap": {
+      "train_val": 151,
+      "train_test": 154,
+      "val_test": 116,
+      "train_unique": 217,
+      "val_unique": 153,
+      "test_unique": 155
+    },
+    "paper_disjoint": false
+  }
+}

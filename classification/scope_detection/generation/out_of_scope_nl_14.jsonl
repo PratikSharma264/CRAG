@@ -1,0 +1,70 @@
+{"question": "Glucagon emergency kit: how to use", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "Glucagon use"}
+{"question": "CGM sensor insertion: does it hurt", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "CGM insertion pain"}
+{"question": "Pump site rotation: where to place", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "Pump site rotation"}
+{"question": "Ketone testing: when and how", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "Ketone testing"}
+{"question": "Sick day rules for type 1 diabetes", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "Sick day rules"}
+{"question": "Metabolic syndrome in 45-year-old male: criteria", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, metabolic syndrome adult"}
+{"question": "Insulin initiation in 60-year-old T2D uncontrolled", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 60, adult insulin start"}
+{"question": "Lean T2D in 30-year-old Asian male", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 30, lean adult"}
+{"question": "Obesity in 10-year-old: metabolic workup", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 10, obesity"}
+{"question": "Insulin list price vs net price trend 2010-2024", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Price trend = economics"}
+{"question": "Intermittent fasting 16:8 insulin resistance 38yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 38, IF adult"}
+{"question": "Depression screening in 60-year-old with T2D", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Explicit age 60, depression adult"}
+{"question": "Instrumental variable for insulin adherence effect", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "IV = statistics"}
+{"question": "58-year-old T1D: carpal tunnel syndrome", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 58, adult carpal tunnel"}
+{"question": "Cost of diabetes complications by type", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Complication costs = economics"}
+{"question": "App Store Connect medical device category submission", "category": "non_medical", "subcategory": "programming", "annotation_reason": "App Store Connect = programming"}
+{"question": "41-year-old T1D: pregnancy high-risk OB", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 41, adult pregnancy"}
+{"question": "Cardiac autonomic neuropathy in 55-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 55, CAN adult"}
+{"question": "90-year-old T1D: centenarian study enrollment", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 90, centenarian study"}
+{"question": "37-year-old T2D: basal insulin titration", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 37, adult basal titration"}
+{"question": "Intermittent fasting 18:6 insulin resistance 30yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 30, IF adult"}
+{"question": "340B drug pricing program diabetes medications", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "340B = economics"}
+{"question": "68-year-old T1D: pump coverage Medicare", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 68, pump Medicare"}
+{"question": "86-year-old T1D: end-of-life insulin", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 86, EOL insulin"}
+{"question": "Insulin list price vs net price 2020-2024 trend", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Price trend = economics"}
+{"question": "Insulin resistance in 30-year-old: HOMA-IR cutoff", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 30, HOMA-IR adult"}
+{"question": "HbA1c every 6 months for 80-year-old stable", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, monitoring frequency elderly"}
+{"question": "Deintensify from 7% to 8% in 78-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, deintensification elderly"}
+{"question": "Insulin lispro biosimilar: analytical similarity", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Analytical similarity = pharma"}
+{"question": "35-year-old T2D: HbA1c target 7% vs 7.5%", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 35, adult A1c target debate"}
+{"question": "Inflation Reduction Act insulin $35 cap Medicare", "category": "diabetes_adjacent", "subcategory": "politics", "annotation_reason": "IRA $35 cap = politics"}
+{"question": "PCOS insulin resistance 28-year-old: metformin", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 28, PCOS metformin adult"}
+{"question": "57-year-old T2D: carpal tunnel release", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 57, adult carpal tunnel surgery"}
+{"question": "7-year-old with VUR: antibiotic prophylaxis", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 7, VUR not diabetes"}
+{"question": "Time-restricted eating 10hr window 40yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, TRE adult"}
+{"question": "24-year-old T2D: cardiovascular risk", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 24, CVD adult"}
+{"question": "Inositol for insulin resistance PCOS 28-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 28, inositol adult"}
+{"question": "66-year-old T1D: Medicare insulin coverage", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 66, Medicare insulin"}
+{"question": "26-year-old T1D: time in range 70-180 target", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 26, adult T1D TIR target"}
+{"question": "10-year-old growth hormone deficiency: treatment", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 10, growth hormone not diabetes"}
+{"question": "Mediterranean diet insulin resistance 50-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 50, Mediterranean adult"}
+{"question": "HbA1c target 7.8% for 72-year-old frail", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 72, frail elderly"}
+{"question": "A1c target for 70-year-old with heart failure", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 70, HF elderly"}
+{"question": "HbA1c 9% acceptable for 80-year-old with dementia", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, dementia elderly"}
+{"question": "50-year-old T2D: SGLT2 inhibitor renal protection", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 50, adult T2D SGLT2"}
+{"question": "Docker containerize a Node.js application", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Docker Node.js = programming"}
+{"question": "Electrochemistry of CGM sensor electrode", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Electrochemistry = chemistry"}
+{"question": "Proinsulin cleavage to insulin: C-peptide", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "C-peptide = general"}
+{"question": "General knowledge: what is insulin hormone", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "General knowledge = general"}
+{"question": "Nobel prizes for diabetes research", "category": "non_medical", "subcategory": "history", "annotation_reason": "Nobel prizes = history"}
+{"question": "Diabetes awareness month November facts", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Awareness month = general"}
+{"question": "Medicaid coverage for diabetes technology by state", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Medicaid coverage = politics"}
+{"question": "Famous scientists who discovered insulin", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Famous scientists = general"}
+{"question": "Fastlane automation for diabetes app deployment", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Fastlane = programming"}
+{"question": "VoiceOver accessibility for glucose trend charts", "category": "non_medical", "subcategory": "programming", "annotation_reason": "VoiceOver = programming"}
+{"question": "Explainable AI for clinical decision support diabetes", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Explainable AI = AI/ML"}
+{"question": "Diabetes economic burden US $400 billion", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Economic burden = economics"}
+{"question": "Federated learning for diabetes across hospitals", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Federated learning = AI/ML"}
+{"question": "Trivia: which cells produce insulin in pancreas", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Beta cells trivia = general"}
+{"question": "BERT for clinical notes diabetes extraction", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "BERT clinical notes = AI/ML"}
+{"question": "Group sequential design for diabetes outcome trial", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Group sequential = statistics"}
+{"question": "Transformer model for insulin dose recommendation", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Transformer insulin = AI/ML"}
+{"question": "Global insulin market size 2024 projections", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Global market size = economics"}
+{"question": "Do No Harm TV show diabetes medical accuracy", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "TV medical accuracy = entertainment"}
+{"question": "Diabetes in Renaissance Europe: Willis and Dobson", "category": "non_medical", "subcategory": "history", "annotation_reason": "Renaissance diabetes = history"}
+{"question": "Marathon running with T1D: elite athletes", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Marathon athletes = sports"}
+{"question": "Diabetes digital health reimbursement codes", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Digital health reimbursement = economics"}
+{"question": "Feature importance for T2D prediction model", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Feature importance = AI/ML"}
+{"question": "Insulin rationing mortality data US", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Rationing mortality = economics"}
+{"question": "Performance optimization for large glucose datasets", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Performance optimization = programming"}

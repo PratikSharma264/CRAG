@@ -1,0 +1,915 @@
+{"question": "47-year-old T2D: foot exam monofilament", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 47, adult foot exam"}
+{"question": "Insulin resistance and NAFLD in 42-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 42, NAFLD adult"}
+{"question": "Non-alcoholic fatty liver 42-year-old: IR link", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 42, NAFLD IR adult"}
+{"question": "My 6-year-old has epilepsy: seizure medication", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 6, epilepsy not diabetes"}
+{"question": "8-year-old with amblyopia: patching therapy", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, amblyopia not diabetes"}
+{"question": "6-year-old head banging: behavioral plan", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 6, head banging not diabetes"}
+{"question": "Individualized target 7.8% for 72-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 72, individualized elderly"}
+{"question": "My 7-year-old has celiac disease: gluten-free diet", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 7, celiac not diabetes"}
+{"question": "60-year-old T1D since 55: complications screening", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 60, T1D since 55 = adult onset"}
+{"question": "90-year-old T1D: centenarian diabetes study", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 90, centenarian"}
+{"question": "11-year-old with JIA: methotrexate monitoring", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 11, JIA not diabetes"}
+{"question": "Acanthosis nigricans neck 40-year-old: workup", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, acanthosis adult"}
+{"question": "75-year-old T2D: dementia and diabetes care", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 75, elderly dementia"}
+{"question": "64-year-old T2D: blood pressure target SPRINT", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 64, adult BP SPRINT"}
+{"question": "CKD stage 4: A1c target 8% for 70-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 70, CKD elderly"}
+{"question": "Chronic stress cortisol insulin resistance 40yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, cortisol adult"}
+{"question": "Metabolic syndrome 35-year-old: ATP III criteria", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, metabolic syndrome adult"}
+{"question": "11-year-old depression: SSRI fluoxetine dosing", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 11, depression not diabetes"}
+{"question": "67-year-old T2D: Part D insulin savings", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 67, Part D savings"}
+{"question": "Hypertension insulin resistance 50-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 50, HTN IR adult"}
+{"question": "43-year-old T1D: retinopathy laser treatment", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 43, adult retinopathy laser"}
+{"question": "33-year-old T1D: time in range targets", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 33, adult T1D TIR"}
+{"question": "48-year-old T1D: autonomic neuropathy symptoms", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 48, adult autonomic"}
+{"question": "My 9-year-old has anxiety: therapy vs medication", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 9, anxiety not diabetes"}
+{"question": "8-year-old hyperglycemia stress: steroid course", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, stress hyperglycemia not diabetes"}
+{"question": "HbA1c monitoring every 6 months for 80-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, monitoring frequency elderly"}
+{"question": "A1c monitoring in 85-year-old nursing home resident", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 85, nursing home elderly"}
+{"question": "43-year-old T1D: diabetic retinopathy screening", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 43, adult retinopathy"}
+{"question": "Visceral adiposity 40-year-old: insulin resistance", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, visceral fat adult"}
+{"question": "Exercise prescription insulin resistance 40-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, exercise prescription adult"}
+{"question": "32-year-old T2D: metformin side effects", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 32, metformin adult"}
+{"question": "25-year-old new T1D: pump vs MDI decision", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 25, new T1D = adult onset"}
+{"question": "Proinflammatory state CRP 35-year-old: IR", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, CRP IR adult"}
+{"question": "55-year-old new diabetes: T1D vs T2D workup", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 55, new diabetes adult"}
+{"question": "47-year-old T2D: foot ulcer offloading", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 47, adult foot ulcer"}
+{"question": "56-year-old T1D: frozen shoulder physical therapy", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 56, adult frozen shoulder"}
+{"question": "Vitamin D repletion insulin resistance 35yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, vitamin D adult"}
+{"question": "7-year-old with OCD: exposure response prevention", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 7, OCD not diabetes"}
+{"question": "39-year-old T2D: tirzepatide vs semaglutide", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 39, adult tirzepatide comparison"}
+{"question": "Palliative care: glucose 150-250 for 85yo", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 85, palliative glucose elderly"}
+{"question": "Deintensification from A1c 7% to 8% in 78-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, deintensification elderly"}
+{"question": "Time-restricted eating insulin sensitivity 42yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 42, TRE adult"}
+{"question": "21-year-old with diabetes: alcohol safety", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 21, alcohol adult"}
+{"question": "49-year-old T2D: erectile dysfunction PDE5", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 49, adult ED"}
+{"question": "83-year-old T1D: end-of-life glycemic targets", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 83, EOL glycemic"}
+{"question": "Insulin resistance in 40-year-old: HOMA-IR calculation", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, insulin resistance adult"}
+{"question": "82-year-old T2D: palliative care diabetes", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 82, palliative diabetes"}
+{"question": "Hospice enrollment: stop A1c checks 88yo", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 88, hospice elderly"}
+{"question": "8-year-old PTSD: trauma-focused CBT", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, PTSD not diabetes"}
+{"question": "9-year-old trichotillomania: habit reversal", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 9, trichotillomania not diabetes"}
+{"question": "72-year-old T2D: glucagon prescription cost", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 72, glucagon cost"}
+{"question": "35-year-old T1D since 30: CGM accuracy", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 35, T1D since 30 = adult onset"}
+{"question": "61-year-old T1D: statin intensity decision", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 61, adult statin decision"}
+{"question": "62-year-old T2D: statin intensity ACC/AHA", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 62, adult statin"}
+{"question": "63-year-old T1D: blood pressure target 130/80", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 63, adult BP target"}
+{"question": "10-year-old oppositional defiant: parent training", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 10, ODD not diabetes"}
+{"question": "51-year-old T1D: bone density screening", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 51, adult bone density"}
+{"question": "19-year-old T2D: bariatric surgery criteria", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 19, bariatric adult"}
+{"question": "6-year-old leukemia survivor: late effects screening", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 6, leukemia not diabetes"}
+{"question": "Insulin resistance syndrome in 38-year-old: criteria", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 38, IR syndrome adult"}
+{"question": "Ketogenic diet insulin resistance 48-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 48, keto adult"}
+{"question": "Glycemic targets nursing home 82-year-old diabetic", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 82, nursing home"}
+{"question": "Hyperandrogenism insulin resistance 30-year-old female", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 30, hyperandrogenism adult"}
+{"question": "Stress management cortisol IR 35-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, cortisol adult"}
+{"question": "70-year-old with diabetes: hypoglycemia risk", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 70, elderly hypoglycemia"}
+{"question": "59-year-old T2D: vaccine schedule pneumococcal", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 59, adult pneumococcal vaccine"}
+{"question": "HbA1c goals frail elderly 78-year-old T2D", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, frail elderly"}
+{"question": "68-year-old T1D: CGM Medicare coverage", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 68, CGM Medicare"}
+{"question": "Intermittent fasting insulin resistance 35-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, fasting adult"}
+{"question": "Assisted living: sliding scale insulin 78yo", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, assisted living elderly"}
+{"question": "71-year-old T1D: test strip quantity limits", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 71, strip limits"}
+{"question": "Limited life expectancy <5yr: A1c 8.5% 80yo", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, life expectancy elderly"}
+{"question": "12-year-old skin picking: CBT", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 12, skin picking not diabetes"}
+{"question": "9-year-old sleep apnea: adenotonsillectomy", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 9, sleep apnea not diabetes"}
+{"question": "Individualized A1c for 78-year-old with fall risk", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, fall risk elderly"}
+{"question": "66-year-old T1D: Medicare CGM criteria", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 66, Medicare CGM"}
+{"question": "11-year-old enuresis: alarm therapy", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 11, enuresis not diabetes"}
+{"question": "Glycemic target 8.5% for 80-year-old frail", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, A1c 8.5% frail"}
+{"question": "44-year-old T2D: nephropathy ACE inhibitor", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 44, adult nephropathy"}
+{"question": "Insulin resistance weight loss in 50-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 50, weight loss adult"}
+{"question": "Low HDL 45-year-old: insulin resistance marker", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, low HDL adult"}
+{"question": "30-year-old with T2D: HbA1c target 7%", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 30, adult T2D HbA1c"}
+{"question": "CPAP treatment insulin resistance 40yo OSA", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, CPAP adult"}
+{"question": "Berberine 500mg TID insulin resistance 35yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, berberine adult"}
+{"question": "Glycemic target for 75-year-old with limited life expectancy", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 75, limited life expectancy"}
+{"question": "My 8-year-old has eczema: topical steroids", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, eczema not diabetes"}
+{"question": "Zone 2 training insulin resistance 35-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, zone 2 adult"}
+{"question": "Homebound 82-year-old: A1c monitoring yearly", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 82, homebound elderly"}
+{"question": "26-year-old diabetic: driving license medical", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 26, driving adult"}
+{"question": "Resistance training 3x/week IR 40-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, resistance training adult"}
+{"question": "78-year-old T1D: medication reconciliation", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 78, elderly med rec"}
+{"question": "Alpha-lipoic acid 600mg insulin sensitivity 40yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, ALA adult"}
+{"question": "13-year-old scoliosis: bracing vs surgery", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 13, scoliosis not diabetes"}
+{"question": "Magnesium glycinate insulin sensitivity 30yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 30, magnesium adult"}
+{"question": "87-year-old T2D: comfort measures only", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 87, comfort measures"}
+{"question": "39-year-old T2D: SGLT2 for heart failure", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 39, adult SGLT2 HF"}
+{"question": "89-year-old T2D: advance directive diabetes", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 89, advance directive"}
+{"question": "Individualized A1c goals for 70-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 70, individualized elderly"}
+{"question": "10-year-old glycosuria: renal threshold low", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 10, renal glycosuria not diabetes"}
+{"question": "76-year-old T1D: medication simplification", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 76, elderly med simplification"}
+{"question": "84-year-old T2D: advance care planning", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 84, advance care"}
+{"question": "9-year-old ARFID: feeding therapy", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 9, ARFID not diabetes"}
+{"question": "7-year-old encopresis: behavioral intervention", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 7, encopresis not diabetes"}
+{"question": "67-year-old T2D: Part D donut hole insulin", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 67, Part D donut hole"}
+{"question": "HIIT protocol insulin sensitivity 28-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 28, HIIT adult"}
+{"question": "61-year-old T1D: vaccinations pneumococcal shingles", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 61, adult vaccines"}
+{"question": "59-year-old T2D: sleep apnea CPAP", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 59, adult sleep apnea"}
+{"question": "40-year-old T2D uncontrolled: insulin initiation", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 40, adult T2D insulin"}
+{"question": "7-year-old pica: iron deficiency workup", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 7, pica not diabetes"}
+{"question": "Stop sulfonylurea in 82-year-old: hypoglycemia", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 82, stop SU elderly"}
+{"question": "Deintensification algorithm for 80-year-old diabetic", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, deintensification algorithm elderly"}
+{"question": "PCOS insulin resistance in 28-year-old woman", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 28, PCOS adult"}
+{"question": "Cognitive impairment: A1c 8% for 78-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, cognitive elderly"}
+{"question": "48-year-old T1D: orthostatic hypotension", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 48, adult orthostatic"}
+{"question": "Joint modeling of longitudinal and survival data", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Joint modeling = statistics"}
+{"question": "Steel Magnolias Shelby diabetes death scene accuracy", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Steel Magnolias = entertainment"}
+{"question": "Complication for watchOS glucose display", "category": "non_medical", "subcategory": "programming", "annotation_reason": "watchOS complication = programming"}
+{"question": "Edge deployment of diabetes model on phone", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Edge deployment = AI/ML"}
+{"question": "REST API design for diabetes app backend", "category": "non_medical", "subcategory": "programming", "annotation_reason": "API design = programming"}
+{"question": "LSTM for glucose prediction from CGM data", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "LSTM glucose prediction = AI/ML"}
+{"question": "Conformal prediction for glucose interval estimates", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Conformal prediction = AI/ML"}
+{"question": "Attribution methods for deep glucose models", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Attribution methods = AI/ML"}
+{"question": "WidgetKit glucose widget for iOS lock screen", "category": "non_medical", "subcategory": "programming", "annotation_reason": "WidgetKit = programming"}
+{"question": "World Diabetes Day date: November 14", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Nov 14 = general"}
+{"question": "Circular dichroism for insulin secondary structure", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "CD spectroscopy = chemistry"}
+{"question": "React Native vs Flutter for health app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "React Native Flutter = programming"}
+{"question": "G-computation for diabetes treatment effect estimation", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "G-computation = statistics"}
+{"question": "Fairness metrics for diabetes ML models", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Fairness metrics = AI/ML"}
+{"question": "Ultra marathon 100 miles with T1D: fueling", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Ultra marathon = sports"}
+{"question": "NBA player with T1D: Adam Morrison", "category": "non_medical", "subcategory": "sports", "annotation_reason": "NBA T1D = sports"}
+{"question": "Diabetes in ancient Egypt: historical records", "category": "non_medical", "subcategory": "history", "annotation_reason": "Ancient Egypt diabetes = history"}
+{"question": "Ayurveda diabetes treatment: Madhumeha", "category": "non_medical", "subcategory": "history", "annotation_reason": "Ayurveda = history"}
+{"question": "RevenueCat subscriptions for premium diabetes features", "category": "non_medical", "subcategory": "programming", "annotation_reason": "RevenueCat = programming"}
+{"question": "Contrastive learning for CGM representation", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Contrastive learning = AI/ML"}
+{"question": "Diabetes camps history: first camp 1925", "category": "non_medical", "subcategory": "history", "annotation_reason": "Diabetes camps history = history"}
+{"question": "CodePush for React Native diabetes app updates", "category": "non_medical", "subcategory": "programming", "annotation_reason": "CodePush = programming"}
+{"question": "Evolution of glucose monitoring technology", "category": "non_medical", "subcategory": "history", "annotation_reason": "Technology evolution = history"}
+{"question": "ROC curve analysis for diabetes screening test", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "ROC curve = statistics"}
+{"question": "Optical properties of fluorescence glucose sensor", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Optical properties = physics"}
+{"question": "Differential scanning calorimetry for insulin stability", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "DSC = chemistry"}
+{"question": "Mixed effects model for longitudinal glucose data", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Mixed effects model = statistics"}
+{"question": "Diabetes in literature: The Sweetness of Water", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Literature diabetes = entertainment"}
+{"question": "Diabetes prevention program Medicare coverage", "category": "non_medical", "subcategory": "politics", "annotation_reason": "DPP Medicare = politics"}
+{"question": "Meta-analysis of SGLT2 inhibitor trials", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Meta-analysis = statistics"}
+{"question": "Insulin purification: from pancreas to recombinant", "category": "non_medical", "subcategory": "history", "annotation_reason": "Insulin purification = history"}
+{"question": "Principal stratification for diabetes compliance", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Principal stratification = statistics"}
+{"question": "Difference-in-differences for diabetes intervention", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "DiD = statistics"}
+{"question": "Employer diabetes management program cost savings", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Employer program savings = economics"}
+{"question": "Causal discovery from diabetes observational data", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Causal discovery = AI/ML"}
+{"question": "Calculate sample size for diabetes clinical trial", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Sample size calculation = statistics"}
+{"question": "Geography of diabetes prevalence by country", "category": "non_medical", "subcategory": "geography", "annotation_reason": "Geography prevalence = geography"}
+{"question": "340B drug pricing program insulin discounts", "category": "non_medical", "subcategory": "economics", "annotation_reason": "340B pricing = economics"}
+{"question": "Authentication for patient portal: OAuth2", "category": "non_medical", "subcategory": "programming", "annotation_reason": "OAuth2 auth = programming"}
+{"question": "Multi-state model for diabetes progression stages", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Multi-state model = statistics"}
+{"question": "Android Health Connect API for glucose data", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Health Connect = programming"}
+{"question": "Professional golfer with T1D: Michelle McGann", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Golfer T1D = sports"}
+{"question": "Diabetes organizations: ADA EASD IDF founding", "category": "non_medical", "subcategory": "history", "annotation_reason": "Diabetes orgs history = history"}
+{"question": "Insulin biosimilar market entry barriers", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Biosimilar market = economics"}
+{"question": "Synthetic control for diabetes policy evaluation", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Synthetic control = statistics"}
+{"question": "Foundation models for diabetes care", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Foundation models = AI/ML"}
+{"question": "Diabetes in movies: Steel Magnolias accuracy", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Movies diabetes = entertainment"}
+{"question": "Dynamic light scattering for insulin aggregation", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "DLS = physics"}
+{"question": "Active learning for rare diabetes subtype classification", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Active learning = AI/ML"}
+{"question": "Surface plasmon resonance for insulin binding kinetics", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "SPR = chemistry"}
+{"question": "Sentry error tracking for medical mobile app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Sentry = programming"}
+{"question": "Model calibration for diabetes risk prediction", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Model calibration = AI/ML"}
+{"question": "TypeScript vs JavaScript for medical app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "TypeScript = programming"}
+{"question": "CrossFit Games athlete with T1D", "category": "non_medical", "subcategory": "sports", "annotation_reason": "CrossFit Games = sports"}
+{"question": "Polymer chemistry of insulin pump tubing", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Polymer chemistry = chemistry"}
+{"question": "AutoML for diabetes risk prediction", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "AutoML risk prediction = AI/ML"}
+{"question": "Kaplan-Meier survival analysis for diabetes complications", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Kaplan-Meier = statistics"}
+{"question": "Targeted maximum likelihood estimation for diabetes", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "TMLE = statistics"}
+{"question": "Cox proportional hazards model for T2D progression", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Cox model = statistics"}
+{"question": "Insulin price transparency state laws 2024", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Price transparency laws = politics"}
+{"question": "Diffusion models for synthetic retinal images", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Diffusion models = AI/ML"}
+{"question": "WebRTC for video consultation diabetes app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "WebRTC = programming"}
+{"question": "Enzyme kinetics of glucose oxidase in test strips", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Enzyme kinetics = chemistry"}
+{"question": "Git workflow for healthcare software team", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Git workflow = programming"}
+{"question": "Push notification service for glucose alerts Firebase", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Firebase push = programming"}
+{"question": "Health equity diabetes policy recommendations", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Health equity policy = politics"}
+{"question": "Diabetes in medieval Islamic medicine: Avicenna", "category": "non_medical", "subcategory": "history", "annotation_reason": "Medieval Islamic medicine = history"}
+{"question": "Bluetooth LE GATT profile for CGM receiver", "category": "non_medical", "subcategory": "programming", "annotation_reason": "BLE GATT = programming"}
+{"question": "Alpha spending function for diabetes multiple endpoints", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Alpha spending = statistics"}
+{"question": "Futility stopping rules for diabetes drug trial", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Futility stopping = statistics"}
+{"question": "Real-world evidence for diabetes drug approval", "category": "non_medical", "subcategory": "politics", "annotation_reason": "RWE approval = politics"}
+{"question": "International insulin price comparison: US vs Canada", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Price comparison = economics"}
+{"question": "World Diabetes Day blue circle symbol", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Blue circle = general"}
+{"question": "Time series foundation model for glucose forecasting", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "TS foundation model = AI/ML"}
+{"question": "Sample size re-estimation for diabetes interim", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Sample size re-est = statistics"}
+{"question": "State management Redux vs Zustand medical app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "State management = programming"}
+{"question": "Insulin pricing legislation US Congress 2024", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Insulin pricing legislation = politics"}
+{"question": "Database schema for patient glucose logs", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Database schema = programming"}
+{"question": "Diabetes in indigenous populations historical", "category": "non_medical", "subcategory": "history", "annotation_reason": "Indigenous populations = history"}
+{"question": "Insulin supply chain resilience pandemic lessons", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Supply chain resilience = economics"}
+{"question": "Geographic variation in T1D incidence Finland vs Venezuela", "category": "non_medical", "subcategory": "geography", "annotation_reason": "Geographic variation = geography"}
+{"question": "Continuous learning for adaptive insulin algorithm", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Continuous learning = AI/ML"}
+{"question": "Reinforcement learning for artificial pancreas", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "RL artificial pancreas = AI/ML"}
+{"question": "Propensity score matching for diabetes observational study", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Propensity score = statistics"}
+{"question": "Mass spectrometry for insulin analog characterization", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Mass spectrometry = chemistry"}
+{"question": "Pharma lobbying insulin pricing transparency", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Pharma lobbying = politics"}
+{"question": "Differential privacy for federated diabetes learning", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Differential privacy = AI/ML"}
+{"question": "Accessibility testing for diabetes website", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Accessibility testing = programming"}
+{"question": "Counterfactual explanations for insulin dose recommendations", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Counterfactual = AI/ML"}
+{"question": "Mediation analysis for diabetes pathway effects", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Mediation = statistics"}
+{"question": "MLOps pipeline for diabetes model deployment", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "MLOps pipeline = AI/ML"}
+{"question": "Novo Nordisk insulin history: Nordic insulin", "category": "non_medical", "subcategory": "history", "annotation_reason": "Novo Nordisk = history"}
+{"question": "The Babysitters Club Stacey diabetes representation", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Babysitters Club = entertainment"}
+{"question": "Diabetes clinical trial diversity FDA guidance", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Trial diversity = politics"}
+{"question": "Multimodal transformer: CGM + text + images", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Multimodal transformer = AI/ML"}
+{"question": "Logistic regression for diabetes risk factors", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Logistic regression = statistics"}
+{"question": "Cryo-EM structure of insulin receptor ectodomain", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Cryo-EM = physics"}
+{"question": "How to build a React glucose tracker app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "React app for glucose tracking = programming"}
+{"question": "Sample size for non-inferiority diabetes trial", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Non-inferiority sample size = statistics"}
+{"question": "False discovery rate for diabetes biomarker panel", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "FDR biomarker = statistics"}
+{"question": "First clinical insulin patient: Leonard Thompson 1922", "category": "non_medical", "subcategory": "history", "annotation_reason": "Leonard Thompson = history"}
+{"question": "CrossFit with T1D: blood sugar management", "category": "non_medical", "subcategory": "sports", "annotation_reason": "CrossFit = sports"}
+{"question": "Diffusion coefficient of glucose in interstitial fluid", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Diffusion coefficient = physics"}
+{"question": "False discovery rate control for diabetes genomics", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "FDR control = statistics"}
+{"question": "Value-based insurance design for diabetes meds", "category": "non_medical", "subcategory": "economics", "annotation_reason": "VBID diabetes = economics"}
+{"question": "Causal inference for diabetes intervention study", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Causal inference = statistics"}
+{"question": "Instrumental variable analysis for insulin adherence", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Instrumental variable = statistics"}
+{"question": "CI/CD pipeline for HIPAA-compliant app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "CI/CD pipeline = programming"}
+{"question": "Eli Lilly insulin mass production history", "category": "non_medical", "subcategory": "history", "annotation_reason": "Eli Lilly history = history"}
+{"question": "Mobile app offline sync for glucose data", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Offline sync = programming"}
+{"question": "Distribution shift detection for glucose model monitoring", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Distribution shift = AI/ML"}
+{"question": "Power analysis for HbA1c difference detection", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Power analysis = statistics"}
+{"question": "State Medicaid expansion diabetes outcomes", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Medicaid expansion = politics"}
+{"question": "Inflation Reduction Act insulin cap $35", "category": "non_medical", "subcategory": "politics", "annotation_reason": "IRA insulin cap = politics"}
+{"question": "Graph neural networks for diabetes complication prediction", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "GNN = AI/ML"}
+{"question": "Unit testing React components with Jest", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Unit testing = programming"}
+{"question": "Trivia: which organ produces insulin", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Trivia = general"}
+{"question": "Landmark analysis for time-dependent diabetes covariates", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Landmark analysis = statistics"}
+{"question": "Competing risks analysis for diabetes mortality", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Competing risks = statistics"}
+{"question": "Apple HealthKit background delivery for glucose", "category": "non_medical", "subcategory": "programming", "annotation_reason": "HealthKit background = programming"}
+{"question": "Atomoxetine vs stimulants for 10-year-old ADHD", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 10, ADHD meds"}
+{"question": "Wilms tumor in 4-year-old: treatment", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 4, Wilms tumor"}
+{"question": "Lyme disease in 12-year-old after tick bite", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 12, Lyme"}
+{"question": "ADHD comorbidity with anxiety in 13-year-old", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 13, ADHD anxiety"}
+{"question": "Viral-induced wheeze in 3-year-old: asthma or not?", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 3, wheeze"}
+{"question": "ALL treatment protocol for 8-year-old", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 8, ALL"}
+{"question": "Strep throat treatment for 6-year-old", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 6, strep throat"}
+{"question": "Fever neutropenia in 7-year-old on chemo", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 7, febrile neutropenia"}
+{"question": "Survivorship care for 15-year-old post-leukemia", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 15, survivorship"}
+{"question": "RSV bronchiolitis in 6-month-old", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 6-month, RSV"}
+{"question": "Hypertension in 12-year-old: workup and management", "category": "other_medical_pediatric", "subcategory": "hypertension", "annotation_reason": "Explicit age 12, pediatric hypertension"}
+{"question": "UTI prophylaxis in 5-year-old with VUR", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 5, UTI prophylaxis"}
+{"question": "Allergy immunotherapy for 9-year-old with allergic asthma", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 9, asthma allergy"}
+{"question": "Biologic therapy for severe asthma in 14-year-old", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 14, asthma biologic"}
+{"question": "ADHD medication holidays for 11-year-old", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 11, ADHD med holiday"}
+{"question": "Asthma exacerbation management in 5-year-old", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 5, asthma"}
+{"question": "School accommodations for 12-year-old with ADHD", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 12, ADHD school"}
+{"question": "Pediatric oncology psychosocial support for 9-year-old", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 9, oncology psychosocial"}
+{"question": "Hand-foot-mouth disease in 3-year-old", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 3, HFMD"}
+{"question": "Neuroblastoma in 2-year-old: staging", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 2, neuroblastoma"}
+{"question": "Asthma and sports participation for 11-year-old", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 11, asthma sports"}
+{"question": "Renal ultrasound findings in 6-year-old", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 6, renal ultrasound"}
+{"question": "Kidney stones in 10-year-old: metabolic workup", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 10, kidney stones"}
+{"question": "Bedwetting in 7-year-old: enuresis evaluation", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 7, enuresis"}
+{"question": "Leukemia presentation in 5-year-old: bruising and fatigue", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 5, leukemia"}
+{"question": "Vesicoureteral reflux in 3-year-old", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 3, VUR"}
+{"question": "Montelukast for 6-year-old asthma control", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 6, asthma medication"}
+{"question": "Asthma action plan for 8-year-old with exercise-induced symptoms", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 8, asthma not diabetes"}
+{"question": "Meningitis signs in 10-year-old", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 10, meningitis"}
+{"question": "Mononucleosis in 15-year-old: return to sports", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 15, mono"}
+{"question": "CKD stage 2 in 14-year-old: monitoring", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 14, pediatric CKD"}
+{"question": "Inhaler technique for 10-year-old with asthma", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 10, asthma"}
+{"question": "Chemotherapy nausea in 10-year-old with lymphoma", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 10, chemo nausea"}
+{"question": "Pneumonia in 4-year-old: outpatient management", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 4, pneumonia"}
+{"question": "Brain tumor symptoms in 12-year-old: headache and vomiting", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 12, brain tumor"}
+{"question": "Parent training for 6-year-old ADHD behavior", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 6, ADHD parent training"}
+{"question": "School asthma plan for 7-year-old", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 7, asthma school"}
+{"question": "Adult ADHD diagnosis at 25: childhood onset?", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 25, adult ADHD"}
+{"question": "ADHD medication for 8-year-old: methylphenidate dosing", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 8, ADHD"}
+{"question": "ADHD and sleep problems in 9-year-old", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 9, ADHD sleep"}
+{"question": "Hypertension in 16-year-old athlete", "category": "other_medical_pediatric", "subcategory": "hypertension", "annotation_reason": "Explicit age 16, hypertension athlete"}
+{"question": "COVID-19 in 7-year-old: isolation guidelines", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 7, COVID"}
+{"question": "Acute kidney injury in 12-year-old: causes", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 12, AKI"}
+{"question": "UTI in 8-year-old girl: workup", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 8, UTI"}
+{"question": "Osteosarcoma in 14-year-old: limb salvage", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 14, osteosarcoma"}
+{"question": "Peak flow monitoring for 12-year-old asthmatic", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 12, asthma"}
+{"question": "ADHD and executive function in 14-year-old", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 14, ADHD executive function"}
+{"question": "Ear infection antibiotics for 2-year-old", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 2, ear infection"}
+{"question": "Proteinuria in 8-year-old: nephrotic syndrome?", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 8, proteinuria"}
+{"question": "ADHD diagnosis criteria for 7-year-old", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 7, ADHD diagnosis"}
+{"question": "Inflammatory bowel disease in 12-year-old: diagnosis", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 12, IBD"}
+{"question": "Headache red flags in 9-year-old", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 9, headache"}
+{"question": "Heart murmur in 6-year-old: innocent vs pathologic", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 6, heart murmur"}
+{"question": "Neurofibromatosis type 1 in 7-year-old", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 7, NF1"}
+{"question": "Celiac disease screening in 6-year-old with symptoms", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 6, celiac screening"}
+{"question": "Palpitations in 14-year-old athlete: EKG", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 14, palpitations"}
+{"question": "Autism spectrum disorder in 4-year-old: early intervention", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 4, autism"}
+{"question": "Liver enzyme elevation in 14-year-old: workup", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 14, liver enzymes"}
+{"question": "Thyroid nodule in 14-year-old: FNA", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 14, thyroid nodule"}
+{"question": "Adrenal insufficiency in 8-year-old: stress dosing", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 8, adrenal insufficiency"}
+{"question": "Lymphadenopathy in 9-year-old: biopsy indications", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 9, lymphadenopathy"}
+{"question": "Syncope in 10-year-old: vasovagal vs cardiac", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 10, syncope"}
+{"question": "Developmental delay in 3-year-old: genetic testing", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 3, developmental delay"}
+{"question": "Eosinophilic esophagitis in 8-year-old: diet therapy", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 8, EoE"}
+{"question": "Migraine in 10-year-old: preventive therapy", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 10, migraine"}
+{"question": "Chest pain in 12-year-old: cardiac workup", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 12, chest pain"}
+{"question": "GERD in 7-year-old: PPI use", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 7, GERD"}
+{"question": "Chronic constipation in 4-year-old: management", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 4, constipation"}
+{"question": "Hemophilia in 7-year-old: factor replacement", "category": "other_medical_pediatric", "subcategory": "hematology", "annotation_reason": "Explicit age 7, hemophilia"}
+{"question": "Tics and Tourette in 8-year-old: management", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 8, tics"}
+{"question": "Fatty liver in 13-year-old obese: NAFLD", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 13, NAFLD"}
+{"question": "Short stature in 10-year-old: growth hormone", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 10, short stature"}
+{"question": "Hydrocephalus in 6-year-old: shunt malfunction signs", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 6, hydrocephalus"}
+{"question": "Precocious puberty in 7-year-old girl: workup", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 7, precocious puberty"}
+{"question": "Wilms tumor follow-up in 6-year-old", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 6, Wilms follow-up"}
+{"question": "Thalassemia trait in 6-year-old: counseling", "category": "other_medical_pediatric", "subcategory": "hematology", "annotation_reason": "Explicit age 6, thalassemia"}
+{"question": "Short bowel syndrome in 5-year-old: nutrition", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 5, SBS"}
+{"question": "Febrile seizure in 2-year-old: recurrence risk", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 2, febrile seizure"}
+{"question": "Retinoblastoma in 2-year-old: enucleation", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 2, retinoblastoma"}
+{"question": "Osteosarcoma in 14-year-old: chemo protocol", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 14, osteosarcoma"}
+{"question": "Long QT syndrome in 13-year-old: beta blockers", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 13, Long QT"}
+{"question": "Epilepsy surgery evaluation in 12-year-old", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 12, epilepsy surgery"}
+{"question": "Congenital heart defect follow-up 8-year-old", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 8, CHD follow-up"}
+{"question": "Hypertrophic cardiomyopathy in 15-year-old", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 15, HCM"}
+{"question": "Hashimoto thyroiditis in 9-year-old: monitoring", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 9, Hashimoto"}
+{"question": "Sickle cell disease in 10-year-old: hydroxyurea", "category": "other_medical_pediatric", "subcategory": "hematology", "annotation_reason": "Explicit age 10, sickle cell"}
+{"question": "Cerebral palsy in 5-year-old: spasticity management", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 5, CP"}
+{"question": "Graves disease in 12-year-old: antithyroid drugs", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 12, Graves"}
+{"question": "Cholesterol screening in 9-year-old with family history", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 9, cholesterol"}
+{"question": "ITP in 8-year-old: observation vs treatment", "category": "other_medical_pediatric", "subcategory": "hematology", "annotation_reason": "Explicit age 8, ITP"}
+{"question": "Cyclic vomiting syndrome in 10-year-old", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 10, CVS"}
+{"question": "CAH in 5-year-old: hydrocortisone dosing", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 5, CAH"}
+{"question": "Kawasaki disease in 3-year-old: IVIG treatment", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 3, Kawasaki"}
+{"question": "Rheumatic fever in 11-year-old: Jones criteria", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 11, rheumatic fever"}
+{"question": "SIADH in 13-year-old: fluid restriction", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 13, SIADH"}
+{"question": "Pancreatitis in 11-year-old: causes", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 11, pancreatitis"}
+{"question": "VTE in 15-year-old: anticoagulation", "category": "other_medical_pediatric", "subcategory": "hematology", "annotation_reason": "Explicit age 15, VTE"}
+{"question": "Diabetes insipidus in 11-year-old: desmopressin", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 11, DI"}
+{"question": "Iron deficiency anemia in 2-year-old: treatment", "category": "other_medical_pediatric", "subcategory": "hematology", "annotation_reason": "Explicit age 2, iron deficiency"}
+{"question": "Recurrent nephrolithiasis in 50-year-old", "category": "other_medical_adult", "subcategory": "kidney_stones", "annotation_reason": "Explicit age 50, adult recurrent stones"}
+{"question": "Migraine prophylaxis for 35-year-old woman", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 35, adult migraine"}
+{"question": "Seizure disorder in 30-year-old: medication choice", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 30, adult seizures"}
+{"question": "Stroke prevention in 70-year-old with AFib", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 70, elderly stroke prevention"}
+{"question": "Colon cancer screening at 45: new guidelines", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 45, adult colon cancer screening"}
+{"question": "NAFLD in 50-year-old obese: management", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 50, adult NAFLD"}
+{"question": "Pulmonary hypertension in 50-year-old", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 50, adult PH"}
+{"question": "Pancreatitis in 40-year-old: etiology", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 40, adult pancreatitis"}
+{"question": "Statin therapy for primary prevention in 55-year-old", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 55, adult statin"}
+{"question": "Multiple sclerosis in 28-year-old: treatment options", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 28, adult MS"}
+{"question": "Ankylosing spondylitis in 25-year-old male", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 25, adult AS"}
+{"question": "Hepatitis C treatment in 55-year-old", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 55, adult Hep C"}
+{"question": "Cirrhosis management in 65-year-old", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 65, elderly cirrhosis"}
+{"question": "Sleep apnea in 55-year-old obese male", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 55, adult sleep apnea"}
+{"question": "Psoriatic arthritis in 35-year-old", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 35, adult PsA"}
+{"question": "Lupus in 30-year-old woman: monitoring", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 30, adult lupus"}
+{"question": "Palpitations in 30-year-old: workup", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 30, adult palpitations"}
+{"question": "GERD management in 55-year-old", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 55, adult GERD"}
+{"question": "Osteoporosis screening in 65-year-old woman", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 65, elderly osteoporosis"}
+{"question": "Biologic DMARD for 55-year-old RA", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 55, adult biologic DMARD"}
+{"question": "Asthma diagnosis in 40-year-old adult", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 40, adult asthma"}
+{"question": "Osteoarthritis knee in 65-year-old: injection options", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 65, elderly OA knee"}
+{"question": "Anticoagulation for AFib in 75-year-old", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 75, elderly anticoagulation"}
+{"question": "Pulmonary embolism in 50-year-old post-surgery", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 50, adult PE"}
+{"question": "Parkinson disease diagnosis in 60-year-old", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 60, adult Parkinson"}
+{"question": "Dementia evaluation in 80-year-old", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 80, elderly dementia"}
+{"question": "Polymyalgia rheumatica in 70-year-old", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 70, elderly PMR"}
+{"question": "IBS diagnosis in 30-year-old", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 30, adult IBS"}
+{"question": "Diverticulitis in 60-year-old: antibiotics", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 60, adult diverticulitis"}
+{"question": "Trigeminal neuralgia in 55-year-old", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 55, adult trigeminal neuralgia"}
+{"question": "Memory loss in 65-year-old: workup", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 65, elderly memory"}
+{"question": "Interstitial lung disease in 60-year-old", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 60, adult ILD"}
+{"question": "Essential tremor in 45-year-old: treatment", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 45, adult tremor"}
+{"question": "Pneumonia in 75-year-old: CURB-65", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 75, elderly pneumonia"}
+{"question": "Chest pain evaluation in 45-year-old woman", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 45, adult chest pain"}
+{"question": "COPD inhaler selection for 68-year-old", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 68, elderly COPD inhaler"}
+{"question": "Bronchiectasis management in 45-year-old", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 45, adult bronchiectasis"}
+{"question": "Fibromyalgia in 40-year-old: diagnosis", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 40, adult fibromyalgia"}
+{"question": "Heart failure meds in 80-year-old with renal impairment", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 80, elderly HF meds"}
+{"question": "Kidney stone passage in 45-year-old male", "category": "other_medical_adult", "subcategory": "kidney_stones", "annotation_reason": "Explicit age 45, adult kidney stone"}
+{"question": "Lung cancer screening in 65-year-old smoker", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 65, elderly lung cancer"}
+{"question": "Atrial fibrillation management in 65-year-old", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 65, adult cardiac"}
+{"question": "Gout flare in 50-year-old male: treatment", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 50, adult gout"}
+{"question": "Hypertension guidelines for 50-year-old", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 50, adult hypertension"}
+{"question": "Lipid management in 40-year-old with family history", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 40, adult lipids"}
+{"question": "Heart failure with reduced EF in 70-year-old", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 70, adult heart failure"}
+{"question": "Coronary artery disease in 60-year-old: stress test", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 60, adult CAD"}
+{"question": "Peripheral neuropathy in 50-year-old: not diabetic", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 50, adult neuropathy non-diabetic"}
+{"question": "Rheumatoid arthritis diagnosis in 40-year-old", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 40, adult RA"}
+{"question": "Panic disorder in 35-year-old: exposure therapy", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 35, panic"}
+{"question": "Melanoma in 50-year-old: sentinel node biopsy", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 50, melanoma"}
+{"question": "HIV PrEP for 30-year-old: guidelines", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 30, HIV PrEP"}
+{"question": "Osteoporosis in 65-year-old man: secondary causes", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 65, osteoporosis male"}
+{"question": "OCD in 30-year-old: ERP therapy", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 30, OCD"}
+{"question": "Hepatitis C genotype 1 in 50-year-old: DAA", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 50, Hep C"}
+{"question": "Skin cancer screening in 50-year-old: dermatoscope", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 50, skin cancer screening"}
+{"question": "PTSD in 35-year-old veteran: EMDR", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 35, PTSD"}
+{"question": "Lyme disease in 40-year-old: doxycycline", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 40, Lyme"}
+{"question": "Cushing syndrome in 35-year-old: screening", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 35, Cushing"}
+{"question": "Influenza in 65-year-old: antiviral timing", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 65, influenza"}
+{"question": "Thyroid cancer in 40-year-old: RAI therapy", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 40, thyroid cancer"}
+{"question": "Rosacea in 45-year-old: topical ivermectin", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 45, rosacea"}
+{"question": "Hidradenitis suppurativa in 28-year-old: adalimumab", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 28, HS"}
+{"question": "Urticaria in 30-year-old: omalizumab", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 30, urticaria"}
+{"question": "Vitamin D deficiency in 50-year-old: dosing", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 50, vitamin D"}
+{"question": "COVID long haul in 45-year-old: management", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 45, long COVID"}
+{"question": "Pheochromocytoma in 45-year-old: alpha blockade", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 45, pheo"}
+{"question": "Acne in 25-year-old: isotretinoin monitoring", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 25, acne"}
+{"question": "Psoriasis in 35-year-old: biologic selection", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 35, psoriasis"}
+{"question": "Generalized anxiety in 40-year-old: CBT vs meds", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 40, GAD"}
+{"question": "Schizophrenia in 25-year-old: antipsychotic choice", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 25, schizophrenia"}
+{"question": "Alcohol use disorder in 40-year-old: naltrexone", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 40, AUD"}
+{"question": "Shingles vaccine in 55-year-old: Shingrix", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 55, shingles"}
+{"question": "Pneumococcal vaccine in 70-year-old: PCV20", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 70, pneumococcal"}
+{"question": "Thyroid nodule 3cm in 45-year-old: FNA or follow", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 45, thyroid nodule"}
+{"question": "Primary hyperparathyroidism in 60-year-old", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 60, hyperparathyroidism"}
+{"question": "Major depression in 35-year-old: SSRI selection", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 35, depression"}
+{"question": "Vitiligo in 35-year-old: phototherapy", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 35, vitiligo"}
+{"question": "Insomnia in 45-year-old: CBT-I", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 45, insomnia"}
+{"question": "Basal cell carcinoma in 60-year-old: Mohs", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 60, BCC"}
+{"question": "Adrenal incidentaloma in 55-year-old: workup", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 55, adrenal incidentaloma"}
+{"question": "Male hypogonadism in 40-year-old: testosterone", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 40, hypogonadism"}
+{"question": "Hyperthyroidism in 30-year-old: Graves vs toxic nodule", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 30, hyperthyroidism"}
+{"question": "Acromegaly in 40-year-old: surgery vs medical", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 40, acromegaly"}
+{"question": "Bipolar disorder in 28-year-old: mood stabilizer", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 28, bipolar"}
+{"question": "ADHD in 30-year-old adult: diagnosis", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 30, adult ADHD"}
+{"question": "Menopause management in 52-year-old: HRT", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 52, menopause HRT"}
+{"question": "Prolactinoma in 30-year-old: cabergoline", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 30, prolactinoma"}
+{"question": "Travel medicine for 40-year-old: malaria prophylaxis", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 40, travel malaria"}
+{"question": "Atopic dermatitis in 40-year-old: dupilumab", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 40, eczema"}
+{"question": "PCOS in 28-year-old: metformin vs OCP", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 28, PCOS"}
+{"question": "TB latent infection in 35-year-old: treatment", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 35, latent TB"}
+{"question": "Subclinical hypothyroidism in 50-year-old: treat?", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 50, subclinical hypo"}
+{"question": "Hepatitis B in 40-year-old: antiviral therapy", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 40, Hep B"}
+{"question": "Skin complications adult T1D: necrobiosis lipoidica", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Adult explicit, skin"}
+{"question": "Parent with T1D: how to not project anxiety", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T1D = adult"}
+{"question": "Dawn phenomenon management in 50-year-old T1D", "category": "adult_diabetes", "subcategory": "t1d_treatment", "annotation_reason": "Explicit age 50, adult dawn phenomenon"}
+{"question": "HbA1c 6.8% in 55-year-old: T2D diagnosis?", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 55, adult T2D diagnosis"}
+{"question": "Mom with T1D pregnant again: A1c targets?", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Mom explicit, own T1D = adult"}
+{"question": "Sarcopenia and T2D in 70-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 70, sarcopenia adult"}
+{"question": "Prediabetes progression to T2D in 50-year-olds", "category": "adult_diabetes", "subcategory": "t2d_prevention", "annotation_reason": "Explicit age 50, adult prediabetes"}
+{"question": "T1D pregnancy at 38: high-risk OB management", "category": "adult_diabetes", "subcategory": "t1d_pregnancy", "annotation_reason": "Explicit age 38, adult pregnancy"}
+{"question": "Cognitive function in 55-year-old with longstanding T1D", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 55, cognitive"}
+{"question": "Wound care for diabetic ulcer in 70-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 70, wound care adult"}
+{"question": "Dad T1D since childhood: genetic counseling for kids", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Dad explicit, own T1D = adult"}
+{"question": "Semaglutide dosing for 55-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 55, semaglutide adult"}
+{"question": "Food insecurity and T2D management in 40-year-old", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Explicit age 40, food insecurity adult"}
+{"question": "Latent autoimmune diabetes in adults: diagnostic criteria", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Adults explicit, LADA"}
+{"question": "Diabetic retinopathy screening interval for 50-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 50, adult retinopathy"}
+{"question": "Oral semaglutide for 45-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 45, oral semaglutide adult"}
+{"question": "Fructosamine vs HbA1c in 60-year-old with anemia", "category": "adult_diabetes", "subcategory": "t2d_monitoring", "annotation_reason": "Explicit age 60, fructosamine adult"}
+{"question": "My child has T1D, what's MY T2D risk?", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent asking own risk = adult"}
+{"question": "Amputation prevention in 65-year-old diabetic", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 65, amputation adult"}
+{"question": "Low carb diet for 45-year-old T2D: safety", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 45, low carb adult"}
+{"question": "LADA vs T2D in 50-year-old: how to differentiate", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Explicit age 50, LADA differential"}
+{"question": "Polypharmacy in 78-year-old with T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 78, polypharmacy adult"}
+{"question": "Dating with T1D at 28: when to disclose", "category": "adult_diabetes", "subcategory": "t1d_psychosocial", "annotation_reason": "Explicit age 28, adult dating"}
+{"question": "Carpal tunnel syndrome in 40-year-old T1D", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 40, carpal tunnel"}
+{"question": "DKA in adult T2D: presentation and management", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Adult explicit, DKA"}
+{"question": "I have T2D and my kid has T1D: different diets?", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T2D = adult"}
+{"question": "Health literacy and T2D outcomes in 55-year-old", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Explicit age 55, health literacy adult"}
+{"question": "Inhaled insulin Afrezza for 35-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 35, Afrezza adult"}
+{"question": "Insulin pump for me (mom, 38) vs MDI for my kid", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Mom age 38 explicit, own diabetes"}
+{"question": "Hypoglycemia risk with sulfonylureas in 70-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 70, elderly hypoglycemia"}
+{"question": "Deintensification of T2D therapy in 80-year-old", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 80, elderly deintensification"}
+{"question": "As a diabetic parent, can I breastfeed with T2D meds?", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T2D = adult"}
+{"question": "T2D medication adjustment for 65-year-old renal impairment", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 65, elderly renal"}
+{"question": "Insulin pump start at 35: criteria and outcomes", "category": "adult_diabetes", "subcategory": "t1d_treatment", "annotation_reason": "Explicit age 35, pump start"}
+{"question": "Glycemic variability metrics for 50-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_monitoring", "annotation_reason": "Explicit age 50, glycemic variability"}
+{"question": "HbA1c variability in 55-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_monitoring", "annotation_reason": "Explicit age 55, HbA1c variability"}
+{"question": "T2D diagnosis at 25: early onset concerns", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 25, early onset adult"}
+{"question": "Concentrated insulin U500 for 50-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 50, U500 adult"}
+{"question": "New-onset T1D in 42-year-old: honeymoon phase?", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Explicit age 42, adult T1D"}
+{"question": "OGTT vs HbA1c for T2D diagnosis in elderly", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Elderly explicit, diagnostic comparison"}
+{"question": "My T2D management while caring for T1D child", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T2D = adult"}
+{"question": "Trigger finger in 45-year-old T1D", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 45, trigger finger"}
+{"question": "CGM for T2D not on insulin 45-year-old", "category": "adult_diabetes", "subcategory": "t2d_monitoring", "annotation_reason": "Explicit age 45, CGM adult"}
+{"question": "Erectile dysfunction in 45-year-old male T1D", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 45, adult complication"}
+{"question": "Nephropathy progression in 60-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 60, adult nephropathy"}
+{"question": "Adult T1D and alcohol: safe drinking guide", "category": "adult_diabetes", "subcategory": "t1d_lifestyle", "annotation_reason": "Adult explicit, alcohol"}
+{"question": "CGM accuracy in adults over 50 with T1D", "category": "adult_diabetes", "subcategory": "t1d_monitoring", "annotation_reason": "Explicit age 50+, adult CGM"}
+{"question": "Combination therapy T2D 50-year-old: metformin + SU", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 50, adult combination"}
+{"question": "Mom with T1D: managing pump during labor", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Mom explicit, own T1D = adult"}
+{"question": "Closed-loop systems for adults 30-60 with T1D", "category": "adult_diabetes", "subcategory": "t1d_treatment", "annotation_reason": "Adult age range explicit, AID"}
+{"question": "C-peptide interpretation in 30-year-old new T1D", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Explicit age 30, C-peptide"}
+{"question": "Pregnancy planning for 28-year-old woman with T1D", "category": "adult_diabetes", "subcategory": "t1d_pregnancy", "annotation_reason": "Explicit age 28, adult pregnancy"}
+{"question": "Dad T2D on insulin: teaching kid about diabetes", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Dad explicit, own T2D = adult"}
+{"question": "Mom with T2D: gestational diabetes recurrence risk", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Mom explicit, own T2D = adult"}
+{"question": "Dual GIP/GLP-1 for 50-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 50, dual agonist adult"}
+{"question": "Adult T1D misdiagnosis as T2D: how common", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Adult population explicit, misdiagnosis"}
+{"question": "T2D screening age 45: USPSTF guidelines", "category": "adult_diabetes", "subcategory": "t2d_screening", "annotation_reason": "Explicit age 45, adult screening"}
+{"question": "T1D and career: shift work at 40", "category": "adult_diabetes", "subcategory": "t1d_lifestyle", "annotation_reason": "Explicit age 40, adult shift work"}
+{"question": "Cognitive decline in 70-year-old with longstanding T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 70, elderly cognitive"}
+{"question": "T1D diagnosis at 60: atypical presentation", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Explicit age 60, elderly T1D"}
+{"question": "Diabetic foot risk classification in 60-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 60, foot risk adult"}
+{"question": "Fear of hypoglycemia in 50-year-old T2D on insulin", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Explicit age 50, fear hypo adult"}
+{"question": "Frailty index and diabetes in 75-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 75, frailty adult"}
+{"question": "Pregnant with T1D at 35: my A1c targets", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Pregnant at 35 explicit, own T1D = adult"}
+{"question": "T1D and osteoporosis risk in 60-year-old woman", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 60, osteoporosis"}
+{"question": "T2D and cognitive decline in 65-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 65, cognitive adult"}
+{"question": "Fasting glucose 126 in 60-year-old: confirm T2D?", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 60, adult T2D"}
+{"question": "Insulin sensitivity factor calculation for 45-year-old", "category": "adult_diabetes", "subcategory": "t1d_treatment", "annotation_reason": "Explicit age 45, adult ISF"}
+{"question": "Charcot foot in 55-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 55, Charcot adult"}
+{"question": "Dad T1D: genetic risk for my children", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Dad explicit, own T1D = adult"}
+{"question": "Monogenic diabetes MODY in 30-year-old", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 30, MODY adult"}
+{"question": "GAD65 antibody positive at 45: T1D confirmed?", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Explicit age 45, antibody testing"}
+{"question": "Diabetes self-management education for 45-year-old", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Explicit age 45, DSME adult"}
+{"question": "HHS in 75-year-old with T2D: mortality risk", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 75, elderly HHS"}
+{"question": "Depression screening in adults with T2D", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Adults explicit, depression"}
+{"question": "Travel insurance for 32-year-old with T1D", "category": "adult_diabetes", "subcategory": "t1d_lifestyle", "annotation_reason": "Explicit age 32, adult travel"}
+{"question": "GLP-1 RA for weight loss in 45-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 45, adult GLP-1"}
+{"question": "SGLT2 inhibitor in 70-year-old with T2D and CKD", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 70, elderly SGLT2"}
+{"question": "Falls risk in 72-year-old with T2D and neuropathy", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 72, falls adult"}
+{"question": "T1D and hearing loss in 50-year-old", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 50, hearing loss"}
+{"question": "T2D in 35-year-old postpartum woman", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 35, postpartum adult"}
+{"question": "Basal-bolus regimen for 28-year-old T1D", "category": "adult_diabetes", "subcategory": "t1d_treatment", "annotation_reason": "Explicit age 28, adult T1D treatment"}
+{"question": "Frozen shoulder in 50-year-old with T1D", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 50, frozen shoulder"}
+{"question": "DPP-4 inhibitor in 80-year-old with T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 80, elderly DPP-4"}
+{"question": "Exercise management for 30-year-old T1D marathoner", "category": "adult_diabetes", "subcategory": "t1d_lifestyle", "annotation_reason": "Explicit age 30, adult exercise"}
+{"question": "T2D remission with very low calorie diet 40yo", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 40, remission adult"}
+{"question": "Social determinants of health T2D in 35-year-old", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Explicit age 35, SDOH adult"}
+{"question": "Female sexual dysfunction T2D in 45-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 45, FSD adult"}
+{"question": "Basal insulin titration for 55-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 55, adult basal titration"}
+{"question": "T1D burnout in 35-year-old working professional", "category": "adult_diabetes", "subcategory": "t1d_psychosocial", "annotation_reason": "Explicit age 35, adult burnout"}
+{"question": "Menopause and T1D insulin needs at 52", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 52, menopause"}
+{"question": "Metabolic syndrome criteria for 45-year-old male", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 45, adult metabolic syndrome"}
+{"question": "I'm a mom with T2D, what's my HbA1c target?", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T2D = adult"}
+{"question": "Cardiovascular risk reduction in 55-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 55, adult CVD"}
+{"question": "Tirzepatide for 40-year-old T2D obesity", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 40, tirzepatide adult"}
+{"question": "Frailty and diabetes management in 85-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 85, frailty"}
+{"question": "Time in range targets for adult T2D on metformin", "category": "adult_diabetes", "subcategory": "t2d_monitoring", "annotation_reason": "Adult explicit, TIR"}
+{"question": "Adult T1D dental health: periodontal disease", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Adult explicit, dental"}
+{"question": "Parent with T1D: nighttime CGM alerts for me", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T1D = adult"}
+{"question": "Pancreatic diabetes in 55-year-old post-Whipple", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 55, pancreatic diabetes"}
+{"question": "T2D risk factors in 40-year-old with family history", "category": "adult_diabetes", "subcategory": "t2d_risk", "annotation_reason": "Explicit age 40, adult risk factors"}
+{"question": "Adult T1D support group for 30-year-olds", "category": "adult_diabetes", "subcategory": "t1d_psychosocial", "annotation_reason": "Explicit age 30, adult support group"}
+{"question": "Adult T1D retinopathy screening intervals", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Adult explicit, retinopathy"}
+{"question": "Autonomic neuropathy in 45-year-old T1D", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 45, autonomic neuropathy"}
+{"question": "Foot ulcer management in 70-year-old diabetic", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 70, elderly foot ulcer"}
+{"question": "Smart insulin pen for 40-year-old T2D data sharing", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 40, smart pen adult"}
+{"question": "Adult T1D incidence rising in 20s and 30s", "category": "adult_diabetes", "subcategory": "t1d_epidemiology", "annotation_reason": "Adult ages explicit, epidemiology"}
+{"question": "Diabetes prevention program for 55-year-old with prediabetes", "category": "adult_diabetes", "subcategory": "t2d_prevention", "annotation_reason": "Explicit age 55, adult prevention"}
+{"question": "Insulin degludec vs glargine U300 for 60yo T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 60, insulin comparison adult"}
+{"question": "Breastfeeding with T2D medications: mom 32", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Mom age 32 explicit, own T2D = adult"}
+{"question": "Metformin first-line for 65-year-old with T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 65, elderly metformin"}
+{"question": "Lean T2D in 35-year-old Asian patient", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 35, adult lean T2D"}
+{"question": "Steroid-induced diabetes in 50-year-old", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 50, steroid-induced"}
+{"question": "Adult-onset T1D genetic risk factors", "category": "adult_diabetes", "subcategory": "t1d_genetics", "annotation_reason": "Adult-onset explicit, genetics"}
+{"question": "Peripheral neuropathy treatment in 65-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 65, elderly neuropathy"}
+{"question": "T2D remission after bariatric surgery at 50", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 50, adult bariatric"}
+{"question": "Nephropathy progression adult T1D 20-year duration", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Adult explicit, nephropathy"}
+{"question": "My insulin pump vs my child's: different tech", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own pump = adult"}
+{"question": "Cystic fibrosis related diabetes in 28-year-old", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 28, CFRD adult"}
+{"question": "COPD exacerbation management in 70-year-old", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 70, adult COPD"}
+{"question": "65-year-old T2D: deintensification HbA1c 8%", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 65, elderly deintensification"}
+{"question": "HbA1c target 8% for 75-year-old with T2D", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 75, elderly HbA1c target"}
+{"question": "42-year-old T2D: GLP-1 for weight loss", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 42, adult GLP-1 weight"}
+{"question": "Bariatric surgery T2D remission 35-year-old", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 35, bariatric adult"}
+{"question": "Erectile dysfunction T2D in 50-year-old male", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 50, ED adult"}
+{"question": "General knowledge: insulin is a peptide hormone", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Peptide hormone = general"}
+{"question": "Hypoglycemia unawareness in 65-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 65, hypo unawareness adult"}
+{"question": "74-year-old T2D: continuous glucose monitor", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 74, CGM elderly"}
+{"question": "Cycling Tour de France diabetic team Novo Nordisk", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Tour de France team = sports"}
+{"question": "41-year-old T1D: pregnancy planning preconception", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 41, adult preconception"}
+{"question": "73-year-old T1D: hypoglycemia unawareness risk", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 73, elderly hypo unawareness"}
+{"question": "Chromium picolinate 1000mcg IR 45-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, chromium adult"}
+{"question": "79-year-old T2D: comfort-focused targets", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 79, elderly comfort targets"}
+{"question": "49-year-old T2D: cardiac autonomic neuropathy", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 49, adult CAN"}
+{"question": "Low glycemic index diet IR 35-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, low GI adult"}
+{"question": "89-year-old T2D: palliative diabetes care", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 89, palliative diabetes"}
+{"question": "62-year-old T2D: aspirin primary prevention", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 62, adult aspirin primary"}
+{"question": "52-year-old T2D: cognitive assessment MoCA", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 52, adult MoCA"}
+{"question": "GLP-1 for weight loss insulin resistance 30yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 30, GLP-1 weight adult"}
+{"question": "64-year-old T2D: insulin degludec vs glargine", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 64, adult insulin comparison"}
+{"question": "HbA1c 7.5% for 70-year-old: appropriate", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 70, A1c 7.5% elderly"}
+{"question": "27-year-old T2D: metformin first-line dosing", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 27, adult T2D metformin"}
+{"question": "Skin tags axilla 45-year-old: insulin resistance", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, skin tags adult"}
+{"question": "88-year-old T1D: caregiver burden support", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 88, caregiver support"}
+{"question": "54-year-old T2D: periodontal referral", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 54, adult periodontal"}
+{"question": "53-year-old T1D: hearing loss annual screen", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 53, adult hearing screen"}
+{"question": "Glycemic goals for 75-year-old with cognitive impairment", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 75, cognitive impairment elderly"}
+{"question": "36-year-old T1D since 32: CGM alarm settings", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 36, T1D since 32 adult"}
+{"question": "32-year-old T1D: insulin pump start criteria", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 32, adult pump criteria"}
+{"question": "81-year-old T1D: goals of care discussion", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 81, elderly goals care"}
+{"question": "A1c 8.0% for 75-year-old with comorbidities", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 75, A1c 8% comorbidities"}
+{"question": "10-year-old with ADHD: medication side effects", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 10, ADHD not diabetes"}
+{"question": "12-year-old with hypertension: workup needed", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 12, hypertension not diabetes"}
+{"question": "34-year-old T1D: exercise glucose management", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 34, adult exercise mgmt"}
+{"question": "Mediterranean diet olive oil nuts 50yo IR", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 50, Mediterranean adult"}
+{"question": "46-year-old T1D: neuropathy gabapentin", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 46, adult neuropathy"}
+{"question": "77-year-old T2D: fall risk assessment", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 77, elderly falls"}
+{"question": "Inositol myo-d-chiro 2:1 ratio 28-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 28, inositol adult"}
+{"question": "Ketogenic diet <50g carb IR 45-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, keto adult"}
+{"question": "10-year-old tic disorder: habit reversal training", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 10, tics not diabetes"}
+{"question": "53-year-old T1D: hearing loss screening", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 53, adult hearing"}
+{"question": "11-year-old Kussmaul breathing: salicylate tox", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 11, Kussmaul not DKA"}
+{"question": "Prothrombotic state PAI-1 40-year-old: IR", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, PAI-1 adult"}
+{"question": "51-year-old T1D: osteoporosis risk DEXA", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 51, adult osteoporosis"}
+{"question": "19-year-old with new T2D diagnosis: metformin start", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 19, new T2D, no transition context"}
+{"question": "Fasting insulin 25 in 35-year-old: interpretation", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, fasting insulin adult"}
+{"question": "HbA1c target for 70-year-old with CKD T2D", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 70, elderly CKD"}
+{"question": "8-year-old sleep walking: safety measures", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, sleep walking not diabetes"}
+{"question": "Low glycemic index diet insulin resistance 35yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, low GI adult"}
+{"question": "10-year-old night terrors: reassurance", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 10, night terrors not diabetes"}
+{"question": "84-year-old T2D: comfort-focused diabetes care", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 84, comfort care"}
+{"question": "63-year-old T1D: aspirin primary prevention", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 63, adult aspirin"}
+{"question": "Exercise insulin sensitivity improvement 45yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, exercise adult"}
+{"question": "A1c 7% for 65-year-old: hypoglycemia risk", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 65, elderly hypoglycemia"}
+{"question": "82-year-old T2D: hospice glucose monitoring", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 82, hospice monitoring"}
+{"question": "11-year-old ADHD combined type: school IEP", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 11, ADHD not diabetes"}
+{"question": "12-year-old eating disorder: FBT family therapy", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 12, eating disorder not diabetes"}
+{"question": "74-year-old T2D: fall prevention program", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 74, elderly fall prevention"}
+{"question": "83-year-old T1D: family decision making", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 83, family decisions"}
+{"question": "Deintensification HbA1c 8.5% for 85-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 85, elderly deintensification"}
+{"question": "Resistance training insulin sensitivity 45-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, resistance training adult"}
+{"question": "Metformin for insulin resistance in 40-year-old non-diabetic", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, metformin non-diabetic adult"}
+{"question": "34-year-old T2D newly diagnosed: education", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 34, new T2D adult"}
+{"question": "A1c 9% for 85-year-old dementia: comfort", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 85, dementia comfort elderly"}
+{"question": "69-year-old T2D: insulin pen vs vial cost", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 69, pen vs vial cost"}
+{"question": "78-year-old T1D: glycemic goals 8-8.5%", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 78, elderly goals 8-8.5"}
+{"question": "37-year-old T2D on metformin: adding SU", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 37, adult T2D SU"}
+{"question": "7-year-old sensory processing: OT referral", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 7, sensory not diabetes"}
+{"question": "Heart failure EF 35%: A1c 7.5% for 72yo", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 72, HF elderly"}
+{"question": "87-year-old T2D: hospice diabetes care", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 87, hospice"}
+{"question": "6-year-old recurrent UTI: imaging workup", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 6, UTI not diabetes"}
+{"question": "42-year-old T2D: diabetic kidney disease staging", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 42, adult DKD staging"}
+{"question": "Shift work insulin resistance 35-year-old nurse", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, shift work adult"}
+{"question": "31-year-old T2D: adding GLP-1 to metformin", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 31, adult GLP-1 add-on"}
+{"question": "11-year-old with IBS: low FODMAP diet", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 11, IBS not diabetes"}
+{"question": "A1c 9% for 85-year-old with multiple comorbidities", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 85, A1c 9% elderly"}
+{"question": "79-year-old T2D: deprescribing diabetes meds", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 79, elderly deprescribing"}
+{"question": "Visceral fat insulin resistance 50-year-old male", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 50, visceral fat adult"}
+{"question": "76-year-old T1D: hypoglycemia unawareness", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 76, elderly hypo unawareness"}
+{"question": "33-year-old T2D: SGLT2 for cardio protection", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 33, adult SGLT2 cardio"}
+{"question": "71-year-old T1D: pump Medicare coverage", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 71, pump Medicare"}
+{"question": "Nursing home resident: A1c 8-9% for 85yo", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 85, nursing home elderly"}
+{"question": "HbA1c monitoring frequency 75-year-old T2D", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 75, elderly monitoring"}
+{"question": "Pioglitazone insulin sensitization 40-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, pioglitazone adult"}
+{"question": "HbA1c 8.2% for 75-year-old: avoid hypoglycemia", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 75, avoid hypo elderly"}
+{"question": "29-year-old diabetic: job disclosure", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 29, job disclosure adult"}
+{"question": "29-year-old T1D: CGM alarm thresholds", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 29, adult CGM alarms"}
+{"question": "Fall history: relax A1c to 8% for 75-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 75, falls elderly"}
+{"question": "31-year-old T1D: continuous glucose monitor", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 31, CGM adult"}
+{"question": "Sleep 7 hours insulin sensitivity 30-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 30, sleep adult"}
+{"question": "28-year-old T2D: weight loss medications", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 28, weight loss adult"}
+{"question": "86-year-old T1D: nursing home diabetes management", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 86, nursing home"}
+{"question": "HbA1c 7.5% for 72-year-old with CKD stage 3", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 72, CKD elderly"}
+{"question": "8-year-old conduct disorder: multisystemic therapy", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, conduct disorder not diabetes"}
+{"question": "72-year-old T2D: CGM for elderly Medicare", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 72, elderly CGM Medicare"}
+{"question": "Acanthosis nigricans in 42-year-old: insulin resistance", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 42, acanthosis adult"}
+{"question": "HIIT insulin resistance improvement 30-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 30, HIIT adult"}
+{"question": "20-year-old T1D diagnosed at 18: basal insulin", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 20, diagnosed at 18 = adult onset"}
+{"question": "Berberine vs metformin insulin resistance 35yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, berberine adult"}
+{"question": "52-year-old T2D: cognitive screening MoCA", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 52, adult cognitive"}
+{"question": "38-year-old T1D: insulin pump upgrade", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 38, adult pump"}
+{"question": "38-year-old T1D: hybrid closed loop systems", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 38, adult HCL"}
+{"question": "14-year-old with Crohn's: biologic therapy", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 14, Crohn's not diabetes"}
+{"question": "88-year-old T1D: family caregiver burden", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 88, caregiver burden"}
+{"question": "9-year-old altered mental status: encephalitis", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 9, AMS not diabetes"}
+{"question": "Chromium picolinate insulin resistance 45-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, chromium adult"}
+{"question": "27-year-old T1D: insurance marketplace", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 27, insurance adult"}
+{"question": "Frailty index 0.3: A1c target 8% for 75yo", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 75, frailty index elderly"}
+{"question": "36-year-old T1D: sick day ketone rules", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 36, adult sick day"}
+{"question": "73-year-old T1D: test strip coverage limit", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 73, test strip limit"}
+{"question": "46-year-old T1D: gastroparesis management", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 46, adult gastroparesis"}
+{"question": "56-year-old T1D: adhesive capsulitis injection", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 56, adult frozen shoulder injection"}
+{"question": "Pioglitazone for insulin resistance in 55-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 55, pioglitazone adult"}
+{"question": "77-year-old T2D: deprescribing sulfonylurea", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 77, elderly deprescribing SU"}
+{"question": "6-year-old selective mutism: treatment", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 6, selective mutism not diabetes"}
+{"question": "Shift work circadian disruption IR 28yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 28, shift work adult"}
+{"question": "81-year-old T1D: nursing home sliding scale", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 81, nursing home sliding scale"}
+{"question": "Berberine supplement for insulin resistance 40yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, supplement adult"}
+{"question": "11-year-old blurred vision: refractive error", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 11, vision not diabetes"}
+{"question": "80-year-old diabetic: falls prevention", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 80, elderly falls"}
+{"question": "58-year-old T1D: sleep study for apnea", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 58, adult sleep study"}
+{"question": "57-year-old T2D: trigger finger injection", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 57, adult trigger finger"}
+{"question": "69-year-old T2D: glucagon kit coverage", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 69, glucagon coverage"}
+{"question": "Alpha-lipoic acid insulin resistance 50-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 50, ALA adult"}
+{"question": "8-year-old fruity breath: ketotic hypoglycemia", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, ketotic hypoglycemia not DKA"}
+{"question": "SGLT2 for insulin resistance 45-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, SGLT2 IR adult"}
+{"question": "Metformin prevention diabetes 35-year-old prediabetes", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, metformin prevention adult"}
+{"question": "Hypertriglyceridemia 38-year-old: insulin resistance", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 38, hypertriglyceridemia adult"}
+{"question": "My 8-year-old has asthma and wants to play sports", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, asthma not diabetes"}
+{"question": "A1c 9.5% for 85-year-old: comfort care focus", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 85, comfort care elderly"}
+{"question": "5-year-old kidney stones: metabolic evaluation", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 5, kidney stones not diabetes"}
+{"question": "54-year-old T2D: dental periodontal referral", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 54, adult dental"}
+{"question": "8-year-old migraine: preventive treatment options", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, migraine not diabetes"}
+{"question": "9-year-old with thyroid disorder: medication dosing", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 9, thyroid not diabetes"}
+{"question": "12-year-old anxiety disorder: CBT vs medication", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 12, anxiety not diabetes"}
+{"question": "HbA1c 7.5% for 80-year-old: too tight?", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, elderly HbA1c"}
+{"question": "23-year-old T1D: pregnancy planning", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 23, pregnancy adult"}
+{"question": "HbA1c 8.5% for 80-year-old: appropriate target", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, HbA1c 8.5% elderly"}
+{"question": "22-year-old with T2D since 20: GLP-1 options", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 22, T2D since 20 = adult onset"}
+{"question": "Sleep deprivation insulin resistance 30-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 30, sleep deprivation adult"}
+{"question": "Reduce insulin in 85-year-old: weight loss", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 85, reduce insulin elderly"}
+{"question": "44-year-old T2D: neuropathy duloxetine dosing", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 44, adult neuropathy duloxetine"}
+{"question": "45-year-old with LADA: insulin dosing", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 45, LADA = adult"}
+{"question": "Skin tags insulin resistance in 45-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, skin tags adult"}
+{"question": "HbA1c 8% for 80-year-old in assisted living", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, assisted living elderly"}
+{"question": "9-year-old autism level 1: social skills group", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 9, autism not diabetes"}
+{"question": "40-year-old with T2D: how often should I get my feet checked?", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 40, adult foot exam"}
+{"question": "Insulin resistance and fatty liver in 45-year-old woman", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, NAFLD adult"}
+{"question": "HbA1c target 8% for 78-year-old with multiple conditions", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, elderly HbA1c"}
+{"question": "55-year-old T2D: kidney function monitoring schedule", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 55, adult kidney monitoring"}
+{"question": "8-year-old with eczema: topical steroid use", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, eczema not diabetes"}
+{"question": "Insulin resistance in 38-year-old: lifestyle vs medication", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 38, IR adult"}
+{"question": "A1c 7.8% for 75-year-old: is that appropriate?", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 75, elderly A1c interpretation"}
+{"question": "12-year-old with migraine: preventive options", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 12, migraine not diabetes"}
+{"question": "42-year-old T2D: starting GLP-1 for weight loss", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 42, adult GLP-1"}
+{"question": "9-year-old with ADHD: medication appetite effects", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 9, ADHD not diabetes"}
+{"question": "What are the major milestones in the history of insulin discovery?", "category": "non_medical", "subcategory": "history", "annotation_reason": "History of insulin discovery"}
+{"question": "How does insulin work at the molecular level?", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "General knowledge insulin mechanism"}
+{"question": "Famous athletes with type 1 diabetes", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Sports athletes with T1D"}
+{"question": "Diabetes awareness month activities and history", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Awareness month general"}
+{"question": "What is the difference between type 1 and type 2 diabetes?", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "General knowledge T1D vs T2D"}
+{"question": "Insulin pricing trends over the last decade", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Economics insulin pricing"}
+{"question": "How to build a glucose tracking app with React Native", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Programming glucose app"}
+{"question": "Machine learning for diabetes prediction: overview", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "AI/ML diabetes prediction"}
+{"question": "Celebrity diabetes advocates and their stories", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Entertainment celebrity advocates"}
+{"question": "Diabetes in literature and film: accuracy review", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Entertainment media diabetes"}
+{"question": "Statistics: calculating sample size for diabetes trials", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Statistics sample size"}
+{"question": "Nobel Prize winners in diabetes research", "category": "non_medical", "subcategory": "history", "annotation_reason": "History Nobel prizes"}
+{"question": "How to make a diabetes management website accessible", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Programming accessibility"}
+{"question": "Diabetes podcast recommendations for patients", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Entertainment podcasts"}
+{"question": "10-year-old with hypothyroidism: levothyroxine dosing", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 10, pediatric thyroid"}
+{"question": "7-year-old with juvenile idiopathic arthritis: methotrexate monitoring", "category": "other_medical_pediatric", "subcategory": "rheumatology", "annotation_reason": "Explicit age 7, pediatric JIA"}
+{"question": "14-year-old with Crohn's disease: biologic therapy options", "category": "other_medical_pediatric", "subcategory": "gastroenterology", "annotation_reason": "Explicit age 14, pediatric Crohn's"}
+{"question": "5-year-old with epilepsy: seizure medication side effects", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 5, pediatric epilepsy"}
+{"question": "3-year-old with recurrent UTI: imaging evaluation", "category": "other_medical_pediatric", "subcategory": "urology", "annotation_reason": "Explicit age 3, pediatric UTI"}
+{"question": "16-year-old with anxiety disorder: CBT vs medication", "category": "other_medical_pediatric", "subcategory": "psychiatry", "annotation_reason": "Explicit age 16, pediatric anxiety"}
+{"question": "45-year-old with rheumatoid arthritis: biologic selection", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 45, adult RA"}
+{"question": "60-year-old with COPD: inhaler management", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 60, adult COPD"}
+{"question": "55-year-old with hypothyroidism: TSH monitoring", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 55, adult thyroid"}
+{"question": "70-year-old with atrial fibrillation: anticoagulation", "category": "other_medical_adult", "subcategory": "cardiology", "annotation_reason": "Explicit age 70, adult AFib"}
+{"question": "40-year-old with IBD: colonoscopy surveillance", "category": "other_medical_adult", "subcategory": "gastroenterology", "annotation_reason": "Explicit age 40, adult IBD"}
+{"question": "65-year-old with osteoarthritis: pain management", "category": "other_medical_adult", "subcategory": "orthopedics", "annotation_reason": "Explicit age 65, adult OA"}
+{"question": "50-year-old with migraine: preventive treatment options", "category": "other_medical_adult", "subcategory": "neurology", "annotation_reason": "Explicit age 50, adult migraine"}
+{"question": "75-year-old with dementia: care planning", "category": "other_medical_adult", "subcategory": "geriatrics", "annotation_reason": "Explicit age 75, adult dementia"}
+{"question": "35-year-old with new T2D diagnosis: first steps", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 35, new T2D adult"}
+{"question": "50-year-old T2D: metformin not working, what next?", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 50, T2D treatment adult"}
+{"question": "60-year-old T2D: starting basal insulin", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 60, basal insulin adult"}
+{"question": "40-year-old T1D: CGM alarm settings for work", "category": "adult_diabetes", "subcategory": "t1d_monitoring", "annotation_reason": "Explicit age 40, CGM adult"}
+{"question": "55-year-old T2D: SGLT2 for kidney protection", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 55, SGLT2 adult"}
+{"question": "30-year-old T1D: pregnancy planning preconception", "category": "adult_diabetes", "subcategory": "t1d_pregnancy", "annotation_reason": "Explicit age 30, T1D pregnancy adult"}
+{"question": "42-year-old T1D: insulin pump upgrade options", "category": "adult_diabetes", "subcategory": "t1d_technology", "annotation_reason": "Explicit age 42, pump upgrade adult"}
+{"question": "38-year-old T2D: weight loss medication options", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 38, weight loss adult"}
+{"question": "MIPS diabetes quality measures for clinicians", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "MIPS = programming"}
+{"question": "Feline diabetes remission diet: high protein low carb", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat diet = pets"}
+{"question": "Life insurance underwriting for diabetes", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Life insurance = economics"}
+{"question": "Diabetic ketoacidosis in cats: fluid therapy", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat DKA fluids = pets"}
+{"question": "Insulin formulation stability testing ICH guidelines", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Stability testing = pharma business"}
+{"question": "ACCORD trial history: intensive control controversy", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "ACCORD history = history"}
+{"question": "Diabetic cat insulin glargine dosing protocol", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat glargine = pets"}
+{"question": "CGM sensor: enzyme vs fluorescence chemistry", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Sensor chemistry = pharma"}
+{"question": "Diabetic ketoacidosis in cats: emergency treatment", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat DKA = pets"}
+{"question": "Continuous glucose monitoring: from Minimed to Dexcom", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "CGM history = history"}
+{"question": "Insulin pen needle: 4mm vs 5mm vs 6mm", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Needle length = pharma"}
+{"question": "Insulin resistance in horses: equine metabolic syndrome", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Horses EMS = pets"}
+{"question": "Feline diabetes pancreatitis: PLI test", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat pancreatitis = pets"}
+{"question": "UKPDS history: changing T2D care", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "UKPDS history = history"}
+{"question": "Export glucose data CSV PDF from mobile app", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Export CSV PDF = programming"}
+{"question": "Insulin transparency reporting laws by state", "category": "diabetes_adjacent", "subcategory": "politics", "annotation_reason": "Transparency laws = politics"}
+{"question": "Insulin importation from Canada: FDA personal use", "category": "diabetes_adjacent", "subcategory": "politics", "annotation_reason": "Importation = politics"}
+{"question": "Feline diabetes remission rate with glargine", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat glargine remission = pets"}
+{"question": "Canine diabetes: Vetsulin vs ProZinc for dogs", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Dogs diabetes = pets"}
+{"question": "i2b2 diabetes query tool for research", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "i2b2 = programming"}
+{"question": "Artificial pancreas research history 1970s-present", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "Research history = history"}
+{"question": "Home glucose curve cat: stress hyperglycemia", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat stress hyperglycemia = pets"}
+{"question": "Diabetic cat remission rate glargine vs detemir", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat remission = pets"}
+{"question": "Diabetic dog concurrent Cushing's: trilostane", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Dog Cushing's = pets"}
+{"question": "TripleNet diabetes data network", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "TripleNet = programming"}
+{"question": "Feline diabetic remission diet management", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat remission = pets"}
+{"question": "Insulin analogs development timeline", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "Analogs timeline = history"}
+{"question": "Equine metabolic syndrome: oral sugar test", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Horse OST = pets"}
+{"question": "Data visualization charts for glucose trends React", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Data viz charts = programming"}
+{"question": "Cost of diabetes complications vs prevention", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Cost comparison = economics"}
+{"question": "Metformin from Galega officinalis to first-line", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "Metformin history = history"}
+{"question": "Evolution of diabetic ketoacidosis treatment", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "DKA treatment history = history"}
+{"question": "Insulin pump market: Tandem Insulet Medtronic", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Pump market = economics"}
+{"question": "Diabetic dog diet: high fiber vs low carb", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Dog diet = pets"}
+{"question": "Insulin antibody dog: porcine vs human insulin", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Dog insulin antibody = pets"}
+{"question": "Guinea pig diabetes: rare but documented", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Guinea pig diabetes = pets"}
+{"question": "Discovery of glucagon: Unger and colleagues", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "Glucagon discovery = history"}
+{"question": "History of diabetes research: from antiquity to insulin", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "History of research = not clinical"}
+{"question": "Push notifications for glucose alerts mobile app", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Push notifications = programming"}
+{"question": "Feline diabetic neuropathy methylcobalamin", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat neuropathy B12 = pets"}
+{"question": "Laminitis prevention EMS horse: cryotherapy", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Horse laminitis prevention = pets"}
+{"question": "History of glucose monitoring: urine to CGM", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "Technology history = history"}
+{"question": "History of insulin pumps: from backpack to patch", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "Pump history = history"}
+{"question": "Diabetes in cats: insulin dosing for feline", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cats diabetes = pets not human"}
+{"question": "Discovery of metformin: from goat's rue to first-line", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "Drug discovery history = history"}
+{"question": "Share glucose reports with doctor from app", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Share reports = programming"}
+{"question": "Insulin degludec: ultra-long action mechanism", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Mechanism = pharma"}
+{"question": "Home blood glucose curves for diabetic cat", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat glucose curves = pets"}
+{"question": "History of sulfonylureas: from carbamides to glimepiride", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "Sulfonylurea history = history"}
+{"question": "ADVANCE trial history: T2D vascular outcomes", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "ADVANCE history = history"}
+{"question": "Diabetes absenteeism presenteeism cost estimates", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Absenteeism costs = economics"}
+{"question": "State insulin copay cap laws: Colorado Maine", "category": "diabetes_adjacent", "subcategory": "politics", "annotation_reason": "State copay cap = politics"}
+{"question": "Cost of insulin in the US vs other countries", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Economics insulin cost"}
+{"question": "Diabetes tracking apps comparison: features and reviews", "category": "diabetes_adjacent", "subcategory": "app_review", "annotation_reason": "App review diabetes tracking"}
+{"question": "Can dogs get diabetes? Veterinary diabetes basics", "category": "diabetes_adjacent", "subcategory": "veterinary", "annotation_reason": "Veterinary diabetes in pets"}
+{"question": "Insurance prior authorization process for CGM", "category": "diabetes_adjacent", "subcategory": "insurance", "annotation_reason": "Insurance prior auth CGM"}
+{"question": "How to read a continuous glucose monitor report", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "Education CGM report"}
+{"question": "Traveling with insulin: TSA guidelines and tips", "category": "diabetes_adjacent", "subcategory": "travel", "annotation_reason": "Travel TSA insulin"}
+{"question": "Diabetes support groups online: how to find them", "category": "diabetes_adjacent", "subcategory": "support", "annotation_reason": "Support groups online"}
+{"question": "Insulin pump manufacturers comparison: features", "category": "diabetes_adjacent", "subcategory": "device_comparison", "annotation_reason": "Device comparison pumps"}
+{"question": "How to write a novel about a character with diabetes", "category": "non_medical", "subcategory": "creative_writing", "annotation_reason": "Creative writing about diabetes"}
+{"question": "Diabetes memoir book recommendations", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Book recommendations"}
+{"question": "Best diabetes documentaries to watch", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Documentary recommendations"}
+{"question": "Diabetes joke: why did the insulin cross the road", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Humor/joke"}
+{"question": "Diabetes tattoo design ideas", "category": "non_medical", "subcategory": "lifestyle", "annotation_reason": "Tattoo/lifestyle"}
+{"question": "How to explain diabetes to a 5-year-old sibling", "category": "non_medical", "subcategory": "education", "annotation_reason": "Explaining diabetes to child"}
+{"question": "Diabetes awareness ribbon color meaning", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Awareness symbol"}
+{"question": "Famous historical figures who had diabetes", "category": "non_medical", "subcategory": "history", "annotation_reason": "Historical figures with diabetes"}
+{"question": "Diabetes-themed Halloween costume ideas", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Costume ideas"}
+{"question": "Can I donate blood if I have diabetes", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Blood donation eligibility"}
+{"question": "Diabetes emoji: is there one", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Emoji question"}
+{"question": "Diabetes crossword puzzle clues", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Puzzle/entertainment"}
+{"question": "How to start a diabetes blog", "category": "non_medical", "subcategory": "creative_writing", "annotation_reason": "Blogging advice"}
+{"question": "Diabetes podcast for newly diagnosed teens", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Podcast recommendation"}
+{"question": "Diabetes cookbook for picky eaters", "category": "non_medical", "subcategory": "lifestyle", "annotation_reason": "Cookbook recommendation"}
+{"question": "Diabetes and travel: TSA rules for insulin", "category": "non_medical", "subcategory": "travel", "annotation_reason": "Travel rules"}
+{"question": "Diabetes medical alert bracelet styles", "category": "non_medical", "subcategory": "lifestyle", "annotation_reason": "Medical jewelry"}
+{"question": "How to talk to friends about my diabetes", "category": "non_medical", "subcategory": "psychosocial", "annotation_reason": "Social communication"}
+{"question": "Diabetes summer camp packing list", "category": "non_medical", "subcategory": "lifestyle", "annotation_reason": "Camp packing"}
+{"question": "Diabetes scholarship opportunities for college", "category": "non_medical", "subcategory": "education", "annotation_reason": "Scholarship info"}
+{"question": "Diabetes and dating: when to tell someone", "category": "non_medical", "subcategory": "psychosocial", "annotation_reason": "Dating advice"}
+{"question": "Diabetes and driving license rules by state", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Driving regulations"}
+{"question": "Can people with diabetes join the military", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Military eligibility"}
+{"question": "Diabetes and pregnancy: what partners should know", "category": "non_medical", "subcategory": "education", "annotation_reason": "Partner education"}
+{"question": "Diabetes-friendly snack ideas for road trips", "category": "non_medical", "subcategory": "lifestyle", "annotation_reason": "Snack ideas"}
+{"question": "How to organize diabetes supplies at home", "category": "non_medical", "subcategory": "lifestyle", "annotation_reason": "Home organization"}
+{"question": "Diabetes and alcohol: safe drinking guide", "category": "non_medical", "subcategory": "lifestyle", "annotation_reason": "Alcohol guide"}
+{"question": "Diabetes and exercise: preventing lows during sports", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Sports/exercise"}
+{"question": "Diabetes technology: pump vs pen pros and cons", "category": "non_medical", "subcategory": "device_comparison", "annotation_reason": "Device comparison"}
+{"question": "Diabetes and mental health: finding a therapist", "category": "non_medical", "subcategory": "psychosocial", "annotation_reason": "Mental health resources"}
+{"question": "Diabetes burnout: how to cope", "category": "non_medical", "subcategory": "psychosocial", "annotation_reason": "Burnout coping"}
+{"question": "Diabetes and sleep: why blood sugar drops at night", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Sleep physiology"}
+{"question": "Diabetes and stress: how cortisol affects blood sugar", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Stress physiology"}
+{"question": "Diabetes and menstrual cycle: pattern changes", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Menstrual cycle effects"}
+{"question": "Diabetes and sick day rules: what to do", "category": "non_medical", "subcategory": "education", "annotation_reason": "Sick day education"}
+{"question": "Diabetes and tattoos: healing concerns", "category": "non_medical", "subcategory": "lifestyle", "annotation_reason": "Tattoo healing"}
+{"question": "Diabetes and piercings: infection risk", "category": "non_medical", "subcategory": "lifestyle", "annotation_reason": "Piercing risk"}
+{"question": "Diabetes and hot tubs: blood sugar effects", "category": "non_medical", "subcategory": "lifestyle", "annotation_reason": "Hot tub effects"}
+{"question": "Diabetes and altitude: hiking with insulin", "category": "non_medical", "subcategory": "travel", "annotation_reason": "Altitude effects"}
+{"question": "Diabetes and scuba diving: is it safe", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Scuba diving safety"}
+{"question": "Diabetes and skydiving: adrenaline and blood sugar", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Skydiving effects"}
+{"question": "Diabetes and marathon training: fueling strategy", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Marathon nutrition"}
+{"question": "Diabetes and CrossFit: managing blood sugar during WODs", "category": "non_medical", "subcategory": "sports", "annotation_reason": "CrossFit management"}
+{"question": "Diabetes and yoga: poses for blood sugar control", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Yoga benefits"}
+{"question": "Diabetes and swimming: keeping pump dry", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Swimming with devices"}
+{"question": "Diabetes and winter sports: cold weather insulin", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Cold weather management"}
+{"question": "Diabetes and team sports: telling coaches and teammates", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Team sports communication"}
+{"question": "Diabetes and weight lifting: insulin adjustments", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Weight lifting management"}
+{"question": "Diabetes and hiking: emergency supplies checklist", "category": "non_medical", "subcategory": "travel", "annotation_reason": "Hiking preparation"}
+{"question": "Diabetes and camping: insulin storage without fridge", "category": "non_medical", "subcategory": "travel", "annotation_reason": "Camping insulin storage"}
+{"question": "Diabetes and international travel: voltage converters for pump", "category": "non_medical", "subcategory": "travel", "annotation_reason": "International travel tech"}
+{"question": "Diabetes and cruise: medical facilities onboard", "category": "non_medical", "subcategory": "travel", "annotation_reason": "Cruise medical care"}
+{"question": "Diabetes and flying: carrying supplies through security", "category": "non_medical", "subcategory": "travel", "annotation_reason": "Airport security"}
+{"question": "Diabetes and time zones: adjusting basal rates", "category": "non_medical", "subcategory": "travel", "annotation_reason": "Time zone adjustment"}
+{"question": "8-year-old with asthma: inhaler technique for school", "category": "other_medical_pediatric", "subcategory": "respiratory", "annotation_reason": "Pediatric asthma"}
+{"question": "10-year-old with eczema: bleach bath instructions", "category": "other_medical_pediatric", "subcategory": "dermatology", "annotation_reason": "Pediatric eczema"}
+{"question": "6-year-old with constipation: MiraLAX dosing", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Pediatric constipation"}
+{"question": "12-year-old with acne: topical retinoid use", "category": "other_medical_pediatric", "subcategory": "dermatology", "annotation_reason": "Pediatric acne"}
+{"question": "4-year-old with ear infection: antibiotic choice", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Pediatric otitis media"}
+{"question": "15-year-old with migraine: preventive medication options", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Pediatric migraine"}
+{"question": "9-year-old with ADHD: medication side effects appetite", "category": "other_medical_pediatric", "subcategory": "psychiatry", "annotation_reason": "Pediatric ADHD"}
+{"question": "7-year-old with strep throat: rapid test vs culture", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Pediatric strep"}
+{"question": "11-year-old with anxiety: CBT vs medication", "category": "other_medical_pediatric", "subcategory": "psychiatry", "annotation_reason": "Pediatric anxiety"}
+{"question": "5-year-old with fever: when to worry", "category": "other_medical_pediatric", "subcategory": "general_peds", "annotation_reason": "Pediatric fever"}
+{"question": "13-year-old with scoliosis: brace wearing schedule", "category": "other_medical_pediatric", "subcategory": "orthopedics", "annotation_reason": "Pediatric scoliosis"}
+{"question": "3-year-old with speech delay: evaluation referral", "category": "other_medical_pediatric", "subcategory": "developmental", "annotation_reason": "Pediatric speech delay"}
+{"question": "14-year-old with IBS: low FODMAP diet for teens", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Pediatric IBS"}
+{"question": "8-year-old with bedwetting: alarm therapy", "category": "other_medical_pediatric", "subcategory": "urology", "annotation_reason": "Pediatric enuresis"}
+{"question": "10-year-old with seasonal allergies: nasal spray use", "category": "other_medical_pediatric", "subcategory": "allergy", "annotation_reason": "Pediatric allergies"}
+{"question": "50-year-old with hypertension: home BP monitoring", "category": "other_medical_adult", "subcategory": "cardiology", "annotation_reason": "Adult hypertension"}
+{"question": "60-year-old with osteoarthritis: exercise recommendations", "category": "other_medical_adult", "subcategory": "orthopedics", "annotation_reason": "Adult osteoarthritis"}
+{"question": "45-year-old with high cholesterol: statin eligibility", "category": "other_medical_adult", "subcategory": "cardiology", "annotation_reason": "Adult hyperlipidemia"}
+{"question": "55-year-old with colonoscopy prep: split-dose vs same-day", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Adult colonoscopy"}
+{"question": "70-year-old with atrial fibrillation: blood thinner choice", "category": "other_medical_adult", "subcategory": "cardiology", "annotation_reason": "Adult AFib"}
+{"question": "40-year-old with migraine: CGRP inhibitor options", "category": "other_medical_adult", "subcategory": "neurology", "annotation_reason": "Adult migraine"}
+{"question": "65-year-old with shingles: antiviral treatment timing", "category": "other_medical_adult", "subcategory": "infections", "annotation_reason": "Adult shingles"}
+{"question": "50-year-old with menopause: hormone therapy risks", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Adult menopause"}
+{"question": "55-year-old with low back pain: imaging guidelines", "category": "other_medical_adult", "subcategory": "orthopedics", "annotation_reason": "Adult back pain"}
+{"question": "60-year-old with COPD: inhaler technique", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Adult COPD"}
+{"question": "How much does insulin cost without insurance", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Insulin cost question"}
+{"question": "Where to buy affordable insulin online", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Insulin purchasing"}
+{"question": "Diabetes and college: disability accommodations process", "category": "non_medical", "subcategory": "education", "annotation_reason": "College accommodations"}
+{"question": "Diabetes and roommate: how to explain my condition", "category": "non_medical", "subcategory": "psychosocial", "annotation_reason": "Roommate communication"}
+{"question": "Diabetes and dating apps: when to mention it", "category": "non_medical", "subcategory": "psychosocial", "annotation_reason": "Dating apps"}
+{"question": "Diabetes and job interview: do I have to disclose", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Job interview disclosure"}
+{"question": "Diabetes and workplace: reasonable accommodations", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Workplace accommodations"}
+{"question": "Diabetes and health insurance: choosing a plan", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Insurance selection"}
+{"question": "Diabetes and flexible spending account: eligible expenses", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "FSA expenses"}
+{"question": "Diabetes and life insurance: getting approved", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Life insurance"}
+{"question": "Diabetes and disability benefits: how to apply", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Disability benefits"}
+{"question": "Diabetes and tax deductions: medical expenses", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Tax deductions"}
+{"question": "Diabetes and school: 504 plan vs IEP", "category": "non_medical", "subcategory": "education", "annotation_reason": "504 vs IEP"}
+{"question": "Diabetes and standardized testing: accommodations", "category": "non_medical", "subcategory": "education", "annotation_reason": "Test accommodations"}
+{"question": "Diabetes and field trips: parent chaperone needed", "category": "non_medical", "subcategory": "education", "annotation_reason": "Field trips"}
+{"question": "Diabetes and school lunch: carb counting", "category": "non_medical", "subcategory": "education", "annotation_reason": "School lunch carbs"}
+{"question": "Diabetes and school nurse: what they can do", "category": "non_medical", "subcategory": "education", "annotation_reason": "School nurse role"}
+{"question": "Diabetes and bus ride: emergency glucagon on bus", "category": "non_medical", "subcategory": "education", "annotation_reason": "Bus glucagon"}
+{"question": "Diabetes and substitute teacher: info sheet", "category": "non_medical", "subcategory": "education", "annotation_reason": "Substitute teacher prep"}
+{"question": "Diabetes and fire drill: emergency plan", "category": "non_medical", "subcategory": "education", "annotation_reason": "Fire drill plan"}
+{"question": "Diabetes and lockdown drill: insulin access", "category": "non_medical", "subcategory": "education", "annotation_reason": "Lockdown insulin"}
+{"question": "Diabetes and prom: managing blood sugar at events", "category": "non_medical", "subcategory": "lifestyle", "annotation_reason": "Prom management"}
+{"question": "Diabetes and graduation: ceremony blood sugar plan", "category": "non_medical", "subcategory": "lifestyle", "annotation_reason": "Graduation plan"}
+{"question": "Diabetes and summer job: telling employer", "category": "non_medical", "subcategory": "psychosocial", "annotation_reason": "Summer job disclosure"}
+{"question": "Diabetes and internship: medical leave policy", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Internship leave"}
+{"question": "Diabetes and study abroad: insurance coverage", "category": "non_medical", "subcategory": "travel", "annotation_reason": "Study abroad insurance"}
+{"question": "Diabetes and gap year: managing supplies", "category": "non_medical", "subcategory": "travel", "annotation_reason": "Gap year supplies"}
+{"question": "How to inject insulin: pen vs syringe", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "Injection technique"}
+{"question": "Insulin pen needle size: 4mm vs 6mm", "category": "diabetes_adjacent", "subcategory": "device_comparison", "annotation_reason": "Needle size comparison"}
+{"question": "How to prime an insulin pen", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "Pen priming"}
+{"question": "Insulin storage: fridge vs room temperature", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "Insulin storage"}
+{"question": "How to treat a low blood sugar: 15-15 rule", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "Hypoglycemia treatment"}
+{"question": "Glucagon emergency kit: how to use", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "Glucagon use"}
+{"question": "CGM sensor insertion: does it hurt", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "CGM insertion pain"}
+{"question": "Pump site rotation: where to place", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "Pump site rotation"}
+{"question": "Ketone testing: when and how", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "Ketone testing"}
+{"question": "Sick day rules for type 1 diabetes", "category": "diabetes_adjacent", "subcategory": "education", "annotation_reason": "Sick day rules"}

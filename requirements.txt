@@ -119,3 +119,9 @@ psycopg[binary]
 accelerate==1.15.0
 datasets==5.1.0
 pandas==3.1.1
+google-genai==3.3.0
+groq==1.7.0
+pytest==9.2.0
+pytest-django==4.14.0
+# torch is installed separately (CPU build), not via this file:
+#   pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu

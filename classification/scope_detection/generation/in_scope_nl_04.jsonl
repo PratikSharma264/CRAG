@@ -1,0 +1,70 @@
+{"question": "My child with T1D: Dexcom G7 vs Libre 3 for my ?", "category": "glucose_monitoring", "subcategory": "device_comparison", "annotation_reason": "Explicit age (11), device comparison"}
+{"question": "Switching insulin brands in a 11-year-old: dose conversion", "category": "insulin_therapy", "subcategory": "switching", "annotation_reason": "Explicit age (11), brand switch"}
+{"question": "My child with T1D: Training substitute teachers for a child's T1D", "category": "parents_caregivers_schools", "subcategory": "substitute_training", "annotation_reason": "Explicit age (9), substitute teachers"}
+{"question": "What should I do about school glucagon kit for my child with T1D?", "category": "parents_caregivers_schools", "subcategory": "school_glucagon", "annotation_reason": "Abbreviations + explicit age (7)"}
+{"question": "My child with T1D: Basal test protocol pump", "category": "insulin_therapy", "subcategory": "basal_test", "annotation_reason": "Abbreviations + explicit age (14)"}
+{"question": "Vitiligo and T1D in a 13-year-old", "category": "complications", "subcategory": "vitiligo", "annotation_reason": "Explicit age (13), vitiligo"}
+{"question": "My child with T1D: Alcohol guide for a child with T1D", "category": "nutrition_lifestyle", "subcategory": "alcohol", "annotation_reason": "Explicit age (18), alcohol"}
+{"question": "Puberty blockers T1D for a child", "category": "transition", "subcategory": "puberty_blockers", "annotation_reason": "Explicit age (12), puberty blockers"}
+{"question": "My child with T1D: Anyone's on Omnipod 5? Thoughts?", "category": "insulin_therapy", "subcategory": "omnipod5", "annotation_reason": "Casual + explicit age (9), Omnipod 5"}
+{"question": "My child with T1D: Insulin injection site rotation chart for a child", "category": "insulin_therapy", "subcategory": "site_rotation", "annotation_reason": "Explicit age (10), site rotation"}
+{"question": "My child with T1D: CGM compression low at night for a child", "category": "glucose_monitoring", "subcategory": "compression_low", "annotation_reason": "Explicit age (12), compression low"}
+{"question": "My child with T1D: IEP goals for a child T1D self-management", "category": "parents_caregivers_schools", "subcategory": "IEP_goals", "annotation_reason": "Explicit age (10), IEP goals"}
+{"question": "T2D in - metformin or liraglutide for my child with T1D?", "category": "pediatric_t2d", "subcategory": "med_choice", "annotation_reason": "Abbreviations + explicit age (13)"}
+{"question": "My child with T1D: Field trip chaperone medical training for a child", "category": "parents_caregivers_schools", "subcategory": "chaperone_training", "annotation_reason": "Explicit age (9), chaperone"}
+{"question": "DKA fluid protocol 2022 ISPAD for a child for my child with T1D", "category": "complications", "subcategory": "DKA_fluid_ISPAD", "annotation_reason": "Explicit age (10), ISPAD fluid"}
+{"question": "My child with T1D: Dance competition T1D plan for a child", "category": "parents_caregivers_schools", "subcategory": "dance_competition", "annotation_reason": "Explicit age (13), dance"}
+{"question": "My child with T1D: High-intensity interval training and glucose in a child", "category": "nutrition_lifestyle", "subcategory": "HIIT", "annotation_reason": "Explicit age (16), HIIT"}
+{"question": "My child with T1D: Weighing food vs estimating for a child", "category": "nutrition_lifestyle", "subcategory": "weighing_estimating", "annotation_reason": "Explicit age (8), weighing"}
+{"question": "My child with T1D: Backup insulin plan for pump vacation in a child", "category": "insulin_therapy", "subcategory": "pump", "annotation_reason": "Explicit age (12), backup plan"}
+{"question": "Severe hypo cognitive impact in a child developing brain for my child with T1D", "category": "complications", "subcategory": "hypo_cognitive", "annotation_reason": "Explicit age (5), cognitive"}
+{"question": "My child with T1D: CGM sensor life 10-day vs 14-day for a child", "category": "glucose_monitoring", "subcategory": "sensor_life", "annotation_reason": "Explicit age (11), sensor life"}
+{"question": "Testosterone therapy for a child T1D", "category": "transition", "subcategory": "testosterone_T1D", "annotation_reason": "Explicit age (17), testosterone"}
+{"question": "When to add second agent after metformin in a child for my child with T1D", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Explicit age (13), dual therapy"}
+{"question": "Wish foundation diabetes camp for a child for my child with T1D", "category": "psychosocial", "subcategory": "wish_foundation", "annotation_reason": "Explicit age (10), wish"}
+{"question": "Neuropathy in a child with T2D for my child with T1D", "category": "complications", "subcategory": "neuropathy_T2D", "annotation_reason": "Explicit age (12), T2D neuropathy"}
+{"question": "My child with T1D: DEPS-R cutoff score for a child", "category": "nutrition_lifestyle", "subcategory": "DEPS_R_cutoff", "annotation_reason": "Explicit age (12), DEPS-R"}
+{"question": "My child with T1D: Device selection: Automated insulin delivery systems for a child", "category": "insulin_therapy", "subcategory": "device_selection", "annotation_reason": "Explicit age (10), AID selection"}
+{"question": "Metformin continuation after bariatric surgery in a child for my child with T1D", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Explicit age (17), post-bariatric metformin"}
+{"question": "Honeymoon phase duration in 9-year-old vs 16-year-old", "category": "pediatric_t1d", "subcategory": "pathophysiology", "annotation_reason": "Explicit ages (9, 16), honeymoon"}
+{"question": "Metformin dosing for a 12-year-old with T2D", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Explicit age (12), metformin"}
+{"question": "Screening for retinopathy in a 14-year-old with 5-year T1D", "category": "pediatric_t1d", "subcategory": "chronic_complications", "annotation_reason": "Explicit age (14), retinopathy screening"}
+{"question": "My child with T1D: Glycemic load for a child snack choices", "category": "nutrition_lifestyle", "subcategory": "glycemic_load", "annotation_reason": "Explicit age (12), GL"}
+{"question": "Insulin pen needle phobia in a 8-year-old", "category": "insulin_therapy", "subcategory": "adherence", "annotation_reason": "Explicit age (8), needle phobia"}
+{"question": "Bullying related to diabetes devices 12-year-old", "category": "parents_caregivers_schools", "subcategory": "bullying_devices", "annotation_reason": "Explicit age (12), bullying"}
+{"question": "Insulin initiation for a child T2D not controlled for my child with T1D", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Explicit age (12), insulin initiation"}
+{"question": "My child with T1D: State testing accommodations for a child T1D", "category": "parents_caregivers_schools", "subcategory": "state_testing", "annotation_reason": "Explicit age (10), state testing"}
+{"question": "My child with T1D: ACT TAA application for a child T1D", "category": "parents_caregivers_schools", "subcategory": "ACT_TAA", "annotation_reason": "Explicit age (17), ACT TAA"}
+{"question": "My child with T1D: Eating disorder red flags in a child with T1D", "category": "nutrition_lifestyle", "subcategory": "eating_disorders", "annotation_reason": "Explicit age (15), eating disorders"}
+{"question": "Microalbuminuria in a child with 8-year T1D for my child with T1D", "category": "complications", "subcategory": "nephropathy", "annotation_reason": "Explicit age (15), microalbuminuria"}
+{"question": "My child with T1D: Urine ketone vs blood ketone in a child", "category": "glucose_monitoring", "subcategory": "urine_vs_blood_ketone", "annotation_reason": "Explicit age (11), ketones"}
+{"question": "Severe hypo in a 6-year-old: glucagon dosing", "category": "pediatric_t1d", "subcategory": "acute_complications", "annotation_reason": "Explicit age (6), glucagon"}
+{"question": "My child with T1D: Insulin adjustment for a child steroid course", "category": "insulin_therapy", "subcategory": "steroid_insulin", "annotation_reason": "Explicit age (9), steroids"}
+{"question": "My child with T1D: Swim team CGM waterproof for a child", "category": "parents_caregivers_schools", "subcategory": "swim_CGM", "annotation_reason": "Explicit age (11), swim CGM"}
+{"question": "Legal guardianship for a child with cognitive delays", "category": "transition", "subcategory": "guardianship", "annotation_reason": "Explicit age (18), guardianship"}
+{"question": "My child with T1D: Fructosamine for a child with hemoglobin variant", "category": "glucose_monitoring", "subcategory": "fructosamine", "annotation_reason": "Explicit age (9), fructosamine"}
+{"question": "My child with T1D: Hidden carbs in sauces for a child", "category": "nutrition_lifestyle", "subcategory": "hidden_carbs", "annotation_reason": "Explicit age (11), hidden carbs"}
+{"question": "Cognitive behavioral therapy for a child T1D anxiety for my child with T1D", "category": "psychosocial", "subcategory": "CBT_anxiety", "annotation_reason": "Explicit age (13), CBT"}
+{"question": "Sleep apnea screening in a child obese T2D for my child with T1D", "category": "complications", "subcategory": "sleep_apnea_T2D", "annotation_reason": "Explicit age (11), sleep apnea"}
+{"question": "My child with T1D: Baqsimi nasal glucagon for a child", "category": "insulin_therapy", "subcategory": "baqsimi", "annotation_reason": "Explicit age (6), Baqsimi"}
+{"question": "Apple Watch CGM display at school 13-year-old", "category": "parents_caregivers_schools", "subcategory": "Apple_Watch_school", "annotation_reason": "Explicit age (13), Apple Watch"}
+{"question": "Gap year T1D management for a child", "category": "transition", "subcategory": "gap_year", "annotation_reason": "Explicit age (18), gap year"}
+{"question": "My child with T1D: Birthday party cake bolus for a child", "category": "nutrition_lifestyle", "subcategory": "birthday_cake", "annotation_reason": "Explicit age (7), birthday"}
+{"question": "My child with T1D: Nutrition consult: Carbohydrate counting education for a child", "category": "nutrition_lifestyle", "subcategory": "nutrition_consult", "annotation_reason": "Explicit age (9), nutrition"}
+{"question": "My child with T1D: Pre-exercise snack 10g carb for a child", "category": "nutrition_lifestyle", "subcategory": "pre_exercise_snack", "annotation_reason": "Explicit age (7), pre-exercise"}
+{"question": "My child with T1D: CGM predictive alerts preventing lows in a child", "category": "glucose_monitoring", "subcategory": "predictive", "annotation_reason": "Explicit age (12), predictive alerts"}
+{"question": "Driving safety education for a child T1D", "category": "transition", "subcategory": "driving_education", "annotation_reason": "Explicit age (15), driving education"}
+{"question": "CGM metrics report for My child: what to review", "category": "glucose_monitoring", "subcategory": "CGM_metrics", "annotation_reason": "Caregiver + explicit age (10), CGM metrics"}
+{"question": "Antipsychotic-induced weight gain: T2D screening 13-year-old", "category": "pediatric_t2d", "subcategory": "screening", "annotation_reason": "Explicit age (13), antipsychotic screening"}
+{"question": "My child with T1D: Exercise snack for a child before soccer", "category": "nutrition_lifestyle", "subcategory": "exercise_snack", "annotation_reason": "Explicit age (9), exercise snack"}
+{"question": "SGLT2 inhibitor empagliflozin for a child T2D for my child with T1D", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Explicit age (14), SGLT2 inhibitor"}
+{"question": "Diabetes burnout in a child: recognition for my child with T1D", "category": "psychosocial", "subcategory": "burnout_teen", "annotation_reason": "Explicit age (15), burnout"}
+{"question": "My child with T1D: Schol wont let test sugar", "category": "parents_caregivers_schools", "subcategory": "school_testing", "annotation_reason": "Typos: Schol, 7yo + explicit age (7)"}
+{"question": "My child with T1D: Picky eater division of responsibility for a child", "category": "nutrition_lifestyle", "subcategory": "division_responsibility", "annotation_reason": "Explicit age (5), DOR"}
+{"question": "My child with T1D: CGM data for insulin dose adjustments in a child", "category": "glucose_monitoring", "subcategory": "dose_adjustment", "annotation_reason": "Explicit age (14), dose adjustments"}
+{"question": "Intermittent fasting 16:8 for a child T2D: safety for my child with T1D", "category": "pediatric_t2d", "subcategory": "obesity_link", "annotation_reason": "Explicit age (15), intermittent fasting"}
+{"question": "CGM alarm response by 13-year-old vs parent", "category": "glucose_monitoring", "subcategory": "alarm_response_teen", "annotation_reason": "Explicit age (13), alarm response"}
+{"question": "504 plan template for newly diagnosed 8-year-old", "category": "parents_caregivers_schools", "subcategory": "504_template", "annotation_reason": "Explicit age (8), 504 template"}
+{"question": "T2D screening guidelines for a child with obesity for my child with T1D", "category": "pediatric_t2d", "subcategory": "screening", "annotation_reason": "Explicit age (10), obesity, screening guidelines"}
+{"question": "Appointment scheduling independence for a child", "category": "transition", "subcategory": "appt_scheduling", "annotation_reason": "Explicit age (16), scheduling"}
+{"question": "Ketone testing: blood vs urine for a 8-year-old", "category": "pediatric_t1d", "subcategory": "acute_complications", "annotation_reason": "Explicit age (8), ketone testing"}

@@ -4,7 +4,8 @@
  *
  * The server streams one JSON object per line (NDJSON):
  *   {"type":"saved","user_message_id":12}  {"type":"query","text":"..."}
- *   {"type":"sources","sources":[...]}     {"type":"token","text":"..."}
+ *   {"type":"sources","sources":[...]}     {"type":"sufficiency","details":{...}}
+ *   {"type":"token","text":"..."}          {"type":"abstain","reason":"...","details":{...}}
  *   {"type":"error","message":"..."}       {"type":"done"}
  */
 (function () {
@@ -21,6 +22,9 @@
   var botTemplate = document.getElementById("tpl-bot-message");
   var SVG_NS = "http://www.w3.org/2000/svg";
   var busy = false;
+
+  // Sufficiency visualization elements
+  var sufficiencyViz = document.getElementById("sufficiency-viz");
 
   /* ---------- Small DOM helpers (no innerHTML anywhere) ---------- */
   function el(tag, className, text) {
@@ -49,6 +53,171 @@
 
   function scrollToBottom() {
     thread.scrollTo({ top: thread.scrollHeight, behavior: "smooth" });
+  }
+
+  /* ---------- Sufficiency Visualization ---------- */
+  function resetSufficiencyViz() {
+    if (!sufficiencyViz) return;
+    var states = sufficiencyViz.querySelectorAll("[data-state]");
+    states.forEach(function (el) { el.hidden = true; });
+    var initial = sufficiencyViz.querySelector("[data-state='initial']");
+    if (initial) initial.hidden = false;
+    // Reset diagram values
+    var scores = sufficiencyViz.querySelectorAll("[data-score]");
+    scores.forEach(function (el) { el.textContent = "—"; });
+    var decisionText = sufficiencyViz.querySelector("[data-decision-text]");
+    if (decisionText) decisionText.textContent = "—";
+    var thresholdEl = sufficiencyViz.querySelector("[data-threshold]");
+    if (thresholdEl) thresholdEl.textContent = "Threshold: 0.70";
+    var formulaEl = sufficiencyViz.querySelector("[data-formula]");
+    if (formulaEl) formulaEl.textContent = "0.10 × Model C + 0.45 × Cosine + 0.45 × LLM Judge";
+    // Reset decision node classes
+    var decisionNode = sufficiencyViz.querySelector("[data-decision]");
+    if (decisionNode) {
+      decisionNode.classList.remove("is-sufficient", "is-insufficient");
+    }
+    // Reset judge status
+    var judgeStatusEl = sufficiencyViz.querySelector("[data-judge-status]");
+    if (judgeStatusEl) {
+      judgeStatusEl.hidden = true;
+      judgeStatusEl.textContent = "";
+    }
+    // Reset LLM Judge score to pending
+    var llmJudgeScore = sufficiencyViz.querySelector("[data-score='llm_judge']");
+    if (llmJudgeScore) llmJudgeScore.textContent = "—";
+  }
+
+  function showSufficiencyState(state) {
+    if (!sufficiencyViz) return;
+    var states = sufficiencyViz.querySelectorAll("[data-state]");
+    states.forEach(function (el) { el.hidden = true; });
+    var target = sufficiencyViz.querySelector("[data-state='" + state + "']");
+    if (target) target.hidden = false;
+  }
+
+  function renderSufficiencyViz(details) {
+    if (!sufficiencyViz || !details) return;
+
+    var weights = details.weights || { model_c: 0.10, cosine: 0.45, llm_judge: 0.45 };
+    var contributions = details.contributions || { model_c: 0, cosine: 0, llm_judge: 0 };
+    var modelCProb = details.model_c_probability;
+    var cosineSim = details.cosine_similarity;
+    var llmJudgeScore = details.llm_judge_score;
+    var combinedScore = details.combined_score;
+    var threshold = details.threshold;
+    var sufficient = details.sufficient;
+    var checkDetails = details.check_details || {};
+    var judgeStatus = checkDetails.judge_status || "disabled";
+
+    // Handle empty retrieval
+    if (checkDetails.empty_retrieval) {
+      showSufficiencyState("empty");
+      return;
+    }
+
+    // Show diagram state
+    showSufficiencyState("diagram");
+
+    // Update Model C score
+    var modelCScore = sufficiencyViz.querySelector("[data-score='model_c']");
+    if (modelCScore && typeof modelCProb === "number" && isFinite(modelCProb)) {
+      modelCScore.textContent = modelCProb.toFixed(4);
+    }
+
+    // Update Cosine score
+    var cosineScore = sufficiencyViz.querySelector("[data-score='cosine']");
+    if (cosineScore && typeof cosineSim === "number" && isFinite(cosineSim)) {
+      cosineScore.textContent = cosineSim.toFixed(4);
+    }
+
+    // Update LLM Judge score
+    var llmJudgeScoreEl = sufficiencyViz.querySelector("[data-score='llm_judge']");
+    var llmJudgeNode = llmJudgeScoreEl ? llmJudgeScoreEl.closest(".flow-node") : null;
+    if (llmJudgeScoreEl) {
+      if (typeof llmJudgeScore === "number" && isFinite(llmJudgeScore)) {
+        llmJudgeScoreEl.textContent = llmJudgeScore.toFixed(4);
+        if (llmJudgeNode) llmJudgeNode.classList.remove("is-pending");
+      } else if (judgeStatus === "pending") {
+        // Show pending state with spinner
+        llmJudgeScoreEl.textContent = "Judging…";
+        if (llmJudgeNode) llmJudgeNode.classList.add("is-pending");
+      } else {
+        llmJudgeScoreEl.textContent = "—";
+      }
+    }
+
+    // Update Combined score
+    var combinedScoreEl = sufficiencyViz.querySelector("[data-score='combined']");
+    if (combinedScoreEl && typeof combinedScore === "number" && isFinite(combinedScore)) {
+      combinedScoreEl.textContent = combinedScore.toFixed(4);
+    }
+
+    // Update formula with actual weights
+    var formulaEl = sufficiencyViz.querySelector("[data-formula]");
+    if (formulaEl) {
+      var wc = (weights.model_c !== undefined) ? weights.model_c : 0.10;
+      var ws = (weights.cosine !== undefined) ? weights.cosine : 0.45;
+      var wl = (weights.llm_judge !== undefined) ? weights.llm_judge : 0.45;
+      formulaEl.textContent = wc.toFixed(2) + " × Model C + " + ws.toFixed(2) + " × Cosine + " + wl.toFixed(2) + " × LLM Judge";
+    }
+
+    // Update threshold
+    var thresholdEl = sufficiencyViz.querySelector("[data-threshold]");
+    if (thresholdEl && typeof threshold === "number" && isFinite(threshold)) {
+      thresholdEl.textContent = "Threshold: " + threshold.toFixed(2);
+    }
+
+    // Update judge status
+    var judgeStatusEl = sufficiencyViz.querySelector("[data-judge-status]");
+    if (judgeStatusEl) {
+      if (judgeStatus === "timeout") {
+        judgeStatusEl.hidden = false;
+        judgeStatusEl.textContent = "⚠ LLM Judge timed out — computed without judge";
+        judgeStatusEl.style.color = "var(--color-warning)";
+      } else if (judgeStatus === "error") {
+        judgeStatusEl.hidden = false;
+        judgeStatusEl.textContent = "⚠ LLM Judge error — computed without judge";
+        judgeStatusEl.style.color = "var(--color-danger)";
+      } else if (judgeStatus === "quota_exceeded") {
+        judgeStatusEl.hidden = false;
+        judgeStatusEl.textContent = "⚠ LLM Judge unavailable (quota exceeded) — computed without judge";
+        judgeStatusEl.style.color = "var(--color-danger)";
+      } else if (judgeStatus === "done") {
+        judgeStatusEl.hidden = true;
+      } else {
+        judgeStatusEl.hidden = true;
+      }
+    }
+
+    // Update decision
+    var decisionNode = sufficiencyViz.querySelector("[data-decision]");
+    var decisionText = sufficiencyViz.querySelector("[data-decision-text]");
+    var decisionIcon = decisionNode ? decisionNode.querySelector("use") : null;
+
+    if (decisionNode && decisionText) {
+      decisionNode.classList.remove("is-sufficient", "is-insufficient");
+      if (sufficient) {
+        decisionNode.classList.add("is-sufficient");
+        decisionText.textContent = "SUFFICIENT — Proceeding to generation";
+        if (decisionIcon) decisionIcon.setAttribute("href", "#i-check-circle");
+      } else {
+        decisionNode.classList.add("is-insufficient");
+        var decisionMsg = "INSUFFICIENT — Abstaining";
+        if (judgeStatus === "timeout" || judgeStatus === "error" || judgeStatus === "quota_exceeded") {
+          decisionMsg += " (computed without LLM Judge)";
+        }
+        decisionText.textContent = decisionMsg;
+        if (decisionIcon) decisionIcon.setAttribute("href", "#i-x-circle");
+      }
+    }
+  }
+
+  function showSufficiencyLoading() {
+    showSufficiencyState("loading");
+  }
+
+  function showSufficiencyError() {
+    showSufficiencyState("error");
   }
 
   /* ---------- LaTeX cleanup (models sometimes ignore "no LaTeX") ---------- */
@@ -340,6 +509,11 @@
       var stick = isNearBottom();
       renderSources(bot.sources, event.sources);
       if (stick) scrollToBottom();
+      // Show loading state while waiting for sufficiency event
+      showSufficiencyLoading();
+    } else if (event.type === "sufficiency") {
+      // Render the sufficiency evaluation visualization
+      renderSufficiencyViz(event.details);
     } else if (event.type === "token") {
       var follow = isNearBottom();
       bot.answer += event.text;
@@ -425,6 +599,9 @@
     if (options.messageId) formData.set("message_id", options.messageId);
     else formData.delete("message_id");
 
+    // Reset sufficiency visualization for new query
+    resetSufficiencyViz();
+
     setBusy(true);
     if (emptyState) emptyState.hidden = true;
     if (options.replaceFrom) truncateFrom(options.replaceFrom);
@@ -440,6 +617,7 @@
       if (!bot.answer) showError(bot, "No answer was returned.");
     } catch (error) {
       showError(bot, error.message || "Network error. Please try again.");
+      showSufficiencyError();
     } finally {
       bot.node.classList.remove("is-streaming");
       bot.node.dataset.raw = cleanMath(bot.answer);

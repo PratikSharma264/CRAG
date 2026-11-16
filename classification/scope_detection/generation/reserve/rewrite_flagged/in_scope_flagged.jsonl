@@ -1,0 +1,48 @@
+{"question": "As a young adult with childhood-onset T1D, prescription refill independence for 17-year-old?", "category": "transition", "subcategory": "rx_refill", "annotation_reason": "Explicit age (17), refill"}
+{"question": "Psychosocial outcomes for 13-year-old?", "category": "parents_caregivers_schools", "subcategory": "camp_psychosocial", "annotation_reason": "Explicit age (13), camp psychosocial"}
+{"question": "As a young adult with childhood-onset T1D, transition program evaluation metrics for 16-22?", "category": "transition", "subcategory": "program_evaluation", "annotation_reason": "Explicit age range (16-22), evaluation"}
+{"question": "Setup for 7-year-old ?", "category": "insulin_therapy", "subcategory": "pump_basal_setup", "annotation_reason": "Explicit age (7), pump basal"}
+{"question": "As a young adult with childhood-onset T1D, hpv vaccine for 11-year-old t1d?", "category": "transition", "subcategory": "HPV_vaccine", "annotation_reason": "Explicit age (11), HPV"}
+{"question": "Controlled on metformin ?", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Teen = adolescent, insulin"}
+{"question": "Insulin absorption for ?", "category": "nutrition_lifestyle", "subcategory": "hot_weather", "annotation_reason": "Explicit age (8), heat"}
+{"question": "Administration for my ?", "category": "parents_caregivers_schools", "subcategory": "glucagon_refusal", "annotation_reason": "Explicit age (7), glucagon refusal"}
+{"question": "Total carbs for ?", "category": "nutrition_lifestyle", "subcategory": "fiber_subtraction", "annotation_reason": "Explicit age (14), fiber"}
+{"question": ": what to expect?", "category": "transition", "subcategory": "clinic_visit", "annotation_reason": "Explicit age (17), transition clinic"}
+{"question": "Insulin resistance marker ?", "category": "pediatric_t2d", "subcategory": "screening", "annotation_reason": "Explicit age (10), acanthosis nigricans"}
+{"question": "Phase ending so fast?", "category": "pediatric_t1d", "subcategory": "pathophysiology", "annotation_reason": "Explicit age (14), honeymoon phase"}
+{"question": "Chart for 10-year-old ?", "category": "insulin_therapy", "subcategory": "site_rotation", "annotation_reason": "Explicit age (10), site rotation"}
+{"question": "Vacation in 12-year-old ?", "category": "insulin_therapy", "subcategory": "pump", "annotation_reason": "Explicit age (12), backup plan"}
+{"question": "In girls 10-14 ?", "category": "insulin_therapy", "subcategory": "puberty_girls", "annotation_reason": "Explicit age range (10-14), girls"}
+{"question": "In a 8-year-old ?", "category": "insulin_therapy", "subcategory": "adherence", "annotation_reason": "Explicit age (8), needle phobia"}
+{"question": "Quick q: as a young adult with childhood-onset T1D, legal guardianship for 18-year-old with cognitive delays?", "category": "transition", "subcategory": "guardianship", "annotation_reason": "Explicit age (18), guardianship"}
+{"question": "In sauces for ?", "category": "nutrition_lifestyle", "subcategory": "hidden_carbs", "annotation_reason": "Explicit age (11), hidden carbs"}
+{"question": "Display at school ?", "category": "parents_caregivers_schools", "subcategory": "Apple_Watch_school", "annotation_reason": "Explicit age (13), Apple Watch"}
+{"question": "At summer camp ?", "category": "insulin_therapy", "subcategory": "storage", "annotation_reason": "Kid + camp = pediatric, heat stability"}
+{"question": "So as a young adult with childhood-onset T1D, appointment scheduling independence for 16-year-old?", "category": "transition", "subcategory": "appt_scheduling", "annotation_reason": "Explicit age (16), scheduling"}
+{"question": "By school nurse 10-year-old?", "category": "parents_caregivers_schools", "subcategory": "insulin_admin_nurse", "annotation_reason": "Explicit age (10), insulin admin"}
+{"question": "Changes during puberty ?", "category": "insulin_therapy", "subcategory": "sensitivity", "annotation_reason": "Puberty = adolescent, ISF changes"}
+{"question": "Sensitivity in 13-year-old ?", "category": "pediatric_t2d", "subcategory": "obesity_link", "annotation_reason": "Explicit age (13), weight loss benefit"}
+{"question": "For a 13-year-old ?", "category": "insulin_therapy", "subcategory": "basal", "annotation_reason": "Explicit age (13), basal testing"}
+{"question": "As a young adult with childhood-onset T1D, military service with childhood-onset t1d?", "category": "transition", "subcategory": "military", "annotation_reason": "Childhood-onset explicit, military"}
+{"question": "For pediatric use ?", "category": "insulin_therapy", "subcategory": "lyumjev_age", "annotation_reason": "Pediatric explicit, Lyumjev"}
+{"question": "Peer mentoring for 12-year-old?", "category": "parents_caregivers_schools", "subcategory": "camp_peer_mentor", "annotation_reason": "Explicit age (12), peer mentor"}
+{"question": "Teaching for 14-year-old ?", "category": "pediatric_t2d", "subcategory": "education", "annotation_reason": "Explicit age (14), injection technique"}
+{"question": "Delegation for 7-year-old student?", "category": "parents_caregivers_schools", "subcategory": "school_health_plan", "annotation_reason": "Explicit age (7), school health plan"}
+{"question": "Handoff summary for 18-year-old?", "category": "transition", "subcategory": "handoff_summary", "annotation_reason": "Explicit age (18), handoff"}
+{"question": "Adjustment for 11-year-old ?", "category": "nutrition_lifestyle", "subcategory": "timezone", "annotation_reason": "Explicit age (11), timezone"}
+{"question": "Carb 3:1 for ?", "category": "nutrition_lifestyle", "subcategory": "post_exercise_ratio", "annotation_reason": "Explicit age (15), recovery"}
+{"question": "Threshold for 5-year-old ?", "category": "insulin_therapy", "subcategory": "suspend_threshold", "annotation_reason": "Explicit age (5), suspend"}
+{"question": "Pre vs post ?", "category": "insulin_therapy", "subcategory": "bolus", "annotation_reason": "Toddler = pediatric, bolus timing"}
+{"question": "Financial aid for 11-year-old?", "category": "parents_caregivers_schools", "subcategory": "camp_financial_aid", "annotation_reason": "Explicit age (11), camp aid"}
+{"question": "Fears managing 5-year-old's t1d?", "category": "parents_caregivers_schools", "subcategory": "grandparent_fears", "annotation_reason": "Explicit age (5), grandparent"}
+{"question": "12 yr old ?", "category": "insulin_therapy", "subcategory": "pump_vs_shots", "annotation_reason": "Typo: yr + explicit age (12)"}
+{"question": "As a young adult with childhood-onset T1D, structured transition program outcomes at 5 years?", "category": "transition", "subcategory": "program_outcomes", "annotation_reason": "Transition program explicit, outcomes"}
+{"question": "Length for 4-year-old ?", "category": "insulin_therapy", "subcategory": "tubing_length", "annotation_reason": "Explicit age (4), tubing"}
+{"question": "Sharing with clinic ?", "category": "insulin_therapy", "subcategory": "pens", "annotation_reason": "Teens = adolescent, smart pens"}
+{"question": "Lows at night ?", "category": "pediatric_t1d", "subcategory": "glucose_monitoring", "annotation_reason": "Explicit age (12), compression lows"}
+{"question": "Food database for ?", "category": "nutrition_lifestyle", "subcategory": "carb_app_database", "annotation_reason": "Explicit age (10), app"}
+{"question": "Off during football ?", "category": "pediatric_t1d", "subcategory": "pump", "annotation_reason": "Teen + pump issue"}
+{"question": "Carb counts for ?", "category": "nutrition_lifestyle", "subcategory": "school_lunch_carbs", "annotation_reason": "Explicit age (9), school lunch"}
+{"question": "For 8-year-old with t1d?", "category": "nutrition_lifestyle", "subcategory": "school_food", "annotation_reason": "Explicit age (8), school food"}
+{"question": "As a young adult with childhood-onset T1D, pcos diagnosis for 15-year-old t1d irregular periods?", "category": "transition", "subcategory": "PCOS_diagnosis", "annotation_reason": "Explicit age (15), PCOS"}
+{"question": "For a 5-year-old ?", "category": "insulin_therapy", "subcategory": "AID", "annotation_reason": "Explicit age (5), suspend on low"}

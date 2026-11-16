@@ -11,3 +11,9 @@ vector_db_backup_*/
 clinicalenv/
 .hallmark/
 .pytest_cache/
+
+__pycache__/
+cookies.txt
+vector_store_numpy/
+vector_db/
+classification/**/checkpoint/

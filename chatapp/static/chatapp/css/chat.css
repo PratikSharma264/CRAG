@@ -225,3 +225,330 @@
 .message--bot.is-abstention .bubble__text strong {
   color: var(--color-danger);
 }
+
+/* ---------- Sufficiency Panel ---------- */
+.sufficiency-panel {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid var(--color-rule);
+  background: var(--color-paper);
+}
+
+.sufficiency-panel .panel-header {
+  padding: var(--space-4) var(--space-5);
+  border-bottom: 1px solid var(--color-rule);
+  background: var(--color-paper-2);
+}
+
+.sufficiency-panel .panel-header__icon {
+  color: var(--color-accent);
+}
+
+.sufficiency-viz {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+}
+
+.sufficiency-viz__initial,
+.sufficiency-viz__loading,
+.sufficiency-viz__empty,
+.sufficiency-viz__error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  text-align: center;
+  color: var(--color-muted);
+  max-width: 280px;
+}
+
+.sufficiency-viz__initial .icon,
+.sufficiency-viz__empty .icon,
+.sufficiency-viz__error .icon {
+  color: var(--color-muted);
+  opacity: 0.6;
+}
+
+.sufficiency-viz__loading {
+  gap: var(--space-4);
+}
+
+.spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--color-rule);
+  border-top-color: var(--color-accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .spinner { animation: none; border-top-color: var(--color-rule); }
+}
+
+/* ---------- Sufficiency Flow Diagram ---------- */
+.sufficiency-flow {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.flow-stage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flow-stage--checks {
+  justify-content: center;
+}
+
+.flow-parallel {
+  display: flex;
+  gap: var(--space-6);
+  width: 100%;
+  justify-content: center;
+}
+
+.flow-branch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flow-branch[data-branch="llm_judge"] .flow-node--check.is-pending {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 2px color-mix(in oklab, var(--color-accent) 30%, transparent);
+}
+
+.flow-branch[data-branch="llm_judge"] .flow-node--check.is-pending .flow-score {
+  color: var(--color-accent);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.flow-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-5);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-card);
+  background: var(--color-paper);
+  min-width: 140px;
+  text-align: center;
+  transition: border-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.flow-node:hover {
+  border-color: var(--color-accent);
+  box-shadow: 0 4px 12px color-mix(in oklab, var(--color-accent) 15%, transparent);
+}
+
+.flow-node .icon {
+  color: var(--color-accent);
+}
+
+.flow-node--check .icon {
+  color: var(--color-accent);
+}
+
+.flow-node--combined {
+  background: var(--color-accent-soft);
+  border-color: color-mix(in oklab, var(--color-accent) 30%, transparent);
+  min-width: 200px;
+}
+
+.flow-node--decision {
+  min-width: 220px;
+}
+
+.flow-node--decision.is-sufficient {
+  background: var(--color-success-bg);
+  border-color: color-mix(in oklab, var(--color-success) 40%, transparent);
+}
+
+.flow-node--decision.is-insufficient {
+  background: var(--color-danger-bg);
+  border-color: color-mix(in oklab, var(--color-danger) 40%, transparent);
+}
+
+.flow-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-ink);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.flow-score {
+  font-family: var(--font-outlier);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+
+.flow-score--combined {
+  font-size: 24px;
+  color: var(--color-ink);
+}
+
+.flow-formula {
+  font-family: var(--font-outlier);
+  font-size: 11px;
+  color: var(--color-muted);
+  margin-top: var(--space-1);
+}
+
+.flow-decision {
+  font-family: var(--font-outlier);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.flow-node--decision.is-sufficient .flow-decision {
+  color: var(--color-success);
+}
+
+.flow-node--decision.is-insufficient .flow-decision {
+  color: var(--color-danger);
+}
+
+.flow-threshold {
+  font-family: var(--font-outlier);
+  font-size: 11px;
+  color: var(--color-muted);
+  margin-top: var(--space-1);
+}
+
+.flow-judge-status {
+  font-family: var(--font-outlier);
+  font-size: 11px;
+  margin-top: var(--space-1);
+  display: block;
+}
+
+.flow-arrow,
+.flow-arrow--down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-muted);
+  opacity: 0.6;
+}
+
+.flow-arrow .icon,
+.flow-arrow--down .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.flow-arrow--down {
+  margin: var(--space-1) 0;
+}
+
+/* Ensure [hidden] attribute works (overrides display: flex on state classes) */
+[hidden] { display: none !important; }
+
+/* ---------- Sufficiency Panel Reopen Button (in chat header) ---------- */
+.panel-header [data-sufficiency-reopen] {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--color-paper-2);
+  color: var(--color-muted);
+  transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.panel-header [data-sufficiency-reopen]:hover {
+  background: var(--color-paper-3);
+  color: var(--color-accent);
+}
+.panel-header [data-sufficiency-reopen]:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1100px) {
+  .chat-panel {
+    height: 65vh;
+    min-height: 420px;
+  }
+  .sufficiency-panel {
+    height: 35vh;
+    min-height: 300px;
+    max-height: 420px;
+    border-left: none;
+    border-top: 1px solid var(--color-rule);
+  }
+  /* Collapsed state: panel reduces to header bar only */
+  html[data-sufficiency="collapsed"] .sufficiency-panel {
+    height: auto;
+    min-height: 0;
+    max-height: none;
+    width: auto;
+  }
+  html[data-sufficiency="collapsed"] .sufficiency-panel .sufficiency-viz {
+    display: none;
+  }
+  html[data-sufficiency="collapsed"] .sufficiency-panel .panel-header {
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: var(--space-3) var(--space-4);
+  }
+  html[data-sufficiency="collapsed"] .sufficiency-panel .panel-header__icon,
+  html[data-sufficiency="collapsed"] .sufficiency-panel .panel-header__text {
+    display: none;
+  }
+  html[data-sufficiency="collapsed"] .sufficiency-panel .collapse-btn--kb {
+    margin: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .flow-parallel {
+    flex-direction: column;
+    gap: var(--space-3);
+    align-items: center;
+  }
+  .flow-branch {
+    width: 100%;
+    max-width: 280px;
+  }
+  .flow-node {
+    min-width: 100%;
+    padding: var(--space-3) var(--space-4);
+  }
+  .flow-score {
+    font-size: 18px;
+  }
+  .flow-score--combined {
+    font-size: 20px;
+  }
+}

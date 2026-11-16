@@ -1,0 +1,82 @@
+{"question": "Non-mydriatic fundus photography for 10-year-old", "category": "complications", "subcategory": "fundus_photo", "annotation_reason": "Explicit age (10), fundus"}
+{"question": "Libre 3 accuracy in 4-year-old vs 14-year-old", "category": "glucose_monitoring", "subcategory": "Libre3_age_compare", "annotation_reason": "Explicit ages (4, 14), Libre 3"}
+{"question": "Insulin-to-carb ratio by age: 4yo vs 14yo", "category": "insulin_therapy", "subcategory": "ICR_by_age", "annotation_reason": "Explicit ages (4, 14), ICR"}
+{"question": "Insulin pump adhesive issues in 9-year-old summer", "category": "insulin_therapy", "subcategory": "adhesive_summer", "annotation_reason": "Explicit age (9), summer"}
+{"question": "Bone health in T1D teen: DEXA scan indicated?", "category": "complications", "subcategory": "bone_health", "annotation_reason": "Teen = adolescent, bone health"}
+{"question": "Adolescent T2D denial of diagnosis: counseling", "category": "pediatric_t2d", "subcategory": "psychosocial", "annotation_reason": "Adolescent explicit, denial"}
+{"question": "CGM adhesive reaction in 4-year-old: barrier wipes", "category": "glucose_monitoring", "subcategory": "adhesive_barrier", "annotation_reason": "Explicit age (4), barrier"}
+{"question": "Classmate education about T1D for 6-year-old", "category": "parents_caregivers_schools", "subcategory": "classmate_education", "annotation_reason": "Explicit age (6), classmate education"}
+{"question": "International travel school trip 14-year-old T1D", "category": "parents_caregivers_schools", "subcategory": "international_trip", "annotation_reason": "Explicit age (14), international"}
+{"question": "Healthcare autonomy assessment for 17-year-old", "category": "transition", "subcategory": "autonomy_assessment", "annotation_reason": "Explicit age (17), autonomy"}
+{"question": "CGM accuracy MARD <10% for 5-year-old", "category": "glucose_monitoring", "subcategory": "MARD_10", "annotation_reason": "Explicit age (5), MARD"}
+{"question": "DKA phosphate replacement in 9-year-old", "category": "complications", "subcategory": "DKA_phosphate", "annotation_reason": "Explicit age (9), phosphate"}
+{"question": "Diabetes distress in adolescent T2D: PAID-T", "category": "pediatric_t2d", "subcategory": "psychosocial", "annotation_reason": "Adolescent explicit, diabetes distress"}
+{"question": "Post-exercise protein carb 3:1 for 15-year-old", "category": "nutrition_lifestyle", "subcategory": "post_exercise_ratio", "annotation_reason": "Explicit age (15), recovery"}
+{"question": "Fingerstick calibration for 7-year-old Dexcom G6", "category": "glucose_monitoring", "subcategory": "fingerstick_cal", "annotation_reason": "Explicit age (7), fingerstick"}
+{"question": "Support groups for teens with T1D", "category": "psychosocial", "subcategory": "support_groups", "annotation_reason": "Teens = adolescent, support groups"}
+{"question": "Concussion protocol T1D for 14-year-old football", "category": "parents_caregivers_schools", "subcategory": "concussion_T1D", "annotation_reason": "Explicit age (14), concussion"}
+{"question": "DKA insulin infusion 0.05 vs 0.1 U/kg/hr for 7-year-old", "category": "complications", "subcategory": "DKA_insulin_rate", "annotation_reason": "Explicit age (7), insulin rate"}
+{"question": "Neuropathy screening in pediatric T1D: monofilament?", "category": "pediatric_t1d", "subcategory": "chronic_complications", "annotation_reason": "Pediatric explicit, neuropathy"}
+{"question": "Menstrual cycle insulin adjustment for 15-year-old", "category": "insulin_therapy", "subcategory": "menstrual_cycle", "annotation_reason": "Explicit age (15), menstrual"}
+{"question": "Peer bullying about diabetes in 12-year-old", "category": "psychosocial", "subcategory": "bullying", "annotation_reason": "Explicit age (12), bullying"}
+{"question": "NAFLD fibrosis score in 13-year-old T2D obesity", "category": "complications", "subcategory": "NAFLD_fibrosis", "annotation_reason": "Explicit age (13), NAFLD"}
+{"question": "Dawn phenomenon vs Somogyi in 12-year-old", "category": "complications", "subcategory": "dawn_vs_somogyi", "annotation_reason": "Explicit age (12), dawn/Somogyi"}
+{"question": "Transition protocol: 17-year-old with childhood-onset T1D", "category": "transition", "subcategory": "protocol", "annotation_reason": "Explicit age (17), childhood-onset"}
+{"question": "Pharmacovigilance: SGLT2 inhibitor safety in pediatric T1D", "category": "pediatric_t1d", "subcategory": "pharmacovigilance", "annotation_reason": "Researcher + pediatric explicit"}
+{"question": "Neuropathy symptoms in a 16-year-old with T1D", "category": "complications", "subcategory": "neuropathy", "annotation_reason": "Explicit age (16), neuropathy"}
+{"question": "Grandparent T1D bootcamp for 6-year-old", "category": "parents_caregivers_schools", "subcategory": "grandparent_bootcamp", "annotation_reason": "Explicit age (6), grandparent"}
+{"question": "Lipid screening fasting vs non-fasting for 10-year-old", "category": "complications", "subcategory": "lipid_fasting", "annotation_reason": "Explicit age (10), lipid screening"}
+{"question": "Gluten-free diet growth impact in 6-year-old T1D", "category": "complications", "subcategory": "GF_diet_growth", "annotation_reason": "Explicit age (6), GF diet"}
+{"question": "Teen driving contract for 16-year-old with T1D", "category": "parents_caregivers_schools", "subcategory": "driving_contract", "annotation_reason": "Explicit age (16), driving contract"}
+{"question": "Long-term outcomes of childhood-onset T1D", "category": "complications", "subcategory": "longterm_outcomes", "annotation_reason": "Childhood-onset explicit, outcomes"}
+{"question": "CGM in classroom for 8-year-old distraction", "category": "psychosocial", "subcategory": "CGM_classroom", "annotation_reason": "Explicit age (8), classroom"}
+{"question": "Extended bolus 3 hour for 13-year-old pasta", "category": "nutrition_lifestyle", "subcategory": "extended_bolus_3hr", "annotation_reason": "Explicit age (13), extended bolus"}
+{"question": "Long-term cardiovascular outcomes youth-onset T2D", "category": "complications", "subcategory": "CV_outcomes_youth_T2D", "annotation_reason": "Youth-onset explicit, CV"}
+{"question": "Motivational interviewing for 16-year-old T1D adherence", "category": "psychosocial", "subcategory": "MI_adherence", "annotation_reason": "Explicit age (16), motivational interviewing"}
+{"question": "Contraception implant for 18-year-old T1D", "category": "transition", "subcategory": "implant_T1D", "annotation_reason": "Explicit age (18), implant"}
+{"question": "Erectile dysfunction screening in 18-year-old male T1D", "category": "complications", "subcategory": "ED_screening", "annotation_reason": "Explicit age (18), ED"}
+{"question": "Eversense E3 implantable for 16-year-old", "category": "glucose_monitoring", "subcategory": "Eversense_E3", "annotation_reason": "Explicit age (16), Eversense"}
+{"question": "Maternal diabetes in pregnancy: offspring T2D risk at age 8", "category": "pediatric_t2d", "subcategory": "risk_factors", "annotation_reason": "Explicit age (8), maternal diabetes risk"}
+{"question": "HbA1c 5.7-6.4% in 10-year-old: prediabetes management", "category": "pediatric_t2d", "subcategory": "prediabetes", "annotation_reason": "Explicit age (10), prediabetes HbA1c"}
+{"question": "Sharing CGM data with school nurse for 11-year-old", "category": "glucose_monitoring", "subcategory": "data_sharing", "annotation_reason": "School nurse + explicit age (11), data sharing"}
+{"question": "HbA1c 7.5 for 11yo - is that ok?", "category": "glucose_monitoring", "subcategory": "HbA1c", "annotation_reason": "Typo: ok + explicit age (11)"}
+{"question": "Autonomy support for 16-year-old with T2D", "category": "pediatric_t2d", "subcategory": "psychosocial", "annotation_reason": "Explicit age (16), autonomy support"}
+{"question": "Insulin pump suspend threshold for 5-year-old", "category": "insulin_therapy", "subcategory": "suspend_threshold", "annotation_reason": "Explicit age (5), suspend"}
+{"question": "Bolus insulin timing for toddler meals: pre vs post", "category": "insulin_therapy", "subcategory": "bolus", "annotation_reason": "Toddler = pediatric, bolus timing"}
+{"question": "High altitude glucose for 12-year-old ski trip", "category": "nutrition_lifestyle", "subcategory": "high_altitude", "annotation_reason": "Explicit age (12), altitude"}
+{"question": "Bone density DEXA scan for 16-year-old T1D 10 years", "category": "complications", "subcategory": "DEXA_T1D", "annotation_reason": "Explicit age (16), DEXA"}
+{"question": "Daycare diabetes plan for 3-year-old with T1D", "category": "parents_caregivers_schools", "subcategory": "daycare_plan", "annotation_reason": "Explicit age (3), daycare"}
+{"question": "PCOS and T2D in a 16-year-old girl", "category": "pediatric_t2d", "subcategory": "comorbidities", "annotation_reason": "Explicit age (16), PCOS"}
+{"question": "Sugary beverage intake and T2D risk in 12-year-old", "category": "pediatric_t2d", "subcategory": "risk_factors", "annotation_reason": "Explicit age (12), sugary drinks"}
+{"question": "CGM signal loss troubleshooting for 8-year-old", "category": "glucose_monitoring", "subcategory": "signal_loss", "annotation_reason": "Explicit age (8), signal loss"}
+{"question": "T2D screening in a 14-year-old with obesity and acanthosis", "category": "pediatric_t2d", "subcategory": "screening", "annotation_reason": "Explicit age (14), T2D screening"}
+{"question": "Diabetes camp financial aid for 11-year-old", "category": "parents_caregivers_schools", "subcategory": "camp_financial_aid", "annotation_reason": "Explicit age (11), camp aid"}
+{"question": "SMBG frequency for a 7-year-old not on CGM", "category": "pediatric_t1d", "subcategory": "glucose_monitoring", "annotation_reason": "Explicit age (7), SMBG"}
+{"question": "Growth failure in child with poorly controlled T1D", "category": "complications", "subcategory": "growth", "annotation_reason": "Child = pediatric, growth"}
+{"question": "After-school sports snacks for 13-year-old T2D", "category": "pediatric_t2d", "subcategory": "lifestyle", "annotation_reason": "Explicit age (13), sports snacks"}
+{"question": "Grandparent fears managing 5-year-old's T1D", "category": "parents_caregivers_schools", "subcategory": "grandparent_fears", "annotation_reason": "Explicit age (5), grandparent"}
+{"question": "Insulin pump X-ray/body scanner for 8-year-old", "category": "insulin_therapy", "subcategory": "Xray_safety", "annotation_reason": "Explicit age (8), X-ray"}
+{"question": "GMI higher than lab HbA1c in my 14-year-old", "category": "glucose_monitoring", "subcategory": "GMI", "annotation_reason": "Explicit age (14), GMI vs HbA1c"}
+{"question": "Transition timeline: start at 14, transfer at 18?", "category": "transition", "subcategory": "timeline", "annotation_reason": "Explicit ages (14, 18), timeline"}
+{"question": "Help! 13yo daughter skipping boluses at school", "category": "pediatric_t1d", "subcategory": "adherence", "annotation_reason": "Caregiver + explicit age (13)"}
+{"question": "Clinical trial endpoint: TIR in 6-12 year old T1D", "category": "glucose_monitoring", "subcategory": "trial_endpoint", "annotation_reason": "Researcher + explicit age range (6-12)"}
+{"question": "ADA Title II protection for 11-year-old student T1D", "category": "parents_caregivers_schools", "subcategory": "ADA_Title_II", "annotation_reason": "Explicit age (11), ADA Title II"}
+{"question": "Autoimmune gastritis parietal cell antibodies in 14-year-old", "category": "complications", "subcategory": "gastritis_PCA", "annotation_reason": "Explicit age (14), gastritis"}
+{"question": "Sibling support group for 9-year-old's brother", "category": "parents_caregivers_schools", "subcategory": "sibling_support", "annotation_reason": "Explicit age (9), sibling support"}
+{"question": "Acute management: Mini-dose glucagon protocol for 3-year-old", "category": "complications", "subcategory": "mini_glucagon", "annotation_reason": "Explicit age (3), mini-glucagon"}
+{"question": "Babysitter training guide for 4-year-old with T1D", "category": "parents_caregivers_schools", "subcategory": "babysitter_training", "annotation_reason": "Explicit age (4), babysitter"}
+{"question": "16yo driving with T1D - scary!", "category": "transition", "subcategory": "driving", "annotation_reason": "Caregiver + explicit age (16), driving"}
+{"question": "Katie Beckett waiver for 7-year-old T1D", "category": "parents_caregivers_schools", "subcategory": "Katie_Beckett", "annotation_reason": "Explicit age (7), Katie Beckett"}
+{"question": "Long-acting insulin backup for pump user 13-year-old", "category": "insulin_therapy", "subcategory": "basal_backup", "annotation_reason": "Explicit age (13), backup"}
+{"question": "Peds endo rec for 8yo new T1D", "category": "pediatric_t1d", "subcategory": "peds_endo", "annotation_reason": "Abbreviations + explicit age (8)"}
+{"question": "Health equity: T2D screening disparities in adolescents", "category": "pediatric_t2d", "subcategory": "health_equity", "annotation_reason": "Researcher + adolescents explicit"}
+{"question": "SSI disability benefits 18-year-old T1D", "category": "transition", "subcategory": "SSI_18", "annotation_reason": "Explicit age (18), SSI"}
+{"question": "CGM trend arrows for bolus decision in 13-year-old", "category": "glucose_monitoring", "subcategory": "trend_arrows", "annotation_reason": "Explicit age (13), trend arrows"}
+{"question": "Blood ketone threshold for DKA risk in 8-year-old", "category": "glucose_monitoring", "subcategory": "blood_ketone_DKA", "annotation_reason": "Explicit age (8), blood ketone"}
+{"question": "Cost-effectiveness: CGM vs SMBG in pediatric T1D", "category": "glucose_monitoring", "subcategory": "cost_effectiveness", "annotation_reason": "Researcher + pediatric explicit"}
+{"question": "Insulin pump vs shots for my 12 yr old", "category": "insulin_therapy", "subcategory": "pump_vs_shots", "annotation_reason": "Typo: yr + explicit age (12)"}
+{"question": "Dexcom G7 MARD in 6yo", "category": "glucose_monitoring", "subcategory": "MARD", "annotation_reason": "Abbreviations + explicit age (6)"}
+{"question": "Device registry: Pump failure rates in 5-15 year olds", "category": "insulin_therapy", "subcategory": "device_registry", "annotation_reason": "Researcher + explicit age range (5-15)"}
+{"question": "Therapy for diabetes distress in 15-year-old", "category": "psychosocial", "subcategory": "therapy", "annotation_reason": "Explicit age (15), therapy"}
+{"question": "Diabetic ketoacidosis in toddler: fluid management", "category": "complications", "subcategory": "DKA_toddler", "annotation_reason": "Toddler = pediatric, DKA fluids"}
+{"question": "Sleepover food plan for 8-year-old", "category": "nutrition_lifestyle", "subcategory": "sleepover_food", "annotation_reason": "Explicit age (8), sleepover"}

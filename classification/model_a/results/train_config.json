@@ -1,0 +1,18 @@
+{
+  "model_id": "model_a",
+  "pretrained_checkpoint": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+  "dataset": "A",
+  "epochs": 5,
+  "batch_size": 4,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "max_length": 256,
+  "seed": 42,
+  "class_weights": [
+    0.7,
+    1.75
+  ],
+  "device": "cpu",
+  "total_steps": 700,
+  "training_loss": 0.32518447671684303
+}

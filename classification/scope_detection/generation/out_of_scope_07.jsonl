@@ -1,0 +1,80 @@
+{"question": "Mom with T2D: gestational diabetes recurrence risk", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Mom explicit, own T2D = adult"}
+{"question": "Dual GIP/GLP-1 for 50-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 50, dual agonist adult"}
+{"question": "Adult T1D misdiagnosis as T2D: how common", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Adult population explicit, misdiagnosis"}
+{"question": "T2D screening age 45: USPSTF guidelines", "category": "adult_diabetes", "subcategory": "t2d_screening", "annotation_reason": "Explicit age 45, adult screening"}
+{"question": "T1D and career: shift work at 40", "category": "adult_diabetes", "subcategory": "t1d_lifestyle", "annotation_reason": "Explicit age 40, adult shift work"}
+{"question": "Cognitive decline in 70-year-old with longstanding T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 70, elderly cognitive"}
+{"question": "T1D diagnosis at 60: atypical presentation", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Explicit age 60, elderly T1D"}
+{"question": "Diabetic foot risk classification in 60-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 60, foot risk adult"}
+{"question": "Fear of hypoglycemia in 50-year-old T2D on insulin", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Explicit age 50, fear hypo adult"}
+{"question": "Frailty index and diabetes in 75-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 75, frailty adult"}
+{"question": "Pregnant with T1D at 35: my A1c targets", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Pregnant at 35 explicit, own T1D = adult"}
+{"question": "T1D and osteoporosis risk in 60-year-old woman", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 60, osteoporosis"}
+{"question": "T2D and cognitive decline in 65-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 65, cognitive adult"}
+{"question": "Fasting glucose 126 in 60-year-old: confirm T2D?", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 60, adult T2D"}
+{"question": "Insulin sensitivity factor calculation for 45-year-old", "category": "adult_diabetes", "subcategory": "t1d_treatment", "annotation_reason": "Explicit age 45, adult ISF"}
+{"question": "Charcot foot in 55-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 55, Charcot adult"}
+{"question": "Dad T1D: genetic risk for my children", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Dad explicit, own T1D = adult"}
+{"question": "Monogenic diabetes MODY in 30-year-old", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 30, MODY adult"}
+{"question": "GAD65 antibody positive at 45: T1D confirmed?", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Explicit age 45, antibody testing"}
+{"question": "Diabetes self-management education for 45-year-old", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Explicit age 45, DSME adult"}
+{"question": "HHS in 75-year-old with T2D: mortality risk", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 75, elderly HHS"}
+{"question": "Depression screening in adults with T2D", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Adults explicit, depression"}
+{"question": "Travel insurance for 32-year-old with T1D", "category": "adult_diabetes", "subcategory": "t1d_lifestyle", "annotation_reason": "Explicit age 32, adult travel"}
+{"question": "GLP-1 RA for weight loss in 45-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 45, adult GLP-1"}
+{"question": "SGLT2 inhibitor in 70-year-old with T2D and CKD", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 70, elderly SGLT2"}
+{"question": "Falls risk in 72-year-old with T2D and neuropathy", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 72, falls adult"}
+{"question": "T1D and hearing loss in 50-year-old", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 50, hearing loss"}
+{"question": "T2D in 35-year-old postpartum woman", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 35, postpartum adult"}
+{"question": "Basal-bolus regimen for 28-year-old T1D", "category": "adult_diabetes", "subcategory": "t1d_treatment", "annotation_reason": "Explicit age 28, adult T1D treatment"}
+{"question": "Frozen shoulder in 50-year-old with T1D", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 50, frozen shoulder"}
+{"question": "DPP-4 inhibitor in 80-year-old with T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 80, elderly DPP-4"}
+{"question": "Exercise management for 30-year-old T1D marathoner", "category": "adult_diabetes", "subcategory": "t1d_lifestyle", "annotation_reason": "Explicit age 30, adult exercise"}
+{"question": "T2D remission with very low calorie diet 40yo", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 40, remission adult"}
+{"question": "Social determinants of health T2D in 35-year-old", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Explicit age 35, SDOH adult"}
+{"question": "Female sexual dysfunction T2D in 45-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 45, FSD adult"}
+{"question": "Basal insulin titration for 55-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 55, adult basal titration"}
+{"question": "T1D burnout in 35-year-old working professional", "category": "adult_diabetes", "subcategory": "t1d_psychosocial", "annotation_reason": "Explicit age 35, adult burnout"}
+{"question": "Menopause and T1D insulin needs at 52", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 52, menopause"}
+{"question": "Metabolic syndrome criteria for 45-year-old male", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 45, adult metabolic syndrome"}
+{"question": "I'm a mom with T2D, what's my HbA1c target?", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T2D = adult"}
+{"question": "Cardiovascular risk reduction in 55-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 55, adult CVD"}
+{"question": "Tirzepatide for 40-year-old T2D obesity", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 40, tirzepatide adult"}
+{"question": "Frailty and diabetes management in 85-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 85, frailty"}
+{"question": "Time in range targets for adult T2D on metformin", "category": "adult_diabetes", "subcategory": "t2d_monitoring", "annotation_reason": "Adult explicit, TIR"}
+{"question": "Adult T1D dental health: periodontal disease", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Adult explicit, dental"}
+{"question": "Parent with T1D: nighttime CGM alerts for me", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T1D = adult"}
+{"question": "Pancreatic diabetes in 55-year-old post-Whipple", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 55, pancreatic diabetes"}
+{"question": "T2D risk factors in 40-year-old with family history", "category": "adult_diabetes", "subcategory": "t2d_risk", "annotation_reason": "Explicit age 40, adult risk factors"}
+{"question": "Adult T1D support group for 30-year-olds", "category": "adult_diabetes", "subcategory": "t1d_psychosocial", "annotation_reason": "Explicit age 30, adult support group"}
+{"question": "Adult T1D retinopathy screening intervals", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Adult explicit, retinopathy"}
+{"question": "Autonomic neuropathy in 45-year-old T1D", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 45, autonomic neuropathy"}
+{"question": "Foot ulcer management in 70-year-old diabetic", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 70, elderly foot ulcer"}
+{"question": "Smart insulin pen for 40-year-old T2D data sharing", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 40, smart pen adult"}
+{"question": "Adult T1D incidence rising in 20s and 30s", "category": "adult_diabetes", "subcategory": "t1d_epidemiology", "annotation_reason": "Adult ages explicit, epidemiology"}
+{"question": "Diabetes prevention program for 55-year-old with prediabetes", "category": "adult_diabetes", "subcategory": "t2d_prevention", "annotation_reason": "Explicit age 55, adult prevention"}
+{"question": "Insulin degludec vs glargine U300 for 60yo T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 60, insulin comparison adult"}
+{"question": "Breastfeeding with T2D medications: mom 32", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Mom age 32 explicit, own T2D = adult"}
+{"question": "Metformin first-line for 65-year-old with T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 65, elderly metformin"}
+{"question": "Lean T2D in 35-year-old Asian patient", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 35, adult lean T2D"}
+{"question": "Steroid-induced diabetes in 50-year-old", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 50, steroid-induced"}
+{"question": "Adult-onset T1D genetic risk factors", "category": "adult_diabetes", "subcategory": "t1d_genetics", "annotation_reason": "Adult-onset explicit, genetics"}
+{"question": "Peripheral neuropathy treatment in 65-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 65, elderly neuropathy"}
+{"question": "T2D remission after bariatric surgery at 50", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 50, adult bariatric"}
+{"question": "Nephropathy progression adult T1D 20-year duration", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Adult explicit, nephropathy"}
+{"question": "My insulin pump vs my child's: different tech", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own pump = adult"}
+{"question": "Cystic fibrosis related diabetes in 28-year-old", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 28, CFRD adult"}
+{"question": "COPD exacerbation management in 70-year-old", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 70, adult COPD"}
+{"question": "65-year-old T2D: deintensification HbA1c 8%", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 65, elderly deintensification"}
+{"question": "HbA1c target 8% for 75-year-old with T2D", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 75, elderly HbA1c target"}
+{"question": "42-year-old T2D: GLP-1 for weight loss", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 42, adult GLP-1 weight"}
+{"question": "Bariatric surgery T2D remission 35-year-old", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 35, bariatric adult"}
+{"question": "Erectile dysfunction T2D in 50-year-old male", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 50, ED adult"}
+{"question": "General knowledge: insulin is a peptide hormone", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Peptide hormone = general"}
+{"question": "Hypoglycemia unawareness in 65-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 65, hypo unawareness adult"}
+{"question": "74-year-old T2D: continuous glucose monitor", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 74, CGM elderly"}
+{"question": "Cycling Tour de France diabetic team Novo Nordisk", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Tour de France team = sports"}
+{"question": "41-year-old T1D: pregnancy planning preconception", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 41, adult preconception"}
+{"question": "73-year-old T1D: hypoglycemia unawareness risk", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 73, elderly hypo unawareness"}
+{"question": "Chromium picolinate 1000mcg IR 45-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, chromium adult"}
+{"question": "79-year-old T2D: comfort-focused targets", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 79, elderly comfort targets"}

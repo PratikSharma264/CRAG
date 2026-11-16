@@ -1,0 +1,76 @@
+{"question": "Job interview disclosure T1D for 20-year-old", "category": "psychosocial", "subcategory": "job_interview", "annotation_reason": "Explicit age (20), job interview"}
+{"question": "Health insurance marketplace 22-year-old T1D", "category": "psychosocial", "subcategory": "insurance_marketplace", "annotation_reason": "Explicit age (22), insurance"}
+{"question": "Hard seltzer carb count for 19-year-old T1D", "category": "nutrition_lifestyle", "subcategory": "hard_seltzer", "annotation_reason": "Explicit age (19), hard seltzer"}
+{"question": "Beer carbs vs insulin for 20-year-old T1D", "category": "nutrition_lifestyle", "subcategory": "beer_carbs", "annotation_reason": "Explicit age (20), beer"}
+{"question": "Pump supply coverage private insurance 20-year-old", "category": "psychosocial", "subcategory": "pump_insurance_private", "annotation_reason": "Explicit age (20), private insurance"}
+{"question": "Commercial driver license T1D for 19-year-old", "category": "psychosocial", "subcategory": "CDL_T1D", "annotation_reason": "Explicit age (19), CDL"}
+{"question": "Military service T1D waiver for 19-year-old", "category": "psychosocial", "subcategory": "military_waiver", "annotation_reason": "Explicit age (19), military"}
+{"question": "Workplace accommodations T1D for 21-year-old", "category": "psychosocial", "subcategory": "workplace_accommodations", "annotation_reason": "Explicit age (21), workplace"}
+{"question": "Insulin affordability for 19-year-old college student", "category": "psychosocial", "subcategory": "insulin_affordability", "annotation_reason": "Explicit age (19), insulin cost"}
+{"question": "Preconception counseling for 20-year-old with T1D", "category": "transition", "subcategory": "preconception", "annotation_reason": "Explicit age (20), preconception"}
+{"question": "Job disclosure of T1D for 21-year-old", "category": "transition", "subcategory": "job_disclosure", "annotation_reason": "Explicit age (21), job disclosure"}
+{"question": "Pregnancy in 19-year-old with T1D: high-risk OB", "category": "transition", "subcategory": "pregnancy", "annotation_reason": "Explicit age (19), pregnancy"}
+{"question": "Transition outcomes: Structured vs standard care for 18-22 year olds", "category": "transition", "subcategory": "transition_outcomes", "annotation_reason": "Researcher + explicit age range (18-22)"}
+{"question": "Insurance coverage for 22-year-old with T1D aging off parents", "category": "transition", "subcategory": "insurance", "annotation_reason": "Explicit age (22), insurance"}
+{"question": "Adult endocrinologist first visit prep for 19-year-old", "category": "transition", "subcategory": "adult_endo_prep", "annotation_reason": "Explicit age (19), adult endo prep"}
+{"question": "Freelance health insurance T1D for 23-year-old", "category": "transition", "subcategory": "freelance_insurance", "annotation_reason": "Explicit age (23), freelance"}
+{"question": "Entrepreneurship T1D insurance for 22-year-old", "category": "transition", "subcategory": "entrepreneurship_insurance", "annotation_reason": "Explicit age (22), entrepreneurship"}
+{"question": "Transition outcomes research 5-year follow-up 23yo", "category": "transition", "subcategory": "outcomes_research", "annotation_reason": "Explicit age (23), outcomes research"}
+{"question": "ABLE account for 20-year-old T1D", "category": "transition", "subcategory": "ABLE_account", "annotation_reason": "Explicit age (20), ABLE"}
+{"question": "Study abroad T1D supplies for 20-year-old", "category": "transition", "subcategory": "study_abroad", "annotation_reason": "Explicit age (20), study abroad"}
+{"question": "Advance directive for 20-year-old T1D", "category": "transition", "subcategory": "advance_directive", "annotation_reason": "Explicit age (20), advance directive"}
+{"question": "Campus health center T1D care for 19-year-old", "category": "transition", "subcategory": "campus_health", "annotation_reason": "Explicit age (19), campus health"}
+{"question": "Contraception IUD for 19-year-old T1D", "category": "transition", "subcategory": "IUD_T1D", "annotation_reason": "Explicit age (19), IUD"}
+{"question": "Insurance continuity age 26 for 24-year-old T1D", "category": "transition", "subcategory": "insurance_age26", "annotation_reason": "Explicit age (24), insurance 26"}
+{"question": "Medical decision making capacity for 19-year-old", "category": "transition", "subcategory": "medical_capacity", "annotation_reason": "Explicit age (19), capacity"}
+{"question": "Medicaid aging out 19-year-old T1D", "category": "transition", "subcategory": "Medicaid_aging_out", "annotation_reason": "Explicit age (19), Medicaid"}
+{"question": "Vocational rehabilitation for 20-year-old T1D", "category": "transition", "subcategory": "voc_rehab", "annotation_reason": "Explicit age (20), voc rehab"}
+{"question": "Trade school T1D accommodations for 19-year-old", "category": "transition", "subcategory": "trade_school", "annotation_reason": "Explicit age (19), trade school"}
+{"question": "Pregnancy planning T1D 21-year-old retinopathy", "category": "transition", "subcategory": "pregnancy_retinopathy", "annotation_reason": "Explicit age (21), pregnancy retinopathy"}
+{"question": "Supported decision making 19-year-old T1D", "category": "transition", "subcategory": "supported_decision", "annotation_reason": "Explicit age (19), supported decision"}
+{"question": "Semaglutide pill T1D 20yo", "category": "transition", "subcategory": "semaglutide_pill", "annotation_reason": "Explicit age (20), semaglutide pill"}
+{"question": "Buttock site CGM 20yo T1D", "category": "transition", "subcategory": "buttock_site", "annotation_reason": "Explicit age (20), buttock"}
+{"question": "Study abroad Italy T1D 20yo", "category": "transition", "subcategory": "study_abroad_Italy", "annotation_reason": "Explicit age (20), study abroad"}
+{"question": "Transmitter out of warranty 19yo", "category": "transition", "subcategory": "transmitter_warranty", "annotation_reason": "Explicit age (19), transmitter warranty"}
+{"question": "Drunk and low at party 20yo T1D", "category": "transition", "subcategory": "party_low", "annotation_reason": "Explicit age (20), alcohol low"}
+{"question": "Allergic reaction adhesive 19yo", "category": "transition", "subcategory": "adhesive_allergy", "annotation_reason": "Explicit age (19), adhesive allergy"}
+{"question": "Spevigo injection T1D 19yo", "category": "transition", "subcategory": "Spevigo", "annotation_reason": "Explicit age (19), Spevigo"}
+{"question": "Barrier wipe CGM 20yo T1D", "category": "transition", "subcategory": "barrier_wipe", "annotation_reason": "Explicit age (20), barrier wipe"}
+{"question": "Pharmacy prescription transfer 20yo T1D", "category": "transition", "subcategory": "rx_transfer", "annotation_reason": "Explicit age (20), prescription transfer"}
+{"question": "Tegaderm HP CGM 21yo T1D", "category": "transition", "subcategory": "Tegaderm_HP", "annotation_reason": "Explicit age (21), Tegaderm"}
+{"question": "GoodRx insulin coupon 19yo T1D", "category": "transition", "subcategory": "GoodRx", "annotation_reason": "Explicit age (19), GoodRx"}
+{"question": "Brexucabtagene T1D 21yo", "category": "transition", "subcategory": "brexucabtagene", "annotation_reason": "Explicit age (21), brexucabtagene"}
+{"question": "CGM coverage new insurance 19yo", "category": "transition", "subcategory": "CGM_new_insurance", "annotation_reason": "Explicit age (19), CGM coverage"}
+{"question": "Pramlintide T1D 20yo", "category": "transition", "subcategory": "pramlintide_T1D", "annotation_reason": "Explicit age (20), pramlintide"}
+{"question": "Spring break T1D supplies 19yo", "category": "transition", "subcategory": "spring_break", "annotation_reason": "Explicit age (19), spring break"}
+{"question": "Weekly insulin icodec 19yo T1D", "category": "transition", "subcategory": "icodec", "annotation_reason": "Explicit age (19), icodec"}
+{"question": "Phone app crash CGM 20yo", "category": "transition", "subcategory": "app_crash", "annotation_reason": "Explicit age (20), app crash"}
+{"question": "Teplizumab prevention 19yo sibling", "category": "transition", "subcategory": "teplizumab", "annotation_reason": "Explicit age (19), teplizumab"}
+{"question": "International travel insurance T1D 21yo", "category": "transition", "subcategory": "intl_insurance", "annotation_reason": "Explicit age (21), travel insurance"}
+{"question": "Rituximab honeymoon 19yo T1D", "category": "transition", "subcategory": "rituximab", "annotation_reason": "Explicit age (19), rituximab"}
+{"question": "TrialNet screening 19yo sibling", "category": "transition", "subcategory": "TrialNet", "annotation_reason": "Explicit age (19), TrialNet"}
+{"question": "Pathway to prevention 20yo", "category": "transition", "subcategory": "pathway_prevention", "annotation_reason": "Explicit age (20), pathway to prevention"}
+{"question": "Symlin T1D 21yo", "category": "transition", "subcategory": "Symlin_T1D", "annotation_reason": "Explicit age (21), Symlin"}
+{"question": "Lost insulin abroad 19yo T1D", "category": "transition", "subcategory": "lost_insulin", "annotation_reason": "Explicit age (19), lost insulin"}
+{"question": "Abatacept honeymoon 20yo T1D", "category": "transition", "subcategory": "abatacept", "annotation_reason": "Explicit age (20), abatacept"}
+{"question": "Insulin cost $0 copay 22yo T1D", "category": "transition", "subcategory": "insulin_copay", "annotation_reason": "Explicit age (22), insulin cost"}
+{"question": "Rotation schedule 20yo pump sites", "category": "transition", "subcategory": "rotation_schedule", "annotation_reason": "Explicit age (20), rotation"}
+{"question": "CGM sensor failure 20yo T1D", "category": "transition", "subcategory": "CGM_failure", "annotation_reason": "Explicit age (20), CGM failure"}
+{"question": "Data gap CGM 19yo T1D", "category": "transition", "subcategory": "data_gap", "annotation_reason": "Explicit age (19), data gap"}
+{"question": "Sensor wire kink 21yo T1D", "category": "transition", "subcategory": "wire_kink", "annotation_reason": "Explicit age (21), wire kink"}
+{"question": "CGM calibration error 20yo", "category": "transition", "subcategory": "cal_error", "annotation_reason": "Explicit age (20), calibration error"}
+{"question": "Dining hall carb counts 19yo T1D", "category": "transition", "subcategory": "dining_hall", "annotation_reason": "Explicit age (19), dining hall"}
+{"question": "Roommate doesn't get my T1D 19yo", "category": "transition", "subcategory": "roommate_understanding", "annotation_reason": "Explicit age (19), roommate"}
+{"question": "Baqsimi OTC 2024 19yo T1D", "category": "transition", "subcategory": "Baqsimi_OTC", "annotation_reason": "Explicit age (19), Baqsimi OTC"}
+{"question": "Clinical trial T1D 20yo", "category": "transition", "subcategory": "clinical_trial", "annotation_reason": "Explicit age (20), clinical trial"}
+{"question": "Lipohypertrophy lump 20yo T1D", "category": "transition", "subcategory": "lipohypertrophy_lump", "annotation_reason": "Explicit age (20), lipohypertrophy"}
+{"question": "New endo first visit 22yo T1D", "category": "transition", "subcategory": "new_endo_visit", "annotation_reason": "Explicit age (22), new endo"}
+{"question": "Mark Cuban Cost Plus insulin 20yo", "category": "transition", "subcategory": "CostPlus", "annotation_reason": "Explicit age (20), Cost Plus"}
+{"question": "Insurance prior auth new plan 20yo T1D", "category": "transition", "subcategory": "prior_auth_new", "annotation_reason": "Explicit age (20), prior auth"}
+{"question": "Insulin efsitora alfa 19yo", "category": "transition", "subcategory": "efsitora", "annotation_reason": "Explicit age (19), efsitora alfa"}
+{"question": "Tzield prophylaxis 21yo at-risk", "category": "transition", "subcategory": "Tzield", "annotation_reason": "Explicit age (21), Tzield"}
+{"question": "Oral GLP-1 T1D 19yo", "category": "transition", "subcategory": "oral_GLP1", "annotation_reason": "Explicit age (19), oral GLP-1"}
+{"question": "Scar tissue absorption 19yo pump", "category": "transition", "subcategory": "scar_tissue", "annotation_reason": "Explicit age (19), scar tissue"}
+{"question": "Teplizumab FDA approved 20yo sibling", "category": "transition", "subcategory": "teplizumab_FDA", "annotation_reason": "Explicit age (20), teplizumab FDA"}
+{"question": "Emergency insulin supply 19yo T1D", "category": "transition", "subcategory": "emergency_supply", "annotation_reason": "Explicit age (19), emergency supply"}
+{"question": "Patient assistance reapply 20yo T1D", "category": "transition", "subcategory": "PAP_reapply", "annotation_reason": "Explicit age (20), PAP reapply"}

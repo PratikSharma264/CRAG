@@ -5,7 +5,9 @@ Each check evaluates a specific aspect of evidence sufficiency and returns
 a standardized result. Checks are designed to be pluggable and independent.
 """
 
+import json
 import logging
+import os
 import threading
 from dataclasses import dataclass
 from pathlib import Path
@@ -272,5 +274,215 @@ class CosineCheck:
                 "similarity": round(similarity, 4),
                 "raw_similarity": round(raw_similarity, 4),
                 "passage_used": 1,
+            }
+        )
+
+
+# ============================================================
+# LLM Judge Check (Gemini and Groq backends)
+# ============================================================
+
+
+class LLMJudgeError(SufficiencyError):
+    """LLM Judge check failed."""
+    pass
+
+
+def _build_judge_prompt(question: str, passage: str) -> str:
+    return f"""You are an evidence sufficiency evaluator for a medical RAG system.
+
+TASK: Rate how well the retrieved passage answers the question on a scale from 0.0 to 1.0.
+
+QUESTION: {question}
+
+RETRIEVED PASSAGE:
+{passage}
+
+CRITERIA:
+- 1.0: Passage directly and completely answers the question with specific, relevant information
+- 0.7-0.9: Passage answers most of the question but misses some details
+- 0.4-0.6: Passage is partially relevant but incomplete or vague
+- 0.1-0.3: Passage is minimally relevant or only tangentially related
+- 0.0: Passage is off-topic, lacks the specific info asked, or says "not available"
+
+Use the full range. Do not default to 0 or 1 unless the passage clearly deserves it.
+
+Return JSON only:
+{{
+    "sufficiency_score": <number between 0.0 and 1.0>,
+    "reason": "Brief explanation"
+}}"""
+
+def _parse_judge_response(text: str) -> tuple[float, str]:
+    if not text:
+        raise LLMJudgeError("Judge returned empty response")
+
+    result = json.loads(text)
+
+    if not isinstance(result, dict):
+        raise LLMJudgeError("Judge response is not a JSON object")
+
+    score = result.get("sufficiency_score")
+    reason = result.get("reason", "")
+
+    if score is None:
+        raise LLMJudgeError("Missing 'sufficiency_score' in response")
+
+    try:
+        score = float(score)
+    except (ValueError, TypeError):
+        raise LLMJudgeError(f"Invalid score type: {type(score)}")
+
+    if not (0.0 <= score <= 1.0):
+        raise LLMJudgeError(f"Score must be in [0, 1], got: {score}")
+
+    return score, reason
+
+class _GeminiJudge:
+    """Gemini-backed judge implementation."""
+
+    def __init__(self):
+        self.api_key = os.getenv("GEMINI_API_KEY")
+        self.model = config.LLM_JUDGE_MODEL
+        self.timeout = config.LLM_JUDGE_TIMEOUT_SECONDS
+        self._client = None
+        self._client_lock = threading.Lock()
+
+    def _get_client(self):
+        """Lazy-load Gemini client."""
+        if self._client is None:
+            with self._client_lock:
+                if self._client is None:
+                    from google import genai
+                    if not self.api_key:
+                        raise LLMJudgeError("GEMINI_API_KEY not set")
+                    self._client = genai.Client(api_key=self.api_key)
+        return self._client
+
+    def evaluate(self, question: str, passage: str) -> tuple[int, str]:
+        """Call Gemini API and parse response."""
+        from google.genai import types
+
+        client = self._get_client()
+        prompt = _build_judge_prompt(question, passage)
+
+        response = client.models.generate_content(
+            model=self.model,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                temperature=0,
+            ),
+        )
+
+        if not response.text:
+            raise LLMJudgeError("Gemini returned empty response")
+
+        return _parse_judge_response(response.text)
+
+
+class _GroqJudge:
+    """Groq-backed judge implementation."""
+
+    def __init__(self):
+        self.api_key = os.getenv("GROQ_API_KEY")
+        self.model = config.LLM_JUDGE_GROQ_MODEL
+        self.url = config.GROQ_URL
+        self.timeout = config.LLM_JUDGE_TIMEOUT_SECONDS
+        self._client = None
+        self._client_lock = threading.Lock()
+
+    def _get_client(self):
+        """Lazy-load Groq client."""
+        if self._client is None:
+            with self._client_lock:
+                if self._client is None:
+                    from groq import Groq
+                    if not self.api_key:
+                        raise LLMJudgeError("GROQ_API_KEY not set")
+                    self._client = Groq(api_key=self.api_key, timeout=self.timeout)
+        return self._client
+
+    def evaluate(self, question: str, passage: str) -> tuple[int, str]:
+        """Call Groq API and parse response."""
+        import httpx
+
+        client = self._get_client()
+
+        prompt = _build_judge_prompt(question, passage)
+
+        # Use the Groq client (OpenAI-compatible)
+        response = client.chat.completions.create(
+            model=self.model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0,
+            response_format={"type": "json_object"},
+        )
+
+        if not response.choices or not response.choices[0].message.content:
+            raise LLMJudgeError("Groq returned empty response")
+
+        return _parse_judge_response(response.choices[0].message.content)
+
+
+class LLMJudgeCheck:
+    """Evidence sufficiency check using LLM (Gemini or Groq) as judge on question + passage_1."""
+
+    name = "llm_judge"
+
+    def __init__(self):
+        self.provider = config.LLM_JUDGE_PROVIDER
+        if self.provider == "gemini":
+            self._backend = _GeminiJudge()
+        elif self.provider == "groq":
+            self._backend = _GroqJudge()
+        else:
+            raise LLMJudgeError(f"Unknown LLM_JUDGE_PROVIDER: {self.provider}")
+
+    def evaluate(self, question: str, hits: list[dict]) -> CheckResult:
+        """
+        Evaluate evidence sufficiency using LLM judge.
+
+        Args:
+            question: The user's question.
+            hits: Retrieved passages from ChromaDB (must have at least 1 hit).
+
+        Returns:
+            CheckResult with binary score (0.0 or 1.0) and details.
+        """
+        if not hits:
+            raise LLMJudgeError("No passages retrieved; cannot evaluate LLM judge")
+
+        passage = hits[0].get("content", "")
+        if not passage:
+            raise LLMJudgeError("Passage 1 content is empty")
+
+        prompt = _build_judge_prompt(question, passage)
+        try:
+            label, reason = self._backend.evaluate(question, passage)
+            judge_status = "done"
+        except LLMJudgeError:
+            raise
+        except Exception as e:
+            # Check for 429 quota exceeded
+            error_text = str(e)
+            if "429" in error_text and ("quota" in error_text.lower() or "resource_exhausted" in error_text.lower() or "rate limit" in error_text.lower()):
+                raise LLMJudgeError(f"quota_exceeded: {error_text}") from e
+            # Re-raise with the actual error message for better debugging
+            raise LLMJudgeError(f"{type(e).__name__}: {error_text}") from e
+
+        # Binary score: 1.0 for sufficient, 0.0 for insufficient
+        score = float(label)
+
+        return CheckResult(
+            name=self.name,
+            score=score,
+            details={
+                "label": label,
+                "reason": reason,
+                "model": self._backend.model,
+                "provider": self.provider,
+                "passage_used": 1,
+                "status": judge_status,
             }
         )

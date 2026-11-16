@@ -1,0 +1,37 @@
+{
+  "started_at": "2026-11-08T20:41:03.721886",
+  "models": {
+    "A": {
+      "train_exit_code": -1,
+      "train_output_tail": "'charmap' codec can't encode characters in position 54-63: character maps to <undefined>",
+      "train_completed": false,
+      "eval_completed": false,
+      "eval_skipped": true
+    },
+    "B": {
+      "train_exit_code": -1,
+      "train_output_tail": "'charmap' codec can't encode characters in position 54-63: character maps to <undefined>",
+      "train_completed": false,
+      "eval_completed": false,
+      "eval_skipped": true
+    },
+    "C": {
+      "train_exit_code": -1,
+      "train_output_tail": "'charmap' codec can't encode characters in position 54-63: character maps to <undefined>",
+      "train_completed": false,
+      "eval_completed": false,
+      "eval_skipped": true
+    }
+  },
+  "comparison": {
+    "completed": false,
+    "reason": "insufficient evaluation results"
+  },
+  "errors": [
+    "Model A training failed with exit code -1",
+    "Model B training failed with exit code -1",
+    "Model C training failed with exit code -1"
+  ],
+  "completed_at": "2026-11-08T20:49:56.992463",
+  "total_errors": 3
+}

@@ -1,0 +1,99 @@
+{"question": "Mini-dose glucagon protocol for 3-year-old", "category": "insulin_therapy", "subcategory": "mini_glucagon", "annotation_reason": "Explicit age (3), mini-glucagon"}
+{"question": "Cosentyx injection T1D 20yo", "category": "transition", "subcategory": "Cosentyx", "annotation_reason": "Explicit age (20), Cosentyx"}
+{"question": "Ilaris injection T1D 20yo", "category": "transition", "subcategory": "Ilaris", "annotation_reason": "Explicit age (20), Ilaris"}
+{"question": "Taltz injection T1D 21yo", "category": "transition", "subcategory": "Taltz", "annotation_reason": "Explicit age (21), Taltz"}
+{"question": "Smart insulin T1D 20yo", "category": "transition", "subcategory": "smart_insulin", "annotation_reason": "Explicit age (20), smart insulin"}
+{"question": "Tirzepatide T1D 21yo", "category": "transition", "subcategory": "tirzepatide_T1D", "annotation_reason": "Explicit age (21), tirzepatide"}
+{"question": "IV3000 tape pump 20yo T1D", "category": "transition", "subcategory": "IV3000", "annotation_reason": "Explicit age (20), IV3000"}
+{"question": "JAK inhibitor T1D 20yo", "category": "transition", "subcategory": "JAK_inhibitor", "annotation_reason": "Explicit age (20), JAK inhibitor"}
+{"question": "Amylin analog T1D 19yo", "category": "transition", "subcategory": "amylin_analog", "annotation_reason": "Explicit age (19), amylin analog"}
+{"question": "Olumiant tablet 19yo T1D", "category": "transition", "subcategory": "Olumiant", "annotation_reason": "Explicit age (19), Olumiant"}
+{"question": "Tremfya injection T1D 20yo", "category": "transition", "subcategory": "Tremfya", "annotation_reason": "Explicit age (20), Tremfya"}
+{"question": "Filgotinib T1D 19yo", "category": "transition", "subcategory": "filgotinib", "annotation_reason": "Explicit age (19), filgotinib"}
+{"question": "Cavilon barrier film 20yo pump", "category": "transition", "subcategory": "Cavilon", "annotation_reason": "Explicit age (20), Cavilon"}
+{"question": "Tofacitinib T1D 20yo", "category": "transition", "subcategory": "tofacitinib", "annotation_reason": "Explicit age (20), tofacitinib"}
+{"question": "Upadacitinib ER T1D 21yo", "category": "transition", "subcategory": "upadacitinib_ER", "annotation_reason": "Explicit age (21), upadacitinib ER"}
+{"question": "Arm vs abdomen sites 21yo CGM", "category": "transition", "subcategory": "arm_abdomen", "annotation_reason": "Explicit age (21), arm vs abdomen"}
+{"question": "Golimumab honeymoon 19yo T1D", "category": "transition", "subcategory": "golimumab", "annotation_reason": "Explicit age (19), golimumab"}
+{"question": "Coban wrap site 21yo T1D", "category": "transition", "subcategory": "Coban_wrap", "annotation_reason": "Explicit age (21), Coban"}
+{"question": "Tape sensitivity rash 20yo T1D", "category": "transition", "subcategory": "tape_rash", "annotation_reason": "Explicit age (20), tape rash"}
+{"question": "Autoantibody positive 21yo teplizumab", "category": "transition", "subcategory": "autoantibody_teplizumab", "annotation_reason": "Explicit age (21), autoantibody positive"}
+{"question": "Sotyktu tablet T1D 21yo", "category": "transition", "subcategory": "Sotyktu", "annotation_reason": "Explicit age (21), Sotyktu"}
+{"question": "Rinvoq ER T1D 21yo", "category": "transition", "subcategory": "Rinvoq_ER", "annotation_reason": "Explicit age (21), Rinvoq ER"}
+{"question": "Arcalyst injection T1D 19yo", "category": "transition", "subcategory": "Arcalyst", "annotation_reason": "Explicit age (19), Arcalyst"}
+{"question": "ATG honeymoon 21yo T1D", "category": "transition", "subcategory": "ATG", "annotation_reason": "Explicit age (21), ATG"}
+{"question": "Mastisol liquid adhesive 19yo", "category": "transition", "subcategory": "Mastisol", "annotation_reason": "Explicit age (19), Mastisol"}
+{"question": "Baricitinib T1D 21yo", "category": "transition", "subcategory": "baricitinib", "annotation_reason": "Explicit age (21), baricitinib"}
+{"question": "Dermatologist referral 20yo pump", "category": "transition", "subcategory": "derm_referral", "annotation_reason": "Explicit age (20), derm referral"}
+{"question": "Ketone meter strips 20yo T1D", "category": "transition", "subcategory": "ketone_strips", "annotation_reason": "Explicit age (20), ketone strips"}
+{"question": "Remicade infusion T1D 21yo", "category": "transition", "subcategory": "Remicade", "annotation_reason": "Explicit age (21), Remicade"}
+{"question": "Receiver lost 21yo T1D", "category": "transition", "subcategory": "receiver_lost", "annotation_reason": "Explicit age (21), receiver lost"}
+{"question": "Alcohol wipe vs IV prep 19yo", "category": "transition", "subcategory": "alcohol_vs_IVprep", "annotation_reason": "Explicit age (19), alcohol vs IV prep"}
+{"question": "Ilumya injection T1D 21yo", "category": "transition", "subcategory": "Ilumya", "annotation_reason": "Explicit age (21), Ilumya"}
+{"question": "No-sting barrier 19yo T1D", "category": "transition", "subcategory": "no_sting", "annotation_reason": "Explicit age (19), no-sting"}
+{"question": "Abrocitinib T1D 20yo", "category": "transition", "subcategory": "abrocitinib", "annotation_reason": "Explicit age (20), abrocitinib"}
+{"question": "Upadacitinib T1D 19yo", "category": "transition", "subcategory": "upadacitinib", "annotation_reason": "Explicit age (19), upadacitinib"}
+{"question": "Spesolimab injection T1D 20yo", "category": "transition", "subcategory": "Spesolimab", "annotation_reason": "Explicit age (20), Spesolimab"}
+{"question": "Walmart ReliOn insulin 21yo T1D", "category": "transition", "subcategory": "ReliOn", "annotation_reason": "Explicit age (21), ReliOn"}
+{"question": "Detachol adhesive remover 19yo", "category": "transition", "subcategory": "Detachol", "annotation_reason": "Explicit age (19), Detachol"}
+{"question": "Adbry injection 21yo T1D", "category": "transition", "subcategory": "Adbry", "annotation_reason": "Explicit age (21), Adbry"}
+{"question": "Tildrakizumab honeymoon 20yo T1D", "category": "transition", "subcategory": "tildrakizumab", "annotation_reason": "Explicit age (20), tildrakizumab"}
+{"question": "Thigh site insulin pump 19yo", "category": "transition", "subcategory": "thigh_site", "annotation_reason": "Explicit age (19), thigh site"}
+{"question": "Cimzia injection T1D 20yo", "category": "transition", "subcategory": "Cimzia", "annotation_reason": "Explicit age (20), Cimzia"}
+{"question": "Kineret injection T1D 21yo", "category": "transition", "subcategory": "Kineret", "annotation_reason": "Explicit age (21), Kineret"}
+{"question": "Human insulin NPH R 19yo T1D", "category": "transition", "subcategory": "human_insulin", "annotation_reason": "Explicit age (19), human insulin"}
+{"question": "Zoryve cream T1D 20yo", "category": "transition", "subcategory": "Zoryve", "annotation_reason": "Explicit age (20), Zoryve"}
+{"question": "Oral insulin trial 21yo T1D", "category": "transition", "subcategory": "oral_insulin_trial", "annotation_reason": "Explicit age (21), oral insulin trial"}
+{"question": "Skin tac adhesive 20yo pump", "category": "transition", "subcategory": "Skin_Tac", "annotation_reason": "Explicit age (20), Skin Tac"}
+{"question": "Unisolve adhesive remover 21yo", "category": "transition", "subcategory": "Unisolve", "annotation_reason": "Explicit age (21), Unisolve"}
+{"question": "Skin prep wipe 21yo CGM", "category": "transition", "subcategory": "skin_prep_wipe", "annotation_reason": "Explicit age (21), skin prep"}
+{"question": "Monthly basal insulin 21yo T1D", "category": "transition", "subcategory": "monthly_basal", "annotation_reason": "Explicit age (21), monthly basal"}
+{"question": "Humira injection T1D 20yo", "category": "transition", "subcategory": "Humira", "annotation_reason": "Explicit age (20), Humira"}
+{"question": "Stage 2 T1D teplizumab 19yo", "category": "transition", "subcategory": "stage2_T1D", "annotation_reason": "Explicit age (19), stage 2 T1D"}
+{"question": "Skyrizi injection T1D 19yo", "category": "transition", "subcategory": "Skyrizi", "annotation_reason": "Explicit age (19), Skyrizi"}
+{"question": "Weekly basal insulin 20yo T1D", "category": "transition", "subcategory": "weekly_basal", "annotation_reason": "Explicit age (20), weekly basal"}
+{"question": "Alefacept honeymoon 21yo T1D", "category": "transition", "subcategory": "alefacept", "annotation_reason": "Explicit age (21), alefacept"}
+{"question": "Triple agonist T1D 20yo", "category": "transition", "subcategory": "triple_agonist", "annotation_reason": "Explicit age (20), triple agonist"}
+{"question": "Deucravacitinib T1D 19yo", "category": "transition", "subcategory": "deucravacitinib", "annotation_reason": "Explicit age (19), deucravacitinib"}
+{"question": "Olumiant T1D 19yo", "category": "transition", "subcategory": "Olumiant_T1D", "annotation_reason": "Explicit age (19), Olumiant"}
+{"question": "Verapamil honeymoon 20yo T1D", "category": "transition", "subcategory": "verapamil", "annotation_reason": "Explicit age (20), verapamil"}
+{"question": "Mirikizumab honeymoon 21yo T1D", "category": "transition", "subcategory": "mirikizumab", "annotation_reason": "Explicit age (21), mirikizumab"}
+{"question": "Actemra infusion T1D 19yo", "category": "transition", "subcategory": "Actemra", "annotation_reason": "Explicit age (19), Actemra"}
+{"question": "GIP/GLP-1/glucagon T1D 21yo", "category": "transition", "subcategory": "triple_agonist_T1D", "annotation_reason": "Explicit age (21), GIP/GLP-1/glucagon"}
+{"question": "Risankizumab honeymoon 19yo T1D", "category": "transition", "subcategory": "risankizumab", "annotation_reason": "Explicit age (19), risankizumab"}
+{"question": "Orencia infusion T1D 21yo", "category": "transition", "subcategory": "Orencia", "annotation_reason": "Explicit age (21), Orencia"}
+{"question": "Xeljanz tablet 21yo T1D", "category": "transition", "subcategory": "Xeljanz", "annotation_reason": "Explicit age (21), Xeljanz"}
+{"question": "Hypafix tape pump 20yo T1D", "category": "transition", "subcategory": "Hypafix", "annotation_reason": "Explicit age (20), Hypafix"}
+{"question": "Glucose-responsive insulin 21yo", "category": "transition", "subcategory": "glucose_responsive", "annotation_reason": "Explicit age (21), glucose-responsive insulin"}
+{"question": "Adhesive remover wipe 20yo", "category": "transition", "subcategory": "adhesive_remover", "annotation_reason": "Explicit age (20), adhesive remover"}
+{"question": "Patch test adhesive 19yo T1D", "category": "transition", "subcategory": "patch_test", "annotation_reason": "Explicit age (19), patch test"}
+{"question": "TYK2 inhibitor T1D 20yo", "category": "transition", "subcategory": "TYK2_inhibitor", "annotation_reason": "Explicit age (20), TYK2 inhibitor"}
+{"question": "Dupixent injection 20yo T1D", "category": "transition", "subcategory": "Dupixent", "annotation_reason": "Explicit age (20), Dupixent"}
+{"question": "Vial and syringe backup 20yo pump", "category": "transition", "subcategory": "vial_syringe_backup", "annotation_reason": "Explicit age (20), backup"}
+{"question": "Elidel cream site 19yo T1D", "category": "transition", "subcategory": "Elidel", "annotation_reason": "Explicit age (19), Elidel"}
+{"question": "Insulin pill T1D 19yo", "category": "transition", "subcategory": "insulin_pill", "annotation_reason": "Explicit age (19), insulin pill"}
+{"question": "Simponi injection T1D 19yo", "category": "transition", "subcategory": "Simponi", "annotation_reason": "Explicit age (19), Simponi"}
+{"question": "Ustekinumab honeymoon 20yo T1D", "category": "transition", "subcategory": "ustekinumab", "annotation_reason": "Explicit age (20), ustekinumab"}
+{"question": "Contact dermatitis CGM 21yo", "category": "transition", "subcategory": "contact_dermatitis", "annotation_reason": "Explicit age (21), contact dermatitis"}
+{"question": "Antibiotic site infection 20yo", "category": "transition", "subcategory": "site_antibiotic", "annotation_reason": "Explicit age (20), antibiotic"}
+{"question": "Cagrilintide T1D 21yo", "category": "transition", "subcategory": "cagrilintide_T1D", "annotation_reason": "Explicit age (21), cagrilintide"}
+{"question": "Insertion site bleeding 19yo", "category": "transition", "subcategory": "site_bleeding", "annotation_reason": "Explicit age (19), site bleeding"}
+{"question": "Guselkumab honeymoon 21yo T1D", "category": "transition", "subcategory": "guselkumab", "annotation_reason": "Explicit age (21), guselkumab"}
+{"question": "Kevzara injection T1D 21yo", "category": "transition", "subcategory": "Kevzara", "annotation_reason": "Explicit age (21), Kevzara"}
+{"question": "Brodalumab honeymoon 20yo T1D", "category": "transition", "subcategory": "brodalumab", "annotation_reason": "Explicit age (20), brodalumab"}
+{"question": "Topical steroid site 21yo CGM", "category": "transition", "subcategory": "topical_steroid_site", "annotation_reason": "Explicit age (21), topical steroid"}
+{"question": "Xeljanz XR T1D 20yo", "category": "transition", "subcategory": "Xeljanz_XR", "annotation_reason": "Explicit age (20), Xeljanz XR"}
+{"question": "Rinvoq tablet 20yo T1D", "category": "transition", "subcategory": "Rinvoq", "annotation_reason": "Explicit age (20), Rinvoq"}
+{"question": "Sureprep barrier 21yo CGM", "category": "transition", "subcategory": "Sureprep", "annotation_reason": "Explicit age (21), Sureprep"}
+{"question": "Biologic therapy T1D 21yo", "category": "transition", "subcategory": "biologic_therapy", "annotation_reason": "Explicit age (21), biologic"}
+{"question": "Bimzelx injection T1D 19yo", "category": "transition", "subcategory": "Bimzelx", "annotation_reason": "Explicit age (19), Bimzelx"}
+{"question": "Opsite Flexifix CGM 19yo", "category": "transition", "subcategory": "Opsite", "annotation_reason": "Explicit age (19), Opsite"}
+{"question": "Opzelura cream 19yo T1D", "category": "transition", "subcategory": "Opzelura", "annotation_reason": "Explicit age (19), Opzelura"}
+{"question": "Cibinqo tablet 19yo T1D", "category": "transition", "subcategory": "Cibinqo", "annotation_reason": "Explicit age (19), Cibinqo"}
+{"question": "Immunosuppressant T1D 19yo", "category": "transition", "subcategory": "immunosuppressant", "annotation_reason": "Explicit age (19), immunosuppressant"}
+{"question": "Survodutide T1D 20yo", "category": "transition", "subcategory": "survodutide_T1D", "annotation_reason": "Explicit age (20), survodutide"}
+{"question": "Protopic ointment 20yo pump", "category": "transition", "subcategory": "Protopic", "annotation_reason": "Explicit age (20), Protopic"}
+{"question": "Insulin 287 weekly 21yo T1D", "category": "transition", "subcategory": "insulin_287", "annotation_reason": "Explicit age (21), insulin 287"}
+{"question": "Test strip accuracy 21yo T1D", "category": "transition", "subcategory": "strip_accuracy", "annotation_reason": "Explicit age (21), strip accuracy"}
+{"question": "Eucrisa ointment 21yo CGM", "category": "transition", "subcategory": "Eucrisa", "annotation_reason": "Explicit age (21), Eucrisa"}
+{"question": "Meter control solution 19yo T1D", "category": "transition", "subcategory": "control_solution", "annotation_reason": "Explicit age (19), control solution"}

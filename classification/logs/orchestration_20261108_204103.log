@@ -1,0 +1,167 @@
+[2026-11-08 20:41:03] [INFO] ======================================================================
+[2026-11-08 20:41:03] [INFO] PHASE 3: MASTER ORCHESTRATION — Evidence Sufficiency Classification
+[2026-11-08 20:41:03] [INFO] ======================================================================
+[2026-11-08 20:41:03] [INFO] Project root: C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest
+[2026-11-08 20:41:03] [INFO] Classification root: C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification
+[2026-11-08 20:41:03] [INFO] Log file: C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification\logs\orchestration_20261108_204103.log
+[2026-11-08 20:41:03] [INFO] 
+======================================================================
+[2026-11-08 20:41:03] [INFO] STEP 1: MODEL A TRAINING (Dataset A only)
+[2026-11-08 20:41:03] [INFO] ======================================================================
+[2026-11-08 20:41:03] [INFO] === Starting Model A Training ===
+[2026-11-08 20:41:03] [INFO] Command: python C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification\model_a\train.py
+[2026-11-08 20:41:23] [Model A] ======================================================================
+[2026-11-08 20:41:23] [Model A] MODEL A TRAINING — Dataset A Only
+[2026-11-08 20:41:23] [Model A] ======================================================================
+[2026-11-08 20:41:23] [Model A] 
+[2026-11-08 20:41:23] [Model A] [1/5] Loading and splitting Dataset A...
+[2026-11-08 20:41:23] [Model A]   Loaded 1603 examples from Dataset A
+[2026-11-08 20:41:23] [Model A]   Split: train=1120 val=238 test=245
+[2026-11-08 20:41:23] [Model A]   Source leakage -- train-val:0 train-test:0 val-test:0
+[2026-11-08 20:41:23] [Model A]   OK No source leakage.
+[2026-11-08 20:41:23] [Model A] 
+[2026-11-08 20:41:23] [Model A]   Model A split statistics:
+[2026-11-08 20:41:23] [Model A]     Train: 1120 examples | 0(insuff)=800(71.4%) 1(suff)=320(28.6%)
+[2026-11-08 20:41:23] [Model A]     Val: 238 examples | 0(insuff)=170(71.4%) 1(suff)=68(28.6%)
+[2026-11-08 20:41:23] [Model A]     Test: 245 examples | 0(insuff)=175(71.4%) 1(suff)=70(28.6%)
+[2026-11-08 20:41:23] [Model A]   Saved splits to C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification\model_a\splits
+[2026-11-08 20:41:23] [Model A] 
+[2026-11-08 20:41:23] [Model A] [2/5] Loading pretrained BiomedBERT...
+[2026-11-08 20:41:23] [Model A]   Device: cpu
+[2026-11-08 20:41:23] [Model A]   Loading tokenizer from microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext...
+[2026-11-08 20:41:25] [Model A]   Loading model from microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext...
+[2026-11-08 20:41:26] [Model A] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-11-08 20:41:27] [Model A] 
+[2026-11-08 20:41:27] [Model A] Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+[2026-11-08 20:41:27] [ERROR] === Model A Training EXCEPTION after 23.4s: 'charmap' codec can't encode characters in position 54-63: character maps to <undefined> ===
+[2026-11-08 20:41:27] [WARNING] Model A training failed. Continuing to Model B...
+[2026-11-08 20:41:27] [INFO] 
+======================================================================
+[2026-11-08 20:41:27] [INFO] STEP 2: MODEL B TRAINING (Dataset B Extended only)
+[2026-11-08 20:41:27] [INFO] ======================================================================
+[2026-11-08 20:41:27] [INFO] === Starting Model B Training ===
+[2026-11-08 20:41:27] [INFO] Command: python C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification\model_b\train.py
+[2026-11-08 20:41:45] [Model B] ======================================================================
+[2026-11-08 20:41:45] [Model B] MODEL B TRAINING — Dataset B Extended Only
+[2026-11-08 20:41:45] [Model B] ======================================================================
+[2026-11-08 20:41:45] [Model B] 
+[2026-11-08 20:41:45] [Model B] [1/5] Loading and splitting Dataset B Extended...
+[2026-11-08 20:41:49] [Model B]   Loaded 452 examples from Dataset B Extended
+[2026-11-08 20:41:49] [Model B] 
+[2026-11-08 20:41:49] [Model B]   Splitting Dataset B (452 examples) using QUESTION-LEVEL stratified splitting...
+[2026-11-08 20:41:49] [Model B]   Target ratios: train=70%, val=15%, test=15%
+[2026-11-08 20:41:49] [Model B]   Duplicate question cluster threshold: 95%
+[2026-11-08 20:41:49] [Model B]   IMPORTANT: All source papers (44) are shared across splits.
+[2026-11-08 20:41:49] [Model B]   Evaluation measures generalization to NEW QUESTIONS from FAMILIAR PAPERS.
+[2026-11-08 20:44:19] [Model B]   OK No duplicate/near-duplicate questions found (threshold=95%).
+[2026-11-08 20:44:19] [Model B]   Total question clusters: 452
+[2026-11-08 20:44:19] [Model B]   Cluster size distribution: max=1, median=1, singletons=452
+[2026-11-08 20:44:19] [Model B] 
+[2026-11-08 20:44:19] [Model B]   Split results: train=316 val=68 test=68
+[2026-11-08 20:44:19] [Model B]   Cluster overlap: train-val=0, train-test=0, val-test=0
+[2026-11-08 20:44:19] [Model B]   OK Zero question cluster leakage verified.
+[2026-11-08 20:44:19] [Model B]     Train: 316 examples | 0(insuff)=184(58.2%) 1(suff)=132(41.8%)
+[2026-11-08 20:44:19] [Model B]     Val: 68 examples | 0(insuff)=36(52.9%) 1(suff)=32(47.1%)
+[2026-11-08 20:44:19] [Model B]     Test: 68 examples | 0(insuff)=35(51.5%) 1(suff)=33(48.5%)
+[2026-11-08 20:44:19] [Model B]   Unique source papers: train=44, val=41, test=42
+[2026-11-08 20:44:19] [Model B]   Source paper overlap (EXPECTED): train-val=41, train-test=42, val-test=39
+[2026-11-08 20:44:19] [Model B] 
+[2026-11-08 20:44:19] [Model B]   Model B split statistics:
+[2026-11-08 20:44:19] [Model B]     Train: 316 examples | 0(insuff)=184(58.2%) 1(suff)=132(41.8%)
+[2026-11-08 20:44:19] [Model B]     Val: 68 examples | 0(insuff)=36(52.9%) 1(suff)=32(47.1%)
+[2026-11-08 20:44:19] [Model B]     Test: 68 examples | 0(insuff)=35(51.5%) 1(suff)=33(48.5%)
+[2026-11-08 20:44:19] [Model B]   Saved splits to C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification\model_b\splits
+[2026-11-08 20:44:19] [Model B] 
+[2026-11-08 20:44:19] [Model B] [2/5] Loading pretrained BiomedBERT...
+[2026-11-08 20:44:19] [Model B]   Device: cpu
+[2026-11-08 20:44:19] [Model B]   Loading tokenizer from microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext...
+[2026-11-08 20:44:20] [Model B]   Loading model from microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext...
+[2026-11-08 20:44:21] [Model B] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-11-08 20:44:22] [Model B] 
+[2026-11-08 20:44:22] [Model B] Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+[2026-11-08 20:44:22] [ERROR] === Model B Training EXCEPTION after 175.2s: 'charmap' codec can't encode characters in position 54-63: character maps to <undefined> ===
+[2026-11-08 20:44:22] [WARNING] Model B training failed. Continuing to Model C...
+[2026-11-08 20:44:22] [INFO] 
+======================================================================
+[2026-11-08 20:44:22] [INFO] STEP 3: MODEL C TRAINING (Dataset A + B Extended with leakage prevention)
+[2026-11-08 20:44:22] [INFO] ======================================================================
+[2026-11-08 20:44:22] [INFO] === Starting Model C Training ===
+[2026-11-08 20:44:22] [INFO] Command: python C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification\model_c\train.py
+[2026-11-08 20:44:40] [Model C] ======================================================================
+[2026-11-08 20:44:40] [Model C] MODEL C TRAINING — Dataset A + Dataset B Extended Combined
+[2026-11-08 20:44:40] [Model C] ======================================================================
+[2026-11-08 20:44:40] [Model C] 
+[2026-11-08 20:44:40] [Model C] [1/5] Loading datasets...
+[2026-11-08 20:44:44] [Model C]   Dataset A: 1603 examples
+[2026-11-08 20:44:44] [Model C]   Dataset B Extended: 452 examples
+[2026-11-08 20:44:44] [Model C] 
+[2026-11-08 20:44:44] [Model C]   Splitting Dataset B Extended to establish fixed test/val sets...
+[2026-11-08 20:44:44] [Model C] 
+[2026-11-08 20:44:44] [Model C]   Splitting Dataset B (452 examples) using QUESTION-LEVEL stratified splitting...
+[2026-11-08 20:44:44] [Model C]   Target ratios: train=70%, val=15%, test=15%
+[2026-11-08 20:44:44] [Model C]   Duplicate question cluster threshold: 95%
+[2026-11-08 20:44:44] [Model C]   IMPORTANT: All source papers (44) are shared across splits.
+[2026-11-08 20:44:44] [Model C]   Evaluation measures generalization to NEW QUESTIONS from FAMILIAR PAPERS.
+[2026-11-08 20:47:17] [Model C]   OK No duplicate/near-duplicate questions found (threshold=95%).
+[2026-11-08 20:47:17] [Model C]   Total question clusters: 452
+[2026-11-08 20:47:17] [Model C]   Cluster size distribution: max=1, median=1, singletons=452
+[2026-11-08 20:47:17] [Model C] 
+[2026-11-08 20:47:17] [Model C]   Split results: train=316 val=68 test=68
+[2026-11-08 20:47:17] [Model C]   Cluster overlap: train-val=0, train-test=0, val-test=0
+[2026-11-08 20:47:17] [Model C]   OK Zero question cluster leakage verified.
+[2026-11-08 20:47:17] [Model C]     Train: 316 examples | 0(insuff)=184(58.2%) 1(suff)=132(41.8%)
+[2026-11-08 20:47:17] [Model C]     Val: 68 examples | 0(insuff)=36(52.9%) 1(suff)=32(47.1%)
+[2026-11-08 20:47:17] [Model C]     Test: 68 examples | 0(insuff)=35(51.5%) 1(suff)=33(48.5%)
+[2026-11-08 20:47:17] [Model C]   Unique source papers: train=44, val=41, test=42
+[2026-11-08 20:47:17] [Model C]   Source paper overlap (EXPECTED): train-val=41, train-test=42, val-test=39
+[2026-11-08 20:47:17] [Model C] 
+[2026-11-08 20:47:17] [Model C]   Dataset B Extended split statistics:
+[2026-11-08 20:47:17] [Model C]     Train: 316 examples | 0(insuff)=184(58.2%) 1(suff)=132(41.8%)
+[2026-11-08 20:47:17] [Model C]     Val: 68 examples | 0(insuff)=36(52.9%) 1(suff)=32(47.1%)
+[2026-11-08 20:47:17] [Model C]     Test: 68 examples | 0(insuff)=35(51.5%) 1(suff)=33(48.5%)
+[2026-11-08 20:47:17] [Model C] 
+[2026-11-08 20:47:17] [Model C]   Preparing combined training set with leakage prevention...
+[2026-11-08 20:47:17] [Model C] 
+[2026-11-08 20:47:17] [Model C]   Preparing Model C combined training set (question-level leakage prevention)...
+[2026-11-08 20:47:17] [Model C]   B test+val questions to check against: 136
+[2026-11-08 20:47:17] [Model C]   Splitting Dataset A by source_file...
+[2026-11-08 20:47:17] [Model C]   Split: train=1120 val=238 test=245
+[2026-11-08 20:47:17] [Model C]   Source leakage -- train-val:0 train-test:0 val-test:0
+[2026-11-08 20:47:17] [Model C]   OK No source leakage.
+[2026-11-08 20:49:50] [Model C]   Dataset A training: 1120 -> 1120 after removing questions similar to B test/val (0 removed, threshold=85%)
+[2026-11-08 20:49:50] [Model C]   Model C training set: 1436 examples (A:1120 + B:316)
+[2026-11-08 20:49:50] [Model C] 
+[2026-11-08 20:49:50] [Model C]   Model C split statistics:
+[2026-11-08 20:49:50] [Model C]     Train: 1436 examples | 0(insuff)=984(68.5%) 1(suff)=452(31.5%)
+[2026-11-08 20:49:50] [Model C]     Val: 68 examples | 0(insuff)=36(52.9%) 1(suff)=32(47.1%)
+[2026-11-08 20:49:50] [Model C]     Test: 68 examples | 0(insuff)=35(51.5%) 1(suff)=33(48.5%)
+[2026-11-08 20:49:50] [Model C]   Saved splits to C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification\model_c\splits
+[2026-11-08 20:49:50] [Model C]   Saved splits to C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification\datasets\dataset_b\splits
+[2026-11-08 20:49:50] [Model C] 
+[2026-11-08 20:49:50] [Model C] [2/5] Loading pretrained BiomedBERT...
+[2026-11-08 20:49:50] [Model C]   Device: cpu
+[2026-11-08 20:49:50] [Model C]   Loading tokenizer from microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext...
+[2026-11-08 20:49:55] [Model C]   Loading model from microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext...
+[2026-11-08 20:49:55] [Model C] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[2026-11-08 20:49:56] [Model C] 
+[2026-11-08 20:49:56] [Model C] Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+[2026-11-08 20:49:56] [ERROR] === Model C Training EXCEPTION after 334.7s: 'charmap' codec can't encode characters in position 54-63: character maps to <undefined> ===
+[2026-11-08 20:49:56] [WARNING] Model C training failed. Continuing to evaluation...
+[2026-11-08 20:49:56] [INFO] 
+======================================================================
+[2026-11-08 20:49:56] [INFO] STEP 4: EVALUATION — All models on common Dataset B test set
+[2026-11-08 20:49:56] [INFO] ======================================================================
+[2026-11-08 20:49:56] [INFO] Skipping evaluation for Model A (training did not complete successfully)
+[2026-11-08 20:49:56] [INFO] Skipping evaluation for Model B (training did not complete successfully)
+[2026-11-08 20:49:56] [INFO] Skipping evaluation for Model C (training did not complete successfully)
+[2026-11-08 20:49:56] [INFO] 
+======================================================================
+[2026-11-08 20:49:56] [INFO] STEP 5: COMPARISON REPORT
+[2026-11-08 20:49:56] [INFO] ======================================================================
+[2026-11-08 20:49:56] [INFO] Skipping comparison: only 0 models have evaluation results (need >=2)
+[2026-11-08 20:49:56] [INFO] 
+======================================================================
+[2026-11-08 20:49:56] [INFO] ORCHESTRATION COMPLETE
+[2026-11-08 20:49:56] [INFO] ======================================================================
+[2026-11-08 20:49:56] [INFO] Summary saved to: C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification\logs\orchestration_summary_20261108_204956.json
+[2026-11-08 20:49:56] [INFO] Full log: C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification\logs\orchestration_20261108_204103.log

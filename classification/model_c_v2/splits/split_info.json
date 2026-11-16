@@ -1,0 +1,148 @@
+{
+  "dataset_id": "model_c_v2",
+  "random_seed": 42,
+  "split_method": "preserved_b_v2_benchmark_with_stratified_dataset_a",
+  "note": "Evaluation measures generalization to unseen questions within a familiar, overlapping reference corpus of an estimated 229 distinct pediatric diabetes publications (represented by 232 distinct stored source identifier strings due to 3 abbreviated filename aliases in Dataset B V2), not unseen-paper generalization. Dataset A contributes additional single-evidence examples. While Model B V2 training contained 154 of the 155 B V2 test source identifiers, Dataset A training introduces the remaining 1 test source ('Thyroid and Islet Autoantibodies Predict Autoimmune Thyroid Disease at Type 1 Diabetes Diagnosis.txt', 5 training examples), resulting in 155/155 (100.0%) B V2 test source representation in Model C V2 training.",
+  "paper_disjoint": false,
+  "total_examples": 2745,
+  "class_balance_overall": {
+    "insufficient": 1470,
+    "sufficient": 1275,
+    "insufficient_percentage": 53.551912568306015,
+    "sufficient_percentage": 46.44808743169399
+  },
+  "dataset_composition": {
+    "dataset_a_total": 1603,
+    "dataset_b_v2_total": 1142,
+    "dataset_a_percentage": 58.397085610200364,
+    "dataset_b_v2_percentage": 41.602914389799636
+  },
+  "splits": {
+    "train": {
+      "total": 1924,
+      "ratio": 0.7009107468123862,
+      "from_dataset_a": 1122,
+      "from_dataset_b_v2": 802,
+      "insufficient": 1021,
+      "sufficient": 903,
+      "insufficient_percentage": 53.066528066528065,
+      "sufficient_percentage": 46.933471933471935,
+      "unique_sources": 232
+    },
+    "val": {
+      "total": 409,
+      "ratio": 0.14899817850637523,
+      "from_dataset_a": 240,
+      "from_dataset_b_v2": 169,
+      "insufficient": 226,
+      "sufficient": 183,
+      "insufficient_percentage": 55.256723716381416,
+      "sufficient_percentage": 44.743276283618584,
+      "unique_sources": 211
+    },
+    "test": {
+      "total": 412,
+      "ratio": 0.1500910746812386,
+      "from_dataset_a": 241,
+      "from_dataset_b_v2": 171,
+      "insufficient": 223,
+      "sufficient": 189,
+      "insufficient_percentage": 54.12621359223301,
+      "sufficient_percentage": 45.87378640776699,
+      "unique_sources": 203,
+      "b_v2_test_slice_exact_match": true,
+      "b_v2_test_slice_count": 171,
+      "dataset_a_test_slice_count": 241
+    }
+  },
+  "source_overlap": {
+    "train_val_overlap": 211,
+    "train_test_overlap": 203,
+    "val_test_overlap": 188,
+    "total_unique_source_identifiers": 232,
+    "estimated_unique_publications": 229,
+    "filename_aliases": [
+      {
+        "dataset_b_v2_alias": "Cardiovascular Risk Reduction in High-Risk Pediatric Patients.txt",
+        "dataset_a_canonical": "Cardiovascular Risk Reduction in High-Risk Pediatric Patients A Scientific Statement From the American Heart.txt"
+      },
+      {
+        "dataset_b_v2_alias": "DCCT EDIC Screening Eye Exams in Youth Under 18 May Be Enough.txt",
+        "dataset_a_canonical": "Frequency of Evidence-Based Screening for Retinopathy in Youth with Type 1 Diabetes.txt"
+      },
+      {
+        "dataset_b_v2_alias": "Efficacy and Safety of Empagliflozin and Linagliptin in Youth with Type 2 Diabetes.txt",
+        "dataset_a_canonical": "Efficacy and Safety of Empagliflozin in Children and Adolescents with Type 2 Diabetes.txt"
+      }
+    ],
+    "b_v2_test_sources_total": 155,
+    "b_v2_test_sources_in_b_v2_train": 154,
+    "b_v2_test_sources_in_model_c_v2_train": 155,
+    "b_v2_test_sources_coverage_percentage": 100.0,
+    "b_v2_test_sources_added_by_dataset_a_train": [
+      {
+        "source_file": "Thyroid and Islet Autoantibodies Predict Autoimmune Thyroid Disease at Type 1 Diabetes Diagnosis.txt",
+        "dataset_a_train_examples": 5
+      }
+    ]
+  },
+  "manual_review_notes": {
+    "dataset_a_short_sufficient_records": [
+      {
+        "example_id": "A_0029",
+        "question": "How does type 1 diabetes in children affect health?",
+        "answer": "Under) with diabetes\u2014primarily type 1\u2014within childcare community settings.",
+        "sufficiency_label": 1
+      },
+      {
+        "example_id": "A_0036",
+        "question": "What serious safety concerns can arise?",
+        "answer": "To ensure safety equal access to education.",
+        "sufficiency_label": 1
+      },
+      {
+        "example_id": "A_0047",
+        "question": "How is type 1 diabetes screened for or diagnosed in youth?",
+        "answer": "The \u201cDiabetes Control Complications Trial (DCCT)/Epidemiology of Diabetes Interventions.",
+        "sufficiency_label": 1
+      },
+      {
+        "example_id": "A_0093",
+        "question": "What is known about cardiovascular risk?",
+        "answer": "Reduced cardiovascular risk and enhanced fitness.",
+        "sufficiency_label": 1
+      },
+      {
+        "example_id": "A_0100",
+        "question": "What is known about insulin sensitivity in adolescents?",
+        "answer": "In non-diabetic severely obese adolescents.",
+        "sufficiency_label": 1
+      },
+      {
+        "example_id": "A_0167",
+        "question": "What care or management is recommended for lipid screening cardiovascular health childhood?",
+        "answer": "Research surrounding childhood lipid screening dyslipidemia and cardiovascular health.",
+        "sufficiency_label": 1
+      },
+      {
+        "example_id": "A_0176",
+        "question": "Which serious adverse events are associated with treatment?",
+        "answer": "To optimize safety glycemic control.",
+        "sufficiency_label": 1
+      },
+      {
+        "example_id": "A_0224",
+        "question": "What is known about effects antipsychotics weight gain weight-related in children and adolescents?",
+        "answer": "Weight-related hormones homocysteine in children.",
+        "sufficiency_label": 1
+      },
+      {
+        "example_id": "A_0277",
+        "question": "What is known about youth involvement decision start cgm in youth?",
+        "answer": "Initial decision positively predicted CGM use between weeks 5.",
+        "sufficiency_label": 1
+      }
+    ],
+    "recommendation": "Retained as originally labeled in dataset_A.csv to maintain strict provenance integrity without silent modification."
+  }
+}

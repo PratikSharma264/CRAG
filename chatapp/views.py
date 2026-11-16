@@ -3,6 +3,7 @@ import logging
 
 from django.contrib.auth import login, logout
 from django.contrib.auth.decorators import login_required
+from django.db import close_old_connections
 from django.http import FileResponse, Http404, JsonResponse, StreamingHttpResponse
 from django.shortcuts import get_object_or_404, redirect, render
 from django.urls import reverse
@@ -191,6 +192,7 @@ def ask_view(request):
                 f"score ({abstain_details.get('combined_score', 0):.4f}) is below "
                 f"the required threshold ({abstain_details.get('threshold', 0.70):.2f})."
             )
+            close_old_connections()
             ChatMessage.objects.create(
                 owner_id=user_id,
                 role=ChatMessage.Role.ASSISTANT,
@@ -199,6 +201,7 @@ def ask_view(request):
             )
         else:
             # Normal answer generation
+            close_old_connections()
             ChatMessage.objects.create(
                 owner_id=user_id,
                 role=ChatMessage.Role.ASSISTANT,

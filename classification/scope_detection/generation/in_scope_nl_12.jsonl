@@ -1,0 +1,70 @@
+{"question": "Triple agonist T1D 20yo", "category": "transition", "subcategory": "triple_agonist", "annotation_reason": "Explicit age (20), triple agonist"}
+{"question": "What deucravacitinib t1d 19yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "deucravacitinib", "annotation_reason": "Explicit age (19), deucravacitinib"}
+{"question": "What olumiant t1d 19yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "Olumiant_T1D", "annotation_reason": "Explicit age (19), Olumiant"}
+{"question": "Verapamil honeymoon 20yo T1D", "category": "transition", "subcategory": "verapamil", "annotation_reason": "Explicit age (20), verapamil"}
+{"question": "Mirikizumab honeymoon 21yo T1D", "category": "transition", "subcategory": "mirikizumab", "annotation_reason": "Explicit age (21), mirikizumab"}
+{"question": "Actemra infusion T1D 19yo", "category": "transition", "subcategory": "Actemra", "annotation_reason": "Explicit age (19), Actemra"}
+{"question": "What gip/glp-1/glucagon t1d 21yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "triple_agonist_T1D", "annotation_reason": "Explicit age (21), GIP/GLP-1/glucagon"}
+{"question": "Risankizumab honeymoon 19yo T1D", "category": "transition", "subcategory": "risankizumab", "annotation_reason": "Explicit age (19), risankizumab"}
+{"question": "Orencia infusion T1D 21yo", "category": "transition", "subcategory": "Orencia", "annotation_reason": "Explicit age (21), Orencia"}
+{"question": "Xeljanz tablet 21yo T1D", "category": "transition", "subcategory": "Xeljanz", "annotation_reason": "Explicit age (21), Xeljanz"}
+{"question": "Hypafix tape pump 20yo T1D", "category": "transition", "subcategory": "Hypafix", "annotation_reason": "Explicit age (20), Hypafix"}
+{"question": "What glucose-responsive insulin 21yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "glucose_responsive", "annotation_reason": "Explicit age (21), glucose-responsive insulin"}
+{"question": "Adhesive remover wipe 20yo", "category": "transition", "subcategory": "adhesive_remover", "annotation_reason": "Explicit age (20), adhesive remover"}
+{"question": "Patch test adhesive 19yo T1D", "category": "transition", "subcategory": "patch_test", "annotation_reason": "Explicit age (19), patch test"}
+{"question": "TYK2 inhibitor T1D 20yo", "category": "transition", "subcategory": "TYK2_inhibitor", "annotation_reason": "Explicit age (20), TYK2 inhibitor"}
+{"question": "Dupixent injection 20yo T1D", "category": "transition", "subcategory": "Dupixent", "annotation_reason": "Explicit age (20), Dupixent"}
+{"question": "Vial and syringe backup 20yo pump", "category": "transition", "subcategory": "vial_syringe_backup", "annotation_reason": "Explicit age (20), backup"}
+{"question": "Elidel cream site 19yo T1D", "category": "transition", "subcategory": "Elidel", "annotation_reason": "Explicit age (19), Elidel"}
+{"question": "Insulin pill T1D 19yo", "category": "transition", "subcategory": "insulin_pill", "annotation_reason": "Explicit age (19), insulin pill"}
+{"question": "Simponi injection T1D 19yo", "category": "transition", "subcategory": "Simponi", "annotation_reason": "Explicit age (19), Simponi"}
+{"question": "Ustekinumab honeymoon 20yo T1D", "category": "transition", "subcategory": "ustekinumab", "annotation_reason": "Explicit age (20), ustekinumab"}
+{"question": "Contact dermatitis CGM 21yo", "category": "transition", "subcategory": "contact_dermatitis", "annotation_reason": "Explicit age (21), contact dermatitis"}
+{"question": "Antibiotic site infection 20yo", "category": "transition", "subcategory": "site_antibiotic", "annotation_reason": "Explicit age (20), antibiotic"}
+{"question": "What cagrilintide t1d 21yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "cagrilintide_T1D", "annotation_reason": "Explicit age (21), cagrilintide"}
+{"question": "Insertion site bleeding 19yo", "category": "transition", "subcategory": "site_bleeding", "annotation_reason": "Explicit age (19), site bleeding"}
+{"question": "Guselkumab honeymoon 21yo T1D", "category": "transition", "subcategory": "guselkumab", "annotation_reason": "Explicit age (21), guselkumab"}
+{"question": "Kevzara injection T1D 21yo", "category": "transition", "subcategory": "Kevzara", "annotation_reason": "Explicit age (21), Kevzara"}
+{"question": "Brodalumab honeymoon 20yo T1D", "category": "transition", "subcategory": "brodalumab", "annotation_reason": "Explicit age (20), brodalumab"}
+{"question": "Topical steroid site 21yo CGM", "category": "transition", "subcategory": "topical_steroid_site", "annotation_reason": "Explicit age (21), topical steroid"}
+{"question": "Xeljanz XR T1D 20yo", "category": "transition", "subcategory": "Xeljanz_XR", "annotation_reason": "Explicit age (20), Xeljanz XR"}
+{"question": "Rinvoq tablet 20yo T1D", "category": "transition", "subcategory": "Rinvoq", "annotation_reason": "Explicit age (20), Rinvoq"}
+{"question": "Sureprep barrier 21yo CGM", "category": "transition", "subcategory": "Sureprep", "annotation_reason": "Explicit age (21), Sureprep"}
+{"question": "Biologic therapy T1D 21yo", "category": "transition", "subcategory": "biologic_therapy", "annotation_reason": "Explicit age (21), biologic"}
+{"question": "Bimzelx injection T1D 19yo", "category": "transition", "subcategory": "Bimzelx", "annotation_reason": "Explicit age (19), Bimzelx"}
+{"question": "Opsite Flexifix CGM 19yo", "category": "transition", "subcategory": "Opsite", "annotation_reason": "Explicit age (19), Opsite"}
+{"question": "Opzelura cream 19yo T1D", "category": "transition", "subcategory": "Opzelura", "annotation_reason": "Explicit age (19), Opzelura"}
+{"question": "Cibinqo tablet 19yo T1D", "category": "transition", "subcategory": "Cibinqo", "annotation_reason": "Explicit age (19), Cibinqo"}
+{"question": "What immunosuppressant t1d 19yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "immunosuppressant", "annotation_reason": "Explicit age (19), immunosuppressant"}
+{"question": "What survodutide t1d 20yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "survodutide_T1D", "annotation_reason": "Explicit age (20), survodutide"}
+{"question": "Protopic ointment 20yo pump", "category": "transition", "subcategory": "Protopic", "annotation_reason": "Explicit age (20), Protopic"}
+{"question": "Insulin 287 weekly 21yo T1D", "category": "transition", "subcategory": "insulin_287", "annotation_reason": "Explicit age (21), insulin 287"}
+{"question": "Test strip accuracy 21yo T1D", "category": "transition", "subcategory": "strip_accuracy", "annotation_reason": "Explicit age (21), strip accuracy"}
+{"question": "Eucrisa ointment 21yo CGM", "category": "transition", "subcategory": "Eucrisa", "annotation_reason": "Explicit age (21), Eucrisa"}
+{"question": "Meter control solution 19yo T1D", "category": "transition", "subcategory": "control_solution", "annotation_reason": "Explicit age (19), control solution"}
+{"question": "Rock tape pump site 20yo", "category": "transition", "subcategory": "Rock_tape", "annotation_reason": "Explicit age (20), Rock tape"}
+{"question": "CAR-T therapy T1D 19yo", "category": "transition", "subcategory": "CAR_T_therapy", "annotation_reason": "Explicit age (19), CAR-T therapy"}
+{"question": "Vtama cream T1D 19yo", "category": "transition", "subcategory": "Vtama", "annotation_reason": "Explicit age (19), Vtama"}
+{"question": "Lower back site 21yo pump", "category": "transition", "subcategory": "lower_back", "annotation_reason": "Explicit age (21), lower back"}
+{"question": "Secukinumab honeymoon 21yo T1D", "category": "transition", "subcategory": "secukinumab", "annotation_reason": "Explicit age (21), secukinumab"}
+{"question": "What retatrutide t1d 19yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "retatrutide_T1D", "annotation_reason": "Explicit age (19), retatrutide"}
+{"question": "What peficitinib t1d 21yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "peficitinib", "annotation_reason": "Explicit age (21), peficitinib"}
+{"question": "Dual GIP/GLP-1 T1D 19yo", "category": "transition", "subcategory": "dual_GIP_GLP1", "annotation_reason": "Explicit age (19), dual GIP/GLP-1"}
+{"question": "What dysglycemia teplizumab 20yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "dysglycemia_teplizumab", "annotation_reason": "Explicit age (20), dysglycemia"}
+{"question": "Enbrel injection T1D 19yo", "category": "transition", "subcategory": "Enbrel", "annotation_reason": "Explicit age (19), Enbrel"}
+{"question": "MRSA site infection 21yo T1D", "category": "transition", "subcategory": "MRSA_site", "annotation_reason": "Explicit age (21), MRSA"}
+{"question": "Love handle site 20yo T1D", "category": "transition", "subcategory": "love_handle", "annotation_reason": "Explicit age (20), love handle"}
+{"question": "Ixekizumab honeymoon 19yo T1D", "category": "transition", "subcategory": "ixekizumab", "annotation_reason": "Explicit age (19), ixekizumab"}
+{"question": "JAK inhibitor diabetes 20yo", "category": "transition", "subcategory": "JAK_diabetes", "annotation_reason": "Explicit age (20), JAK diabetes"}
+{"question": "Pump upgrade 21yo T1D insurance", "category": "transition", "subcategory": "pump_upgrade", "annotation_reason": "Explicit age (21), pump upgrade"}
+{"question": "Site infection signs 19yo T1D", "category": "transition", "subcategory": "site_infection", "annotation_reason": "Explicit age (19), site infection"}
+{"question": "Flonase nasal spray CGM 19yo", "category": "transition", "subcategory": "Flonase_CGM", "annotation_reason": "Explicit age (19), Flonase"}
+{"question": "Kinesio tape CGM 19yo T1D", "category": "transition", "subcategory": "Kinesio_tape", "annotation_reason": "Explicit age (19), Kinesio"}
+{"question": "Basal insulin Fc 20yo T1D", "category": "transition", "subcategory": "basal_insulin_Fc", "annotation_reason": "Explicit age (20), basal insulin Fc"}
+{"question": "Motivational interviewing for 14-year-old adherence", "category": "psychosocial", "subcategory": "MI_adherence", "annotation_reason": "Explicit age (14), MI"}
+{"question": "Sleepover safety for 10-year-old with T1D", "category": "parents_caregivers_schools", "subcategory": "sleepover_safety", "annotation_reason": "Explicit age (10), sleepover"}
+{"question": "Diabetes camp psychosocial outcomes for 10-year-old", "category": "psychosocial", "subcategory": "camp_psychosocial", "annotation_reason": "Explicit age (10), camp"}
+{"question": "Field trip diabetes kit for 10-year-old T2D", "category": "pediatric_t2d", "subcategory": "school", "annotation_reason": "Explicit age (10), field trip"}
+{"question": "Driving license medical form 16-year-old T1D", "category": "psychosocial", "subcategory": "driving_medical", "annotation_reason": "Explicit age (16), driving medical"}
+{"question": "Motivational interviewing for 14-year-old T2D", "category": "pediatric_t2d", "subcategory": "psychosocial", "annotation_reason": "Explicit age (14), motivational interviewing"}
+{"question": "Family conflict over T2D management in 13-year-old", "category": "pediatric_t2d", "subcategory": "family", "annotation_reason": "Explicit age (13), family conflict"}

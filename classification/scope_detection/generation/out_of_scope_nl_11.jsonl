@@ -1,0 +1,70 @@
+{"question": "12-year-old with migraine: preventive options", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 12, migraine not diabetes"}
+{"question": "42-year-old T2D: starting GLP-1 for weight loss", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 42, adult GLP-1"}
+{"question": "9-year-old with ADHD: medication appetite effects", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 9, ADHD not diabetes"}
+{"question": "What are the major milestones in the history of insulin discovery?", "category": "non_medical", "subcategory": "history", "annotation_reason": "History of insulin discovery"}
+{"question": "How does insulin work at the molecular level?", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "General knowledge insulin mechanism"}
+{"question": "Famous athletes with type 1 diabetes", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Sports athletes with T1D"}
+{"question": "Diabetes awareness month activities and history", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Awareness month general"}
+{"question": "What is the difference between type 1 and type 2 diabetes?", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "General knowledge T1D vs T2D"}
+{"question": "Insulin pricing trends over the last decade", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Economics insulin pricing"}
+{"question": "How to build a glucose tracking app with React Native", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Programming glucose app"}
+{"question": "Machine learning for diabetes prediction: overview", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "AI/ML diabetes prediction"}
+{"question": "Celebrity diabetes advocates and their stories", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Entertainment celebrity advocates"}
+{"question": "Diabetes in literature and film: accuracy review", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Entertainment media diabetes"}
+{"question": "Statistics: calculating sample size for diabetes trials", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Statistics sample size"}
+{"question": "Nobel Prize winners in diabetes research", "category": "non_medical", "subcategory": "history", "annotation_reason": "History Nobel prizes"}
+{"question": "How to make a diabetes management website accessible", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Programming accessibility"}
+{"question": "Diabetes podcast recommendations for patients", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Entertainment podcasts"}
+{"question": "10-year-old with hypothyroidism: levothyroxine dosing", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 10, pediatric thyroid"}
+{"question": "7-year-old with juvenile idiopathic arthritis: methotrexate monitoring", "category": "other_medical_pediatric", "subcategory": "rheumatology", "annotation_reason": "Explicit age 7, pediatric JIA"}
+{"question": "14-year-old with Crohn's disease: biologic therapy options", "category": "other_medical_pediatric", "subcategory": "gastroenterology", "annotation_reason": "Explicit age 14, pediatric Crohn's"}
+{"question": "5-year-old with epilepsy: seizure medication side effects", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 5, pediatric epilepsy"}
+{"question": "3-year-old with recurrent UTI: imaging evaluation", "category": "other_medical_pediatric", "subcategory": "urology", "annotation_reason": "Explicit age 3, pediatric UTI"}
+{"question": "16-year-old with anxiety disorder: CBT vs medication", "category": "other_medical_pediatric", "subcategory": "psychiatry", "annotation_reason": "Explicit age 16, pediatric anxiety"}
+{"question": "45-year-old with rheumatoid arthritis: biologic selection", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 45, adult RA"}
+{"question": "60-year-old with COPD: inhaler management", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 60, adult COPD"}
+{"question": "55-year-old with hypothyroidism: TSH monitoring", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 55, adult thyroid"}
+{"question": "70-year-old with atrial fibrillation: anticoagulation", "category": "other_medical_adult", "subcategory": "cardiology", "annotation_reason": "Explicit age 70, adult AFib"}
+{"question": "40-year-old with IBD: colonoscopy surveillance", "category": "other_medical_adult", "subcategory": "gastroenterology", "annotation_reason": "Explicit age 40, adult IBD"}
+{"question": "65-year-old with osteoarthritis: pain management", "category": "other_medical_adult", "subcategory": "orthopedics", "annotation_reason": "Explicit age 65, adult OA"}
+{"question": "50-year-old with migraine: preventive treatment options", "category": "other_medical_adult", "subcategory": "neurology", "annotation_reason": "Explicit age 50, adult migraine"}
+{"question": "75-year-old with dementia: care planning", "category": "other_medical_adult", "subcategory": "geriatrics", "annotation_reason": "Explicit age 75, adult dementia"}
+{"question": "35-year-old with new T2D diagnosis: first steps", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 35, new T2D adult"}
+{"question": "50-year-old T2D: metformin not working, what next?", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 50, T2D treatment adult"}
+{"question": "60-year-old T2D: starting basal insulin", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 60, basal insulin adult"}
+{"question": "40-year-old T1D: CGM alarm settings for work", "category": "adult_diabetes", "subcategory": "t1d_monitoring", "annotation_reason": "Explicit age 40, CGM adult"}
+{"question": "55-year-old T2D: SGLT2 for kidney protection", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 55, SGLT2 adult"}
+{"question": "30-year-old T1D: pregnancy planning preconception", "category": "adult_diabetes", "subcategory": "t1d_pregnancy", "annotation_reason": "Explicit age 30, T1D pregnancy adult"}
+{"question": "42-year-old T1D: insulin pump upgrade options", "category": "adult_diabetes", "subcategory": "t1d_technology", "annotation_reason": "Explicit age 42, pump upgrade adult"}
+{"question": "38-year-old T2D: weight loss medication options", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 38, weight loss adult"}
+{"question": "MIPS diabetes quality measures for clinicians", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "MIPS = programming"}
+{"question": "Feline diabetes remission diet: high protein low carb", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat diet = pets"}
+{"question": "Life insurance underwriting for diabetes", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Life insurance = economics"}
+{"question": "Diabetic ketoacidosis in cats: fluid therapy", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat DKA fluids = pets"}
+{"question": "Insulin formulation stability testing ICH guidelines", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Stability testing = pharma business"}
+{"question": "ACCORD trial history: intensive control controversy", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "ACCORD history = history"}
+{"question": "Diabetic cat insulin glargine dosing protocol", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat glargine = pets"}
+{"question": "CGM sensor: enzyme vs fluorescence chemistry", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Sensor chemistry = pharma"}
+{"question": "Diabetic ketoacidosis in cats: emergency treatment", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat DKA = pets"}
+{"question": "Continuous glucose monitoring: from Minimed to Dexcom", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "CGM history = history"}
+{"question": "Insulin pen needle: 4mm vs 5mm vs 6mm", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Needle length = pharma"}
+{"question": "Insulin resistance in horses: equine metabolic syndrome", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Horses EMS = pets"}
+{"question": "Feline diabetes pancreatitis: PLI test", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat pancreatitis = pets"}
+{"question": "UKPDS history: changing T2D care", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "UKPDS history = history"}
+{"question": "Export glucose data CSV PDF from mobile app", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Export CSV PDF = programming"}
+{"question": "Insulin transparency reporting laws by state", "category": "diabetes_adjacent", "subcategory": "politics", "annotation_reason": "Transparency laws = politics"}
+{"question": "Insulin importation from Canada: FDA personal use", "category": "diabetes_adjacent", "subcategory": "politics", "annotation_reason": "Importation = politics"}
+{"question": "Feline diabetes remission rate with glargine", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat glargine remission = pets"}
+{"question": "Canine diabetes: Vetsulin vs ProZinc for dogs", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Dogs diabetes = pets"}
+{"question": "i2b2 diabetes query tool for research", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "i2b2 = programming"}
+{"question": "Artificial pancreas research history 1970s-present", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "Research history = history"}
+{"question": "Home glucose curve cat: stress hyperglycemia", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat stress hyperglycemia = pets"}
+{"question": "Diabetic cat remission rate glargine vs detemir", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat remission = pets"}
+{"question": "Diabetic dog concurrent Cushing's: trilostane", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Dog Cushing's = pets"}
+{"question": "TripleNet diabetes data network", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "TripleNet = programming"}
+{"question": "Feline diabetic remission diet management", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat remission = pets"}
+{"question": "Insulin analogs development timeline", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "Analogs timeline = history"}
+{"question": "Equine metabolic syndrome: oral sugar test", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Horse OST = pets"}
+{"question": "Data visualization charts for glucose trends React", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Data viz charts = programming"}
+{"question": "Cost of diabetes complications vs prevention", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Cost comparison = economics"}
+{"question": "Metformin from Galega officinalis to first-line", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "Metformin history = history"}

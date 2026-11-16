@@ -1,0 +1,70 @@
+{"question": "Spevigo injection for 19-year-old with T1D since childhood, is it approved?", "category": "transition", "subcategory": "spevigo", "annotation_reason": "Childhood-onset + age 19, spevigo"}
+{"question": "Barrier wipes for CGM at 20 with T1D since age 9, recommendations?", "category": "transition", "subcategory": "barrier_wipe", "annotation_reason": "Since age 9 + age 20, barrier wipe"}
+{"question": "Pharmacy prescription transfer at 20 with T1D since age 11, how does it work?", "category": "transition", "subcategory": "rx_transfer", "annotation_reason": "Since age 11 + age 20, prescription transfer"}
+{"question": "GoodRx insulin coupon at 19 with T1D since age 7, does it work?", "category": "transition", "subcategory": "goodrx", "annotation_reason": "Since age 7 + age 19, GoodRx"}
+{"question": "My 8-year-old drinks water constantly, could this be diabetes?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about polydipsia in child"}
+{"question": "My 10-year-old finishes a water bottle in an hour, should I worry?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about excessive water intake"}
+{"question": "Bedwetting started again at age 9 after being dry for years - diabetes?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about secondary enuresis as diabetes sign"}
+{"question": "My 11-year-old is eating more but losing weight, diabetes?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about weight loss with polyphagia"}
+{"question": "6-year-old clothes getting loose but eating constantly, diabetes sign?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about weight loss in young child"}
+{"question": "My 13-year-old is exhausted all the time, could it be diabetes?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about fatigue in teen"}
+{"question": "9-year-old complaining of no energy, legs feel heavy, diabetes?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about fatigue and heaviness"}
+{"question": "My 10-year-old says things look blurry sometimes, diabetes?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about blurred vision in child"}
+{"question": "Thirsty, peeing constantly, and tired - my 8-year-old has all three, diabetes?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about classic triad in young child"}
+{"question": "14-year-old: weight loss + thirst + bathroom trips = diabetes?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about multiple symptoms in teen"}
+{"question": "Could my 5-year-old have diabetes? Drinks all day, wet diapers at night again", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about symptoms in very young child"}
+{"question": "Mini-dose glucagon protocol for 3-year-old", "category": "insulin_therapy", "subcategory": "mini_glucagon", "annotation_reason": "Explicit age (3), mini-glucagon"}
+{"question": "Cosentyx injection T1D 20yo", "category": "transition", "subcategory": "Cosentyx", "annotation_reason": "Explicit age (20), Cosentyx"}
+{"question": "Ilaris injection T1D 20yo", "category": "transition", "subcategory": "Ilaris", "annotation_reason": "Explicit age (20), Ilaris"}
+{"question": "Taltz injection T1D 21yo", "category": "transition", "subcategory": "Taltz", "annotation_reason": "Explicit age (21), Taltz"}
+{"question": "Smart insulin T1D 20yo", "category": "transition", "subcategory": "smart_insulin", "annotation_reason": "Explicit age (20), smart insulin"}
+{"question": "What tirzepatide t1d 21yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "tirzepatide_T1D", "annotation_reason": "Explicit age (21), tirzepatide"}
+{"question": "IV3000 tape pump 20yo T1D", "category": "transition", "subcategory": "IV3000", "annotation_reason": "Explicit age (20), IV3000"}
+{"question": "JAK inhibitor T1D 20yo", "category": "transition", "subcategory": "JAK_inhibitor", "annotation_reason": "Explicit age (20), JAK inhibitor"}
+{"question": "Amylin analog T1D 19yo", "category": "transition", "subcategory": "amylin_analog", "annotation_reason": "Explicit age (19), amylin analog"}
+{"question": "Olumiant tablet 19yo T1D", "category": "transition", "subcategory": "Olumiant", "annotation_reason": "Explicit age (19), Olumiant"}
+{"question": "Tremfya injection T1D 20yo", "category": "transition", "subcategory": "Tremfya", "annotation_reason": "Explicit age (20), Tremfya"}
+{"question": "What filgotinib t1d 19yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "filgotinib", "annotation_reason": "Explicit age (19), filgotinib"}
+{"question": "Cavilon barrier film 20yo pump", "category": "transition", "subcategory": "Cavilon", "annotation_reason": "Explicit age (20), Cavilon"}
+{"question": "What tofacitinib t1d 20yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "tofacitinib", "annotation_reason": "Explicit age (20), tofacitinib"}
+{"question": "Upadacitinib ER T1D 21yo", "category": "transition", "subcategory": "upadacitinib_ER", "annotation_reason": "Explicit age (21), upadacitinib ER"}
+{"question": "Arm vs abdomen sites 21yo CGM", "category": "transition", "subcategory": "arm_abdomen", "annotation_reason": "Explicit age (21), arm vs abdomen"}
+{"question": "Golimumab honeymoon 19yo T1D", "category": "transition", "subcategory": "golimumab", "annotation_reason": "Explicit age (19), golimumab"}
+{"question": "Coban wrap site 21yo T1D", "category": "transition", "subcategory": "Coban_wrap", "annotation_reason": "Explicit age (21), Coban"}
+{"question": "Tape sensitivity rash 20yo T1D", "category": "transition", "subcategory": "tape_rash", "annotation_reason": "Explicit age (20), tape rash"}
+{"question": "Autoantibody positive 21yo teplizumab", "category": "transition", "subcategory": "autoantibody_teplizumab", "annotation_reason": "Explicit age (21), autoantibody positive"}
+{"question": "Sotyktu tablet T1D 21yo", "category": "transition", "subcategory": "Sotyktu", "annotation_reason": "Explicit age (21), Sotyktu"}
+{"question": "Rinvoq ER T1D 21yo", "category": "transition", "subcategory": "Rinvoq_ER", "annotation_reason": "Explicit age (21), Rinvoq ER"}
+{"question": "Arcalyst injection T1D 19yo", "category": "transition", "subcategory": "Arcalyst", "annotation_reason": "Explicit age (19), Arcalyst"}
+{"question": "ATG honeymoon 21yo T1D", "category": "transition", "subcategory": "ATG", "annotation_reason": "Explicit age (21), ATG"}
+{"question": "Mastisol liquid adhesive 19yo", "category": "transition", "subcategory": "Mastisol", "annotation_reason": "Explicit age (19), Mastisol"}
+{"question": "What baricitinib t1d 21yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "baricitinib", "annotation_reason": "Explicit age (21), baricitinib"}
+{"question": "Dermatologist referral 20yo pump", "category": "transition", "subcategory": "derm_referral", "annotation_reason": "Explicit age (20), derm referral"}
+{"question": "Ketone meter strips 20yo T1D", "category": "transition", "subcategory": "ketone_strips", "annotation_reason": "Explicit age (20), ketone strips"}
+{"question": "Remicade infusion T1D 21yo", "category": "transition", "subcategory": "Remicade", "annotation_reason": "Explicit age (21), Remicade"}
+{"question": "Receiver lost 21yo T1D", "category": "transition", "subcategory": "receiver_lost", "annotation_reason": "Explicit age (21), receiver lost"}
+{"question": "Alcohol wipe vs IV prep 19yo", "category": "transition", "subcategory": "alcohol_vs_IVprep", "annotation_reason": "Explicit age (19), alcohol vs IV prep"}
+{"question": "Ilumya injection T1D 21yo", "category": "transition", "subcategory": "Ilumya", "annotation_reason": "Explicit age (21), Ilumya"}
+{"question": "No-sting barrier 19yo T1D", "category": "transition", "subcategory": "no_sting", "annotation_reason": "Explicit age (19), no-sting"}
+{"question": "What abrocitinib t1d 20yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "abrocitinib", "annotation_reason": "Explicit age (20), abrocitinib"}
+{"question": "What upadacitinib t1d 19yo do I need as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "upadacitinib", "annotation_reason": "Explicit age (19), upadacitinib"}
+{"question": "Spesolimab injection T1D 20yo", "category": "transition", "subcategory": "Spesolimab", "annotation_reason": "Explicit age (20), Spesolimab"}
+{"question": "Walmart ReliOn insulin 21yo T1D", "category": "transition", "subcategory": "ReliOn", "annotation_reason": "Explicit age (21), ReliOn"}
+{"question": "Detachol adhesive remover 19yo", "category": "transition", "subcategory": "Detachol", "annotation_reason": "Explicit age (19), Detachol"}
+{"question": "Adbry injection 21yo T1D", "category": "transition", "subcategory": "Adbry", "annotation_reason": "Explicit age (21), Adbry"}
+{"question": "Tildrakizumab honeymoon 20yo T1D", "category": "transition", "subcategory": "tildrakizumab", "annotation_reason": "Explicit age (20), tildrakizumab"}
+{"question": "Thigh site insulin pump 19yo", "category": "transition", "subcategory": "thigh_site", "annotation_reason": "Explicit age (19), thigh site"}
+{"question": "Cimzia injection T1D 20yo", "category": "transition", "subcategory": "Cimzia", "annotation_reason": "Explicit age (20), Cimzia"}
+{"question": "Kineret injection T1D 21yo", "category": "transition", "subcategory": "Kineret", "annotation_reason": "Explicit age (21), Kineret"}
+{"question": "Human insulin NPH R 19yo T1D", "category": "transition", "subcategory": "human_insulin", "annotation_reason": "Explicit age (19), human insulin"}
+{"question": "Zoryve cream T1D 20yo", "category": "transition", "subcategory": "Zoryve", "annotation_reason": "Explicit age (20), Zoryve"}
+{"question": "Oral insulin trial 21yo T1D", "category": "transition", "subcategory": "oral_insulin_trial", "annotation_reason": "Explicit age (21), oral insulin trial"}
+{"question": "Skin tac adhesive 20yo pump", "category": "transition", "subcategory": "Skin_Tac", "annotation_reason": "Explicit age (20), Skin Tac"}
+{"question": "Unisolve adhesive remover 21yo", "category": "transition", "subcategory": "Unisolve", "annotation_reason": "Explicit age (21), Unisolve"}
+{"question": "Skin prep wipe 21yo CGM", "category": "transition", "subcategory": "skin_prep_wipe", "annotation_reason": "Explicit age (21), skin prep"}
+{"question": "Monthly basal insulin 21yo T1D", "category": "transition", "subcategory": "monthly_basal", "annotation_reason": "Explicit age (21), monthly basal"}
+{"question": "Humira injection T1D 20yo", "category": "transition", "subcategory": "Humira", "annotation_reason": "Explicit age (20), Humira"}
+{"question": "Stage 2 T1D teplizumab 19yo", "category": "transition", "subcategory": "stage2_T1D", "annotation_reason": "Explicit age (19), stage 2 T1D"}
+{"question": "Skyrizi injection T1D 19yo", "category": "transition", "subcategory": "Skyrizi", "annotation_reason": "Explicit age (19), Skyrizi"}
+{"question": "Weekly basal insulin 20yo T1D", "category": "transition", "subcategory": "weekly_basal", "annotation_reason": "Explicit age (20), weekly basal"}
+{"question": "Alefacept honeymoon 21yo T1D", "category": "transition", "subcategory": "alefacept", "annotation_reason": "Explicit age (21), alefacept"}

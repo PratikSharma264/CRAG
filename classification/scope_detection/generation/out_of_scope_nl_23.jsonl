@@ -1,0 +1,70 @@
+{"question": "Visceral adiposity 40-year-old: IR", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, visceral fat adult"}
+{"question": "Exercise prescription IR 40-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, exercise prescription adult"}
+{"question": "55-year-old new T2D: T1D vs T2D workup", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 55, new diabetes adult"}
+{"question": "Vitamin D repletion IR 35yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, vitamin D adult"}
+{"question": "21-year-old with T2D: alcohol safety", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 21, alcohol adult"}
+{"question": "IR in 40-year-old: HOMA-IR calculation", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, insulin resistance adult"}
+{"question": "82-year-old T2D: palliative care T2D", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 82, palliative diabetes"}
+{"question": "IR syndrome in 38-year-old: criteria", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 38, IR syndrome adult"}
+{"question": "Ketogenic diet IR 48-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 48, keto adult"}
+{"question": "Hyperandrogenism IR 30-year-old female", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 30, hyperandrogenism adult"}
+{"question": "70-year-old with T2D: hypoglycemia risk", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 70, elderly hypoglycemia"}
+{"question": "A1c goals frail elderly 78-year-old T2D", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, frail elderly"}
+{"question": "Intermittent fasting IR 35-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, fasting adult"}
+{"question": "IR weight loss in 50-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 50, weight loss adult"}
+{"question": "Low HDL 45-year-old: IR marker", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, low HDL adult"}
+{"question": "30-year-old with T2D: A1c target 7%", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 30, adult T2D HbA1c"}
+{"question": "CPAP treatment IR 40yo OSA", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, CPAP adult"}
+{"question": "Berberine 500mg TID IR 35yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, berberine adult"}
+{"question": "Zone 2 training IR 35-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, zone 2 adult"}
+{"question": "89-year-old T2D: advance directive T2D", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 89, advance directive"}
+{"question": "PCOS IR in 28-year-old woman", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 28, PCOS adult"}
+{"question": "Steel Magnolias Shelby T2D death scene accuracy", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Steel Magnolias = entertainment"}
+{"question": "Edge deployment of T2D model on phone", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Edge deployment = AI/ML"}
+{"question": "REST API design for T2D app backend", "category": "non_medical", "subcategory": "programming", "annotation_reason": "API design = programming"}
+{"question": "World T2D Day date: November 14", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Nov 14 = general"}
+{"question": "G-computation for T2D treatment effect estimation", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "G-computation = statistics"}
+{"question": "Fairness metrics for T2D ML models", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Fairness metrics = AI/ML"}
+{"question": "T2D in ancient Egypt: historical records", "category": "non_medical", "subcategory": "history", "annotation_reason": "Ancient Egypt diabetes = history"}
+{"question": "Ayurveda T2D treatment: Madhumeha", "category": "non_medical", "subcategory": "history", "annotation_reason": "Ayurveda = history"}
+{"question": "RevenueCat subscriptions for premium T2D features", "category": "non_medical", "subcategory": "programming", "annotation_reason": "RevenueCat = programming"}
+{"question": "T2D camps history: first camp 1925", "category": "non_medical", "subcategory": "history", "annotation_reason": "Diabetes camps history = history"}
+{"question": "CodePush for React Native T2D app updates", "category": "non_medical", "subcategory": "programming", "annotation_reason": "CodePush = programming"}
+{"question": "ROC curve analysis for T2D screening test", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "ROC curve = statistics"}
+{"question": "T2D in literature: The Sweetness of Water", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Literature diabetes = entertainment"}
+{"question": "T2D prevention program Medicare coverage", "category": "non_medical", "subcategory": "politics", "annotation_reason": "DPP Medicare = politics"}
+{"question": "Principal stratification for T2D compliance", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Principal stratification = statistics"}
+{"question": "Difference-in-differences for T2D intervention", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "DiD = statistics"}
+{"question": "Employer T2D management program cost savings", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Employer program savings = economics"}
+{"question": "Causal discovery from T2D observational data", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Causal discovery = AI/ML"}
+{"question": "Calculate sample size for T2D clinical trial", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Sample size calculation = statistics"}
+{"question": "Geography of T2D prevalence by country", "category": "non_medical", "subcategory": "geography", "annotation_reason": "Geography prevalence = geography"}
+{"question": "Multi-state model for T2D progression stages", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Multi-state model = statistics"}
+{"question": "T2D organizations: ADA EASD IDF founding", "category": "non_medical", "subcategory": "history", "annotation_reason": "Diabetes orgs history = history"}
+{"question": "Synthetic control for T2D policy evaluation", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Synthetic control = statistics"}
+{"question": "Foundation models for T2D care", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Foundation models = AI/ML"}
+{"question": "T2D in movies: Steel Magnolias accuracy", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Movies diabetes = entertainment"}
+{"question": "Active learning for rare T2D subtype classification", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Active learning = AI/ML"}
+{"question": "Model calibration for T2D risk prediction", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Model calibration = AI/ML"}
+{"question": "AutoML for T2D risk prediction", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "AutoML risk prediction = AI/ML"}
+{"question": "Kaplan-Meier survival analysis for T2D complications", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Kaplan-Meier = statistics"}
+{"question": "Targeted maximum likelihood estimation for T2D", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "TMLE = statistics"}
+{"question": "WebRTC for video consultation T2D app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "WebRTC = programming"}
+{"question": "Health equity T2D policy recommendations", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Health equity policy = politics"}
+{"question": "T2D in medieval Islamic medicine: Avicenna", "category": "non_medical", "subcategory": "history", "annotation_reason": "Medieval Islamic medicine = history"}
+{"question": "Alpha spending function for T2D multiple endpoints", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Alpha spending = statistics"}
+{"question": "Futility stopping rules for T2D drug trial", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Futility stopping = statistics"}
+{"question": "Real-world evidence for T2D drug approval", "category": "non_medical", "subcategory": "politics", "annotation_reason": "RWE approval = politics"}
+{"question": "World T2D Day blue circle symbol", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Blue circle = general"}
+{"question": "Sample size re-estimation for T2D interim", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Sample size re-est = statistics"}
+{"question": "T2D in indigenous populations historical", "category": "non_medical", "subcategory": "history", "annotation_reason": "Indigenous populations = history"}
+{"question": "Propensity score matching for T2D observational study", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Propensity score = statistics"}
+{"question": "Differential privacy for federated T2D learning", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Differential privacy = AI/ML"}
+{"question": "Accessibility testing for T2D website", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Accessibility testing = programming"}
+{"question": "Mediation analysis for T2D pathway effects", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Mediation = statistics"}
+{"question": "MLOps pipeline for T2D model deployment", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "MLOps pipeline = AI/ML"}
+{"question": "The Babysitters Club Stacey T2D representation", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Babysitters Club = entertainment"}
+{"question": "T2D clinical trial diversity FDA guidance", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Trial diversity = politics"}
+{"question": "Logistic regression for T2D risk factors", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Logistic regression = statistics"}
+{"question": "Sample size for non-inferiority T2D trial", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Non-inferiority sample size = statistics"}
+{"question": "False discovery rate for T2D biomarker panel", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "FDR biomarker = statistics"}

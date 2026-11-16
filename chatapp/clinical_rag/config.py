@@ -47,12 +47,26 @@ CONDENSE_FOLLOW_UPS = True
 MODEL_C_CHECKPOINT = PROJECT_ROOT / "classification" / "model_c_v2" / "checkpoint" / "best"
 MODEL_C_MAX_LENGTH = 512
 
-# Combined scoring weights (must match combined_query.py exactly)
-MODEL_C_WEIGHT = 0.15
-COSINE_WEIGHT = 0.85
+# Combined scoring weights (sum to 1.0)
+# Formula: combined = 0.10 * model_c + 0.45 * cosine + 0.45 * llm_judge
+MODEL_C_WEIGHT = 0.10
+COSINE_WEIGHT = 0.45
+LLM_JUDGE_WEIGHT = 0.45
 
-# Combined threshold
+# Verify weights sum to 1.0 at module load
+assert abs(MODEL_C_WEIGHT + COSINE_WEIGHT + LLM_JUDGE_WEIGHT - 1.0) < 1e-9, (
+    "Sufficiency weights must sum to 1.0"
+)
+
+# Combined threshold (on 0-1 scale)
 COMBINED_THRESHOLD = 0.70
 
 # Whether the sufficiency gate is enabled
 SUFFICIENCY_ENABLED = True
+
+# LLM Judge configuration
+LLM_JUDGE_ENABLED = True
+LLM_JUDGE_TIMEOUT_SECONDS = 20  # Timeout for LLM judge API call
+LLM_JUDGE_PROVIDER = "groq"  # "gemini" or "groq"
+LLM_JUDGE_MODEL = "gemini-3.5-flash"  # Used when provider is "gemini"
+LLM_JUDGE_GROQ_MODEL = "openai/gpt-oss-20b"  # Used when provider is "groq"

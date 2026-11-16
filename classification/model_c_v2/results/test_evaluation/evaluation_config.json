@@ -1,0 +1,35 @@
+{
+  "checkpoint_path": "C:\\Users\\Lenovo\\Desktop\\Programming\\sakshyam\\7thSemestertest\\classification\\model_c_v2\\checkpoint\\best",
+  "model_identifier": "BiomedBERT",
+  "tokenizer_path": "C:\\Users\\Lenovo\\Desktop\\Programming\\sakshyam\\7thSemestertest\\classification\\model_c_v2\\checkpoint\\best",
+  "test_csv_path": "C:\\Users\\Lenovo\\Desktop\\Programming\\sakshyam\\7thSemestertest\\classification\\model_c_v2\\splits\\test.csv",
+  "test_row_count": 412,
+  "class_distribution": {
+    "insufficient_count": 223,
+    "sufficient_count": 189,
+    "insufficient_ratio": 0.5412621359223301,
+    "sufficient_ratio": 0.4587378640776699
+  },
+  "origin_distribution": {
+    "A": 241,
+    "B_V2": 171
+  },
+  "threshold": 0.5,
+  "max_length": 512,
+  "batch_size": 16,
+  "device": "cpu",
+  "evaluation_timestamp": "2026-11-12T06:51:18.434746+00:00",
+  "truncation_stats": {
+    "total_examples": 412,
+    "truncated_count": 0,
+    "has_truncation": false,
+    "max_length_limit": 512,
+    "max_untruncated_tokens": 489,
+    "min_untruncated_tokens": 19,
+    "mean_untruncated_tokens": 234.05582524271844
+  },
+  "output_files": {
+    "eval_results": "C:\\Users\\Lenovo\\Desktop\\Programming\\sakshyam\\7thSemestertest\\classification\\model_c_v2\\results\\test_evaluation\\eval_results.json",
+    "test_predictions": "C:\\Users\\Lenovo\\Desktop\\Programming\\sakshyam\\7thSemestertest\\classification\\model_c_v2\\results\\test_evaluation\\test_predictions.csv"
+  }
+}

@@ -1,0 +1,70 @@
+{"question": "High schooler here - constant thirst, bathroom breaks every class, diabetes?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Teen describing school impact of symptoms"}
+{"question": "Peer support group for teens with T1D", "category": "psychosocial", "subcategory": "peer_support", "annotation_reason": "Teens = adolescent, peer support"}
+{"question": "Automated insulin delivery systems for 8-year-olds", "category": "insulin_therapy", "subcategory": "AID", "annotation_reason": "Explicit age (8), AID systems"}
+{"question": "Insulin requirements during puberty stages in boys 12-16", "category": "insulin_therapy", "subcategory": "puberty_boys", "annotation_reason": "Explicit age range (12-16), boys"}
+{"question": "Meta-analysis: DKA cerebral edema risk factors in children", "category": "complications", "subcategory": "meta_analysis", "annotation_reason": "Researcher + children explicit"}
+{"question": "Medication review: Metformin adjunct in obese adolescent T1D", "category": "pediatric_t1d", "subcategory": "medication_review", "annotation_reason": "Adolescent explicit, medication"}
+{"question": "Dexcom G7 MARD in children 2-6 years", "category": "glucose_monitoring", "subcategory": "G7_MARD_young", "annotation_reason": "Explicit age range (2-6), G7"}
+{"question": "Cerebral edema risk in pediatric DKA: warning signs", "category": "pediatric_t1d", "subcategory": "acute_complications", "annotation_reason": "Pediatric explicit, cerebral edema"}
+{"question": "Body image issues in adolescent girls with T1D", "category": "nutrition_lifestyle", "subcategory": "body_image", "annotation_reason": "Adolescent girls explicit, body image"}
+{"question": "Diabetes medical management plan vs 504 vs IEP", "category": "parents_caregivers_schools", "subcategory": "DMMP_504_IEP", "annotation_reason": "School = pediatric, plan types"}
+{"question": "CGM use in youth-onset type 2 diabetes", "category": "pediatric_t2d", "subcategory": "monitoring", "annotation_reason": "Youth-onset explicit, CGM"}
+{"question": "Peer support group for teens with T2D", "category": "pediatric_t2d", "subcategory": "psychosocial", "annotation_reason": "Teens = adolescent, peer support"}
+{"question": "Transition care for young adult with youth-onset T2D", "category": "pediatric_t2d", "subcategory": "transition", "annotation_reason": "Youth-onset + young adult, transition"}
+{"question": "At school for pump?", "category": "parents_caregivers_schools", "subcategory": "sharps_disposal", "annotation_reason": "Explicit age (11), sharps", "fragment_reason": "content_words=2, word_count=4"}
+{"question": "T1d: won't eat veggies?", "category": "nutrition_lifestyle", "subcategory": "picky_eating", "annotation_reason": "Explicit age (5), picky eating", "fragment_reason": "content_words=4, word_count=4"}
+{"question": "Puberty for my teenager?", "category": "insulin_therapy", "subcategory": "ISF_puberty", "annotation_reason": "Explicit age (16), puberty", "fragment_reason": "content_words=2, word_count=4"}
+{"question": "My diagnosed with type 2, now what?", "category": "pediatric_t2d", "subcategory": "diagnosis", "annotation_reason": "Caregiver + explicit age (13), new T2D", "fragment_reason": "content_words=3, word_count=7"}
+{"question": "A : fluid protocol?", "category": "pediatric_t1d", "subcategory": "acute_complications", "annotation_reason": "Explicit age (10), DKA management", "fragment_reason": "content_words=2, word_count=4"}
+{"question": "Treatment for childhood t2d?", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Childhood explicit, family-based", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For adolescent t2d: evidence?", "category": "pediatric_t2d", "subcategory": "obesity_link", "annotation_reason": "Adolescent explicit, Mediterranean diet", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "Infants with t1d ?", "category": "insulin_therapy", "subcategory": "dilution", "annotation_reason": "Infants = pediatric, dilution", "fragment_reason": "content_words=2, word_count=4"}
+{"question": "My child has dexcom G7 vs Libre 3 for my ?", "category": "glucose_monitoring", "subcategory": "device_comparison", "annotation_reason": "Explicit age (11), device comparison", "fragment_reason": "content_words=3, word_count=11"}
+{"question": "Type 1 diabetes recovery?", "category": "nutrition_lifestyle", "subcategory": "intuitive_eating", "annotation_reason": "Explicit age (15), intuitive eating", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "My child has carbs for keto?", "category": "nutrition_lifestyle", "subcategory": "net_vs_total", "annotation_reason": "Explicit age (10), net carbs", "fragment_reason": "content_words=3, word_count=6"}
+{"question": "Glucose checks for t2d?", "category": "pediatric_t2d", "subcategory": "school", "annotation_reason": "Explicit age (11), school nurse", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "Burnout prevention for t1d?", "category": "parents_caregivers_schools", "subcategory": "burnout_prevention", "annotation_reason": "Explicit age (6), burnout", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "My child has pump user ?", "category": "insulin_therapy", "subcategory": "basal_backup", "annotation_reason": "Explicit age (13), backup", "fragment_reason": "content_words=3, word_count=6"}
+{"question": "Lol switch to degludec ?", "category": "insulin_therapy", "subcategory": "basal_switch", "annotation_reason": "Explicit age (12), basal switch", "fragment_reason": "content_words=3, word_count=5"}
+{"question": "Enough for a toddler?", "category": "pediatric_t1d", "subcategory": "glucose_monitoring", "annotation_reason": "Toddler = pediatric, specific device", "fragment_reason": "content_words=2, word_count=4"}
+{"question": "Carb counting for t2d?", "category": "pediatric_t2d", "subcategory": "school", "annotation_reason": "Explicit age (12), lunch carb counts", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "Hey for a picky eater?", "category": "pediatric_t1d", "subcategory": "nutrition", "annotation_reason": "Explicit age (5), carb counting", "fragment_reason": "content_words=3, word_count=5"}
+{"question": "Toddler sick days ?", "category": "pediatric_t1d", "subcategory": "acute_complications", "annotation_reason": "Toddler = pediatric, mini-dose glucagon", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "Btw my preteen has prediabtes in , what should I do?", "category": "pediatric_t2d", "subcategory": "prediabetes", "annotation_reason": "Typo: Prediabtes + explicit age (13)", "fragment_reason": "content_words=3, word_count=11"}
+{"question": "Counting basics for parent?", "category": "nutrition_lifestyle", "subcategory": "carb_counting_basics", "annotation_reason": "Explicit age (6), parent education", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For my child?", "category": "insulin_therapy", "subcategory": "pump_alarms", "annotation_reason": "Explicit age (10), school alarms", "fragment_reason": "content_words=1, word_count=3"}
+{"question": "As a young adult with childhood-onset T1D, transition program evaluation metrics for 16-22?", "category": "transition", "subcategory": "program_evaluation", "annotation_reason": "Explicit age range (16-22), evaluation"}
+{"question": "Controlled on metformin ?", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Teen = adolescent, insulin"}
+{"question": "Insulin absorption for ?", "category": "nutrition_lifestyle", "subcategory": "hot_weather", "annotation_reason": "Explicit age (8), heat"}
+{"question": "Administration for my ?", "category": "parents_caregivers_schools", "subcategory": "glucagon_refusal", "annotation_reason": "Explicit age (7), glucagon refusal"}
+{"question": "Total carbs for ?", "category": "nutrition_lifestyle", "subcategory": "fiber_subtraction", "annotation_reason": "Explicit age (14), fiber"}
+{"question": ": what to expect?", "category": "transition", "subcategory": "clinic_visit", "annotation_reason": "Explicit age (17), transition clinic"}
+{"question": "Insulin resistance marker ?", "category": "pediatric_t2d", "subcategory": "screening", "annotation_reason": "Explicit age (10), acanthosis nigricans"}
+{"question": "Phase ending so fast?", "category": "pediatric_t1d", "subcategory": "pathophysiology", "annotation_reason": "Explicit age (14), honeymoon phase"}
+{"question": "In girls 10-14 ?", "category": "insulin_therapy", "subcategory": "puberty_girls", "annotation_reason": "Explicit age range (10-14), girls"}
+{"question": "In sauces for ?", "category": "nutrition_lifestyle", "subcategory": "hidden_carbs", "annotation_reason": "Explicit age (11), hidden carbs"}
+{"question": "Display at school ?", "category": "parents_caregivers_schools", "subcategory": "Apple_Watch_school", "annotation_reason": "Explicit age (13), Apple Watch"}
+{"question": "At summer camp ?", "category": "insulin_therapy", "subcategory": "storage", "annotation_reason": "Kid + camp = pediatric, heat stability"}
+{"question": "Changes during puberty ?", "category": "insulin_therapy", "subcategory": "sensitivity", "annotation_reason": "Puberty = adolescent, ISF changes"}
+{"question": "As a young adult with childhood-onset T1D, military service with childhood-onset t1d?", "category": "transition", "subcategory": "military", "annotation_reason": "Childhood-onset explicit, military"}
+{"question": "For pediatric use ?", "category": "insulin_therapy", "subcategory": "lyumjev_age", "annotation_reason": "Pediatric explicit, Lyumjev"}
+{"question": "Carb 3:1 for ?", "category": "nutrition_lifestyle", "subcategory": "post_exercise_ratio", "annotation_reason": "Explicit age (15), recovery"}
+{"question": "Pre vs post ?", "category": "insulin_therapy", "subcategory": "bolus", "annotation_reason": "Toddler = pediatric, bolus timing"}
+{"question": "12 yr old ?", "category": "insulin_therapy", "subcategory": "pump_vs_shots", "annotation_reason": "Typo: yr + explicit age (12)"}
+{"question": "As a young adult with childhood-onset T1D, structured transition program outcomes at 5 years?", "category": "transition", "subcategory": "program_outcomes", "annotation_reason": "Transition program explicit, outcomes"}
+{"question": "Sharing with clinic ?", "category": "insulin_therapy", "subcategory": "pens", "annotation_reason": "Teens = adolescent, smart pens"}
+{"question": "Lows at night ?", "category": "pediatric_t1d", "subcategory": "glucose_monitoring", "annotation_reason": "Explicit age (12), compression lows"}
+{"question": "Food database for ?", "category": "nutrition_lifestyle", "subcategory": "carb_app_database", "annotation_reason": "Explicit age (10), app"}
+{"question": "Off during football ?", "category": "pediatric_t1d", "subcategory": "pump", "annotation_reason": "Teen + pump issue"}
+{"question": "Carb counts for ?", "category": "nutrition_lifestyle", "subcategory": "school_lunch_carbs", "annotation_reason": "Explicit age (9), school lunch"}
+{"question": "I'm 23, diagnosed with T1D at 7, what should I know about pregnancy risks with childhood-onset T1D?", "category": "transition", "subcategory": "pregnancy_risk", "annotation_reason": "Young adult with childhood-onset T1D asking about pregnancy risks"}
+{"question": "I'm 23, had T1D since childhood, how do I transition from pediatric CGM alerts to adult self-management?", "category": "transition", "subcategory": "cgm_alerts", "annotation_reason": "Young adult with childhood-onset T1D asking about CGM alert transition"}
+{"question": "I'm 25, diagnosed with T1D at 9, how do I find an adult endocrinologist who understands childhood-onset T1D?", "category": "transition", "subcategory": "adult_endo_search", "annotation_reason": "Young adult with childhood-onset T1D asking about adult endo"}
+{"question": "I'm 24, diagnosed with T1D at 9, what should I know about disability insurance with childhood-onset T1D?", "category": "transition", "subcategory": "disability_insurance", "annotation_reason": "Young adult with childhood-onset T1D asking about disability insurance"}
+{"question": "My toddler has fruity breath and is breathing heavy, could this be diabetic ketoacidosis?", "category": "symptom_recognition", "subcategory": "dka_symptoms", "annotation_reason": "Fruity breath and Kussmaul breathing in toddler - DKA emergency"}
+{"question": "My teenager is constantly thirsty, peeing constantly, and tired - all three, diabetes?", "category": "symptom_recognition", "subcategory": "classic_triad", "annotation_reason": "Classic T1D triad in teenager - polydipsia, polyuria, fatigue"}
+{"question": "My toddler is suddenly soaking through diapers and drinking from the dog's bowl, diabetes?", "category": "symptom_recognition", "subcategory": "extreme_polyuria_polydipsia", "annotation_reason": "Extreme polyuria and polydipsia in toddler - classic T1D onset"}
+{"question": "My teenager lost 10 pounds in a month while eating constantly, type 1 diabetes?", "category": "symptom_recognition", "subcategory": "rapid_weight_loss", "annotation_reason": "Rapid weight loss with polyphagia in teen - classic T1D"}
+{"question": "I'm 21, diagnosed with T1D at 5, how do I transition my mental health care along with diabetes care to adult providers?", "category": "transition", "subcategory": "mental_health", "annotation_reason": "Young adult with childhood-onset T1D asking about mental health transition"}
+{"question": "I'm 22, diagnosed with T1D at 6, how do I handle dating and disclosure with new partners as an adult?", "category": "transition", "subcategory": "dating_disclosure", "annotation_reason": "Young adult with childhood-onset T1D asking about dating disclosure"}
+{"question": "I'm 20, diagnosed with T1D at 10, what should I know about DKA prevention as an adult?", "category": "transition", "subcategory": "dka_prevention", "annotation_reason": "Young adult with childhood-onset T1D asking about DKA prevention in adult context"}

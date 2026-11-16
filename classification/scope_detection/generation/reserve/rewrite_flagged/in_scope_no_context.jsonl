@@ -1,0 +1,3 @@
+{"question": "Hey know peds t1d 21-year-old?", "category": "transition", "subcategory": "adult_endo_knowledge", "annotation_reason": "Explicit age (21), adult endo"}
+{"question": "How do I find an adult endocrinologist for switching from peds endo 19-year-old t1d?", "category": "transition", "subcategory": "switching_endo", "annotation_reason": "Explicit age (19), switching endo"}
+{"question": "Transition program for 18-22 year olds with youth-onset T1D: what's the evidence?", "category": "transition", "subcategory": "program_evidence", "annotation_reason": "Youth-onset explicit + age range 18-22, researcher"}

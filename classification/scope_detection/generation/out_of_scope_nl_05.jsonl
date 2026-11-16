@@ -1,0 +1,70 @@
+{"question": "ADHD and executive function in 14-year-old", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 14, ADHD executive function"}
+{"question": "Ear infection antibiotics for 2-year-old", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 2, ear infection"}
+{"question": "Proteinuria in 8-year-old: nephrotic syndrome?", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 8, proteinuria"}
+{"question": "ADHD diagnosis criteria for 7-year-old", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 7, ADHD diagnosis"}
+{"question": "Inflammatory bowel disease in 12-year-old: diagnosis", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 12, IBD"}
+{"question": "Headache red flags in 9-year-old", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 9, headache"}
+{"question": "Heart murmur in 6-year-old: innocent vs pathologic", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 6, heart murmur"}
+{"question": "Neurofibromatosis type 1 in 7-year-old", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 7, NF1"}
+{"question": "Celiac disease screening in 6-year-old with symptoms", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 6, celiac screening"}
+{"question": "Palpitations in 14-year-old athlete: EKG", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 14, palpitations"}
+{"question": "Autism spectrum disorder in 4-year-old: early intervention", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 4, autism"}
+{"question": "Liver enzyme elevation in 14-year-old: workup", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 14, liver enzymes"}
+{"question": "Thyroid nodule in 14-year-old: FNA", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 14, thyroid nodule"}
+{"question": "Adrenal insufficiency in 8-year-old: stress dosing", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 8, adrenal insufficiency"}
+{"question": "Lymphadenopathy in 9-year-old: biopsy indications", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 9, lymphadenopathy"}
+{"question": "Syncope in 10-year-old: vasovagal vs cardiac", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 10, syncope"}
+{"question": "Developmental delay in 3-year-old: genetic testing", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 3, developmental delay"}
+{"question": "Eosinophilic esophagitis in 8-year-old: diet therapy", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 8, EoE"}
+{"question": "Migraine in 10-year-old: preventive therapy", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 10, migraine"}
+{"question": "Chest pain in 12-year-old: cardiac workup", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 12, chest pain"}
+{"question": "GERD in 7-year-old: PPI use", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 7, GERD"}
+{"question": "Chronic constipation in 4-year-old: management", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 4, constipation"}
+{"question": "Hemophilia in 7-year-old: factor replacement", "category": "other_medical_pediatric", "subcategory": "hematology", "annotation_reason": "Explicit age 7, hemophilia"}
+{"question": "Tics and Tourette in 8-year-old: management", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 8, tics"}
+{"question": "Fatty liver in 13-year-old obese: NAFLD", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 13, NAFLD"}
+{"question": "Short stature in 10-year-old: growth hormone", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 10, short stature"}
+{"question": "Hydrocephalus in 6-year-old: shunt malfunction signs", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 6, hydrocephalus"}
+{"question": "Precocious puberty in 7-year-old girl: workup", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 7, precocious puberty"}
+{"question": "Wilms tumor follow-up in 6-year-old", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 6, Wilms follow-up"}
+{"question": "Thalassemia trait in 6-year-old: counseling", "category": "other_medical_pediatric", "subcategory": "hematology", "annotation_reason": "Explicit age 6, thalassemia"}
+{"question": "Short bowel syndrome in 5-year-old: nutrition", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 5, SBS"}
+{"question": "Febrile seizure in 2-year-old: recurrence risk", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 2, febrile seizure"}
+{"question": "Retinoblastoma in 2-year-old: enucleation", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 2, retinoblastoma"}
+{"question": "Osteosarcoma in 14-year-old: chemo protocol", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 14, osteosarcoma"}
+{"question": "Long QT syndrome in 13-year-old: beta blockers", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 13, Long QT"}
+{"question": "Epilepsy surgery evaluation in 12-year-old", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 12, epilepsy surgery"}
+{"question": "Congenital heart defect follow-up 8-year-old", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 8, CHD follow-up"}
+{"question": "Hypertrophic cardiomyopathy in 15-year-old", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 15, HCM"}
+{"question": "Hashimoto thyroiditis in 9-year-old: monitoring", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 9, Hashimoto"}
+{"question": "Sickle cell disease in 10-year-old: hydroxyurea", "category": "other_medical_pediatric", "subcategory": "hematology", "annotation_reason": "Explicit age 10, sickle cell"}
+{"question": "Cerebral palsy in 5-year-old: spasticity management", "category": "other_medical_pediatric", "subcategory": "neurology", "annotation_reason": "Explicit age 5, CP"}
+{"question": "Graves disease in 12-year-old: antithyroid drugs", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 12, Graves"}
+{"question": "Cholesterol screening in 9-year-old with family history", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 9, cholesterol"}
+{"question": "ITP in 8-year-old: observation vs treatment", "category": "other_medical_pediatric", "subcategory": "hematology", "annotation_reason": "Explicit age 8, ITP"}
+{"question": "Cyclic vomiting syndrome in 10-year-old", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 10, CVS"}
+{"question": "CAH in 5-year-old: hydrocortisone dosing", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 5, CAH"}
+{"question": "Kawasaki disease in 3-year-old: IVIG treatment", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 3, Kawasaki"}
+{"question": "Rheumatic fever in 11-year-old: Jones criteria", "category": "other_medical_pediatric", "subcategory": "cardiology", "annotation_reason": "Explicit age 11, rheumatic fever"}
+{"question": "SIADH in 13-year-old: fluid restriction", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 13, SIADH"}
+{"question": "Pancreatitis in 11-year-old: causes", "category": "other_medical_pediatric", "subcategory": "gi", "annotation_reason": "Explicit age 11, pancreatitis"}
+{"question": "VTE in 15-year-old: anticoagulation", "category": "other_medical_pediatric", "subcategory": "hematology", "annotation_reason": "Explicit age 15, VTE"}
+{"question": "Diabetes insipidus in 11-year-old: desmopressin", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 11, DI"}
+{"question": "Iron deficiency anemia in 2-year-old: treatment", "category": "other_medical_pediatric", "subcategory": "hematology", "annotation_reason": "Explicit age 2, iron deficiency"}
+{"question": "Recurrent nephrolithiasis in 50-year-old", "category": "other_medical_adult", "subcategory": "kidney_stones", "annotation_reason": "Explicit age 50, adult recurrent stones"}
+{"question": "Migraine prophylaxis for 35-year-old woman", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 35, adult migraine"}
+{"question": "Seizure disorder in 30-year-old: medication choice", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 30, adult seizures"}
+{"question": "Stroke prevention in 70-year-old with AFib", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 70, elderly stroke prevention"}
+{"question": "Colon cancer screening at 45: new guidelines", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 45, adult colon cancer screening"}
+{"question": "NAFLD in 50-year-old obese: management", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 50, adult NAFLD"}
+{"question": "Pulmonary hypertension in 50-year-old", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 50, adult PH"}
+{"question": "Pancreatitis in 40-year-old: etiology", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 40, adult pancreatitis"}
+{"question": "Statin therapy for primary prevention in 55-year-old", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 55, adult statin"}
+{"question": "Multiple sclerosis in 28-year-old: treatment options", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 28, adult MS"}
+{"question": "Ankylosing spondylitis in 25-year-old male", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 25, adult AS"}
+{"question": "Hepatitis C treatment in 55-year-old", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 55, adult Hep C"}
+{"question": "Cirrhosis management in 65-year-old", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 65, elderly cirrhosis"}
+{"question": "Sleep apnea in 55-year-old obese male", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 55, adult sleep apnea"}
+{"question": "Psoriatic arthritis in 35-year-old", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 35, adult PsA"}
+{"question": "Lupus in 30-year-old woman: monitoring", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 30, adult lupus"}
+{"question": "Palpitations in 30-year-old: workup", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 30, adult palpitations"}

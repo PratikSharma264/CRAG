@@ -145,6 +145,32 @@ def mock_model_c_failure():
         yield singleton
 
 
+@pytest.fixture
+def mock_llm_judge_sufficient():
+    """Mock LLM Judge returning sufficient (1.0)."""
+    with patch("chatapp.clinical_rag.sufficiency_checks.LLMJudgeCheck.evaluate") as mock:
+        from chatapp.clinical_rag.sufficiency_checks import CheckResult
+        mock.return_value = CheckResult(
+            name="llm_judge",
+            score=1.0,
+            details={"sufficiency_label": 1, "reason": "Mock sufficient", "model": "gemini-3.5-flash", "status": "done"}
+        )
+        yield mock
+
+
+@pytest.fixture
+def mock_llm_judge_insufficient():
+    """Mock LLM Judge returning insufficient (0.0)."""
+    with patch("chatapp.clinical_rag.sufficiency_checks.LLMJudgeCheck.evaluate") as mock:
+        from chatapp.clinical_rag.sufficiency_checks import CheckResult
+        mock.return_value = CheckResult(
+            name="llm_judge",
+            score=0.0,
+            details={"sufficiency_label": 0, "reason": "Mock insufficient", "model": "gemini-3.5-flash", "status": "done"}
+        )
+        yield mock
+
+
 # ============================================================
 # Test Normal Answer Persistence
 # ============================================================
@@ -156,7 +182,7 @@ class TestNormalAnswerPersistence:
     @patch("chatapp.clinical_rag.pipeline.retrieval.search")
     @patch("chatapp.clinical_rag.pipeline.generation.stream_answer")
     def test_normal_answer_creates_two_messages(
-        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_sufficient, sample_hits
+        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_sufficient, mock_llm_judge_sufficient, sample_hits
     ):
         """Normal answer: creates user message + assistant message."""
         mock_condense.return_value = "test question"
@@ -192,9 +218,9 @@ class TestNormalAnswerPersistence:
     @patch("chatapp.clinical_rag.pipeline.retrieval.search")
     @patch("chatapp.clinical_rag.pipeline.generation.stream_answer")
     def test_normal_answer_streaming_events(
-        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_sufficient, sample_hits
+        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_sufficient, mock_llm_judge_sufficient, sample_hits
     ):
-        """Normal answer: verify NDJSON event sequence."""
+        """Normal answer: verify NDJSON event sequence (two sufficiency events: partial + final)."""
         mock_condense.return_value = "test question"
         mock_search.return_value = sample_hits
         mock_stream_answer.return_value = iter(["Answer part 1", "Answer part 2"])
@@ -211,7 +237,8 @@ class TestNormalAnswerPersistence:
         events = [json.loads(line) for line in content.strip().split("\n") if line.strip()]
 
         event_types = [e["type"] for e in events]
-        assert event_types == ["saved", "query", "sources", "token", "token", "done"]
+        # Two sufficiency events: partial (judge_status="pending") then final (judge_status="done")
+        assert event_types == ["saved", "query", "sources", "sufficiency", "sufficiency", "token", "token", "done"]
 
         # Verify saved event has user_message_id
         assert events[0]["type"] == "saved"
@@ -227,14 +254,38 @@ class TestNormalAnswerPersistence:
         assert len(events[2]["sources"]) == 2
         assert "url" in events[2]["sources"][0]
 
-        # Verify token events
-        assert events[3]["type"] == "token"
-        assert events[3]["text"] == "Answer part 1"
-        assert events[4]["type"] == "token"
-        assert events[4]["text"] == "Answer part 2"
+        # Verify PARTIAL sufficiency event (index 3) - judge_status="pending"
+        partial_suff = events[3]
+        assert partial_suff["type"] == "sufficiency"
+        assert "details" in partial_suff
+        partial_details = partial_suff["details"]
+        assert partial_details["check_details"]["judge_status"] == "pending"
+        assert partial_details["llm_judge_score"] is None
+        assert partial_details["sufficient"] is False  # Not final yet
+        assert "weights" in partial_details
+        assert "contributions" in partial_details
+        assert partial_details["check_details"]["llm_judge"]["status"] == "pending"
 
-        # Verify done event
-        assert events[5]["type"] == "done"
+        # Verify FINAL sufficiency event (index 4) - judge_status="done"
+        final_suff = events[4]
+        assert final_suff["type"] == "sufficiency"
+        assert "details" in final_suff
+        final_details = final_suff["details"]
+        assert final_details["check_details"]["judge_status"] == "done"
+        assert final_details["llm_judge_score"] is not None
+        assert final_details["sufficient"] is True
+        assert "weights" in final_details
+        assert "contributions" in final_details
+        assert final_details["check_details"]["llm_judge"]["status"] == "done"
+
+        # Verify token events (indices 5, 6)
+        assert events[5]["type"] == "token"
+        assert events[5]["text"] == "Answer part 1"
+        assert events[6]["type"] == "token"
+        assert events[6]["text"] == "Answer part 2"
+
+        # Verify done event (index 7)
+        assert events[7]["type"] == "done"
 
 
 # ============================================================
@@ -284,9 +335,9 @@ class TestAbstentionPersistence:
     @patch("chatapp.clinical_rag.pipeline.retrieval.search")
     @patch("chatapp.clinical_rag.pipeline.generation.stream_answer")
     def test_abstention_streaming_events(
-        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_insufficient, low_similarity_hits
+        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_insufficient, mock_llm_judge_insufficient, low_similarity_hits
     ):
-        """Abstention: verify NDJSON event sequence includes abstain event."""
+        """Abstention: verify NDJSON event sequence includes two sufficiency events and abstain."""
         mock_condense.return_value = "test question"
         mock_search.return_value = low_similarity_hits
         mock_stream_answer.return_value = iter([])
@@ -303,16 +354,40 @@ class TestAbstentionPersistence:
         events = [json.loads(line) for line in content.strip().split("\n") if line.strip()]
 
         event_types = [e["type"] for e in events]
-        assert event_types == ["saved", "query", "sources", "abstain", "done"]
+        # Two sufficiency events: partial (judge_status="pending") then final (judge_status="done")
+        assert event_types == ["saved", "query", "sources", "sufficiency", "sufficiency", "abstain", "done"]
 
-        # Verify abstain event structure
-        abstain_event = events[3]
+        # Verify PARTIAL sufficiency event (index 3) - judge_status="pending"
+        partial_suff = events[3]
+        assert partial_suff["type"] == "sufficiency"
+        assert "details" in partial_suff
+        partial_details = partial_suff["details"]
+        assert partial_details["check_details"]["judge_status"] == "pending"
+        assert partial_details["llm_judge_score"] is None
+        assert partial_details["sufficient"] is False  # Not final yet
+
+        # Verify FINAL sufficiency event (index 4) - judge_status="done", sufficient=False
+        final_suff = events[4]
+        assert final_suff["type"] == "sufficiency"
+        assert "details" in final_suff
+        final_details = final_suff["details"]
+        assert final_details["check_details"]["judge_status"] == "done"
+        assert final_details["llm_judge_score"] is not None
+        assert final_details["sufficient"] is False  # Insufficient overall
+        assert "weights" in final_details
+        assert "contributions" in final_details
+
+        # Verify abstain event structure (index 5)
+        abstain_event = events[5]
         assert abstain_event["type"] == "abstain"
         assert "reason" in abstain_event
         assert "details" in abstain_event
         assert "combined_score" in abstain_event["details"]
         assert "threshold" in abstain_event["details"]
         assert abstain_event["details"]["combined_score"] < 0.70
+
+        # Verify done event (index 6)
+        assert events[6]["type"] == "done"
 
         # Verify NO token events for abstention
         assert "token" not in event_types
@@ -406,15 +481,26 @@ class TestEmptyRetrievalPersistence:
         events = [json.loads(line) for line in content.strip().split("\n") if line.strip()]
 
         event_types = [e["type"] for e in events]
-        assert event_types == ["saved", "query", "sources", "abstain", "done"]
+        assert event_types == ["saved", "query", "sources", "sufficiency", "abstain", "done"]
 
         # Verify empty sources
         sources_event = events[2]
         assert sources_event["sources"] == []
         assert sources_event["confidence"] == 0.0
 
+        # Verify sufficiency event for empty retrieval
+        sufficiency_event = events[3]
+        assert sufficiency_event["type"] == "sufficiency"
+        assert "details" in sufficiency_event
+        details = sufficiency_event["details"]
+        assert details["combined_score"] == 0.0
+        assert details["model_c_probability"] == 0.0
+        assert details["cosine_similarity"] == 0.0
+        assert details["sufficient"] is False
+        assert details["check_details"].get("empty_retrieval") is True
+
         # Verify abstain has empty_retrieval flag
-        abstain_event = events[3]
+        abstain_event = events[4]
         assert abstain_event["details"]["check_details"].get("empty_retrieval") is True
 
         # Verify NO token events
@@ -506,7 +592,7 @@ class TestRetryEditFlow:
     @patch("chatapp.clinical_rag.pipeline.retrieval.search")
     @patch("chatapp.clinical_rag.pipeline.generation.stream_answer")
     def test_retry_truncates_conversation(
-        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_sufficient, sample_hits
+        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_sufficient, mock_llm_judge_sufficient, sample_hits
     ):
         """Retry: truncates messages from the retried user message onward."""
         mock_condense.return_value = "test question"
@@ -559,7 +645,7 @@ class TestRetryEditFlow:
     @patch("chatapp.clinical_rag.pipeline.retrieval.search")
     @patch("chatapp.clinical_rag.pipeline.generation.stream_answer")
     def test_edit_truncates_conversation(
-        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_sufficient, sample_hits
+        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_sufficient, mock_llm_judge_sufficient, sample_hits
     ):
         """Edit: truncates messages from the edited user message onward."""
         mock_condense.return_value = "edited question"
@@ -865,8 +951,16 @@ class TestDisabledSufficiencyGate:
             # Verify streaming events
             events = [json.loads(line) for line in content.strip().split("\n") if line.strip()]
             event_types = [e["type"] for e in events]
-            assert event_types == ["saved", "query", "sources", "token", "done"]
+            assert event_types == ["saved", "query", "sources", "sufficiency", "token", "done"]
             assert "abstain" not in event_types
+
+            # Verify sufficiency event when gate is disabled
+            sufficiency_event = events[3]
+            assert sufficiency_event["type"] == "sufficiency"
+            details = sufficiency_event["details"]
+            assert details["sufficient"] is True
+            assert details["combined_score"] == 1.0
+            assert details["check_details"].get("disabled") is True
         finally:
             config.SUFFICIENCY_ENABLED = original
 
@@ -882,9 +976,9 @@ class TestEventStreamSequence:
     @patch("chatapp.clinical_rag.pipeline.retrieval.search")
     @patch("chatapp.clinical_rag.pipeline.generation.stream_answer")
     def test_sufficient_evidence_event_sequence(
-        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_sufficient, sample_hits
+        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_sufficient, mock_llm_judge_sufficient, sample_hits
     ):
-        """Sufficient evidence: saved, query, sources, token+, done."""
+        """Sufficient evidence: saved, query, sources, sufficiency(partial), sufficiency(final), token+, done."""
         mock_condense.return_value = "test question"
         mock_search.return_value = sample_hits
         mock_stream_answer.return_value = iter(["Token 1", "Token 2", "Token 3"])
@@ -901,7 +995,26 @@ class TestEventStreamSequence:
         events = [json.loads(line) for line in content.strip().split("\n") if line.strip()]
 
         event_types = [e["type"] for e in events]
-        assert event_types == ["saved", "query", "sources", "token", "token", "token", "done"]
+        # Two sufficiency events: partial + final
+        assert event_types == ["saved", "query", "sources", "sufficiency", "sufficiency", "token", "token", "token", "done"]
+
+        # Verify PARTIAL sufficiency event (index 3) - judge_status="pending"
+        partial_suff = events[3]
+        assert partial_suff["type"] == "sufficiency"
+        partial_details = partial_suff["details"]
+        assert partial_details["check_details"]["judge_status"] == "pending"
+        assert partial_details["llm_judge_score"] is None
+        assert partial_details["sufficient"] is False
+
+        # Verify FINAL sufficiency event (index 4) - judge_status="done", sufficient=True
+        final_suff = events[4]
+        assert final_suff["type"] == "sufficiency"
+        final_details = final_suff["details"]
+        assert final_details["check_details"]["judge_status"] == "done"
+        assert final_details["llm_judge_score"] is not None
+        assert final_details["sufficient"] is True
+        assert "combined_score" in final_details
+        assert "threshold" in final_details
 
         # Exactly one done event at the end
         done_count = sum(1 for e in events if e["type"] == "done")
@@ -916,9 +1029,9 @@ class TestEventStreamSequence:
     @patch("chatapp.clinical_rag.pipeline.retrieval.search")
     @patch("chatapp.clinical_rag.pipeline.generation.stream_answer")
     def test_insufficient_evidence_event_sequence(
-        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_insufficient, low_similarity_hits
+        self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_insufficient, mock_llm_judge_insufficient, low_similarity_hits
     ):
-        """Insufficient evidence: saved, query, sources, abstain, done."""
+        """Insufficient evidence: saved, query, sources, sufficiency(partial), sufficiency(final), abstain, done."""
         mock_condense.return_value = "test question"
         mock_search.return_value = low_similarity_hits
         mock_stream_answer.return_value = iter([])
@@ -935,7 +1048,26 @@ class TestEventStreamSequence:
         events = [json.loads(line) for line in content.strip().split("\n") if line.strip()]
 
         event_types = [e["type"] for e in events]
-        assert event_types == ["saved", "query", "sources", "abstain", "done"]
+        # Two sufficiency events: partial + final
+        assert event_types == ["saved", "query", "sources", "sufficiency", "sufficiency", "abstain", "done"]
+
+        # Verify PARTIAL sufficiency event (index 3) - judge_status="pending"
+        partial_suff = events[3]
+        assert partial_suff["type"] == "sufficiency"
+        partial_details = partial_suff["details"]
+        assert partial_details["check_details"]["judge_status"] == "pending"
+        assert partial_details["llm_judge_score"] is None
+        assert partial_details["sufficient"] is False
+
+        # Verify FINAL sufficiency event (index 4) - judge_status="done", sufficient=False
+        final_suff = events[4]
+        assert final_suff["type"] == "sufficiency"
+        final_details = final_suff["details"]
+        assert final_details["check_details"]["judge_status"] == "done"
+        assert final_details["llm_judge_score"] is not None
+        assert final_details["sufficient"] is False
+        assert "combined_score" in final_details
+        assert "threshold" in final_details
 
         # Exactly one done event
         done_count = sum(1 for e in events if e["type"] == "done")
@@ -952,7 +1084,7 @@ class TestEventStreamSequence:
     def test_empty_retrieval_event_sequence(
         self, mock_stream_answer, mock_search, mock_condense, auth_client, user, mock_model_c_sufficient
     ):
-        """Empty retrieval: saved, query, sources(empty), abstain, done."""
+        """Empty retrieval: saved, query, sources(empty), sufficiency, abstain, done."""
         mock_condense.return_value = "test question"
         mock_search.return_value = []
         mock_stream_answer.return_value = iter([])
@@ -969,7 +1101,15 @@ class TestEventStreamSequence:
         events = [json.loads(line) for line in content.strip().split("\n") if line.strip()]
 
         event_types = [e["type"] for e in events]
-        assert event_types == ["saved", "query", "sources", "abstain", "done"]
+        assert event_types == ["saved", "query", "sources", "sufficiency", "abstain", "done"]
+
+        # Verify sufficiency event for empty retrieval
+        sufficiency_event = events[3]
+        assert sufficiency_event["type"] == "sufficiency"
+        details = sufficiency_event["details"]
+        assert details["sufficient"] is False
+        assert details["combined_score"] == 0.0
+        assert details["check_details"].get("empty_retrieval") is True
 
         # No token, no error
         assert "token" not in event_types
@@ -1010,7 +1150,7 @@ class TestEventStreamSequence:
     def test_disabled_gate_event_sequence(
         self, mock_stream_answer, mock_search, mock_condense, auth_client, user, low_similarity_hits
     ):
-        """Disabled gate: saved, query, sources, token+, done (no abstain)."""
+        """Disabled gate: saved, query, sources, sufficiency, token+, done (no abstain)."""
         original = config.SUFFICIENCY_ENABLED
         config.SUFFICIENCY_ENABLED = False
         try:
@@ -1030,9 +1170,17 @@ class TestEventStreamSequence:
             events = [json.loads(line) for line in content.strip().split("\n") if line.strip()]
 
             event_types = [e["type"] for e in events]
-            assert event_types == ["saved", "query", "sources", "token", "done"]
+            assert event_types == ["saved", "query", "sources", "sufficiency", "token", "done"]
             assert "abstain" not in event_types
             assert "error" not in event_types
+
+            # Verify sufficiency event when gate is disabled
+            sufficiency_event = events[3]
+            assert sufficiency_event["type"] == "sufficiency"
+            details = sufficiency_event["details"]
+            assert details["sufficient"] is True
+            assert details["combined_score"] == 1.0
+            assert details["check_details"].get("disabled") is True
         finally:
             config.SUFFICIENCY_ENABLED = original
 

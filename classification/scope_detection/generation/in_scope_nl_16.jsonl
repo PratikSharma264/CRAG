@@ -1,0 +1,70 @@
+{"question": "Study design: RCT of AID in adolescents 12-17", "category": "insulin_therapy", "subcategory": "study_design", "annotation_reason": "Researcher + explicit age range (12-17)"}
+{"question": "My doughter 10 has T1D, pump recomendations?", "category": "pediatric_t1d", "subcategory": "pump", "annotation_reason": "Typos: doughter, recomendations + age (10)"}
+{"question": "Phentermine/topiramate for adolescent obesity T2D", "category": "pediatric_t2d", "subcategory": "obesity_link", "annotation_reason": "Adolescent explicit, anti-obesity meds"}
+{"question": "Insulin omission for weight loss in adolescent girls", "category": "pediatric_t1d", "subcategory": "eating_disorders", "annotation_reason": "Adolescent girls, insulin omission"}
+{"question": "HbA1c diagnostic cutoff for adolescents with T2D", "category": "pediatric_t2d", "subcategory": "diagnosis", "annotation_reason": "Adolescents explicit, diagnostic criteria"}
+{"question": "Teen with T1D refusing to check sugars: help", "category": "pediatric_t1d", "subcategory": "adherence", "annotation_reason": "Teen = adolescent, adherence"}
+{"question": "Eating disorder risk in adolescent T1D: DEPS-R", "category": "psychosocial", "subcategory": "eating_disorder_risk", "annotation_reason": "Adolescent explicit, DEPS-R"}
+{"question": "Insulin therapy for T2D teen not controlled on metformin", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Teen = adolescent, insulin"}
+{"question": "Thyroid screening frequency ISPAD T1D pediatric", "category": "complications", "subcategory": "thyroid_freq_ISPAD", "annotation_reason": "ISPAD + T1D + pediatric"}
+{"question": "GMI vs HbA1c in adolescents: which to trust?", "category": "pediatric_t1d", "subcategory": "glucose_monitoring", "annotation_reason": "Adolescents explicit, GMI"}
+{"question": "Glucose meter accuracy ISO 15197 for pediatric use", "category": "glucose_monitoring", "subcategory": "ISO_accuracy", "annotation_reason": "Pediatric explicit, ISO standard"}
+{"question": "College disability services for T1D freshman", "category": "transition", "subcategory": "college_disability", "annotation_reason": "College = emerging adult, disability services"}
+{"question": "Liraglutide approval for adolescents with T2D", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Adolescents explicit, liraglutide"}
+{"question": "Registry data: Complication rates in youth-onset T2D", "category": "pediatric_t2d", "subcategory": "registry", "annotation_reason": "Researcher + youth-onset explicit"}
+{"question": "My kiddo (7) just got T1D diagnosis... help?", "category": "pediatric_t1d", "subcategory": "diagnosis", "annotation_reason": "Casual + explicit age (7)"}
+{"question": "Hypertension in adolescent with T1D: workup", "category": "complications", "subcategory": "hypertension", "annotation_reason": "Adolescent explicit, hypertension"}
+{"question": "Grant proposal: Psychosocial outcomes in pediatric T1D", "category": "psychosocial", "subcategory": "grant", "annotation_reason": "Researcher + pediatric explicit"}
+{"question": "Medtronic 780G approval for pediatric patients", "category": "insulin_therapy", "subcategory": "780G_peds", "annotation_reason": "Pediatric explicit, 780G"}
+{"question": "Pediatric to adult care transfer at 18: pros/cons", "category": "transition", "subcategory": "transfer_timing", "annotation_reason": "Explicit age (18), transfer"}
+{"question": "Metformin adherence in adolescent T2D: strategies", "category": "pediatric_t2d", "subcategory": "adherence", "annotation_reason": "Adolescent explicit, adherence strategies"}
+{"question": "Sleeve gastrectomy outcomes in adolescent T2D", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Adolescent explicit, sleeve outcomes"}
+{"question": "Celiac screening frequency for children with T1D", "category": "pediatric_t1d", "subcategory": "comorbidities", "annotation_reason": "Children explicit, celiac screening"}
+{"question": "Family-based treatment for childhood T2D", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Childhood explicit, family-based"}
+{"question": "Mediterranean diet for adolescent T2D: evidence", "category": "pediatric_t2d", "subcategory": "obesity_link", "annotation_reason": "Adolescent explicit, Mediterranean diet"}
+{"question": "Retinopathy progression rate youth T2D vs T1D", "category": "complications", "subcategory": "retinopathy_youth_T2D", "annotation_reason": "Youth explicit, retinopathy"}
+{"question": "Microalbuminuria in adolescents: when to start ACEi", "category": "pediatric_t1d", "subcategory": "chronic_complications", "annotation_reason": "Adolescents explicit, microalbuminuria"}
+{"question": "Insulin dilution for infants with T1D", "category": "insulin_therapy", "subcategory": "dilution", "annotation_reason": "Infants = pediatric, dilution"}
+{"question": "CGM in neonatal diabetes 6-month-old", "category": "glucose_monitoring", "subcategory": "CGM_neonatal", "annotation_reason": "Explicit age (6-month), neonatal"}
+{"question": "Toddler T1D - how do you dose for unpredictable eating?", "category": "pediatric_t1d", "subcategory": "dosing", "annotation_reason": "Toddler = pediatric, dosing"}
+{"question": "Diabetes camp for 10-year-olds: benefits", "category": "pediatric_t1d", "subcategory": "camp", "annotation_reason": "Explicit age (10), camp"}
+{"question": "Teen with T2D refusing metformin: what to do", "category": "pediatric_t2d", "subcategory": "adherence", "annotation_reason": "Teen = adolescent, adherence refusal"}
+{"question": "Technology access after pediatric care: CGM/pump coverage", "category": "transition", "subcategory": "tech_access", "annotation_reason": "Transition explicit, tech access"}
+{"question": "Insulin requirements during puberty stages in girls 10-14", "category": "insulin_therapy", "subcategory": "puberty_girls", "annotation_reason": "Explicit age range (10-14), girls"}
+{"question": "Retinopathy screening start age for T1D diagnosed at 4", "category": "complications", "subcategory": "retinopathy", "annotation_reason": "Diagnosed at 4 = pediatric, screening"}
+{"question": "T1D diagnosis in 11-month-old: presentation differences", "category": "pediatric_t1d", "subcategory": "diagnosis", "annotation_reason": "Explicit age (11-month), infant T1D"}
+{"question": "How to dose insuln for 5yr old picky eater", "category": "insulin_therapy", "subcategory": "dosing", "annotation_reason": "Typos: insuln, yr + explicit age (5)"}
+{"question": "Toddler on pump: what basal rates are typical?", "category": "pediatric_t1d", "subcategory": "insulin_therapy", "annotation_reason": "Toddler = pediatric, pump basal rates"}
+{"question": "Insulin stability in heat for kid at summer camp", "category": "insulin_therapy", "subcategory": "storage", "annotation_reason": "Kid + camp = pediatric, heat stability"}
+{"question": "Risk factors for youth-onset type 2 diabetes", "category": "pediatric_t2d", "subcategory": "risk_factors", "annotation_reason": "Youth-onset explicit, risk factors"}
+{"question": "Insulet Omnipod 5 age indication", "category": "insulin_therapy", "subcategory": "omnipod5_age", "annotation_reason": "Pediatric explicit, age indication"}
+{"question": "Lipid screening guidelines for kids with T1D", "category": "pediatric_t1d", "subcategory": "chronic_complications", "annotation_reason": "Kids explicit, lipid screening"}
+{"question": "Diabetes education curriculum for middle school T1D", "category": "pediatric_t1d", "subcategory": "education_curriculum", "annotation_reason": "Middle school = adolescent, education"}
+{"question": "Lifestyle intervention for teen with prediabetes", "category": "pediatric_t2d", "subcategory": "prevention", "annotation_reason": "Teen = adolescent, prediabetes"}
+{"question": "Insulin sensitivity factor changes during puberty", "category": "insulin_therapy", "subcategory": "sensitivity", "annotation_reason": "Puberty = adolescent, ISF changes"}
+{"question": "Genetic epidemiology: T1D incidence in children by HLA type", "category": "pediatric_t1d", "subcategory": "genetic_epi", "annotation_reason": "Researcher + children explicit"}
+{"question": "My teen keeps forgetting boluses, any tricks?", "category": "pediatric_t1d", "subcategory": "insulin_therapy", "annotation_reason": "Teen = adolescent, adherence"}
+{"question": "Diabetes medical management plan for school", "category": "psychosocial", "subcategory": "DMMP", "annotation_reason": "School = pediatric, DMMP"}
+{"question": "Military service with childhood-onset T1D", "category": "transition", "subcategory": "military", "annotation_reason": "Childhood-onset explicit, military"}
+{"question": "Lyumjev approval age for pediatric use", "category": "insulin_therapy", "subcategory": "lyumjev_age", "annotation_reason": "Pediatric explicit, Lyumjev"}
+{"question": "Insulin pump start age: how young is too young?", "category": "insulin_therapy", "subcategory": "pump", "annotation_reason": "Pediatric explicit, pump start age"}
+{"question": "CGM not accurat for my 6 yo son", "category": "glucose_monitoring", "subcategory": "CGM_accuracy", "annotation_reason": "Typos: accurat, yo + explicit age (6)"}
+{"question": "CGM accuracy in 4-year-olds: any differences?", "category": "pediatric_t1d", "subcategory": "glucose_monitoring", "annotation_reason": "Explicit age (4), CGM accuracy"}
+{"question": "Implementation science: School-based diabetes care for 5-12 year olds", "category": "parents_caregivers_schools", "subcategory": "implementation", "annotation_reason": "Researcher + explicit age range (5-12)"}
+{"question": "DKA at diagnosis in toddlers: how common is it?", "category": "pediatric_t1d", "subcategory": "diagnosis", "annotation_reason": "Toddler = pediatric, DKA presentation"}
+{"question": "Transition for youth with T2D diagnosed at 14", "category": "transition", "subcategory": "T2D_transition", "annotation_reason": "Diagnosed at 14 = pediatric, T2D transition"}
+{"question": "Adolescent carb counting accuracy: parent vs teen", "category": "nutrition_lifestyle", "subcategory": "carb_counting_teen", "annotation_reason": "Adolescent explicit, carb counting accuracy"}
+{"question": "Environmental triggers for T1D in children: viruses?", "category": "pediatric_t1d", "subcategory": "etiology", "annotation_reason": "Children explicit, environmental triggers"}
+{"question": "HHS in adolescent with T2D: management differences", "category": "complications", "subcategory": "HHS", "annotation_reason": "Adolescent explicit, HHS"}
+{"question": "Systematic review: Metformin adjunct in youth T1D", "category": "pediatric_t1d", "subcategory": "sys_review", "annotation_reason": "Researcher + youth explicit"}
+{"question": "Teen refusing to wear CGM - any tips?", "category": "glucose_monitoring", "subcategory": "CGM_adherence", "annotation_reason": "Teen = adolescent, CGM adherence"}
+{"question": "Screening recommendation: Celiac disease in pediatric T1D", "category": "complications", "subcategory": "celiac_screening", "annotation_reason": "Pediatric explicit, screening"}
+{"question": "Multidisciplinary team for pediatric T2D: roles", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Pediatric explicit, multidisciplinary team"}
+{"question": "Teen with T1D wont chek BG", "category": "pediatric_t1d", "subcategory": "adherence", "annotation_reason": "Typos: wont, chek + teen = adolescent"}
+{"question": "DEPS-R screening in pediatric diabetes clinic", "category": "pediatric_t1d", "subcategory": "eating_disorders", "annotation_reason": "Pediatric explicit, DEPS-R"}
+{"question": "Semaglutide for adolescent T2D: FDA approval age", "category": "pediatric_t2d", "subcategory": "treatment", "annotation_reason": "Adolescent explicit, semaglutide approval"}
+{"question": "Bone health in T1D teen: DEXA scan indicated?", "category": "complications", "subcategory": "bone_health", "annotation_reason": "Teen = adolescent, bone health"}
+{"question": "Adolescent T2D denial of diagnosis: counseling", "category": "pediatric_t2d", "subcategory": "psychosocial", "annotation_reason": "Adolescent explicit, denial"}
+{"question": "Diabetes distress in adolescent T2D: PAID-T", "category": "pediatric_t2d", "subcategory": "psychosocial", "annotation_reason": "Adolescent explicit, diabetes distress"}
+{"question": "Support groups for teens with T1D", "category": "psychosocial", "subcategory": "support_groups", "annotation_reason": "Teens = adolescent, support groups"}
+{"question": "Neuropathy screening in pediatric T1D: monofilament?", "category": "pediatric_t1d", "subcategory": "chronic_complications", "annotation_reason": "Pediatric explicit, neuropathy"}

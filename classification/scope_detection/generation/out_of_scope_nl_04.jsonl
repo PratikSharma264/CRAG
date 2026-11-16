@@ -1,0 +1,70 @@
+{"question": "Cryo-EM structure of insulin receptor ectodomain", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Cryo-EM = physics"}
+{"question": "How to build a React glucose tracker app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "React app for glucose tracking = programming"}
+{"question": "Sample size for non-inferiority diabetes trial", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Non-inferiority sample size = statistics"}
+{"question": "False discovery rate for diabetes biomarker panel", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "FDR biomarker = statistics"}
+{"question": "First clinical insulin patient: Leonard Thompson 1922", "category": "non_medical", "subcategory": "history", "annotation_reason": "Leonard Thompson = history"}
+{"question": "CrossFit with T1D: blood sugar management", "category": "non_medical", "subcategory": "sports", "annotation_reason": "CrossFit = sports"}
+{"question": "Diffusion coefficient of glucose in interstitial fluid", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Diffusion coefficient = physics"}
+{"question": "False discovery rate control for diabetes genomics", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "FDR control = statistics"}
+{"question": "Value-based insurance design for diabetes meds", "category": "non_medical", "subcategory": "economics", "annotation_reason": "VBID diabetes = economics"}
+{"question": "Causal inference for diabetes intervention study", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Causal inference = statistics"}
+{"question": "Instrumental variable analysis for insulin adherence", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Instrumental variable = statistics"}
+{"question": "CI/CD pipeline for HIPAA-compliant app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "CI/CD pipeline = programming"}
+{"question": "Eli Lilly insulin mass production history", "category": "non_medical", "subcategory": "history", "annotation_reason": "Eli Lilly history = history"}
+{"question": "Mobile app offline sync for glucose data", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Offline sync = programming"}
+{"question": "Distribution shift detection for glucose model monitoring", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Distribution shift = AI/ML"}
+{"question": "Power analysis for HbA1c difference detection", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Power analysis = statistics"}
+{"question": "State Medicaid expansion diabetes outcomes", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Medicaid expansion = politics"}
+{"question": "Inflation Reduction Act insulin cap $35", "category": "non_medical", "subcategory": "politics", "annotation_reason": "IRA insulin cap = politics"}
+{"question": "Graph neural networks for diabetes complication prediction", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "GNN = AI/ML"}
+{"question": "Unit testing React components with Jest", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Unit testing = programming"}
+{"question": "Trivia: which organ produces insulin", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Trivia = general"}
+{"question": "Landmark analysis for time-dependent diabetes covariates", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Landmark analysis = statistics"}
+{"question": "Competing risks analysis for diabetes mortality", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Competing risks = statistics"}
+{"question": "Apple HealthKit background delivery for glucose", "category": "non_medical", "subcategory": "programming", "annotation_reason": "HealthKit background = programming"}
+{"question": "Atomoxetine vs stimulants for 10-year-old ADHD", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 10, ADHD meds"}
+{"question": "Wilms tumor in 4-year-old: treatment", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 4, Wilms tumor"}
+{"question": "Lyme disease in 12-year-old after tick bite", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 12, Lyme"}
+{"question": "ADHD comorbidity with anxiety in 13-year-old", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 13, ADHD anxiety"}
+{"question": "Viral-induced wheeze in 3-year-old: asthma or not?", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 3, wheeze"}
+{"question": "ALL treatment protocol for 8-year-old", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 8, ALL"}
+{"question": "Strep throat treatment for 6-year-old", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 6, strep throat"}
+{"question": "Fever neutropenia in 7-year-old on chemo", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 7, febrile neutropenia"}
+{"question": "Survivorship care for 15-year-old post-leukemia", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 15, survivorship"}
+{"question": "RSV bronchiolitis in 6-month-old", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 6-month, RSV"}
+{"question": "Hypertension in 12-year-old: workup and management", "category": "other_medical_pediatric", "subcategory": "hypertension", "annotation_reason": "Explicit age 12, pediatric hypertension"}
+{"question": "UTI prophylaxis in 5-year-old with VUR", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 5, UTI prophylaxis"}
+{"question": "Allergy immunotherapy for 9-year-old with allergic asthma", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 9, asthma allergy"}
+{"question": "Biologic therapy for severe asthma in 14-year-old", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 14, asthma biologic"}
+{"question": "ADHD medication holidays for 11-year-old", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 11, ADHD med holiday"}
+{"question": "Asthma exacerbation management in 5-year-old", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 5, asthma"}
+{"question": "School accommodations for 12-year-old with ADHD", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 12, ADHD school"}
+{"question": "Pediatric oncology psychosocial support for 9-year-old", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 9, oncology psychosocial"}
+{"question": "Hand-foot-mouth disease in 3-year-old", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 3, HFMD"}
+{"question": "Neuroblastoma in 2-year-old: staging", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 2, neuroblastoma"}
+{"question": "Asthma and sports participation for 11-year-old", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 11, asthma sports"}
+{"question": "Renal ultrasound findings in 6-year-old", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 6, renal ultrasound"}
+{"question": "Kidney stones in 10-year-old: metabolic workup", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 10, kidney stones"}
+{"question": "Bedwetting in 7-year-old: enuresis evaluation", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 7, enuresis"}
+{"question": "Leukemia presentation in 5-year-old: bruising and fatigue", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 5, leukemia"}
+{"question": "Vesicoureteral reflux in 3-year-old", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 3, VUR"}
+{"question": "Montelukast for 6-year-old asthma control", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 6, asthma medication"}
+{"question": "Asthma action plan for 8-year-old with exercise-induced symptoms", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 8, asthma not diabetes"}
+{"question": "Meningitis signs in 10-year-old", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 10, meningitis"}
+{"question": "Mononucleosis in 15-year-old: return to sports", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 15, mono"}
+{"question": "CKD stage 2 in 14-year-old: monitoring", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 14, pediatric CKD"}
+{"question": "Inhaler technique for 10-year-old with asthma", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 10, asthma"}
+{"question": "Chemotherapy nausea in 10-year-old with lymphoma", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 10, chemo nausea"}
+{"question": "Pneumonia in 4-year-old: outpatient management", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 4, pneumonia"}
+{"question": "Brain tumor symptoms in 12-year-old: headache and vomiting", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 12, brain tumor"}
+{"question": "Parent training for 6-year-old ADHD behavior", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 6, ADHD parent training"}
+{"question": "School asthma plan for 7-year-old", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 7, asthma school"}
+{"question": "Adult ADHD diagnosis at 25: childhood onset?", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 25, adult ADHD"}
+{"question": "ADHD medication for 8-year-old: methylphenidate dosing", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 8, ADHD"}
+{"question": "ADHD and sleep problems in 9-year-old", "category": "other_medical_pediatric", "subcategory": "adhd", "annotation_reason": "Explicit age 9, ADHD sleep"}
+{"question": "Hypertension in 16-year-old athlete", "category": "other_medical_pediatric", "subcategory": "hypertension", "annotation_reason": "Explicit age 16, hypertension athlete"}
+{"question": "COVID-19 in 7-year-old: isolation guidelines", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 7, COVID"}
+{"question": "Acute kidney injury in 12-year-old: causes", "category": "other_medical_pediatric", "subcategory": "kidney", "annotation_reason": "Explicit age 12, AKI"}
+{"question": "UTI in 8-year-old girl: workup", "category": "other_medical_pediatric", "subcategory": "infections", "annotation_reason": "Explicit age 8, UTI"}
+{"question": "Osteosarcoma in 14-year-old: limb salvage", "category": "other_medical_pediatric", "subcategory": "oncology", "annotation_reason": "Explicit age 14, osteosarcoma"}
+{"question": "Peak flow monitoring for 12-year-old asthmatic", "category": "other_medical_pediatric", "subcategory": "asthma", "annotation_reason": "Explicit age 12, asthma"}

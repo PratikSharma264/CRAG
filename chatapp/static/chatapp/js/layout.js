@@ -6,11 +6,12 @@
   "use strict";
 
   var root = document.documentElement;
-  var PARTS = ["sidebar", "kb"];
-  var STORAGE = { sidebar: "clinicalrag-sidebar", kb: "clinicalrag-kb" };
+  var PARTS = ["sidebar", "kb", "sufficiency"];
+  var STORAGE = { sidebar: "clinicalrag-sidebar", kb: "clinicalrag-kb", sufficiency: "clinicalrag-sufficiency" };
   var LABELS = {
     sidebar: { expanded: "Collapse sidebar", collapsed: "Expand sidebar" },
-    kb: { expanded: "Hide knowledge base", collapsed: "Show knowledge base" }
+    kb: { expanded: "Hide knowledge base", collapsed: "Show knowledge base" },
+    sufficiency: { expanded: "Hide sufficiency evaluation", collapsed: "Show sufficiency evaluation" }
   };
 
   function read(key) {

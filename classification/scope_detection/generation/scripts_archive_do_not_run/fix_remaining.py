@@ -1,0 +1,208 @@
+import json
+import os
+
+# ============================================================
+# Fix exact duplicates in IN_SCOPE
+# ============================================================
+new_in = []
+for i in range(1, 16):
+    fn = f'classification/scope_detection/generation/in_scope_nl_{i:02d}.jsonl'
+    if not os.path.exists(fn):
+        continue
+    with open(fn) as f:
+        for line in f:
+            new_in.append(json.loads(line))
+
+print(f"IN_SCOPE before dedup: {len(new_in)} rows")
+
+seen = set()
+deduped_in = []
+for r in new_in:
+    q = r['question']
+    if q not in seen:
+        seen.add(q)
+        deduped_in.append(r)
+
+print(f"IN_SCOPE after dedup: {len(deduped_in)} rows")
+print(f"Removed {len(new_in) - len(deduped_in)} duplicates")
+
+# Write back
+for i in range(0, len(deduped_in), 70):
+    chunk = deduped_in[i:i+70]
+    fn = f'classification/scope_detection/generation/in_scope_nl_{i//70 + 1:02d}.jsonl'
+    with open(fn, 'w') as f:
+        for r in chunk:
+            f.write(json.dumps(r) + '\n')
+
+# ============================================================
+# Fix exact duplicates in OUT_SCOPE
+# ============================================================
+new_out = []
+for i in range(1, 15):
+    fn = f'classification/scope_detection/generation/out_of_scope_nl_{i:02d}.jsonl'
+    if not os.path.exists(fn):
+        continue
+    with open(fn) as f:
+        for line in f:
+            new_out.append(json.loads(line))
+
+print(f"\nOUT_SCOPE before dedup: {len(new_out)} rows")
+
+seen = set()
+deduped_out = []
+for r in new_out:
+    q = r['question']
+    if q not in seen:
+        seen.add(q)
+        deduped_out.append(r)
+
+print(f"OUT_SCOPE after dedup: {len(deduped_out)} rows")
+print(f"Removed {len(new_out) - len(deduped_out)} duplicates")
+
+# ============================================================
+# Add more context signals to OUT to boost from 18.8% to >30%
+# Need ~100 more OUT rows with context signals
+# ============================================================
+context_out_rows = [
+    # spouse/partner context (more)
+    {"question": "My wife has type 1 diabetes and we're trying to conceive, what should we know about preconception care?", "category": "adult_diabetes", "subcategory": "t1d_pregnancy", "annotation_reason": "Adult T1D pregnancy - spouse context"},
+    {"question": "My husband has T2D and erectile dysfunction, is this related to diabetes?", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Adult T2D complication - spouse context"},
+    {"question": "My partner has type 1 diabetes and gets night sweats, is this hypoglycemia?", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Adult T1D hypoglycemia - partner context"},
+    {"question": "My spouse uses an insulin pump, how do we travel with all the supplies?", "category": "diabetes_adjacent", "subcategory": "device", "annotation_reason": "Device travel - spouse context"},
+    {"question": "My wife has T1D and wants to breastfeed, how does insulin affect milk supply?", "category": "adult_diabetes", "subcategory": "t1d_pregnancy", "annotation_reason": "Adult T1D breastfeeding - spouse context"},
+
+    # parent/elderly parent context (more)
+    {"question": "My 82-year-old mother has type 2 diabetes and lives alone, how do I monitor her blood sugar remotely?", "category": "adult_diabetes", "subcategory": "t2d_monitoring", "annotation_reason": "Elderly T2D monitoring - parent context"},
+    {"question": "My elderly father has diabetes and was just hospitalized, what should I ask the discharge team?", "category": "adult_diabetes", "subcategory": "t2d_caregiving", "annotation_reason": "Elderly T2D hospitalization - parent context"},
+    {"question": "My 78-year-old mother has T2D and chronic kidney disease stage 3, what's her A1c target?", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Elderly HbA1c with CKD - parent context"},
+    {"question": "My aging parent with type 1 diabetes is having trouble with fine motor skills for injections, what pens are easiest?", "category": "adult_diabetes", "subcategory": "t1d_caregiving", "annotation_reason": "Adult T1D caregiving - parent context"},
+    {"question": "My grandmother has diabetic neuropathy pain, what treatments help for elderly patients?", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Elderly T2D neuropathy - grandparent context"},
+
+    # caregiver context (more)
+    {"question": "As a home health nurse for a diabetic patient, how often should I check blood glucose?", "category": "adult_diabetes", "subcategory": "t2d_monitoring", "annotation_reason": "Adult T2D monitoring - caregiver context"},
+    {"question": "I'm a caregiver for my brother with type 1 diabetes, what should I know about glucagon?", "category": "adult_diabetes", "subcategory": "t1d_caregiving", "annotation_reason": "Adult T1D glucagon - caregiver context"},
+    {"question": "As a personal care aide for someone with T2D, what are the signs of hyperglycemic emergency?", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Adult T2D emergency - caregiver context"},
+    {"question": "I care for an adult with diabetes who has dementia, how do I manage medications?", "category": "adult_diabetes", "subcategory": "t2d_caregiving", "annotation_reason": "Adult T2D with dementia - caregiver context"},
+    {"question": "As a caregiver for an elderly diabetic, what foot care should I do daily?", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Elderly T2D foot care - caregiver context"},
+
+    # nursing home / retirement / senior living
+    {"question": "My father is in assisted living with type 2 diabetes, what's the sliding scale insulin protocol?", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Elderly T2D insulin - assisted living context"},
+    {"question": "What's the diabetes care plan for a nursing home resident with T1D?", "category": "adult_diabetes", "subcategory": "t1d_caregiving", "annotation_reason": "Adult T1D nursing home - caregiving context"},
+    {"question": "My mother in memory care has diabetes, how do staff manage her blood sugar?", "category": "adult_diabetes", "subcategory": "t2d_caregiving", "annotation_reason": "Elderly T2D memory care - caregiving context"},
+
+    # adult context - explicit "as an adult", "I'm an adult"
+    {"question": "As an adult with type 1 diabetes diagnosed in childhood, how do I find an adult endocrinologist?", "category": "transition", "subcategory": "adult_endo_search", "annotation_reason": "Adult with childhood-onset T1D - explicit adult context"},
+    {"question": "I'm an adult with T1D, how do I handle insurance denials for CGM?", "category": "adult_diabetes", "subcategory": "t1d_insurance", "annotation_reason": "Adult T1D insurance - explicit adult context"},
+    {"question": "As an adult with type 2 diabetes, what's the best exercise routine for blood sugar control?", "category": "adult_diabetes", "subcategory": "t2d_lifestyle", "annotation_reason": "Adult T2D exercise - explicit adult context"},
+    {"question": "I'm an adult with T1D, how do I manage blood sugar during marathon training?", "category": "adult_diabetes", "subcategory": "t1d_lifestyle", "annotation_reason": "Adult T1D exercise - explicit adult context"},
+    {"question": "As an adult with diabetes, can I donate blood?", "category": "adult_diabetes", "subcategory": "t1d_lifestyle", "annotation_reason": "Adult diabetes donation - explicit adult context"},
+
+    # non-medical context (more)
+    {"question": "How do I write a research grant proposal for diabetes technology?", "category": "non_medical", "subcategory": "research", "annotation_reason": "Research grant writing - non-medical"},
+    {"question": "What are the CPT codes for diabetes education billing?", "category": "non_medical", "subcategory": "billing", "annotation_reason": "Medical billing codes - non-medical"},
+    {"question": "How do I design a clinical trial for a new diabetes drug?", "category": "non_medical", "subcategory": "research", "annotation_reason": "Clinical trial design - non-medical"},
+    {"question": "What's the FDA approval process for diabetes devices?", "category": "non_medical", "subcategory": "regulatory", "annotation_reason": "Regulatory process - non-medical"},
+    {"question": "How do I analyze CGM data in Python for a research paper?", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Data analysis - non-medical"},
+    {"question": "What are the quality measures for diabetes care in value-based contracts?", "category": "non_medical", "subcategory": "quality", "annotation_reason": "Quality measures - non-medical"},
+    {"question": "How do I create a diabetes registry for a healthcare system?", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Registry development - non-medical"},
+    {"question": "What's the ICD-10 code for type 1 diabetes with hyperglycemia?", "category": "non_medical", "subcategory": "coding", "annotation_reason": "Medical coding - non-medical"},
+    {"question": "How do I calculate insulin-to-carb ratios for a research study?", "category": "non_medical", "subcategory": "research", "annotation_reason": "Research calculation - non-medical"},
+    {"question": "What are the Medicare coverage rules for CGM in type 2 diabetes?", "category": "non_medical", "subcategory": "insurance_policy", "annotation_reason": "Insurance policy - non-medical"},
+
+    # diabetes_adjacent (more)
+    {"question": "What's the difference between Dexcom G7 and Libre 3 for an adult with T1D?", "category": "diabetes_adjacent", "subcategory": "device", "annotation_reason": "Device comparison - diabetes adjacent"},
+    {"question": "How do I get a prescription for glucagon as an adult with T1D?", "category": "diabetes_adjacent", "subcategory": "cost", "annotation_reason": "Prescription access - diabetes adjacent"},
+    {"question": "What diabetes supplies are covered by Medicare Part D?", "category": "diabetes_adjacent", "subcategory": "cost", "annotation_reason": "Insurance coverage - diabetes adjacent"},
+    {"question": "Where can I donate unused diabetes supplies as an adult?", "category": "diabetes_adjacent", "subcategory": "donation", "annotation_reason": "Donation - diabetes adjacent"},
+    {"question": "What's the best way to dispose of used insulin needles as an adult?", "category": "diabetes_adjacent", "subcategory": "disposal", "annotation_reason": "Sharps disposal - diabetes adjacent"},
+
+    # other_medical_adult (more)
+    {"question": "My 68-year-old father has heart failure and diabetes, what medications are safe?", "category": "other_medical_adult", "subcategory": "cardiology", "annotation_reason": "Adult cardiology with diabetes comorbidity - not diabetes management"},
+    {"question": "My elderly mother has thyroid disease and diabetes, how do they interact?", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Adult thyroid and diabetes - not diabetes management"},
+    {"question": "My 70-year-old spouse has kidney disease and diabetes, what's the diet?", "category": "other_medical_adult", "subcategory": "nephrology", "annotation_reason": "Adult nephrology with diabetes - not diabetes management"},
+    {"question": "My 65-year-old relative has depression and diabetes, what antidepressants are safe?", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Adult psychiatry with diabetes - not diabetes management"},
+    {"question": "My elderly father has neuropathy from diabetes and chemotherapy, what helps?", "category": "other_medical_adult", "subcategory": "neurology", "annotation_reason": "Adult neurology - not diabetes management"},
+
+    # other_medical_pediatric (more)
+    {"question": "My 9-year-old has thyroid antibodies, does this mean they'll get diabetes?", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Pediatric thyroid autoimmunity - not diabetes"},
+    {"question": "My 11-year-old has high cholesterol, what diet changes help?", "category": "other_medical_pediatric", "subcategory": "lipids", "annotation_reason": "Pediatric lipids - not diabetes"},
+    {"question": "My 7-year-old has vitamin D deficiency, what supplement dose?", "category": "other_medical_pediatric", "subcategory": "nutrition", "annotation_reason": "Pediatric nutrition - not diabetes"},
+    {"question": "My 13-year-old has PCOS, what are the treatment options?", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Pediatric PCOS - not diabetes"},
+    {"question": "My 5-year-old has growth hormone deficiency, what's the treatment?", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Pediatric growth hormone - not diabetes"},
+
+    # hard_negative - insulin resistance adult (more)
+    {"question": "I have insulin resistance at 38 with normal weight, what could be the cause?", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Adult insulin resistance lean - not pediatric diabetes"},
+    {"question": "My doctor says I have insulin resistance and fatty liver at 42, what diet?", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Adult insulin resistance with NAFLD - not pediatric diabetes"},
+    {"question": "I'm 48 with insulin resistance and sleep apnea, how are they connected?", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Adult insulin resistance with sleep apnea - not pediatric diabetes"},
+    {"question": "I was told I have insulin resistance at 52, should I take metformin?", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Adult insulin resistance metformin - not pediatric diabetes"},
+    {"question": "My 55-year-old wife has insulin resistance and gestational diabetes history, what now?", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Adult insulin resistance GDM history - not pediatric diabetes"},
+
+    # hard_negative - hba1c elderly (more)
+    {"question": "HbA1c target for 75-year-old with type 2 diabetes and fall risk?", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Elderly HbA1c with fall risk - not pediatric diabetes"},
+    {"question": "What's the A1c goal for 88-year-old with diabetes in hospice?", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Elderly HbA1c hospice - not pediatric diabetes"},
+    {"question": "My 83-year-old father has diabetes and CKD, what's a safe A1c?", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Elderly HbA1c with CKD - not pediatric diabetes"},
+    {"question": "HbA1c target for frail 90-year-old with type 2 diabetes?", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Elderly HbA1c frail - not pediatric diabetes"},
+    {"question": "What A1c should we target for 80-year-old with dementia and diabetes?", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Elderly HbA1c with dementia - not pediatric diabetes"},
+
+    # hard_negative - age 19+ (more adult diabetes without pediatric context)
+    {"question": "I'm 26 with new T2D diagnosis, what's the first medication usually prescribed?", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Adult T2D new diagnosis - no pediatric context"},
+    {"question": "I'm 32 with T1D diagnosed at 30, how do I learn to count carbs?", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Adult T1D new diagnosis - no pediatric context"},
+    {"question": "I'm 29, just diagnosed with diabetes, what tests do I need?", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Adult new diabetes diagnosis - no pediatric context"},
+    {"question": "I'm 38 with T2D, how do I start Ozempic properly?", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Adult T2D medication - not pediatric diabetes"},
+    {"question": "I'm 24 with T1D diagnosed last year, what's the honeymoon phase?", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Adult T1D honeymoon - no pediatric context"},
+    {"question": "I'm 31 with T2D, what's the best diet for remission?", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Adult T2D remission - no pediatric context"},
+    {"question": "I'm 27 with new diabetes diagnosis, should I see an endocrinologist?", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Adult new diagnosis specialist - no pediatric context"},
+    {"question": "I'm 33 with T1D, how do I manage dawn phenomenon?", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Adult T1D dawn phenomenon - no pediatric context"},
+    {"question": "I'm 25 with T2D, can I do intermittent fasting?", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Adult T2D fasting - no pediatric context"},
+    {"question": "I'm 30 with T1D, what's the best CGM for me?", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Adult T1D CGM choice - no pediatric context"},
+]
+
+deduped_out.extend(context_out_rows)
+print(f"\nOUT_SCOPE after adding context rows: {len(deduped_out)} rows")
+
+# Write back OUT
+for i in range(0, len(deduped_out), 70):
+    chunk = deduped_out[i:i+70]
+    fn = f'classification/scope_detection/generation/out_of_scope_nl_{i//70 + 1:02d}.jsonl'
+    with open(fn, 'w') as f:
+        for r in chunk:
+            f.write(json.dumps(r) + '\n')
+
+# ============================================================
+# Add ~10 more IN transition rows to reach ~35-50 with context
+# ============================================================
+# Load IN again
+new_in = []
+for i in range(1, 16):
+    fn = f'classification/scope_detection/generation/in_scope_nl_{i:02d}.jsonl'
+    if not os.path.exists(fn):
+        continue
+    with open(fn) as f:
+        for line in f:
+            new_in.append(json.loads(line))
+
+additional_transition = [
+    {"question": "I'm 24, diagnosed with T1D at age 8, how do I handle insurance for a new insulin pump as an independent adult?", "category": "transition", "subcategory": "insurance_pump", "annotation_reason": "Young adult with childhood-onset T1D asking about pump insurance"},
+    {"question": "I'm 21, had T1D since age 5, how do I transition my mental health care along with my diabetes care to adult providers?", "category": "transition", "subcategory": "mental_health", "annotation_reason": "Young adult with childhood-onset T1D asking about mental health transition"},
+    {"question": "I'm 20, had T1D since age 9, what are the differences in HbA1c targets between pediatric and adult diabetes care?", "category": "transition", "subcategory": "hba1c_targets", "annotation_reason": "Young adult with childhood-onset T1D asking about target changes"},
+    {"question": "I'm 22, diagnosed at age 6, how do I handle dating and disclosure with new partners as an adult with T1D?", "category": "transition", "subcategory": "dating_disclosure", "annotation_reason": "Young adult with childhood-onset T1D asking about dating disclosure"},
+    {"question": "I'm 23, had T1D since age 7, how do I manage exercise and sports as an independent young adult with diabetes?", "category": "transition", "subcategory": "exercise", "annotation_reason": "Young adult with childhood-onset T1D asking about independent exercise management"},
+    {"question": "I'm 20, diagnosed at age 10, what should I know about DKA prevention as an adult with childhood-onset T1D?", "category": "transition", "subcategory": "dka_prevention", "annotation_reason": "Young adult with childhood-onset T1D asking about DKA prevention in adult context"},
+    {"question": "I'm 24, had T1D since age 6, how do I handle insurance for CGM as an independent adult?", "category": "transition", "subcategory": "cgm_insurance", "annotation_reason": "Young adult with childhood-onset T1D asking about CGM insurance"},
+    {"question": "I'm 21, diagnosed at age 8, what's the best way to build my own diabetes care team as an adult?", "category": "transition", "subcategory": "care_team", "annotation_reason": "Young adult with childhood-onset T1D asking about building adult care team"},
+    {"question": "I'm 22, had T1D since age 5, how do I manage my own basal rate adjustments without my pediatric endocrinologist?", "category": "transition", "subcategory": "basal_adjustment", "annotation_reason": "Young adult with childhood-onset T1D asking about independent basal management"},
+    {"question": "I'm 23, diagnosed at age 7, what should I know about pregnancy risks and preconception planning with childhood-onset T1D?", "category": "transition", "subcategory": "pregnancy_risk", "annotation_reason": "Young adult with childhood-onset T1D asking about pregnancy risks"},
+]
+
+new_in.extend(additional_transition)
+print(f"\nIN_SCOPE after adding 10 transition rows: {len(new_in)} rows")
+
+# Write back IN
+for i in range(0, len(new_in), 70):
+    chunk = new_in[i:i+70]
+    fn = f'classification/scope_detection/generation/in_scope_nl_{i//70 + 1:02d}.jsonl'
+    with open(fn, 'w') as f:
+        for r in chunk:
+            f.write(json.dumps(r) + '\n')
+
+print("\nDone!")

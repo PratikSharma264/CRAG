@@ -1,0 +1,157 @@
+======================================================================
+MODEL B V2 TRAINING — Dataset B V2 (1,142 examples)
+======================================================================
+
+[1/5] Loading and splitting Dataset B V2...
+  Loaded 1142 examples from Dataset B V2
+
+  Splitting Dataset B (1142 examples) using QUESTION-LEVEL stratified splitting...
+  Target ratios: train=70%, val=15%, test=15%
+  Duplicate question cluster threshold: 95%
+  IMPORTANT: All source papers (44) are shared across splits.
+  Evaluation measures generalization to NEW QUESTIONS from FAMILIAR PAPERS.
+  Found 50 duplicate/near-duplicate question groups:
+    Cluster 0: 2 examples (rep idx=25)
+    Cluster 1: 2 examples (rep idx=26)
+    Cluster 2: 2 examples (rep idx=27)
+    Cluster 3: 2 examples (rep idx=28)
+    Cluster 4: 2 examples (rep idx=29)
+    Cluster 5: 2 examples (rep idx=71)
+    Cluster 6: 2 examples (rep idx=140)
+    Cluster 7: 2 examples (rep idx=141)
+    Cluster 8: 2 examples (rep idx=142)
+    Cluster 9: 2 examples (rep idx=144)
+    Cluster 10: 2 examples (rep idx=250)
+    Cluster 11: 2 examples (rep idx=251)
+    Cluster 12: 2 examples (rep idx=252)
+    Cluster 13: 2 examples (rep idx=253)
+    Cluster 14: 2 examples (rep idx=254)
+    Cluster 15: 2 examples (rep idx=356)
+    Cluster 16: 2 examples (rep idx=496)
+    Cluster 17: 2 examples (rep idx=509)
+    Cluster 18: 2 examples (rep idx=518)
+    Cluster 19: 2 examples (rep idx=520)
+    Cluster 20: 2 examples (rep idx=522)
+    Cluster 21: 2 examples (rep idx=548)
+    Cluster 22: 2 examples (rep idx=549)
+    Cluster 23: 2 examples (rep idx=550)
+    Cluster 24: 2 examples (rep idx=552)
+    Cluster 25: 2 examples (rep idx=658)
+    Cluster 26: 2 examples (rep idx=659)
+    Cluster 27: 2 examples (rep idx=660)
+    Cluster 28: 2 examples (rep idx=661)
+    Cluster 29: 2 examples (rep idx=662)
+    Cluster 30: 2 examples (rep idx=663)
+    Cluster 31: 2 examples (rep idx=664)
+    Cluster 32: 2 examples (rep idx=665)
+    Cluster 33: 2 examples (rep idx=666)
+    Cluster 34: 2 examples (rep idx=667)
+    Cluster 35: 2 examples (rep idx=668)
+    Cluster 36: 2 examples (rep idx=669)
+    Cluster 37: 2 examples (rep idx=670)
+    Cluster 38: 2 examples (rep idx=671)
+    Cluster 39: 2 examples (rep idx=672)
+    Cluster 40: 3 examples (rep idx=917)
+    Cluster 41: 3 examples (rep idx=918)
+    Cluster 42: 3 examples (rep idx=919)
+    Cluster 43: 3 examples (rep idx=920)
+    Cluster 44: 3 examples (rep idx=921)
+    Cluster 45: 2 examples (rep idx=1082)
+    Cluster 46: 2 examples (rep idx=1083)
+    Cluster 47: 2 examples (rep idx=1084)
+    Cluster 48: 2 examples (rep idx=1085)
+    Cluster 49: 2 examples (rep idx=1086)
+  Total question clusters: 1087
+  Cluster size distribution: max=3, median=1, singletons=1037
+
+  Split results: train=802 val=169 test=171
+  Cluster overlap: train-val=0, train-test=0, val-test=0
+  OK Zero question cluster leakage verified.
+    Train: 802 examples | 0(insuff)=220(27.4%) 1(suff)=582(72.6%)
+    Val: 169 examples | 0(insuff)=54(32.0%) 1(suff)=115(68.0%)
+    Test: 171 examples | 0(insuff)=51(29.8%) 1(suff)=120(70.2%)
+  Unique source papers: train=217, val=153, test=155
+  Source paper overlap (EXPECTED): train-val=151, train-test=154, val-test=116
+
+  Model B V2 split statistics:
+    Train: 802 examples | 0(insuff)=220(27.4%) 1(suff)=582(72.6%)
+    Val: 169 examples | 0(insuff)=54(32.0%) 1(suff)=115(68.0%)
+    Test: 171 examples | 0(insuff)=51(29.8%) 1(suff)=120(70.2%)
+  Originating paper overlap: train-val=122, train-test=134, val-test=57
+  Retrieved source overlap: train-val=151, train-test=154, val-test=116
+  Saved splits to C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification\model_b_v2\splits
+
+[2/5] Loading pretrained BiomedBERT...
+  Device: cpu
+  Loading tokenizer from microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext...
+  Loading model from microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext...
+
+[3/5] Tokenizing (max_length=512)...
+  Train: 802 | Val: 169
+  Class weights: [np.float64(1.8227272727272728), np.float64(0.6890034364261168)] (label_counts: {0: 220, 1: 582})
+
+[4/5] Training (epochs=5, lr=2e-05, batch=4)...
+{'loss': '1.337', 'grad_norm': '16.86', 'learning_rate': '9e-06', 'epoch': '0.0995'}
+{'loss': '1.371', 'grad_norm': '9.833', 'learning_rate': '1.9e-05', 'epoch': '0.199'}
+{'loss': '1.376', 'grad_norm': '12.78', 'learning_rate': '1.963e-05', 'epoch': '0.2985'}
+{'loss': '1.198', 'grad_norm': '8.88', 'learning_rate': '1.922e-05', 'epoch': '0.398'}
+{'loss': '1.644', 'grad_norm': '7.504', 'learning_rate': '1.88e-05', 'epoch': '0.4975'}
+{'loss': '1.453', 'grad_norm': '7.565', 'learning_rate': '1.839e-05', 'epoch': '0.597'}
+{'loss': '1.392', 'grad_norm': '6.723', 'learning_rate': '1.798e-05', 'epoch': '0.6965'}
+{'loss': '1.32', 'grad_norm': '9.078', 'learning_rate': '1.757e-05', 'epoch': '0.796'}
+{'loss': '1.259', 'grad_norm': '6.977', 'learning_rate': '1.715e-05', 'epoch': '0.8955'}
+{'loss': '1.333', 'grad_norm': '10.84', 'learning_rate': '1.674e-05', 'epoch': '0.995'}
+{'eval_loss': '0.7108', 'eval_accuracy': '0.7041', 'eval_macro_f1': '0.4797', 'eval_macro_precision': '0.8485', 'eval_macro_recall': '0.537', 'eval_insuff_f1': '0.1379', 'eval_runtime': '183.8', 'eval_samples_per_second': '0.92', 'eval_steps_per_second': '0.234', 'epoch': '1'}
+{'loss': '1.327', 'grad_norm': '14.59', 'learning_rate': '1.633e-05', 'epoch': '1.09'}
+{'loss': '1.202', 'grad_norm': '11.28', 'learning_rate': '1.592e-05', 'epoch': '1.189'}
+{'loss': '1.159', 'grad_norm': '16.37', 'learning_rate': '1.551e-05', 'epoch': '1.289'}
+{'loss': '1.213', 'grad_norm': '20.59', 'learning_rate': '1.509e-05', 'epoch': '1.388'}
+{'loss': '1.2', 'grad_norm': '14.5', 'learning_rate': '1.468e-05', 'epoch': '1.488'}
+{'loss': '1.176', 'grad_norm': '13.82', 'learning_rate': '1.427e-05', 'epoch': '1.587'}
+{'loss': '0.9896', 'grad_norm': '10.54', 'learning_rate': '1.386e-05', 'epoch': '1.687'}
+{'loss': '1.118', 'grad_norm': '23.14', 'learning_rate': '1.344e-05', 'epoch': '1.786'}
+{'loss': '0.8431', 'grad_norm': '20.54', 'learning_rate': '1.303e-05', 'epoch': '1.886'}
+{'loss': '1.23', 'grad_norm': '17.01', 'learning_rate': '1.262e-05', 'epoch': '1.985'}
+{'eval_loss': '0.5711', 'eval_accuracy': '0.7633', 'eval_macro_f1': '0.6927', 'eval_macro_precision': '0.7418', 'eval_macro_recall': '0.6787', 'eval_insuff_f1': '0.5455', 'eval_runtime': '187.3', 'eval_samples_per_second': '0.902', 'eval_steps_per_second': '0.23', 'epoch': '2'}
+{'loss': '0.9928', 'grad_norm': '22.52', 'learning_rate': '1.221e-05', 'epoch': '2.08'}
+{'loss': '0.7515', 'grad_norm': '31.02', 'learning_rate': '1.179e-05', 'epoch': '2.179'}
+{'loss': '0.6253', 'grad_norm': '12.16', 'learning_rate': '1.138e-05', 'epoch': '2.279'}
+{'loss': '0.8572', 'grad_norm': '11.02', 'learning_rate': '1.097e-05', 'epoch': '2.378'}
+{'loss': '1.007', 'grad_norm': '14.83', 'learning_rate': '1.056e-05', 'epoch': '2.478'}
+{'loss': '0.8745', 'grad_norm': '24.95', 'learning_rate': '1.014e-05', 'epoch': '2.577'}
+{'loss': '0.7208', 'grad_norm': '13.94', 'learning_rate': '9.732e-06', 'epoch': '2.677'}
+{'loss': '0.9268', 'grad_norm': '18.75', 'learning_rate': '9.32e-06', 'epoch': '2.776'}
+{'loss': '0.8852', 'grad_norm': '6.556', 'learning_rate': '8.907e-06', 'epoch': '2.876'}
+{'loss': '0.8979', 'grad_norm': '32.97', 'learning_rate': '8.495e-06', 'epoch': '2.975'}
+{'eval_loss': '0.5279', 'eval_accuracy': '0.7929', 'eval_macro_f1': '0.7438', 'eval_macro_precision': '0.7721', 'eval_macro_recall': '0.73', 'eval_insuff_f1': '0.6316', 'eval_runtime': '187.7', 'eval_samples_per_second': '0.9', 'eval_steps_per_second': '0.229', 'epoch': '3'}
+{'loss': '0.5655', 'grad_norm': '33.81', 'learning_rate': '8.082e-06', 'epoch': '3.07'}
+{'loss': '0.5485', 'grad_norm': '35.85', 'learning_rate': '7.67e-06', 'epoch': '3.169'}
+{'loss': '0.7209', 'grad_norm': '20.02', 'learning_rate': '7.258e-06', 'epoch': '3.269'}
+{'loss': '0.5898', 'grad_norm': '2.174', 'learning_rate': '6.845e-06', 'epoch': '3.368'}
+{'loss': '0.6892', 'grad_norm': '30.95', 'learning_rate': '6.433e-06', 'epoch': '3.468'}
+{'loss': '0.5795', 'grad_norm': '34.36', 'learning_rate': '6.021e-06', 'epoch': '3.567'}
+{'loss': '0.556', 'grad_norm': '54.45', 'learning_rate': '5.608e-06', 'epoch': '3.667'}
+{'loss': '0.7867', 'grad_norm': '8.528', 'learning_rate': '5.196e-06', 'epoch': '3.766'}
+{'loss': '0.7311', 'grad_norm': '9.648', 'learning_rate': '4.784e-06', 'epoch': '3.866'}
+{'loss': '0.3565', 'grad_norm': '15.06', 'learning_rate': '4.371e-06', 'epoch': '3.965'}
+{'eval_loss': '0.7619', 'eval_accuracy': '0.8402', 'eval_macro_f1': '0.7844', 'eval_macro_precision': '0.8899', 'eval_macro_recall': '0.7549', 'eval_insuff_f1': '0.6747', 'eval_runtime': '188', 'eval_samples_per_second': '0.899', 'eval_steps_per_second': '0.229', 'epoch': '4'}
+{'loss': '1.25', 'grad_norm': '56.47', 'learning_rate': '3.959e-06', 'epoch': '4.06'}
+{'loss': '0.3768', 'grad_norm': '4.252', 'learning_rate': '3.546e-06', 'epoch': '4.159'}
+{'loss': '0.2934', 'grad_norm': '52.89', 'learning_rate': '3.134e-06', 'epoch': '4.259'}
+{'loss': '0.4071', 'grad_norm': '10.16', 'learning_rate': '2.722e-06', 'epoch': '4.358'}
+{'loss': '0.3755', 'grad_norm': '2.656', 'learning_rate': '2.309e-06', 'epoch': '4.458'}
+{'loss': '0.5184', 'grad_norm': '1.163', 'learning_rate': '1.897e-06', 'epoch': '4.557'}
+{'loss': '0.525', 'grad_norm': '93.9', 'learning_rate': '1.485e-06', 'epoch': '4.657'}
+{'loss': '0.6854', 'grad_norm': '121.8', 'learning_rate': '1.072e-06', 'epoch': '4.756'}
+{'loss': '0.9541', 'grad_norm': '14.78', 'learning_rate': '6.598e-07', 'epoch': '4.856'}
+{'loss': '0.1399', 'grad_norm': '14.37', 'learning_rate': '2.474e-07', 'epoch': '4.955'}
+{'eval_loss': '0.729', 'eval_accuracy': '0.8225', 'eval_macro_f1': '0.7818', 'eval_macro_precision': '0.8102', 'eval_macro_recall': '0.7664', 'eval_insuff_f1': '0.6875', 'eval_runtime': '189.2', 'eval_samples_per_second': '0.893', 'eval_steps_per_second': '0.227', 'epoch': '5'}
+{'train_runtime': '2.034e+04', 'train_samples_per_second': '0.197', 'train_steps_per_second': '0.025', 'train_loss': '0.899', 'epoch': '5'}
+
+  Best model saved to C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification\model_b_v2\checkpoint\best
+
+[5/5] Training complete.
+  Steps: 505 | Loss: 0.8990
+  Best checkpoint: C:\Users\Lenovo\Desktop\Programming\sakshyam\7thSemestertest\classification\model_b_v2\checkpoint\best
+
+  Next: Run python classification/model_b/evaluate.py with model_dir=classification/model_b_v2/checkpoint

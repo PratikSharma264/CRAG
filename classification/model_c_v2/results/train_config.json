@@ -1,0 +1,81 @@
+{
+  "status": "COMPLETED",
+  "planned_configuration": {
+    "status": "PLANNED",
+    "model_id": "model_c_v2",
+    "run_id": "default",
+    "start_time_utc": "2026-11-11T23:48:56.677690+00:00",
+    "initialization_source": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+    "pretrained_checkpoint": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+    "resumed_from_checkpoint": "classification/model_c_v2/checkpoint/checkpoints/checkpoint-482",
+    "dataset": "C_V2",
+    "train_split_path": "C:\\Users\\Lenovo\\Desktop\\Programming\\sakshyam\\7thSemestertest\\classification\\model_c_v2\\splits\\train.csv",
+    "train_split_rows": 1924,
+    "val_split_path": "C:\\Users\\Lenovo\\Desktop\\Programming\\sakshyam\\7thSemestertest\\classification\\model_c_v2\\splits\\val.csv",
+    "val_split_rows": 409,
+    "test_split_path": "[NOT LOADED / ISOLATED BENCHMARK]",
+    "dataset_composition": {
+      "train": {
+        "A": 1122,
+        "B_V2": 802
+      },
+      "val": {
+        "A": 240,
+        "B_V2": 169
+      }
+    },
+    "class_counts": {
+      "train": {
+        "insufficient": 1021,
+        "sufficient": 903
+      },
+      "val": {
+        "insufficient": 226,
+        "sufficient": 183
+      }
+    },
+    "class_weights": [
+      0.9422135161606269,
+      1.0653377630121816
+    ],
+    "epochs": 5,
+    "per_device_batch_size": 4,
+    "gradient_accumulation_steps": 2,
+    "effective_batch_size": 8,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_steps": 20,
+    "max_sequence_length": 512,
+    "random_seed": 42,
+    "early_stopping_patience": 2,
+    "metric_for_best_model": "macro_f1",
+    "greater_is_better": true,
+    "device": "cpu",
+    "fp16": false,
+    "output_directories": {
+      "checkpoint_dir": "C:\\Users\\Lenovo\\Desktop\\Programming\\sakshyam\\7thSemestertest\\classification\\model_c_v2\\checkpoint",
+      "checkpoints_dir": "C:\\Users\\Lenovo\\Desktop\\Programming\\sakshyam\\7thSemestertest\\classification\\model_c_v2\\checkpoint\\checkpoints",
+      "best_model_dir": "C:\\Users\\Lenovo\\Desktop\\Programming\\sakshyam\\7thSemestertest\\classification\\model_c_v2\\checkpoint\\best",
+      "results_dir": "C:\\Users\\Lenovo\\Desktop\\Programming\\sakshyam\\7thSemestertest\\classification\\model_c_v2\\results"
+    },
+    "package_versions": {
+      "python": "3.12.4",
+      "torch": "2.15.0+cpu",
+      "transformers": "5.22.2",
+      "pandas": "3.1.1",
+      "numpy": "2.5.4",
+      "sklearn": "1.9.1"
+    }
+  },
+  "runtime_results": {
+    "end_time_utc": "2026-11-12T03:40:55.526651+00:00",
+    "duration_seconds": 13913.153,
+    "best_epoch": 4.0,
+    "best_global_step": 964,
+    "best_validation_macro_f1": 0.8995609647993196,
+    "best_model_checkpoint": "C:\\Users\\Lenovo\\Desktop\\Programming\\sakshyam\\7thSemestertest\\classification\\model_c_v2\\checkpoint\\checkpoints\\checkpoint-964",
+    "total_steps": 1205,
+    "final_training_loss": 0.38548674906138974,
+    "train_runtime_seconds": 13913.153
+  }
+}

@@ -1,0 +1,99 @@
+{"question": "Rock tape pump site 20yo", "category": "transition", "subcategory": "Rock_tape", "annotation_reason": "Explicit age (20), Rock tape"}
+{"question": "CAR-T therapy T1D 19yo", "category": "transition", "subcategory": "CAR_T_therapy", "annotation_reason": "Explicit age (19), CAR-T therapy"}
+{"question": "Vtama cream T1D 19yo", "category": "transition", "subcategory": "Vtama", "annotation_reason": "Explicit age (19), Vtama"}
+{"question": "Lower back site 21yo pump", "category": "transition", "subcategory": "lower_back", "annotation_reason": "Explicit age (21), lower back"}
+{"question": "Secukinumab honeymoon 21yo T1D", "category": "transition", "subcategory": "secukinumab", "annotation_reason": "Explicit age (21), secukinumab"}
+{"question": "Retatrutide T1D 19yo", "category": "transition", "subcategory": "retatrutide_T1D", "annotation_reason": "Explicit age (19), retatrutide"}
+{"question": "Peficitinib T1D 21yo", "category": "transition", "subcategory": "peficitinib", "annotation_reason": "Explicit age (21), peficitinib"}
+{"question": "Dual GIP/GLP-1 T1D 19yo", "category": "transition", "subcategory": "dual_GIP_GLP1", "annotation_reason": "Explicit age (19), dual GIP/GLP-1"}
+{"question": "Dysglycemia teplizumab 20yo", "category": "transition", "subcategory": "dysglycemia_teplizumab", "annotation_reason": "Explicit age (20), dysglycemia"}
+{"question": "Enbrel injection T1D 19yo", "category": "transition", "subcategory": "Enbrel", "annotation_reason": "Explicit age (19), Enbrel"}
+{"question": "MRSA site infection 21yo T1D", "category": "transition", "subcategory": "MRSA_site", "annotation_reason": "Explicit age (21), MRSA"}
+{"question": "Love handle site 20yo T1D", "category": "transition", "subcategory": "love_handle", "annotation_reason": "Explicit age (20), love handle"}
+{"question": "Ixekizumab honeymoon 19yo T1D", "category": "transition", "subcategory": "ixekizumab", "annotation_reason": "Explicit age (19), ixekizumab"}
+{"question": "JAK inhibitor diabetes 20yo", "category": "transition", "subcategory": "JAK_diabetes", "annotation_reason": "Explicit age (20), JAK diabetes"}
+{"question": "Pump upgrade 21yo T1D insurance", "category": "transition", "subcategory": "pump_upgrade", "annotation_reason": "Explicit age (21), pump upgrade"}
+{"question": "Site infection signs 19yo T1D", "category": "transition", "subcategory": "site_infection", "annotation_reason": "Explicit age (19), site infection"}
+{"question": "Flonase nasal spray CGM 19yo", "category": "transition", "subcategory": "Flonase_CGM", "annotation_reason": "Explicit age (19), Flonase"}
+{"question": "Kinesio tape CGM 19yo T1D", "category": "transition", "subcategory": "Kinesio_tape", "annotation_reason": "Explicit age (19), Kinesio"}
+{"question": "Basal insulin Fc 20yo T1D", "category": "transition", "subcategory": "basal_insulin_Fc", "annotation_reason": "Explicit age (20), basal insulin Fc"}
+{"question": "Motivational interviewing for 14-year-old adherence", "category": "psychosocial", "subcategory": "MI_adherence", "annotation_reason": "Explicit age (14), MI"}
+{"question": "Sleepover safety for 10-year-old with T1D", "category": "parents_caregivers_schools", "subcategory": "sleepover_safety", "annotation_reason": "Explicit age (10), sleepover"}
+{"question": "Diabetes camp psychosocial outcomes for 10-year-old", "category": "psychosocial", "subcategory": "camp_psychosocial", "annotation_reason": "Explicit age (10), camp"}
+{"question": "Peer support group for teens with T1D", "category": "psychosocial", "subcategory": "peer_support", "annotation_reason": "Teens = adolescent, peer support"}
+{"question": "Field trip diabetes kit for 10-year-old T2D", "category": "pediatric_t2d", "subcategory": "school", "annotation_reason": "Explicit age (10), field trip"}
+{"question": "Automated insulin delivery systems for 8-year-olds", "category": "insulin_therapy", "subcategory": "AID", "annotation_reason": "Explicit age (8), AID systems"}
+{"question": "Driving license medical form 16-year-old T1D", "category": "psychosocial", "subcategory": "driving_medical", "annotation_reason": "Explicit age (16), driving medical"}
+{"question": "Motivational interviewing for 14-year-old T2D", "category": "pediatric_t2d", "subcategory": "psychosocial", "annotation_reason": "Explicit age (14), motivational interviewing"}
+{"question": "Family conflict over T2D management in 13-year-old", "category": "pediatric_t2d", "subcategory": "family", "annotation_reason": "Explicit age (13), family conflict"}
+{"question": "Sexual health counseling for 16-year-old T1D", "category": "transition", "subcategory": "sexual_health", "annotation_reason": "Explicit age (16), sexual health"}
+{"question": "CGM data sharing with school nurse 9-year-old", "category": "glucose_monitoring", "subcategory": "CGM_school_nurse", "annotation_reason": "Explicit age (9), school nurse"}
+{"question": "Summer camp menu planning for 10-year-old", "category": "nutrition_lifestyle", "subcategory": "camp_menu", "annotation_reason": "Explicit age (10), camp menu"}
+{"question": "School 504 plan for newly diagnosed 8-year-old", "category": "pediatric_t1d", "subcategory": "school", "annotation_reason": "Explicit age (8), 504 plan"}
+{"question": "Ramadan fasting 16-year-old T1D risk", "category": "nutrition_lifestyle", "subcategory": "Ramadan_fasting", "annotation_reason": "Explicit age (16), Ramadan"}
+{"question": "Summer camp food planning for 10-year-old with T1D", "category": "nutrition_lifestyle", "subcategory": "camp_food", "annotation_reason": "Explicit age (10), camp"}
+{"question": "Polycystic ovary syndrome in 15-year-old T1D girl", "category": "complications", "subcategory": "PCOS_T1D", "annotation_reason": "Explicit age (15), PCOS"}
+{"question": "Insulin requirements during puberty stages in boys 12-16", "category": "insulin_therapy", "subcategory": "puberty_boys", "annotation_reason": "Explicit age range (12-16), boys"}
+{"question": "Traveling across time zones with 8-year-old on pump", "category": "pediatric_t1d", "subcategory": "lifestyle", "annotation_reason": "Explicit age (8), travel"}
+{"question": "Peer support group for 11-year-old T1D", "category": "psychosocial", "subcategory": "peer_support", "annotation_reason": "Explicit age (11), peer support"}
+{"question": "Meta-analysis: DKA cerebral edema risk factors in children", "category": "complications", "subcategory": "meta_analysis", "annotation_reason": "Researcher + children explicit"}
+{"question": "Medication review: Metformin adjunct in obese adolescent T1D", "category": "pediatric_t1d", "subcategory": "medication_review", "annotation_reason": "Adolescent explicit, medication"}
+{"question": "Field trip diabetes kit for 10-year-old", "category": "parents_caregivers_schools", "subcategory": "field_trip_kit", "annotation_reason": "Explicit age (10), field trip"}
+{"question": "Yom Kippur fasting 14-year-old T1D", "category": "nutrition_lifestyle", "subcategory": "Yom_Kippur", "annotation_reason": "Explicit age (14), Yom Kippur"}
+{"question": "Dexcom G7 MARD in children 2-6 years", "category": "glucose_monitoring", "subcategory": "G7_MARD_young", "annotation_reason": "Explicit age range (2-6), G7"}
+{"question": "Smartphone for CGM at school policy 12-year-old", "category": "parents_caregivers_schools", "subcategory": "smartphone_policy", "annotation_reason": "Explicit age (12), smartphone"}
+{"question": "Anxiety GAD-7 for 14-year-old with T1D", "category": "psychosocial", "subcategory": "GAD7_teen", "annotation_reason": "Explicit age (14), GAD-7"}
+{"question": "Self-management skills checklist for 14-year-old T2D", "category": "pediatric_t2d", "subcategory": "education", "annotation_reason": "Explicit age (14), self-management skills"}
+{"question": "Overnight field trip diabetes plan 11-year-old", "category": "parents_caregivers_schools", "subcategory": "overnight_field_trip", "annotation_reason": "Explicit age (11), overnight"}
+{"question": "Cold weather glucose for 10-year-old hockey", "category": "nutrition_lifestyle", "subcategory": "cold_weather", "annotation_reason": "Explicit age (10), cold"}
+{"question": "Insulin omission weight loss 13-year-old girl", "category": "nutrition_lifestyle", "subcategory": "insulin_omission_wt", "annotation_reason": "Explicit age (13), insulin omission"}
+{"question": "Vitamin D deficiency in 9-year-old T1D", "category": "complications", "subcategory": "vit_D_T1D", "annotation_reason": "Explicit age (9), vitamin D"}
+{"question": "Transition readiness: Standardized assessment for 16-year-old T1D", "category": "transition", "subcategory": "readiness_assessment", "annotation_reason": "Explicit age (16), readiness"}
+{"question": "Diagnostic workup: Antibody-negative diabetes in 12-year-old", "category": "pediatric_t1d", "subcategory": "diagnostic_workup", "annotation_reason": "Explicit age (12), antibody-negative"}
+{"question": "Low birth weight and T2D risk in 10-year-old", "category": "pediatric_t2d", "subcategory": "risk_factors", "annotation_reason": "Explicit age (10), low birth weight"}
+{"question": "504 plan for diabtes at school 9yo", "category": "parents_caregivers_schools", "subcategory": "504_plan", "annotation_reason": "Typos: diabtes + explicit age (9)"}
+{"question": "Sleep apnea in obese 11-year-old: T2D risk", "category": "pediatric_t2d", "subcategory": "screening", "annotation_reason": "Explicit age (11), sleep apnea risk"}
+{"question": "CGM sensor extension hack safety for 9-year-old", "category": "glucose_monitoring", "subcategory": "sensor_extension", "annotation_reason": "Explicit age (9), extension"}
+{"question": "Cerebral edema risk in pediatric DKA: warning signs", "category": "pediatric_t1d", "subcategory": "acute_complications", "annotation_reason": "Pediatric explicit, cerebral edema"}
+{"question": "Break during exam for glucose check 15-year-old", "category": "psychosocial", "subcategory": "exam_break", "annotation_reason": "Explicit age (15), exam break"}
+{"question": "Standardized testing SAT ACT accommodations 17yo T1D", "category": "parents_caregivers_schools", "subcategory": "SAT_ACT_accommodations", "annotation_reason": "Explicit age (17), SAT/ACT"}
+{"question": "Ketogenic diet for 14-year-old with T1D: safe?", "category": "nutrition_lifestyle", "subcategory": "keto", "annotation_reason": "Explicit age (14), keto diet"}
+{"question": "Transition readiness questionnaire TRAQ for 14-year-old", "category": "transition", "subcategory": "TRAQ", "annotation_reason": "Explicit age (14), TRAQ"}
+{"question": "Ramadan fasting with T2D in 15-year-old", "category": "pediatric_t2d", "subcategory": "lifestyle", "annotation_reason": "Explicit age (15), Ramadan fasting"}
+{"question": "Body image issues in adolescent girls with T1D", "category": "nutrition_lifestyle", "subcategory": "body_image", "annotation_reason": "Adolescent girls explicit, body image"}
+{"question": "Diabetes medical management plan vs 504 vs IEP", "category": "parents_caregivers_schools", "subcategory": "DMMP_504_IEP", "annotation_reason": "School = pediatric, plan types"}
+{"question": "Transition readiness checklist for 16-year-old", "category": "transition", "subcategory": "readiness", "annotation_reason": "Explicit age (16), readiness"}
+{"question": "CGM use in youth-onset type 2 diabetes", "category": "pediatric_t2d", "subcategory": "monitoring", "annotation_reason": "Youth-onset explicit, CGM"}
+{"question": "Mindfulness for diabetes stress in 15-year-old", "category": "psychosocial", "subcategory": "mindfulness_teen", "annotation_reason": "Explicit age (15), mindfulness"}
+{"question": "504 plan accommodations for 13-year-old with T2D", "category": "pediatric_t2d", "subcategory": "school", "annotation_reason": "Explicit age (13), 504 plan"}
+{"question": "Peer support group for teens with T2D", "category": "pediatric_t2d", "subcategory": "psychosocial", "annotation_reason": "Teens = adolescent, peer support"}
+{"question": "Transition care for young adult with youth-onset T2D", "category": "pediatric_t2d", "subcategory": "transition", "annotation_reason": "Youth-onset + young adult, transition"}
+{"question": "Glucose data review with 15-year-old: shared decision making", "category": "glucose_monitoring", "subcategory": "shared_review", "annotation_reason": "Explicit age (15), shared review"}
+{"question": "Exam accommodations for 15-year-old with T1D", "category": "parents_caregivers_schools", "subcategory": "exam_accommodations", "annotation_reason": "Explicit age (15), exam"}
+{"question": "Medical records transfer pediatric to adult 18-year-old", "category": "transition", "subcategory": "records_transfer", "annotation_reason": "Explicit age (18), records transfer"}
+{"question": "Family therapy for diabetes conflict 13-year-old", "category": "psychosocial", "subcategory": "family_therapy", "annotation_reason": "Explicit age (13), family therapy"}
+{"question": "Ketone meter for 6-year-old: blood vs urine", "category": "glucose_monitoring", "subcategory": "ketone_meter", "annotation_reason": "Explicit age (6), ketone meter"}
+{"question": "C-peptide at diagnosis in 15-year-old: T1D vs T2D", "category": "pediatric_t2d", "subcategory": "diagnosis", "annotation_reason": "Explicit age (15), C-peptide interpretation"}
+{"question": "Hypoglycemia fear survey child version 8-year-old", "category": "psychosocial", "subcategory": "HFS_child", "annotation_reason": "Explicit age (8), HFS child"}
+{"question": "Depression PHQ-A for 15-year-old with T1D", "category": "psychosocial", "subcategory": "PHQ_A", "annotation_reason": "Explicit age (15), PHQ-A"}
+{"question": "Insurance continuity age 26 for 24-year-old T1D", "category": "transition", "subcategory": "insurance_age26", "annotation_reason": "Explicit age (24), insurance 26"}
+{"question": "Preconception counseling 20-year-old T1D A1c target", "category": "transition", "subcategory": "preconception_A1c", "annotation_reason": "Explicit age (20), preconception"}
+{"question": "Medical decision making capacity for 19-year-old", "category": "transition", "subcategory": "medical_capacity", "annotation_reason": "Explicit age (19), capacity"}
+{"question": "Medicaid aging out 19-year-old T1D", "category": "transition", "subcategory": "Medicaid_aging_out", "annotation_reason": "Explicit age (19), Medicaid"}
+{"question": "Vocational rehabilitation for 20-year-old T1D", "category": "transition", "subcategory": "voc_rehab", "annotation_reason": "Explicit age (20), voc rehab"}
+{"question": "Trade school T1D accommodations for 19-year-old", "category": "transition", "subcategory": "trade_school", "annotation_reason": "Explicit age (19), trade school"}
+{"question": "Pregnancy planning T1D 21-year-old retinopathy", "category": "transition", "subcategory": "pregnancy_retinopathy", "annotation_reason": "Explicit age (21), pregnancy retinopathy"}
+{"question": "Supported decision making 19-year-old T1D", "category": "transition", "subcategory": "supported_decision", "annotation_reason": "Explicit age (19), supported decision"}
+{"question": "Semaglutide pill T1D 20yo", "category": "transition", "subcategory": "semaglutide_pill", "annotation_reason": "Explicit age (20), semaglutide pill"}
+{"question": "Buttock site CGM 20yo T1D", "category": "transition", "subcategory": "buttock_site", "annotation_reason": "Explicit age (20), buttock"}
+{"question": "Study abroad Italy T1D 20yo", "category": "transition", "subcategory": "study_abroad_Italy", "annotation_reason": "Explicit age (20), study abroad"}
+{"question": "Transmitter out of warranty 19yo", "category": "transition", "subcategory": "transmitter_warranty", "annotation_reason": "Explicit age (19), transmitter warranty"}
+{"question": "Drunk and low at party 20yo T1D", "category": "transition", "subcategory": "party_low", "annotation_reason": "Explicit age (20), alcohol low"}
+{"question": "Allergic reaction adhesive 19yo", "category": "transition", "subcategory": "adhesive_allergy", "annotation_reason": "Explicit age (19), adhesive allergy"}
+{"question": "Spevigo injection T1D 19yo", "category": "transition", "subcategory": "Spevigo", "annotation_reason": "Explicit age (19), Spevigo"}
+{"question": "Barrier wipe CGM 20yo T1D", "category": "transition", "subcategory": "barrier_wipe", "annotation_reason": "Explicit age (20), barrier wipe"}
+{"question": "Pharmacy prescription transfer 20yo T1D", "category": "transition", "subcategory": "rx_transfer", "annotation_reason": "Explicit age (20), prescription transfer"}
+{"question": "Tegaderm HP CGM 21yo T1D", "category": "transition", "subcategory": "Tegaderm_HP", "annotation_reason": "Explicit age (21), Tegaderm"}
+{"question": "GoodRx insulin coupon 19yo T1D", "category": "transition", "subcategory": "GoodRx", "annotation_reason": "Explicit age (19), GoodRx"}
+{"question": "Brexucabtagene T1D 21yo", "category": "transition", "subcategory": "brexucabtagene", "annotation_reason": "Explicit age (21), brexucabtagene"}
+{"question": "Diabetes medical management plan DMMP template 8yo", "category": "parents_caregivers_schools", "subcategory": "DMMP_template", "annotation_reason": "Explicit age (8), DMMP template"}

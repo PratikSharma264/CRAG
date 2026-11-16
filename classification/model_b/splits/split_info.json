@@ -1,0 +1,11 @@
+{
+  "model": "model_b",
+  "dataset": "B_extended",
+  "seed": 42,
+  "train_size": 316,
+  "val_size": 68,
+  "test_size": 68,
+  "max_length": 512,
+  "split_method": "question_level_stratified",
+  "note": "All 44 source papers shared across splits. Evaluation measures generalization to new questions from familiar papers."
+}

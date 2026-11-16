@@ -52,7 +52,94 @@
     </form>
   </section>
 
-  {% include "chatapp/partials/_kb_panel.html" %}
+  <section class="panel sufficiency-panel" aria-labelledby="sufficiency-title" role="region">
+    <header class="panel-header">
+      <svg class="icon icon-lg panel-header__icon" aria-hidden="true"><use href="#i-bar-chart"/></svg>
+      <div class="panel-header__text">
+        <h2 class="panel-title" id="sufficiency-title">Sufficiency Evaluation</h2>
+        <p class="panel-subtitle">Real-time evidence assessment flow</p>
+      </div>
+      <button type="button" class="collapse-btn collapse-btn--kb" data-sufficiency-collapse aria-expanded="true"
+              aria-label="Hide sufficiency evaluation" title="Hide sufficiency evaluation">
+        <svg class="icon"><use href="#i-panel-right"/></svg>
+      </button>
+    </header>
+
+    <div class="sufficiency-viz" id="sufficiency-viz" role="img" aria-label="Evidence sufficiency evaluation flow diagram">
+      <div class="sufficiency-viz__initial" data-state="initial">
+        <svg class="icon icon-xl" aria-hidden="true"><use href="#i-bar-chart"/></svg>
+        <p>Submit a question to see the evidence evaluation flow.</p>
+      </div>
+      <div class="sufficiency-viz__loading" data-state="loading" hidden>
+        <div class="spinner" aria-hidden="true"></div>
+        <p>Evaluating evidence...</p>
+      </div>
+      <div class="sufficiency-viz__empty" data-state="empty" hidden>
+        <svg class="icon icon-xl" aria-hidden="true"><use href="#i-alert-circle"/></svg>
+        <p>No relevant passages found.</p>
+      </div>
+      <div class="sufficiency-viz__error" data-state="error" hidden>
+        <svg class="icon icon-xl" aria-hidden="true"><use href="#i-alert-triangle"/></svg>
+        <p>Evaluation failed.</p>
+      </div>
+      <div class="sufficiency-viz__diagram" data-state="diagram" hidden>
+        <figure class="sufficiency-flow" role="img" aria-labelledby="flow-title">
+          <figcaption id="flow-title" class="visually-hidden">Evidence sufficiency evaluation flow: User Query to Model C Score and Cosine Similarity to Combined Score to Sufficiency Decision</figcaption>
+          <div class="flow-stage flow-stage--query" data-stage="query">
+            <div class="flow-node">
+              <svg class="icon icon-lg" aria-hidden="true"><use href="#i-help-circle"/></svg>
+              <span class="flow-label">User Query</span>
+            </div>
+            <div class="flow-arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h14M14 5l5 7-5 7"/></svg></div>
+          </div>
+          <div class="flow-stage flow-stage--checks" data-stage="checks">
+            <div class="flow-parallel">
+              <div class="flow-branch" data-branch="model_c">
+                <div class="flow-node flow-node--check">
+                  <svg class="icon icon-lg" aria-hidden="true"><use href="#i-cpu"/></svg>
+                  <span class="flow-label">Model C</span>
+                  <span class="flow-score" data-score="model_c">—</span>
+                </div>
+              </div>
+              <div class="flow-branch" data-branch="cosine">
+                <div class="flow-node flow-node--check">
+                  <svg class="icon icon-lg" aria-hidden="true"><use href="#i-slash"/></svg>
+                  <span class="flow-label">Cosine Similarity</span>
+                  <span class="flow-score" data-score="cosine">—</span>
+                </div>
+              </div>
+              <div class="flow-branch" data-branch="llm_judge">
+                <div class="flow-node flow-node--check">
+                  <svg class="icon icon-lg" aria-hidden="true"><use href="#i-cpu"/></svg>
+                  <span class="flow-label">LLM Judge</span>
+                  <span class="flow-score" data-score="llm_judge">—</span>
+                </div>
+              </div>
+            </div>
+            <div class="flow-arrow flow-arrow--down" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 14l7 5 7-5"/></svg></div>
+          </div>
+          <div class="flow-stage flow-stage--combined" data-stage="combined">
+            <div class="flow-node flow-node--combined">
+              <svg class="icon icon-lg" aria-hidden="true"><use href="#i-calculator"/></svg>
+              <span class="flow-label">Combined Score</span>
+              <span class="flow-score flow-score--combined" data-score="combined">—</span>
+              <span class="flow-formula" data-formula>0.10 × Model C + 0.45 × Cosine + 0.45 × LLM Judge</span>
+            </div>
+            <div class="flow-arrow flow-arrow--down" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 14l7 5 7-5"/></svg></div>
+          </div>
+          <div class="flow-stage flow-stage--decision" data-stage="decision">
+            <div class="flow-node flow-node--decision" data-decision>
+              <svg class="icon icon-lg" aria-hidden="true"><use href="#i-check-circle"/></svg>
+              <span class="flow-label">Decision</span>
+              <span class="flow-decision" data-decision-text>—</span>
+              <span class="flow-threshold" data-threshold>Threshold: 0.70</span>
+              <span class="flow-judge-status" data-judge-status hidden></span>
+            </div>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </section>
 
 </div>
 

@@ -1,0 +1,70 @@
+{"question": "GERD management in 55-year-old", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 55, adult GERD"}
+{"question": "Osteoporosis screening in 65-year-old woman", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 65, elderly osteoporosis"}
+{"question": "Biologic DMARD for 55-year-old RA", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 55, adult biologic DMARD"}
+{"question": "Asthma diagnosis in 40-year-old adult", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 40, adult asthma"}
+{"question": "Osteoarthritis knee in 65-year-old: injection options", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 65, elderly OA knee"}
+{"question": "Anticoagulation for AFib in 75-year-old", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 75, elderly anticoagulation"}
+{"question": "Pulmonary embolism in 50-year-old post-surgery", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 50, adult PE"}
+{"question": "Parkinson disease diagnosis in 60-year-old", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 60, adult Parkinson"}
+{"question": "Dementia evaluation in 80-year-old", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 80, elderly dementia"}
+{"question": "Polymyalgia rheumatica in 70-year-old", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 70, elderly PMR"}
+{"question": "IBS diagnosis in 30-year-old", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 30, adult IBS"}
+{"question": "Diverticulitis in 60-year-old: antibiotics", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 60, adult diverticulitis"}
+{"question": "Trigeminal neuralgia in 55-year-old", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 55, adult trigeminal neuralgia"}
+{"question": "Memory loss in 65-year-old: workup", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 65, elderly memory"}
+{"question": "Interstitial lung disease in 60-year-old", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 60, adult ILD"}
+{"question": "Essential tremor in 45-year-old: treatment", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 45, adult tremor"}
+{"question": "Pneumonia in 75-year-old: CURB-65", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 75, elderly pneumonia"}
+{"question": "Chest pain evaluation in 45-year-old woman", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 45, adult chest pain"}
+{"question": "COPD inhaler selection for 68-year-old", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 68, elderly COPD inhaler"}
+{"question": "Bronchiectasis management in 45-year-old", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 45, adult bronchiectasis"}
+{"question": "Fibromyalgia in 40-year-old: diagnosis", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 40, adult fibromyalgia"}
+{"question": "Heart failure meds in 80-year-old with renal impairment", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 80, elderly HF meds"}
+{"question": "Kidney stone passage in 45-year-old male", "category": "other_medical_adult", "subcategory": "kidney_stones", "annotation_reason": "Explicit age 45, adult kidney stone"}
+{"question": "Lung cancer screening in 65-year-old smoker", "category": "other_medical_adult", "subcategory": "respiratory", "annotation_reason": "Explicit age 65, elderly lung cancer"}
+{"question": "Atrial fibrillation management in 65-year-old", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 65, adult cardiac"}
+{"question": "Gout flare in 50-year-old male: treatment", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 50, adult gout"}
+{"question": "Hypertension guidelines for 50-year-old", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 50, adult hypertension"}
+{"question": "Lipid management in 40-year-old with family history", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 40, adult lipids"}
+{"question": "Heart failure with reduced EF in 70-year-old", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 70, adult heart failure"}
+{"question": "Coronary artery disease in 60-year-old: stress test", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 60, adult CAD"}
+{"question": "Peripheral neuropathy in 50-year-old: not diabetic", "category": "other_medical_adult", "subcategory": "neurological", "annotation_reason": "Explicit age 50, adult neuropathy non-diabetic"}
+{"question": "Rheumatoid arthritis diagnosis in 40-year-old", "category": "other_medical_adult", "subcategory": "rheumatology", "annotation_reason": "Explicit age 40, adult RA"}
+{"question": "Panic disorder in 35-year-old: exposure therapy", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 35, panic"}
+{"question": "Melanoma in 50-year-old: sentinel node biopsy", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 50, melanoma"}
+{"question": "HIV PrEP for 30-year-old: guidelines", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 30, HIV PrEP"}
+{"question": "Osteoporosis in 65-year-old man: secondary causes", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 65, osteoporosis male"}
+{"question": "OCD in 30-year-old: ERP therapy", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 30, OCD"}
+{"question": "Hepatitis C genotype 1 in 50-year-old: DAA", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 50, Hep C"}
+{"question": "Skin cancer screening in 50-year-old: dermatoscope", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 50, skin cancer screening"}
+{"question": "PTSD in 35-year-old veteran: EMDR", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 35, PTSD"}
+{"question": "Lyme disease in 40-year-old: doxycycline", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 40, Lyme"}
+{"question": "Cushing syndrome in 35-year-old: screening", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 35, Cushing"}
+{"question": "Influenza in 65-year-old: antiviral timing", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 65, influenza"}
+{"question": "Thyroid cancer in 40-year-old: RAI therapy", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 40, thyroid cancer"}
+{"question": "Rosacea in 45-year-old: topical ivermectin", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 45, rosacea"}
+{"question": "Hidradenitis suppurativa in 28-year-old: adalimumab", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 28, HS"}
+{"question": "Urticaria in 30-year-old: omalizumab", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 30, urticaria"}
+{"question": "Vitamin D deficiency in 50-year-old: dosing", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 50, vitamin D"}
+{"question": "COVID long haul in 45-year-old: management", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 45, long COVID"}
+{"question": "Pheochromocytoma in 45-year-old: alpha blockade", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 45, pheo"}
+{"question": "Acne in 25-year-old: isotretinoin monitoring", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 25, acne"}
+{"question": "Psoriasis in 35-year-old: biologic selection", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 35, psoriasis"}
+{"question": "Generalized anxiety in 40-year-old: CBT vs meds", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 40, GAD"}
+{"question": "Schizophrenia in 25-year-old: antipsychotic choice", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 25, schizophrenia"}
+{"question": "Alcohol use disorder in 40-year-old: naltrexone", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 40, AUD"}
+{"question": "Shingles vaccine in 55-year-old: Shingrix", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 55, shingles"}
+{"question": "Pneumococcal vaccine in 70-year-old: PCV20", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 70, pneumococcal"}
+{"question": "Thyroid nodule 3cm in 45-year-old: FNA or follow", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 45, thyroid nodule"}
+{"question": "Primary hyperparathyroidism in 60-year-old", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 60, hyperparathyroidism"}
+{"question": "Major depression in 35-year-old: SSRI selection", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 35, depression"}
+{"question": "Vitiligo in 35-year-old: phototherapy", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 35, vitiligo"}
+{"question": "Insomnia in 45-year-old: CBT-I", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 45, insomnia"}
+{"question": "Basal cell carcinoma in 60-year-old: Mohs", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 60, BCC"}
+{"question": "Adrenal incidentaloma in 55-year-old: workup", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 55, adrenal incidentaloma"}
+{"question": "Male hypogonadism in 40-year-old: testosterone", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 40, hypogonadism"}
+{"question": "Hyperthyroidism in 30-year-old: Graves vs toxic nodule", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 30, hyperthyroidism"}
+{"question": "Acromegaly in 40-year-old: surgery vs medical", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 40, acromegaly"}
+{"question": "Bipolar disorder in 28-year-old: mood stabilizer", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 28, bipolar"}
+{"question": "ADHD in 30-year-old adult: diagnosis", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 30, adult ADHD"}
+{"question": "Menopause management in 52-year-old: HRT", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 52, menopause HRT"}

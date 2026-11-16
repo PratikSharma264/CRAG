@@ -1,0 +1,70 @@
+{"question": "Inhaled insulin Technosphere: pulmonary delivery", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Inhaled insulin = pharma"}
+{"question": "Insulin affordability programs: patient assistance", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Patient assistance = economics"}
+{"question": "CDS Hooks diabetes clinical decision support", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "CDS Hooks = programming"}
+{"question": "DCCT/EDIC study history: changing T1D care", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "DCCT history = history"}
+{"question": "SwiftUI Chart glucose trend line iOS 16+", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "SwiftUI Chart = programming"}
+{"question": "Insulin pricing: AMP best price Medicaid rebate", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "AMP Medicaid = pharma"}
+{"question": "Build glucose tracker React Native TypeScript", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "React Native app = programming"}
+{"question": "Economic impact of gestational diabetes globally", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "GDM economic impact = economics"}
+{"question": "Insulin glargine U300: patent expiration timeline", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Patent expiry = pharma"}
+{"question": "Connected insulin pen: dose memory Bluetooth", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Connected pen = pharma"}
+{"question": "Insulin pen device engineering and IP", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Device engineering = pharma business"}
+{"question": "Observable Plot glucose exploratory analysis", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Observable Plot = programming"}
+{"question": "Insulin efsitora alfa: basal Fc fusion design", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Fc fusion = pharma"}
+{"question": "Diabetes healthcare costs by country comparison", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Costs by country = economics"}
+{"question": "ECharts glucose time series with zoom", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "ECharts = programming"}
+{"question": "Insulin formulation: surfactant stabilization", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Surfactant = pharma"}
+{"question": "App Store submission medical device diabetes app", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "App Store medical = programming"}
+{"question": "Accessibility VoiceOver TalkBack diabetes app", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Accessibility = programming"}
+{"question": "Insulin biosimilar: analytical similarity FDA", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Biosimilar analytical = pharma"}
+{"question": "Value assessment framework for diabetes medications", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Value assessment = economics"}
+{"question": "Insulin interchangeability: pharmacy substitution law", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Interchangeability law = pharma"}
+{"question": "Insulin list price vs net price analysis", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Price analysis = pharma business"}
+{"question": "Projected diabetes costs 2030 2045 IDF", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Projected costs = economics"}
+{"question": "Three insulin manufacturers market share US", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Market share = pharma business"}
+{"question": "Ferret insulinoma: surgery vs medical", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Ferret insulinoma = pets"}
+{"question": "Insulin affordability crisis in low-income countries", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Affordability crisis = economics"}
+{"question": "Purple book insulin biosimilar licensing", "category": "diabetes_adjacent", "subcategory": "politics", "annotation_reason": "Purple book = politics"}
+{"question": "Insulin manufacturing process: recombinant DNA", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Manufacturing process = pharma business"}
+{"question": "Medicaid best price calculation for insulin", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Best price = economics"}
+{"question": "SMART on FHIR diabetes app launch sequence", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "SMART on FHIR = programming"}
+{"question": "Jetpack Compose LineChart glucose Android", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Compose LineChart = programming"}
+{"question": "Diabetes camp packing list for teens", "category": "diabetes_adjacent", "subcategory": "lifestyle", "annotation_reason": "Lifestyle diabetes camp"}
+{"question": "As an adult, i was told I have IR, IR and nafld in ?", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 42, NAFLD adult", "fragment_reason": "content_words=3, word_count=14"}
+{"question": "For diabetes app backend?", "category": "non_medical", "subcategory": "programming", "annotation_reason": "API design = programming", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For glucose interval estimates?", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Conformal prediction = AI/ML", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For deep glucose models?", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Attribution methods = AI/ML", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For premium diabetes features?", "category": "non_medical", "subcategory": "programming", "annotation_reason": "RevenueCat = programming", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For longitudinal glucose data?", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Mixed effects model = statistics", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "From diabetes observational data?", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Causal discovery = AI/ML", "fragment_reason": "content_words=4, word_count=4"}
+{"question": "For diabetes clinical trial?", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Sample size calculation = statistics", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For patient portal: oauth2?", "category": "non_medical", "subcategory": "programming", "annotation_reason": "OAuth2 auth = programming", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "Scattering for insulin aggregation?", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "DLS = physics", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For medical mobile app?", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Sentry = programming", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "Games athlete with t1d?", "category": "non_medical", "subcategory": "sports", "annotation_reason": "CrossFit Games = sports", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For diabetes risk prediction?", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "AutoML risk prediction = AI/ML", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "Likelihood estimation for diabetes?", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "TMLE = statistics", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For diabetes multiple endpoints?", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Alpha spending = statistics", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For patient glucose logs?", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Database schema = programming", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For adaptive insulin algorithm?", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Continuous learning = AI/ML", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "So for federated diabetes learning?", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Differential privacy = AI/ML", "fragment_reason": "content_words=3, word_count=5"}
+{"question": "Testing for diabetes website?", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Accessibility testing = programming", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For insulin dose recommendations?", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Counterfactual = AI/ML", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For diabetes pathway effects?", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Mediation = statistics", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For diabetes biomarker panel?", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "FDR biomarker = statistics", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "With t1d: BG management?", "category": "non_medical", "subcategory": "sports", "annotation_reason": "CrossFit = sports", "fragment_reason": "content_words=2, word_count=4"}
+{"question": "Design for diabetes meds?", "category": "non_medical", "subcategory": "economics", "annotation_reason": "VBID diabetes = economics", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "Act insulin cap $35?", "category": "non_medical", "subcategory": "politics", "annotation_reason": "IRA insulin cap = politics", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "For diabetes complication prediction?", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "GNN = AI/ML", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "React components with jest?", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Unit testing = programming", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "My relative has recurrent nephrolithiasis in , what should we do?", "category": "other_medical_adult", "subcategory": "kidney_stones", "annotation_reason": "Explicit age 50, adult recurrent stones", "fragment_reason": "content_words=3, word_count=11"}
+{"question": "My relative has hepatitis c treatment in , what should we do?", "category": "other_medical_adult", "subcategory": "gi", "annotation_reason": "Explicit age 55, adult Hep C", "fragment_reason": "content_words=3, word_count=12"}
+{"question": "My relative has palpitations in : workup, what should we do?", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 30, adult palpitations", "fragment_reason": "content_words=3, word_count=11"}
+{"question": "My relative has hypertension guidelines for , what should we do?", "category": "other_medical_adult", "subcategory": "cardiac", "annotation_reason": "Explicit age 50, adult hypertension", "fragment_reason": "content_words=3, word_count=11"}
+{"question": "My relative has urticaria in : omalizumab, what should we do?", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 30, urticaria", "fragment_reason": "content_words=3, word_count=11"}
+{"question": "As an adult, I have t2d: CGM?", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 74, CGM elderly", "fragment_reason": "content_words=3, word_count=7"}
+{"question": "As an adult, I have t1d: CGM?", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 31, CGM adult", "fragment_reason": "content_words=3, word_count=7"}
+{"question": "As an adult, a1c 7.8% for : is that appropriate?", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 75, elderly A1c interpretation", "fragment_reason": "content_words=3, word_count=10"}
+{"question": "History of insulin discovery?", "category": "non_medical", "subcategory": "history", "annotation_reason": "History of insulin discovery", "fragment_reason": "content_words=3, word_count=4"}
+{"question": "Quick q: type 1 and T2D?", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "General knowledge T1D vs T2D", "fragment_reason": "content_words=3, word_count=6"}
+{"question": "Presenteeism cost estimates cost?", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Absenteeism costs = economics", "fragment_reason": "content_words=4, word_count=4"}

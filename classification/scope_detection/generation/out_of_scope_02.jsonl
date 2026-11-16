@@ -1,0 +1,80 @@
+{"question": "Low HDL 45-year-old: insulin resistance marker", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, low HDL adult"}
+{"question": "30-year-old with T2D: HbA1c target 7%", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 30, adult T2D HbA1c"}
+{"question": "CPAP treatment insulin resistance 40yo OSA", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, CPAP adult"}
+{"question": "Berberine 500mg TID insulin resistance 35yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, berberine adult"}
+{"question": "Glycemic target for 75-year-old with limited life expectancy", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 75, limited life expectancy"}
+{"question": "My 8-year-old has eczema: topical steroids", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, eczema not diabetes"}
+{"question": "Zone 2 training insulin resistance 35-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, zone 2 adult"}
+{"question": "Homebound 82-year-old: A1c monitoring yearly", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 82, homebound elderly"}
+{"question": "26-year-old diabetic: driving license medical", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 26, driving adult"}
+{"question": "Resistance training 3x/week IR 40-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, resistance training adult"}
+{"question": "78-year-old T1D: medication reconciliation", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 78, elderly med rec"}
+{"question": "Alpha-lipoic acid 600mg insulin sensitivity 40yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, ALA adult"}
+{"question": "13-year-old scoliosis: bracing vs surgery", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 13, scoliosis not diabetes"}
+{"question": "Magnesium glycinate insulin sensitivity 30yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 30, magnesium adult"}
+{"question": "87-year-old T2D: comfort measures only", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 87, comfort measures"}
+{"question": "39-year-old T2D: SGLT2 for heart failure", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 39, adult SGLT2 HF"}
+{"question": "89-year-old T2D: advance directive diabetes", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 89, advance directive"}
+{"question": "Individualized A1c goals for 70-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 70, individualized elderly"}
+{"question": "10-year-old glycosuria: renal threshold low", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 10, renal glycosuria not diabetes"}
+{"question": "76-year-old T1D: medication simplification", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 76, elderly med simplification"}
+{"question": "84-year-old T2D: advance care planning", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 84, advance care"}
+{"question": "9-year-old ARFID: feeding therapy", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 9, ARFID not diabetes"}
+{"question": "7-year-old encopresis: behavioral intervention", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 7, encopresis not diabetes"}
+{"question": "67-year-old T2D: Part D donut hole insulin", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 67, Part D donut hole"}
+{"question": "HIIT protocol insulin sensitivity 28-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 28, HIIT adult"}
+{"question": "61-year-old T1D: vaccinations pneumococcal shingles", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 61, adult vaccines"}
+{"question": "59-year-old T2D: sleep apnea CPAP", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 59, adult sleep apnea"}
+{"question": "40-year-old T2D uncontrolled: insulin initiation", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 40, adult T2D insulin"}
+{"question": "7-year-old pica: iron deficiency workup", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 7, pica not diabetes"}
+{"question": "Stop sulfonylurea in 82-year-old: hypoglycemia", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 82, stop SU elderly"}
+{"question": "Deintensification algorithm for 80-year-old diabetic", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, deintensification algorithm elderly"}
+{"question": "PCOS insulin resistance in 28-year-old woman", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 28, PCOS adult"}
+{"question": "Cognitive impairment: A1c 8% for 78-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, cognitive elderly"}
+{"question": "48-year-old T1D: orthostatic hypotension", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 48, adult orthostatic"}
+{"question": "Joint modeling of longitudinal and survival data", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Joint modeling = statistics"}
+{"question": "Steel Magnolias Shelby diabetes death scene accuracy", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Steel Magnolias = entertainment"}
+{"question": "Complication for watchOS glucose display", "category": "non_medical", "subcategory": "programming", "annotation_reason": "watchOS complication = programming"}
+{"question": "Edge deployment of diabetes model on phone", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Edge deployment = AI/ML"}
+{"question": "REST API design for diabetes app backend", "category": "non_medical", "subcategory": "programming", "annotation_reason": "API design = programming"}
+{"question": "LSTM for glucose prediction from CGM data", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "LSTM glucose prediction = AI/ML"}
+{"question": "Conformal prediction for glucose interval estimates", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Conformal prediction = AI/ML"}
+{"question": "Attribution methods for deep glucose models", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Attribution methods = AI/ML"}
+{"question": "WidgetKit glucose widget for iOS lock screen", "category": "non_medical", "subcategory": "programming", "annotation_reason": "WidgetKit = programming"}
+{"question": "World Diabetes Day date: November 14", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Nov 14 = general"}
+{"question": "Circular dichroism for insulin secondary structure", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "CD spectroscopy = chemistry"}
+{"question": "React Native vs Flutter for health app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "React Native Flutter = programming"}
+{"question": "G-computation for diabetes treatment effect estimation", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "G-computation = statistics"}
+{"question": "Fairness metrics for diabetes ML models", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Fairness metrics = AI/ML"}
+{"question": "Ultra marathon 100 miles with T1D: fueling", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Ultra marathon = sports"}
+{"question": "NBA player with T1D: Adam Morrison", "category": "non_medical", "subcategory": "sports", "annotation_reason": "NBA T1D = sports"}
+{"question": "Diabetes in ancient Egypt: historical records", "category": "non_medical", "subcategory": "history", "annotation_reason": "Ancient Egypt diabetes = history"}
+{"question": "Ayurveda diabetes treatment: Madhumeha", "category": "non_medical", "subcategory": "history", "annotation_reason": "Ayurveda = history"}
+{"question": "RevenueCat subscriptions for premium diabetes features", "category": "non_medical", "subcategory": "programming", "annotation_reason": "RevenueCat = programming"}
+{"question": "Contrastive learning for CGM representation", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Contrastive learning = AI/ML"}
+{"question": "Diabetes camps history: first camp 1925", "category": "non_medical", "subcategory": "history", "annotation_reason": "Diabetes camps history = history"}
+{"question": "CodePush for React Native diabetes app updates", "category": "non_medical", "subcategory": "programming", "annotation_reason": "CodePush = programming"}
+{"question": "Evolution of glucose monitoring technology", "category": "non_medical", "subcategory": "history", "annotation_reason": "Technology evolution = history"}
+{"question": "ROC curve analysis for diabetes screening test", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "ROC curve = statistics"}
+{"question": "Optical properties of fluorescence glucose sensor", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Optical properties = physics"}
+{"question": "Differential scanning calorimetry for insulin stability", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "DSC = chemistry"}
+{"question": "Mixed effects model for longitudinal glucose data", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Mixed effects model = statistics"}
+{"question": "Diabetes in literature: The Sweetness of Water", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Literature diabetes = entertainment"}
+{"question": "Diabetes prevention program Medicare coverage", "category": "non_medical", "subcategory": "politics", "annotation_reason": "DPP Medicare = politics"}
+{"question": "Meta-analysis of SGLT2 inhibitor trials", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Meta-analysis = statistics"}
+{"question": "Insulin purification: from pancreas to recombinant", "category": "non_medical", "subcategory": "history", "annotation_reason": "Insulin purification = history"}
+{"question": "Principal stratification for diabetes compliance", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Principal stratification = statistics"}
+{"question": "Difference-in-differences for diabetes intervention", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "DiD = statistics"}
+{"question": "Employer diabetes management program cost savings", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Employer program savings = economics"}
+{"question": "Causal discovery from diabetes observational data", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Causal discovery = AI/ML"}
+{"question": "Calculate sample size for diabetes clinical trial", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Sample size calculation = statistics"}
+{"question": "Geography of diabetes prevalence by country", "category": "non_medical", "subcategory": "geography", "annotation_reason": "Geography prevalence = geography"}
+{"question": "340B drug pricing program insulin discounts", "category": "non_medical", "subcategory": "economics", "annotation_reason": "340B pricing = economics"}
+{"question": "Authentication for patient portal: OAuth2", "category": "non_medical", "subcategory": "programming", "annotation_reason": "OAuth2 auth = programming"}
+{"question": "Multi-state model for diabetes progression stages", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Multi-state model = statistics"}
+{"question": "Android Health Connect API for glucose data", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Health Connect = programming"}
+{"question": "Professional golfer with T1D: Michelle McGann", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Golfer T1D = sports"}
+{"question": "Diabetes organizations: ADA EASD IDF founding", "category": "non_medical", "subcategory": "history", "annotation_reason": "Diabetes orgs history = history"}
+{"question": "Insulin biosimilar market entry barriers", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Biosimilar market = economics"}
+{"question": "Synthetic control for diabetes policy evaluation", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Synthetic control = statistics"}
+{"question": "Foundation models for diabetes care", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Foundation models = AI/ML"}

@@ -1,0 +1,62 @@
+{
+  "model": "Model A (Dataset A only)",
+  "threshold": 0.5,
+  "accuracy": 0.4852941176470588,
+  "macro_precision": 0.48333333333333334,
+  "macro_recall": 0.4835497835497835,
+  "macro_f1": 0.4824961948249619,
+  "insufficient_precision": 0.5,
+  "insufficient_recall": 0.5428571428571428,
+  "insufficient_f1": 0.5205479452054794,
+  "sufficient_precision": 0.4666666666666667,
+  "sufficient_recall": 0.42424242424242425,
+  "sufficient_f1": 0.4444444444444444,
+  "confusion_matrix": [
+    [
+      19,
+      16
+    ],
+    [
+      19,
+      14
+    ]
+  ],
+  "TN": 19,
+  "FP": 16,
+  "FN": 19,
+  "TP": 14,
+  "false_acceptance_count": 16,
+  "false_acceptance_rate": 0.45714285714285713,
+  "false_rejection_count": 19,
+  "false_rejection_rate": 0.5757575757575758,
+  "total_insufficient": 35,
+  "total_sufficient": 33,
+  "classification_report": {
+    "insufficient": {
+      "precision": 0.5,
+      "recall": 0.5428571428571428,
+      "f1-score": 0.5205479452054794,
+      "support": 35.0
+    },
+    "sufficient": {
+      "precision": 0.4666666666666667,
+      "recall": 0.42424242424242425,
+      "f1-score": 0.4444444444444444,
+      "support": 33.0
+    },
+    "accuracy": 0.4852941176470588,
+    "macro avg": {
+      "precision": 0.48333333333333334,
+      "recall": 0.4835497835497835,
+      "f1-score": 0.4824961948249619,
+      "support": 68.0
+    },
+    "weighted avg": {
+      "precision": 0.4838235294117647,
+      "recall": 0.4852941176470588,
+      "f1-score": 0.48361536395380067,
+      "support": 68.0
+    }
+  },
+  "inference_latency_per_example_s": 0.2664
+}

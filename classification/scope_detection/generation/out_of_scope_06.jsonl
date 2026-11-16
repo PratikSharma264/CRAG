@@ -1,0 +1,80 @@
+{"question": "Acne in 25-year-old: isotretinoin monitoring", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 25, acne"}
+{"question": "Psoriasis in 35-year-old: biologic selection", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 35, psoriasis"}
+{"question": "Generalized anxiety in 40-year-old: CBT vs meds", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 40, GAD"}
+{"question": "Schizophrenia in 25-year-old: antipsychotic choice", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 25, schizophrenia"}
+{"question": "Alcohol use disorder in 40-year-old: naltrexone", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 40, AUD"}
+{"question": "Shingles vaccine in 55-year-old: Shingrix", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 55, shingles"}
+{"question": "Pneumococcal vaccine in 70-year-old: PCV20", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 70, pneumococcal"}
+{"question": "Thyroid nodule 3cm in 45-year-old: FNA or follow", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 45, thyroid nodule"}
+{"question": "Primary hyperparathyroidism in 60-year-old", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 60, hyperparathyroidism"}
+{"question": "Major depression in 35-year-old: SSRI selection", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 35, depression"}
+{"question": "Vitiligo in 35-year-old: phototherapy", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 35, vitiligo"}
+{"question": "Insomnia in 45-year-old: CBT-I", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 45, insomnia"}
+{"question": "Basal cell carcinoma in 60-year-old: Mohs", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 60, BCC"}
+{"question": "Adrenal incidentaloma in 55-year-old: workup", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 55, adrenal incidentaloma"}
+{"question": "Male hypogonadism in 40-year-old: testosterone", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 40, hypogonadism"}
+{"question": "Hyperthyroidism in 30-year-old: Graves vs toxic nodule", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 30, hyperthyroidism"}
+{"question": "Acromegaly in 40-year-old: surgery vs medical", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 40, acromegaly"}
+{"question": "Bipolar disorder in 28-year-old: mood stabilizer", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 28, bipolar"}
+{"question": "ADHD in 30-year-old adult: diagnosis", "category": "other_medical_adult", "subcategory": "psychiatry", "annotation_reason": "Explicit age 30, adult ADHD"}
+{"question": "Menopause management in 52-year-old: HRT", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 52, menopause HRT"}
+{"question": "Prolactinoma in 30-year-old: cabergoline", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 30, prolactinoma"}
+{"question": "Travel medicine for 40-year-old: malaria prophylaxis", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 40, travel malaria"}
+{"question": "Atopic dermatitis in 40-year-old: dupilumab", "category": "other_medical_adult", "subcategory": "dermatology", "annotation_reason": "Explicit age 40, eczema"}
+{"question": "PCOS in 28-year-old: metformin vs OCP", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 28, PCOS"}
+{"question": "TB latent infection in 35-year-old: treatment", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 35, latent TB"}
+{"question": "Subclinical hypothyroidism in 50-year-old: treat?", "category": "other_medical_adult", "subcategory": "endocrine", "annotation_reason": "Explicit age 50, subclinical hypo"}
+{"question": "Hepatitis B in 40-year-old: antiviral therapy", "category": "other_medical_adult", "subcategory": "infectious", "annotation_reason": "Explicit age 40, Hep B"}
+{"question": "Skin complications adult T1D: necrobiosis lipoidica", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Adult explicit, skin"}
+{"question": "Parent with T1D: how to not project anxiety", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T1D = adult"}
+{"question": "Dawn phenomenon management in 50-year-old T1D", "category": "adult_diabetes", "subcategory": "t1d_treatment", "annotation_reason": "Explicit age 50, adult dawn phenomenon"}
+{"question": "HbA1c 6.8% in 55-year-old: T2D diagnosis?", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 55, adult T2D diagnosis"}
+{"question": "Mom with T1D pregnant again: A1c targets?", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Mom explicit, own T1D = adult"}
+{"question": "Sarcopenia and T2D in 70-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 70, sarcopenia adult"}
+{"question": "Prediabetes progression to T2D in 50-year-olds", "category": "adult_diabetes", "subcategory": "t2d_prevention", "annotation_reason": "Explicit age 50, adult prediabetes"}
+{"question": "T1D pregnancy at 38: high-risk OB management", "category": "adult_diabetes", "subcategory": "t1d_pregnancy", "annotation_reason": "Explicit age 38, adult pregnancy"}
+{"question": "Cognitive function in 55-year-old with longstanding T1D", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 55, cognitive"}
+{"question": "Wound care for diabetic ulcer in 70-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 70, wound care adult"}
+{"question": "Dad T1D since childhood: genetic counseling for kids", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Dad explicit, own T1D = adult"}
+{"question": "Semaglutide dosing for 55-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 55, semaglutide adult"}
+{"question": "Food insecurity and T2D management in 40-year-old", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Explicit age 40, food insecurity adult"}
+{"question": "Latent autoimmune diabetes in adults: diagnostic criteria", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Adults explicit, LADA"}
+{"question": "Diabetic retinopathy screening interval for 50-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 50, adult retinopathy"}
+{"question": "Oral semaglutide for 45-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 45, oral semaglutide adult"}
+{"question": "Fructosamine vs HbA1c in 60-year-old with anemia", "category": "adult_diabetes", "subcategory": "t2d_monitoring", "annotation_reason": "Explicit age 60, fructosamine adult"}
+{"question": "My child has T1D, what's MY T2D risk?", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent asking own risk = adult"}
+{"question": "Amputation prevention in 65-year-old diabetic", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 65, amputation adult"}
+{"question": "Low carb diet for 45-year-old T2D: safety", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 45, low carb adult"}
+{"question": "LADA vs T2D in 50-year-old: how to differentiate", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Explicit age 50, LADA differential"}
+{"question": "Polypharmacy in 78-year-old with T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 78, polypharmacy adult"}
+{"question": "Dating with T1D at 28: when to disclose", "category": "adult_diabetes", "subcategory": "t1d_psychosocial", "annotation_reason": "Explicit age 28, adult dating"}
+{"question": "Carpal tunnel syndrome in 40-year-old T1D", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 40, carpal tunnel"}
+{"question": "DKA in adult T2D: presentation and management", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Adult explicit, DKA"}
+{"question": "I have T2D and my kid has T1D: different diets?", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T2D = adult"}
+{"question": "Health literacy and T2D outcomes in 55-year-old", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Explicit age 55, health literacy adult"}
+{"question": "Inhaled insulin Afrezza for 35-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 35, Afrezza adult"}
+{"question": "Insulin pump for me (mom, 38) vs MDI for my kid", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Mom age 38 explicit, own diabetes"}
+{"question": "Hypoglycemia risk with sulfonylureas in 70-year-old", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 70, elderly hypoglycemia"}
+{"question": "Deintensification of T2D therapy in 80-year-old", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 80, elderly deintensification"}
+{"question": "As a diabetic parent, can I breastfeed with T2D meds?", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T2D = adult"}
+{"question": "T2D medication adjustment for 65-year-old renal impairment", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 65, elderly renal"}
+{"question": "Insulin pump start at 35: criteria and outcomes", "category": "adult_diabetes", "subcategory": "t1d_treatment", "annotation_reason": "Explicit age 35, pump start"}
+{"question": "Glycemic variability metrics for 50-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_monitoring", "annotation_reason": "Explicit age 50, glycemic variability"}
+{"question": "HbA1c variability in 55-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_monitoring", "annotation_reason": "Explicit age 55, HbA1c variability"}
+{"question": "T2D diagnosis at 25: early onset concerns", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 25, early onset adult"}
+{"question": "Concentrated insulin U500 for 50-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 50, U500 adult"}
+{"question": "New-onset T1D in 42-year-old: honeymoon phase?", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Explicit age 42, adult T1D"}
+{"question": "OGTT vs HbA1c for T2D diagnosis in elderly", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Elderly explicit, diagnostic comparison"}
+{"question": "My T2D management while caring for T1D child", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T2D = adult"}
+{"question": "Trigger finger in 45-year-old T1D", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 45, trigger finger"}
+{"question": "CGM for T2D not on insulin 45-year-old", "category": "adult_diabetes", "subcategory": "t2d_monitoring", "annotation_reason": "Explicit age 45, CGM adult"}
+{"question": "Erectile dysfunction in 45-year-old male T1D", "category": "adult_diabetes", "subcategory": "t1d_complications", "annotation_reason": "Explicit age 45, adult complication"}
+{"question": "Nephropathy progression in 60-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 60, adult nephropathy"}
+{"question": "Adult T1D and alcohol: safe drinking guide", "category": "adult_diabetes", "subcategory": "t1d_lifestyle", "annotation_reason": "Adult explicit, alcohol"}
+{"question": "CGM accuracy in adults over 50 with T1D", "category": "adult_diabetes", "subcategory": "t1d_monitoring", "annotation_reason": "Explicit age 50+, adult CGM"}
+{"question": "Combination therapy T2D 50-year-old: metformin + SU", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 50, adult combination"}
+{"question": "Mom with T1D: managing pump during labor", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Mom explicit, own T1D = adult"}
+{"question": "Closed-loop systems for adults 30-60 with T1D", "category": "adult_diabetes", "subcategory": "t1d_treatment", "annotation_reason": "Adult age range explicit, AID"}
+{"question": "C-peptide interpretation in 30-year-old new T1D", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Explicit age 30, C-peptide"}
+{"question": "Pregnancy planning for 28-year-old woman with T1D", "category": "adult_diabetes", "subcategory": "t1d_pregnancy", "annotation_reason": "Explicit age 28, adult pregnancy"}
+{"question": "Dad T2D on insulin: teaching kid about diabetes", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Dad explicit, own T2D = adult"}

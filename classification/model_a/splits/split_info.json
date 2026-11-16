@@ -1,0 +1,9 @@
+{
+  "model": "model_a",
+  "dataset": "A",
+  "seed": 42,
+  "train_size": 1120,
+  "val_size": 238,
+  "test_size": 245,
+  "max_length": 256
+}

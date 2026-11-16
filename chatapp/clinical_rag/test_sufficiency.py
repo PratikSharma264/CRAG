@@ -19,17 +19,21 @@ from chatapp.clinical_rag import config
 from chatapp.clinical_rag.sufficiency_checks import (
     ModelCCheck,
     CosineCheck,
+    LLMJudgeCheck,
     CheckResult,
     ModelCCheckpointError,
     ModelCInferenceError,
     ModelCOutputError,
     CosineSimilarityError,
+    LLMJudgeError,
     get_model_c,
 )
 from chatapp.clinical_rag.sufficiency import (
+    PartialSufficiencyResult,
     SufficiencyEngine,
     SufficiencyResult,
     calculate_combined_score,
+    calculate_fallback_score,
     NoChecksConfiguredError,
 )
 
@@ -48,6 +52,16 @@ def reset_singletons():
     yield
     _ModelCSingleton._instance = None
     _ModelCSingleton._initialized = False
+
+
+@pytest.fixture(autouse=True)
+def disable_llm_judge_by_default():
+    """Disable LLM Judge by default for tests that don't explicitly test it."""
+    from chatapp.clinical_rag import config
+    original = config.LLM_JUDGE_ENABLED
+    config.LLM_JUDGE_ENABLED = False
+    yield
+    config.LLM_JUDGE_ENABLED = original
 
 
 @pytest.fixture
@@ -98,50 +112,83 @@ def mock_model_c():
 class TestCombinedScore:
     """Tests for the canonical combined scoring formula."""
 
-    def test_formula_matches_combined_query_py(self):
-        """Verify formula matches combined_query.py exactly."""
-        # From combined_query.py lines 294-297:
-        # classification_contribution = MODEL_C_WEIGHT * classification_scores["sufficient"]
-        # cosine_contribution = COSINE_WEIGHT * clamped_cosine_1
-        # combined_score = round(classification_contribution + cosine_contribution, 4)
-        model_c_prob = 0.92
-        cosine_sim = 0.85
-        expected = round(0.15 * model_c_prob + 0.85 * cosine_sim, 4)
-        actual = calculate_combined_score(model_c_prob, cosine_sim)
+    def test_formula_with_three_components(self):
+        """Verify formula: 0.10 * model_c + 0.45 * cosine + 0.45 * llm_judge"""
+        model_c_prob = 0.90
+        cosine_sim = 0.80
+        llm_judge_score = 1.0
+        expected = round(0.10 * model_c_prob + 0.45 * cosine_sim + 0.45 * llm_judge_score, 4)
+        actual = calculate_combined_score(model_c_prob, cosine_sim, llm_judge_score)
         assert actual == expected
-        assert actual == round(0.15 * 0.92 + 0.85 * 0.85, 4)
+
+    def test_formula_with_zero_llm_judge(self):
+        """Verify formula with LLM judge score of 0."""
+        model_c_prob = 0.90
+        cosine_sim = 0.80
+        llm_judge_score = 0.0
+        expected = round(0.10 * model_c_prob + 0.45 * cosine_sim + 0.45 * llm_judge_score, 4)
+        actual = calculate_combined_score(model_c_prob, cosine_sim, llm_judge_score)
+        assert actual == expected
 
     def test_rounding_behavior(self):
         """Verify rounding to 4 decimal places."""
-        # 0.15 * 0.5 + 0.85 * 0.5 = 0.5 exactly
-        assert calculate_combined_score(0.5, 0.5) == 0.5
+        # 0.10 * 0.5 + 0.45 * 0.5 + 0.45 * 0.5 = 0.5 exactly
+        assert calculate_combined_score(0.5, 0.5, 0.5) == 0.5
 
-        # 0.15 * 0.3333 + 0.85 * 0.6666 = 0.616645 -> 0.6166
-        result = calculate_combined_score(0.3333, 0.6666)
-        assert result == round(0.15 * 0.3333 + 0.85 * 0.6666, 4)
+        # 0.10 * 0.3333 + 0.45 * 0.6666 + 0.45 * 0.7777 = 0.6499 -> 0.6499
+        result = calculate_combined_score(0.3333, 0.6666, 0.7777)
+        assert result == round(0.10 * 0.3333 + 0.45 * 0.6666 + 0.45 * 0.7777, 4)
 
     def test_edge_cases(self):
         """Test boundary values."""
-        assert calculate_combined_score(0.0, 0.0) == 0.0
-        assert calculate_combined_score(1.0, 1.0) == 1.0
-        assert calculate_combined_score(0.0, 1.0) == round(0.85, 4)
-        assert calculate_combined_score(1.0, 0.0) == round(0.15, 4)
+        assert calculate_combined_score(0.0, 0.0, 0.0) == 0.0
+        assert calculate_combined_score(1.0, 1.0, 1.0) == 1.0
+        assert calculate_combined_score(0.0, 1.0, 0.0) == round(0.45, 4)
+        assert calculate_combined_score(1.0, 0.0, 0.0) == round(0.10, 4)
+        assert calculate_combined_score(0.0, 0.0, 1.0) == round(0.45, 4)
 
     def test_weights_are_from_config(self):
         """Verify weights come from config, not hardcoded."""
-        # This test ensures if config changes, formula updates
         original_mc = config.MODEL_C_WEIGHT
         original_cos = config.COSINE_WEIGHT
+        original_llm = config.LLM_JUDGE_WEIGHT
         try:
             config.MODEL_C_WEIGHT = 0.20
-            config.COSINE_WEIGHT = 0.80
-            result = calculate_combined_score(1.0, 0.0)
+            config.COSINE_WEIGHT = 0.30
+            config.LLM_JUDGE_WEIGHT = 0.50
+            result = calculate_combined_score(1.0, 0.0, 0.0)
             assert result == 0.20
-            result = calculate_combined_score(0.0, 1.0)
-            assert result == 0.80
+            result = calculate_combined_score(0.0, 1.0, 0.0)
+            assert result == 0.30
+            result = calculate_combined_score(0.0, 0.0, 1.0)
+            assert result == 0.50
         finally:
             config.MODEL_C_WEIGHT = original_mc
             config.COSINE_WEIGHT = original_cos
+            config.LLM_JUDGE_WEIGHT = original_llm
+
+
+class TestFallbackScore:
+    """Tests for fallback score when LLM judge is unavailable."""
+
+    def test_fallback_renormalizes_weights(self):
+        """Fallback should use renormalized weights: 0.10/0.55 and 0.45/0.55"""
+        model_c_prob = 1.0
+        cosine_sim = 0.0
+        # model_c weight = 0.10/0.55 = 0.1818..., cosine weight = 0.45/0.55 = 0.8181...
+        expected = round((0.10/0.55) * 1.0 + (0.45/0.55) * 0.0, 4)
+        actual = calculate_fallback_score(model_c_prob, cosine_sim)
+        assert actual == expected
+
+    def test_fallback_with_both_scores(self):
+        """Fallback with both model_c and cosine."""
+        model_c_prob = 0.80
+        cosine_sim = 0.60
+        fallback_mc_weight = 0.10 / 0.55
+        fallback_cos_weight = 0.45 / 0.55
+        expected = round(fallback_mc_weight * model_c_prob + fallback_cos_weight * cosine_sim, 4)
+        actual = calculate_fallback_score(model_c_prob, cosine_sim)
+        assert actual == expected
 
 
 # ============================================================
@@ -289,71 +336,85 @@ class TestSufficiencyEngine:
     """Tests for the sufficiency engine."""
 
     def test_sufficient_when_score_above_threshold(self, mock_model_c, sample_hits):
-        """Score >= 0.70 returns sufficient=True."""
+        """Score >= 0.70 returns sufficient=True (with LLM judge disabled -> fallback)."""
+        # With LLM judge disabled: fallback uses renormalized weights
         # model_c=0.92, cosine=0.85
-        # combined = 0.15*0.92 + 0.85*0.85 = 0.138 + 0.7225 = 0.8605
+        # fallback = (0.10/0.55)*0.92 + (0.45/0.55)*0.85 = 0.1673 + 0.6955 = 0.8627
         mock_model_c.predict_proba.return_value = 0.92
         engine = SufficiencyEngine()
-        result = engine.evaluate("test question", sample_hits)
+        partial = engine.evaluate_partial("test question", sample_hits)
+        result = engine.finalize(partial)
         assert result.sufficient is True
-        assert result.combined_score == 0.8605
+        assert result.combined_score == 0.8627
+        assert result.llm_judge_score is None
+        assert result.check_details["judge_status"] == "disabled"
 
     def test_insufficient_when_score_below_threshold(self, mock_model_c, sample_hits):
-        """Score < 0.70 returns sufficient=False."""
+        """Score < 0.70 returns sufficient=False (with LLM judge disabled -> fallback)."""
         # model_c=0.30, cosine=0.50
-        # combined = 0.15*0.30 + 0.85*0.50 = 0.045 + 0.425 = 0.47
+        # fallback = (0.10/0.55)*0.30 + (0.45/0.55)*0.50 = 0.0545 + 0.4091 = 0.4636
         mock_model_c.predict_proba.return_value = 0.30
         sample_hits[0]["similarity"] = 0.50
         engine = SufficiencyEngine()
-        result = engine.evaluate("test question", sample_hits)
+        partial = engine.evaluate_partial("test question", sample_hits)
+        result = engine.finalize(partial)
         assert result.sufficient is False
-        assert result.combined_score == 0.47
+        assert result.combined_score == 0.4636
+        assert result.llm_judge_score is None
 
     def test_exact_threshold_is_sufficient(self, mock_model_c, sample_hits):
-        """Score exactly at threshold (0.70) returns sufficient=True."""
-        # Need: 0.15*mc + 0.85*cos = 0.70
-        # If mc=0.5, cos=0.7: 0.15*0.5 + 0.85*0.7 = 0.075 + 0.595 = 0.67
-        # If mc=1.0, cos=0.647: 0.15*1.0 + 0.85*0.647 = 0.15 + 0.55 = 0.70
+        """Score exactly at threshold (0.70) returns sufficient=True (fallback)."""
+        # Need fallback = 0.70: (0.10/0.55)*mc + (0.45/0.55)*cos = 0.70
+        # If mc=1.0: (0.10/0.55) + (0.45/0.55)*cos = 0.70 -> cos = (0.70 - 0.1818)/0.8182 = 0.6333
         mock_model_c.predict_proba.return_value = 1.0
-        sample_hits[0]["similarity"] = 0.6470588235294118  # (0.70 - 0.15) / 0.85
+        sample_hits[0]["similarity"] = 0.6333333333333333
         engine = SufficiencyEngine()
-        result = engine.evaluate("test question", sample_hits)
+        partial = engine.evaluate_partial("test question", sample_hits)
+        result = engine.finalize(partial)
         assert result.sufficient is True
         assert result.combined_score >= 0.70
 
     def test_combined_score_matches_canonical_formula(self, mock_model_c, sample_hits):
-        """Engine uses calculate_combined_score (single source of truth)."""
+        """Engine uses calculate_fallback_score when LLM judge disabled (single source of truth)."""
         mock_model_c.predict_proba.return_value = 0.88
         sample_hits[0]["similarity"] = 0.78
         engine = SufficiencyEngine()
-        result = engine.evaluate("test question", sample_hits)
-        expected = calculate_combined_score(0.88, 0.78)
+        partial = engine.evaluate_partial("test question", sample_hits)
+        result = engine.finalize(partial)
+        expected = calculate_fallback_score(0.88, 0.78)
         assert result.combined_score == expected
 
     def test_result_contains_all_required_fields(self, mock_model_c, sample_hits):
         """SufficiencyResult has all required fields."""
         mock_model_c.predict_proba.return_value = 0.90
         engine = SufficiencyEngine()
-        result = engine.evaluate("test question", sample_hits)
+        partial = engine.evaluate_partial("test question", sample_hits)
+        result = engine.finalize(partial)
         assert hasattr(result, "sufficient")
         assert hasattr(result, "combined_score")
         assert hasattr(result, "threshold")
         assert hasattr(result, "model_c_probability")
         assert hasattr(result, "cosine_similarity")
+        assert hasattr(result, "llm_judge_score")
         assert hasattr(result, "check_details")
 
     def test_check_details_contains_component_info(self, mock_model_c, sample_hits):
         """check_details has weights, contributions, and component details."""
         mock_model_c.predict_proba.return_value = 0.90
         engine = SufficiencyEngine()
-        result = engine.evaluate("test question", sample_hits)
+        partial = engine.evaluate_partial("test question", sample_hits)
+        result = engine.finalize(partial)
         details = result.check_details
         assert "model_c" in details
         assert "cosine" in details
+        assert "llm_judge" in details
         assert "weights" in details
         assert "contributions" in details
-        assert details["weights"]["model_c"] == 0.15
-        assert details["weights"]["cosine"] == 0.85
+        assert "judge_status" in details
+        # With LLM judge disabled, weights are renormalized
+        assert abs(details["weights"]["model_c"] - (0.10/0.55)) < 1e-9
+        assert abs(details["weights"]["cosine"] - (0.45/0.55)) < 1e-9
+        assert details["weights"]["llm_judge"] == 0.0
 
     def test_disabled_gate_allows_generation(self, mock_model_c, sample_hits):
         """SUFFICIENCY_ENABLED=False returns sufficient with neutral scores."""
@@ -361,11 +422,13 @@ class TestSufficiencyEngine:
         config.SUFFICIENCY_ENABLED = False
         try:
             engine = SufficiencyEngine()
-            result = engine.evaluate("test question", sample_hits)
+            partial = engine.evaluate_partial("test question", sample_hits)
+            result = engine.finalize(partial)
             assert result.sufficient is True
             assert result.combined_score == 1.0
             assert result.model_c_probability == 1.0
             assert result.cosine_similarity == 1.0
+            assert result.llm_judge_score == 1.0
             assert result.check_details.get("disabled") is True
         finally:
             config.SUFFICIENCY_ENABLED = original
@@ -375,32 +438,143 @@ class TestSufficiencyEngine:
         mock_model_c.predict_proba.side_effect = ModelCInferenceError("Model failed")
         engine = SufficiencyEngine()
         with pytest.raises(ModelCInferenceError):
-            engine.evaluate("test question", sample_hits)
+            engine.evaluate_partial("test question", sample_hits)
 
     def test_cosine_failure_propagates(self, mock_model_c, sample_hits):
         """Cosine failure raises error (fail-closed)."""
         sample_hits[0]["similarity"] = None  # Will cause CosineSimilarityError
         engine = SufficiencyEngine()
         with pytest.raises(CosineSimilarityError):
-            engine.evaluate("test question", sample_hits)
+            engine.evaluate_partial("test question", sample_hits)
 
     def test_no_checks_configured_raises(self):
         """Engine with no checks raises NoChecksConfiguredError."""
         engine = SufficiencyEngine()
-        engine._checks = []
+        # Replace checks with empty list (avoids Model C torch loading)
+        engine._model_c_check = None
+        engine._cosine_check = None
+        engine._llm_judge_check = None
         with pytest.raises(NoChecksConfiguredError):
-            engine.evaluate("question", [{"content": "test", "similarity": 0.8}])
+            engine.evaluate_partial("question", [{"content": "test", "similarity": 0.8}])
 
     def test_model_loading_reused_not_repeated(self, mock_model_c, sample_hits):
         """Model C singleton is reused across evaluations."""
         mock_model_c.predict_proba.return_value = 0.90
         engine = SufficiencyEngine()
         # First evaluation
-        result1 = engine.evaluate("question 1", sample_hits)
+        partial1 = engine.evaluate_partial("question 1", sample_hits)
+        result1 = engine.finalize(partial1)
         # Second evaluation
-        result2 = engine.evaluate("question 2", sample_hits)
+        partial2 = engine.evaluate_partial("question 2", sample_hits)
+        result2 = engine.finalize(partial2)
         # predict_proba should be called twice but _load_model only once
         assert mock_model_c.predict_proba.call_count == 2
+
+
+class TestSufficiencyEngineWithLLMJudge:
+    """Tests for the sufficiency engine with LLM judge enabled (mocked)."""
+
+    @pytest.fixture
+    def engine_with_mocked_judge(self, mock_model_c, sample_hits):
+        """Create engine with mocked LLM judge."""
+        # Enable LLM judge for this test class
+        from chatapp.clinical_rag import config
+        config.LLM_JUDGE_ENABLED = True
+        engine = SufficiencyEngine()
+        # Replace LLM judge with mock
+        mock_judge = MagicMock()
+        mock_judge.evaluate = MagicMock(return_value=CheckResult(
+            name="llm_judge",
+            score=1.0,
+            details={"label": 1, "reason": "test", "status": "done", "model": "gemini-3.5-flash"}
+        ))
+        engine._llm_judge_check = mock_judge
+        yield engine
+        config.LLM_JUDGE_ENABLED = False
+
+    def test_llm_judge_score_included_when_done(self, engine_with_mocked_judge, mock_model_c, sample_hits):
+        """LLM judge score included in combined score when successful."""
+        mock_model_c.predict_proba.return_value = 0.90
+        sample_hits[0]["similarity"] = 0.80
+        engine = engine_with_mocked_judge
+        partial = engine.evaluate_partial("test question", sample_hits)
+        result = engine.finalize(partial)
+        assert result.llm_judge_score == 1.0
+        assert result.check_details["judge_status"] == "done"
+        # combined = 0.10*0.90 + 0.45*0.80 + 0.45*1.0 = 0.09 + 0.36 + 0.45 = 0.90
+        assert result.combined_score == 0.90
+
+    def test_llm_judge_timeout_falls_back(self, mock_model_c, sample_hits):
+        """LLM judge timeout falls back to renormalized Model C + Cosine."""
+        from chatapp.clinical_rag import config
+        config.LLM_JUDGE_ENABLED = True
+        try:
+            mock_model_c.predict_proba.return_value = 0.90
+            sample_hits[0]["similarity"] = 0.80
+
+            engine = SufficiencyEngine()
+            # Mock LLM judge to timeout
+            mock_judge = MagicMock()
+            import concurrent.futures
+            mock_judge.evaluate = MagicMock(side_effect=concurrent.futures.TimeoutError())
+            engine._llm_judge_check = mock_judge
+
+            partial = engine.evaluate_partial("test question", sample_hits)
+            result = engine.finalize(partial)
+
+            assert result.llm_judge_score is None
+            assert result.check_details["judge_status"] == "timeout"
+            # Fallback: model_c=0.90, cosine=0.80
+            # renorm weights: model_c=0.10/0.55=0.1818..., cosine=0.45/0.55=0.8181...
+            # fallback = 0.1818*0.90 + 0.8181*0.80 = 0.1636 + 0.6545 = 0.8181
+            expected_fallback = calculate_fallback_score(0.90, 0.80)
+            assert result.combined_score == expected_fallback
+            assert result.sufficient is True  # 0.8181 > 0.70
+        finally:
+            config.LLM_JUDGE_ENABLED = False
+
+    def test_llm_judge_error_falls_back(self, mock_model_c, sample_hits):
+        """LLM judge error falls back to renormalized Model C + Cosine."""
+        from chatapp.clinical_rag import config
+        config.LLM_JUDGE_ENABLED = True
+        try:
+            mock_model_c.predict_proba.return_value = 0.90
+            sample_hits[0]["similarity"] = 0.80
+
+            engine = SufficiencyEngine()
+            mock_judge = MagicMock()
+            mock_judge.evaluate = MagicMock(side_effect=LLMJudgeError("API error"))
+            engine._llm_judge_check = mock_judge
+
+            partial = engine.evaluate_partial("test question", sample_hits)
+            result = engine.finalize(partial)
+
+            assert result.llm_judge_score is None
+            assert result.check_details["judge_status"] == "error"
+            expected_fallback = calculate_fallback_score(0.90, 0.80)
+            assert result.combined_score == expected_fallback
+        finally:
+            config.LLM_JUDGE_ENABLED = False
+
+    def test_llm_judge_insufficient_score(self, engine_with_mocked_judge, mock_model_c, sample_hits):
+        """LLM judge returning 0 (insufficient) lowers combined score."""
+        mock_model_c.predict_proba.return_value = 0.90
+        sample_hits[0]["similarity"] = 0.80
+
+        engine = engine_with_mocked_judge
+        engine._llm_judge_check.evaluate.return_value = CheckResult(
+            name="llm_judge",
+            score=0.0,
+            details={"label": 0, "reason": "insufficient", "status": "done", "model": "gemini-3.5-flash"}
+        )
+
+        partial = engine.evaluate_partial("test question", sample_hits)
+        result = engine.finalize(partial)
+
+        assert result.llm_judge_score == 0.0
+        # combined = 0.10*0.90 + 0.45*0.80 + 0.45*0.0 = 0.09 + 0.36 + 0 = 0.45
+        assert result.combined_score == 0.45
+        assert result.sufficient is False
 
 
 # ============================================================

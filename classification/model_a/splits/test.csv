@@ -1,0 +1,981 @@
+question,answer,sufficiency_label,source_file,text,dataset_origin
+What performance effects are associated with carbohydrate supplementation during intermittent sports?,Performance outcomes of consuming carbohydrates during intermittent high-intensity team sports lasting roughly 1 to 2 hours.,1,Acute effects of carbohydrate supplementation on intermittent sports performance.txt,"Question: What performance effects are associated with carbohydrate supplementation during intermittent sports?
+
+Evidence:
+Performance outcomes of consuming carbohydrates during intermittent high-intensity team sports lasting roughly 1 to 2 hours.",A
+What are the age-specific estimates and confidence intervals for performance effects are associated with carbohydrate supplementation during intermittent sports?,Carbohydrate intake during prolonged intermittent exertion to preserve plasma glucose oxidation central nervous system function providing guidelines that favor consuming 30 to 60 grams of carbohydrate per hour—or utilizing carbohydrate mouth rinsing for shorter high-intensity sessions—to optimize overall athletic performance.,0,Acute effects of carbohydrate supplementation on intermittent sports performance.txt,"Question: What are the age-specific estimates and confidence intervals for performance effects are associated with carbohydrate supplementation during intermittent sports?
+
+Evidence:
+Carbohydrate intake during prolonged intermittent exertion to preserve plasma glucose oxidation central nervous system function providing guidelines that favor consuming 30 to 60 grams of carbohydrate per hour—or utilizing carbohydrate mouth rinsing for shorter high-intensity sessions—to optimize overall athletic performance.",A
+What were the p-value and 95% confidence interval for the primary outcome related to performance effects are associated with carbohydrate supplementation during intermittent sports?,Drawing on energy system demands that rely heavily on muscle glycogen blood glucose.,0,Acute effects of carbohydrate supplementation on intermittent sports performance.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to performance effects are associated with carbohydrate supplementation during intermittent sports?
+
+Evidence:
+Drawing on energy system demands that rely heavily on muscle glycogen blood glucose.",A
+How does carbohydrate intake affect high-intensity running performance during team sports?,Carbohydrate ingestion generally enhances high-intensity running capacity delays fatigue and helps maintain sport-specific technical skills towards the end of prolonged play.,1,Acute effects of carbohydrate supplementation on intermittent sports performance.txt,"Question: How does carbohydrate intake affect high-intensity running performance during team sports?
+
+Evidence:
+Carbohydrate ingestion generally enhances high-intensity running capacity delays fatigue and helps maintain sport-specific technical skills towards the end of prolonged play.",A
+What is known about does carbohydrate intake affect high-intensity running performance during team sports in children and adolescents?,Helps maintain sport-specific technical skills towards the end of prolonged play; providing guidelines that favor consuming 30 to 60 grams of carbohydrate per hour—or utilizing carbohydrate mouth rinsing for shorter high-intensity sessions—to optimize overall athletic performance.,0,Acute effects of carbohydrate supplementation on intermittent sports performance.txt,"Question: What is known about does carbohydrate intake affect high-intensity running performance during team sports in children and adolescents?
+
+Evidence:
+Helps maintain sport-specific technical skills towards the end of prolonged play; providing guidelines that favor consuming 30 to 60 grams of carbohydrate per hour—or utilizing carbohydrate mouth rinsing for shorter high-intensity sessions—to optimize overall athletic performance.",A
+What biological mechanisms contribute to does carbohydrate intake affect high-intensity running performance during team sports?,Blood glucose carbohydrate ingestion generally enhances high-intensity running capacity delays fatigue; providing guidelines that favor consuming 30 to 60 grams of carbohydrate per hour—or utilizing carbohydrate mouth rinsing for shorter high-intensity sessions—to optimize overall athletic performance.,0,Acute effects of carbohydrate supplementation on intermittent sports performance.txt,"Question: What biological mechanisms contribute to does carbohydrate intake affect high-intensity running performance during team sports?
+
+Evidence:
+Blood glucose carbohydrate ingestion generally enhances high-intensity running capacity delays fatigue; providing guidelines that favor consuming 30 to 60 grams of carbohydrate per hour—or utilizing carbohydrate mouth rinsing for shorter high-intensity sessions—to optimize overall athletic performance.",A
+"Do treatment outcomes for does carbohydrate intake affect high-intensity running performance during team sports differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",Carbohydrate ingestion generally enhances high-intensity running capacity.,0,Acute effects of carbohydrate supplementation on intermittent sports performance.txt,"Question: Do treatment outcomes for does carbohydrate intake affect high-intensity running performance during team sports differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+Carbohydrate ingestion generally enhances high-intensity running capacity.",A
+How is HbA1c associated with health outcomes?,16% of recurrent patients experienced fragmented care across multiple hospitals which was significantly associated with higher recurrence rates increased mean HbA1c levels.,1,"An Evaluation of Recurrent Diabetic Ketoacidosis, Fragmentation of Care, and Mortality Across Chicago, Illinois.txt","Question: How is HbA1c associated with health outcomes?
+
+Evidence:
+16% of recurrent patients experienced fragmented care across multiple hospitals which was significantly associated with higher recurrence rates increased mean HbA1c levels.",A
+What are the age-specific estimates and confidence intervals for HbA1c and health outcomes?,With mortality significantly associated with increasing age a higher number of DKA encounters though care fragmentation itself was not an independent factor in mortality.,0,"An Evaluation of Recurrent Diabetic Ketoacidosis, Fragmentation of Care, and Mortality Across Chicago, Illinois.txt","Question: What are the age-specific estimates and confidence intervals for HbA1c and health outcomes?
+
+Evidence:
+With mortality significantly associated with increasing age a higher number of DKA encounters though care fragmentation itself was not an independent factor in mortality.",A
+What were the p-value and 95% confidence interval for the primary outcome related to HbA1c and health outcomes?,Healthcare fragmentation and all-cause mortality using a deidentified EHR dataset from six Chicago-area institutions covering 3 615 patients with DKA between 2006.,0,"An Evaluation of Recurrent Diabetic Ketoacidosis, Fragmentation of Care, and Mortality Across Chicago, Illinois.txt","Question: What were the p-value and 95% confidence interval for the primary outcome related to HbA1c and health outcomes?
+
+Evidence:
+Healthcare fragmentation and all-cause mortality using a deidentified EHR dataset from six Chicago-area institutions covering 3 615 patients with DKA between 2006.",A
+How is diabetic ketoacidosis associated with health outcomes?,"21.6% of patients experienced recurrent DKA, with those having four or more episodes accounting for 26.3% of total encounters, and 16% of recurrent patients experienced fragmented care across multiple hospitals, which was significantly associated with higher recurrence rates and increased mean HbA1c levels.",1,"An Evaluation of Recurrent Diabetic Ketoacidosis, Fragmentation of Care, and Mortality Across Chicago, Illinois.txt","Question: How is diabetic ketoacidosis associated with health outcomes?
+
+Evidence:
+21.6% of patients experienced recurrent DKA, with those having four or more episodes accounting for 26.3% of total encounters, and 16% of recurrent patients experienced fragmented care across multiple hospitals, which was significantly associated with higher recurrence rates and increased mean HbA1c levels.",A
+What is known about diabetic ketoacidosis and health outcomes in children and adolescents?,Potentially avoidable challenge heavily linked to healthcare fragmentation mortality and they recommend that future public health efforts.,0,"An Evaluation of Recurrent Diabetic Ketoacidosis, Fragmentation of Care, and Mortality Across Chicago, Illinois.txt","Question: What is known about diabetic ketoacidosis and health outcomes in children and adolescents?
+
+Evidence:
+Potentially avoidable challenge heavily linked to healthcare fragmentation mortality and they recommend that future public health efforts.",A
+What biological mechanisms contribute to diabetic ketoacidosis and health outcomes?,Mortality and they recommend that future public health efforts research focus on early identification.,0,"An Evaluation of Recurrent Diabetic Ketoacidosis, Fragmentation of Care, and Mortality Across Chicago, Illinois.txt","Question: What biological mechanisms contribute to diabetic ketoacidosis and health outcomes?
+
+Evidence:
+Mortality and they recommend that future public health efforts research focus on early identification.",A
+"Do treatment outcomes for diabetic ketoacidosis and health outcomes differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",Mortality and they recommend that future public health efforts.,0,"An Evaluation of Recurrent Diabetic Ketoacidosis, Fragmentation of Care, and Mortality Across Chicago, Illinois.txt","Question: Do treatment outcomes for diabetic ketoacidosis and health outcomes differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+Mortality and they recommend that future public health efforts.",A
+Which serious adverse events or safety concerns can occur in children?,Training non-medical school personnel is an effective strategy to maximize student safety provide parental peace of mind when a full-time school nurse is unavailable.,1,Are children with type 1 diabetes safe at school Examining parent perceptions.txt,"Question: Which serious adverse events or safety concerns can occur in children?
+
+Evidence:
+Training non-medical school personnel is an effective strategy to maximize student safety provide parental peace of mind when a full-time school nurse is unavailable.",A
+"How common are serious adverse events or safety concerns in children, and how do rates vary by age group with 95% confidence intervals?","During regular hours, care is primarily delivered by school nurses and the students themselves, while parents and students handle the majority of care during extracurricular activities, with over a third of parents reporting that they are required to attend outside-of-school events to manage their child's diabetes.",0,Are children with type 1 diabetes safe at school Examining parent perceptions.txt,"Question: How common are serious adverse events or safety concerns in children, and how do rates vary by age group with 95% confidence intervals?
+
+Evidence:
+During regular hours, care is primarily delivered by school nurses and the students themselves, while parents and students handle the majority of care during extracurricular activities, with over a third of parents reporting that they are required to attend outside-of-school events to manage their child's diabetes.",A
+What were the p-value and 95% confidence interval for the primary outcome related to serious adverse events or safety concerns in children?,Parents in permissive states perceive their children to be just as safe during both the regular school day and extracurricular activities as parents in non-permissive states.,0,Are children with type 1 diabetes safe at school Examining parent perceptions.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to serious adverse events or safety concerns in children?
+
+Evidence:
+Parents in permissive states perceive their children to be just as safe during both the regular school day and extracurricular activities as parents in non-permissive states.",A
+What care or management is recommended for diabetes care in children?,The diabetes care their children with Type 1 Diabetes Mellitus receive at school.,1,Are children with type 1 diabetes safe at school Examining parent perceptions.txt,"Question: What care or management is recommended for diabetes care in children?
+
+Evidence:
+The diabetes care their children with Type 1 Diabetes Mellitus receive at school.",A
+What is known about management of diabetes care in adults?,"Furthermore, parental satisfaction regarding overall diabetes care and specific responses to hypo- or hyperglycemia shows no statistically significant differences across state types.",0,Are children with type 1 diabetes safe at school Examining parent perceptions.txt,"Question: What is known about management of diabetes care in adults?
+
+Evidence:
+Furthermore, parental satisfaction regarding overall diabetes care and specific responses to hypo- or hyperglycemia shows no statistically significant differences across state types.",A
+What biological mechanisms contribute to management of diabetes care?,"Most parents specifically recommend that teachers, coaches, and gym teachers receive diabetes care training alongside nurses to ensure comprehensive support.",0,Are children with type 1 diabetes safe at school Examining parent perceptions.txt,"Question: What biological mechanisms contribute to management of diabetes care?
+
+Evidence:
+Most parents specifically recommend that teachers, coaches, and gym teachers receive diabetes care training alongside nurses to ensure comprehensive support.",A
+"Do treatment outcomes for management of diabetes care differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",Where only licensed healthcare professionals can provide such care.,0,Are children with type 1 diabetes safe at school Examining parent perceptions.txt,"Question: Do treatment outcomes for management of diabetes care differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+Where only licensed healthcare professionals can provide such care.",A
+What major safety problems are possible in adolescents?,"Early evidence of safety and efficacy exists for gastric bypass and laparoscopic adjustable gastric banding, current evidence remains insufficient to definitively determine which specific WLS procedures are optimal for adolescents; however, mature adolescent WLS can reduce the risk of early mortality and morbidity from obesity-related diseases.",1,Best Practice Updates for PediatricAdolescent Weight Loss Surgery.txt,"Question: What major safety problems are possible in adolescents?
+
+Evidence:
+Early evidence of safety and efficacy exists for gastric bypass and laparoscopic adjustable gastric banding, current evidence remains insufficient to definitively determine which specific WLS procedures are optimal for adolescents; however, mature adolescent WLS can reduce the risk of early mortality and morbidity from obesity-related diseases.",A
+What is the frequency of serious adverse events or safety concerns in adolescents in each age group?,"Furthermore, key guidelines emphasized for ensuring patient safety include establishing carefully designed patient selection criteria, conducting multidisciplinary evaluations, choosing appropriate procedures, performing thorough screening and management of comorbidities, optimizing long-term compliance, and obtaining age-appropriate, fully informed consent.",0,Best Practice Updates for PediatricAdolescent Weight Loss Surgery.txt,"Question: What is the frequency of serious adverse events or safety concerns in adolescents in each age group?
+
+Evidence:
+Furthermore, key guidelines emphasized for ensuring patient safety include establishing carefully designed patient selection criteria, conducting multidisciplinary evaluations, choosing appropriate procedures, performing thorough screening and management of comorbidities, optimizing long-term compliance, and obtaining age-appropriate, fully informed consent.",A
+What statistical significance and confidence interval accompany the primary outcome for serious adverse events or safety concerns in adolescents?,Or moderate-to-severe obstructive sleep apnea) as well as considering WLS for adolescents with extreme obesity (BMI ≥ 40) other comorbidities associated with long-term risks.,0,Best Practice Updates for PediatricAdolescent Weight Loss Surgery.txt,"Question: What statistical significance and confidence interval accompany the primary outcome for serious adverse events or safety concerns in adolescents?
+
+Evidence:
+Or moderate-to-severe obstructive sleep apnea) as well as considering WLS for adolescents with extreme obesity (BMI ≥ 40) other comorbidities associated with long-term risks.",A
+How is type 2 diabetes associated with health outcomes in adolescents?,Modifying patient selection criteria to include adolescents with a BMI ≥ 35 who have specific obesity-related comorbidities clear evidence of short-term morbidity (such as type 2 diabetes.,1,Best Practice Updates for PediatricAdolescent Weight Loss Surgery.txt,"Question: How is type 2 diabetes associated with health outcomes in adolescents?
+
+Evidence:
+Modifying patient selection criteria to include adolescents with a BMI ≥ 35 who have specific obesity-related comorbidities clear evidence of short-term morbidity (such as type 2 diabetes.",A
+What is known about type 2 diabetes and health outcomes in adults?,Clear evidence of short-term morbidity (such as type 2 diabetes severe steatohepatitis pseudotumor cerebri.,0,Best Practice Updates for PediatricAdolescent Weight Loss Surgery.txt,"Question: What is known about type 2 diabetes and health outcomes in adults?
+
+Evidence:
+Clear evidence of short-term morbidity (such as type 2 diabetes severe steatohepatitis pseudotumor cerebri.",A
+What biological mechanisms contribute to type 2 diabetes and health outcomes?,Adolescent weight loss surgery (WLS) based on a systematic search of English-language literature published between April 2004 May 2007 in PubMed MEDLINE.,0,Best Practice Updates for PediatricAdolescent Weight Loss Surgery.txt,"Question: What biological mechanisms contribute to type 2 diabetes and health outcomes?
+
+Evidence:
+Adolescent weight loss surgery (WLS) based on a systematic search of English-language literature published between April 2004 May 2007 in PubMed MEDLINE.",A
+"Do treatment outcomes for type 2 diabetes and health outcomes differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",Severe steatohepatitis pseudotumor cerebri or moderate-to-severe obstructive sleep apnea).,0,Best Practice Updates for PediatricAdolescent Weight Loss Surgery.txt,"Question: Do treatment outcomes for type 2 diabetes and health outcomes differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+Severe steatohepatitis pseudotumor cerebri or moderate-to-severe obstructive sleep apnea).",A
+Which factors are linked to cardiovascular disease in children?,Congenital heart disease chronic inflammatory disease and childhood cancer—to establish targeted cardiovascular risk-reduction strategies.,1,Cardiovascular Risk Reduction in High-Risk Pediatric Patients A Scientific Statement From the American Heart Association Expert Panel on Population and Prevention Science; the Councils on Cardiovascular Disease in the Young.txt,"Question: Which factors are linked to cardiovascular disease in children?
+
+Evidence:
+Congenital heart disease chronic inflammatory disease and childhood cancer—to establish targeted cardiovascular risk-reduction strategies.",A
+What are the age-specific estimates and confidence intervals for factors are linked to cardiovascular disease in children?,"The guidelines mandate comprehensive risk factor screening (evaluating fasting lipids, blood pressure, body mass index, fasting glucose, smoking history, and physical activity) for all high-risk patients, establish universal initial management through therapeutic lifestyle changes focusing on diet and physical activity, treat Tier I conditions as coronary heart disease equivalents requiring immediate disease-specific management, and set tier-specific clinical target cutoffs with guidelines for initiating pharmacologic drug therapy when lifestyle goals are not met.",0,Cardiovascular Risk Reduction in High-Risk Pediatric Patients A Scientific Statement From the American Heart Association Expert Panel on Population and Prevention Science; the Councils on Cardiovascular Disease in the Young.txt,"Question: What are the age-specific estimates and confidence intervals for factors are linked to cardiovascular disease in children?
+
+Evidence:
+The guidelines mandate comprehensive risk factor screening (evaluating fasting lipids, blood pressure, body mass index, fasting glucose, smoking history, and physical activity) for all high-risk patients, establish universal initial management through therapeutic lifestyle changes focusing on diet and physical activity, treat Tier I conditions as coronary heart disease equivalents requiring immediate disease-specific management, and set tier-specific clinical target cutoffs with guidelines for initiating pharmacologic drug therapy when lifestyle goals are not met.",A
+What were the p-value and 95% confidence interval for the primary outcome related to factors are linked to cardiovascular disease in children?,The “Cardiovascular Risk Reduction in High-Risk Pediatric Patients A Scientific Statement From the American Heart Association Expert Panel on Population Prevention Science the Councils on Cardiovascular Disease in the Young.,0,Cardiovascular Risk Reduction in High-Risk Pediatric Patients A Scientific Statement From the American Heart Association Expert Panel on Population and Prevention Science; the Councils on Cardiovascular Disease in the Young.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to factors are linked to cardiovascular disease in children?
+
+Evidence:
+The “Cardiovascular Risk Reduction in High-Risk Pediatric Patients A Scientific Statement From the American Heart Association Expert Panel on Population Prevention Science the Councils on Cardiovascular Disease in the Young.",A
+What clinical significance does factors are linked to cardiovascular disease have?,Cardiovascular Nursing and the Kidney in Heart Disease and the Interdisciplinary Working Group on Quality of Care.,1,Cardiovascular Risk Reduction in High-Risk Pediatric Patients A Scientific Statement From the American Heart Association Expert Panel on Population and Prevention Science; the Councils on Cardiovascular Disease in the Young.txt,"Question: What clinical significance does factors are linked to cardiovascular disease have?
+
+Evidence:
+Cardiovascular Nursing and the Kidney in Heart Disease and the Interdisciplinary Working Group on Quality of Care.",A
+What is understood about management of cardiovascular disease in adults?,High Blood Pressure Research Cardiovascular Nursing and the Kidney in Heart Disease.,0,Cardiovascular Risk Reduction in High-Risk Pediatric Patients A Scientific Statement From the American Heart Association Expert Panel on Population and Prevention Science; the Councils on Cardiovascular Disease in the Young.txt,"Question: What is understood about management of cardiovascular disease in adults?
+
+Evidence:
+High Blood Pressure Research Cardiovascular Nursing and the Kidney in Heart Disease.",A
+What mechanisms may contribute to management of cardiovascular disease?,Accelerated atherosclerosis across eight high-risk pediatric conditions—including familial hypercholesterolemia diabetes mellitus chronic kidney disease.,0,Cardiovascular Risk Reduction in High-Risk Pediatric Patients A Scientific Statement From the American Heart Association Expert Panel on Population and Prevention Science; the Councils on Cardiovascular Disease in the Young.txt,"Question: What mechanisms may contribute to management of cardiovascular disease?
+
+Evidence:
+Accelerated atherosclerosis across eight high-risk pediatric conditions—including familial hypercholesterolemia diabetes mellitus chronic kidney disease.",A
+Are treatment responses for management of cardiovascular disease different by sex or ethnicity?,Tier II Moderate Risk and Tier III At Risk) based on the primary diagnosis the presence of two or more additional cardiovascular comorbidities.,0,Cardiovascular Risk Reduction in High-Risk Pediatric Patients A Scientific Statement From the American Heart Association Expert Panel on Population and Prevention Science; the Councils on Cardiovascular Disease in the Young.txt,"Question: Are treatment responses for management of cardiovascular disease different by sex or ethnicity?
+
+Evidence:
+Tier II Moderate Risk and Tier III At Risk) based on the primary diagnosis the presence of two or more additional cardiovascular comorbidities.",A
+Which outcomes are considered when supporting young adults with type 1 diabetes through transition to adult care?,Glycemic control satisfaction with care and diabetes-related distress among young adults aged 17 to 20 with type 1 diabetes.,1,Closing the Gap Results of the Multicenter Canadian Randomized Controlled Trial of Structured Transition in Young Adults With Type 1 Diabetes.txt,"Question: Which outcomes are considered when supporting young adults with type 1 diabetes through transition to adult care?
+
+Evidence:
+Glycemic control satisfaction with care and diabetes-related distress among young adults aged 17 to 20 with type 1 diabetes.",A
+What are the age-specific estimates and confidence intervals for outcomes are considered when supporting young adults with type 1 diabetes through transition to adult care?,Decreased diabetes-related distress compared to those receiving standard care alongside a trend toward lower HbA1c levels though these benefits were not sustained 12 months after the intervention ended.,0,Closing the Gap Results of the Multicenter Canadian Randomized Controlled Trial of Structured Transition in Young Adults With Type 1 Diabetes.txt,"Question: What are the age-specific estimates and confidence intervals for outcomes are considered when supporting young adults with type 1 diabetes through transition to adult care?
+
+Evidence:
+Decreased diabetes-related distress compared to those receiving standard care alongside a trend toward lower HbA1c levels though these benefits were not sustained 12 months after the intervention ended.",A
+What were the p-value and 95% confidence interval for the primary outcome related to outcomes are considered when supporting young adults with type 1 diabetes through transition to adult care?,A transition coordinator on clinic attendance glycemic control satisfaction with care.,0,Closing the Gap Results of the Multicenter Canadian Randomized Controlled Trial of Structured Transition in Young Adults With Type 1 Diabetes.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to outcomes are considered when supporting young adults with type 1 diabetes through transition to adult care?
+
+Evidence:
+A transition coordinator on clinic attendance glycemic control satisfaction with care.",A
+What is known about diabetes in young adults?,Participants in the transition program had improved clinic attendance greater satisfaction with care and decreased diabetes-related distress compared to those receiving standard care.,1,Closing the Gap Results of the Multicenter Canadian Randomized Controlled Trial of Structured Transition in Young Adults With Type 1 Diabetes.txt,"Question: What is known about diabetes in young adults?
+
+Evidence:
+Participants in the transition program had improved clinic attendance greater satisfaction with care and decreased diabetes-related distress compared to those receiving standard care.",A
+What is understood about diabetes in adults?,During the intervention period participants in the transition program had improved clinic attendance.,0,Closing the Gap Results of the Multicenter Canadian Randomized Controlled Trial of Structured Transition in Young Adults With Type 1 Diabetes.txt,"Question: What is understood about diabetes in adults?
+
+Evidence:
+During the intervention period participants in the transition program had improved clinic attendance.",A
+What mechanisms may contribute to diabetes?,A transition coordinator on clinic attendance; alongside a trend toward lower HbA1c levels.,0,Closing the Gap Results of the Multicenter Canadian Randomized Controlled Trial of Structured Transition in Young Adults With Type 1 Diabetes.txt,"Question: What mechanisms may contribute to diabetes?
+
+Evidence:
+A transition coordinator on clinic attendance; alongside a trend toward lower HbA1c levels.",A
+Are treatment responses for diabetes different by sex or ethnicity?,A transition coordinator on clinic attendance; these benefits were not sustained 12 months after the intervention ended.,0,Closing the Gap Results of the Multicenter Canadian Randomized Controlled Trial of Structured Transition in Young Adults With Type 1 Diabetes.txt,"Question: Are treatment responses for diabetes different by sex or ethnicity?
+
+Evidence:
+A transition coordinator on clinic attendance; these benefits were not sustained 12 months after the intervention ended.",A
+How is disordered eating behaviors screened for or diagnosed in youth?,"Approximately half of the youth study participants had elevated scores on the Diabetes Eating Problem Survey–Revised, showing a higher likelihood of engaging in DEBs compared to youth with type 1 diabetes, with key risk factors including obesity, body weight/shape concerns, and caregiver subclinical binge eating.",1,Disordered Eating Behaviors and Eating Disorders in Youth With Type 2 Diabetes.txt,"Question: How is disordered eating behaviors screened for or diagnosed in youth?
+
+Evidence:
+Approximately half of the youth study participants had elevated scores on the Diabetes Eating Problem Survey–Revised, showing a higher likelihood of engaging in DEBs compared to youth with type 1 diabetes, with key risk factors including obesity, body weight/shape concerns, and caregiver subclinical binge eating.",A
+What age-specific estimates and confidence intervals are available for disordered eating behaviors in youth?,Approximately half of the youth study participants had elevated scores on the Diabetes Eating Problem Survey–Revised showing a higher likelihood of engaging in DEBs compared to youth with type 1 diabetes.,0,Disordered Eating Behaviors and Eating Disorders in Youth With Type 2 Diabetes.txt,"Question: What age-specific estimates and confidence intervals are available for disordered eating behaviors in youth?
+
+Evidence:
+Approximately half of the youth study participants had elevated scores on the Diabetes Eating Problem Survey–Revised showing a higher likelihood of engaging in DEBs compared to youth with type 1 diabetes.",A
+What were the p-value and 95% confidence interval for the primary outcome related to is disordered eating behaviors screened for or diagnosed in youth?,Obesity body weight/shape concerns and caregiver subclinical binge eating.,0,Disordered Eating Behaviors and Eating Disorders in Youth With Type 2 Diabetes.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to is disordered eating behaviors screened for or diagnosed in youth?
+
+Evidence:
+Obesity body weight/shape concerns and caregiver subclinical binge eating.",A
+Which factors are linked to type 1 diabetes in youth?,Showing a higher likelihood of engaging in DEBs compared to youth with type 1 diabetes with key risk factors obesity.,1,Disordered Eating Behaviors and Eating Disorders in Youth With Type 2 Diabetes.txt,"Question: Which factors are linked to type 1 diabetes in youth?
+
+Evidence:
+Showing a higher likelihood of engaging in DEBs compared to youth with type 1 diabetes with key risk factors obesity.",A
+What is known about factors are linked to type 1 diabetes in adults?,Protective factors and reviewing existing screening tools interventions utilized for this population.,0,Disordered Eating Behaviors and Eating Disorders in Youth With Type 2 Diabetes.txt,"Question: What is known about factors are linked to type 1 diabetes in adults?
+
+Evidence:
+Protective factors and reviewing existing screening tools interventions utilized for this population.",A
+What biological mechanisms contribute to factors are linked to type 1 diabetes?,Analyzing potential risk protective factors and reviewing existing screening tools.,0,Disordered Eating Behaviors and Eating Disorders in Youth With Type 2 Diabetes.txt,"Question: What biological mechanisms contribute to factors are linked to type 1 diabetes?
+
+Evidence:
+Analyzing potential risk protective factors and reviewing existing screening tools.",A
+"Do treatment outcomes for factors are linked to type 1 diabetes differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",With key risk factors obesity body weight/shape concerns.,0,Disordered Eating Behaviors and Eating Disorders in Youth With Type 2 Diabetes.txt,"Question: Do treatment outcomes for factors are linked to type 1 diabetes differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+With key risk factors obesity body weight/shape concerns.",A
+What is known about growth?,"Lower early family income-to-needs ratios, higher psychosocial adversity, and early-onset psychiatric diagnoses significantly predicted membership in the high, increasing physical health problem trajectory, with preschool psychiatric disorders partially mediating the link between both types of adversity and worsening physical health outcomes.",1,"Early adversity, psychopathology, and latent class profiles of global physical health from preschool through early adolescence.txt","Question: What is known about growth?
+
+Evidence:
+Lower early family income-to-needs ratios, higher psychosocial adversity, and early-onset psychiatric diagnoses significantly predicted membership in the high, increasing physical health problem trajectory, with preschool psychiatric disorders partially mediating the link between both types of adversity and worsening physical health outcomes.",A
+What are the age-specific estimates and confidence intervals for growth?,Early-onset psychiatric diagnoses significantly predicted membership in the high increasing physical health problem trajectory with preschool psychiatric disorders partially mediating the link between both types of adversity.,0,"Early adversity, psychopathology, and latent class profiles of global physical health from preschool through early adolescence.txt","Question: What are the age-specific estimates and confidence intervals for growth?
+
+Evidence:
+Early-onset psychiatric diagnoses significantly predicted membership in the high increasing physical health problem trajectory with preschool psychiatric disorders partially mediating the link between both types of adversity.",A
+What were the p-value and 95% confidence interval for the primary outcome related to growth?,Low-problem group (n = 199) a high increasing group (n = 57) that experienced linear increases in physical health issues over time.,0,"Early adversity, psychopathology, and latent class profiles of global physical health from preschool through early adolescence.txt","Question: What were the p-value and 95% confidence interval for the primary outcome related to growth?
+
+Evidence:
+Low-problem group (n = 199) a high increasing group (n = 57) that experienced linear increases in physical health issues over time.",A
+How is early adversity psychopathology latent class screened for or diagnosed?,Higher psychosocial adversity and early-onset psychiatric diagnoses significantly predicted membership in the high increasing physical health problem trajectory.,1,"Early adversity, psychopathology, and latent class profiles of global physical health from preschool through early adolescence.txt","Question: How is early adversity psychopathology latent class screened for or diagnosed?
+
+Evidence:
+Higher psychosocial adversity and early-onset psychiatric diagnoses significantly predicted membership in the high increasing physical health problem trajectory.",A
+"What is known about links between early adversity, mental health, and physical health from preschool through early adolescence?",Intervention targeting both financial/psychosocial risk factors psychiatric disorders in preschool-aged children to help alter adverse physical health trajectories before they become firmly established.,0,"Early adversity, psychopathology, and latent class profiles of global physical health from preschool through early adolescence.txt","Question: What is known about links between early adversity, mental health, and physical health from preschool through early adolescence?
+
+Evidence:
+Intervention targeting both financial/psychosocial risk factors psychiatric disorders in preschool-aged children to help alter adverse physical health trajectories before they become firmly established.",A
+What biological mechanisms contribute to is early adversity psychopathology latent class screened for or diagnosed?,Family income-to-needs ratio and preschool-onset psychiatric disorders predict these trajectories if psychiatric disorders mediate these relationships.,0,"Early adversity, psychopathology, and latent class profiles of global physical health from preschool through early adolescence.txt","Question: What biological mechanisms contribute to is early adversity psychopathology latent class screened for or diagnosed?
+
+Evidence:
+Family income-to-needs ratio and preschool-onset psychiatric disorders predict these trajectories if psychiatric disorders mediate these relationships.",A
+Do physical health patterns linked to early adversity differ by sex or ethnicity?,Preschool-onset psychiatric disorders predict these trajectories; increasing group (n = 57) that experienced linear increases in physical health issues over time.,0,"Early adversity, psychopathology, and latent class profiles of global physical health from preschool through early adolescence.txt","Question: Do physical health patterns linked to early adversity differ by sex or ethnicity?
+
+Evidence:
+Preschool-onset psychiatric disorders predict these trajectories; increasing group (n = 57) that experienced linear increases in physical health issues over time.",A
+Which serious adverse events are associated with treatment in children and adolescents?,"The most common adverse events with tirzepatide treatment were gastrointestinal, all mild to moderate in severity, and decreased over time.",1,Efficacy and Safety of Tirzepatide in Children and Adolescents With Type 2 Diabetes SURPASS PEDS A Randomised Double Blind Placebo Controlled Phase 3 Trial.txt,"Question: Which serious adverse events are associated with treatment in children and adolescents?
+
+Evidence:
+The most common adverse events with tirzepatide treatment were gastrointestinal, all mild to moderate in severity, and decreased over time.",A
+How do rates of serious adverse events or safety concerns in children and adolescents in patients differ across age groups?,Safety of tirzepatide in children adolescents with type 2 diabetes (SURPASS-PEDS): a randomised double-blind.,0,Efficacy and Safety of Tirzepatide in Children and Adolescents With Type 2 Diabetes SURPASS PEDS A Randomised Double Blind Placebo Controlled Phase 3 Trial.txt,"Question: How do rates of serious adverse events or safety concerns in children and adolescents in patients differ across age groups?
+
+Evidence:
+Safety of tirzepatide in children adolescents with type 2 diabetes (SURPASS-PEDS): a randomised double-blind.",A
+What p-value and confidence interval describe the primary outcome for serious adverse events or safety concerns in children and adolescents?,"We aimed to assess the safety and efficacy of tirzepatide, a glucose-dependent insulinotropic polypeptide and GLP-1 receptor agonist, compared with placebo in youth-onset type 2 diabetes.",0,Efficacy and Safety of Tirzepatide in Children and Adolescents With Type 2 Diabetes SURPASS PEDS A Randomised Double Blind Placebo Controlled Phase 3 Trial.txt,"Question: What p-value and confidence interval describe the primary outcome for serious adverse events or safety concerns in children and adolescents?
+
+Evidence:
+We aimed to assess the safety and efficacy of tirzepatide, a glucose-dependent insulinotropic polypeptide and GLP-1 receptor agonist, compared with placebo in youth-onset type 2 diabetes.",A
+What is known about type 2 diabetes in children and adolescents?,Participants aged 10 to <18 years with youth-onset type 2 diabetes inadequately controlled with metformin and/or basal insulin were randomly assigned (1:1:1) to receive tirzepatide 5 mg 10 mg.,1,Efficacy and Safety of Tirzepatide in Children and Adolescents With Type 2 Diabetes SURPASS PEDS A Randomised Double Blind Placebo Controlled Phase 3 Trial.txt,"Question: What is known about type 2 diabetes in children and adolescents?
+
+Evidence:
+Participants aged 10 to <18 years with youth-onset type 2 diabetes inadequately controlled with metformin and/or basal insulin were randomly assigned (1:1:1) to receive tirzepatide 5 mg 10 mg.",A
+What is known about type 2 diabetes in children and adolescents in adults?,Current treatment options for youth-onset type 2 diabetes are limited and have demonstrated lower glycaemic efficacy than those for adult-onset type 2 diabetes.,0,Efficacy and Safety of Tirzepatide in Children and Adolescents With Type 2 Diabetes SURPASS PEDS A Randomised Double Blind Placebo Controlled Phase 3 Trial.txt,"Question: What is known about type 2 diabetes in children and adolescents in adults?
+
+Evidence:
+Current treatment options for youth-onset type 2 diabetes are limited and have demonstrated lower glycaemic efficacy than those for adult-onset type 2 diabetes.",A
+What biological mechanisms contribute to type 2 diabetes in children and adolescents?,"Between April 12, 2022, and Dec 27, 2023, 146 participants were screened, of whom 99 (60 [61%] female, 39 [39%] male; mean age 14·7 years [SD 1·8]; mean baseline HbA1c 8·04% [1·23]) were randomly assigned to tirzepatide 5 mg (n=32), tirzepatide 10 mg (n=33), or placebo (n=34).",0,Efficacy and Safety of Tirzepatide in Children and Adolescents With Type 2 Diabetes SURPASS PEDS A Randomised Double Blind Placebo Controlled Phase 3 Trial.txt,"Question: What biological mechanisms contribute to type 2 diabetes in children and adolescents?
+
+Evidence:
+Between April 12, 2022, and Dec 27, 2023, 146 participants were screened, of whom 99 (60 [61%] female, 39 [39%] male; mean age 14·7 years [SD 1·8]; mean baseline HbA1c 8·04% [1·23]) were randomly assigned to tirzepatide 5 mg (n=32), tirzepatide 10 mg (n=33), or placebo (n=34).",A
+"Do treatment outcomes for type 2 diabetes in children and adolescents differ by sex or ethnicity, and what are the effect estimates and confidence intervals?","At week 30, tirzepatide was superior to placebo in reducing HbA1c, with a mean reduction of 2·23% in the pooled tirzepatide group versus an increase of 0·05% in the placebo group (estimated treatment difference -2·28%; 95% CI -2·87 to -1·69; p<0·0001).",0,Efficacy and Safety of Tirzepatide in Children and Adolescents With Type 2 Diabetes SURPASS PEDS A Randomised Double Blind Placebo Controlled Phase 3 Trial.txt,"Question: Do treatment outcomes for type 2 diabetes in children and adolescents differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+At week 30, tirzepatide was superior to placebo in reducing HbA1c, with a mean reduction of 2·23% in the pooled tirzepatide group versus an increase of 0·05% in the placebo group (estimated treatment difference -2·28%; 95% CI -2·87 to -1·69; p<0·0001).",A
+How common is type 1 diabetes in adolescents?,Caucasian females from higher socioeconomic status households were significantly more likely to log in while adolescent males with lower health literacy demonstrated fewer logins.,1,"Electronically Verified Use of Internet-Based, Multimedia Decision Aids by Adolescents With Type 1 Diabetes and Their Caregivers.txt","Question: How common is type 1 diabetes in adolescents?
+
+Evidence:
+Caucasian females from higher socioeconomic status households were significantly more likely to log in while adolescent males with lower health literacy demonstrated fewer logins.",A
+How do estimates and confidence intervals vary by age for type 1 diabetes in adolescents?,Electronically tracked utilization of web-based decision aids by adolescents with type 1 diabetes their caregivers considering an insulin pump or continuous glucose monitor within a randomized controlled trial.,0,"Electronically Verified Use of Internet-Based, Multimedia Decision Aids by Adolescents With Type 1 Diabetes and Their Caregivers.txt","Question: How do estimates and confidence intervals vary by age for type 1 diabetes in adolescents?
+
+Evidence:
+Electronically tracked utilization of web-based decision aids by adolescents with type 1 diabetes their caregivers considering an insulin pump or continuous glucose monitor within a randomized controlled trial.",A
+Which p-value and 95% confidence interval correspond to the primary outcome for type 1 diabetes in adolescents?,Titled Electronically Verified Use of Internet-Based Multimedia Decision Aids by Adolescents With Type 1 Diabetes.,0,"Electronically Verified Use of Internet-Based, Multimedia Decision Aids by Adolescents With Type 1 Diabetes and Their Caregivers.txt","Question: Which p-value and 95% confidence interval correspond to the primary outcome for type 1 diabetes in adolescents?
+
+Evidence:
+Titled Electronically Verified Use of Internet-Based Multimedia Decision Aids by Adolescents With Type 1 Diabetes.",A
+What is understood about type 1 diabetes in adolescents?,80% of caregivers 66% of adolescents logged into a decision aid at least once spending an average of 55.0.,1,"Electronically Verified Use of Internet-Based, Multimedia Decision Aids by Adolescents With Type 1 Diabetes and Their Caregivers.txt","Question: What is understood about type 1 diabetes in adolescents?
+
+Evidence:
+80% of caregivers 66% of adolescents logged into a decision aid at least once spending an average of 55.0.",A
+What clinical features are associated with type 1 diabetes in adults?,Potentially via direct assistance during the initial login—and explicitly guidelines that trials employing electronic decision aids routinely measure report and analyze objective utilization data.,0,"Electronically Verified Use of Internet-Based, Multimedia Decision Aids by Adolescents With Type 1 Diabetes and Their Caregivers.txt","Question: What clinical features are associated with type 1 diabetes in adults?
+
+Evidence:
+Potentially via direct assistance during the initial login—and explicitly guidelines that trials employing electronic decision aids routinely measure report and analyze objective utilization data.",A
+How do biological processes contribute to type 1 diabetes?,Bivariate regression analyses revealed that non-Hispanic Caucasian females from higher socioeconomic status households were significantly more likely to log in.,0,"Electronically Verified Use of Internet-Based, Multimedia Decision Aids by Adolescents With Type 1 Diabetes and Their Caregivers.txt","Question: How do biological processes contribute to type 1 diabetes?
+
+Evidence:
+Bivariate regression analyses revealed that non-Hispanic Caucasian females from higher socioeconomic status households were significantly more likely to log in.",A
+Are there sex- or ethnicity-related differences in outcomes for type 1 diabetes?,Spending an average of 55.0 46.2 minutes on the website viewing 72.2%.,0,"Electronically Verified Use of Internet-Based, Multimedia Decision Aids by Adolescents With Type 1 Diabetes and Their Caregivers.txt","Question: Are there sex- or ethnicity-related differences in outcomes for type 1 diabetes?
+
+Evidence:
+Spending an average of 55.0 46.2 minutes on the website viewing 72.2%.",A
+What major safety problems are possible in children?,"However, while overall adverse event rates were similar between groups, patients receiving liraglutide experienced a higher frequency of gastrointestinal adverse events, such as nausea and vomiting.",1,Evaluation of Liraglutide in Pediatrics with Diabetes (Ellipse.txt,"Question: What major safety problems are possible in children?
+
+Evidence:
+However, while overall adverse event rates were similar between groups, patients receiving liraglutide experienced a higher frequency of gastrointestinal adverse events, such as nausea and vomiting.",A
+How do rates of serious adverse events or safety concerns in children differ across age groups?,The mean glycated hemoglobin level decreased by 0.64 percentage points in the liraglutide group increasing by 0.42 percentage points in the placebo group—yielding an estimated treatment difference of -1.06 percentage points—and this difference widened to -1.30 percentage points by 52 weeks alongside significant reductions in fasting plasma glucose.,0,Evaluation of Liraglutide in Pediatrics with Diabetes (Ellipse.txt,"Question: How do rates of serious adverse events or safety concerns in children differ across age groups?
+
+Evidence:
+The mean glycated hemoglobin level decreased by 0.64 percentage points in the liraglutide group increasing by 0.42 percentage points in the placebo group—yielding an estimated treatment difference of -1.06 percentage points—and this difference widened to -1.30 percentage points by 52 weeks alongside significant reductions in fasting plasma glucose.",A
+What p-value and confidence interval describe the primary outcome for serious adverse events or safety concerns in children?,"The trial concluded that liraglutide effectively improves long-term glycemic control in pediatric patients with type 2 diabetes, though clinicians must consider the trade-off of increased gastrointestinal side effects during treatment.",0,Evaluation of Liraglutide in Pediatrics with Diabetes (Ellipse.txt,"Question: What p-value and confidence interval describe the primary outcome for serious adverse events or safety concerns in children?
+
+Evidence:
+The trial concluded that liraglutide effectively improves long-term glycemic control in pediatric patients with type 2 diabetes, though clinicians must consider the trade-off of increased gastrointestinal side effects during treatment.",A
+What is known about liraglutide in children?,Safety of subcutaneous liraglutide (up to 1.8 mg per day) added to metformin (with or without basal insulin) compared to placebo in children.,1,Evaluation of Liraglutide in Pediatrics with Diabetes (Ellipse.txt,"Question: What is known about liraglutide in children?
+
+Evidence:
+Safety of subcutaneous liraglutide (up to 1.8 mg per day) added to metformin (with or without basal insulin) compared to placebo in children.",A
+What is understood about liraglutide in adults?,Adolescents aged 10 to less than 17 years with type 2 diabetes over a 26-week double-blind period followed by a 26-week open-label extension.,0,Evaluation of Liraglutide in Pediatrics with Diabetes (Ellipse.txt,"Question: What is understood about liraglutide in adults?
+
+Evidence:
+Adolescents aged 10 to less than 17 years with type 2 diabetes over a 26-week double-blind period followed by a 26-week open-label extension.",A
+What mechanisms may contribute to liraglutide?,The mean glycated hemoglobin level decreased by 0.64 percentage points in the liraglutide group; overall adverse event rates were similar between groups.,0,Evaluation of Liraglutide in Pediatrics with Diabetes (Ellipse.txt,"Question: What mechanisms may contribute to liraglutide?
+
+Evidence:
+The mean glycated hemoglobin level decreased by 0.64 percentage points in the liraglutide group; overall adverse event rates were similar between groups.",A
+Are treatment responses for liraglutide different by sex or ethnicity?,The mean glycated hemoglobin level decreased by 0.64 percentage points in the liraglutide group; patients receiving liraglutide experienced a higher frequency of gastrointestinal adverse events.,0,Evaluation of Liraglutide in Pediatrics with Diabetes (Ellipse.txt,"Question: Are treatment responses for liraglutide different by sex or ethnicity?
+
+Evidence:
+The mean glycated hemoglobin level decreased by 0.64 percentage points in the liraglutide group; patients receiving liraglutide experienced a higher frequency of gastrointestinal adverse events.",A
+How is diabetes associated with health outcomes in children and adolescents?,Its associated risk factors among children adolescents under 20 years of age with type 1 diabetes across 67 U.S. pediatric adult endocrinology practices.,1,"Factors Associated With Microalbuminuria in 7,549 Children and Adolescents With Type 1 Diabetes in the T1D Exchange Clinic Registry.txt","Question: How is diabetes associated with health outcomes in children and adolescents?
+
+Evidence:
+Its associated risk factors among children adolescents under 20 years of age with type 1 diabetes across 67 U.S. pediatric adult endocrinology practices.",A
+What are the age-specific estimates and confidence intervals for diabetes and health outcomes in children and adolescents?,Blood pressure control to reduce nephropathy risk and they highlight ADA screening guidelines recommending annual MA screening in individuals with type 1 diabetes starting at 10 years of age 5 years of diabetes duration to ensure early diagnosis.,0,"Factors Associated With Microalbuminuria in 7,549 Children and Adolescents With Type 1 Diabetes in the T1D Exchange Clinic Registry.txt","Question: What are the age-specific estimates and confidence intervals for diabetes and health outcomes in children and adolescents?
+
+Evidence:
+Blood pressure control to reduce nephropathy risk and they highlight ADA screening guidelines recommending annual MA screening in individuals with type 1 diabetes starting at 10 years of age 5 years of diabetes duration to ensure early diagnosis.",A
+What were the p-value and 95% confidence interval for the primary outcome related to diabetes and health outcomes in children and adolescents?,An overall MA prevalence of 4.4% (329 participants) with a higher frequency strongly associated with longer diabetes duration higher mean glycosylated hemoglobin HbA1c.,0,"Factors Associated With Microalbuminuria in 7,549 Children and Adolescents With Type 1 Diabetes in the T1D Exchange Clinic Registry.txt","Question: What were the p-value and 95% confidence interval for the primary outcome related to diabetes and health outcomes in children and adolescents?
+
+Evidence:
+An overall MA prevalence of 4.4% (329 participants) with a higher frequency strongly associated with longer diabetes duration higher mean glycosylated hemoglobin HbA1c.",A
+What rate or percentage applies to microalbuminuria in children and adolescents?,Adolescents under 20 years of age with type 1 diabetes across 67 U.S. pediatric.,1,"Factors Associated With Microalbuminuria in 7,549 Children and Adolescents With Type 1 Diabetes in the T1D Exchange Clinic Registry.txt","Question: What rate or percentage applies to microalbuminuria in children and adolescents?
+
+Evidence:
+Adolescents under 20 years of age with type 1 diabetes across 67 U.S. pediatric.",A
+What is known about microalbuminuria in children and adolescents in adults?,"Despite MA diagnosis, only 36% of affected participants were currently receiving ACE inhibitor or angiotensin receptor blocker treatment.",0,"Factors Associated With Microalbuminuria in 7,549 Children and Adolescents With Type 1 Diabetes in the T1D Exchange Clinic Registry.txt","Question: What is known about microalbuminuria in children and adolescents in adults?
+
+Evidence:
+Despite MA diagnosis, only 36% of affected participants were currently receiving ACE inhibitor or angiotensin receptor blocker treatment.",A
+What biological mechanisms contribute to microalbuminuria in children and adolescents?,Higher diastolic blood pressure and lower BMI z score while MA was uncommon (<2%) in individuals with an average HbA1c <7.5%.,0,"Factors Associated With Microalbuminuria in 7,549 Children and Adolescents With Type 1 Diabetes in the T1D Exchange Clinic Registry.txt","Question: What biological mechanisms contribute to microalbuminuria in children and adolescents?
+
+Evidence:
+Higher diastolic blood pressure and lower BMI z score while MA was uncommon (<2%) in individuals with an average HbA1c <7.5%.",A
+"Do treatment outcomes for microalbuminuria in children and adolescents differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",Higher mean glycosylated hemoglobin HbA1c older age female sex.,0,"Factors Associated With Microalbuminuria in 7,549 Children and Adolescents With Type 1 Diabetes in the T1D Exchange Clinic Registry.txt","Question: Do treatment outcomes for microalbuminuria in children and adolescents differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+Higher mean glycosylated hemoglobin HbA1c older age female sex.",A
+What is known about type 2 diabetes in young adults?,Sources of social support received by young adults managing type 1 or type 2 diabetes their associations with behavioral psychosocial.,1,Here for You A Review of Social Support Research in Young Adults With Diabetes.txt,"Question: What is known about type 2 diabetes in young adults?
+
+Evidence:
+Sources of social support received by young adults managing type 1 or type 2 diabetes their associations with behavioral psychosocial.",A
+What are the age-specific estimates and confidence intervals for type 2 diabetes in young adults?,Young adults experience a decline in parental support unique challenges or conflicts in peer romantic relationships.,0,Here for You A Review of Social Support Research in Young Adults With Diabetes.txt,"Question: What are the age-specific estimates and confidence intervals for type 2 diabetes in young adults?
+
+Evidence:
+Young adults experience a decline in parental support unique challenges or conflicts in peer romantic relationships.",A
+What were the p-value and 95% confidence interval for the primary outcome related to type 2 diabetes in young adults?,Diabetes communities and health care providers—to improve psychosocial clinical outcomes.,0,Here for You A Review of Social Support Research in Young Adults With Diabetes.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to type 2 diabetes in young adults?
+
+Evidence:
+Diabetes communities and health care providers—to improve psychosocial clinical outcomes.",A
+What is understood about diabetes in young adults?,Testing tailored behavioral social support interventions specifically designed to meet the unique developmental transitional needs of young adults with diabetes.,1,Here for You A Review of Social Support Research in Young Adults With Diabetes.txt,"Question: What is understood about diabetes in young adults?
+
+Evidence:
+Testing tailored behavioral social support interventions specifically designed to meet the unique developmental transitional needs of young adults with diabetes.",A
+What is known about diabetes in children and adolescents?,Social support serves as a critical protective factor that buffers stress reduces psychological distress and correlates with better treatment adherence.,0,Here for You A Review of Social Support Research in Young Adults With Diabetes.txt,"Question: What is known about diabetes in children and adolescents?
+
+Evidence:
+Social support serves as a critical protective factor that buffers stress reduces psychological distress and correlates with better treatment adherence.",A
+What clinical significance does type 2 diabetes have?,Clinical outcomes and highlights recommendations for developing testing tailored behavioral.,0,Here for You A Review of Social Support Research in Young Adults With Diabetes.txt,"Question: What clinical significance does type 2 diabetes have?
+
+Evidence:
+Clinical outcomes and highlights recommendations for developing testing tailored behavioral.",A
+How do outcomes for diabetes compare across sex and ethnic groups?,Unique challenges or conflicts in peer romantic relationships social support serves as a critical protective factor that buffers stress.,0,Here for You A Review of Social Support Research in Young Adults With Diabetes.txt,"Question: How do outcomes for diabetes compare across sex and ethnic groups?
+
+Evidence:
+Unique challenges or conflicts in peer romantic relationships social support serves as a critical protective factor that buffers stress.",A
+What clinical significance does body mass index have?,Consistent with improved β-cell function the proinsulin to C-peptide ratio decreased by 21% (P < .01).RYGB reduced body mass index improved both insulin sensitivity.,1,Insulin Sensitivity and Beta Cell Function Improve After Gastric Bypass in Severely Obese Adolescents.txt,"Question: What clinical significance does body mass index have?
+
+Evidence:
+Consistent with improved β-cell function the proinsulin to C-peptide ratio decreased by 21% (P < .01).RYGB reduced body mass index improved both insulin sensitivity.",A
+What are the age-specific estimates and confidence intervals for body mass index in adolescents?,"In the 1-year following surgery, body mass index fell by 38% from a mean of 61 ± 12.3 to 39 ± 8.0 kg/m(2) (P < .01).",0,Insulin Sensitivity and Beta Cell Function Improve After Gastric Bypass in Severely Obese Adolescents.txt,"Question: What are the age-specific estimates and confidence intervals for body mass index in adolescents?
+
+Evidence:
+In the 1-year following surgery, body mass index fell by 38% from a mean of 61 ± 12.3 to 39 ± 8.0 kg/m(2) (P < .01).",A
+What were the p-value and 95% confidence interval for the primary outcome related to body mass index in adolescents?,A longitudinal study of 22 adolescents and young adults without diabetes undergoing laparoscopic RYGB (mean age 17.1 ± 1.42 years; range 14.5-20.1; male/female 8/14; Non-Hispanic White/African American 17/5) was conducted.,0,Insulin Sensitivity and Beta Cell Function Improve After Gastric Bypass in Severely Obese Adolescents.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to body mass index in adolescents?
+
+Evidence:
+A longitudinal study of 22 adolescents and young adults without diabetes undergoing laparoscopic RYGB (mean age 17.1 ± 1.42 years; range 14.5-20.1; male/female 8/14; Non-Hispanic White/African American 17/5) was conducted.",A
+What health effects are associated with body mass index?,Tests the hypothesis that insulin secretion and insulin sensitivity would be improved in adolescents after Roux-en-Y gastric bypass (RYGB).,1,Insulin Sensitivity and Beta Cell Function Improve After Gastric Bypass in Severely Obese Adolescents.txt,"Question: What health effects are associated with body mass index?
+
+Evidence:
+Tests the hypothesis that insulin secretion and insulin sensitivity would be improved in adolescents after Roux-en-Y gastric bypass (RYGB).",A
+How does gastric bypass affect insulin sensitivity and beta-cell function in severely obese adolescents?,Improved both insulin sensitivity β-cell function in severely obese teens young adults.,0,Insulin Sensitivity and Beta Cell Function Improve After Gastric Bypass in Severely Obese Adolescents.txt,"Question: How does gastric bypass affect insulin sensitivity and beta-cell function in severely obese adolescents?
+
+Evidence:
+Improved both insulin sensitivity β-cell function in severely obese teens young adults.",A
+What biological mechanisms contribute to insulin?,"Intravenous glucose tolerance tests were done to obtain insulin sensitivity (insulin sensitivity index), insulin secretion (acute insulin response to glucose ), and the disposition index as primary outcome variables.",0,Insulin Sensitivity and Beta Cell Function Improve After Gastric Bypass in Severely Obese Adolescents.txt,"Question: What biological mechanisms contribute to insulin?
+
+Evidence:
+Intravenous glucose tolerance tests were done to obtain insulin sensitivity (insulin sensitivity index), insulin secretion (acute insulin response to glucose ), and the disposition index as primary outcome variables.",A
+"Do treatment outcomes for insulin differ by sex or ethnicity, and what are the effect estimates and confidence intervals?","Insulin sensitivity index increased 300% (P < .01), acute insulin response to glucose decreased 56% (P < .01), leading to a nearly 2-fold increase in the disposition index (P < .01).",0,Insulin Sensitivity and Beta Cell Function Improve After Gastric Bypass in Severely Obese Adolescents.txt,"Question: Do treatment outcomes for insulin differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+Insulin sensitivity index increased 300% (P < .01), acute insulin response to glucose decreased 56% (P < .01), leading to a nearly 2-fold increase in the disposition index (P < .01).",A
+What rate or percentage applies to weight loss in adolescents?,Weight loss was similar in the adult gastric bypass patients (-31%) while weight gain (+3%) was seen in the conventionally treated obese adolescents.,1,Laparoscopic Roux en Y Gastric Bypass in Adolescents With Morbid Obesity Surgical Aspects and Clinical Outcome.txt,"Question: What rate or percentage applies to weight loss in adolescents?
+
+Evidence:
+Weight loss was similar in the adult gastric bypass patients (-31%) while weight gain (+3%) was seen in the conventionally treated obese adolescents.",A
+How do estimates and confidence intervals vary by age for weight loss in adolescents?,Adolescents undergoing laparoscopic gastric bypass surgery achieve similar weight loss to adults.,0,Laparoscopic Roux en Y Gastric Bypass in Adolescents With Morbid Obesity Surgical Aspects and Clinical Outcome.txt,"Question: How do estimates and confidence intervals vary by age for weight loss in adolescents?
+
+Evidence:
+Adolescents undergoing laparoscopic gastric bypass surgery achieve similar weight loss to adults.",A
+Which p-value and 95% confidence interval correspond to the primary outcome for weight loss in adolescents?,This report addresses the 2-year clinical outcome and five-year surgical adverse event rate.,0,Laparoscopic Roux en Y Gastric Bypass in Adolescents With Morbid Obesity Surgical Aspects and Clinical Outcome.txt,"Question: Which p-value and 95% confidence interval correspond to the primary outcome for weight loss in adolescents?
+
+Evidence:
+This report addresses the 2-year clinical outcome and five-year surgical adverse event rate.",A
+What health effects are associated with weight loss?,The surgical adverse events included cholecystectomies (10%) and operations for internal hernia (9%) but no postoperative mortality.,1,Laparoscopic Roux en Y Gastric Bypass in Adolescents With Morbid Obesity Surgical Aspects and Clinical Outcome.txt,"Question: What health effects are associated with weight loss?
+
+Evidence:
+The surgical adverse events included cholecystectomies (10%) and operations for internal hernia (9%) but no postoperative mortality.",A
+How does serious adverse events or safety concerns in adults affect health?,"Laparoscopic gastric bypass surgery was performed for 81 adolescents with morbid obesity (13-18 years), while 81 adolescents with obesity-matched by age, sex, and BMI received conventional care.",0,Laparoscopic Roux en Y Gastric Bypass in Adolescents With Morbid Obesity Surgical Aspects and Clinical Outcome.txt,"Question: How does serious adverse events or safety concerns in adults affect health?
+
+Evidence:
+Laparoscopic gastric bypass surgery was performed for 81 adolescents with morbid obesity (13-18 years), while 81 adolescents with obesity-matched by age, sex, and BMI received conventional care.",A
+Which biological processes play a role in serious adverse events or safety concerns?,"Body weight decreased from 133 kg (SD = 22) at inclusion to 92 kg (SD = 17) after 1 year and was 89 (SD = 18) after 2 years (p < 0·001) representing a 32% (-35 to -30) weight loss after 2 years, corresponding to 76% (-81 to -71) excess weight loss.",0,Laparoscopic Roux en Y Gastric Bypass in Adolescents With Morbid Obesity Surgical Aspects and Clinical Outcome.txt,"Question: Which biological processes play a role in serious adverse events or safety concerns?
+
+Evidence:
+Body weight decreased from 133 kg (SD = 22) at inclusion to 92 kg (SD = 17) after 1 year and was 89 (SD = 18) after 2 years (p < 0·001) representing a 32% (-35 to -30) weight loss after 2 years, corresponding to 76% (-81 to -71) excess weight loss.",A
+How do treatment effects for serious adverse events or safety concerns vary across sex and ethnic groups?,The treatment was generally well tolerated and quality of life improved significantly.,0,Laparoscopic Roux en Y Gastric Bypass in Adolescents With Morbid Obesity Surgical Aspects and Clinical Outcome.txt,"Question: How do treatment effects for serious adverse events or safety concerns vary across sex and ethnic groups?
+
+Evidence:
+The treatment was generally well tolerated and quality of life improved significantly.",A
+What should a clinician consider about outcomes are considered when supporting young adults with type 1 diabetes through transition to adult care?,Glycemic control and psychosocial outcomes among young adults transitioning from pediatric to adult diabetes care.,1,Let's Empower and Prepare (LEAP) Evaluation of a Structured Transition Program for Young Adults With Type 1 Diabetes.txt,"Question: What should a clinician consider about outcomes are considered when supporting young adults with type 1 diabetes through transition to adult care?
+
+Evidence:
+Glycemic control and psychosocial outcomes among young adults transitioning from pediatric to adult diabetes care.",A
+What age-related differences are seen in outcomes are considered when supporting young adults with type 1 diabetes through transition to adult care?,Limitations prevented direct comparisons of adult care visits with the control group 78% of the intervention group participants discharged from pediatric care successfully established adult care visits and the intervention group demonstrated significantly improved glycemic control.,0,Let's Empower and Prepare (LEAP) Evaluation of a Structured Transition Program for Young Adults With Type 1 Diabetes.txt,"Question: What age-related differences are seen in outcomes are considered when supporting young adults with type 1 diabetes through transition to adult care?
+
+Evidence:
+Limitations prevented direct comparisons of adult care visits with the control group 78% of the intervention group participants discharged from pediatric care successfully established adult care visits and the intervention group demonstrated significantly improved glycemic control.",A
+What p-value and confidence interval describe the primary outcome for outcomes are considered when supporting young adults with type 1 diabetes through transition to adult care?,Limitations prevented direct comparisons of adult care visits with the control group; a lower incidence of severe hypoglycemia.,0,Let's Empower and Prepare (LEAP) Evaluation of a Structured Transition Program for Young Adults With Type 1 Diabetes.txt,"Question: What p-value and confidence interval describe the primary outcome for outcomes are considered when supporting young adults with type 1 diabetes through transition to adult care?
+
+Evidence:
+Limitations prevented direct comparisons of adult care visits with the control group; a lower incidence of severe hypoglycemia.",A
+How common is hypoglycemia in children?,The intervention group demonstrated significantly improved glycemic control a lower incidence of severe hypoglycemia and better global well-being compared to the control group.,1,Let's Empower and Prepare (LEAP) Evaluation of a Structured Transition Program for Young Adults With Type 1 Diabetes.txt,"Question: How common is hypoglycemia in children?
+
+Evidence:
+The intervention group demonstrated significantly improved glycemic control a lower incidence of severe hypoglycemia and better global well-being compared to the control group.",A
+What is known about hypoglycemia in adults?,Limitations prevented direct comparisons of adult care visits with the control group; better global well-being compared to the control group.,0,Let's Empower and Prepare (LEAP) Evaluation of a Structured Transition Program for Young Adults With Type 1 Diabetes.txt,"Question: What is known about hypoglycemia in adults?
+
+Evidence:
+Limitations prevented direct comparisons of adult care visits with the control group; better global well-being compared to the control group.",A
+What biological mechanisms contribute to hypoglycemia?,78% of the intervention group participants discharged from pediatric care successfully established adult care visits; a lower incidence of severe hypoglycemia.,0,Let's Empower and Prepare (LEAP) Evaluation of a Structured Transition Program for Young Adults With Type 1 Diabetes.txt,"Question: What biological mechanisms contribute to hypoglycemia?
+
+Evidence:
+78% of the intervention group participants discharged from pediatric care successfully established adult care visits; a lower incidence of severe hypoglycemia.",A
+"Do treatment outcomes for hypoglycemia differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",78% of the intervention group participants discharged from pediatric care successfully established adult care visits; better global well-being compared to the control group.,0,Let's Empower and Prepare (LEAP) Evaluation of a Structured Transition Program for Young Adults With Type 1 Diabetes.txt,"Question: Do treatment outcomes for hypoglycemia differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+78% of the intervention group participants discharged from pediatric care successfully established adult care visits; better global well-being compared to the control group.",A
+What is known about bariatric surgery in youth?,Findings from harmonized analyses in the Teen-LABS TODAY studies demonstrate that bariatric surgery is associated with lower odds of diabetic kidney disease (DKD).,1,Long-Term Complications in Youth-Onset Type 2 Diabetes Reply.txt,"Question: What is known about bariatric surgery in youth?
+
+Evidence:
+Findings from harmonized analyses in the Teen-LABS TODAY studies demonstrate that bariatric surgery is associated with lower odds of diabetic kidney disease (DKD).",A
+What are the age-specific estimates and confidence intervals for bariatric surgery in youth?,Risks of bariatric surgery compared to standard medical therapy in young individuals with obesity type 2 diabetes.,0,Long-Term Complications in Youth-Onset Type 2 Diabetes Reply.txt,"Question: What are the age-specific estimates and confidence intervals for bariatric surgery in youth?
+
+Evidence:
+Risks of bariatric surgery compared to standard medical therapy in young individuals with obesity type 2 diabetes.",A
+What were the p-value and 95% confidence interval for the primary outcome related to bariatric surgery in youth?,Including the need for repeat surgery lifelong nutrient supplementation to manage dietary deficiencies adverse impacts on bone health.,0,Long-Term Complications in Youth-Onset Type 2 Diabetes Reply.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to bariatric surgery in youth?
+
+Evidence:
+Including the need for repeat surgery lifelong nutrient supplementation to manage dietary deficiencies adverse impacts on bone health.",A
+How is cardiovascular disease associated with health outcomes in adolescents?,TODAY studies demonstrate that bariatric surgery is associated with lower odds of diabetic kidney disease (DKD) cardiovascular disease compared with standard medical therapy.,1,Long-Term Complications in Youth-Onset Type 2 Diabetes Reply.txt,"Question: How is cardiovascular disease associated with health outcomes in adolescents?
+
+Evidence:
+TODAY studies demonstrate that bariatric surgery is associated with lower odds of diabetic kidney disease (DKD) cardiovascular disease compared with standard medical therapy.",A
+What is known about cardiovascular disease and health outcomes in adults?,Adult-onset type 2 diabetes from studies such as the Determinants of Diabetic Nephropathy the Diabetic Renal Disease Study in Pima people noting that these insights will be published in the future.,0,Long-Term Complications in Youth-Onset Type 2 Diabetes Reply.txt,"Question: What is known about cardiovascular disease and health outcomes in adults?
+
+Evidence:
+Adult-onset type 2 diabetes from studies such as the Determinants of Diabetic Nephropathy the Diabetic Renal Disease Study in Pima people noting that these insights will be published in the future.",A
+What biological mechanisms contribute to cardiovascular disease and health outcomes?,Potential effects on offspring and an increasing mental health burden along with potential access barriers due to unequal insurance coverage in the United States.,0,Long-Term Complications in Youth-Onset Type 2 Diabetes Reply.txt,"Question: What biological mechanisms contribute to cardiovascular disease and health outcomes?
+
+Evidence:
+Potential effects on offspring and an increasing mental health burden along with potential access barriers due to unequal insurance coverage in the United States.",A
+"Do treatment outcomes for cardiovascular disease and health outcomes differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",Adverse impacts on bone health potential effects on offspring and an increasing mental health burden.,0,Long-Term Complications in Youth-Onset Type 2 Diabetes Reply.txt,"Question: Do treatment outcomes for cardiovascular disease and health outcomes differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+Adverse impacts on bone health potential effects on offspring and an increasing mental health burden.",A
+What average HbA1c levels occur in patients?,An overall clinically significant improvement in average HbA1c levels from 8.7% in 2016–2017 to 8.4% in 2021–2022 accompanied by a rise in participants reaching target HbA1c levels (<7%) from 20% to 26%.,1,"Longitudinal Trends in Glycemic Outcomes and Technology Use for Over 48,000 People with Type 1 Diabetes (2016–2022) from the T1D Exchange Quality Improvement Collaborative.txt","Question: What average HbA1c levels occur in patients?
+
+Evidence:
+An overall clinically significant improvement in average HbA1c levels from 8.7% in 2016–2017 to 8.4% in 2021–2022 accompanied by a rise in participants reaching target HbA1c levels (<7%) from 20% to 26%.",A
+What are the age-specific estimates and confidence intervals for hba1c?,Accompanied by a rise in participants reaching target HbA1c levels (<7%) from 20% to 26% a decrease in those with severe hyperglycemia (>9%) from 43% to 31%.,0,"Longitudinal Trends in Glycemic Outcomes and Technology Use for Over 48,000 People with Type 1 Diabetes (2016–2022) from the T1D Exchange Quality Improvement Collaborative.txt","Question: What are the age-specific estimates and confidence intervals for hba1c?
+
+Evidence:
+Accompanied by a rise in participants reaching target HbA1c levels (<7%) from 20% to 26% a decrease in those with severe hyperglycemia (>9%) from 43% to 31%.",A
+What were the p-value and 95% confidence interval for the primary outcome related to hba1c?,"Alongside these glycemic gains, the uptake of diabetes technology increased significantly across continuous glucose monitors, insulin pumps, and hybrid closed-loop systems; however, pronounced health inequities persisted, as non-Hispanic White and privately insured individuals consistently maintained better glycemic outcomes and higher device adoption rates than non-Hispanic Black, Hispanic, and publicly insured patients.",0,"Longitudinal Trends in Glycemic Outcomes and Technology Use for Over 48,000 People with Type 1 Diabetes (2016–2022) from the T1D Exchange Quality Improvement Collaborative.txt","Question: What were the p-value and 95% confidence interval for the primary outcome related to hba1c?
+
+Evidence:
+Alongside these glycemic gains, the uptake of diabetes technology increased significantly across continuous glucose monitors, insulin pumps, and hybrid closed-loop systems; however, pronounced health inequities persisted, as non-Hispanic White and privately insured individuals consistently maintained better glycemic outcomes and higher device adoption rates than non-Hispanic Black, Hispanic, and publicly insured patients.",A
+What is known about diabetes?,Funded research to directly address socio-behavioral barriers ensure equitable access to diabetes technology care across diverse populations.,1,"Longitudinal Trends in Glycemic Outcomes and Technology Use for Over 48,000 People with Type 1 Diabetes (2016–2022) from the T1D Exchange Quality Improvement Collaborative.txt","Question: What is known about diabetes?
+
+Evidence:
+Funded research to directly address socio-behavioral barriers ensure equitable access to diabetes technology care across diverse populations.",A
+What is understood about diabetes in children and adolescents?,Diabetes technology adoption across more than 48 000 individuals with type 1 diabetes stratified by race/ethnicity.,0,"Longitudinal Trends in Glycemic Outcomes and Technology Use for Over 48,000 People with Type 1 Diabetes (2016–2022) from the T1D Exchange Quality Improvement Collaborative.txt","Question: What is understood about diabetes in children and adolescents?
+
+Evidence:
+Diabetes technology adoption across more than 48 000 individuals with type 1 diabetes stratified by race/ethnicity.",A
+What should a clinician consider about hba1c?,Stratified by race/ethnicity insurance status.,0,"Longitudinal Trends in Glycemic Outcomes and Technology Use for Over 48,000 People with Type 1 Diabetes (2016–2022) from the T1D Exchange Quality Improvement Collaborative.txt","Question: What should a clinician consider about hba1c?
+
+Evidence:
+Stratified by race/ethnicity insurance status.",A
+Which sex or ethnic groups respond differently to diabetes?,Diabetes technology adoption across more than 48; an overall clinically significant improvement in average HbA1c levels from 8.7% in 2016–2017 to 8.4% in 2021–2022.,0,"Longitudinal Trends in Glycemic Outcomes and Technology Use for Over 48,000 People with Type 1 Diabetes (2016–2022) from the T1D Exchange Quality Improvement Collaborative.txt","Question: Which sex or ethnic groups respond differently to diabetes?
+
+Evidence:
+Diabetes technology adoption across more than 48; an overall clinically significant improvement in average HbA1c levels from 8.7% in 2016–2017 to 8.4% in 2021–2022.",A
+How common is hypoglycemia in children and adolescents?,Monitoring HbA1c concentrations every 3 months and conducting finger-stick blood glucose monitoring for patients who take hypoglycemia-risk medications are adjusting regimens.,1,Management of Newly Diagnosed Type 2 Diabetes Mellitus (T2DM) in Children and Adolescents.txt,"Question: How common is hypoglycemia in children and adolescents?
+
+Evidence:
+Monitoring HbA1c concentrations every 3 months and conducting finger-stick blood glucose monitoring for patients who take hypoglycemia-risk medications are adjusting regimens.",A
+"How common are hypoglycemia in children and adolescents in patients, and how do rates vary by age group with 95% confidence intervals?",The recommendations emphasize incorporating evidence-based pediatric weight management nutrition counsel engaging in at least 60 minutes of daily moderate-to-vigorous physical activity limiting nonacademic screen time to under 2 hours daily.,0,Management of Newly Diagnosed Type 2 Diabetes Mellitus (T2DM) in Children and Adolescents.txt,"Question: How common are hypoglycemia in children and adolescents in patients, and how do rates vary by age group with 95% confidence intervals?
+
+Evidence:
+The recommendations emphasize incorporating evidence-based pediatric weight management nutrition counsel engaging in at least 60 minutes of daily moderate-to-vigorous physical activity limiting nonacademic screen time to under 2 hours daily.",A
+What were the p-value and 95% confidence interval for the primary outcome related to hypoglycemia in children and adolescents?,Severe hyperglycemia (random blood glucose ≥ 250 mg/dL) or an HbA1c > 9% while recommending first-line treatment with metformin combined with lifestyle modifications for all other stable.,0,Management of Newly Diagnosed Type 2 Diabetes Mellitus (T2DM) in Children and Adolescents.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to hypoglycemia in children and adolescents?
+
+Evidence:
+Severe hyperglycemia (random blood glucose ≥ 250 mg/dL) or an HbA1c > 9% while recommending first-line treatment with metformin combined with lifestyle modifications for all other stable.",A
+How does type 2 diabetes in children and adolescents affect health?,Diagnostic uncertainty between type 1 type 2 diabetes severe hyperglycemia (random blood glucose ≥ 250 mg/dL).,1,Management of Newly Diagnosed Type 2 Diabetes Mellitus (T2DM) in Children and Adolescents.txt,"Question: How does type 2 diabetes in children and adolescents affect health?
+
+Evidence:
+Diagnostic uncertainty between type 1 type 2 diabetes severe hyperglycemia (random blood glucose ≥ 250 mg/dL).",A
+How does type 2 diabetes in children and adolescents in adults affect health?,Diabetic ketoacidosis diagnostic uncertainty between type 1 type 2 diabetes.,0,Management of Newly Diagnosed Type 2 Diabetes Mellitus (T2DM) in Children and Adolescents.txt,"Question: How does type 2 diabetes in children and adolescents in adults affect health?
+
+Evidence:
+Diabetic ketoacidosis diagnostic uncertainty between type 1 type 2 diabetes.",A
+Which biological processes play a role in type 2 diabetes in children and adolescents?,Engaging in at least 60 minutes of daily moderate-to-vigorous physical activity limiting nonacademic screen time to under 2 hours daily monitoring HbA1c concentrations every 3 months.,0,Management of Newly Diagnosed Type 2 Diabetes Mellitus (T2DM) in Children and Adolescents.txt,"Question: Which biological processes play a role in type 2 diabetes in children and adolescents?
+
+Evidence:
+Engaging in at least 60 minutes of daily moderate-to-vigorous physical activity limiting nonacademic screen time to under 2 hours daily monitoring HbA1c concentrations every 3 months.",A
+How do treatment effects for type 2 diabetes in children and adolescents vary across sex and ethnic groups?,19 years old notes a scarcity of pediatric-specific clinical trial data educational resources for managing the condition in younger populations.,0,Management of Newly Diagnosed Type 2 Diabetes Mellitus (T2DM) in Children and Adolescents.txt,"Question: How do treatment effects for type 2 diabetes in children and adolescents vary across sex and ethnic groups?
+
+Evidence:
+19 years old notes a scarcity of pediatric-specific clinical trial data educational resources for managing the condition in younger populations.",A
+Which factors are linked to type 1 diabetes in adolescents?,Risk factors of early microvascular complications—specifically retinopathy nephropathy and neuropathy—in 819 adolescents aged 11 to 17 years with 2 to 5 years of type 1 diabetes duration treated at a tertiary pediatric clinic over a 17-year period.,1,Microvascular complications assessment in adolescents with 2- to 5-yr duration of type 1 diabetes from 1990 to 2006.txt,"Question: Which factors are linked to type 1 diabetes in adolescents?
+
+Evidence:
+Risk factors of early microvascular complications—specifically retinopathy nephropathy and neuropathy—in 819 adolescents aged 11 to 17 years with 2 to 5 years of type 1 diabetes duration treated at a tertiary pediatric clinic over a 17-year period.",A
+What are the age-specific estimates and confidence intervals for factors are linked to type 1 diabetes in adolescents?,Based on the presence of early complications even within short diabetes durations.,0,Microvascular complications assessment in adolescents with 2- to 5-yr duration of type 1 diabetes from 1990 to 2006.txt,"Question: What are the age-specific estimates and confidence intervals for factors are linked to type 1 diabetes in adolescents?
+
+Evidence:
+Based on the presence of early complications even within short diabetes durations.",A
+What were the p-value and 95% confidence interval for the primary outcome related to factors are linked to type 1 diabetes in adolescents?,Early indicators of nephropathy (elevated albumin excretion rate microalbuminuria) remained stable over time and peripheral nerve abnormalities increased from 14% to 23%.,0,Microvascular complications assessment in adolescents with 2- to 5-yr duration of type 1 diabetes from 1990 to 2006.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to factors are linked to type 1 diabetes in adolescents?
+
+Evidence:
+Early indicators of nephropathy (elevated albumin excretion rate microalbuminuria) remained stable over time and peripheral nerve abnormalities increased from 14% to 23%.",A
+How common is retinopathy in adolescents?,Early retinopathy declined significantly from 16% to 7% between 1990 2002 before plateauing early indicators of nephropathy (elevated albumin excretion rate.,1,Microvascular complications assessment in adolescents with 2- to 5-yr duration of type 1 diabetes from 1990 to 2006.txt,"Question: How common is retinopathy in adolescents?
+
+Evidence:
+Early retinopathy declined significantly from 16% to 7% between 1990 2002 before plateauing early indicators of nephropathy (elevated albumin excretion rate.",A
+What is known about retinopathy in adults?,Microalbuminuria) remained stable over time and peripheral nerve abnormalities increased from 14% to 23% all occurring alongside improvements in median HbA1c.,0,Microvascular complications assessment in adolescents with 2- to 5-yr duration of type 1 diabetes from 1990 to 2006.txt,"Question: What is known about retinopathy in adults?
+
+Evidence:
+Microalbuminuria) remained stable over time and peripheral nerve abnormalities increased from 14% to 23% all occurring alongside improvements in median HbA1c.",A
+What biological mechanisms contribute to retinopathy?,All occurring alongside improvements in median HbA1c increased daily insulin injections.,0,Microvascular complications assessment in adolescents with 2- to 5-yr duration of type 1 diabetes from 1990 to 2006.txt,"Question: What biological mechanisms contribute to retinopathy?
+
+Evidence:
+All occurring alongside improvements in median HbA1c increased daily insulin injections.",A
+"Do treatment outcomes for retinopathy differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",Risk factors of early microvascular complications—specifically retinopathy; early retinopathy declined significantly from 16% to 7% between 1990.,0,Microvascular complications assessment in adolescents with 2- to 5-yr duration of type 1 diabetes from 1990 to 2006.txt,"Question: Do treatment outcomes for retinopathy differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+Risk factors of early microvascular complications—specifically retinopathy; early retinopathy declined significantly from 16% to 7% between 1990.",A
+How is type 2 diabetes screened for or diagnosed in children?,Physical health benefits of mindfulness-based interventions (MBIs)—such as Mindfulness-Based Stress Reduction (MBSR) Learning to BREATHE—for youth diagnosed with or at risk for type 1 type 2 diabetes.,1,Mindfulness Based Interventions Focus on Pediatric Type 1 and Type 2 Diabetes.txt,"Question: How is type 2 diabetes screened for or diagnosed in children?
+
+Evidence:
+Physical health benefits of mindfulness-based interventions (MBIs)—such as Mindfulness-Based Stress Reduction (MBSR) Learning to BREATHE—for youth diagnosed with or at risk for type 1 type 2 diabetes.",A
+What age-specific estimates and confidence intervals are available for type 2 diabetes in children?,Disease-specific MBI curricula (such as the BREATHE-T1D adaptation) the utilization of virtual delivery methods like telehealth to improve youth engagement and the execution of larger-scale longitudinal trials to clarify underlying physiological mechanisms.,0,Mindfulness Based Interventions Focus on Pediatric Type 1 and Type 2 Diabetes.txt,"Question: What age-specific estimates and confidence intervals are available for type 2 diabetes in children?
+
+Evidence:
+Disease-specific MBI curricula (such as the BREATHE-T1D adaptation) the utilization of virtual delivery methods like telehealth to improve youth engagement and the execution of larger-scale longitudinal trials to clarify underlying physiological mechanisms.",A
+What were the p-value and 95% confidence interval for the primary outcome related to is type 2 diabetes screened for or diagnosed in children?,Recommendations for future research including the systematic development of tailored disease-specific MBI curricula (such as the BREATHE-T1D adaptation).,0,Mindfulness Based Interventions Focus on Pediatric Type 1 and Type 2 Diabetes.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to is type 2 diabetes screened for or diagnosed in children?
+
+Evidence:
+Recommendations for future research including the systematic development of tailored disease-specific MBI curricula (such as the BREATHE-T1D adaptation).",A
+Why is type 2 diabetes clinically important?,MBIs consistently reduce depressive symptoms diabetes-specific distress in adolescents their effects on objective health indicators like glycemic control (HbA1c) remain mixed.,1,Mindfulness Based Interventions Focus on Pediatric Type 1 and Type 2 Diabetes.txt,"Question: Why is type 2 diabetes clinically important?
+
+Evidence:
+MBIs consistently reduce depressive symptoms diabetes-specific distress in adolescents their effects on objective health indicators like glycemic control (HbA1c) remain mixed.",A
+What is understood about HbA1c levels in adults?,The execution of larger-scale longitudinal trials to clarify underlying physiological mechanisms facilitate integration into standard clinical care.,0,Mindfulness Based Interventions Focus on Pediatric Type 1 and Type 2 Diabetes.txt,"Question: What is understood about HbA1c levels in adults?
+
+Evidence:
+The execution of larger-scale longitudinal trials to clarify underlying physiological mechanisms facilitate integration into standard clinical care.",A
+What mechanisms may contribute to HbA1c levels?,Physical health benefits of mindfulness-based interventions (MBIs)—such as Mindfulness-Based Stress Reduction (MBSR); mBIs consistently reduce depressive symptoms.,0,Mindfulness Based Interventions Focus on Pediatric Type 1 and Type 2 Diabetes.txt,"Question: What mechanisms may contribute to HbA1c levels?
+
+Evidence:
+Physical health benefits of mindfulness-based interventions (MBIs)—such as Mindfulness-Based Stress Reduction (MBSR); mBIs consistently reduce depressive symptoms.",A
+Are treatment responses for HbA1c levels different by sex or ethnicity?,Physical health benefits of mindfulness-based interventions (MBIs)—such as Mindfulness-Based Stress Reduction (MBSR); their effects on objective health indicators like glycemic control (HbA1c) remain mixed.,0,Mindfulness Based Interventions Focus on Pediatric Type 1 and Type 2 Diabetes.txt,"Question: Are treatment responses for HbA1c levels different by sex or ethnicity?
+
+Evidence:
+Physical health benefits of mindfulness-based interventions (MBIs)—such as Mindfulness-Based Stress Reduction (MBSR); their effects on objective health indicators like glycemic control (HbA1c) remain mixed.",A
+What clinical significance does HbA1c levels have?,"MBIs effectively reduce depressive symptoms, anxiety, and diabetes-specific distress in adolescents, though their impact on glycemic outcomes like HbA1c remains inconsistent across studies.",1,Mindfulness-Based Interventions.txt,"Question: What clinical significance does HbA1c levels have?
+
+Evidence:
+MBIs effectively reduce depressive symptoms, anxiety, and diabetes-specific distress in adolescents, though their impact on glycemic outcomes like HbA1c remains inconsistent across studies.",A
+How do estimates and confidence intervals vary by age for HbA1c levels in adolescents with diabetes?,Long-term randomized controlled trials to establish the efficacy of tailored illness-specific MBI protocols (such as BREATHE-TID) to explore digital or telehealth delivery methods for better clinical integration.,0,Mindfulness-Based Interventions.txt,"Question: How do estimates and confidence intervals vary by age for HbA1c levels in adolescents with diabetes?
+
+Evidence:
+Long-term randomized controlled trials to establish the efficacy of tailored illness-specific MBI protocols (such as BREATHE-TID) to explore digital or telehealth delivery methods for better clinical integration.",A
+Which p-value and 95% confidence interval correspond to the primary outcome for HbA1c levels in adolescents with diabetes?,Gentle yoga and sitting meditations—to enhance self-regulation coping mechanisms in pediatric chronic disease management.,0,Mindfulness-Based Interventions.txt,"Question: Which p-value and 95% confidence interval correspond to the primary outcome for HbA1c levels in adolescents with diabetes?
+
+Evidence:
+Gentle yoga and sitting meditations—to enhance self-regulation coping mechanisms in pediatric chronic disease management.",A
+What care or management is recommended for mindfulness-based interventions?,Physiological health benefits of (MBIs)—such as Mindfulness-Based Stress Reduction Mindfulness-Based Cognitive Therapy—for youth with type 1.,1,Mindfulness-Based Interventions.txt,"Question: What care or management is recommended for mindfulness-based interventions?
+
+Evidence:
+Physiological health benefits of (MBIs)—such as Mindfulness-Based Stress Reduction Mindfulness-Based Cognitive Therapy—for youth with type 1.",A
+What is known about management of mindfulness-based interventions in adults?,Physiological health benefits of (MBIs)—such as Mindfulness-Based Stress Reduction; mBIs effectively reduce depressive symptoms.,0,Mindfulness-Based Interventions.txt,"Question: What is known about management of mindfulness-based interventions in adults?
+
+Evidence:
+Physiological health benefits of (MBIs)—such as Mindfulness-Based Stress Reduction; mBIs effectively reduce depressive symptoms.",A
+What biological mechanisms contribute to management of mindfulness-based interventions?,Physiological health benefits of (MBIs)—such as Mindfulness-Based Stress Reduction; their impact on glycemic outcomes like HbA1c remains inconsistent across studies.,0,Mindfulness-Based Interventions.txt,"Question: What biological mechanisms contribute to management of mindfulness-based interventions?
+
+Evidence:
+Physiological health benefits of (MBIs)—such as Mindfulness-Based Stress Reduction; their impact on glycemic outcomes like HbA1c remains inconsistent across studies.",A
+"Do treatment outcomes for management of mindfulness-based interventions differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",Physiological health benefits of (MBIs)—such as Mindfulness-Based Stress Reduction; long-term randomized controlled trials to establish the efficacy of tailored.,0,Mindfulness-Based Interventions.txt,"Question: Do treatment outcomes for management of mindfulness-based interventions differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+Physiological health benefits of (MBIs)—such as Mindfulness-Based Stress Reduction; long-term randomized controlled trials to establish the efficacy of tailored.",A
+What health effects are associated with HbA1c levels?,Combined hybrid interventions on glycemic control (measured via HbA1c levels) health-related quality of life among children adolescents aged 18.,1,Physical Activity and Nutrition Interventions for Type 1 Diabetes A Meta-analysis.txt,"Question: What health effects are associated with HbA1c levels?
+
+Evidence:
+Combined hybrid interventions on glycemic control (measured via HbA1c levels) health-related quality of life among children adolescents aged 18.",A
+What age-related differences are seen in HbA1c levels in adolescents with diabetes?,Health-related quality of life among children adolescents aged 18 below with type 1 diabetes mellitus (T1DM).,0,Physical Activity and Nutrition Interventions for Type 1 Diabetes A Meta-analysis.txt,"Question: What age-related differences are seen in HbA1c levels in adolescents with diabetes?
+
+Evidence:
+Health-related quality of life among children adolescents aged 18 below with type 1 diabetes mellitus (T1DM).",A
+What p-value and confidence interval describe the primary outcome for HbA1c levels in adolescents with diabetes?,High-quality trials to establish concrete guidelines better understand the long-term potential of structured lifestyle combined hybrid interventions for pediatric T1DM management.,0,Physical Activity and Nutrition Interventions for Type 1 Diabetes A Meta-analysis.txt,"Question: What p-value and confidence interval describe the primary outcome for HbA1c levels in adolescents with diabetes?
+
+Evidence:
+High-quality trials to establish concrete guidelines better understand the long-term potential of structured lifestyle combined hybrid interventions for pediatric T1DM management.",A
+What is known about physical activity?,Neither physical activity alone nor nutrition-based interventions alone produced statistically significant reductions in HbA1c levels compared to control groups.,1,Physical Activity and Nutrition Interventions for Type 1 Diabetes A Meta-analysis.txt,"Question: What is known about physical activity?
+
+Evidence:
+Neither physical activity alone nor nutrition-based interventions alone produced statistically significant reductions in HbA1c levels compared to control groups.",A
+What is known about physical activity in adults?,Results generally trended favorably toward enhancing glycemic control quality of life with initial evidence from a single hybrid study.,0,Physical Activity and Nutrition Interventions for Type 1 Diabetes A Meta-analysis.txt,"Question: What is known about physical activity in adults?
+
+Evidence:
+Results generally trended favorably toward enhancing glycemic control quality of life with initial evidence from a single hybrid study.",A
+What biological mechanisms contribute to physical activity?,Quality of life with initial evidence from a single hybrid study promise for multi-component interventions.,0,Physical Activity and Nutrition Interventions for Type 1 Diabetes A Meta-analysis.txt,"Question: What biological mechanisms contribute to physical activity?
+
+Evidence:
+Quality of life with initial evidence from a single hybrid study promise for multi-component interventions.",A
+"Do treatment outcomes for physical activity differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",Analyzing 18 randomized controlled trials.,0,Physical Activity and Nutrition Interventions for Type 1 Diabetes A Meta-analysis.txt,"Question: Do treatment outcomes for physical activity differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+Analyzing 18 randomized controlled trials.",A
+How common is type 1 diabetes in children and adolescents?,Their significance for the development of thyroid disorders in children adolescents with Type 1 diabetes.,1,Predictivity of Thyroid Autoantibodies for the Development of Thyroid Disorders in Children and Adolescents With Type 1 Diabetes.txt,"Question: How common is type 1 diabetes in children and adolescents?
+
+Evidence:
+Their significance for the development of thyroid disorders in children adolescents with Type 1 diabetes.",A
+How do estimates and confidence intervals vary by age for type 1 diabetes in children and adolescents?,Antibodies to thyroglobulin (anti-TG) and thyroperoxidase (anti-TPO) were measured in 216 patients (113 boys; median age 12.9 years (range 1-22 years)) with Type 1 diabetes (diabetes duration 2.5 years (0-14 years)) in a cross-sectional study.,0,Predictivity of Thyroid Autoantibodies for the Development of Thyroid Disorders in Children and Adolescents With Type 1 Diabetes.txt,"Question: How do estimates and confidence intervals vary by age for type 1 diabetes in children and adolescents?
+
+Evidence:
+Antibodies to thyroglobulin (anti-TG) and thyroperoxidase (anti-TPO) were measured in 216 patients (113 boys; median age 12.9 years (range 1-22 years)) with Type 1 diabetes (diabetes duration 2.5 years (0-14 years)) in a cross-sectional study.",A
+Which p-value and 95% confidence interval correspond to the primary outcome for type 1 diabetes in children and adolescents?,Median age 12.9 years (range 1-22 years)) with Type 1 diabetes (diabetes duration 2.5 years (0-14 years)) in a cross-sectional study.,0,Predictivity of Thyroid Autoantibodies for the Development of Thyroid Disorders in Children and Adolescents With Type 1 Diabetes.txt,"Question: Which p-value and 95% confidence interval correspond to the primary outcome for type 1 diabetes in children and adolescents?
+
+Evidence:
+Median age 12.9 years (range 1-22 years)) with Type 1 diabetes (diabetes duration 2.5 years (0-14 years)) in a cross-sectional study.",A
+How common is diabetes in children and adolescents?,Because 50% of children with diabetes significant titres of anti-TPO develop thyroid problems within 3-4 years examinations of thyroid antibodies should be performed yearly.,1,Predictivity of Thyroid Autoantibodies for the Development of Thyroid Disorders in Children and Adolescents With Type 1 Diabetes.txt,"Question: How common is diabetes in children and adolescents?
+
+Evidence:
+Because 50% of children with diabetes significant titres of anti-TPO develop thyroid problems within 3-4 years examinations of thyroid antibodies should be performed yearly.",A
+How are thyroid autoantibodies associated with thyroid disorders in children and adolescents with type 1 diabetes?,They were characterized by higher levels of anti-TPO (P = 0.001) and a more frequent coexistence of anti-TG antibodies (P = 0.002) than those with no development of thyroid disorder even after an observation period of 5.5 years (5-10 years).,0,Predictivity of Thyroid Autoantibodies for the Development of Thyroid Disorders in Children and Adolescents With Type 1 Diabetes.txt,"Question: How are thyroid autoantibodies associated with thyroid disorders in children and adolescents with type 1 diabetes?
+
+Evidence:
+They were characterized by higher levels of anti-TPO (P = 0.001) and a more frequent coexistence of anti-TG antibodies (P = 0.002) than those with no development of thyroid disorder even after an observation period of 5.5 years (5-10 years).",A
+What biological mechanisms contribute to diabetes in children and adolescents?,Eight of 16 patients (50%) developed thyroid disorders defined by a TSH elevation (> or = 4.5 microU/ml) and/or sonographic thyroid abnormalities during a median time of 3.5 years (2-6 years) after first detection of anti-TPO positivity.,0,Predictivity of Thyroid Autoantibodies for the Development of Thyroid Disorders in Children and Adolescents With Type 1 Diabetes.txt,"Question: What biological mechanisms contribute to diabetes in children and adolescents?
+
+Evidence:
+Eight of 16 patients (50%) developed thyroid disorders defined by a TSH elevation (> or = 4.5 microU/ml) and/or sonographic thyroid abnormalities during a median time of 3.5 years (2-6 years) after first detection of anti-TPO positivity.",A
+"Do treatment outcomes for diabetes in children and adolescents differ by sex or ethnicity, and what are the effect estimates and confidence intervals?","Sixteen patients with significantly elevated anti-TPO titres were followed longitudinally (6.0 years (4-13 years)) including the measurement of anti-TPO, anti-TG, T(3), T(4), thyroid-stimulating hormone (TSH) and ultrasound assessment.",0,Predictivity of Thyroid Autoantibodies for the Development of Thyroid Disorders in Children and Adolescents With Type 1 Diabetes.txt,"Question: Do treatment outcomes for diabetes in children and adolescents differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+Sixteen patients with significantly elevated anti-TPO titres were followed longitudinally (6.0 years (4-13 years)) including the measurement of anti-TPO, anti-TG, T(3), T(4), thyroid-stimulating hormone (TSH) and ultrasound assessment.",A
+What average HbA1c levels occur in youth?,"High rates of maternal and neonatal complications: 65% of women experienced pregnancy complications, 35% had chronic hypertension, 25% had pre-pregnancy nephropathy, and 31.9% maintained elevated HbA1c levels (≥8%).",1,Pregnancy Outcomes in Young Women With Youth-Onset Type 2 Diabetes Followed in the TODAY Study.txt,"Question: What average HbA1c levels occur in youth?
+
+Evidence:
+High rates of maternal and neonatal complications: 65% of women experienced pregnancy complications, 35% had chronic hypertension, 25% had pre-pregnancy nephropathy, and 31.9% maintained elevated HbA1c levels (≥8%).",A
+What are the age-specific estimates and confidence intervals for hba1c in youth?,"Regarding outcomes, pregnancy loss occurred in 25.3% of cases and preterm birth in 32.6%, while offspring showed rates of 7.8% small for gestational age, 26.8% large for gestational age, and 17.9% macrosomia.",0,Pregnancy Outcomes in Young Women With Youth-Onset Type 2 Diabetes Followed in the TODAY Study.txt,"Question: What are the age-specific estimates and confidence intervals for hba1c in youth?
+
+Evidence:
+Regarding outcomes, pregnancy loss occurred in 25.3% of cases and preterm birth in 32.6%, while offspring showed rates of 7.8% small for gestational age, 26.8% large for gestational age, and 17.9% macrosomia.",A
+What were the p-value and 95% confidence interval for the primary outcome related to hba1c in youth?,Fetal outcomes among 141 young women with youth-onset type 2 diabetes who experienced a total of 260 pregnancies over a maximum follow-up of 15 years.,0,Pregnancy Outcomes in Young Women With Youth-Onset Type 2 Diabetes Followed in the TODAY Study.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to hba1c in youth?
+
+Evidence:
+Fetal outcomes among 141 young women with youth-onset type 2 diabetes who experienced a total of 260 pregnancies over a maximum follow-up of 15 years.",A
+What is the prevalence of type 2 diabetes in youth?,Infant risks—exacerbated by significant socioeconomic disadvantage—could potentially be mitigated through higher rates of contraception use.,1,Pregnancy Outcomes in Young Women With Youth-Onset Type 2 Diabetes Followed in the TODAY Study.txt,"Question: What is the prevalence of type 2 diabetes in youth?
+
+Evidence:
+Infant risks—exacerbated by significant socioeconomic disadvantage—could potentially be mitigated through higher rates of contraception use.",A
+What clinical features are associated with type 2 diabetes in adults?,"Notably, prior contraception use was reported by only 13.5% of the participants.",0,Pregnancy Outcomes in Young Women With Youth-Onset Type 2 Diabetes Followed in the TODAY Study.txt,"Question: What clinical features are associated with type 2 diabetes in adults?
+
+Evidence:
+Notably, prior contraception use was reported by only 13.5% of the participants.",A
+How do biological processes contribute to type 2 diabetes?,Improved reproductive planning in this population.,0,Pregnancy Outcomes in Young Women With Youth-Onset Type 2 Diabetes Followed in the TODAY Study.txt,"Question: How do biological processes contribute to type 2 diabetes?
+
+Evidence:
+Improved reproductive planning in this population.",A
+Are there sex- or ethnicity-related differences in outcomes for type 2 diabetes?,Neonatal complications: 65% of women experienced pregnancy complications; pregnancy loss occurred in 25.3% of cases.,0,Pregnancy Outcomes in Young Women With Youth-Onset Type 2 Diabetes Followed in the TODAY Study.txt,"Question: Are there sex- or ethnicity-related differences in outcomes for type 2 diabetes?
+
+Evidence:
+Neonatal complications: 65% of women experienced pregnancy complications; pregnancy loss occurred in 25.3% of cases.",A
+How does type 1 diabetes in youth affect health?,Prevalence increased with age was slightly higher in females and varied significantly across racial/ethnic groups: non-Hispanic White youth had the highest prevalence of type 1 diabetes.,1,Prevalence of Diabetes in U.S. Youth in 2009 The SEARCH for Diabetes in Youth Study.txt,"Question: How does type 1 diabetes in youth affect health?
+
+Evidence:
+Prevalence increased with age was slightly higher in females and varied significantly across racial/ethnic groups: non-Hispanic White youth had the highest prevalence of type 1 diabetes.",A
+What age-related differences are seen in type 1 diabetes in youth?,"An estimated 191,986 U.S. youth had diabetes (a crude prevalence of 2.22 per 1,000), consisting of 166,984 with type 1 diabetes (1.93 per 1,000), 20,262 with type 2 diabetes (0.24 per 1,000), and 4,740 with other types.",0,Prevalence of Diabetes in U.S. Youth in 2009 The SEARCH for Diabetes in Youth Study.txt,"Question: What age-related differences are seen in type 1 diabetes in youth?
+
+Evidence:
+An estimated 191,986 U.S. youth had diabetes (a crude prevalence of 2.22 per 1,000), consisting of 166,984 with type 1 diabetes (1.93 per 1,000), 20,262 with type 2 diabetes (0.24 per 1,000), and 4,740 with other types.",A
+What p-value and confidence interval describe the primary outcome for type 1 diabetes in youth?,Sex race/ethnicity and diabetes type.,0,Prevalence of Diabetes in U.S. Youth in 2009 The SEARCH for Diabetes in Youth Study.txt,"Question: What p-value and confidence interval describe the primary outcome for type 1 diabetes in youth?
+
+Evidence:
+Sex race/ethnicity and diabetes type.",A
+What care or management is recommended for diabetes in youth?,Was slightly higher in females and varied significantly across racial/ethnic groups: non-Hispanic White youth had the highest prevalence of type 1 diabetes while minority groups—particularly Native American.,1,Prevalence of Diabetes in U.S. Youth in 2009 The SEARCH for Diabetes in Youth Study.txt,"Question: What care or management is recommended for diabetes in youth?
+
+Evidence:
+Was slightly higher in females and varied significantly across racial/ethnic groups: non-Hispanic White youth had the highest prevalence of type 1 diabetes while minority groups—particularly Native American.",A
+How does management of diabetes in adults affect health?,986 U.S. youth had diabetes (a crude prevalence of 2.22 per 1; non-Hispanic Black youth—exhibited the highest prevalence of type 2 diabetes.,0,Prevalence of Diabetes in U.S. Youth in 2009 The SEARCH for Diabetes in Youth Study.txt,"Question: How does management of diabetes in adults affect health?
+
+Evidence:
+986 U.S. youth had diabetes (a crude prevalence of 2.22 per 1; non-Hispanic Black youth—exhibited the highest prevalence of type 2 diabetes.",A
+Which biological processes play a role in management of diabetes?,An estimated 191 986 U.S. youth had diabetes (a crude prevalence of 2.22 per 1; minority groups—particularly Native American.,0,Prevalence of Diabetes in U.S. Youth in 2009 The SEARCH for Diabetes in Youth Study.txt,"Question: Which biological processes play a role in management of diabetes?
+
+Evidence:
+An estimated 191 986 U.S. youth had diabetes (a crude prevalence of 2.22 per 1; minority groups—particularly Native American.",A
+How do treatment effects for management of diabetes vary across sex and ethnic groups?,An estimated 191 986 U.S. youth had diabetes (a crude prevalence of 2.22 per 1; prevalence increased with age was slightly higher in females.,0,Prevalence of Diabetes in U.S. Youth in 2009 The SEARCH for Diabetes in Youth Study.txt,"Question: How do treatment effects for management of diabetes vary across sex and ethnic groups?
+
+Evidence:
+An estimated 191 986 U.S. youth had diabetes (a crude prevalence of 2.22 per 1; prevalence increased with age was slightly higher in females.",A
+How is type 2 diabetes screened for or diagnosed in children and adolescents?,Children aged 0 to 4 years while the overall prevalence of type 2 diabetes among adolescents aged 10 to 19 years increased by 30.5% with significant rises observed among white.,1,Prevalence of Type 1 and Type 2 Diabetes Among Children and Adolescents From 2001 to 2009.txt,"Question: How is type 2 diabetes screened for or diagnosed in children and adolescents?
+
+Evidence:
+Children aged 0 to 4 years while the overall prevalence of type 2 diabetes among adolescents aged 10 to 19 years increased by 30.5% with significant rises observed among white.",A
+What age-specific estimates and confidence intervals are available for type 2 diabetes in children and adolescents?,After adjusting for completeness of ascertainment the overall prevalence of type 1 diabetes increased by 21.1% across all demographic subgroups except American Indians.,0,Prevalence of Type 1 and Type 2 Diabetes Among Children and Adolescents From 2001 to 2009.txt,"Question: What age-specific estimates and confidence intervals are available for type 2 diabetes in children and adolescents?
+
+Evidence:
+After adjusting for completeness of ascertainment the overall prevalence of type 1 diabetes increased by 21.1% across all demographic subgroups except American Indians.",A
+What were the p-value and 95% confidence interval for the primary outcome related to is type 2 diabetes screened for or diagnosed in children and adolescents?,Note the importance of understanding these population trends to inform clinicians about the medical care required for the growing pediatric population living with diabetes.,0,Prevalence of Type 1 and Type 2 Diabetes Among Children and Adolescents From 2001 to 2009.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to is type 2 diabetes screened for or diagnosed in children and adolescents?
+
+Evidence:
+Note the importance of understanding these population trends to inform clinicians about the medical care required for the growing pediatric population living with diabetes.",A
+What is the prevalence of type 1 diabetes in children and adolescents?,Children aged 0 to 4 years while the overall prevalence of type 2 diabetes among adolescents aged 10 to 19 years increased by 30.5%.,1,Prevalence of Type 1 and Type 2 Diabetes Among Children and Adolescents From 2001 to 2009.txt,"Question: What is the prevalence of type 1 diabetes in children and adolescents?
+
+Evidence:
+Children aged 0 to 4 years while the overall prevalence of type 2 diabetes among adolescents aged 10 to 19 years increased by 30.5%.",A
+What is known about type 1 diabetes in children and adolescents in adults?,Age and race/ethnicity groups between 2001 2009 using multi-center surveillance data from the SEARCH for Diabetes in Youth study.,0,Prevalence of Type 1 and Type 2 Diabetes Among Children and Adolescents From 2001 to 2009.txt,"Question: What is known about type 1 diabetes in children and adolescents in adults?
+
+Evidence:
+Age and race/ethnicity groups between 2001 2009 using multi-center surveillance data from the SEARCH for Diabetes in Youth study.",A
+What biological mechanisms contribute to type 1 diabetes in children and adolescents?,US youth aged 0 to 19 years across sex age and race/ethnicity groups between 2001.,0,Prevalence of Type 1 and Type 2 Diabetes Among Children and Adolescents From 2001 to 2009.txt,"Question: What biological mechanisms contribute to type 1 diabetes in children and adolescents?
+
+Evidence:
+US youth aged 0 to 19 years across sex age and race/ethnicity groups between 2001.",A
+"Do treatment outcomes for type 1 diabetes in children and adolescents differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",With significant rises observed among white black and Hispanic youth.,0,Prevalence of Type 1 and Type 2 Diabetes Among Children and Adolescents From 2001 to 2009.txt,"Question: Do treatment outcomes for type 1 diabetes in children and adolescents differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+With significant rises observed among white black and Hispanic youth.",A
+What clinical significance does are HbA1c and fasting glucose used to identify diabetes risk have?,Highlighting the need to understand the basis of these racial disparities to design effective strategies that improve diabetes care mitigate the elevated risk of long-term complications in minority youth.,1,Racial Ethnic Minority Youth With Recent-Onset Type 1 Diabetes Have Poor Prognostic Factors.txt,"Question: What clinical significance does are HbA1c and fasting glucose used to identify diabetes risk have?
+
+Evidence:
+Highlighting the need to understand the basis of these racial disparities to design effective strategies that improve diabetes care mitigate the elevated risk of long-term complications in minority youth.",A
+How do estimates and confidence intervals vary by age for are HbA1c and fasting glucose used to identify diabetes risk in children?,A higher frequency of diabetic ketoacidosis at diagnosis—a disparity largely explained by socioeconomic factors like health insurance—while also experiencing higher rates of hypertension severe hypoglycemia higher HbA1c levels.,0,Racial Ethnic Minority Youth With Recent-Onset Type 1 Diabetes Have Poor Prognostic Factors.txt,"Question: How do estimates and confidence intervals vary by age for are HbA1c and fasting glucose used to identify diabetes risk in children?
+
+Evidence:
+A higher frequency of diabetic ketoacidosis at diagnosis—a disparity largely explained by socioeconomic factors like health insurance—while also experiencing higher rates of hypertension severe hypoglycemia higher HbA1c levels.",A
+Which p-value and 95% confidence interval correspond to the primary outcome for are HbA1c and fasting glucose used to identify diabetes risk in children?,Ethnic groups in characteristics known to influence long-term health outcomes at type 1 diabetes diagnosis during the first three years post-diagnosis among youth under 19 years old.,0,Racial Ethnic Minority Youth With Recent-Onset Type 1 Diabetes Have Poor Prognostic Factors.txt,"Question: Which p-value and 95% confidence interval correspond to the primary outcome for are HbA1c and fasting glucose used to identify diabetes risk in children?
+
+Evidence:
+Ethnic groups in characteristics known to influence long-term health outcomes at type 1 diabetes diagnosis during the first three years post-diagnosis among youth under 19 years old.",A
+How is insulin screened for or diagnosed in youth?,"Similarly, Hispanic participants exhibited higher BMI percentiles at diagnosis and throughout follow-up, a higher prevalence of dyslipidemia, and sustained trajectories of higher insulin doses and IDAA1c compared to non-Hispanic Whites.",1,Racial Ethnic Minority Youth With Recent-Onset Type 1 Diabetes Have Poor Prognostic Factors.txt,"Question: How is insulin screened for or diagnosed in youth?
+
+Evidence:
+Similarly, Hispanic participants exhibited higher BMI percentiles at diagnosis and throughout follow-up, a higher prevalence of dyslipidemia, and sustained trajectories of higher insulin doses and IDAA1c compared to non-Hispanic Whites.",A
+How do insulin requirements and glycemic outcomes vary by race or ethnicity among youth with recent-onset type 1 diabetes?,Higher HbA1c levels higher required insulin doses and lower rates of entering partial remission over three years.,0,Racial Ethnic Minority Youth With Recent-Onset Type 1 Diabetes Have Poor Prognostic Factors.txt,"Question: How do insulin requirements and glycemic outcomes vary by race or ethnicity among youth with recent-onset type 1 diabetes?
+
+Evidence:
+Higher HbA1c levels higher required insulin doses and lower rates of entering partial remission over three years.",A
+What biological mechanisms contribute to is insulin screened for or diagnosed?,Ethnicity predict clinical outcomes is critical before targeted interventions can be designed highlighting the need to understand the basis of these racial disparities to design effective strategies that improve diabetes care.,0,Racial Ethnic Minority Youth With Recent-Onset Type 1 Diabetes Have Poor Prognostic Factors.txt,"Question: What biological mechanisms contribute to is insulin screened for or diagnosed?
+
+Evidence:
+Ethnicity predict clinical outcomes is critical before targeted interventions can be designed highlighting the need to understand the basis of these racial disparities to design effective strategies that improve diabetes care.",A
+Do outcomes related to insulin differ by sex or ethnicity?,Compared to non-Hispanic Whites presented with higher body mass index percentiles more advanced pubertal development.,0,Racial Ethnic Minority Youth With Recent-Onset Type 1 Diabetes Have Poor Prognostic Factors.txt,"Question: Do outcomes related to insulin differ by sex or ethnicity?
+
+Evidence:
+Compared to non-Hispanic Whites presented with higher body mass index percentiles more advanced pubertal development.",A
+Which factors are linked to strip baby project special turku in children?,The 6-month dietary counselling intervention—which successfully altered the children's actual fat intake quality at 13 months—had only a minimal effect on serum cholesterol ester fatty acid levels.,1,STRIP baby project [Special Turku Coronary Risk Factor Intervention Project for Children].txt,"Question: Which factors are linked to strip baby project special turku in children?
+
+Evidence:
+The 6-month dietary counselling intervention—which successfully altered the children's actual fat intake quality at 13 months—had only a minimal effect on serum cholesterol ester fatty acid levels.",A
+What are the age-specific estimates and confidence intervals for factors are linked to strip baby project special turku in children?,Recommendations for the intervention group included keeping saturated fat intake to approximately 10% of daily energy after 1 year of age (with 30–35% total energy from fat) as per Nordic Nutrition Recommendations which was implemented by recommending skimmed milk supplemented with 2 to 3 teaspoonfuls of vegetable oil daily to ensure an adequate intake of total fat.,0,STRIP baby project [Special Turku Coronary Risk Factor Intervention Project for Children].txt,"Question: What are the age-specific estimates and confidence intervals for factors are linked to strip baby project special turku in children?
+
+Evidence:
+Recommendations for the intervention group included keeping saturated fat intake to approximately 10% of daily energy after 1 year of age (with 30–35% total energy from fat) as per Nordic Nutrition Recommendations which was implemented by recommending skimmed milk supplemented with 2 to 3 teaspoonfuls of vegetable oil daily to ensure an adequate intake of total fat.",A
+What were the p-value and 95% confidence interval for the primary outcome related to factors are linked to strip baby project special turku in children?,13-month-old children subjected to a 6-month low-saturated fat low-cholesterol dietary intervention.,0,STRIP baby project [Special Turku Coronary Risk Factor Intervention Project for Children].txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to factors are linked to strip baby project special turku in children?
+
+Evidence:
+13-month-old children subjected to a 6-month low-saturated fat low-cholesterol dietary intervention.",A
+What is known about strip baby project special turku in children?,Serum cholesterol ester fatty acid compositions at 7 months of age the 6-month dietary counselling intervention—which successfully altered the children's actual fat intake quality at 13 months—had only a minimal effect on serum cholesterol ester fatty acid levels.,1,STRIP baby project [Special Turku Coronary Risk Factor Intervention Project for Children].txt,"Question: What is known about strip baby project special turku in children?
+
+Evidence:
+Serum cholesterol ester fatty acid compositions at 7 months of age the 6-month dietary counselling intervention—which successfully altered the children's actual fat intake quality at 13 months—had only a minimal effect on serum cholesterol ester fatty acid levels.",A
+What is known about strip baby project special turku in adults?,As serum compositions in all 13-month-olds closely resembled those of 7-month-old breastfed infants regardless of intervention or previous milk type.,0,STRIP baby project [Special Turku Coronary Risk Factor Intervention Project for Children].txt,"Question: What is known about strip baby project special turku in adults?
+
+Evidence:
+As serum compositions in all 13-month-olds closely resembled those of 7-month-old breastfed infants regardless of intervention or previous milk type.",A
+What biological mechanisms contribute to strip baby project special turku?,Milk type (breast milk versus formula) strongly influenced dietary serum cholesterol ester fatty acid compositions at 7 months of age.,0,STRIP baby project [Special Turku Coronary Risk Factor Intervention Project for Children].txt,"Question: What biological mechanisms contribute to strip baby project special turku?
+
+Evidence:
+Milk type (breast milk versus formula) strongly influenced dietary serum cholesterol ester fatty acid compositions at 7 months of age.",A
+"Do treatment outcomes for strip baby project special turku differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",13-month-old children subjected to a 6-month low-saturated fat; was implemented by recommending skimmed milk supplemented with 2 to 3 teaspoonfuls of vegetable oil daily to ensure an adequate intake of total fat essential fatty acids.,0,STRIP baby project [Special Turku Coronary Risk Factor Intervention Project for Children].txt,"Question: Do treatment outcomes for strip baby project special turku differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+13-month-old children subjected to a 6-month low-saturated fat; was implemented by recommending skimmed milk supplemented with 2 to 3 teaspoonfuls of vegetable oil daily to ensure an adequate intake of total fat essential fatty acids.",A
+How is cardiovascular disease associated with health outcomes in children and adolescents?,As currently no data are available on the prevalence of SCH its potential association with lipoprotein profile in children adolescents with type 1 diabetes (T1DM).,1,Subclinical Hypothyroidism and Dyslipidemia in Children and Adolescents With Type 1 Diabetes Mellitus.txt,"Question: How is cardiovascular disease associated with health outcomes in children and adolescents?
+
+Evidence:
+As currently no data are available on the prevalence of SCH its potential association with lipoprotein profile in children adolescents with type 1 diabetes (T1DM).",A
+What are the age-specific estimates and confidence intervals for cardiovascular disease and health outcomes in children and adolescents?,"Cross-sectional analysis of 22,747 children, adolescents, and young adults (age <25 years) with T1DM with normal T3 and T4 and either normal TSH (≥0.5 to <4.0 mIU/l, euthyroid group) or elevated TSH (≥4.0 to <25.0 mIU/l, SCH group) and simultaneous measurement of serum lipid and lipoprotein status.",0,Subclinical Hypothyroidism and Dyslipidemia in Children and Adolescents With Type 1 Diabetes Mellitus.txt,"Question: What are the age-specific estimates and confidence intervals for cardiovascular disease and health outcomes in children and adolescents?
+
+Evidence:
+Cross-sectional analysis of 22,747 children, adolescents, and young adults (age <25 years) with T1DM with normal T3 and T4 and either normal TSH (≥0.5 to <4.0 mIU/l, euthyroid group) or elevated TSH (≥4.0 to <25.0 mIU/l, SCH group) and simultaneous measurement of serum lipid and lipoprotein status.",A
+What were the p-value and 95% confidence interval for the primary outcome related to cardiovascular disease and health outcomes in children and adolescents?,"Recent epidemiological evidence suggests that subclinical hypothyroidism (SCH), defined as elevated TSH concentrations with normal circulating levels of triiodothyronine (T3) and thyroxine (T4), is associated with dyslipidemia and cardiovascular disease in adult populations.",0,Subclinical Hypothyroidism and Dyslipidemia in Children and Adolescents With Type 1 Diabetes Mellitus.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to cardiovascular disease and health outcomes in children and adolescents?
+
+Evidence:
+Recent epidemiological evidence suggests that subclinical hypothyroidism (SCH), defined as elevated TSH concentrations with normal circulating levels of triiodothyronine (T3) and thyroxine (T4), is associated with dyslipidemia and cardiovascular disease in adult populations.",A
+How common is subclinical hypothyroidism among young people with type 1 diabetes?,"Subclinical hypothyroidism affected 7.2% of 22,747 children, adolescents, and young adults under age 25 with type 1 diabetes. Compared with euthyroid participants, those with subclinical hypothyroidism had higher adjusted total cholesterol (178.7 vs 175.3 mg/dL) and LDL cholesterol (97.0 vs 93.7 mg/dL).",1,Subclinical Hypothyroidism and Dyslipidemia in Children and Adolescents With Type 1 Diabetes Mellitus.txt,"Question: How common is subclinical hypothyroidism among young people with type 1 diabetes?
+
+Evidence:
+Subclinical hypothyroidism affected 7.2% of 22,747 children, adolescents, and young adults under age 25 with type 1 diabetes. Compared with euthyroid participants, those with subclinical hypothyroidism had higher adjusted total cholesterol (178.7 vs 175.3 mg/dL) and LDL cholesterol (97.0 vs 93.7 mg/dL).",A
+What is understood about type 1 diabetes in children and adolescents in adults?,"Dyslipidemia in children adolescents with type 1 diabetes mellitus"" reports that recent epidemiological evidence suggests that subclinical hypothyroidism (SCH) defined as elevated TSH concentrations with normal circulating levels of triiodothyronine (T3).",0,Subclinical Hypothyroidism and Dyslipidemia in Children and Adolescents With Type 1 Diabetes Mellitus.txt,"Question: What is understood about type 1 diabetes in children and adolescents in adults?
+
+Evidence:
+Dyslipidemia in children adolescents with type 1 diabetes mellitus"" reports that recent epidemiological evidence suggests that subclinical hypothyroidism (SCH) defined as elevated TSH concentrations with normal circulating levels of triiodothyronine (T3).",A
+What mechanisms may contribute to type 1 diabetes in children and adolescents?,"Adjusted for age, gender, diabetes duration, current insulin dose, HbA1c, and BMI z-score, patients with SCH had significantly higher levels of total cholesterol (178.7 vs 175.3 mg/dl, P<0.001) and LDL-cholesterol (97.0 vs 93.7 mg/dl, P<0.001) compared with euthyroid patients.",0,Subclinical Hypothyroidism and Dyslipidemia in Children and Adolescents With Type 1 Diabetes Mellitus.txt,"Question: What mechanisms may contribute to type 1 diabetes in children and adolescents?
+
+Evidence:
+Adjusted for age, gender, diabetes duration, current insulin dose, HbA1c, and BMI z-score, patients with SCH had significantly higher levels of total cholesterol (178.7 vs 175.3 mg/dl, P<0.001) and LDL-cholesterol (97.0 vs 93.7 mg/dl, P<0.001) compared with euthyroid patients.",A
+Are treatment responses for type 1 diabetes in children and adolescents different by sex or ethnicity?,SCH is a common finding in children.,0,Subclinical Hypothyroidism and Dyslipidemia in Children and Adolescents With Type 1 Diabetes Mellitus.txt,"Question: Are treatment responses for type 1 diabetes in children and adolescents different by sex or ethnicity?
+
+Evidence:
+SCH is a common finding in children.",A
+What is known about bariatric surgery in adolescents?,Multicenter observational study designed to collect coordinated clinical epidemiological and behavioral data on adolescents (≤19 years old) undergoing bariatric surgery compared to adult historical counterparts.,1,Teen-Longitudinal Assessment of Bariatric Surgery (Teen-LABS) Methodologic Features of the First Prospective Multicenter Study of Adolescent Bariatric Surgery.txt,"Question: What is known about bariatric surgery in adolescents?
+
+Evidence:
+Multicenter observational study designed to collect coordinated clinical epidemiological and behavioral data on adolescents (≤19 years old) undergoing bariatric surgery compared to adult historical counterparts.",A
+What are the age-specific estimates and confidence intervals for bariatric surgery in adolescents?,Specifying that external researchers may utilize Teen-LABS data or biospecimens provided their protocols do not interfere with the observational nature of the core study receive approval following established submission procedures.,0,Teen-Longitudinal Assessment of Bariatric Surgery (Teen-LABS) Methodologic Features of the First Prospective Multicenter Study of Adolescent Bariatric Surgery.txt,"Question: What are the age-specific estimates and confidence intervals for bariatric surgery in adolescents?
+
+Evidence:
+Specifying that external researchers may utilize Teen-LABS data or biospecimens provided their protocols do not interfere with the observational nature of the core study receive approval following established submission procedures.",A
+What were the p-value and 95% confidence interval for the primary outcome related to bariatric surgery in adolescents?,Eating behaviors depressive symptoms and health-related quality of life.,0,Teen-Longitudinal Assessment of Bariatric Surgery (Teen-LABS) Methodologic Features of the First Prospective Multicenter Study of Adolescent Bariatric Surgery.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to bariatric surgery in adolescents?
+
+Evidence:
+Eating behaviors depressive symptoms and health-related quality of life.",A
+What care or management is recommended for BMI in adolescents?,Noting that 200 adolescent patients across four clinical centers a comparison group of 200 adults across five centers will be tracked to determine baseline differences in health status.,1,Teen-Longitudinal Assessment of Bariatric Surgery (Teen-LABS) Methodologic Features of the First Prospective Multicenter Study of Adolescent Bariatric Surgery.txt,"Question: What care or management is recommended for BMI in adolescents?
+
+Evidence:
+Noting that 200 adolescent patients across four clinical centers a comparison group of 200 adults across five centers will be tracked to determine baseline differences in health status.",A
+What is known about management of BMI in adults?,Protocol of the first prospective multicenter observational study designed to collect coordinated clinical epidemiological.,0,Teen-Longitudinal Assessment of Bariatric Surgery (Teen-LABS) Methodologic Features of the First Prospective Multicenter Study of Adolescent Bariatric Surgery.txt,"Question: What is known about management of BMI in adults?
+
+Evidence:
+Protocol of the first prospective multicenter observational study designed to collect coordinated clinical epidemiological.",A
+What biological mechanisms contribute to management of BMI?,Evaluate early (30-day) intermediate-term (1–2 year) surgical risks and compare psychosocial domains.,0,Teen-Longitudinal Assessment of Bariatric Surgery (Teen-LABS) Methodologic Features of the First Prospective Multicenter Study of Adolescent Bariatric Surgery.txt,"Question: What biological mechanisms contribute to management of BMI?
+
+Evidence:
+Evaluate early (30-day) intermediate-term (1–2 year) surgical risks and compare psychosocial domains.",A
+"Do treatment outcomes for management of BMI differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",Compare psychosocial domains eating behaviors depressive symptoms.,0,Teen-Longitudinal Assessment of Bariatric Surgery (Teen-LABS) Methodologic Features of the First Prospective Multicenter Study of Adolescent Bariatric Surgery.txt,"Question: Do treatment outcomes for management of BMI differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+Compare psychosocial domains eating behaviors depressive symptoms.",A
+What tests are used to identify type 2 diabetes in youth?,IA-2 autoantibodies—and its associated clinical laboratory characteristics in youth aged 10–17 years clinically diagnosed with type 2 diabetes.,1,The Presence of GAD and IA-2 Antibodies in Youth With a Type 2 Diabetes Phenotype.txt,"Question: What tests are used to identify type 2 diabetes in youth?
+
+Evidence:
+IA-2 autoantibodies—and its associated clinical laboratory characteristics in youth aged 10–17 years clinically diagnosed with type 2 diabetes.",A
+What age-specific estimates and confidence intervals are available for type 2 diabetes in youth?,"Compared to their autoantibody-negative counterparts, antibody-positive youth displayed less marked characteristics of type 2 diabetes and metabolic syndrome, exhibiting lower BMI z scores, blood pressure, serum triglycerides, and fasting C-peptide levels, as well as higher HDL cholesterol levels and a higher frequency of insulin use.",0,The Presence of GAD and IA-2 Antibodies in Youth With a Type 2 Diabetes Phenotype.txt,"Question: What age-specific estimates and confidence intervals are available for type 2 diabetes in youth?
+
+Evidence:
+Compared to their autoantibody-negative counterparts, antibody-positive youth displayed less marked characteristics of type 2 diabetes and metabolic syndrome, exhibiting lower BMI z scores, blood pressure, serum triglycerides, and fasting C-peptide levels, as well as higher HDL cholesterol levels and a higher frequency of insulin use.",A
+What were the p-value and 95% confidence interval for the primary outcome related to is type 2 diabetes screened for or diagnosed in youth?,"Among 1,206 screened participants with an overweight or obese phenotype, 9.8% tested positive for islet autoantibodies (5.9% single-antibody positive and 3.9% double-antibody positive), with autoantibody positivity being significantly more frequent in white and male participants.",0,The Presence of GAD and IA-2 Antibodies in Youth With a Type 2 Diabetes Phenotype.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to is type 2 diabetes screened for or diagnosed in youth?
+
+Evidence:
+Among 1,206 screened participants with an overweight or obese phenotype, 9.8% tested positive for islet autoantibodies (5.9% single-antibody positive and 3.9% double-antibody positive), with autoantibody positivity being significantly more frequent in white and male participants.",A
+What proportion of patients is affected by type 2 diabetes in youth?,Routine clinical measurements alone cannot reliably differentiate obese youth with type 2 diabetes from those with autoimmune-mediated diabetes without formal autoantibody testing.,1,The Presence of GAD and IA-2 Antibodies in Youth With a Type 2 Diabetes Phenotype.txt,"Question: What proportion of patients is affected by type 2 diabetes in youth?
+
+Evidence:
+Routine clinical measurements alone cannot reliably differentiate obese youth with type 2 diabetes from those with autoimmune-mediated diabetes without formal autoantibody testing.",A
+How does type 2 diabetes affect adults?,Blood pressure showed substantial overlap between antibody-positive antibody-negative groups demonstrating that physical features.,0,The Presence of GAD and IA-2 Antibodies in Youth With a Type 2 Diabetes Phenotype.txt,"Question: How does type 2 diabetes affect adults?
+
+Evidence:
+Blood pressure showed substantial overlap between antibody-positive antibody-negative groups demonstrating that physical features.",A
+What health effects are associated with is type 2 diabetes screened for or diagnosed?,Despite these group-level statistical differences individual parameters like BMI z score C-peptide.,0,The Presence of GAD and IA-2 Antibodies in Youth With a Type 2 Diabetes Phenotype.txt,"Question: What health effects are associated with is type 2 diabetes screened for or diagnosed?
+
+Evidence:
+Despite these group-level statistical differences individual parameters like BMI z score C-peptide.",A
+What should a clinician consider when assessing type 2 diabetes?,C-peptide lipid levels and blood pressure showed substantial overlap between antibody-positive.,0,The Presence of GAD and IA-2 Antibodies in Youth With a Type 2 Diabetes Phenotype.txt,"Question: What should a clinician consider when assessing type 2 diabetes?
+
+Evidence:
+C-peptide lipid levels and blood pressure showed substantial overlap between antibody-positive.",A
+How prevalent is hypoglycemia?,The percentage of patients achieving the target HbA1c of <7% (<53 mmol/mol) rose from 21% in 2008 to 34% in 2018 while severe hypoglycemia rates dropped from 3.8% to 2.4%.,1,The SWEET Project 10-Year Benchmarking study.txt,"Question: How prevalent is hypoglycemia?
+
+Evidence:
+The percentage of patients achieving the target HbA1c of <7% (<53 mmol/mol) rose from 21% in 2008 to 34% in 2018 while severe hypoglycemia rates dropped from 3.8% to 2.4%.",A
+What are the age-specific rates and 95% confidence intervals for hypoglycemia in patients?,Severe hypoglycemia rates dropped from 3.8% to 2.4% and secondary cardiovascular risk factors such as BMI-standard deviation score improved.,0,The SWEET Project 10-Year Benchmarking study.txt,"Question: What are the age-specific rates and 95% confidence intervals for hypoglycemia in patients?
+
+Evidence:
+Severe hypoglycemia rates dropped from 3.8% to 2.4% and secondary cardiovascular risk factors such as BMI-standard deviation score improved.",A
+Which p-value and 95% confidence interval correspond to the primary outcome for hypoglycemia?,"Twice-yearly international benchmarking, standardized quality control, continuous data monitoring, and the adoption of modern diabetes technologies within centers of reference are effective strategies for improving long-term metabolic outcomes in pediatric type 1 diabetes care.",0,The SWEET Project 10-Year Benchmarking study.txt,"Question: Which p-value and 95% confidence interval correspond to the primary outcome for hypoglycemia?
+
+Evidence:
+Twice-yearly international benchmarking, standardized quality control, continuous data monitoring, and the adoption of modern diabetes technologies within centers of reference are effective strategies for improving long-term metabolic outcomes in pediatric type 1 diabetes care.",A
+What should a clinician consider about hypoglycemia?,The percentage of patients achieving the target HbA1c of <7% (<53 mmol/mol) rose from 21% in 2008 to 34% in 2018.,1,The SWEET Project 10-Year Benchmarking study.txt,"Question: What should a clinician consider about hypoglycemia?
+
+Evidence:
+The percentage of patients achieving the target HbA1c of <7% (<53 mmol/mol) rose from 21% in 2008 to 34% in 2018.",A
+What does hba1c in adults mean for patient care?,The impact of treatment changes in 16 082 youth with type 1 diabetes across 22 centers in 19 countries between 2008–2010 2016–2018.,0,The SWEET Project 10-Year Benchmarking study.txt,"Question: What does hba1c in adults mean for patient care?
+
+Evidence:
+The impact of treatment changes in 16 082 youth with type 1 diabetes across 22 centers in 19 countries between 2008–2010 2016–2018.",A
+How is hypoglycemia relevant to patient care?,"Over the 10-year period, adjusted mean HbA1c significantly improved from 68 mmol/mol (8.4%) to 63 mmol/mol (7.9%), coinciding with an increase in insulin pump use from 25.7% to 41.8% and continuous glucose monitoring sensor use from 1.5% to 44.6%.",0,The SWEET Project 10-Year Benchmarking study.txt,"Question: How is hypoglycemia relevant to patient care?
+
+Evidence:
+Over the 10-year period, adjusted mean HbA1c significantly improved from 68 mmol/mol (8.4%) to 63 mmol/mol (7.9%), coinciding with an increase in insulin pump use from 25.7% to 41.8% and continuous glucose monitoring sensor use from 1.5% to 44.6%.",A
+"Regarding hypoglycemia, do treatment outcomes for hba1c differ by sex or ethnicity, and what are the effect estimates and confidence intervals?",The impact of treatment changes in 16; adjusted mean HbA1c significantly improved from 68 mmol/mol (8.4%) to 63 mmol/mol (7.9%).,0,The SWEET Project 10-Year Benchmarking study.txt,"Question: Regarding hypoglycemia, do treatment outcomes for hba1c differ by sex or ethnicity, and what are the effect estimates and confidence intervals?
+
+Evidence:
+The impact of treatment changes in 16; adjusted mean HbA1c significantly improved from 68 mmol/mol (8.4%) to 63 mmol/mol (7.9%).",A
+"Clinically, which serious adverse events or safety concerns can occur in adolescents?",Safety and longitudinal outcomes of three treatment strategies—metformin alone metformin plus rosiglitazone.,1,TODAY Reflects on the Changing Faces of Type 2 Diabetes.txt,"Question: Clinically, which serious adverse events or safety concerns can occur in adolescents?
+
+Evidence:
+Safety and longitudinal outcomes of three treatment strategies—metformin alone metformin plus rosiglitazone.",A
+"Clinically, how common are serious adverse events or safety concerns in adolescents, and how do rates vary by age group with 95% confidence intervals?","Considering projections of up to a fourfold increase in youth type 2 diabetes, the commentary emphasizes the critical recommendation for immediate research, screening, medical interventions, and public policy changes to slow and reverse the growing health and economic burden of adolescent-onset type 2 diabetes.",0,TODAY Reflects on the Changing Faces of Type 2 Diabetes.txt,"Question: Clinically, how common are serious adverse events or safety concerns in adolescents, and how do rates vary by age group with 95% confidence intervals?
+
+Evidence:
+Considering projections of up to a fourfold increase in youth type 2 diabetes, the commentary emphasizes the critical recommendation for immediate research, screening, medical interventions, and public policy changes to slow and reverse the growing health and economic burden of adolescent-onset type 2 diabetes.",A
+"Clinically, what were the p-value and 95% confidence interval for the primary outcome related to serious adverse events or safety concerns in adolescents?",Metformin monotherapy achieved durable glycemic control in only about half of the youth whereas the combination of metformin rosiglitazone significantly improved glycemic durability due to favorable effects on insulin sensitivity.,0,TODAY Reflects on the Changing Faces of Type 2 Diabetes.txt,"Question: Clinically, what were the p-value and 95% confidence interval for the primary outcome related to serious adverse events or safety concerns in adolescents?
+
+Evidence:
+Metformin monotherapy achieved durable glycemic control in only about half of the youth whereas the combination of metformin rosiglitazone significantly improved glycemic durability due to favorable effects on insulin sensitivity.",A
+How did treatment options compare in maintaining glycemic control in adolescents with type 2 diabetes?,Metformin plus rosiglitazone and metformin plus intensive lifestyle changes—in maintaining glycemic control among adolescents aged 10 to 17 years with recent-onset type 2 diabetes.,1,TODAY Reflects on the Changing Faces of Type 2 Diabetes.txt,"Question: How did treatment options compare in maintaining glycemic control in adolescents with type 2 diabetes?
+
+Evidence:
+Metformin plus rosiglitazone and metformin plus intensive lifestyle changes—in maintaining glycemic control among adolescents aged 10 to 17 years with recent-onset type 2 diabetes.",A
+What should clinicians know about serious adverse events or safety concerns in adults?,Chronic inflammation hypertension and microalbuminuria worsened over time regardless of diabetes treatment.,0,TODAY Reflects on the Changing Faces of Type 2 Diabetes.txt,"Question: What should clinicians know about serious adverse events or safety concerns in adults?
+
+Evidence:
+Chronic inflammation hypertension and microalbuminuria worsened over time regardless of diabetes treatment.",A
+"Clinically, what biological mechanisms contribute to serious adverse events or safety concerns?",The treatment approaches were generally safe with primarily gastrointestinal side effects.,0,TODAY Reflects on the Changing Faces of Type 2 Diabetes.txt,"Question: Clinically, what biological mechanisms contribute to serious adverse events or safety concerns?
+
+Evidence:
+The treatment approaches were generally safe with primarily gastrointestinal side effects.",A
+Which sex or ethnic groups respond differently to serious adverse events or safety concerns?,Renal risk factors as dyslipidemia chronic inflammation.,0,TODAY Reflects on the Changing Faces of Type 2 Diabetes.txt,"Question: Which sex or ethnic groups respond differently to serious adverse events or safety concerns?
+
+Evidence:
+Renal risk factors as dyslipidemia chronic inflammation.",A
+How are HbA1c and fasting glucose used to identify diabetes risk in youth?,At-risk youth revealing key discrepancies when compared to traditional screening tests like HbA1c oral glucose tolerance tests.,1,Use of Continuous Glucose Monitoring in Youth-Onset Type 2 Diabetes.txt,"Question: How are HbA1c and fasting glucose used to identify diabetes risk in youth?
+
+Evidence:
+At-risk youth revealing key discrepancies when compared to traditional screening tests like HbA1c oral glucose tolerance tests.",A
+What are the age-specific estimates and confidence intervals for are HbA1c and fasting glucose used to identify diabetes risk in youth?,Applications and current research landscape of continuous glucose monitoring (CGM) technology in youth-onset type 2 diabetes.,0,Use of Continuous Glucose Monitoring in Youth-Onset Type 2 Diabetes.txt,"Question: What are the age-specific estimates and confidence intervals for are HbA1c and fasting glucose used to identify diabetes risk in youth?
+
+Evidence:
+Applications and current research landscape of continuous glucose monitoring (CGM) technology in youth-onset type 2 diabetes.",A
+What were the p-value and 95% confidence interval for the primary outcome related to are HbA1c and fasting glucose used to identify diabetes risk in youth?,Glucose variability and cardiometabolic risk markers in obese at-risk youth.,0,Use of Continuous Glucose Monitoring in Youth-Onset Type 2 Diabetes.txt,"Question: What were the p-value and 95% confidence interval for the primary outcome related to are HbA1c and fasting glucose used to identify diabetes risk in youth?
+
+Evidence:
+Glucose variability and cardiometabolic risk markers in obese at-risk youth.",A
+What is known about glycemic control in youth?,It highlights that interventional evidence regarding CGM's effectiveness in directly improving long-term glycemic control specifically in youth with type 2 diabetes remains very limited.,1,Use of Continuous Glucose Monitoring in Youth-Onset Type 2 Diabetes.txt,"Question: What is known about glycemic control in youth?
+
+Evidence:
+It highlights that interventional evidence regarding CGM's effectiveness in directly improving long-term glycemic control specifically in youth with type 2 diabetes remains very limited.",A
+What should clinicians know about glycemic control in adults?,CGM provides critical insights into free-living glycemic patterns glucose variability.,0,Use of Continuous Glucose Monitoring in Youth-Onset Type 2 Diabetes.txt,"Question: What should clinicians know about glycemic control in adults?
+
+Evidence:
+CGM provides critical insights into free-living glycemic patterns glucose variability.",A
+What health effects are associated with are HbA1c and fasting glucose used to identify diabetes risk?,Establish dedicated guidelines for utilizing advanced glucose monitoring tools to optimize clinical outcomes in this young population facing an aggressive form of the disease.,0,Use of Continuous Glucose Monitoring in Youth-Onset Type 2 Diabetes.txt,"Question: What health effects are associated with are HbA1c and fasting glucose used to identify diabetes risk?
+
+Evidence:
+Establish dedicated guidelines for utilizing advanced glucose monitoring tools to optimize clinical outcomes in this young population facing an aggressive form of the disease.",A
+Which sex or ethnic groups respond differently to glycemic control?,"CGM provides critical insights into free-living glycemic patterns, glucose variability, and cardiometabolic risk markers in obese and at-risk youth, revealing key discrepancies when compared to traditional screening tests like HbA1c and oral glucose tolerance tests.",0,Use of Continuous Glucose Monitoring in Youth-Onset Type 2 Diabetes.txt,"Question: Which sex or ethnic groups respond differently to glycemic control?
+
+Evidence:
+CGM provides critical insights into free-living glycemic patterns, glucose variability, and cardiometabolic risk markers in obese and at-risk youth, revealing key discrepancies when compared to traditional screening tests like HbA1c and oral glucose tolerance tests.",A

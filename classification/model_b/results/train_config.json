@@ -1,0 +1,19 @@
+{
+  "model_id": "model_b",
+  "pretrained_checkpoint": "microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext",
+  "dataset": "B",
+  "epochs": 5,
+  "batch_size": 4,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "max_length": 512,
+  "seed": 42,
+  "class_weights": [
+    0.8586956521739131,
+    1.196969696969697
+  ],
+  "device": "cpu",
+  "total_steps": 200,
+  "training_loss": 0.7875152587890625,
+  "resumed_from_checkpoint": "classification/model_b/checkpoint/checkpoints/checkpoint-160"
+}

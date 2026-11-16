@@ -1,0 +1,15 @@
+Metric,Model A,Model B,Model C
+Accuracy,0.5441,0.6029,0.7941
+Macro Precision,0.5451,0.6233,0.8379
+Macro Recall,0.5450,0.5961,0.7887
+Macro F1,0.5440,0.5765,0.7850
+Insuff. Precision,0.5625,0.5800,0.7234
+Insuff. Recall,0.5143,0.8286,0.9714
+Insuff. F1,0.5373,0.6824,0.8293
+Suff. F1,0.5507,0.4706,0.7407
+False Acceptance Count,17,6,1
+False Acceptance Rate,0.4857,0.1714,0.0286
+False Rejection Count,14,21,13
+False Rejection Rate,0.4242,0.6364,0.3939
+Threshold,0.3000,0.6500,0.4000
+Latency (s/example),0.2664,0.5398,0.5648

@@ -1,0 +1,14 @@
+{
+  "model": "model_c",
+  "dataset": "A+B_extended",
+  "seed": 42,
+  "train_size": 1428,
+  "train_A_size": 1120,
+  "train_B_size": 308,
+  "val_size": 68,
+  "test_size": 68,
+  "max_length": 512,
+  "leakage_prevention": "Dataset A training examples with questions >=85% similar to B test/val questions excluded",
+  "split_method": "question_level_stratified for B; source_file grouping for A",
+  "note": "All 44 source papers shared across splits. Evaluation measures generalization to new questions from familiar papers."
+}

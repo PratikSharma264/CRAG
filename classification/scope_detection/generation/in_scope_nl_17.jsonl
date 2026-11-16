@@ -1,0 +1,70 @@
+{"question": "Pharmacovigilance: SGLT2 inhibitor safety in pediatric T1D", "category": "pediatric_t1d", "subcategory": "pharmacovigilance", "annotation_reason": "Researcher + pediatric explicit"}
+{"question": "Long-term outcomes of childhood-onset T1D", "category": "complications", "subcategory": "longterm_outcomes", "annotation_reason": "Childhood-onset explicit, outcomes"}
+{"question": "Long-term cardiovascular outcomes youth-onset T2D", "category": "complications", "subcategory": "CV_outcomes_youth_T2D", "annotation_reason": "Youth-onset explicit, CV"}
+{"question": "Bolus insulin timing for toddler meals: pre vs post", "category": "insulin_therapy", "subcategory": "bolus", "annotation_reason": "Toddler = pediatric, bolus timing"}
+{"question": "Growth failure in child with poorly controlled T1D", "category": "complications", "subcategory": "growth", "annotation_reason": "Child = pediatric, growth"}
+{"question": "Transition timeline: start at 14, transfer at 18?", "category": "transition", "subcategory": "timeline", "annotation_reason": "Explicit ages (14, 18), timeline"}
+{"question": "Health equity: T2D screening disparities in adolescents", "category": "pediatric_t2d", "subcategory": "health_equity", "annotation_reason": "Researcher + adolescents explicit"}
+{"question": "Cost-effectiveness: CGM vs SMBG in pediatric T1D", "category": "glucose_monitoring", "subcategory": "cost_effectiveness", "annotation_reason": "Researcher + pediatric explicit"}
+{"question": "Insulin pump vs shots for my 12 yr old", "category": "insulin_therapy", "subcategory": "pump_vs_shots", "annotation_reason": "Typo: yr + explicit age (12)"}
+{"question": "Device registry: Pump failure rates in 5-15 year olds", "category": "insulin_therapy", "subcategory": "device_registry", "annotation_reason": "Researcher + explicit age range (5-15)"}
+{"question": "Diabetic ketoacidosis in toddler: fluid management", "category": "complications", "subcategory": "DKA_toddler", "annotation_reason": "Toddler = pediatric, DKA fluids"}
+{"question": "Structured transition program outcomes at 5 years", "category": "transition", "subcategory": "program_outcomes", "annotation_reason": "Transition program explicit, outcomes"}
+{"question": "Rights of student with T1D under ADA/Section 504", "category": "parents_caregivers_schools", "subcategory": "legal_rights", "annotation_reason": "Student = pediatric, legal rights"}
+{"question": "Technology assessment: Automated insulin delivery in 7-13 year olds", "category": "insulin_therapy", "subcategory": "tech_assessment", "annotation_reason": "Researcher + explicit age range (7-13)"}
+{"question": "NAFLD screening in obese adolescents with T2D", "category": "pediatric_t2d", "subcategory": "comorbidities", "annotation_reason": "Adolescents explicit, NAFLD"}
+{"question": "Autoimmune gastritis in pediatric T1D", "category": "complications", "subcategory": "gastritis", "annotation_reason": "Pediatric explicit, gastritis"}
+{"question": "Psychosocial assessment: Diabetes distress screening tools for adolescents", "category": "psychosocial", "subcategory": "distress_tools", "annotation_reason": "Adolescents explicit, tools"}
+{"question": "Smart insulin pens for teens: data sharing with clinic", "category": "insulin_therapy", "subcategory": "pens", "annotation_reason": "Teens = adolescent, smart pens"}
+{"question": "Is Libre 3 accurate enough for a toddler?", "category": "pediatric_t1d", "subcategory": "glucose_monitoring", "annotation_reason": "Toddler = pediatric, specific device"}
+{"question": "Behavioral intervention: Reducing insulin omission in adolescent girls", "category": "nutrition_lifestyle", "subcategory": "behavioral_intervention", "annotation_reason": "Researcher + adolescent girls explicit"}
+{"question": "GLP-1 RA for teen with T1D and obesity", "category": "pediatric_t1d", "subcategory": "medications", "annotation_reason": "Teen = adolescent, GLP-1"}
+{"question": "AndroidAPS for teen with T1D: setup guide", "category": "insulin_therapy", "subcategory": "AndroidAPS", "annotation_reason": "Teen = adolescent, AndroidAPS"}
+{"question": "Literature review: CGM accuracy in children <7 years", "category": "glucose_monitoring", "subcategory": "lit_review", "annotation_reason": "Researcher + explicit age (<7)"}
+{"question": "Complications screening in adolescent T2D", "category": "pediatric_t2d", "subcategory": "complications", "annotation_reason": "Adolescent explicit, screening"}
+{"question": "Enterovirus link to T1D in toddlers", "category": "pediatric_t1d", "subcategory": "etiology", "annotation_reason": "Toddlers = pediatric, enterovirus"}
+{"question": "Longitudinal cohort: Glycemic trajectories from childhood to adulthood", "category": "pediatric_t1d", "subcategory": "cohort", "annotation_reason": "Researcher + childhood to adulthood"}
+{"question": "Protein and fat impact on glucose in pediatric T1D", "category": "pediatric_t1d", "subcategory": "nutrition", "annotation_reason": "Pediatric explicit, protein/fat"}
+{"question": "Diabetic kidney disease progression youth T2D", "category": "complications", "subcategory": "DKD_youth_T2D", "annotation_reason": "Youth explicit, DKD"}
+{"question": "High school diabetes education: what to cover", "category": "pediatric_t1d", "subcategory": "education_hs", "annotation_reason": "High school = adolescent, education"}
+{"question": "SGLT2 inhibitors in pediatric T1D: any trials?", "category": "pediatric_t1d", "subcategory": "medications", "annotation_reason": "Pediatric explicit, SGLT2"}
+{"question": "Mini-dose glucagon for toddler sick days", "category": "pediatric_t1d", "subcategory": "acute_complications", "annotation_reason": "Toddler = pediatric, mini-dose glucagon"}
+{"question": "Gestational diabetes exposure: screening child at 7", "category": "pediatric_t2d", "subcategory": "screening", "annotation_reason": "Explicit age (7), GDM exposure"}
+{"question": "Teen's pump keeps falling off during football", "category": "pediatric_t1d", "subcategory": "pump", "annotation_reason": "Teen + pump issue"}
+{"question": "ADA Standards of Care HbA1c <7.5% for youth", "category": "glucose_monitoring", "subcategory": "ADA_targets", "annotation_reason": "ADA explicit, youth"}
+{"question": "Correction factor formula for pediatric T1D patients", "category": "pediatric_t1d", "subcategory": "insulin_therapy", "annotation_reason": "Pediatric explicit, correction factor"}
+{"question": "Zegalogue auto-injector age approval", "category": "insulin_therapy", "subcategory": "zeegalogue_age", "annotation_reason": "Pediatric explicit, Zegalogue"}
+{"question": "Celiac disease screening T1D vs general pediatrics", "category": "complications", "subcategory": "celiac_screening_T1D", "annotation_reason": "T1D + pediatric explicit"}
+{"question": "Incidence of T1D in kids under 5 has been rising?", "category": "pediatric_t1d", "subcategory": "epidemiology", "annotation_reason": "Kids under 5 = pediatric, incidence"}
+{"question": "Online diabetes education modules for teens T1D", "category": "pediatric_t1d", "subcategory": "online_education", "annotation_reason": "Teens = adolescent, online education"}
+{"question": "Interstitial fluid glucose lag in toddlers", "category": "glucose_monitoring", "subcategory": "physiology", "annotation_reason": "Toddlers = pediatric, physiology"}
+{"question": "Antibody testing for new-onset T1D in children: which ones?", "category": "pediatric_t1d", "subcategory": "diagnosis", "annotation_reason": "Children explicit, antibody testing"}
+{"question": "Concentrated insulin (U-200, U-300) in children: safe?", "category": "pediatric_t1d", "subcategory": "insulin_therapy", "annotation_reason": "Children explicit, concentrated insulin"}
+{"question": "Progression from prediabetes to T2D in adolescents: timeline", "category": "pediatric_t2d", "subcategory": "prediabetes", "annotation_reason": "Adolescents explicit, progression timeline"}
+{"question": "ADA risk-based screening for type 2 diabetes in children", "category": "pediatric_t2d", "subcategory": "screening", "annotation_reason": "Children explicit, ADA risk-based screening"}
+{"question": "Addison's disease risk in pediatric T1D", "category": "pediatric_t1d", "subcategory": "comorbidities", "annotation_reason": "Pediatric explicit, Addison's"}
+{"question": "Depression screening in adolescents with T1D", "category": "psychosocial", "subcategory": "depression", "annotation_reason": "Adolescents explicit, depression"}
+{"question": "I was diagnosed with type 1 at 9 and I'm 21 now, how do I handle insurance when I age off my parents' plan?", "category": "transition", "subcategory": "insurance_aging_out", "annotation_reason": "Childhood-onset (dx at 9) + age 21, insurance transition"}
+{"question": "My pediatric endocrinologist wants me to move to an adult clinic and I'm 19, what should I expect?", "category": "transition", "subcategory": "care_transfer", "annotation_reason": "Pediatric-to-adult transition explicit + age 19"}
+{"question": "Transitioning from pediatric to adult care at 20 with T1D since childhood, what changes?", "category": "transition", "subcategory": "care_transfer", "annotation_reason": "Pediatric-to-adult explicit + childhood-onset + age 20"}
+{"question": "I was diagnosed with T1D at 12, now 23 and pregnant, how does childhood-onset affect my high-risk OB care?", "category": "transition", "subcategory": "pregnancy", "annotation_reason": "Diagnosed at 12 + age 23, pregnancy"}
+{"question": "Switching from pediatric endocrinologist to adult at 21 after 14 years with T1D, any tips?", "category": "transition", "subcategory": "switching_endo", "annotation_reason": "Pediatric-to-adult switch + 14 years T1D + age 21"}
+{"question": "I'm 20 with childhood-onset T1D, how do I get CGM coverage on my own insurance plan?", "category": "transition", "subcategory": "cgm_insurance", "annotation_reason": "Childhood-onset + age 20, CGM insurance"}
+{"question": "I'm 22 with T1D since childhood, can I stay on parents' insurance until 26 if I'm in grad school?", "category": "transition", "subcategory": "insurance_age26", "annotation_reason": "Childhood-onset + age 22, insurance age 26"}
+{"question": "I'm 24, had T1D since 8, how do I handle insulin costs now that I'm off parents' plan?", "category": "transition", "subcategory": "insulin_cost", "annotation_reason": "Since age 8 + age 24, insulin cost"}
+{"question": "Study abroad with T1D: I'm 20, diagnosed at 12, what supplies and docs do I need?", "category": "transition", "subcategory": "study_abroad", "annotation_reason": "Diagnosed at 12 + age 20, study abroad"}
+{"question": "Study abroad in Italy at 20 with childhood-onset T1D, insulin supply logistics?", "category": "transition", "subcategory": "study_abroad_intl", "annotation_reason": "Childhood-onset + age 20, intl study abroad"}
+{"question": "Tegaderm HP for CGM at 21 with T1D since childhood, skin sensitivity?", "category": "transition", "subcategory": "tegaderm", "annotation_reason": "Childhood-onset + age 21, Tegaderm"}
+{"question": "Teen constantly thirsty and peeing a lot - diabetes sign?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Teen asking about polydipsia/polyuria"}
+{"question": "Child wakes up multiple times at night to drink water, diabetes?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about nocturnal thirst"}
+{"question": "My son is 12 and using the bathroom constantly, could be T1D?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about frequent urination in preteen"}
+{"question": "Teenage daughter peeing all the time, even at school - diabetes symptom?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about polyuria in teen"}
+{"question": "Child lost 5 pounds in two weeks without trying, could be T1D?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about unexplained weight loss"}
+{"question": "Teen seems thinner despite huge appetite, should I test for diabetes?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about weight loss with increased hunger"}
+{"question": "Child falls asleep after school every day, diabetes-related?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about post-school fatigue"}
+{"question": "Teen used to be energetic, now constantly tired - diabetes?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about new-onset fatigue in teen"}
+{"question": "Teen complains vision gets fuzzy after eating, could be T1D?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Teen asking about postprandial blurred vision"}
+{"question": "Child squinting at TV lately, teacher noticed too - diabetes sign?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about vision changes noticed by others"}
+{"question": "Preteen losing weight, thirsty, grumpy - should I ask for diabetes test?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Parent asking about symptom cluster in preteen"}
+{"question": "I'm 16 and super thirsty all the time, peeing like crazy - diabetes?", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Teen self-reporting classic symptoms"}
+{"question": "Am I diabetic? Lost weight without trying, always tired, vision blurry", "category": "pediatric_t1d", "subcategory": "symptoms", "annotation_reason": "Teen self-reporting multiple symptoms"}

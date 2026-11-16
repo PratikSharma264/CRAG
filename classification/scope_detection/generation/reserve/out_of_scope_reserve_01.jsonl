@@ -1,0 +1,196 @@
+{"question": "Metabolic syndrome in 45-year-old male: criteria", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 45, metabolic syndrome adult"}
+{"question": "Insulin initiation in 60-year-old T2D uncontrolled", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 60, adult insulin start"}
+{"question": "Lean T2D in 30-year-old Asian male", "category": "adult_diabetes", "subcategory": "t2d_diagnosis", "annotation_reason": "Explicit age 30, lean adult"}
+{"question": "Obesity in 10-year-old: metabolic workup", "category": "other_medical_pediatric", "subcategory": "endocrine", "annotation_reason": "Explicit age 10, obesity"}
+{"question": "Insulin list price vs net price trend 2010-2024", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Price trend = economics"}
+{"question": "Intermittent fasting 16:8 insulin resistance 38yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 38, IF adult"}
+{"question": "Depression screening in 60-year-old with T2D", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Explicit age 60, depression adult"}
+{"question": "Instrumental variable for insulin adherence effect", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "IV = statistics"}
+{"question": "58-year-old T1D: carpal tunnel syndrome", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 58, adult carpal tunnel"}
+{"question": "Cost of diabetes complications by type", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Complication costs = economics"}
+{"question": "App Store Connect medical device category submission", "category": "non_medical", "subcategory": "programming", "annotation_reason": "App Store Connect = programming"}
+{"question": "41-year-old T1D: pregnancy high-risk OB", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 41, adult pregnancy"}
+{"question": "Cardiac autonomic neuropathy in 55-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_complications", "annotation_reason": "Explicit age 55, CAN adult"}
+{"question": "90-year-old T1D: centenarian study enrollment", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 90, centenarian study"}
+{"question": "37-year-old T2D: basal insulin titration", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 37, adult basal titration"}
+{"question": "Intermittent fasting 18:6 insulin resistance 30yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 30, IF adult"}
+{"question": "340B drug pricing program diabetes medications", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "340B = economics"}
+{"question": "68-year-old T1D: pump coverage Medicare", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 68, pump Medicare"}
+{"question": "86-year-old T1D: end-of-life insulin", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 86, EOL insulin"}
+{"question": "Insulin list price vs net price 2020-2024 trend", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Price trend = economics"}
+{"question": "Insulin resistance in 30-year-old: HOMA-IR cutoff", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 30, HOMA-IR adult"}
+{"question": "HbA1c every 6 months for 80-year-old stable", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, monitoring frequency elderly"}
+{"question": "Deintensify from 7% to 8% in 78-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, deintensification elderly"}
+{"question": "Insulin lispro biosimilar: analytical similarity", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Analytical similarity = pharma"}
+{"question": "35-year-old T2D: HbA1c target 7% vs 7.5%", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 35, adult A1c target debate"}
+{"question": "Inflation Reduction Act insulin $35 cap Medicare", "category": "diabetes_adjacent", "subcategory": "politics", "annotation_reason": "IRA $35 cap = politics"}
+{"question": "PCOS insulin resistance 28-year-old: metformin", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 28, PCOS metformin adult"}
+{"question": "57-year-old T2D: carpal tunnel release", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 57, adult carpal tunnel surgery"}
+{"question": "7-year-old with VUR: antibiotic prophylaxis", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 7, VUR not diabetes"}
+{"question": "Time-restricted eating 10hr window 40yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, TRE adult"}
+{"question": "24-year-old T2D: cardiovascular risk", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 24, CVD adult"}
+{"question": "Inositol for insulin resistance PCOS 28-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 28, inositol adult"}
+{"question": "66-year-old T1D: Medicare insulin coverage", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 66, Medicare insulin"}
+{"question": "26-year-old T1D: time in range 70-180 target", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 26, adult T1D TIR target"}
+{"question": "10-year-old growth hormone deficiency: treatment", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 10, growth hormone not diabetes"}
+{"question": "Mediterranean diet insulin resistance 50-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 50, Mediterranean adult"}
+{"question": "HbA1c target 7.8% for 72-year-old frail", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 72, frail elderly"}
+{"question": "A1c target for 70-year-old with heart failure", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 70, HF elderly"}
+{"question": "HbA1c 9% acceptable for 80-year-old with dementia", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, dementia elderly"}
+{"question": "50-year-old T2D: SGLT2 inhibitor renal protection", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 50, adult T2D SGLT2"}
+{"question": "Docker containerize a Node.js application", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Docker Node.js = programming"}
+{"question": "Electrochemistry of CGM sensor electrode", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Electrochemistry = chemistry"}
+{"question": "Proinsulin cleavage to insulin: C-peptide", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "C-peptide = general"}
+{"question": "General knowledge: what is insulin hormone", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "General knowledge = general"}
+{"question": "Nobel prizes for diabetes research", "category": "non_medical", "subcategory": "history", "annotation_reason": "Nobel prizes = history"}
+{"question": "Diabetes awareness month November facts", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Awareness month = general"}
+{"question": "Medicaid coverage for diabetes technology by state", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Medicaid coverage = politics"}
+{"question": "Famous scientists who discovered insulin", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Famous scientists = general"}
+{"question": "Fastlane automation for diabetes app deployment", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Fastlane = programming"}
+{"question": "VoiceOver accessibility for glucose trend charts", "category": "non_medical", "subcategory": "programming", "annotation_reason": "VoiceOver = programming"}
+{"question": "Explainable AI for clinical decision support diabetes", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Explainable AI = AI/ML"}
+{"question": "Diabetes economic burden US $400 billion", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Economic burden = economics"}
+{"question": "Federated learning for diabetes across hospitals", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Federated learning = AI/ML"}
+{"question": "Trivia: which cells produce insulin in pancreas", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Beta cells trivia = general"}
+{"question": "BERT for clinical notes diabetes extraction", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "BERT clinical notes = AI/ML"}
+{"question": "Group sequential design for diabetes outcome trial", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Group sequential = statistics"}
+{"question": "Transformer model for insulin dose recommendation", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Transformer insulin = AI/ML"}
+{"question": "Global insulin market size 2024 projections", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Global market size = economics"}
+{"question": "Do No Harm TV show diabetes medical accuracy", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "TV medical accuracy = entertainment"}
+{"question": "Diabetes in Renaissance Europe: Willis and Dobson", "category": "non_medical", "subcategory": "history", "annotation_reason": "Renaissance diabetes = history"}
+{"question": "Marathon running with T1D: elite athletes", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Marathon athletes = sports"}
+{"question": "Diabetes digital health reimbursement codes", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Digital health reimbursement = economics"}
+{"question": "Feature importance for T2D prediction model", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Feature importance = AI/ML"}
+{"question": "Insulin rationing mortality data US", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Rationing mortality = economics"}
+{"question": "Performance optimization for large glucose datasets", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Performance optimization = programming"}
+{"question": "CoreBluetooth state restoration for CGM app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "CoreBluetooth = programming"}
+{"question": "Diabetes podcasts: Juicebox Diabetes Daily", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Diabetes podcasts = entertainment"}
+{"question": "Out-of-distribution detection for glucose anomalies", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "OOD detection = AI/ML"}
+{"question": "Time series forecasting for HbA1c trajectories", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Time series forecasting = AI/ML"}
+{"question": "Celebrity with T1D: Nick Jonas advocacy", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Celebrity T1D = entertainment"}
+{"question": "Employer diabetes prevention program ROI", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Employer program ROI = economics"}
+{"question": "Panic Room Jodie Foster diabetes scene", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Panic Room = entertainment"}
+{"question": "Invariant risk minimization for diabetes across populations", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "IRM = AI/ML"}
+{"question": "GraphQL vs REST for mobile health app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "GraphQL REST = programming"}
+{"question": "Competing risk regression for diabetes mortality causes", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Competing risk = statistics"}
+{"question": "NFL player with T1D: Jay Cutler", "category": "non_medical", "subcategory": "sports", "annotation_reason": "NFL T1D = sports"}
+{"question": "Medicare competitive bidding diabetes supplies", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Competitive bidding = politics"}
+{"question": "Foundation model fine-tuning for diabetes notes", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Foundation model = AI/ML"}
+{"question": "Bayesian adaptive design for diabetes trial", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Bayesian adaptive = statistics"}
+{"question": "Mass spec imaging for insulin tissue distribution", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "MS imaging = chemistry"}
+{"question": "SHAP values for insulin dose model interpretability", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "SHAP interpretability = AI/ML"}
+{"question": "TestFlight beta testing for diabetes iOS app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "TestFlight = programming"}
+{"question": "Biosimilar insulin interchangeability FDA guidance", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Interchangeability = politics"}
+{"question": "Isothermal titration calorimetry for insulin receptor", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "ITC = chemistry"}
+{"question": "JavaScript async await best practices", "category": "non_medical", "subcategory": "programming", "annotation_reason": "JavaScript = programming"}
+{"question": "Cost-effectiveness of CGM for T2D Medicare", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Cost-effectiveness = economics"}
+{"question": "Thermodynamics of insulin hexamer dissociation", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Thermodynamics = chemistry"}
+{"question": "Diabetes awareness ribbon color: blue and gray", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Ribbon color = general"}
+{"question": "Bootstrap confidence intervals for A1c mean", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Bootstrap CI = statistics"}
+{"question": "Diabetes YouTube channels: Diabetic Danica", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "YouTube diabetes = entertainment"}
+{"question": "Grey's Anatomy diabetes episodes review", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Grey's Anatomy = entertainment"}
+{"question": "Mixpanel analytics for glucose app user behavior", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Mixpanel = programming"}
+{"question": "NMR spectroscopy of insulin in formulation", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "NMR = chemistry"}
+{"question": "Cycling tour de France diabetic team", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Cycling tour = sports"}
+{"question": "Marathon world record attempt with T1D", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Marathon WR T1D = sports"}
+{"question": "State insulin copay cap laws comparison", "category": "non_medical", "subcategory": "politics", "annotation_reason": "State copay laws = politics"}
+{"question": "History of diabetes classification T1 T2", "category": "non_medical", "subcategory": "history", "annotation_reason": "Classification history = history"}
+{"question": "Professional football player with T1D", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Football player = sports"}
+{"question": "GAN for synthetic glucose data generation", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "GAN synthetic data = AI/ML"}
+{"question": "X-ray crystallography of insulin-receptor complex", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "X-ray crystallography = physics"}
+{"question": "Large language model for diabetes patient education", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "LLM patient education = AI/ML"}
+{"question": "Adversarial attacks on glucose prediction model", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Adversarial attacks = AI/ML"}
+{"question": "Raman spectroscopy for non-invasive glucose", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Raman spectroscopy = physics"}
+{"question": "Regression discontinuity for diabetes screening age", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "RDD = statistics"}
+{"question": "Joint frailty model for recurrent hypoglycemia events", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Joint frailty = statistics"}
+{"question": "Deploy diabetes app to AWS HIPAA", "category": "non_medical", "subcategory": "programming", "annotation_reason": "AWS HIPAA deploy = programming"}
+{"question": "Transfer learning for rare diabetes subtypes", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Transfer learning = AI/ML"}
+{"question": "Olympic athletes with diabetes: who competed", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Olympic athletes = sports"}
+{"question": "History of insulin discovery Banting Best 1921", "category": "non_medical", "subcategory": "history", "annotation_reason": "History of insulin = history"}
+{"question": "Prior authorization reform diabetes medications", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Prior auth reform = politics"}
+{"question": "Secure aggregation for cross-hospital diabetes ML", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Secure aggregation = AI/ML"}
+{"question": "Interval censoring for diabetes complication onset", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Interval censoring = statistics"}
+{"question": "Multimodal AI: CGM + meals + activity for glucose", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Multimodal AI = AI/ML"}
+{"question": "Ironman triathlon with T1D: training nutrition", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Ironman T1D = sports"}
+{"question": "Neural ODE for continuous glucose dynamics", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Neural ODE = AI/ML"}
+{"question": "NFC glucose sensor reading from phone", "category": "non_medical", "subcategory": "programming", "annotation_reason": "NFC = programming"}
+{"question": "Multiple imputation for missing CGM data", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Multiple imputation = statistics"}
+{"question": "Diabetes Instagram influencers: top accounts", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Instagram diabetes = entertainment"}
+{"question": "Chinese traditional medicine for diabetes: Xiao Ke", "category": "non_medical", "subcategory": "history", "annotation_reason": "TCM diabetes = history"}
+{"question": "Insulin price history 1923 to present", "category": "non_medical", "subcategory": "history", "annotation_reason": "Insulin price history = history"}
+{"question": "WebSocket for real-time CGM data stream", "category": "non_medical", "subcategory": "programming", "annotation_reason": "WebSocket = programming"}
+{"question": "Frederick Banting birthday: November 14", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Banting birthday = general"}
+{"question": "Medicare drug price negotiation insulin impact", "category": "non_medical", "subcategory": "politics", "annotation_reason": "Medicare negotiation = politics"}
+{"question": "Analytical ultracentrifugation for insulin oligomerization", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "AUC = physics"}
+{"question": "Diabetes technology access disparities by income", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Access disparities = economics"}
+{"question": "Swimming with insulin pump: waterproof options", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Swimming pump = sports"}
+{"question": "Diabetes memoir books best sellers list", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "Memoir books = entertainment"}
+{"question": "Bayesian analysis for diabetes trial interim", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Bayesian analysis = statistics"}
+{"question": "Microfluidics for insulin pump delivery", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Microfluidics = physics"}
+{"question": "Adversarial robustness for insulin dose models", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "Adversarial robustness = AI/ML"}
+{"question": "Discovery of metformin from French lilac", "category": "non_medical", "subcategory": "history", "annotation_reason": "Metformin discovery = history"}
+{"question": "Google Play Console internal testing diabetes app", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Play Console = programming"}
+{"question": "FHIR integration for EHR data access", "category": "non_medical", "subcategory": "programming", "annotation_reason": "FHIR integration = programming"}
+{"question": "Net reclassification improvement for risk score", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "NRI = statistics"}
+{"question": "Value-based pricing for diabetes medications", "category": "non_medical", "subcategory": "economics", "annotation_reason": "Value-based pricing = economics"}
+{"question": "House MD diabetes diagnostic episodes", "category": "non_medical", "subcategory": "entertainment", "annotation_reason": "House MD = entertainment"}
+{"question": "Olympic swimmer with T1D: Gary Hall Jr", "category": "non_medical", "subcategory": "sports", "annotation_reason": "Olympic swimmer = sports"}
+{"question": "Permutation test for diabetes cluster randomized trial", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Permutation cluster = statistics"}
+{"question": "Train CNN to detect retinopathy from fundus photos", "category": "non_medical", "subcategory": "ai_ml", "annotation_reason": "CNN retinopathy = AI/ML"}
+{"question": "Pharmacy benefit manager reform insulin pricing", "category": "non_medical", "subcategory": "politics", "annotation_reason": "PBM reform = politics"}
+{"question": "GraphQL subscriptions for real-time glucose updates", "category": "non_medical", "subcategory": "programming", "annotation_reason": "GraphQL subscriptions = programming"}
+{"question": "Crystallography of insulin analogs", "category": "non_medical", "subcategory": "physics_chemistry", "annotation_reason": "Crystallography = chemistry"}
+{"question": "Permutation test for glucose variability metric", "category": "non_medical", "subcategory": "math_statistics", "annotation_reason": "Permutation test = statistics"}
+{"question": "Python pandas tutorial for data analysis", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Python pandas = programming"}
+{"question": "Stripe payments for diabetes app subscriptions", "category": "non_medical", "subcategory": "programming", "annotation_reason": "Stripe = programming"}
+{"question": "Insulin structure: A chain B chain disulfide bonds", "category": "non_medical", "subcategory": "general_knowledge", "annotation_reason": "Insulin structure = general"}
+{"question": "HbA1c target 7% for 40-year-old T1D: appropriate?", "category": "adult_diabetes", "subcategory": "t1d_monitoring", "annotation_reason": "Explicit age 40, adult HbA1c target"}
+{"question": "Postpartum T1D management for 35-year-old", "category": "adult_diabetes", "subcategory": "t1d_pregnancy", "annotation_reason": "Explicit age 35, adult postpartum"}
+{"question": "My T1D and my child's T1D: different targets", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T1D = adult"}
+{"question": "Dad with T1D since 20s, now 45: pump options?", "category": "adult_diabetes", "subcategory": "parent_own", "annotation_reason": "Parent explicit, own T1D = adult"}
+{"question": "T1D diagnosis at 35: antibody testing protocol", "category": "adult_diabetes", "subcategory": "t1d_diagnosis", "annotation_reason": "Explicit age 35, adult T1D diagnosis"}
+{"question": "Intermittent fasting T2D 50-year-old: protocols", "category": "adult_diabetes", "subcategory": "t2d_treatment", "annotation_reason": "Explicit age 50, fasting adult"}
+{"question": "Diabetes distress scale for 40-year-old T2D", "category": "adult_diabetes", "subcategory": "t2d_psychosocial", "annotation_reason": "Explicit age 40, distress adult"}
+{"question": "Gamification features for diabetes app engagement", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Gamification = programming"}
+{"question": "Insulin antibodies in diabetic dogs: resistance", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Dog insulin antibodies = pets"}
+{"question": "HIPAA compliant cloud storage for glucose data", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "HIPAA cloud = programming"}
+{"question": "SwiftUI glucose chart for iOS diabetes app", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "SwiftUI = programming"}
+{"question": "Early retirement due to diabetes economic impact", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Early retirement = economics"}
+{"question": "SUSHI FHIR tooling diabetes implementation guide", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "SUSHI = programming"}
+{"question": "Canine diabetes: twice daily insulin timing", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Dog insulin timing = pets"}
+{"question": "PBM spread pricing insulin: legislative fixes", "category": "diabetes_adjacent", "subcategory": "politics", "annotation_reason": "PBM spread = politics"}
+{"question": "Insulin supply chain: cold chain logistics", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Supply chain = pharma business"}
+{"question": "D3.js interactive glucose visualization web", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "D3.js = programming"}
+{"question": "AmCharts glucose trend with annotations", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "AmCharts = programming"}
+{"question": "Insulin pump: patch pump vs tubed market share", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Patch vs tubed = pharma"}
+{"question": "Insulin patent landscape: evergreening strategies", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Patent landscape = pharma business"}
+{"question": "Touchstone FHIR test server diabetes resources", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Touchstone = programming"}
+{"question": "Insulin vial vs cartridge vs penfill manufacturing", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Manufacturing formats = pharma"}
+{"question": "Implantable CGM: 180-day sensor Eversense", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Implantable CGM = pharma"}
+{"question": "Humira biosimilar launch impact on insulin market", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Biosimilar market = economics"}
+{"question": "Guinea pig diabetes: rare case reports", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Guinea pig diabetes = pets"}
+{"question": "HEDIS diabetes measures for health plans", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "HEDIS = programming"}
+{"question": "Plotly.js glucose interactive web dashboard", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Plotly.js = programming"}
+{"question": "Diabetes drug launch pricing strategy: ICER thresholds", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "ICER pricing = economics"}
+{"question": "Safety pen needle: passive activation mechanism", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Safety needle = pharma"}
+{"question": "Feline diabetic neuropathy: hind leg weakness", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat neuropathy = pets"}
+{"question": "PPID Cushing's in horses: pergolide dosing", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Horse PPID = pets"}
+{"question": "User onboarding flow for diabetes management app", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "User onboarding = programming"}
+{"question": "Jetpack Compose glucose graph for Android", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Jetpack Compose = programming"}
+{"question": "Equine metabolic syndrome: insulin dysregulation", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Horse EMS = pets"}
+{"question": "FDA guidance insulin demonstration interchangeability", "category": "diabetes_adjacent", "subcategory": "politics", "annotation_reason": "FDA guidance = politics"}
+{"question": "Pet diabetes monitoring apps for owners", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Pet apps = pets"}
+{"question": "Next-gen CGM: multi-analyte lactate ketones", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Multi-analyte = pharma"}
+{"question": "Diabetic dog cataract surgery referral", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Dog cataract = pets"}
+{"question": "Diabetes genetics history: from HLA to GWAS", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "Genetics history = history"}
+{"question": "Home glucose monitoring for diabetic cat", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat glucose monitoring = pets"}
+{"question": "Landmark diabetes trials: DCCT UKPDS ACCORD", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "Landmark trials history = not clinical care"}
+{"question": "Diabetic ketoacidosis cat: potassium protocol", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat DKA K+ = pets"}
+{"question": "Diabetes clinical quality measures eCQM", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "eCQM = programming"}
+{"question": "Libre CGM cat: sensor placement technique", "category": "diabetes_adjacent", "subcategory": "pets", "annotation_reason": "Cat Libre placement = pets"}
+{"question": "Insulin formulation: zinc hexamer stabilization", "category": "diabetes_adjacent", "subcategory": "pharma_business", "annotation_reason": "Formulation = pharma"}
+{"question": "Global insulin market share: Novo Lilly Sanofi", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Market share = economics"}
+{"question": "Artificial pancreas: from Biostator to closed-loop", "category": "diabetes_adjacent", "subcategory": "history_research", "annotation_reason": "AP history = history"}
+{"question": "Bluetooth Low Energy CGM data sync React Native", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "BLE sync = programming"}
+{"question": "Global economic burden of diabetes 2021 IDF atlas", "category": "diabetes_adjacent", "subcategory": "economics", "annotation_reason": "Global economic burden = economics"}
+{"question": "Firebase backend for diabetes mobile app", "category": "diabetes_adjacent", "subcategory": "app_development", "annotation_reason": "Firebase backend = programming"}

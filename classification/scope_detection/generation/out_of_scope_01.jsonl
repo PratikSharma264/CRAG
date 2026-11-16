@@ -1,0 +1,80 @@
+{"question": "47-year-old T2D: foot exam monofilament", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 47, adult foot exam"}
+{"question": "Insulin resistance and NAFLD in 42-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 42, NAFLD adult"}
+{"question": "Non-alcoholic fatty liver 42-year-old: IR link", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 42, NAFLD IR adult"}
+{"question": "My 6-year-old has epilepsy: seizure medication", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 6, epilepsy not diabetes"}
+{"question": "8-year-old with amblyopia: patching therapy", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, amblyopia not diabetes"}
+{"question": "6-year-old head banging: behavioral plan", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 6, head banging not diabetes"}
+{"question": "Individualized target 7.8% for 72-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 72, individualized elderly"}
+{"question": "My 7-year-old has celiac disease: gluten-free diet", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 7, celiac not diabetes"}
+{"question": "60-year-old T1D since 55: complications screening", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 60, T1D since 55 = adult onset"}
+{"question": "90-year-old T1D: centenarian diabetes study", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 90, centenarian"}
+{"question": "11-year-old with JIA: methotrexate monitoring", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 11, JIA not diabetes"}
+{"question": "Acanthosis nigricans neck 40-year-old: workup", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, acanthosis adult"}
+{"question": "75-year-old T2D: dementia and diabetes care", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 75, elderly dementia"}
+{"question": "64-year-old T2D: blood pressure target SPRINT", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 64, adult BP SPRINT"}
+{"question": "CKD stage 4: A1c target 8% for 70-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 70, CKD elderly"}
+{"question": "Chronic stress cortisol insulin resistance 40yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, cortisol adult"}
+{"question": "Metabolic syndrome 35-year-old: ATP III criteria", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, metabolic syndrome adult"}
+{"question": "11-year-old depression: SSRI fluoxetine dosing", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 11, depression not diabetes"}
+{"question": "67-year-old T2D: Part D insulin savings", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 67, Part D savings"}
+{"question": "Hypertension insulin resistance 50-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 50, HTN IR adult"}
+{"question": "43-year-old T1D: retinopathy laser treatment", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 43, adult retinopathy laser"}
+{"question": "33-year-old T1D: time in range targets", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 33, adult T1D TIR"}
+{"question": "48-year-old T1D: autonomic neuropathy symptoms", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 48, adult autonomic"}
+{"question": "My 9-year-old has anxiety: therapy vs medication", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 9, anxiety not diabetes"}
+{"question": "8-year-old hyperglycemia stress: steroid course", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, stress hyperglycemia not diabetes"}
+{"question": "HbA1c monitoring every 6 months for 80-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, monitoring frequency elderly"}
+{"question": "A1c monitoring in 85-year-old nursing home resident", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 85, nursing home elderly"}
+{"question": "43-year-old T1D: diabetic retinopathy screening", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 43, adult retinopathy"}
+{"question": "Visceral adiposity 40-year-old: insulin resistance", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, visceral fat adult"}
+{"question": "Exercise prescription insulin resistance 40-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, exercise prescription adult"}
+{"question": "32-year-old T2D: metformin side effects", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 32, metformin adult"}
+{"question": "25-year-old new T1D: pump vs MDI decision", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 25, new T1D = adult onset"}
+{"question": "Proinflammatory state CRP 35-year-old: IR", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, CRP IR adult"}
+{"question": "55-year-old new diabetes: T1D vs T2D workup", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 55, new diabetes adult"}
+{"question": "47-year-old T2D: foot ulcer offloading", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 47, adult foot ulcer"}
+{"question": "56-year-old T1D: frozen shoulder physical therapy", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 56, adult frozen shoulder"}
+{"question": "Vitamin D repletion insulin resistance 35yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, vitamin D adult"}
+{"question": "7-year-old with OCD: exposure response prevention", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 7, OCD not diabetes"}
+{"question": "39-year-old T2D: tirzepatide vs semaglutide", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 39, adult tirzepatide comparison"}
+{"question": "Palliative care: glucose 150-250 for 85yo", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 85, palliative glucose elderly"}
+{"question": "Deintensification from A1c 7% to 8% in 78-year-old", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, deintensification elderly"}
+{"question": "Time-restricted eating insulin sensitivity 42yo", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 42, TRE adult"}
+{"question": "21-year-old with diabetes: alcohol safety", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 21, alcohol adult"}
+{"question": "49-year-old T2D: erectile dysfunction PDE5", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 49, adult ED"}
+{"question": "83-year-old T1D: end-of-life glycemic targets", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 83, EOL glycemic"}
+{"question": "Insulin resistance in 40-year-old: HOMA-IR calculation", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 40, insulin resistance adult"}
+{"question": "82-year-old T2D: palliative care diabetes", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 82, palliative diabetes"}
+{"question": "Hospice enrollment: stop A1c checks 88yo", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 88, hospice elderly"}
+{"question": "8-year-old PTSD: trauma-focused CBT", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 8, PTSD not diabetes"}
+{"question": "9-year-old trichotillomania: habit reversal", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 9, trichotillomania not diabetes"}
+{"question": "72-year-old T2D: glucagon prescription cost", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 72, glucagon cost"}
+{"question": "35-year-old T1D since 30: CGM accuracy", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 35, T1D since 30 = adult onset"}
+{"question": "61-year-old T1D: statin intensity decision", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 61, adult statin decision"}
+{"question": "62-year-old T2D: statin intensity ACC/AHA", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 62, adult statin"}
+{"question": "63-year-old T1D: blood pressure target 130/80", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 63, adult BP target"}
+{"question": "10-year-old oppositional defiant: parent training", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 10, ODD not diabetes"}
+{"question": "51-year-old T1D: bone density screening", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 51, adult bone density"}
+{"question": "19-year-old T2D: bariatric surgery criteria", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 19, bariatric adult"}
+{"question": "6-year-old leukemia survivor: late effects screening", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 6, leukemia not diabetes"}
+{"question": "Insulin resistance syndrome in 38-year-old: criteria", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 38, IR syndrome adult"}
+{"question": "Ketogenic diet insulin resistance 48-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 48, keto adult"}
+{"question": "Glycemic targets nursing home 82-year-old diabetic", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 82, nursing home"}
+{"question": "Hyperandrogenism insulin resistance 30-year-old female", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 30, hyperandrogenism adult"}
+{"question": "Stress management cortisol IR 35-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, cortisol adult"}
+{"question": "70-year-old with diabetes: hypoglycemia risk", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 70, elderly hypoglycemia"}
+{"question": "59-year-old T2D: vaccine schedule pneumococcal", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 59, adult pneumococcal vaccine"}
+{"question": "HbA1c goals frail elderly 78-year-old T2D", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, frail elderly"}
+{"question": "68-year-old T1D: CGM Medicare coverage", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 68, CGM Medicare"}
+{"question": "Intermittent fasting insulin resistance 35-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 35, fasting adult"}
+{"question": "Assisted living: sliding scale insulin 78yo", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, assisted living elderly"}
+{"question": "71-year-old T1D: test strip quantity limits", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 71, strip limits"}
+{"question": "Limited life expectancy <5yr: A1c 8.5% 80yo", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, life expectancy elderly"}
+{"question": "12-year-old skin picking: CBT", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 12, skin picking not diabetes"}
+{"question": "9-year-old sleep apnea: adenotonsillectomy", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 9, sleep apnea not diabetes"}
+{"question": "Individualized A1c for 78-year-old with fall risk", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 78, fall risk elderly"}
+{"question": "66-year-old T1D: Medicare CGM criteria", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 66, Medicare CGM"}
+{"question": "11-year-old enuresis: alarm therapy", "category": "hard_negative", "subcategory": "pediatric_non_diabetes", "annotation_reason": "Explicit age 11, enuresis not diabetes"}
+{"question": "Glycemic target 8.5% for 80-year-old frail", "category": "hard_negative", "subcategory": "hba1c_elderly", "annotation_reason": "Explicit age 80, A1c 8.5% frail"}
+{"question": "44-year-old T2D: nephropathy ACE inhibitor", "category": "hard_negative", "subcategory": "age_19_plus", "annotation_reason": "Explicit age 44, adult nephropathy"}
+{"question": "Insulin resistance weight loss in 50-year-old", "category": "hard_negative", "subcategory": "insulin_resistance_adult", "annotation_reason": "Explicit age 50, weight loss adult"}
